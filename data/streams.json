@@ -3,19 +3,31 @@
     "id": "youtube:t1f3RZpPxBs",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
-    "query_event_type": "upcoming",
+    "query_event_type": "live",
     "source_id": "hoer-berlin",
     "youtube_video_id": "t1f3RZpPxBs",
     "youtube_url": "https://www.youtube.com/watch?v=t1f3RZpPxBs",
     "title": "NairLess | HÖR - September 2 / 2026",
-    "status": "upcoming",
+    "status": "live",
     "published_at": "2026-09-01T13:51:35Z",
     "scheduled_start": "2026-09-02T16:00:00Z",
-    "actual_start": null,
+    "actual_start": "2026-09-02T16:00:00Z",
     "actual_end": null,
-    "concurrent_viewers": null,
+    "concurrent_viewers": 75,
     "thumbnail": "https://i.ytimg.com/vi/t1f3RZpPxBs/maxresdefault_live.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],
@@ -40,6 +52,18 @@
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/xhgbems5YMM/maxresdefault_live.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],
@@ -64,6 +88,18 @@
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/TsZi-9U5y7U/maxresdefault_live.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],
@@ -88,6 +124,18 @@
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/IUJAIQWpYwA/maxresdefault_live.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],
@@ -112,6 +160,18 @@
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/iyTRz9JpYmE/maxresdefault.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],
@@ -136,6 +196,18 @@
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/mOYf1888G6Q/maxresdefault.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],
@@ -146,7 +218,7 @@
   {
     "id": "youtube:s6YtrmMlMYU",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "triple-j",
     "youtube_video_id": "s6YtrmMlMYU",
@@ -160,6 +232,18 @@
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/s6YtrmMlMYU/maxresdefault_live.jpg",
     "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "one night stand"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],

@@ -7,6 +7,8 @@
     "atom_feed_quota_units": 0,
     "poll_cadence_minutes": 15,
     "playlist_backstop": "daily",
-    "playlist_backstop_recent_videos": 25
+    "playlist_backstop_recent_videos": 25,
+    "music_live_classifier_version": 1,
+    "public_stream_rule": "music_live_status=verified"
   }
 }
