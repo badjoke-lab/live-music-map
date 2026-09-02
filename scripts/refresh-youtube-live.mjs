@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 const API_KEY = process.env.YOUTUBE_API_KEY?.trim();
+const DISCOVERY_MODE = process.env.YOUTUBE_DISCOVERY_MODE === 'rss+playlist' ? 'rss+playlist' : 'rss';
 
 if (!API_KEY) {
   console.log('YOUTUBE_API_KEY is not configured; leaving data unchanged.');
@@ -10,12 +11,17 @@ if (!API_KEY) {
 const sourcesPath = new URL('../data/sources.json', import.meta.url);
 const streamsPath = new URL('../data/streams.json', import.meta.url);
 const acquisitionPath = new URL('../data/acquisition.json', import.meta.url);
+const statePath = new URL('../data/youtube-state.json', import.meta.url);
 
 const sources = JSON.parse(await fs.readFile(sourcesPath, 'utf8'));
 const previousStreams = JSON.parse(await fs.readFile(streamsPath, 'utf8'));
 const sourceBySourceId = new Map(sources.map((source) => [source.id, source]));
 let acquisition = {};
+let state = { version: 1, feeds: {} };
 try { acquisition = JSON.parse(await fs.readFile(acquisitionPath, 'utf8')); } catch {}
+try { state = JSON.parse(await fs.readFile(statePath, 'utf8')); } catch {}
+if (!state || typeof state !== 'object') state = { version: 1, feeds: {} };
+if (!state.feeds || typeof state.feeds !== 'object') state.feeds = {};
 
 async function api(path, params) {
   const url = new URL(`https://www.googleapis.com/youtube/v3/${path}`);
@@ -40,45 +46,50 @@ function parseYoutubeRef(urlString) {
   return null;
 }
 
-async function resolveChannel(source) {
-  if (source.youtube_channel_id && source.youtube_uploads_playlist_id) {
-    return {
-      channelId: source.youtube_channel_id,
-      uploadsPlaylistId: source.youtube_uploads_playlist_id,
-      changed: false
-    };
+async function resolveChannelId(source) {
+  if (source.youtube_channel_id) return { channelId: source.youtube_channel_id, changed: false };
+  if (!source.youtube_url) return null;
+  const ref = parseYoutubeRef(source.youtube_url);
+  if (!ref) return null;
+  if (ref.kind === 'channel') {
+    source.youtube_channel_id = ref.value;
+    return { channelId: ref.value, changed: true };
   }
-
-  let channelId = source.youtube_channel_id || null;
-  if (!channelId) {
-    if (!source.youtube_url) return null;
-    const ref = parseYoutubeRef(source.youtube_url);
-    if (!ref) return null;
-    if (ref.kind === 'channel') channelId = ref.value;
-    else {
-      const params = { part: 'id,contentDetails', maxResults: 1 };
-      if (ref.kind === 'handle') params.forHandle = ref.value;
-      if (ref.kind === 'username') params.forUsername = ref.value;
-      const result = await api('channels', params);
-      const channel = result.items?.[0];
-      if (!channel?.id) return null;
-      channelId = channel.id;
-      const uploadsPlaylistId = channel.contentDetails?.relatedPlaylists?.uploads || null;
-      if (uploadsPlaylistId) {
-        source.youtube_channel_id = channelId;
-        source.youtube_uploads_playlist_id = uploadsPlaylistId;
-        return { channelId, uploadsPlaylistId, changed: true };
-      }
-    }
-  }
-
-  const result = await api('channels', { part: 'contentDetails', id: channelId, maxResults: 1 });
-  const uploadsPlaylistId = result.items?.[0]?.contentDetails?.relatedPlaylists?.uploads || null;
-  if (!uploadsPlaylistId) return null;
-  const changed = source.youtube_channel_id !== channelId || source.youtube_uploads_playlist_id !== uploadsPlaylistId;
+  const params = { part: 'id', maxResults: 1 };
+  if (ref.kind === 'handle') params.forHandle = ref.value;
+  if (ref.kind === 'username') params.forUsername = ref.value;
+  const result = await api('channels', params);
+  const channelId = result.items?.[0]?.id || null;
+  if (!channelId) return null;
   source.youtube_channel_id = channelId;
-  source.youtube_uploads_playlist_id = uploadsPlaylistId;
-  return { channelId, uploadsPlaylistId, changed };
+  return { channelId, changed: true };
+}
+
+async function ensureUploadsPlaylist(source, channelId) {
+  if (source.youtube_uploads_playlist_id) return { playlistId: source.youtube_uploads_playlist_id, changed: false };
+  const result = await api('channels', { part: 'contentDetails', id: channelId, maxResults: 1 });
+  const playlistId = result.items?.[0]?.contentDetails?.relatedPlaylists?.uploads || null;
+  if (!playlistId) return null;
+  source.youtube_uploads_playlist_id = playlistId;
+  return { playlistId, changed: true };
+}
+
+function parseAtomEntries(xml) {
+  const entries = [];
+  for (const match of xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)) {
+    const block = match[1];
+    const videoId = block.match(/<yt:videoId>([^<]+)<\/yt:videoId>/)?.[1]?.trim();
+    const updated = block.match(/<updated>([^<]+)<\/updated>/)?.[1]?.trim() || null;
+    if (videoId && /^[A-Za-z0-9_-]{11}$/.test(videoId)) entries.push({ videoId, updated });
+  }
+  return entries;
+}
+
+async function fetchAtomFeed(channelId) {
+  const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(channelId)}`;
+  const response = await fetch(url, { headers: { accept: 'application/atom+xml,application/xml,text/xml' } });
+  if (!response.ok) throw new Error(`rss: ${response.status} ${response.statusText}`);
+  return parseAtomEntries(await response.text());
 }
 
 function thumbnail(snippet) {
@@ -92,12 +103,12 @@ function liveState(video) {
   return null;
 }
 
-function toRecord(source, video, status) {
+function toRecord(source, video, status, discovery) {
   const live = video.liveStreamingDetails || {};
   return {
     id: `youtube:${video.id}`,
     origin: 'youtube_api',
-    discovery: 'uploads_playlist',
+    discovery,
     query_event_type: status,
     source_id: source.id,
     youtube_video_id: video.id,
@@ -126,63 +137,132 @@ function chunks(values, size) {
   return result;
 }
 
+function sourceFeedState(sourceId) {
+  const existing = state.feeds[sourceId];
+  if (!existing || typeof existing !== 'object') state.feeds[sourceId] = { entries: {} };
+  if (!state.feeds[sourceId].entries || typeof state.feeds[sourceId].entries !== 'object') state.feeds[sourceId].entries = {};
+  return state.feeds[sourceId];
+}
+
+const candidateByVideoId = new Map();
 const fresh = [];
-const failedSources = new Set();
-const sourceByVideoId = new Map();
+const detailFailedSources = new Set();
 let sourceChanged = false;
+let rssFetches = 0;
+let rssFailures = 0;
 let playlistQueries = 0;
 let videoQueries = 0;
+let channelQueriesApprox = 0;
 
 for (const source of sources) {
   if (!source.youtube_url) continue;
+  let resolved;
   try {
-    const resolved = await resolveChannel(source);
-    if (!resolved?.uploadsPlaylistId) throw new Error('uploads playlist not found');
+    const beforeChannelId = source.youtube_channel_id || null;
+    resolved = await resolveChannelId(source);
+    if (!resolved?.channelId) throw new Error('channel ID not found');
     sourceChanged ||= resolved.changed;
-
-    const playlist = await api('playlistItems', {
-      part: 'contentDetails',
-      playlistId: resolved.uploadsPlaylistId,
-      maxResults: 25
-    });
-    playlistQueries += 1;
-    const ids = (playlist.items || [])
-      .map((item) => item.contentDetails?.videoId)
-      .filter((id) => typeof id === 'string' && /^[A-Za-z0-9_-]{11}$/.test(id));
-    for (const id of ids) sourceByVideoId.set(id, source);
+    if (!beforeChannelId && resolved.channelId) channelQueriesApprox += 1;
   } catch (error) {
-    failedSources.add(source.id);
-    console.error(`[${source.id}] discovery failed; preserving previous records: ${error.message}`);
+    console.error(`[${source.id}] channel resolution failed: ${error.message}`);
+    continue;
+  }
+
+  const feedState = sourceFeedState(source.id);
+  try {
+    const entries = await fetchAtomFeed(resolved.channelId);
+    rssFetches += 1;
+    for (const entry of entries) {
+      const previousUpdated = feedState.entries[entry.videoId] ?? null;
+      if (previousUpdated !== entry.updated) {
+        candidateByVideoId.set(entry.videoId, {
+          source,
+          discovery: 'youtube_atom_feed',
+          updated: entry.updated
+        });
+      }
+    }
+  } catch (error) {
+    rssFailures += 1;
+    console.error(`[${source.id}] RSS discovery failed: ${error.message}`);
+  }
+
+  if (DISCOVERY_MODE === 'rss+playlist') {
+    try {
+      const beforePlaylist = source.youtube_uploads_playlist_id || null;
+      const uploads = await ensureUploadsPlaylist(source, resolved.channelId);
+      if (!uploads?.playlistId) throw new Error('uploads playlist not found');
+      sourceChanged ||= uploads.changed;
+      if (!beforePlaylist && uploads.playlistId) channelQueriesApprox += 1;
+      const playlist = await api('playlistItems', {
+        part: 'contentDetails',
+        playlistId: uploads.playlistId,
+        maxResults: 25
+      });
+      playlistQueries += 1;
+      for (const item of playlist.items || []) {
+        const videoId = item.contentDetails?.videoId;
+        if (!videoId || !/^[A-Za-z0-9_-]{11}$/.test(videoId)) continue;
+        if (!(videoId in feedState.entries)) {
+          candidateByVideoId.set(videoId, {
+            source,
+            discovery: 'uploads_playlist_daily_backstop',
+            updated: `playlist:${new Date().toISOString().slice(0, 10)}`
+          });
+        }
+      }
+    } catch (error) {
+      console.error(`[${source.id}] playlist backstop failed: ${error.message}`);
+    }
   }
 }
 
-// Keep tracking already-known live/upcoming IDs even if a busy channel pushes the
-// scheduled video outside the most recent uploads window.
+// Active/upcoming videos are cheap to monitor directly and must keep being checked
+// even when their feed entry no longer appears among the newest items.
 for (const record of previousStreams) {
   if (record.origin !== 'youtube_api') continue;
   if (typeof record.youtube_video_id !== 'string' || !/^[A-Za-z0-9_-]{11}$/.test(record.youtube_video_id)) continue;
   const source = sourceBySourceId.get(record.source_id);
-  if (!source || failedSources.has(source.id)) continue;
-  sourceByVideoId.set(record.youtube_video_id, source);
+  if (!source) continue;
+  if (!candidateByVideoId.has(record.youtube_video_id)) {
+    candidateByVideoId.set(record.youtube_video_id, {
+      source,
+      discovery: record.discovery || 'known_active_video',
+      updated: null
+    });
+  }
 }
 
-const allIds = [...sourceByVideoId.keys()];
-for (const batch of chunks(allIds, 50)) {
+const candidates = [...candidateByVideoId.keys()];
+for (const batch of chunks(candidates, 50)) {
   try {
     const details = await api('videos', {
       part: 'snippet,liveStreamingDetails,status',
       id: batch.join(',')
     });
     videoQueries += 1;
-    for (const video of details.items || []) {
-      const source = sourceByVideoId.get(video.id);
+    const returned = new Map((details.items || []).map((video) => [video.id, video]));
+    for (const id of batch) {
+      const candidate = candidateByVideoId.get(id);
+      if (!candidate) continue;
+      const { source, discovery, updated } = candidate;
+      const video = returned.get(id);
+      const feedState = sourceFeedState(source.id);
+      if (updated !== null) {
+        feedState.entries[id] = updated;
+        const keys = Object.keys(feedState.entries);
+        if (keys.length > 40) {
+          for (const staleId of keys.slice(0, keys.length - 40)) delete feedState.entries[staleId];
+        }
+      }
+      if (!video) continue;
       const status = liveState(video);
-      if (source && status) fresh.push(toRecord(source, video, status));
+      if (status) fresh.push(toRecord(source, video, status, discovery));
     }
   } catch (error) {
     for (const id of batch) {
-      const source = sourceByVideoId.get(id);
-      if (source) failedSources.add(source.id);
+      const source = candidateByVideoId.get(id)?.source;
+      if (source) detailFailedSources.add(source.id);
     }
     console.error(`[videos] detail refresh failed; preserving affected sources: ${error.message}`);
   }
@@ -192,7 +272,7 @@ const freshIds = new Set(fresh.map((record) => record.id));
 const preserved = previousStreams.filter((record) => {
   if (freshIds.has(record.id)) return false;
   if (record.origin !== 'youtube_api') return true;
-  return failedSources.has(record.source_id);
+  return detailFailedSources.has(record.source_id);
 });
 
 const merged = [...preserved, ...fresh]
@@ -207,20 +287,24 @@ const merged = [...preserved, ...fresh]
 
 if (sourceChanged) await fs.writeFile(sourcesPath, `${JSON.stringify(sources, null, 2)}\n`);
 await fs.writeFile(streamsPath, `${JSON.stringify(merged, null, 2)}\n`);
+await fs.writeFile(statePath, `${JSON.stringify(state, null, 2)}\n`);
 
-if (playlistQueries > 0) {
+if (rssFetches > 0 || playlistQueries > 0) {
   acquisition.youtube = {
     ...(acquisition.youtube || {}),
     configured: true,
-    mode: 'youtube_data_api_v3',
-    strategy: 'uploads_playlist_recent_video_poll',
+    mode: 'youtube_data_api_v3_plus_official_atom_feed',
+    strategy: 'atom_feed_delta_plus_known_active_video_poll',
     search_list_used: false,
-    poll_cadence_minutes: 30,
-    recent_videos_per_source: 25
+    atom_feed_quota_units: 0,
+    poll_cadence_minutes: 15,
+    playlist_backstop: 'daily',
+    playlist_backstop_recent_videos: 25
   };
   delete acquisition.youtube.live_cadence_hours;
   delete acquisition.youtube.upcoming_cadence_hours;
+  delete acquisition.youtube.recent_videos_per_source;
   await fs.writeFile(acquisitionPath, `${JSON.stringify(acquisition, null, 2)}\n`);
 }
 
-console.log(`YouTube refresh complete: ${playlistQueries} playlist queries, ${videoQueries} batched video queries, ${fresh.length} active records, ${failedSources.size} preserved sources.`);
+console.log(`YouTube refresh complete: ${rssFetches} RSS feeds (${rssFailures} failures), ${channelQueriesApprox} channel-resolution calls, ${playlistQueries} playlist backstop calls, ${videoQueries} batched video calls, ${fresh.length} active records, ${detailFailedSources.size} preserved sources.`);
