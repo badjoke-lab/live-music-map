@@ -139,8 +139,11 @@ for (const source of sources) {
   }
 }
 
+const freshIds = new Set(fresh.map((record) => record.id));
 const preserved = previousStreams.filter((record) => {
+  if (freshIds.has(record.id)) return false;
   if (record.origin !== 'youtube_api') return true;
+  if (!EVENT_TYPES.includes(record.query_event_type)) return true;
   return preserveKeys.has(`${record.source_id}:${record.query_event_type}`);
 });
 
