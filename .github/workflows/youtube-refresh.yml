@@ -6,10 +6,17 @@ on:
     paths:
       - 'scripts/refresh-youtube-live.mjs'
       - 'data/sources.json'
+      - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '7,22,37,52 * * * *'
+    - cron: '13 0 * * *'
   workflow_dispatch:
+    inputs:
+      discovery_mode:
+        description: 'rss or rss+playlist'
+        required: false
+        default: 'rss+playlist'
 
 permissions:
   contents: write
@@ -25,19 +32,31 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
+      - name: Select discovery mode
+        id: mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "value=${{ inputs.discovery_mode }}" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event_name }}" == "push" || "${{ github.event.schedule }}" == "13 0 * * *" ]]; then
+            echo "value=rss+playlist" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=rss" >> "$GITHUB_OUTPUT"
+          fi
       - name: Refresh YouTube data
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/refresh-youtube-live.mjs
       - name: Commit generated data
         shell: bash
         run: |
-          if git diff --quiet -- data/sources.json data/streams.json data/acquisition.json; then
+          if git diff --quiet -- data/sources.json data/streams.json data/acquisition.json data/youtube-state.json; then
             echo "No data changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sources.json data/streams.json data/acquisition.json
+          git add data/sources.json data/streams.json data/acquisition.json data/youtube-state.json
           git commit -m "data: refresh YouTube live streams"
           git push origin HEAD:main
