@@ -98,8 +98,10 @@ function thumbnail(snippet) {
 }
 
 function liveState(video) {
-  if (video.snippet?.liveBroadcastContent === 'live') return 'live';
-  if (video.snippet?.liveBroadcastContent === 'upcoming') return 'upcoming';
+  const content = video.snippet?.liveBroadcastContent;
+  const live = video.liveStreamingDetails || {};
+  if (content === 'live' && !live.actualEndTime) return 'live';
+  if (content === 'upcoming' && Number.isFinite(Date.parse(live.scheduledStartTime))) return 'upcoming';
   return null;
 }
 
@@ -217,8 +219,6 @@ for (const source of sources) {
   }
 }
 
-// Active/upcoming videos are cheap to monitor directly and must keep being checked
-// even when their feed entry no longer appears among the newest items.
 for (const record of previousStreams) {
   if (record.origin !== 'youtube_api') continue;
   if (typeof record.youtube_video_id !== 'string' || !/^[A-Za-z0-9_-]{11}$/.test(record.youtube_video_id)) continue;
