@@ -8,14 +8,8 @@ on:
       - 'data/sources.json'
       - '.github/workflows/youtube-refresh.yml'
   schedule:
-    - cron: '17 1,4,7,10,13,16,19,22 * * *'
-    - cron: '47 0,12 * * *'
+    - cron: '7,37 * * * *'
   workflow_dispatch:
-    inputs:
-      event_types:
-        description: 'Comma-separated event types: live, upcoming'
-        required: false
-        default: 'live,upcoming'
 
 permissions:
   contents: write
@@ -31,21 +25,9 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Select event types
-        id: mode
-        shell: bash
-        run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "types=${{ inputs.event_types }}" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.event.schedule }}" == "47 0,12 * * *" ]]; then
-            echo "types=upcoming" >> "$GITHUB_OUTPUT"
-          else
-            echo "types=live" >> "$GITHUB_OUTPUT"
-          fi
       - name: Refresh YouTube data
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_EVENT_TYPES: ${{ steps.mode.outputs.types }}
         run: node scripts/refresh-youtube-live.mjs
       - name: Commit generated data
         shell: bash
