@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 
 const API_KEY = process.env.YOUTUBE_API_KEY?.trim();
 const DISCOVERY_MODE = process.env.YOUTUBE_DISCOVERY_MODE === 'rss+playlist' ? 'rss+playlist' : 'rss';
+const MUSIC_CLASSIFIER_VERSION = 1;
 
 if (!API_KEY) {
   console.log('YOUTUBE_API_KEY is not configured; leaving data unchanged.');
@@ -22,6 +23,29 @@ try { acquisition = JSON.parse(await fs.readFile(acquisitionPath, 'utf8')); } ca
 try { state = JSON.parse(await fs.readFile(statePath, 'utf8')); } catch {}
 if (!state || typeof state !== 'object') state = { version: 1, feeds: {} };
 if (!state.feeds || typeof state.feeds !== 'object') state.feeds = {};
+
+const GLOBAL_DENY_PATTERNS = [
+  'interview',
+  'podcast',
+  'news',
+  'discussion',
+  'press conference',
+  'panel discussion',
+  'q&a'
+];
+
+const GLOBAL_ALLOW_PATTERNS = [
+  ['live session', 'studio_session'],
+  ['live performance', 'live_performance'],
+  ['dj set', 'dj_set'],
+  ['live set', 'dj_set'],
+  ['concert', 'concert'],
+  ['festival', 'festival_stream'],
+  ['orchestra', 'concert'],
+  ['symphony', 'concert'],
+  ['opera', 'opera'],
+  ['recital', 'concert']
+];
 
 async function api(path, params) {
   const url = new URL(`https://www.googleapis.com/youtube/v3/${path}`);
@@ -56,10 +80,6 @@ async function resolveChannelId(source) {
     ? { channelId: source.youtube_channel_id, changed: false }
     : null;
 
-  // Legacy /user/<name> URLs must be resolved from <name>, not from the
-  // literal path segment "user". Re-resolve even if an older run persisted a
-  // channel ID so bad legacy resolutions self-heal once, then canonicalize the
-  // URL to /channel/<id> so future runs need no extra lookup.
   if (ref.kind !== 'legacy_username' && source.youtube_channel_id) {
     return { channelId: source.youtube_channel_id, changed: false };
   }
@@ -126,8 +146,104 @@ function liveState(video) {
   return null;
 }
 
+function normalizeText(value) {
+  return String(value || '').normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
+function matchesPattern(text, rawPattern) {
+  const pattern = normalizeText(rawPattern);
+  if (!pattern) return false;
+  if (/^[\p{L}\p{N}_-]+$/u.test(pattern)) {
+    const escaped = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|[^\\p{L}\\p{N}_-])${escaped}([^\\p{L}\\p{N}_-]|$)`, 'u').test(text);
+  }
+  return text.includes(pattern);
+}
+
+function nonMusicType(pattern) {
+  const p = normalizeText(pattern);
+  if (p.includes('interview')) return 'interview';
+  if (p.includes('podcast')) return 'podcast';
+  if (p.includes('news')) return 'news';
+  return 'talk';
+}
+
+function contentTypeFromPattern(pattern, source) {
+  const p = normalizeText(pattern);
+  const mapped = GLOBAL_ALLOW_PATTERNS.find(([candidate]) => candidate === p)?.[1];
+  if (mapped) return mapped;
+  if (p.includes('dj')) return 'dj_set';
+  if (p.includes('festival')) return 'festival_stream';
+  if (p.includes('session')) return 'studio_session';
+  if (p.includes('opera')) return 'opera';
+  if (p.includes('concert') || p.includes('orchestra') || p.includes('symphony') || p.includes('recital')) return 'concert';
+  if (source.formats?.length === 1) return source.formats[0];
+  return 'music_live_unspecified';
+}
+
+function classifyMusicLive(source, video) {
+  const policy = source.music_live_policy || { mode: 'mixed' };
+  const text = normalizeText(`${video.snippet?.title || ''}\n${video.snippet?.description || ''}`);
+  const sourceDeny = Array.isArray(policy.deny_title_patterns) ? policy.deny_title_patterns : [];
+  const denyPatterns = [...sourceDeny, ...GLOBAL_DENY_PATTERNS];
+  const denyMatch = denyPatterns.find((pattern) => matchesPattern(text, pattern));
+  if (denyMatch) {
+    return {
+      music_live_status: 'rejected',
+      content_type: nonMusicType(denyMatch),
+      music_live_decision: 'deny_pattern',
+      music_live_evidence: [{ type: 'youtube_metadata_pattern', value: denyMatch }],
+      music_live_requires_schedule_match: false
+    };
+  }
+
+  const sourceAllow = Array.isArray(policy.allow_title_patterns) ? policy.allow_title_patterns : [];
+  const sourceAllowMatch = sourceAllow.find((pattern) => matchesPattern(text, pattern));
+  if (sourceAllowMatch) {
+    return {
+      music_live_status: 'verified',
+      content_type: contentTypeFromPattern(sourceAllowMatch, source),
+      music_live_decision: 'source_allow_pattern',
+      music_live_evidence: [{ type: 'youtube_metadata_pattern', value: sourceAllowMatch }],
+      music_live_requires_schedule_match: false
+    };
+  }
+
+  const globalAllowMatch = GLOBAL_ALLOW_PATTERNS.find(([pattern]) => matchesPattern(text, pattern));
+  if (globalAllowMatch) {
+    return {
+      music_live_status: 'verified',
+      content_type: globalAllowMatch[1],
+      music_live_decision: 'global_allow_pattern',
+      music_live_evidence: [{ type: 'youtube_metadata_pattern', value: globalAllowMatch[0] }],
+      music_live_requires_schedule_match: false
+    };
+  }
+
+  if (policy.mode === 'music_only') {
+    return {
+      music_live_status: 'verified',
+      content_type: source.formats?.length === 1 ? source.formats[0] : 'music_live_unspecified',
+      music_live_decision: 'verified_music_only_source',
+      music_live_evidence: [{ type: 'source_policy', value: 'music_only' }],
+      music_live_requires_schedule_match: false
+    };
+  }
+
+  const evidence = [];
+  if (String(video.snippet?.categoryId || '') === '10') evidence.push({ type: 'youtube_category', value: 'Music' });
+  return {
+    music_live_status: 'unknown',
+    content_type: 'unknown',
+    music_live_decision: 'ambiguous_mixed_source',
+    music_live_evidence: evidence,
+    music_live_requires_schedule_match: policy.require_schedule_match_when_ambiguous === true
+  };
+}
+
 function toRecord(source, video, status, discovery) {
   const live = video.liveStreamingDetails || {};
+  const classification = classifyMusicLive(source, video);
   return {
     id: `youtube:${video.id}`,
     origin: 'youtube_api',
@@ -145,6 +261,9 @@ function toRecord(source, video, status, discovery) {
     concurrent_viewers: live.concurrentViewers ? Number(live.concurrentViewers) : null,
     thumbnail: thumbnail(video.snippet),
     embed_allowed: video.status?.embeddable ?? null,
+    youtube_category_id: video.snippet?.categoryId || null,
+    classifier_version: MUSIC_CLASSIFIER_VERSION,
+    ...classification,
     genres: [],
     genre_status: 'unknown',
     performers: [],
@@ -178,7 +297,7 @@ let videoQueries = 0;
 let channelQueriesApprox = 0;
 
 for (const source of sources) {
-  if (!source.youtube_url) continue;
+  if (source.acquisition?.enabled === false || !source.youtube_url) continue;
   let resolved;
   try {
     const beforeChannelId = source.youtube_channel_id || null;
@@ -320,7 +439,9 @@ if (rssFetches > 0 || playlistQueries > 0) {
     atom_feed_quota_units: 0,
     poll_cadence_minutes: 15,
     playlist_backstop: 'daily',
-    playlist_backstop_recent_videos: 25
+    playlist_backstop_recent_videos: 25,
+    music_live_classifier_version: MUSIC_CLASSIFIER_VERSION,
+    public_stream_rule: 'music_live_status=verified'
   };
   delete acquisition.youtube.live_cadence_hours;
   delete acquisition.youtube.upcoming_cadence_hours;
@@ -328,4 +449,7 @@ if (rssFetches > 0 || playlistQueries > 0) {
   await fs.writeFile(acquisitionPath, `${JSON.stringify(acquisition, null, 2)}\n`);
 }
 
-console.log(`YouTube refresh complete: ${rssFetches} RSS feeds (${rssFailures} failures), ${channelQueriesApprox} channel-resolution calls, ${playlistQueries} playlist backstop calls, ${videoQueries} batched video calls, ${fresh.length} active records, ${detailFailedSources.size} preserved sources.`);
+const verifiedCount = fresh.filter((record) => record.music_live_status === 'verified').length;
+const rejectedCount = fresh.filter((record) => record.music_live_status === 'rejected').length;
+const unknownCount = fresh.filter((record) => record.music_live_status === 'unknown').length;
+console.log(`YouTube refresh complete: ${rssFetches} RSS feeds (${rssFailures} failures), ${channelQueriesApprox} channel-resolution calls, ${playlistQueries} playlist backstop calls, ${videoQueries} batched video calls, ${fresh.length} active records (${verifiedCount} verified music, ${rejectedCount} rejected, ${unknownCount} unknown), ${detailFailedSources.size} preserved sources.`);

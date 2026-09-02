@@ -1,7 +1,9 @@
 [
   {
+    "schema_version": 2,
     "id": "hoer-berlin",
     "name": "HÖR BERLIN",
+    "operator_name": null,
     "type": "independent_media",
     "country": "Germany",
     "country_code": "DE",
@@ -13,23 +15,40 @@
       "precision": "city_confirmed",
       "label": "Berlin, Germany"
     },
-    "genres": [
-      "Electronic",
-      "Techno",
-      "House",
-      "Experimental"
-    ],
+    "genres": ["Electronic", "Techno", "House", "Experimental"],
+    "formats": ["dj_set", "live_performance"],
+    "languages": [],
     "official_site": "https://hoer.live/",
     "schedule_url": "https://hoer.live/calendar/",
     "youtube_url": "https://www.youtube.com/@hoer.berlin",
     "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["interview", "podcast", "talk"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Source-level genres; individual streams may differ.",
     "youtube_channel_id": "UCmfF7JZv26UUKyRedViGIlw",
     "youtube_uploads_playlist_id": "UUmfF7JZv26UUKyRedViGIlw"
   },
   {
+    "schema_version": 2,
     "id": "the-lot-radio",
     "name": "The Lot Radio",
+    "operator_name": null,
     "type": "radio",
     "country": "United States",
     "country_code": "US",
@@ -41,27 +60,40 @@
       "precision": "exact_source_location",
       "label": "Brooklyn, New York"
     },
-    "genres": [
-      "Jazz",
-      "House",
-      "Afrobeat",
-      "Electronic",
-      "Techno",
-      "Jungle",
-      "Breaks",
-      "Disco"
-    ],
+    "genres": ["Jazz", "House", "Afrobeat", "Electronic", "Techno", "Jungle", "Breaks", "Disco"],
+    "formats": ["dj_set", "music_radio_live"],
+    "languages": [],
     "official_site": "https://www.thelotradio.com/",
     "schedule_url": "https://www.thelotradio.com/",
     "youtube_url": "https://www.youtube.com/@TheLotRadio",
     "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["interview", "podcast", "talk"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Multi-genre radio; show-level genres can differ.",
     "youtube_channel_id": "UCJOtExbMu0RqIdiE4nMUPxQ",
     "youtube_uploads_playlist_id": "UUJOtExbMu0RqIdiE4nMUPxQ"
   },
   {
+    "schema_version": 2,
     "id": "dommune",
     "name": "DOMMUNE",
+    "operator_name": null,
     "type": "studio_media",
     "country": "Japan",
     "country_code": "JP",
@@ -73,23 +105,40 @@
       "precision": "city_confirmed",
       "label": "Tokyo, Japan"
     },
-    "genres": [
-      "Electronic",
-      "Experimental",
-      "Live Music",
-      "Talk"
-    ],
+    "genres": ["Electronic", "Experimental", "Live Music", "Talk"],
+    "formats": ["dj_set", "live_performance", "talk"],
+    "languages": [],
     "official_site": "https://www.dommune.com/",
     "schedule_url": "https://www.dommune.com/",
     "youtube_url": "https://www.youtube.com/@DOMMUNE",
     "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["dj set", "live set", "live performance"],
+      "deny_title_patterns": ["talk", "discussion", "lecture", "interview", "podcast"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Programme-level details should come from the official programme page.",
     "youtube_channel_id": "UC06WalpLcwTx-0ZVgglMc5Q",
     "youtube_uploads_playlist_id": "UU06WalpLcwTx-0ZVgglMc5Q"
   },
   {
+    "schema_version": 2,
     "id": "kexp",
     "name": "KEXP",
+    "operator_name": null,
     "type": "radio",
     "country": "United States",
     "country_code": "US",
@@ -101,20 +150,40 @@
       "precision": "city_confirmed",
       "label": "Seattle, Washington"
     },
-    "genres": [
-      "Multi-genre"
-    ],
+    "genres": ["Multi-genre"],
+    "formats": ["studio_session", "live_performance", "radio_show"],
+    "languages": [],
     "official_site": "https://www.kexp.org/",
     "schedule_url": "https://www.kexp.org/events/",
     "youtube_url": "https://www.youtube.com/KEXP",
     "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["live on kexp", "live at kexp"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "news"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Do not assume every in-studio session is live on YouTube.",
     "youtube_channel_id": "UC3I2GFN_F8WudD_2jUZbojA",
     "youtube_uploads_playlist_id": "UU3I2GFN_F8WudD_2jUZbojA"
   },
   {
+    "schema_version": 2,
     "id": "boiler-room",
     "name": "Boiler Room",
+    "operator_name": null,
     "type": "media_events",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -126,26 +195,40 @@
       "precision": "operator_city_only",
       "label": "London, UK"
     },
-    "genres": [
-      "Electronic",
-      "House",
-      "Techno",
-      "Hip-hop",
-      "Rap",
-      "Afrobeats",
-      "Amapiano"
-    ],
+    "genres": ["Electronic", "House", "Techno", "Hip-hop", "Rap", "Afrobeats", "Amapiano"],
+    "formats": ["dj_set", "live_performance"],
+    "languages": [],
     "official_site": "https://boilerroom.tv/",
     "schedule_url": "https://boilerroom.tv/upcoming/",
     "youtube_url": "https://www.youtube.com/@boilerroom",
     "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["interview", "podcast", "talk"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Events happen globally; event location overrides operator location.",
     "youtube_channel_id": "UCGBpxWJr9FNOcFYA5GkKrMg",
     "youtube_uploads_playlist_id": "UUGBpxWJr9FNOcFYA5GkKrMg"
   },
   {
+    "schema_version": 2,
     "id": "coachella",
     "name": "Coachella",
+    "operator_name": null,
     "type": "festival",
     "country": "United States",
     "country_code": "US",
@@ -157,20 +240,40 @@
       "precision": "event_city_confirmed",
       "label": "Indio, California"
     },
-    "genres": [
-      "Multi-genre"
-    ],
+    "genres": ["Multi-genre"],
+    "formats": ["festival_stream", "live_performance"],
+    "languages": [],
     "official_site": "https://www.coachella.com/",
     "schedule_url": "https://coachella.com/youtube-livestream",
     "youtube_url": "https://www.youtube.com/@Coachella",
     "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["interview", "podcast", "talk"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Festival, stage, stream and performance must be modeled separately.",
     "youtube_channel_id": "UCHF66aWLOxBW4l6VkSrS3cQ",
     "youtube_uploads_playlist_id": "UUHF66aWLOxBW4l6VkSrS3cQ"
   },
   {
+    "schema_version": 2,
     "id": "kcrw",
     "name": "KCRW",
+    "operator_name": null,
     "type": "radio",
     "country": "United States",
     "country_code": "US",
@@ -182,20 +285,40 @@
       "precision": "city_confirmed",
       "label": "Santa Monica, California"
     },
-    "genres": [
-      "Multi-genre"
-    ],
+    "genres": ["Multi-genre"],
+    "formats": ["studio_session", "live_performance", "radio_show"],
+    "languages": [],
     "official_site": "https://www.kcrw.com/",
     "schedule_url": "https://www.kcrw.com/pages/live-sessions",
     "youtube_url": "https://www.youtube.com/channel/UC54U5gpKkaa_BpXRVNip2Dw",
     "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["live at kcrw", "live from kcrw", "kcrw live"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "news"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "KCRW records live sessions at its Santa Monica studios; do not assume every session is a YouTube livestream.",
     "youtube_channel_id": "UC54U5gpKkaa_BpXRVNip2Dw",
     "youtube_uploads_playlist_id": "UU54U5gpKkaa_BpXRVNip2Dw"
   },
   {
+    "schema_version": 2,
     "id": "audiotree",
     "name": "Audiotree",
+    "operator_name": null,
     "type": "studio_media",
     "country": "United States",
     "country_code": "US",
@@ -207,20 +330,40 @@
       "precision": "city_confirmed",
       "label": "Chicago, Illinois"
     },
-    "genres": [
-      "Multi-genre"
-    ],
+    "genres": ["Multi-genre"],
+    "formats": ["studio_session", "live_performance"],
+    "languages": [],
     "official_site": "https://www.audiotree.tv/",
     "schedule_url": "https://www.audiotree.tv/",
     "youtube_url": "https://www.youtube.com/channel/UCWjmAUHmajb1-eo5WKk_22A",
     "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["interview", "podcast", "talk"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Audiotree records live music sessions in Chicago; stream-level genre and live status require video-level verification.",
     "youtube_channel_id": "UCWjmAUHmajb1-eo5WKk_22A",
     "youtube_uploads_playlist_id": "UUWjmAUHmajb1-eo5WKk_22A"
   },
   {
+    "schema_version": 2,
     "id": "sofar-sounds",
     "name": "Sofar Sounds",
+    "operator_name": null,
     "type": "media_events",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -232,20 +375,40 @@
       "precision": "origin_city_only",
       "label": "London, UK (origin only)"
     },
-    "genres": [
-      "Multi-genre"
-    ],
+    "genres": ["Multi-genre"],
+    "formats": ["live_performance", "acoustic_session"],
+    "languages": [],
     "official_site": "https://www.sofarsounds.com/",
     "schedule_url": "https://www.sofarsounds.com/",
     "youtube_url": "https://www.youtube.com/sofarsounds",
     "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["interview", "podcast", "talk"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Global network operating in hundreds of cities; London is the origin city, not the location of each event. Event location must override this source-level origin.",
     "youtube_channel_id": "UCRLZb8PpI9N7COmYqHiDH7A",
     "youtube_uploads_playlist_id": "UURLZb8PpI9N7COmYqHiDH7A"
   },
   {
+    "schema_version": 2,
     "id": "triple-j",
     "name": "triple j",
+    "operator_name": "Australian Broadcasting Corporation",
     "type": "radio",
     "country": "Australia",
     "country_code": "AU",
@@ -257,20 +420,40 @@
       "precision": "operator_city_only",
       "label": "Sydney, Australia (network base)"
     },
-    "genres": [
-      "Multi-genre"
-    ],
+    "genres": ["Multi-genre"],
+    "formats": ["radio_show", "live_performance", "festival_stream"],
+    "languages": [],
     "official_site": "https://www.abc.net.au/triplej/",
     "schedule_url": "https://www.abc.net.au/triplej/live-music",
     "youtube_url": "https://www.youtube.com/channel/UCd2KNtfphz8HvYzM4pwtHmg",
     "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["one night stand", "live music", "festival live"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "news"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "National Australian radio network with studio sessions, festival recordings and event livestreams. Sydney is source-level only; event locations must override it.",
     "youtube_channel_id": "UCd2KNtfphz8HvYzM4pwtHmg",
     "youtube_uploads_playlist_id": "UUd2KNtfphz8HvYzM4pwtHmg"
   },
   {
+    "schema_version": 2,
     "id": "arte-concert",
     "name": "ARTE Concert",
+    "operator_name": "ARTE",
     "type": "media_events",
     "country": "France",
     "country_code": "FR",
@@ -282,22 +465,31 @@
       "precision": "operator_city_only",
       "label": "Strasbourg, France (operator base)"
     },
-    "genres": [
-      "Electronic",
-      "Classical",
-      "Hip-hop",
-      "Pop & Rock",
-      "World",
-      "Metal",
-      "Opera",
-      "Jazz",
-      "Performing Arts",
-      "Baroque"
-    ],
+    "genres": ["Electronic", "Classical", "Hip-hop", "Pop & Rock", "World", "Metal", "Opera", "Jazz", "Performing Arts", "Baroque"],
+    "formats": ["concert", "festival_stream", "opera", "live_performance"],
+    "languages": [],
     "official_site": "https://www.arte.tv/en/arte-concert/",
     "schedule_url": "https://www.arte.tv/en/arte-concert/",
     "youtube_url": "https://www.youtube.com/@arteconcert",
     "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["concert", "festival", "opera", "orchestra", "symphony", "recital", "live session", "live performance", "dj set"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "discussion"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
     "note": "Concerts and livestreams originate from many venues and festivals; Strasbourg is operator-level only and must never be used as an event location.",
     "youtube_channel_id": "UC-smeLB9AnOTeypr1YyjJ3A",
     "youtube_uploads_playlist_id": "UU-smeLB9AnOTeypr1YyjJ3A"
