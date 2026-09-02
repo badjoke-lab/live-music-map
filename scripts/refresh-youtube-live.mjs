@@ -41,28 +41,49 @@ function parseYoutubeRef(urlString) {
   const url = new URL(urlString);
   const parts = url.pathname.split('/').filter(Boolean);
   if (parts[0] === 'channel' && parts[1]) return { kind: 'channel', value: parts[1] };
+  if (parts[0] === 'user' && parts[1]) return { kind: 'legacy_username', value: parts[1] };
   if (parts[0]?.startsWith('@')) return { kind: 'handle', value: parts[0].slice(1) };
   if (parts[0]) return { kind: 'username', value: parts[0] };
   return null;
 }
 
 async function resolveChannelId(source) {
-  if (source.youtube_channel_id) return { channelId: source.youtube_channel_id, changed: false };
-  if (!source.youtube_url) return null;
+  if (!source.youtube_url) return source.youtube_channel_id
+    ? { channelId: source.youtube_channel_id, changed: false }
+    : null;
   const ref = parseYoutubeRef(source.youtube_url);
-  if (!ref) return null;
+  if (!ref) return source.youtube_channel_id
+    ? { channelId: source.youtube_channel_id, changed: false }
+    : null;
+
+  // Legacy /user/<name> URLs must be resolved from <name>, not from the
+  // literal path segment "user". Re-resolve even if an older run persisted a
+  // channel ID so bad legacy resolutions self-heal once, then canonicalize the
+  // URL to /channel/<id> so future runs need no extra lookup.
+  if (ref.kind !== 'legacy_username' && source.youtube_channel_id) {
+    return { channelId: source.youtube_channel_id, changed: false };
+  }
+
   if (ref.kind === 'channel') {
     source.youtube_channel_id = ref.value;
     return { channelId: ref.value, changed: true };
   }
+
   const params = { part: 'id', maxResults: 1 };
   if (ref.kind === 'handle') params.forHandle = ref.value;
-  if (ref.kind === 'username') params.forUsername = ref.value;
+  if (ref.kind === 'username' || ref.kind === 'legacy_username') params.forUsername = ref.value;
   const result = await api('channels', params);
   const channelId = result.items?.[0]?.id || null;
   if (!channelId) return null;
+
+  const changed = source.youtube_channel_id !== channelId
+    || (ref.kind === 'legacy_username' && source.youtube_url !== `https://www.youtube.com/channel/${channelId}`);
   source.youtube_channel_id = channelId;
-  return { channelId, changed: true };
+  if (ref.kind === 'legacy_username') {
+    source.youtube_url = `https://www.youtube.com/channel/${channelId}`;
+    delete source.youtube_uploads_playlist_id;
+  }
+  return { channelId, changed };
 }
 
 async function ensureUploadsPlaylist(source, channelId) {
