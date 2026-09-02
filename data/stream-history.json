@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:TsZi-9U5y7U",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "hoer-berlin",
+    "youtube_video_id": "TsZi-9U5y7U",
+    "youtube_url": "https://www.youtube.com/watch?v=TsZi-9U5y7U",
+    "title": "Neutran | HÖR - September 2 / 2026",
+    "status": "ended",
+    "published_at": "2026-09-01T13:50:11Z",
+    "scheduled_start": "2026-09-02T18:00:00Z",
+    "actual_start": "2026-09-02T18:02:48Z",
+    "actual_end": null,
+    "concurrent_viewers": 91,
+    "thumbnail": "https://i.ytimg.com/vi/TsZi-9U5y7U/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-02T21:22:47.322Z",
+    "history_archived_at": "2026-09-02T21:22:47.322Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:t1f3RZpPxBs",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
