@@ -117,14 +117,19 @@ Responsibilities:
 - cluster semantics;
 - dense-city selection/spiderfy;
 - selected-source detail order;
-- theater behavior;
+- floating theater behavior;
 - time-zone display;
 - desktop/mobile usability;
 - never expose internal development instructions in the public UI.
 
-Current required correction:
+Theater contract:
 
-Replace the transitional floating theater with a center/map-region constrained theater.
+- preserve the draggable/resizable floating theater on desktop;
+- keep map/list/detail/top controls visible and usable while theater is open;
+- do not replace the center/map pane with the theater;
+- do not constrain the theater to the center/map region only;
+- do not use a browser-wide video-only takeover;
+- keep responsive floating behavior on mobile.
 
 Output:
 

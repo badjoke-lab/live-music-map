@@ -309,8 +309,9 @@ If LIVE and Upcoming both exist, show both badges. Maximum zoom must spiderfy ov
 Three-column desktop layout:
 
 - left: ordered source list;
-- center: map / theater surface;
-- right: selected source details.
+- center: map;
+- right: selected source details;
+- theater: independent floating window above the normal layout.
 
 Source ordering:
 
@@ -331,15 +332,24 @@ Upcoming must not push channel information far down the page. Show only a small 
 
 User-facing action label: **`シアター`**.
 
-Target desktop behavior:
+Desktop behavior:
 
-- the theater is constrained to the **center/map region**;
-- it may overlay/cover the map area, but must not hide the left source list, right detail column or top controls;
+- the theater is a **floating page-level video window** over the normal site layout;
+- the map, left source list, right detail column and top controls remain visible and usable;
+- the theater is draggable;
+- the theater is resizable;
+- its position should be constrained enough that the window cannot be lost completely outside the viewport;
+- opening theater must not replace the center/map pane;
 - opening theater must not convert the whole browser into a video-only view;
-- closing theater restores the map without losing selected source context;
-- iframe `src` is cleared on close.
+- closing theater keeps the selected source/map context and clears the iframe `src`;
+- Escape closes the theater.
 
-The current floating implementation is transitional and must be replaced by this center-region behavior.
+Mobile behavior:
+
+- use a responsive floating presentation sized to the viewport;
+- desktop-style free resize is not required.
+
+Do not replace this with a center/map-region-only theater unless the product specification is explicitly changed.
 
 ## 12. Source expansion policy
 
