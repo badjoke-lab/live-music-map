@@ -128,13 +128,24 @@ Do not put a long Upcoming stack before source information.
 
 User-facing label is `シアター`.
 
-Desktop target:
+Desktop contract:
 
-- theater occupies/overlays the center map region only;
-- left list remains visible;
-- right detail remains visible;
-- top controls remain visible;
-- closing restores map context.
+- theater is a floating page-level video window over the normal site layout;
+- the map, left source list, right detail and top controls remain visible and usable;
+- the floating window is draggable;
+- the floating window is resizable;
+- keep the window recoverable on-screen rather than allowing it to be lost completely outside the viewport;
+- closing clears the iframe `src`;
+- Escape closes the theater.
+
+Mobile contract:
+
+- keep a responsive floating presentation;
+- desktop-style free resize is not required.
+
+Do not replace the center/map pane with the theater.
+
+Do not constrain the theater to the center/map region only.
 
 Do not make a browser-wide video-only takeover.
 
