@@ -2,7 +2,7 @@
   {
     "id": "youtube:jotsw3iq5KU",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "live",
     "source_id": "dommune",
     "youtube_video_id": "jotsw3iq5KU",
@@ -13,7 +13,7 @@
     "scheduled_start": "2026-09-02T10:00:00Z",
     "actual_start": "2026-09-02T10:04:32Z",
     "actual_end": null,
-    "concurrent_viewers": 438,
+    "concurrent_viewers": 443,
     "thumbnail": "https://i.ytimg.com/vi/jotsw3iq5KU/maxresdefault_live.jpg",
     "embed_allowed": true,
     "genres": [],
@@ -26,7 +26,7 @@
   {
     "id": "youtube:t1f3RZpPxBs",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "hoer-berlin",
     "youtube_video_id": "t1f3RZpPxBs",
@@ -50,7 +50,7 @@
   {
     "id": "youtube:xhgbems5YMM",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "hoer-berlin",
     "youtube_video_id": "xhgbems5YMM",
@@ -74,7 +74,7 @@
   {
     "id": "youtube:TsZi-9U5y7U",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "hoer-berlin",
     "youtube_video_id": "TsZi-9U5y7U",
@@ -98,7 +98,7 @@
   {
     "id": "youtube:IUJAIQWpYwA",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "hoer-berlin",
     "youtube_video_id": "IUJAIQWpYwA",
@@ -122,7 +122,7 @@
   {
     "id": "youtube:iyTRz9JpYmE",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "boiler-room",
     "youtube_video_id": "iyTRz9JpYmE",
@@ -146,7 +146,7 @@
   {
     "id": "youtube:mOYf1888G6Q",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "boiler-room",
     "youtube_video_id": "mOYf1888G6Q",
@@ -170,7 +170,7 @@
   {
     "id": "youtube:HA9b6cg5v7A",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "the-lot-radio",
     "youtube_video_id": "HA9b6cg5v7A",
