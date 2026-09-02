@@ -13,7 +13,12 @@
       "precision": "city_confirmed",
       "label": "Berlin, Germany"
     },
-    "genres": ["Electronic", "Techno", "House", "Experimental"],
+    "genres": [
+      "Electronic",
+      "Techno",
+      "House",
+      "Experimental"
+    ],
     "official_site": "https://hoer.live/",
     "schedule_url": "https://hoer.live/calendar/",
     "youtube_url": "https://www.youtube.com/@hoer.berlin",
@@ -36,7 +41,16 @@
       "precision": "exact_source_location",
       "label": "Brooklyn, New York"
     },
-    "genres": ["Jazz", "House", "Afrobeat", "Electronic", "Techno", "Jungle", "Breaks", "Disco"],
+    "genres": [
+      "Jazz",
+      "House",
+      "Afrobeat",
+      "Electronic",
+      "Techno",
+      "Jungle",
+      "Breaks",
+      "Disco"
+    ],
     "official_site": "https://www.thelotradio.com/",
     "schedule_url": "https://www.thelotradio.com/",
     "youtube_url": "https://www.youtube.com/@TheLotRadio",
@@ -59,7 +73,12 @@
       "precision": "city_confirmed",
       "label": "Tokyo, Japan"
     },
-    "genres": ["Electronic", "Experimental", "Live Music", "Talk"],
+    "genres": [
+      "Electronic",
+      "Experimental",
+      "Live Music",
+      "Talk"
+    ],
     "official_site": "https://www.dommune.com/",
     "schedule_url": "https://www.dommune.com/",
     "youtube_url": "https://www.youtube.com/@DOMMUNE",
@@ -82,7 +101,9 @@
       "precision": "city_confirmed",
       "label": "Seattle, Washington"
     },
-    "genres": ["Multi-genre"],
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.kexp.org/",
     "schedule_url": "https://www.kexp.org/events/",
     "youtube_url": "https://www.youtube.com/KEXP",
@@ -105,7 +126,15 @@
       "precision": "operator_city_only",
       "label": "London, UK"
     },
-    "genres": ["Electronic", "House", "Techno", "Hip-hop", "Rap", "Afrobeats", "Amapiano"],
+    "genres": [
+      "Electronic",
+      "House",
+      "Techno",
+      "Hip-hop",
+      "Rap",
+      "Afrobeats",
+      "Amapiano"
+    ],
     "official_site": "https://boilerroom.tv/",
     "schedule_url": "https://boilerroom.tv/upcoming/",
     "youtube_url": "https://www.youtube.com/@boilerroom",
@@ -128,7 +157,9 @@
       "precision": "event_city_confirmed",
       "label": "Indio, California"
     },
-    "genres": ["Multi-genre"],
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.coachella.com/",
     "schedule_url": "https://coachella.com/youtube-livestream",
     "youtube_url": "https://www.youtube.com/@Coachella",
@@ -151,12 +182,16 @@
       "precision": "city_confirmed",
       "label": "Santa Monica, California"
     },
-    "genres": ["Multi-genre"],
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.kcrw.com/",
     "schedule_url": "https://www.kcrw.com/pages/live-sessions",
     "youtube_url": "https://www.youtube.com/user/kcrw",
     "status": "mixed",
-    "note": "KCRW records live sessions at its Santa Monica studios; do not assume every session is a YouTube livestream."
+    "note": "KCRW records live sessions at its Santa Monica studios; do not assume every session is a YouTube livestream.",
+    "youtube_channel_id": "UCYQllaqFwEza-rZ9e6n3Peg",
+    "youtube_uploads_playlist_id": "UUYQllaqFwEza-rZ9e6n3Peg"
   },
   {
     "id": "audiotree",
@@ -172,12 +207,16 @@
       "precision": "city_confirmed",
       "label": "Chicago, Illinois"
     },
-    "genres": ["Multi-genre"],
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.audiotree.tv/",
     "schedule_url": "https://www.audiotree.tv/",
     "youtube_url": "https://www.youtube.com/user/Audiotreetv",
     "status": "mixed",
-    "note": "Audiotree records live music sessions in Chicago; stream-level genre and live status require video-level verification."
+    "note": "Audiotree records live music sessions in Chicago; stream-level genre and live status require video-level verification.",
+    "youtube_channel_id": "UCYQllaqFwEza-rZ9e6n3Peg",
+    "youtube_uploads_playlist_id": "UUYQllaqFwEza-rZ9e6n3Peg"
   },
   {
     "id": "sofar-sounds",
@@ -193,11 +232,15 @@
       "precision": "origin_city_only",
       "label": "London, UK (origin only)"
     },
-    "genres": ["Multi-genre"],
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.sofarsounds.com/",
     "schedule_url": "https://www.sofarsounds.com/",
     "youtube_url": "https://www.youtube.com/sofarsounds",
     "status": "event_based",
-    "note": "Global network operating in hundreds of cities; London is the origin city, not the location of each event. Event location must override this source-level origin."
+    "note": "Global network operating in hundreds of cities; London is the origin city, not the location of each event. Event location must override this source-level origin.",
+    "youtube_channel_id": "UCRLZb8PpI9N7COmYqHiDH7A",
+    "youtube_uploads_playlist_id": "UURLZb8PpI9N7COmYqHiDH7A"
   }
 ]
