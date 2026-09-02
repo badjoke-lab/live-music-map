@@ -1,0 +1,8 @@
+{
+  "youtube": {
+    "configured": false,
+    "mode": "youtube_data_api_v3",
+    "live_cadence_hours": 3,
+    "upcoming_cadence_hours": 12
+  }
+}
