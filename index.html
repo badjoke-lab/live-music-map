@@ -24,8 +24,7 @@ select{background:#171b22;border:1px solid #2a303a;border-radius:9px;color:#fff;
 .sidebar{border-right:1px solid #252932}
 .detail{border-left:1px solid #252932}
 .center-pane{position:relative;min-width:0;min-height:0;background:#090b0e}
-#mapView,#theaterView,#map{width:100%;height:100%}
-#mapView[hidden],#theaterView[hidden]{display:none}
+#map{width:100%;height:100%}
 .section{padding:14px}
 .source{padding:12px;border-bottom:1px solid #242a31;cursor:pointer}
 .source:hover{background:#171c22}
@@ -38,11 +37,14 @@ select{background:#171b22;border:1px solid #2a303a;border-radius:9px;color:#fff;
 .status.upcoming{background:#fb8c00}
 .status.source{background:#546e7a}
 .detail h2{margin:0 0 4px}
+.detail h3{margin:18px 0 8px}
 .links a{display:inline-block;margin:4px 8px 4px 0;color:#8ab4f8}
 .links button{display:inline-block;margin:4px 8px 4px 0;background:#262d36;border:1px solid #46515e;border-radius:8px;color:#fff;padding:7px 10px;cursor:pointer}
 .links button:hover{background:#323b47}
 .notice{font-size:12px;color:#f2bd66;background:#2a2317;border:1px solid #5f4a24;padding:9px;border-radius:8px;margin-top:10px}
-.stream{margin:12px 0;padding:11px;border:1px solid #303640;border-radius:10px;background:#171b22}
+.stream{margin:10px 0;padding:11px;border:1px solid #303640;border-radius:10px;background:#171b22}
+.stream.live-card{border-color:#5a3434}
+.stream.upcoming-card{padding:10px}
 .stream h3{font-size:15px;margin:7px 0}
 .stream iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:8px;margin-top:10px;background:#000}
 .stream-grid{display:grid;grid-template-columns:90px 1fr;gap:5px 8px;font-size:12px;margin-top:8px}
@@ -54,14 +56,20 @@ select{background:#171b22;border:1px solid #2a303a;border-radius:9px;color:#fff;
 .cluster-live{background:#e53935}
 .cluster-upcoming{background:#fb8c00}
 .cluster-source{background:#607d8b}
-.theater-shell{height:100%;display:flex;flex-direction:column;background:#0b0e13}
-.theater-head{min-height:48px;display:flex;align-items:center;gap:12px;padding:8px 12px;border-bottom:1px solid #252c36;background:#11161d}
-.theater-title{min-width:0;flex:1;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.theater-back{flex:0 0 auto;background:#242b34;border:1px solid #46515e;border-radius:8px;color:#fff;padding:7px 11px;cursor:pointer}
-.theater-back:hover{background:#303946}
-.theater-stage{flex:1;min-height:0;display:grid;place-items:center;padding:18px}
-.theater-frame-wrap{width:min(100%,1280px);max-height:100%;aspect-ratio:16/9;background:#000;border:1px solid #252c36;border-radius:12px;overflow:hidden;box-shadow:0 16px 42px #0008}
-.theater-frame-wrap iframe{display:block;width:100%;height:100%;border:0}
+.source-info{padding:2px 0 4px}
+.source-info-row{margin:10px 0}
+.source-info-label{font-size:11px;color:#89939f;margin-bottom:3px;text-transform:uppercase;letter-spacing:.04em}
+.upcoming-more{margin-top:8px;border:1px solid #303640;border-radius:10px;background:#14181e}
+.upcoming-more summary{cursor:pointer;padding:10px 12px;color:#cdd5df;font-size:13px}
+.upcoming-more[open] summary{border-bottom:1px solid #303640}
+.upcoming-more .more-body{padding:0 10px 8px}
+.player-layer{position:fixed;z-index:4000;left:50%;top:52%;transform:translate(-50%,-50%);width:min(960px,62vw);min-width:520px;max-width:calc(100vw - 48px);background:#0c0f14;border:1px solid #3a424e;border-radius:12px;box-shadow:0 22px 70px #000d;overflow:hidden;resize:both}
+.player-layer[hidden]{display:none}
+.player-head{display:flex;align-items:center;gap:10px;padding:8px 10px;background:#151a21;border-bottom:1px solid #2d343e;cursor:move;user-select:none}
+.player-title{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-size:13px}
+.player-close{border:1px solid #46515e;background:#252c35;color:#fff;border-radius:7px;padding:5px 9px;cursor:pointer}
+.player-body{aspect-ratio:16/9;min-height:292px;background:#000}
+.player-body iframe{display:block;width:100%;height:100%;border:0}
 @media(max-width:900px){
   header{flex-wrap:wrap}
   header input{order:3;min-width:100%}
@@ -69,7 +77,8 @@ select{background:#171b22;border:1px solid #2a303a;border-radius:9px;color:#fff;
   .sidebar{display:none}
   .detail{position:absolute;left:0;right:0;bottom:0;max-height:48%;border-left:0;border-top:1px solid #303640;z-index:1100;border-radius:18px 18px 0 0}
   .center-pane{height:100%}
-  .theater-stage{padding:8px 8px calc(48vh + 8px)}
+  .player-layer{width:94vw;min-width:0;max-width:94vw;top:30%;resize:none}
+  .player-body{min-height:0}
 }
 </style>
 </head>
@@ -98,27 +107,19 @@ select{background:#171b22;border:1px solid #2a303a;border-radius:9px;color:#fff;
     <div id="list"></div>
   </aside>
   <main class="center-pane">
-    <div id="mapView">
-      <div id="map"></div>
-      <div class="legend">赤 LIVE / 橙 Upcoming / 灰 Sourceのみ · 数字は近接する配信元</div>
-    </div>
-    <div id="theaterView" hidden>
-      <div class="theater-shell">
-        <div class="theater-head">
-          <div class="theater-title" id="theaterTitle">YouTube Live</div>
-          <button class="theater-back" id="theaterBack" type="button">地図に戻る</button>
-        </div>
-        <div class="theater-stage">
-          <div class="theater-frame-wrap">
-            <iframe id="theaterFrame" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="YouTube player"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="map"></div>
+    <div class="legend">赤 LIVE / 橙 Upcoming / 灰 Sourceのみ · 数字は近接する配信元</div>
   </main>
   <aside class="detail">
     <div class="section" id="detail"><h2>配信元を選択</h2></div>
   </aside>
+</div>
+<div class="player-layer" id="playerLayer" hidden>
+  <div class="player-head" id="playerDragHandle">
+    <div class="player-title" id="playerTitle">YouTube Live</div>
+    <button class="player-close" id="playerClose" type="button">閉じる</button>
+  </div>
+  <div class="player-body"><iframe id="playerFrame" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="YouTube player"></iframe></div>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
@@ -140,19 +141,21 @@ const localZone=Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC';
 const zones=[localZone,'UTC','Asia/Tokyo','Europe/Berlin','America/New_York','America/Los_Angeles','Australia/Sydney'].filter((v,i,a)=>a.indexOf(v)===i);
 const tz=document.getElementById('tz');tz.innerHTML=zones.map(z=>`<option value="${esc(z)}">${esc(z===localZone?`Local · ${z}`:z)}</option>`).join('');
 function formatTime(value){if(!value)return '未確認';try{return new Intl.DateTimeFormat(undefined,{timeZone:tz.value,dateStyle:'medium',timeStyle:'short'}).format(new Date(value))}catch{return value}}
-function openTheater(videoId,title){if(!/^[A-Za-z0-9_-]{11}$/.test(videoId))return;document.getElementById('theaterTitle').textContent=title||'YouTube Live';document.getElementById('theaterFrame').src=`https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?autoplay=1`;document.getElementById('mapView').hidden=true;document.getElementById('theaterView').hidden=false}
-function closeTheater(){document.getElementById('theaterView').hidden=true;document.getElementById('theaterFrame').src='';document.getElementById('mapView').hidden=false;requestAnimationFrame(()=>map.invalidateSize())}
-function streamCard(s){const perf=s.performers?.length?s.performers.join(', '):'未確認';const venue=s.venue||'未確認';const genres=s.genres?.length?s.genres.join(' / '):'未確認';const canEmbed=s.youtube_video_id&&s.embed_allowed!==false;const embed=canEmbed?`<iframe loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(s.youtube_video_id)}"></iframe>`:'';const theaterButton=canEmbed?`<button type="button" data-theater-video="${esc(s.youtube_video_id)}" data-theater-title="${esc(s.title)}">シアター</button>`:'';return `<div class="stream"><span class="status ${esc(s.status)}">${esc(s.status.toUpperCase())}</span><h3>${esc(s.title)}</h3><div class="meta">${s.status==='live'?'開始':'予定'}: ${esc(formatTime(s.actual_start||s.scheduled_start))}${s.concurrent_viewers!=null?` · ${Number(s.concurrent_viewers).toLocaleString()} watching`:''}</div>${embed}<dl class="stream-grid"><dt>配信種別</dt><dd>${esc(s.content_type||'未確認')}</dd><dt>出演者</dt><dd>${esc(perf)}</dd><dt>会場</dt><dd>${esc(venue)}</dd><dt>ジャンル</dt><dd>${esc(genres)}</dd></dl><div class="links">${theaterButton}<a target="_blank" rel="noopener" href="${esc(s.youtube_url)}">YouTubeで開く</a></div></div>`}
-function show(s){if(!s)return;selectedSource=s;const ss=orderedStreams(s.id);const streamHtml=ss.length?ss.map(streamCard).join(''):`<div class="notice">現在、音楽ライブとして確認済みのLIVE / Upcomingはありません。</div>`;const locationLabel=s.location?.label||[s.city,s.country].filter(Boolean).join(', ')||'未確認';const locationPrecision=s.location?.precision||'unknown';document.getElementById('detail').innerHTML=`<h2>${esc(s.name)}</h2><div class="meta">${esc(locationLabel)} · ${esc(s.type)}</div><div class="badges">${(s.genres||[]).map(badge).join('')}</div><h3>現在 / 近日</h3>${streamHtml}<h3>公式リンク</h3><div class="links">${s.official_site?`<a target="_blank" rel="noopener" href="${esc(s.official_site)}">公式サイト</a>`:''}${s.youtube_url?`<a target="_blank" rel="noopener" href="${esc(s.youtube_url)}">YouTube</a>`:''}${s.schedule_url?`<a target="_blank" rel="noopener" href="${esc(s.schedule_url)}">Schedule</a>`:''}</div><h3>位置</h3><div>${esc(locationLabel)}</div><div class="meta">precision: ${esc(locationPrecision)}</div><h3>配信元が扱うジャンル</h3><div>${(s.genres||[]).map(esc).join(' / ')||'未確認'}</div><h3>配信形式</h3><div>${(s.formats||[]).map(esc).join(' / ')||'未確認'}</div><div class="notice">配信元レベルのジャンルを個別streamへコピーしません。出演者・会場・streamジャンルも確認できた場合だけ表示します。</div><h3>備考</h3><div>${esc(s.note||'')}</div>`}
+function openPlayer(videoId,title){if(!/^[A-Za-z0-9_-]{11}$/.test(videoId))return;const layer=document.getElementById('playerLayer');document.getElementById('playerTitle').textContent=title||'YouTube Live';document.getElementById('playerFrame').src=`https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?autoplay=1`;layer.hidden=false}
+function closePlayer(){const layer=document.getElementById('playerLayer');layer.hidden=true;document.getElementById('playerFrame').src=''}
+function streamCard(s,{embed=false,compact=false}={}){const perf=s.performers?.length?s.performers.join(', '):'未確認';const venue=s.venue||'未確認';const genres=s.genres?.length?s.genres.join(' / '):'未確認';const canEmbed=s.youtube_video_id&&s.embed_allowed!==false;const inlineEmbed=embed&&canEmbed?`<iframe loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(s.youtube_video_id)}"></iframe>`:'';const playerButton=canEmbed?`<button type="button" data-player-video="${esc(s.youtube_video_id)}" data-player-title="${esc(s.title)}">プレーヤー</button>`:'';const details=compact?'':`<dl class="stream-grid"><dt>配信種別</dt><dd>${esc(s.content_type||'未確認')}</dd><dt>出演者</dt><dd>${esc(perf)}</dd><dt>会場</dt><dd>${esc(venue)}</dd><dt>ジャンル</dt><dd>${esc(genres)}</dd></dl>`;return `<div class="stream ${s.status==='live'?'live-card':'upcoming-card'}"><span class="status ${esc(s.status)}">${esc(s.status.toUpperCase())}</span><h3>${esc(s.title)}</h3><div class="meta">${s.status==='live'?'開始':'予定'}: ${esc(formatTime(s.actual_start||s.scheduled_start))}${s.concurrent_viewers!=null?` · ${Number(s.concurrent_viewers).toLocaleString()} watching`:''}</div>${inlineEmbed}${details}<div class="links">${playerButton}<a target="_blank" rel="noopener" href="${esc(s.youtube_url)}">YouTubeで開く</a></div></div>`}
+function sourceInfoHtml(s,locationLabel,locationPrecision){return `<div class="source-info"><div class="source-info-row"><div class="source-info-label">公式リンク</div><div class="links">${s.official_site?`<a target="_blank" rel="noopener" href="${esc(s.official_site)}">公式サイト</a>`:''}${s.youtube_url?`<a target="_blank" rel="noopener" href="${esc(s.youtube_url)}">YouTube</a>`:''}${s.schedule_url?`<a target="_blank" rel="noopener" href="${esc(s.schedule_url)}">Schedule</a>`:''}</div></div><div class="source-info-row"><div class="source-info-label">位置</div><div>${esc(locationLabel)}</div><div class="meta">precision: ${esc(locationPrecision)}</div></div><div class="source-info-row"><div class="source-info-label">配信元が扱うジャンル</div><div>${(s.genres||[]).map(esc).join(' / ')||'未確認'}</div></div><div class="source-info-row"><div class="source-info-label">配信形式</div><div>${(s.formats||[]).map(esc).join(' / ')||'未確認'}</div></div>${s.note?`<div class="source-info-row"><div class="source-info-label">備考</div><div>${esc(s.note)}</div></div>`:''}</div>`}
+function show(s){if(!s)return;selectedSource=s;const ss=orderedStreams(s.id);const live=ss.filter(x=>x.status==='live');const upcoming=ss.filter(x=>x.status==='upcoming');const locationLabel=s.location?.label||[s.city,s.country].filter(Boolean).join(', ')||'未確認';const locationPrecision=s.location?.precision||'unknown';const liveHtml=live.length?live.map(x=>streamCard(x,{embed:true})).join(''):`<div class="meta">現在LIVEはありません。</div>`;const firstUpcoming=upcoming.slice(0,2);const restUpcoming=upcoming.slice(2);const upcomingHtml=upcoming.length?`${firstUpcoming.map(x=>streamCard(x,{compact:true})).join('')}${restUpcoming.length?`<details class="upcoming-more"><summary>ほか ${restUpcoming.length}件のUpcoming</summary><div class="more-body">${restUpcoming.map(x=>streamCard(x,{compact:true})).join('')}</div></details>`:''}`:`<div class="meta">Upcomingはありません。</div>`;document.getElementById('detail').innerHTML=`<h2>${esc(s.name)}</h2><div class="meta">${esc(locationLabel)} · ${esc(s.type)}</div><div class="badges">${(s.genres||[]).map(badge).join('')}</div><h3>LIVE</h3>${liveHtml}<h3>配信元情報</h3>${sourceInfoHtml(s,locationLabel,locationPrecision)}<h3>Upcoming</h3>${upcomingHtml}`}
 function sourceIcon(state){const color=state==='live'?'#e53935':state==='upcoming'?'#fb8c00':'#607d8b';return L.divIcon({className:'',html:`<div style="width:22px;height:22px;background:${color};border:2px solid white;border-radius:50%;box-shadow:0 0 0 6px ${color}33"></div>`,iconSize:[22,22],iconAnchor:[11,11]})}
 function render(){markerLayer.clearLayers();const q=document.getElementById('q').value.trim().toLowerCase();const subset=sources.filter(s=>{const blob=[s.name,s.country,s.region,s.city,s.type,...(s.genres||[]),...(s.formats||[])].join(' ').toLowerCase();const state=stateFor(s);const okState=currentFilter==='live'||currentFilter==='upcoming'?state===currentFilter:true;const okType=['festival','radio','independent_media','studio_media'].includes(currentFilter)?s.type===currentFilter:true;return(!q||blob.includes(q))&&okState&&okType}).sort(sourceOrder);document.getElementById('list').innerHTML=subset.map(s=>{const st=stateFor(s);const upcoming=orderedStreams(s.id).find(x=>x.status==='upcoming');const next=st==='upcoming'&&upcoming?` · ${formatTime(upcoming.scheduled_start)}`:'';return `<div class="source" data-id="${esc(s.id)}"><div class="name"><span class="status ${st}">${st==='source'?'SOURCE':st.toUpperCase()}</span>${esc(s.name)}</div><div class="meta">${esc(s.city||'')}${s.city&&s.country?', ':''}${esc(s.country||'')} · ${esc(s.type)}${esc(next)}</div><div class="badges">${(s.genres||[]).slice(0,5).map(badge).join('')}</div></div>`}).join('');document.querySelectorAll('.source').forEach(el=>{el.onclick=()=>show(sources.find(s=>s.id===el.dataset.id))});const points=[];for(const s of subset){const lat=Number(s.location?.lat),lon=Number(s.location?.lon);if(!Number.isFinite(lat)||!Number.isFinite(lon))continue;const st=stateFor(s);points.push(L.marker([lat,lon],{icon:sourceIcon(st),sourceState:st,title:s.name}).on('click',()=>show(s)))}markerLayer.addLayers(points);return subset}
 Promise.all([fetch('./data/sources.json').then(r=>r.json()),fetch('./data/streams.json').then(r=>r.json()),fetch('./data/acquisition.json').then(r=>r.json())]).then(([a,b,c])=>{sources=a;streams=b;acquisition=c;const verified=streams.filter(s=>s.music_live_status==='verified').length;document.getElementById('acq').textContent=acquisition?.youtube?.configured?`YouTube自動取得: 有効 · 音楽LIVE候補 ${verified}件`:'YouTube自動取得: APIキー未設定';const ordered=render();if(ordered[0])show(ordered[0])});
 document.getElementById('q').addEventListener('input',render);
 tz.addEventListener('change',()=>{if(selectedSource)show(selectedSource);render()});
 document.querySelectorAll('.toolbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.toolbar button').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentFilter=b.dataset.filter;const ordered=render();if(ordered.length&&!ordered.includes(selectedSource))show(ordered[0])});
-document.addEventListener('click',e=>{const button=e.target.closest('[data-theater-video]');if(button)openTheater(button.dataset.theaterVideo,button.dataset.theaterTitle)});
-document.getElementById('theaterBack').addEventListener('click',closeTheater);
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!document.getElementById('theaterView').hidden)closeTheater()});
+document.addEventListener('click',e=>{const button=e.target.closest('[data-player-video]');if(button)openPlayer(button.dataset.playerVideo,button.dataset.playerTitle)});
+document.getElementById('playerClose').addEventListener('click',closePlayer);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!document.getElementById('playerLayer').hidden)closePlayer()});
+(function makePlayerDraggable(){const layer=document.getElementById('playerLayer');const handle=document.getElementById('playerDragHandle');let drag=null;handle.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;const rect=layer.getBoundingClientRect();drag={dx:e.clientX-rect.left,dy:e.clientY-rect.top};layer.style.transform='none';layer.style.left=`${rect.left}px`;layer.style.top=`${rect.top}px`;handle.setPointerCapture(e.pointerId)});handle.addEventListener('pointermove',e=>{if(!drag)return;const maxX=Math.max(0,window.innerWidth-layer.offsetWidth);const maxY=Math.max(0,window.innerHeight-layer.offsetHeight);layer.style.left=`${Math.min(maxX,Math.max(0,e.clientX-drag.dx))}px`;layer.style.top=`${Math.min(maxY,Math.max(0,e.clientY-drag.dy))}px`});handle.addEventListener('pointerup',()=>{drag=null});handle.addEventListener('pointercancel',()=>{drag=null})})();
 </script>
 </body>
 </html>
