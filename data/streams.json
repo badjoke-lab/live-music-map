@@ -1,0 +1,18 @@
+[
+  {
+    "id": "demo-hoer-001",
+    "source_id": "hoer-berlin",
+    "title": "HÖR LIVE — example programme",
+    "status": "unknown",
+    "scheduled_start": null,
+    "actual_start": null,
+    "actual_end": null,
+    "youtube_video_id": null,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "note": "Demo schema row only; no performer, venue or stream genre is asserted."
+  }
+]
