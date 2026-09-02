@@ -43,6 +43,12 @@ function bump(target, key, patch) {
   for (const [field, value] of Object.entries(patch)) target[key][field] += value;
 }
 
+function withoutGeneratedAt(stats) {
+  if (!stats || typeof stats !== 'object') return stats;
+  const { generated_at, ...rest } = stats;
+  return rest;
+}
+
 if (mode === 'snapshot') {
   const streams = await readJson(streamsPath, []);
   await fs.writeFile(snapshotPath, `${JSON.stringify(streams, null, 2)}\n`);
@@ -62,6 +68,7 @@ const sources = await readJson(sourcesPath, []);
 const previous = await readJson(snapshotPath, []);
 const current = await readJson(streamsPath, []);
 const existingHistory = await readJson(historyPath, []);
+const existingStats = await readJson(statsPath, null);
 
 const currentIds = new Set(current.map(record => record.id));
 const historyById = new Map(existingHistory.map(record => [record.id, record]));
@@ -171,9 +178,8 @@ const summary = {
   history_records: history.length
 };
 
-const stats = {
+const statsCore = {
   schema_version: 1,
-  generated_at: nowIso,
   definitions: {
     observed_live_stream: 'A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.',
     source_genres: 'Source coverage metadata only; never treated as verified stream genre.'
@@ -183,7 +189,17 @@ const stats = {
   aggregates
 };
 
+const coreChanged = JSON.stringify(withoutGeneratedAt(existingStats)) !== JSON.stringify(statsCore);
+const stats = {
+  schema_version: statsCore.schema_version,
+  generated_at: coreChanged ? nowIso : (existingStats?.generated_at || nowIso),
+  definitions: statsCore.definitions,
+  summary: statsCore.summary,
+  by_source: statsCore.by_source,
+  aggregates: statsCore.aggregates
+};
+
 await fs.writeFile(historyPath, `${JSON.stringify(history, null, 2)}\n`);
 await fs.writeFile(statsPath, `${JSON.stringify(stats, null, 2)}\n`);
 await fs.rm(snapshotPath, { force: true });
-console.log(`History/stats updated: ${archivedNow} newly archived live streams, ${history.length} history records, ${observedLive.length} observed live streams total.`);
+console.log(`History/stats updated: ${archivedNow} newly archived live streams, ${history.length} history records, ${observedLive.length} observed live streams total, stats changed=${coreChanged}.`);
