@@ -20,6 +20,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: youtube-live-refresh
@@ -28,6 +30,8 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -49,10 +53,12 @@ jobs:
           YOUTUBE_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/refresh-youtube-live.mjs
       - name: Commit generated data
+        id: commit
         shell: bash
         run: |
           if git diff --quiet -- data/sources.json data/streams.json data/acquisition.json data/youtube-state.json; then
             echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -60,3 +66,24 @@ jobs:
           git add data/sources.json data/streams.json data/acquisition.json data/youtube-state.json
           git commit -m "data: refresh YouTube live streams"
           git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Setup Pages for refreshed data
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/configure-pages@v5
+      - name: Upload refreshed Pages artifact
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+  deploy-refreshed-data:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy refreshed data to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
