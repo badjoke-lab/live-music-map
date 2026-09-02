@@ -7,13 +7,25 @@
     "country_code": "DE",
     "region": "Berlin",
     "city": "Berlin",
-    "location": {"lat": 52.52, "lon": 13.405, "precision": "city_confirmed", "label": "Berlin, Germany"},
-    "genres": ["Electronic", "Techno", "House", "Experimental"],
+    "location": {
+      "lat": 52.52,
+      "lon": 13.405,
+      "precision": "city_confirmed",
+      "label": "Berlin, Germany"
+    },
+    "genres": [
+      "Electronic",
+      "Techno",
+      "House",
+      "Experimental"
+    ],
     "official_site": "https://hoer.live/",
     "schedule_url": "https://hoer.live/calendar/",
     "youtube_url": "https://www.youtube.com/@hoer.berlin",
     "status": "scheduled",
-    "note": "Source-level genres; individual streams may differ."
+    "note": "Source-level genres; individual streams may differ.",
+    "youtube_channel_id": "UCmfF7JZv26UUKyRedViGIlw",
+    "youtube_uploads_playlist_id": "UUmfF7JZv26UUKyRedViGIlw"
   },
   {
     "id": "the-lot-radio",
@@ -23,13 +35,29 @@
     "country_code": "US",
     "region": "New York",
     "city": "Brooklyn",
-    "location": {"lat": 40.722, "lon": -73.953, "precision": "exact_source_location", "label": "Brooklyn, New York"},
-    "genres": ["Jazz", "House", "Afrobeat", "Electronic", "Techno", "Jungle", "Breaks", "Disco"],
+    "location": {
+      "lat": 40.722,
+      "lon": -73.953,
+      "precision": "exact_source_location",
+      "label": "Brooklyn, New York"
+    },
+    "genres": [
+      "Jazz",
+      "House",
+      "Afrobeat",
+      "Electronic",
+      "Techno",
+      "Jungle",
+      "Breaks",
+      "Disco"
+    ],
     "official_site": "https://www.thelotradio.com/",
     "schedule_url": "https://www.thelotradio.com/",
     "youtube_url": "https://www.youtube.com/@TheLotRadio",
     "status": "continuous",
-    "note": "Multi-genre radio; show-level genres can differ."
+    "note": "Multi-genre radio; show-level genres can differ.",
+    "youtube_channel_id": "UCJOtExbMu0RqIdiE4nMUPxQ",
+    "youtube_uploads_playlist_id": "UUJOtExbMu0RqIdiE4nMUPxQ"
   },
   {
     "id": "dommune",
@@ -39,13 +67,25 @@
     "country_code": "JP",
     "region": "Tokyo",
     "city": "Tokyo",
-    "location": {"lat": 35.6762, "lon": 139.6503, "precision": "city_confirmed", "label": "Tokyo, Japan"},
-    "genres": ["Electronic", "Experimental", "Live Music", "Talk"],
+    "location": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "precision": "city_confirmed",
+      "label": "Tokyo, Japan"
+    },
+    "genres": [
+      "Electronic",
+      "Experimental",
+      "Live Music",
+      "Talk"
+    ],
     "official_site": "https://www.dommune.com/",
     "schedule_url": "https://www.dommune.com/",
     "youtube_url": "https://www.youtube.com/@DOMMUNE",
     "status": "scheduled",
-    "note": "Programme-level details should come from the official programme page."
+    "note": "Programme-level details should come from the official programme page.",
+    "youtube_channel_id": "UC06WalpLcwTx-0ZVgglMc5Q",
+    "youtube_uploads_playlist_id": "UU06WalpLcwTx-0ZVgglMc5Q"
   },
   {
     "id": "kexp",
@@ -55,8 +95,15 @@
     "country_code": "US",
     "region": "Washington",
     "city": "Seattle",
-    "location": {"lat": 47.6062, "lon": -122.3321, "precision": "city_confirmed", "label": "Seattle, Washington"},
-    "genres": ["Multi-genre"],
+    "location": {
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "precision": "city_confirmed",
+      "label": "Seattle, Washington"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.kexp.org/",
     "schedule_url": "https://www.kexp.org/events/",
     "youtube_url": "https://www.youtube.com/KEXP",
@@ -71,13 +118,28 @@
     "country_code": "GB",
     "region": "England",
     "city": "London",
-    "location": {"lat": 51.5072, "lon": -0.1276, "precision": "operator_city_only", "label": "London, UK"},
-    "genres": ["Electronic", "House", "Techno", "Hip-hop", "Rap", "Afrobeats", "Amapiano"],
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "label": "London, UK"
+    },
+    "genres": [
+      "Electronic",
+      "House",
+      "Techno",
+      "Hip-hop",
+      "Rap",
+      "Afrobeats",
+      "Amapiano"
+    ],
     "official_site": "https://boilerroom.tv/",
     "schedule_url": "https://boilerroom.tv/upcoming/",
     "youtube_url": "https://www.youtube.com/@boilerroom",
     "status": "event_based",
-    "note": "Events happen globally; event location overrides operator location."
+    "note": "Events happen globally; event location overrides operator location.",
+    "youtube_channel_id": "UCGBpxWJr9FNOcFYA5GkKrMg",
+    "youtube_uploads_playlist_id": "UUGBpxWJr9FNOcFYA5GkKrMg"
   },
   {
     "id": "coachella",
@@ -87,12 +149,21 @@
     "country_code": "US",
     "region": "California",
     "city": "Indio",
-    "location": {"lat": 33.7206, "lon": -116.2156, "precision": "event_city_confirmed", "label": "Indio, California"},
-    "genres": ["Multi-genre"],
+    "location": {
+      "lat": 33.7206,
+      "lon": -116.2156,
+      "precision": "event_city_confirmed",
+      "label": "Indio, California"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
     "official_site": "https://www.coachella.com/",
     "schedule_url": "https://coachella.com/youtube-livestream",
     "youtube_url": "https://www.youtube.com/@Coachella",
     "status": "seasonal",
-    "note": "Festival, stage, stream and performance must be modeled separately."
+    "note": "Festival, stage, stream and performance must be modeled separately.",
+    "youtube_channel_id": "UCHF66aWLOxBW4l6VkSrS3cQ",
+    "youtube_uploads_playlist_id": "UUHF66aWLOxBW4l6VkSrS3cQ"
   }
 ]

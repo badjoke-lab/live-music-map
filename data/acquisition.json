@@ -1,8 +1,12 @@
 {
   "youtube": {
-    "configured": false,
-    "mode": "youtube_data_api_v3",
-    "live_cadence_hours": 3,
-    "upcoming_cadence_hours": 12
+    "configured": true,
+    "mode": "youtube_data_api_v3_plus_official_atom_feed",
+    "strategy": "atom_feed_delta_plus_known_active_video_poll",
+    "search_list_used": false,
+    "atom_feed_quota_units": 0,
+    "poll_cadence_minutes": 15,
+    "playlist_backstop": "daily",
+    "playlist_backstop_recent_videos": 25
   }
 }
