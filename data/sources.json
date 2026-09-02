@@ -108,7 +108,9 @@
     "schedule_url": "https://www.kexp.org/events/",
     "youtube_url": "https://www.youtube.com/KEXP",
     "status": "mixed",
-    "note": "Do not assume every in-studio session is live on YouTube."
+    "note": "Do not assume every in-studio session is live on YouTube.",
+    "youtube_channel_id": "UC3I2GFN_F8WudD_2jUZbojA",
+    "youtube_uploads_playlist_id": "UU3I2GFN_F8WudD_2jUZbojA"
   },
   {
     "id": "boiler-room",
