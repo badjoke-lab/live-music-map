@@ -156,14 +156,20 @@ let channelQueriesApprox = 0;
 
 for (const source of sources) {
   if (!source.youtube_url) continue;
+  let resolved;
   try {
     const beforeChannelId = source.youtube_channel_id || null;
-    const resolved = await resolveChannelId(source);
+    resolved = await resolveChannelId(source);
     if (!resolved?.channelId) throw new Error('channel ID not found');
     sourceChanged ||= resolved.changed;
     if (!beforeChannelId && resolved.channelId) channelQueriesApprox += 1;
+  } catch (error) {
+    console.error(`[${source.id}] channel resolution failed: ${error.message}`);
+    continue;
+  }
 
-    const feedState = sourceFeedState(source.id);
+  const feedState = sourceFeedState(source.id);
+  try {
     const entries = await fetchAtomFeed(resolved.channelId);
     rssFetches += 1;
     for (const entry of entries) {
@@ -176,8 +182,13 @@ for (const source of sources) {
         });
       }
     }
+  } catch (error) {
+    rssFailures += 1;
+    console.error(`[${source.id}] RSS discovery failed: ${error.message}`);
+  }
 
-    if (DISCOVERY_MODE === 'rss+playlist') {
+  if (DISCOVERY_MODE === 'rss+playlist') {
+    try {
       const beforePlaylist = source.youtube_uploads_playlist_id || null;
       const uploads = await ensureUploadsPlaylist(source, resolved.channelId);
       if (!uploads?.playlistId) throw new Error('uploads playlist not found');
@@ -200,10 +211,9 @@ for (const source of sources) {
           });
         }
       }
+    } catch (error) {
+      console.error(`[${source.id}] playlist backstop failed: ${error.message}`);
     }
-  } catch (error) {
-    rssFailures += 1;
-    console.error(`[${source.id}] discovery failed: ${error.message}`);
   }
 }
 
