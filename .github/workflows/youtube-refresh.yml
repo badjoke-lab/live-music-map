@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/refresh-youtube-live.mjs'
+      - 'scripts/update-history-stats.mjs'
       - 'data/sources.json'
       - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
@@ -47,24 +48,28 @@ jobs:
           else
             echo "value=rss" >> "$GITHUB_OUTPUT"
           fi
+      - name: Snapshot active streams for history
+        run: node scripts/update-history-stats.mjs snapshot
       - name: Refresh YouTube data
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/refresh-youtube-live.mjs
+      - name: Archive ended streams and build source stats
+        run: node scripts/update-history-stats.mjs finalize
       - name: Commit generated data
         id: commit
         shell: bash
         run: |
-          if git diff --quiet -- data/sources.json data/streams.json data/acquisition.json data/youtube-state.json; then
+          if git diff --quiet -- data/sources.json data/streams.json data/acquisition.json data/youtube-state.json data/stream-history.json data/source-stats.json; then
             echo "No data changes."
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sources.json data/streams.json data/acquisition.json data/youtube-state.json
-          git commit -m "data: refresh YouTube live streams"
+          git add data/sources.json data/streams.json data/acquisition.json data/youtube-state.json data/stream-history.json data/source-stats.json
+          git commit -m "data: refresh YouTube live streams and stats"
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Setup Pages for refreshed data
