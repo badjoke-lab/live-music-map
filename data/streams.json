@@ -13,7 +13,7 @@
     "scheduled_start": "2026-09-02T16:00:00Z",
     "actual_start": "2026-09-02T16:00:00Z",
     "actual_end": null,
-    "concurrent_viewers": 75,
+    "concurrent_viewers": 111,
     "thumbnail": "https://i.ytimg.com/vi/t1f3RZpPxBs/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "22",
@@ -25,6 +25,42 @@
       {
         "type": "youtube_metadata_pattern",
         "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
+  },
+  {
+    "id": "youtube:0m8unFuQrcc",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "upcoming",
+    "source_id": "kcrw",
+    "youtube_video_id": "0m8unFuQrcc",
+    "youtube_url": "https://www.youtube.com/watch?v=0m8unFuQrcc",
+    "title": "LIVE: The Wednesday Music Escape | Morning Becomes Eclectic",
+    "status": "upcoming",
+    "published_at": "2026-09-02T16:51:41Z",
+    "scheduled_start": "2026-09-02T17:00:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/0m8unFuQrcc/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "rejected",
+    "content_type": "interview",
+    "music_live_decision": "deny_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "interview"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -97,6 +133,42 @@
       {
         "type": "youtube_metadata_pattern",
         "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
+  },
+  {
+    "id": "youtube:9tZn5eJPG7w",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "upcoming",
+    "source_id": "the-lot-radio",
+    "youtube_video_id": "9tZn5eJPG7w",
+    "youtube_url": "https://www.youtube.com/watch?v=9tZn5eJPG7w",
+    "title": "FIRST HAND SMOKE with BEARCAT @TheLotRadio 09-02-2026",
+    "status": "upcoming",
+    "published_at": "2026-09-02T16:47:46Z",
+    "scheduled_start": "2026-09-02T19:00:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/9tZn5eJPG7w/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
       }
     ],
     "music_live_requires_schedule_match": false,

@@ -1,8 +1,495 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "definitions": {},
-  "summary": {},
-  "by_source": {},
-  "aggregates": {}
+  "generated_at": "2026-09-02T16:52:48.398Z",
+  "definitions": {
+    "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
+    "source_genres": "Source coverage metadata only; never treated as verified stream genre."
+  },
+  "summary": {
+    "sources_total": 11,
+    "live_now": 1,
+    "upcoming": 7,
+    "observed_live_streams_total": 1,
+    "observed_live_streams_7d": 1,
+    "observed_live_streams_30d": 1,
+    "history_records": 0
+  },
+  "by_source": {
+    "hoer-berlin": {
+      "source_id": "hoer-berlin",
+      "source_name": "HÖR BERLIN",
+      "country_code": "DE",
+      "country": "Germany",
+      "region": "Berlin",
+      "city": "Berlin",
+      "source_type": "independent_media",
+      "source_genres": [
+        "Electronic",
+        "Techno",
+        "House",
+        "Experimental"
+      ],
+      "live_now": 1,
+      "upcoming_count": 3,
+      "observed_live_streams_total": 1,
+      "observed_live_streams_7d": 1,
+      "observed_live_streams_30d": 1,
+      "active_days_30d": 1,
+      "last_live_at": "2026-09-02T16:00:00.000Z",
+      "next_live_at": "2026-09-02T17:00:00.000Z",
+      "observed_content_types": [
+        "dj_set"
+      ]
+    },
+    "the-lot-radio": {
+      "source_id": "the-lot-radio",
+      "source_name": "The Lot Radio",
+      "country_code": "US",
+      "country": "United States",
+      "region": "New York",
+      "city": "Brooklyn",
+      "source_type": "radio",
+      "source_genres": [
+        "Jazz",
+        "House",
+        "Afrobeat",
+        "Electronic",
+        "Techno",
+        "Jungle",
+        "Breaks",
+        "Disco"
+      ],
+      "live_now": 0,
+      "upcoming_count": 1,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-02T19:00:00.000Z",
+      "observed_content_types": []
+    },
+    "dommune": {
+      "source_id": "dommune",
+      "source_name": "DOMMUNE",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Tokyo",
+      "source_type": "studio_media",
+      "source_genres": [
+        "Electronic",
+        "Experimental",
+        "Live Music",
+        "Talk"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "kexp": {
+      "source_id": "kexp",
+      "source_name": "KEXP",
+      "country_code": "US",
+      "country": "United States",
+      "region": "Washington",
+      "city": "Seattle",
+      "source_type": "radio",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "boiler-room": {
+      "source_id": "boiler-room",
+      "source_name": "Boiler Room",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "media_events",
+      "source_genres": [
+        "Electronic",
+        "House",
+        "Techno",
+        "Hip-hop",
+        "Rap",
+        "Afrobeats",
+        "Amapiano"
+      ],
+      "live_now": 0,
+      "upcoming_count": 2,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-03T13:00:00.000Z",
+      "observed_content_types": []
+    },
+    "coachella": {
+      "source_id": "coachella",
+      "source_name": "Coachella",
+      "country_code": "US",
+      "country": "United States",
+      "region": "California",
+      "city": "Indio",
+      "source_type": "festival",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "kcrw": {
+      "source_id": "kcrw",
+      "source_name": "KCRW",
+      "country_code": "US",
+      "country": "United States",
+      "region": "California",
+      "city": "Santa Monica",
+      "source_type": "radio",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "audiotree": {
+      "source_id": "audiotree",
+      "source_name": "Audiotree",
+      "country_code": "US",
+      "country": "United States",
+      "region": "Illinois",
+      "city": "Chicago",
+      "source_type": "studio_media",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "sofar-sounds": {
+      "source_id": "sofar-sounds",
+      "source_name": "Sofar Sounds",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "media_events",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "triple-j": {
+      "source_id": "triple-j",
+      "source_name": "triple j",
+      "country_code": "AU",
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "source_type": "radio",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 1,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-05T07:45:00.000Z",
+      "observed_content_types": []
+    },
+    "arte-concert": {
+      "source_id": "arte-concert",
+      "source_name": "ARTE Concert",
+      "country_code": "FR",
+      "country": "France",
+      "region": "Grand Est",
+      "city": "Strasbourg",
+      "source_type": "media_events",
+      "source_genres": [
+        "Electronic",
+        "Classical",
+        "Hip-hop",
+        "Pop & Rock",
+        "World",
+        "Metal",
+        "Opera",
+        "Jazz",
+        "Performing Arts",
+        "Baroque"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    }
+  },
+  "aggregates": {
+    "by_country": {
+      "DE": {
+        "sources": 1,
+        "live_now": 1,
+        "upcoming": 3,
+        "observed_live_30d": 1
+      },
+      "US": {
+        "sources": 5,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "JP": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "GB": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "AU": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "FR": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      }
+    },
+    "by_source_type": {
+      "independent_media": {
+        "sources": 1,
+        "live_now": 1,
+        "upcoming": 3,
+        "observed_live_30d": 1
+      },
+      "radio": {
+        "sources": 4,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "studio_media": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "media_events": {
+        "sources": 3,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "festival": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      }
+    },
+    "by_source_genre": {
+      "Electronic": {
+        "sources": 5,
+        "live_now": 1,
+        "upcoming": 6,
+        "observed_live_30d": 1
+      },
+      "Techno": {
+        "sources": 3,
+        "live_now": 1,
+        "upcoming": 6,
+        "observed_live_30d": 1
+      },
+      "House": {
+        "sources": 3,
+        "live_now": 1,
+        "upcoming": 6,
+        "observed_live_30d": 1
+      },
+      "Experimental": {
+        "sources": 2,
+        "live_now": 1,
+        "upcoming": 3,
+        "observed_live_30d": 1
+      },
+      "Jazz": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Afrobeat": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Jungle": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Breaks": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Disco": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Live Music": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Talk": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Multi-genre": {
+        "sources": 6,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Hip-hop": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "Rap": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "Afrobeats": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "Amapiano": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "Classical": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Pop & Rock": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "World": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Metal": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Opera": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Performing Arts": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Baroque": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      }
+    },
+    "by_verified_stream_content_type_30d": {
+      "dj_set": 1
+    }
+  }
 }
