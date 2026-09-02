@@ -142,5 +142,29 @@
     "venue": null,
     "location": null,
     "location_rule": "unknown_until_verified"
+  },
+  {
+    "id": "youtube:s6YtrmMlMYU",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "upcoming",
+    "source_id": "triple-j",
+    "youtube_video_id": "s6YtrmMlMYU",
+    "youtube_url": "https://www.youtube.com/watch?v=s6YtrmMlMYU",
+    "title": "triple j's One Night Stand 2026 LIVE (Ninajirachi, DMA'S, Genesis Owusu)",
+    "status": "upcoming",
+    "published_at": "2026-08-28T04:36:30Z",
+    "scheduled_start": "2026-09-05T07:45:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/s6YtrmMlMYU/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
   }
 ]
