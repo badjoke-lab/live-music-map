@@ -7,18 +7,8 @@
     "country_code": "DE",
     "region": "Berlin",
     "city": "Berlin",
-    "location": {
-      "lat": 52.52,
-      "lon": 13.405,
-      "precision": "city_confirmed",
-      "label": "Berlin, Germany"
-    },
-    "genres": [
-      "Electronic",
-      "Techno",
-      "House",
-      "Experimental"
-    ],
+    "location": {"lat": 52.52, "lon": 13.405, "precision": "city_confirmed", "label": "Berlin, Germany"},
+    "genres": ["Electronic", "Techno", "House", "Experimental"],
     "official_site": "https://hoer.live/",
     "schedule_url": "https://hoer.live/calendar/",
     "youtube_url": "https://www.youtube.com/@hoer.berlin",
@@ -35,22 +25,8 @@
     "country_code": "US",
     "region": "New York",
     "city": "Brooklyn",
-    "location": {
-      "lat": 40.722,
-      "lon": -73.953,
-      "precision": "exact_source_location",
-      "label": "Brooklyn, New York"
-    },
-    "genres": [
-      "Jazz",
-      "House",
-      "Afrobeat",
-      "Electronic",
-      "Techno",
-      "Jungle",
-      "Breaks",
-      "Disco"
-    ],
+    "location": {"lat": 40.722, "lon": -73.953, "precision": "exact_source_location", "label": "Brooklyn, New York"},
+    "genres": ["Jazz", "House", "Afrobeat", "Electronic", "Techno", "Jungle", "Breaks", "Disco"],
     "official_site": "https://www.thelotradio.com/",
     "schedule_url": "https://www.thelotradio.com/",
     "youtube_url": "https://www.youtube.com/@TheLotRadio",
@@ -67,18 +43,8 @@
     "country_code": "JP",
     "region": "Tokyo",
     "city": "Tokyo",
-    "location": {
-      "lat": 35.6762,
-      "lon": 139.6503,
-      "precision": "city_confirmed",
-      "label": "Tokyo, Japan"
-    },
-    "genres": [
-      "Electronic",
-      "Experimental",
-      "Live Music",
-      "Talk"
-    ],
+    "location": {"lat": 35.6762, "lon": 139.6503, "precision": "city_confirmed", "label": "Tokyo, Japan"},
+    "genres": ["Electronic", "Experimental", "Live Music", "Talk"],
     "official_site": "https://www.dommune.com/",
     "schedule_url": "https://www.dommune.com/",
     "youtube_url": "https://www.youtube.com/@DOMMUNE",
@@ -95,15 +61,8 @@
     "country_code": "US",
     "region": "Washington",
     "city": "Seattle",
-    "location": {
-      "lat": 47.6062,
-      "lon": -122.3321,
-      "precision": "city_confirmed",
-      "label": "Seattle, Washington"
-    },
-    "genres": [
-      "Multi-genre"
-    ],
+    "location": {"lat": 47.6062, "lon": -122.3321, "precision": "city_confirmed", "label": "Seattle, Washington"},
+    "genres": ["Multi-genre"],
     "official_site": "https://www.kexp.org/",
     "schedule_url": "https://www.kexp.org/events/",
     "youtube_url": "https://www.youtube.com/KEXP",
@@ -120,21 +79,8 @@
     "country_code": "GB",
     "region": "England",
     "city": "London",
-    "location": {
-      "lat": 51.5072,
-      "lon": -0.1276,
-      "precision": "operator_city_only",
-      "label": "London, UK"
-    },
-    "genres": [
-      "Electronic",
-      "House",
-      "Techno",
-      "Hip-hop",
-      "Rap",
-      "Afrobeats",
-      "Amapiano"
-    ],
+    "location": {"lat": 51.5072, "lon": -0.1276, "precision": "operator_city_only", "label": "London, UK"},
+    "genres": ["Electronic", "House", "Techno", "Hip-hop", "Rap", "Afrobeats", "Amapiano"],
     "official_site": "https://boilerroom.tv/",
     "schedule_url": "https://boilerroom.tv/upcoming/",
     "youtube_url": "https://www.youtube.com/@boilerroom",
@@ -151,15 +97,8 @@
     "country_code": "US",
     "region": "California",
     "city": "Indio",
-    "location": {
-      "lat": 33.7206,
-      "lon": -116.2156,
-      "precision": "event_city_confirmed",
-      "label": "Indio, California"
-    },
-    "genres": [
-      "Multi-genre"
-    ],
+    "location": {"lat": 33.7206, "lon": -116.2156, "precision": "event_city_confirmed", "label": "Indio, California"},
+    "genres": ["Multi-genre"],
     "official_site": "https://www.coachella.com/",
     "schedule_url": "https://coachella.com/youtube-livestream",
     "youtube_url": "https://www.youtube.com/@Coachella",
@@ -176,15 +115,8 @@
     "country_code": "US",
     "region": "California",
     "city": "Santa Monica",
-    "location": {
-      "lat": 34.0195,
-      "lon": -118.4912,
-      "precision": "city_confirmed",
-      "label": "Santa Monica, California"
-    },
-    "genres": [
-      "Multi-genre"
-    ],
+    "location": {"lat": 34.0195, "lon": -118.4912, "precision": "city_confirmed", "label": "Santa Monica, California"},
+    "genres": ["Multi-genre"],
     "official_site": "https://www.kcrw.com/",
     "schedule_url": "https://www.kcrw.com/pages/live-sessions",
     "youtube_url": "https://www.youtube.com/channel/UC54U5gpKkaa_BpXRVNip2Dw",
@@ -201,15 +133,8 @@
     "country_code": "US",
     "region": "Illinois",
     "city": "Chicago",
-    "location": {
-      "lat": 41.8781,
-      "lon": -87.6298,
-      "precision": "city_confirmed",
-      "label": "Chicago, Illinois"
-    },
-    "genres": [
-      "Multi-genre"
-    ],
+    "location": {"lat": 41.8781, "lon": -87.6298, "precision": "city_confirmed", "label": "Chicago, Illinois"},
+    "genres": ["Multi-genre"],
     "official_site": "https://www.audiotree.tv/",
     "schedule_url": "https://www.audiotree.tv/",
     "youtube_url": "https://www.youtube.com/channel/UCWjmAUHmajb1-eo5WKk_22A",
@@ -226,15 +151,8 @@
     "country_code": "GB",
     "region": "England",
     "city": "London",
-    "location": {
-      "lat": 51.5072,
-      "lon": -0.1276,
-      "precision": "origin_city_only",
-      "label": "London, UK (origin only)"
-    },
-    "genres": [
-      "Multi-genre"
-    ],
+    "location": {"lat": 51.5072, "lon": -0.1276, "precision": "origin_city_only", "label": "London, UK (origin only)"},
+    "genres": ["Multi-genre"],
     "official_site": "https://www.sofarsounds.com/",
     "schedule_url": "https://www.sofarsounds.com/",
     "youtube_url": "https://www.youtube.com/sofarsounds",
@@ -242,5 +160,37 @@
     "note": "Global network operating in hundreds of cities; London is the origin city, not the location of each event. Event location must override this source-level origin.",
     "youtube_channel_id": "UCRLZb8PpI9N7COmYqHiDH7A",
     "youtube_uploads_playlist_id": "UURLZb8PpI9N7COmYqHiDH7A"
+  },
+  {
+    "id": "triple-j",
+    "name": "triple j",
+    "type": "radio",
+    "country": "Australia",
+    "country_code": "AU",
+    "region": "New South Wales",
+    "city": "Sydney",
+    "location": {"lat": -33.8688, "lon": 151.2093, "precision": "operator_city_only", "label": "Sydney, Australia (network base)"},
+    "genres": ["Multi-genre"],
+    "official_site": "https://www.abc.net.au/triplej/",
+    "schedule_url": "https://www.abc.net.au/triplej/live-music",
+    "youtube_url": "https://www.youtube.com/triplej",
+    "status": "mixed",
+    "note": "National Australian radio network with studio sessions, festival recordings and event livestreams. Sydney is source-level only; event locations must override it."
+  },
+  {
+    "id": "arte-concert",
+    "name": "ARTE Concert",
+    "type": "media_events",
+    "country": "France",
+    "country_code": "FR",
+    "region": "Grand Est",
+    "city": "Strasbourg",
+    "location": {"lat": 48.5734, "lon": 7.7521, "precision": "operator_city_only", "label": "Strasbourg, France (operator base)"},
+    "genres": ["Electronic", "Classical", "Hip-hop", "Pop & Rock", "World", "Metal", "Opera", "Jazz", "Performing Arts", "Baroque"],
+    "official_site": "https://www.arte.tv/en/arte-concert/",
+    "schedule_url": "https://www.arte.tv/en/arte-concert/",
+    "youtube_url": "https://www.youtube.com/@arteconcert",
+    "status": "event_based",
+    "note": "Concerts and livestreams originate from many venues and festivals; Strasbourg is operator-level only and must never be used as an event location."
   }
 ]
