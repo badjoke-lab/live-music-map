@@ -6,6 +6,14 @@ R2なし・自前動画配信なしの地図型MVP。
 
 https://badjoke-lab.github.io/live-music-map/
 
+## Development source of truth
+
+- `docs/PRODUCT_SPEC.md`: product / technical specification
+- `docs/EXECUTION_PLAN.md`: milestone schedule and completion gates
+- `docs/DECISIONS.md`: append-only durable decision log
+- `AGENTS.md`: repository-wide agent operating contract
+- `docs/AGENT_ROLES.md`: research / ingestion / acquisition / quality / UI / release / documentation agent roles
+
 ## Data
 
 - `data/sources.json`: 配信元プロフィール。国・地域・都市・source type・source-level genres・配信形式・schedule pattern・music-live判定方針・YouTube識別子を保持する。
