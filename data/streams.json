@@ -13,7 +13,7 @@
     "scheduled_start": "2026-09-02T19:00:00Z",
     "actual_start": "2026-09-02T19:04:10Z",
     "actual_end": null,
-    "concurrent_viewers": 16,
+    "concurrent_viewers": 7,
     "thumbnail": "https://i.ytimg.com/vi/IUJAIQWpYwA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "22",
@@ -169,6 +169,42 @@
       {
         "type": "youtube_metadata_pattern",
         "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
+  },
+  {
+    "id": "youtube:sFjZgIHVT7A",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "upcoming",
+    "source_id": "kcrw",
+    "youtube_video_id": "sFjZgIHVT7A",
+    "youtube_url": "https://www.youtube.com/watch?v=sFjZgIHVT7A",
+    "title": "LIVE: Guest DJ Set with Cut Chemist | Morning Becomes Eclectic",
+    "status": "upcoming",
+    "published_at": "2026-09-02T22:38:21Z",
+    "scheduled_start": "2026-09-03T17:00:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/sFjZgIHVT7A/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "rejected",
+    "content_type": "news",
+    "music_live_decision": "deny_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "news"
       }
     ],
     "music_live_requires_schedule_match": false,
