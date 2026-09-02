@@ -65,6 +65,23 @@ Target desktop theater behavior is constrained to the center/map region so the l
 
 The current floating page-level implementation is transitional and must be replaced.
 
+## 2026-09-03 — Theater interaction correction — supersedes prior Theater interaction entry
+
+The previous center/map-region statement was a documentation error and is superseded by this entry.
+
+The agreed theater behavior is the **floating page-level theater already implemented in PR #21**:
+
+- it floats above the normal site layout;
+- map, left source list, right detail and top controls remain visible and usable;
+- it is draggable and resizable on desktop;
+- it must not replace the center/map pane;
+- it must not be constrained to the center/map region only;
+- it must not become a browser-wide video-only takeover;
+- closing clears the iframe source and preserves normal page context;
+- mobile uses a responsive floating presentation.
+
+This corrected entry is authoritative for theater behavior.
+
 ## 2026-09-03 — Cluster semantics
 
 Cluster center number always means total Source count.
