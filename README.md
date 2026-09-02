@@ -10,6 +10,8 @@ https://badjoke-lab.github.io/live-music-map/
 
 - `data/sources.json`: 配信元プロフィール。国・地域・都市・source type・source-level genres・配信形式・schedule pattern・music-live判定方針・YouTube識別子を保持する。
 - `data/streams.json`: YouTube LIVE / upcoming の個別配信。sourceと分離し、配信ごとに `music_live_status` / `content_type` / 判定根拠を保持する。
+- `data/stream-history.json`: 実際に `live` として観測した verified music stream の履歴。Upcomingだけで終了したものは履歴件数に含めない。
+- `data/source-stats.json`: sourceごとのLIVE中件数・Upcoming件数・観測LIVE累計・7日/30日件数・active days・last/next liveと、国/source type/source genre/content type別集計。
 - `data/acquisition.json`: 自動取得方式・取得間隔・classifier version。
 - `data/youtube-state.json`: Atom feed差分検知用の生成state。
 
@@ -59,6 +61,26 @@ AIは使用しない。新しいLIVE / upcomingごとにルールベースで判
 - `content_type`: live_performance / dj_set / concert / festival_stream / studio_session / interview / talk 等
 - `music_live_decision`, `music_live_evidence`, `classifier_version`
 - performer / venue / stream genre / stream locationは確認できた場合だけ格納
+
+## History and derived statistics
+
+Refresh前のactive stream集合を一時snapshotし、refresh後に消えたレコードのうち、以前に `music_live_status=verified` かつ `status=live` と実観測できたものだけをhistoryへ移す。Upcomingだっただけの配信は歴史上のLIVE件数として数えない。
+
+`source-stats.json` はhistoryと現在のverified streamから生成する。主なfieldは以下。
+
+- `live_now`
+- `upcoming_count`
+- `observed_live_streams_total`
+- `observed_live_streams_7d`
+- `observed_live_streams_30d`
+- `active_days_30d`
+- `last_live_at`
+- `next_live_at`
+- `observed_content_types[]`
+
+集計は `by_country` / `by_source_type` / `by_source_genre` / `by_verified_stream_content_type_30d` を生成する。`by_source_genre` はsource coverageの集計であり、verified stream genreとは混同しない。
+
+YouTubeが終了時刻を返す前にactive集合から消えた場合、`actual_end` は推測せず `null` のままにして `ended_observed_at` を別fieldで保持する。
 
 ## Data rules
 
