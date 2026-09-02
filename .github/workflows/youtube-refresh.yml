@@ -1,6 +1,12 @@
 name: Refresh YouTube live streams
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh-youtube-live.mjs'
+      - 'data/sources.json'
+      - '.github/workflows/youtube-refresh.yml'
   schedule:
     - cron: '17 1,4,7,10,13,16,19,22 * * *'
     - cron: '47 0,12 * * *'
