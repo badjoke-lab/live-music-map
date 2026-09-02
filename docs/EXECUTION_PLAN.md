@@ -19,11 +19,10 @@ Completed:
 - source statistics generator
 - marker clustering and spiderfy
 - cluster total/source-state count separation
+- floating draggable/resizable theater
 - theater action label `シアター`
-
-Current known UI mismatch:
-
-- theater is still implemented as a floating page-level window; target behavior is center/map-region constrained theater per `docs/PRODUCT_SPEC.md`.
+- right detail order: LIVE -> source information -> Upcoming
+- compact Upcoming section
 
 Current registered source baseline when this plan was written: 11.
 
@@ -38,34 +37,23 @@ A milestone is not complete because code exists on a branch. Completion requires
 3. generated data or UI behavior inspected where applicable;
 4. Pages deploy confirmed when public output changes.
 
-## M0 — UI contract cleanup
+## M0 — UI contract cleanup — completed
 
-Goal: finish the interaction model before scaling source count.
+The agreed desktop interaction contract is now:
 
-Tasks:
+- theater is a floating page-level window;
+- normal map/list/detail/top controls remain visible and usable;
+- theater is draggable and resizable on desktop;
+- theater does not replace the center/map pane;
+- browser-wide video-only takeover is not used;
+- cluster center = total sources;
+- red ring/halo + `LIVE n` when LIVE exists;
+- orange ring + `UP n` when Upcoming exists without LIVE;
+- Source-only cluster remains neutral;
+- right detail order is LIVE -> source information -> Upcoming;
+- only a small initial Upcoming set is expanded.
 
-- replace floating theater with center/map-region constrained theater;
-- keep left source list, right source detail and top controls visible while theater is open;
-- preserve selected source when theater closes;
-- verify cluster rendering:
-  - center = total sources;
-  - red ring/halo when LIVE exists;
-  - `LIVE n` = source count with LIVE;
-  - orange ring when only Upcoming exists;
-  - `UP n` = source count with Upcoming;
-  - gray when Source-only;
-- verify right detail order:
-  - LIVE;
-  - source information;
-  - Upcoming;
-- keep only a small initial Upcoming set expanded;
-- desktop and mobile visual check.
-
-Exit gate:
-
-- no browser-wide video takeover;
-- no ambiguous cluster count semantics;
-- source/channel information visible without scrolling past a long Upcoming stack.
+Future UI work is continuous refinement, not a prerequisite rewrite of the theater model.
 
 ## M1 — Source data contract freeze
 
@@ -313,9 +301,9 @@ Continuously verify:
 - cluster state is understandable at a glance;
 - dense cities remain selectable;
 - channel information is accessible;
-- theater does not hide navigation/context;
+- floating theater remains draggable/resizable on desktop and does not destroy page context;
 - mobile layout remains operable.
 
 ## What to do next
 
-The next scheduled milestone is **M0 UI contract cleanup**, specifically replacing the floating theater with a center/map-region constrained theater. After M0 passes, continue immediately to **M1 data contract freeze**, then **M2 100-source expansion**.
+The next scheduled milestone is **M1 Source data contract freeze**. After M1 passes, continue immediately to **M2 11 -> 100-source expansion**.
