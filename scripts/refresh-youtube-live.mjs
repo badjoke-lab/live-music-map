@@ -13,6 +13,7 @@ const acquisitionPath = new URL('../data/acquisition.json', import.meta.url);
 
 const sources = JSON.parse(await fs.readFile(sourcesPath, 'utf8'));
 const previousStreams = JSON.parse(await fs.readFile(streamsPath, 'utf8'));
+const sourceBySourceId = new Map(sources.map((source) => [source.id, source]));
 let acquisition = {};
 try { acquisition = JSON.parse(await fs.readFile(acquisitionPath, 'utf8')); } catch {}
 
@@ -127,8 +128,7 @@ function chunks(values, size) {
 
 const fresh = [];
 const failedSources = new Set();
-const idsBySource = new Map();
-const sourceById = new Map();
+const sourceByVideoId = new Map();
 let sourceChanged = false;
 let playlistQueries = 0;
 let videoQueries = 0;
@@ -143,21 +143,30 @@ for (const source of sources) {
     const playlist = await api('playlistItems', {
       part: 'contentDetails',
       playlistId: resolved.uploadsPlaylistId,
-      maxResults: 15
+      maxResults: 25
     });
     playlistQueries += 1;
     const ids = (playlist.items || [])
       .map((item) => item.contentDetails?.videoId)
       .filter((id) => typeof id === 'string' && /^[A-Za-z0-9_-]{11}$/.test(id));
-    idsBySource.set(source.id, ids);
-    for (const id of ids) sourceById.set(id, source);
+    for (const id of ids) sourceByVideoId.set(id, source);
   } catch (error) {
     failedSources.add(source.id);
     console.error(`[${source.id}] discovery failed; preserving previous records: ${error.message}`);
   }
 }
 
-const allIds = [...sourceById.keys()];
+// Keep tracking already-known live/upcoming IDs even if a busy channel pushes the
+// scheduled video outside the most recent uploads window.
+for (const record of previousStreams) {
+  if (record.origin !== 'youtube_api') continue;
+  if (typeof record.youtube_video_id !== 'string' || !/^[A-Za-z0-9_-]{11}$/.test(record.youtube_video_id)) continue;
+  const source = sourceBySourceId.get(record.source_id);
+  if (!source || failedSources.has(source.id)) continue;
+  sourceByVideoId.set(record.youtube_video_id, source);
+}
+
+const allIds = [...sourceByVideoId.keys()];
 for (const batch of chunks(allIds, 50)) {
   try {
     const details = await api('videos', {
@@ -166,13 +175,13 @@ for (const batch of chunks(allIds, 50)) {
     });
     videoQueries += 1;
     for (const video of details.items || []) {
-      const source = sourceById.get(video.id);
+      const source = sourceByVideoId.get(video.id);
       const status = liveState(video);
       if (source && status) fresh.push(toRecord(source, video, status));
     }
   } catch (error) {
     for (const id of batch) {
-      const source = sourceById.get(id);
+      const source = sourceByVideoId.get(id);
       if (source) failedSources.add(source.id);
     }
     console.error(`[videos] detail refresh failed; preserving affected sources: ${error.message}`);
@@ -199,17 +208,19 @@ const merged = [...preserved, ...fresh]
 if (sourceChanged) await fs.writeFile(sourcesPath, `${JSON.stringify(sources, null, 2)}\n`);
 await fs.writeFile(streamsPath, `${JSON.stringify(merged, null, 2)}\n`);
 
-acquisition.youtube = {
-  ...(acquisition.youtube || {}),
-  configured: true,
-  mode: 'youtube_data_api_v3',
-  strategy: 'uploads_playlist_recent_video_poll',
-  search_list_used: false,
-  poll_cadence_minutes: 30,
-  recent_videos_per_source: 15
-};
-delete acquisition.youtube.live_cadence_hours;
-delete acquisition.youtube.upcoming_cadence_hours;
-await fs.writeFile(acquisitionPath, `${JSON.stringify(acquisition, null, 2)}\n`);
+if (playlistQueries > 0) {
+  acquisition.youtube = {
+    ...(acquisition.youtube || {}),
+    configured: true,
+    mode: 'youtube_data_api_v3',
+    strategy: 'uploads_playlist_recent_video_poll',
+    search_list_used: false,
+    poll_cadence_minutes: 30,
+    recent_videos_per_source: 25
+  };
+  delete acquisition.youtube.live_cadence_hours;
+  delete acquisition.youtube.upcoming_cadence_hours;
+  await fs.writeFile(acquisitionPath, `${JSON.stringify(acquisition, null, 2)}\n`);
+}
 
 console.log(`YouTube refresh complete: ${playlistQueries} playlist queries, ${videoQueries} batched video queries, ${fresh.length} active records, ${failedSources.size} preserved sources.`);
