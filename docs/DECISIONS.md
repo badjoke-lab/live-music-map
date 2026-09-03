@@ -132,3 +132,20 @@ For normal RSS-only runs, `scripts/rss-failure-fallback.mjs` provides a bounded 
 - `search.list` remains unused.
 
 Because Atom reliability has now failed in production, WebSub migration is no longer deferred until after 1,000 Sources. Push acquisition should be implemented and measured during the 100–300 Source phase, while this bounded fallback remains the polling safety net.
+
+## 2026-09-04 — Map location display classes
+
+Public map location presentation is split into four Japanese-facing classes:
+
+1. `実際の会場・配信地点`
+2. `配信元拠点`
+3. `国レベル`
+4. `不明`
+
+The first three remain discoverable on the map. `不明` remains in the Source list and location totals but is not assigned a synthetic map coordinate.
+
+`country_only` Sources keep factual `location.lat/lon=null` in canonical data. The frontend may use a separate country reference point only for display, with a visually distinct country-level marker and an explicit notice that it is not the actual venue, stream location, or source-base coordinate.
+
+LIVE / Upcoming / Source-only state color remains independent from location precision marker shape.
+
+The Source-list header must show total Source count plus the four-class breakdown, and the four counts must sum to the total.
