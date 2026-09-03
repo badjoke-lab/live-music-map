@@ -26,12 +26,13 @@ Completed:
 - Source v2 contract freeze and validator
 - Source evidence/provenance structure
 - duplicate Source id / YouTube channel id / YouTube URL rejection
+- M2 expansion batch 001 and 002
 
-Current registered source baseline when this plan was written: 11.
+Current registered source baseline: **20 production Sources**.
 
 ## Execution rule
 
-Milestones are sequential unless an urgent production defect blocks users.
+Milestones are sequential unless an urgent production defect blocks users or would multiply during bulk expansion.
 
 A milestone is not complete because code exists on a branch. Completion requires:
 
@@ -60,31 +61,49 @@ Future UI work is continuous refinement, not a prerequisite rewrite of the theat
 
 ## M1 — Source data contract freeze — completed
 
-The production Source contract is now frozen in `docs/SOURCE_CONTRACT_V2.md` and enforced by `scripts/validate-sources.mjs`.
+The production Source contract is frozen in `docs/SOURCE_CONTRACT_V2.md` and enforced by `scripts/validate-sources.mjs`.
 
 Completed work:
 
-- all existing 11 Source v2 records migrated to the same contract used for future records;
-- non-standard location precision values removed;
-- `location.role` added so source base / operator base / origin / recurring event home are not conflated;
-- source `genres[]` and `formats[]` cleaned so non-music content such as Talk is not counted as a music genre/format;
-- structured official `evidence[]` added for identity, official YouTube channel and music-live capability;
-- duplicate Source ids rejected;
-- duplicate YouTube channel ids rejected;
-- duplicate YouTube URLs rejected;
-- canonical uploads playlist id checked against the channel id;
-- validation runs before YouTube refresh and before Pages deployment.
+- existing Sources migrated to one contract;
+- normalized location precision and `location.role`;
+- structured official `evidence[]`;
+- duplicate Source/channel/YouTube URL rejection;
+- canonical uploads playlist check;
+- validation before refresh and Pages deployment.
+
+## M1.5 — acquisition reliability hotfix — current blocking gate
+
+Why this gate exists:
+
+After reaching 20 Sources, consecutive production runs showed widespread YouTube Atom failures: 19/20 feeds and then 18/20 feeds failed while uploads-playlist API calls still succeeded. Continuing bulk expansion without a fallback would multiply a real 15-minute discovery failure.
+
+Implement before further source batches:
+
+- keep Atom RSS as the zero-quota primary polling input;
+- on RSS-only runs, probe feed health;
+- fallback only for failed Sources;
+- successful fallback cooldown: 6 hours per Source;
+- failed API-attempt cooldown: 1 hour;
+- when at least 50% of feeds fail together, spread failed Sources across 24 deterministic 15-minute cohorts;
+- latest 25 uploads only;
+- batch `videos.list`;
+- keep daily full playlist backstop;
+- keep `search.list` at zero;
+- record fallback state in `youtube-state.json`;
+- verify the behavior in an actual scheduled RSS-only run.
 
 Exit gate:
 
-- existing records pass the same requirements applied to new records;
-- adding the 100th source does not require a Source schema redesign.
+- scheduled RSS-only run invokes bounded fallback when feeds fail;
+- playlist fallback volume is bounded and visible in logs;
+- generated data and Pages remain healthy.
 
-## M2 — 11 -> 100 sources
+## M2 — 20 -> 100 sources
 
-Goal: first real-world expansion batch.
+Goal: first real-world expansion milestone.
 
-Target: 100 total registered sources.
+Target: 100 total registered Sources. **Remaining after batch 002: 80.**
 
 Required source mix:
 
@@ -106,7 +125,7 @@ Per-source admission process:
 1. confirm official channel/operator identity;
 2. confirm official site or equivalent first-party evidence;
 3. confirm current/recurring live-music behavior;
-4. record location only at the verified precision and role;
+4. record location only at verified precision and role;
 5. assign non-AI music-live policy;
 6. add Source v2 record with `evidence[]`;
 7. pass `node scripts/validate-sources.mjs`.
@@ -114,7 +133,7 @@ Per-source admission process:
 Batch verification:
 
 - run collector;
-- RSS failure count;
+- RSS failure count and bounded-fallback count;
 - channel resolution failures;
 - duplicate ids/channel ids;
 - verified/rejected/unknown classification counts;
@@ -122,46 +141,59 @@ Batch verification:
 
 Exit gate:
 
-- 100 production sources;
-- acquisition run succeeds;
+- 100 production Sources;
+- acquisition run succeeds despite individual or widespread RSS failures;
 - no known duplicate channel ids;
 - obvious talk/news false positives corrected.
 
-## M3 — 100-source acquisition audit
+## M3 — 100-source acquisition audit + WebSub prototype
 
-Goal: measure the system instead of estimating it.
+Goal: measure the system instead of estimating it and start removing dependence on Atom polling.
 
 Record:
 
 - complete workflow duration;
 - Atom feed success/failure rate;
+- fallback playlist volume;
 - regular YouTube API units used by each acquisition mode;
-- number of active live/upcoming records;
+- active live/upcoming records;
 - classification distribution;
-- source-specific false positives/false negatives found by manual sample;
+- source-specific false positives/false negatives from manual samples;
 - Pages/data generation duration;
 - clustering usability in high-density cities.
 
-Fix any systemic problem before expansion continues.
+In parallel, implement the first official YouTube WebSub/PubSubHubbub prototype:
+
+- subscribe registered channels;
+- receive upload/update notifications;
+- map notifications to changed video ids;
+- use `videos.list` for changed ids;
+- prove subscription renewal from actual lease information rather than guessed durations.
 
 Exit gate:
 
-- measured baseline documented;
-- no unresolved issue likely to multiply badly at 300 sources.
+- measured 100-Source baseline documented;
+- no unresolved issue likely to multiply badly at 300 Sources;
+- WebSub prototype works end-to-end for a controlled subset.
 
-## M4 — 100 -> 300 sources
+## M4 — 100 -> 300 sources + WebSub production migration
 
-Goal: geographic breadth.
+Goal: geographic breadth while moving primary discovery toward push.
 
-Add 200 sources, prioritizing countries/cities/source types poorly represented in the first 100.
+Add 200 Sources, prioritizing countries/cities/source types poorly represented in the first 100.
 
-Use generated source statistics to detect bias.
+During this phase:
+
+- expand WebSub from prototype subset to production Sources;
+- keep bounded RSS/playlist logic as a safety backstop;
+- use generated source statistics to detect geographic/source-type bias.
 
 Exit gate:
 
-- 300 production sources;
+- 300 production Sources;
 - regional and source-type coverage review complete;
-- acquisition remains within operational limits.
+- push acquisition is the preferred discovery path for supported Sources;
+- polling fallback remains within operational/API limits.
 
 ## M5 — 300 -> 600 sources
 
@@ -176,24 +208,23 @@ Expansion emphasis:
 - local festivals;
 - small artist/independent channels.
 
-Use 30-day observed-live stats to identify sources that are actually active.
+Use 30-day observed-live stats to identify Sources that are actually active.
 
 Exit gate:
 
-- 600 production sources;
+- 600 production Sources;
 - inactive/dead-source handling defined;
 - no major map UX failure from density.
 
 ## M6 — 600 -> 1,000 sources
 
-Goal: reach the operational target of the current polling architecture.
-
-At 1,000, measure again rather than assuming capacity.
+Goal: reach the first four-digit Source milestone with push plus bounded polling fallback.
 
 Required audit:
 
-- 15-minute scheduled run duration;
-- RSS feed request duration/failure rate;
+- scheduled run duration;
+- WebSub subscription/notification health;
+- RSS/fallback request volume;
 - YouTube API regular quota use;
 - generated JSON size;
 - source list/map rendering performance;
@@ -201,9 +232,9 @@ Required audit:
 
 Exit gate:
 
-- 1,000 production sources;
-- measured decision on whether current architecture can temporarily continue beyond 1,000;
-- WebSub migration implementation ready to begin.
+- 1,000 production Sources;
+- measured decision on the storage/frontend architecture for the next scale stage;
+- acquisition no longer depends on every Atom feed succeeding every 15 minutes.
 
 ## M7 — Event / Stage / Performance / Artist normalization
 
@@ -230,38 +261,34 @@ Rules:
 
 Exit gate:
 
-- multi-stage festivals and touring event sources can be represented without false location/artist assumptions;
+- multi-stage festivals and touring event Sources can be represented without false location/artist assumptions;
 - artist/venue/event statistics can be derived from verified relationships.
 
-## M8 — 1,000-source acquisition redesign
+## M8 — 1,000-source acquisition/storage hardening
 
-Goal: remove full-scan polling as the primary growth architecture.
+WebSub work begins earlier in M3/M4; this milestone is no longer the first WebSub implementation.
 
-Primary direction:
+At 1,000 Sources, harden the push architecture for the 10,000 target:
 
-- YouTube WebSub/PubSubHubbub subscriptions for registered channels;
 - Worker callback receives upload/update notifications;
 - changed video ids only go through `videos.list`;
 - upcoming streams are checked near scheduled start;
 - live streams are rechecked while active;
-- playlist backstop is staggered across days;
+- playlist backstop is staggered;
 - D1 stores subscription/state/event data if required;
 - no R2.
 
 Exit gate:
 
-- push path works end-to-end;
-- lease renewal is implemented from actual subscription lease information rather than guessed duration;
-- fallback/backstop works;
-- normal operation no longer requires polling every registered source every 15 minutes.
+- push path is production-proven at 1,000 Sources;
+- renewal and fallback/backstop are measured;
+- normal operation does not require successful Atom polling for every registered Source.
 
 ## M9 — 1,000 -> 10,000 sources
 
-Goal: global long-tail coverage while retaining $0/month target where practical.
+Goal: global long-tail coverage while retaining the $0/month target where practical.
 
-Scale in controlled batches with explicit metrics rather than one 9,000-source import.
-
-Suggested checkpoints:
+Scale in controlled batches with checkpoints:
 
 - 2,000
 - 3,000
@@ -278,11 +305,11 @@ At each checkpoint monitor:
 - active/upcoming status-check volume;
 - frontend data size/performance;
 - geographic/source-type imbalance;
-- stale/dead source rate.
+- stale/dead Source rate.
 
 Exit gate:
 
-- 10,000 production sources or a documented hard external limit with measured evidence and a replacement architecture.
+- 10,000 production Sources or a documented hard external limit with measured evidence and a replacement architecture.
 
 ## Continuous workstream — data quality
 
@@ -299,8 +326,6 @@ Runs throughout all milestones:
 
 ## Continuous workstream — UI
 
-Do not let bulk ingestion make the product unusable.
-
 Continuously verify:
 
 - LIVE remains visually dominant;
@@ -308,9 +333,9 @@ Continuously verify:
 - cluster state is understandable at a glance;
 - dense cities remain selectable;
 - channel information is accessible;
-- floating theater remains draggable/resizable on desktop and does not destroy page context;
+- floating theater remains draggable/resizable and preserves page context;
 - mobile layout remains operable.
 
 ## What to do next
 
-The next scheduled milestone is **M2 11 -> 100-source expansion**. Start with verified, geographically diverse production Sources and do not weaken the Source v2 contract to increase count.
+Complete **M1.5 acquisition reliability hotfix** and verify it in a real RSS-only scheduled run. Then resume **M2 from 20 -> 100 Sources** without weakening the Source v2 contract.
