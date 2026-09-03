@@ -4346,5 +4346,857 @@
     "note": "London is operator base only; long-running radio is seeded once during onboarding.",
     "youtube_channel_id": "UCWzZ5TIGoZ6o-KtbGCyhnhg",
     "youtube_uploads_playlist_id": "UUWzZ5TIGoZ6o-KtbGCyhnhg"
+  },
+  {
+    "schema_version": 2,
+    "id": "apia40",
+    "name": "APIA40",
+    "operator_name": "Permeige Company",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "5-6-9 Himonya, Meguro, Tokyo, Japan"
+    },
+    "genres": [
+      "Acoustic",
+      "Rock",
+      "Folk",
+      "Blues",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://apia-net.com/",
+    "schedule_url": "https://www.apia-net.com/sch.html",
+    "youtube_url": "https://www.youtube.com/channel/UCx9fIp1QagzSHhEZn6dWwIA",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "生配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://apia-net.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.apia-net.com/sch.html",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/APIA40",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The 2026 venue schedule repeatedly identifies free livestreams on the APIA40 official YouTube channel. Text address is exact; coordinates are intentionally unset until independently geocoded.",
+    "youtube_channel_id": "UCx9fIp1QagzSHhEZn6dWwIA",
+    "youtube_uploads_playlist_id": "UUx9fIp1QagzSHhEZn6dWwIA"
+  },
+  {
+    "schema_version": 2,
+    "id": "rock-joint-gb",
+    "name": "ROCK JOINT GB",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Musashino",
+    "location": {
+      "lat": 35.704908,
+      "lon": 139.576818,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "2-13-14 Kichijoji Honcho B1, Musashino, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.rjgb.tokyo/",
+    "schedule_url": "https://www.rjgb.tokyo/",
+    "youtube_url": "https://www.youtube.com/channel/UCXkBt_D2xQ5uOCgEMMgWnrw",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.rjgb.tokyo/",
+        "supports": [
+          "identity",
+          "source_location",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCXkBt_D2xQ5uOCgEMMgWnrw",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official site states that the venue is equipped for livestreaming and links distributed performance video.",
+    "youtube_channel_id": "UCXkBt_D2xQ5uOCgEMMgWnrw",
+    "youtube_uploads_playlist_id": "UUXkBt_D2xQ5uOCgEMMgWnrw"
+  },
+  {
+    "schema_version": 2,
+    "id": "yotsuya-outbreak",
+    "name": "Yotsuya OUTBREAK!",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.68778,
+      "lon": 139.72083,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "2-10 Yotsuya, Shinjuku, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Punk",
+      "Metal",
+      "Experimental",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://hor-outbreak.com/",
+    "schedule_url": "https://hor-outbreak.com/events",
+    "youtube_url": "https://www.youtube.com/channel/UCl3N10_0XAzgNA2m08UYvRQ",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "生配信",
+        "配信ライブ",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "talk",
+        "トーク",
+        "interview",
+        "インタビュー"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://hor-outbreak.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://hor-outbreak.com/events/2765",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCl3N10_0XAzgNA2m08UYvRQ",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The official venue archive documents YouTube livestream performances. The channel is mixed, so ambiguous live items fail closed.",
+    "youtube_channel_id": "UCl3N10_0XAzgNA2m08UYvRQ",
+    "youtube_uploads_playlist_id": "UUl3N10_0XAzgNA2m08UYvRQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "the-shojimaru",
+    "name": "THE SHOJIMARU",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.6947789,
+      "lon": 139.7679856,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "1-4-6 Kanda Sudacho B1, Chiyoda, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Blues",
+      "Singer-Songwriter",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://shojimaru.omatsuri.tech/",
+    "schedule_url": "https://shojimaru.omatsuri.tech/events",
+    "youtube_url": "https://www.youtube.com/channel/UCk2WnOBPrTQBKaVHTxpXIFA",
+    "status": "recurring",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://shojimaru.omatsuri.tech/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://shojimaru.omatsuri.tech/events/26582",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCk2WnOBPrTQBKaVHTxpXIFA",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official event pages link YouTube Live broadcasts from the venue; some current paid streams use other platforms.",
+    "youtube_channel_id": "UCk2WnOBPrTQBKaVHTxpXIFA",
+    "youtube_uploads_playlist_id": "UUk2WnOBPrTQBKaVHTxpXIFA"
+  },
+  {
+    "schema_version": 2,
+    "id": "live-house-fever",
+    "name": "LIVE HOUSE FEVER",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.662735,
+      "lon": 139.660021,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "1-1-14 Hanegi, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Indie",
+      "Alternative",
+      "Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.fever-popo.com/",
+    "schedule_url": "https://www.fever-popo.com/schedule/",
+    "youtube_url": "https://www.youtube.com/channel/UCd5faoIl0eKF1S1eyrlLBvA",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "livestream",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.fever-popo.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.fever-popo.com/blog/fever/2020/07/131702.html",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/LIVEHOUSEFEVER",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official FEVER pages document free YouTube livestream concerts; the venue also uses ticketed streaming services for some events.",
+    "youtube_channel_id": "UCd5faoIl0eKF1S1eyrlLBvA",
+    "youtube_uploads_playlist_id": "UUd5faoIl0eKF1S1eyrlLBvA"
+  },
+  {
+    "schema_version": 2,
+    "id": "shimokitazawa-reg",
+    "name": "Shimokitazawa ReG",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.657976,
+      "lon": 139.667892,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "5-30-10 Daizawa B1, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Alternative",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.reg-r2.com/",
+    "schedule_url": "https://www.reg-r2.com/schedule/",
+    "youtube_url": "https://www.youtube.com/channel/UC9ZYdLK8qxh8K4SKWzmU-0g",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.reg-r2.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.reg-r2.com/sns-media/",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC9ZYdLK8qxh8K4SKWzmU-0g",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official media page links the venue's YouTube presence and premium streaming. Stream status is still taken only from YouTube metadata.",
+    "youtube_channel_id": "UC9ZYdLK8qxh8K4SKWzmU-0g",
+    "youtube_uploads_playlist_id": "UU9ZYdLK8qxh8K4SKWzmU-0g"
+  },
+  {
+    "schema_version": 2,
+    "id": "shimokitazawa-waver",
+    "name": "Shimokitazawa WAVER",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-14-13 Kitazawa B1, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Indie",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://waverwaver.net/",
+    "schedule_url": "https://waverwaver.net/",
+    "youtube_url": "https://www.youtube.com/channel/UCdhlkR1GpFy6r3TKlc4VwZQ",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://waverwaver.net/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://waverwaver.net/info/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCdhlkR1GpFy6r3TKlc4VwZQ",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official site advertises streaming as a venue option. Text address is exact; coordinates remain unset until separately geocoded.",
+    "youtube_channel_id": "UCdhlkR1GpFy6r3TKlc4VwZQ",
+    "youtube_uploads_playlist_id": "UUdhlkR1GpFy6r3TKlc4VwZQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "shimokitazawa-chikamatsu",
+    "name": "Shimokitazawa Chikamatsu",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-14-16 Kitazawa, Kitazawa Plaza B1, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Indie",
+      "Alternative",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://chikamatsu-nite.com/",
+    "schedule_url": "https://chikamatsu-nite.com/schedule/",
+    "youtube_url": "https://www.youtube.com/channel/UCyNkZOCkZ9SB1mQMXK760dA",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://chikamatsu-nite.com/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCyNkZOCkZ9SB1mQMXK760dA",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Venue channel is tracked for music livestreams; text address is exact and coordinates remain unset until independently geocoded.",
+    "youtube_channel_id": "UCyNkZOCkZ9SB1mQMXK760dA",
+    "youtube_uploads_playlist_id": "UUyNkZOCkZ9SB1mQMXK760dA"
+  },
+  {
+    "schema_version": 2,
+    "id": "shimokitazawa-rokudemonaiyoru",
+    "name": "Shimokitazawa Rokudemonaiyoru",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-6-5 Kitazawa, Louis Building 3F, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Acoustic",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.69demonai46.com/",
+    "schedule_url": "https://www.69demonai46.com/",
+    "youtube_url": "https://www.youtube.com/channel/UC8XkXILzsVuz7I6tPZWT2Tw",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.69demonai46.com/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC8XkXILzsVuz7I6tPZWT2Tw",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official channel description states that venue performances are a primary publishing focus. Coordinates are intentionally unset until separately geocoded.",
+    "youtube_channel_id": "UC8XkXILzsVuz7I6tPZWT2Tw",
+    "youtube_uploads_playlist_id": "UU8XkXILzsVuz7I6tPZWT2Tw"
+  },
+  {
+    "schema_version": 2,
+    "id": "shimokitazawa-club-que",
+    "name": "Shimokitazawa CLUB Que",
+    "operator_name": "UK Project",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.6607,
+      "lon": 139.6694,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "2-5-2 Kitazawa, Big Ben Building B2, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Indie",
+      "Pop",
+      "Alternative",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://clubque.net/",
+    "schedule_url": "https://clubque.net/schedule",
+    "youtube_url": "https://www.youtube.com/@CLUB_QueTube",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信",
+        "que live",
+        "quetube"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "インタビュー",
+        "talk",
+        "トーク"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://clubque.net/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://clubque.net/schedule",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@CLUB_QueTube",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "CLUB Que marks streamed events in its schedule; some current delivery uses DANKE, so only actual YouTube live metadata is surfaced.",
+    "youtube_channel_id": "UCRybGEkcPKrlnVWlrRQqhoQ",
+    "youtube_uploads_playlist_id": "UURybGEkcPKrlnVWlrRQqhoQ"
   }
 ]
