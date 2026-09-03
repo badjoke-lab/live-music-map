@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T01:21:06.170Z",
+  "generated_at": "2026-09-03T01:27:39.748Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -8,7 +8,7 @@
   "summary": {
     "sources_total": 14,
     "live_now": 1,
-    "upcoming": 12,
+    "upcoming": 13,
     "observed_live_streams_total": 3,
     "observed_live_streams_7d": 3,
     "observed_live_streams_30d": 3,
@@ -172,13 +172,13 @@
         "Multi-genre"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": null,
+      "next_live_at": "2026-09-03T17:00:00.000Z",
       "observed_content_types": []
     },
     "audiotree": {
@@ -356,7 +356,7 @@
       "US": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 0
       },
       "JP": {
@@ -412,7 +412,7 @@
       "radio": {
         "sources": 4,
         "live_now": 0,
-        "upcoming": 4,
+        "upcoming": 5,
         "observed_live_30d": 0
       },
       "studio_media": {
@@ -498,7 +498,7 @@
       "Multi-genre": {
         "sources": 6,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Hip-hop": {
