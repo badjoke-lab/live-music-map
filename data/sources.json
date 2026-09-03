@@ -6455,5 +6455,456 @@
     "note": "The verified Sydney Opera House YouTube channel explicitly promotes performances and live streams from the House; mixed arts/editorial content requires title or schedule matching.",
     "youtube_channel_id": "UCvzqRBw-s63GzEaI4q4Y8dg",
     "youtube_uploads_playlist_id": "UUvzqRBw-s63GzEaI4q4Y8dg"
+  },
+  {
+    "schema_version": 2,
+    "id": "lincoln-center",
+    "name": "Lincoln Center",
+    "operator_name": "Lincoln Center for the Performing Arts",
+    "type": "performing_arts_center",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "New York City",
+    "location": {
+      "lat": 40.7725,
+      "lon": -73.9835,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "Lincoln Center, New York City, United States"
+    },
+    "genres": [
+      "Classical",
+      "Jazz",
+      "Pop",
+      "World",
+      "Multi-genre"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.lincolncenter.org/",
+    "schedule_url": "https://www.lincolncenter.org/series/lincoln-center-presents/s/Lincoln%20Center%20Presents%20Livestreams",
+    "youtube_url": "https://www.youtube.com/@LincolnCenter",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "livestream",
+        "live",
+        "concert",
+        "american songbook",
+        "orchestra"
+      ],
+      "deny_title_patterns": [
+        "talk",
+        "interview",
+        "panel",
+        "theater",
+        "dance"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.lincolncenter.org/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.lincolncenter.org/series/lincoln-center-presents/s/Lincoln%20Center%20Presents%20Livestreams",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@LincolnCenter",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Lincoln Center's official livestream series offers free livestreams throughout the season and directs viewers to its YouTube channel for previous livestreams; non-music programming is filtered.",
+    "youtube_channel_id": "UC5stUbrIlkm5UTMPgVm2dsg",
+    "youtube_uploads_playlist_id": "UU5stUbrIlkm5UTMPgVm2dsg"
+  },
+  {
+    "schema_version": 2,
+    "id": "eurovision-song-contest",
+    "name": "Eurovision Song Contest",
+    "operator_name": "European Broadcasting Union",
+    "type": "music_event_broadcaster",
+    "country": "Switzerland",
+    "country_code": "CH",
+    "region": "Geneva",
+    "city": "Geneva",
+    "location": {
+      "lat": 46.2044,
+      "lon": 6.1432,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Geneva, Switzerland"
+    },
+    "genres": [
+      "Pop",
+      "Electronic",
+      "Rock",
+      "Folk",
+      "World",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert",
+      "festival_stream"
+    ],
+    "languages": [],
+    "official_site": "https://www.eurovision.com/",
+    "schedule_url": "https://www.eurovision.com/stories/get-ready-to-watch-and-vote-in-eurovision-2026/",
+    "youtube_url": "https://www.youtube.com/@EurovisionSongContest",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live from",
+        "grand final",
+        "semi-final",
+        "semi final",
+        "live show",
+        "eurovision"
+      ],
+      "deny_title_patterns": [
+        "press conference",
+        "interview",
+        "behind the scenes",
+        "turquoise carpet"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.eurovision.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.eurovision.com/stories/get-ready-to-watch-and-vote-in-eurovision-2026/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@EurovisionSongContest",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The official 2026 viewing guide explicitly lists the semi-finals and Grand Final as live shows on the official YouTube channel; ancillary non-music livestreams are excluded.",
+    "youtube_channel_id": "UCRpjHHu8ivVWs73uxHlWwFA",
+    "youtube_uploads_playlist_id": "UURpjHHu8ivVWs73uxHlWwFA"
+  },
+  {
+    "schema_version": 2,
+    "id": "elbphilharmonie-hamburg",
+    "name": "Elbphilharmonie Hamburg",
+    "operator_name": "HamburgMusik gGmbH",
+    "type": "concert_hall",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": "Hamburg",
+    "city": "Hamburg",
+    "location": {
+      "lat": 53.5413,
+      "lon": 9.9841,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "Elbphilharmonie Hamburg, Germany"
+    },
+    "genres": [
+      "Classical",
+      "Jazz",
+      "Pop",
+      "World",
+      "Electronic",
+      "Multi-genre"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "official_site": "https://www.elbphilharmonie.de/en/",
+    "schedule_url": "https://www.elbphilharmonie.de/en/mediatheque",
+    "youtube_url": "https://www.youtube.com/@ElbphilharmonieHamburg",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "livestream",
+        "live stream",
+        "live",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "architecture"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.elbphilharmonie.de/en/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@ElbphilharmonieHamburg",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.elbphilharmonie.de/en/press",
+        "supports": [
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The venue operates recurring concert livestreams and has officially used its YouTube channel for live concert broadcasts; mixed editorial material requires filtering.",
+    "youtube_channel_id": "UCnfmo4KkHHRDYOhyw9TMPRw",
+    "youtube_uploads_playlist_id": "UUnfmo4KkHHRDYOhyw9TMPRw"
+  },
+  {
+    "schema_version": 2,
+    "id": "houston-symphony",
+    "name": "Houston Symphony",
+    "operator_name": "Houston Symphony Society",
+    "type": "orchestra",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Texas",
+    "city": "Houston",
+    "location": {
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Houston, Texas, United States"
+    },
+    "genres": [
+      "Classical",
+      "Pops",
+      "Film Music"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://houstonsymphony.org/",
+    "schedule_url": "https://houstonsymphony.org/live-from-jones-hall/",
+    "youtube_url": "https://www.youtube.com/@hsymphony",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live from jones hall",
+        "livestream",
+        "concert",
+        "symphony"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://houstonsymphony.org/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://houstonsymphony.org/live-from-jones-hall/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@hsymphony",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Houston Symphony states that its Live from Jones Hall concert livestreams are transmitted through YouTube Live.",
+    "youtube_channel_id": "UCvqzKI7TGFrRocyWLwuif9w",
+    "youtube_uploads_playlist_id": "UUvqzKI7TGFrRocyWLwuif9w"
+  },
+  {
+    "schema_version": 2,
+    "id": "singapore-symphony",
+    "name": "Singapore Symphony",
+    "operator_name": "Singapore Symphonia Company Limited",
+    "type": "orchestra",
+    "country": "Singapore",
+    "country_code": "SG",
+    "region": null,
+    "city": "Singapore",
+    "location": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Singapore"
+    },
+    "genres": [
+      "Classical",
+      "Contemporary Classical",
+      "Orchestral"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.sso.org.sg/",
+    "schedule_url": "https://www.sso.org.sg/whats-on/national-day-concert-2026",
+    "youtube_url": "https://www.youtube.com/@singaporesymphony",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "livestream",
+        "live",
+        "concert",
+        "symphony"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.sso.org.sg/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.sso.org.sg/whats-on/national-day-concert-2026",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@singaporesymphony",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The official 2026 National Day Concert page explicitly states that the concert will be streamed live on the Singapore Symphony YouTube channel; the channel also hosts recurring orchestra livestreams.",
+    "youtube_channel_id": "UCREEzq_Crwhf09fQ-sf6Ntw",
+    "youtube_uploads_playlist_id": "UUREEzq_Crwhf09fQ-sf6Ntw"
   }
 ]
