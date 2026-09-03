@@ -132,8 +132,8 @@ select{background:#171b22;border:1px solid #2a303a;border-radius:9px;color:#fff;
 <script src="./country-reference-points.js"></script>
 <script src="./location-ui.js"></script>
 <script>
-const map=L.map('map',{worldCopyJump:true}).setView([28,10],2);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:19}).addTo(map);
+const map=L.map('map',{worldCopyJump:true,maxZoom:9}).setView([28,10],2);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:9}).addTo(map);
 const markerLayer=L.markerClusterGroup({showCoverageOnHover:false,spiderfyOnMaxZoom:true,removeOutsideVisibleBounds:true,maxClusterRadius:44,iconCreateFunction(cluster){const children=cluster.getAllChildMarkers();const total=children.length;const live=children.filter(m=>m.options.sourceState==='live').length;const upcoming=children.filter(m=>m.options.sourceState==='upcoming').length;const state=live>0?'has-live':upcoming>0?'has-upcoming':'source-only';const liveBadge=live?`<span class="cluster-state-badge cluster-live-badge">LIVE ${live}</span>`:'';const upBadge=upcoming?`<span class="cluster-state-badge cluster-up-badge">UP ${upcoming}</span>`:'';return L.divIcon({className:'',html:`<div class="cluster-wrap ${state}" title="${total} sources · LIVE ${live} · Upcoming ${upcoming}"><div class="cluster-core">${total}</div>${liveBadge}${upBadge}</div>`,iconSize:[58,58],iconAnchor:[29,29]})}}).addTo(map);
 let sources=[],streams=[],acquisition={},currentFilter='all',selectedSource=null;
 const locationUI=window.LiveMusicMapLocationUI;
