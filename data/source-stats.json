@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T01:27:39.748Z",
+  "generated_at": "2026-09-03T01:48:15.063Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 14,
+    "sources_total": 20,
     "live_now": 1,
-    "upcoming": 13,
+    "upcoming": 16,
     "observed_live_streams_total": 3,
     "observed_live_streams_7d": 3,
     "observed_live_streams_30d": 3,
@@ -343,6 +343,143 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "kiosk-radio": {
+      "source_id": "kiosk-radio",
+      "source_name": "Kiosk Radio",
+      "country_code": "BE",
+      "country": "Belgium",
+      "region": "Brussels-Capital Region",
+      "city": "Brussels",
+      "source_type": "radio",
+      "source_genres": [
+        "Multi-genre",
+        "Electronic",
+        "Jazz",
+        "Experimental"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "wigmore-hall": {
+      "source_id": "wigmore-hall",
+      "source_name": "Wigmore Hall",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "venue",
+      "source_genres": [
+        "Classical"
+      ],
+      "live_now": 0,
+      "upcoming_count": 1,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-10-17T19:00:00.000Z",
+      "observed_content_types": []
+    },
+    "keep-hush": {
+      "source_id": "keep-hush",
+      "source_name": "Keep Hush",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "media_events",
+      "source_genres": [
+        "Electronic",
+        "Bass",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "seoul-community-radio": {
+      "source_id": "seoul-community-radio",
+      "source_name": "Seoul Community Radio",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "radio",
+      "source_genres": [
+        "Multi-genre",
+        "Electronic",
+        "Hip-hop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 2,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-04T14:00:00.000Z",
+      "observed_content_types": []
+    },
+    "mutant-radio": {
+      "source_id": "mutant-radio",
+      "source_name": "Mutant Radio",
+      "country_code": "GE",
+      "country": "Georgia",
+      "region": "Tbilisi",
+      "city": "Tbilisi",
+      "source_type": "radio",
+      "source_genres": [
+        "Multi-genre",
+        "Electronic",
+        "Experimental"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "book-club-radio": {
+      "source_id": "book-club-radio",
+      "source_name": "Book Club Radio",
+      "country_code": "US",
+      "country": "United States",
+      "region": "New York",
+      "city": "Brooklyn",
+      "source_type": "media_events",
+      "source_genres": [
+        "Electronic",
+        "House",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -354,7 +491,7 @@
         "observed_live_30d": 3
       },
       "US": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 4,
         "observed_live_30d": 0
@@ -366,9 +503,9 @@
         "observed_live_30d": 0
       },
       "GB": {
-        "sources": 2,
+        "sources": 4,
         "live_now": 0,
-        "upcoming": 2,
+        "upcoming": 3,
         "observed_live_30d": 0
       },
       "AU": {
@@ -384,7 +521,7 @@
         "observed_live_30d": 0
       },
       "BE": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -400,6 +537,18 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "KR": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 2,
+        "observed_live_30d": 0
+      },
+      "GE": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_type": {
@@ -410,9 +559,9 @@
         "observed_live_30d": 3
       },
       "radio": {
-        "sources": 4,
+        "sources": 7,
         "live_now": 0,
-        "upcoming": 5,
+        "upcoming": 7,
         "observed_live_30d": 0
       },
       "studio_media": {
@@ -422,7 +571,7 @@
         "observed_live_30d": 0
       },
       "media_events": {
-        "sources": 3,
+        "sources": 5,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
@@ -438,13 +587,19 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "venue": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
       }
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 7,
+        "sources": 12,
         "live_now": 1,
-        "upcoming": 11,
+        "upcoming": 13,
         "observed_live_30d": 3
       },
       "Techno": {
@@ -454,19 +609,19 @@
         "observed_live_30d": 3
       },
       "House": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 1,
         "upcoming": 11,
         "observed_live_30d": 3
       },
       "Experimental": {
-        "sources": 2,
+        "sources": 4,
         "live_now": 1,
         "upcoming": 6,
         "observed_live_30d": 3
       },
       "Jazz": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 0
@@ -496,15 +651,15 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 6,
+        "sources": 9,
         "live_now": 0,
-        "upcoming": 2,
+        "upcoming": 4,
         "observed_live_30d": 0
       },
       "Hip-hop": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
-        "upcoming": 2,
+        "upcoming": 4,
         "observed_live_30d": 0
       },
       "Rap": {
@@ -526,9 +681,9 @@
         "observed_live_30d": 0
       },
       "Classical": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Pop & Rock": {
@@ -562,7 +717,7 @@
         "observed_live_30d": 0
       },
       "Dance": {
-        "sources": 1,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -598,6 +753,12 @@
         "observed_live_30d": 0
       },
       "Soul": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Bass": {
         "sources": 1,
         "live_now": 0,
         "upcoming": 0,
