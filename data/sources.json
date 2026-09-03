@@ -7414,5 +7414,868 @@
     "note": "Current Rinse France pages expose Watch entries through YouTube players alongside a live radio schedule; mixed talk content is filtered.",
     "youtube_channel_id": "UCcTI8Xsh6DnXuCSKFP4WqkA",
     "youtube_uploads_playlist_id": "UUcTI8Xsh6DnXuCSKFP4WqkA"
+  },
+  {
+    "schema_version": 2,
+    "id": "paste-magazine",
+    "name": "Paste Magazine",
+    "operator_name": "Paste Media Group",
+    "type": "music_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "New York",
+    "location": {
+      "lat": 40.7128,
+      "lon": -74.006,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "New York, United States"
+    },
+    "genres": [
+      "Indie Rock",
+      "Alternative",
+      "Folk",
+      "Americana",
+      "Pop",
+      "Hip-hop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.pastemagazine.com/",
+    "schedule_url": "https://www.pastemagazine.com/about-paste",
+    "youtube_url": "https://www.youtube.com/channel/UC_PscE_7n8SiMspieMGMK_A",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "paste studio",
+        "live at paste",
+        "live from paste",
+        "live-streamed"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.pastemagazine.com/about-paste",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC_PscE_7n8SiMspieMGMK_A",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Paste Studio streams live performances to YouTube Live; mixed editorial content must fail closed.",
+    "youtube_channel_id": "UC_PscE_7n8SiMspieMGMK_A",
+    "youtube_uploads_playlist_id": "UU_PscE_7n8SiMspieMGMK_A"
+  },
+  {
+    "schema_version": 2,
+    "id": "wdr-rockpalast",
+    "name": "WDR Rockpalast",
+    "operator_name": "Westdeutscher Rundfunk",
+    "type": "music_media",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "location": {
+      "lat": 50.9375,
+      "lon": 6.9603,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Cologne, Germany"
+    },
+    "genres": [
+      "Rock",
+      "Alternative Rock",
+      "Metal",
+      "Punk",
+      "Hard Rock"
+    ],
+    "formats": [
+      "concert",
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "official_site": "https://www1.wdr.de/fernsehen/rockpalast/",
+    "schedule_url": "https://www1.wdr.de/fernsehen/rockpalast/",
+    "youtube_url": "https://www.youtube.com/@WDRRockpalast",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "rockpalast",
+        "festival",
+        "full show",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "recap",
+        "vlog"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www1.wdr.de/fernsehen/rockpalast/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@WDRRockpalast",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official WDR Rockpalast channel for rock, metal and punk concerts and festival coverage.",
+    "youtube_channel_id": "UCqXk3Lmgjj_hbN9cb6ht4wA",
+    "youtube_uploads_playlist_id": "UUqXk3Lmgjj_hbN9cb6ht4wA"
+  },
+  {
+    "schema_version": 2,
+    "id": "hate5six",
+    "name": "hate5six",
+    "operator_name": "hate5six",
+    "type": "independent_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "unknown",
+      "label": "United States"
+    },
+    "genres": [
+      "Hardcore",
+      "Punk",
+      "Metalcore",
+      "Post-hardcore"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://hate5six.com/",
+    "schedule_url": "https://hate5six.live/",
+    "youtube_url": "https://www.youtube.com/@hate5six",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "hate5six",
+        "live",
+        "full set"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://hate5six.com/",
+        "supports": [
+          "identity",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_site",
+        "url": "https://hate5six.live/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@hate5six",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Independent hardcore live-video project; source location intentionally left unknown.",
+    "youtube_channel_id": "UCmopeXHb16dHZHI6qRWWkXg",
+    "youtube_uploads_playlist_id": "UUmopeXHb16dHZHI6qRWWkXg"
+  },
+  {
+    "schema_version": 2,
+    "id": "all-the-k-pop",
+    "name": "ALL THE K-POP",
+    "operator_name": "MBC PLUS",
+    "type": "music_broadcaster",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea"
+    },
+    "genres": [
+      "K-pop",
+      "Pop",
+      "Dance"
+    ],
+    "formats": [
+      "live_performance",
+      "music_tv_live"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "official_site": "https://www.mbcplus.com/",
+    "schedule_url": "https://www.youtube.com/@ALLTHEKPOP",
+    "youtube_url": "https://www.youtube.com/@ALLTHEKPOP",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "show champion",
+        "live",
+        "쇼챔피언"
+      ],
+      "deny_title_patterns": [
+        "weekly idol",
+        "interview",
+        "behind"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@ALLTHEKPOP",
+        "supports": [
+          "identity",
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official MBC PLUS channel states Show Champion is live every Wednesday at 17:00 KST.",
+    "youtube_channel_id": "UCPde4guD9yFBRzkxk2PatoA",
+    "youtube_uploads_playlist_id": "UUPde4guD9yFBRzkxk2PatoA"
+  },
+  {
+    "schema_version": 2,
+    "id": "mbckpop",
+    "name": "MBCkpop",
+    "operator_name": "MBC",
+    "type": "music_broadcaster",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea"
+    },
+    "genres": [
+      "K-pop",
+      "Pop",
+      "Dance",
+      "R&B"
+    ],
+    "formats": [
+      "live_performance",
+      "music_tv_live"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "official_site": "https://program.imbc.com/musiccore",
+    "schedule_url": "https://program.imbc.com/musiccore",
+    "youtube_url": "https://www.youtube.com/@MBCkpop",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "show! music core",
+        "music core",
+        "kpop live stream",
+        "쇼! 음악중심",
+        "라이브"
+      ],
+      "deny_title_patterns": [
+        "fancam",
+        "behind",
+        "compilation"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://program.imbc.com/musiccore",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@MBCkpop",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official MBC K-pop channel with current Show! Music Core live-stream programming; mixed uploads fail closed.",
+    "youtube_channel_id": "UCe52oeb7Xv_KaJsEzcKXJJg",
+    "youtube_uploads_playlist_id": "UUe52oeb7Xv_KaJsEzcKXJJg"
+  },
+  {
+    "schema_version": 2,
+    "id": "global-citizen",
+    "name": "Global Citizen",
+    "operator_name": "Global Poverty Project, Inc.",
+    "type": "festival_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "New York",
+    "location": {
+      "lat": 40.7128,
+      "lon": -74.006,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "New York, United States"
+    },
+    "genres": [
+      "Pop",
+      "Hip-hop",
+      "R&B",
+      "Afrobeats",
+      "Latin",
+      "Rock",
+      "K-pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.globalcitizen.org/",
+    "schedule_url": "https://www.globalcitizen.org/en/events-broadcasts/",
+    "youtube_url": "https://www.youtube.com/@GLBLCTZN",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "global citizen festival",
+        "global citizen live",
+        "move africa",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "explainer",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.globalcitizen.org/en/events-broadcasts/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@GLBLCTZN",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Global multi-genre concert and festival broadcaster; advocacy/news content must fail closed.",
+    "youtube_channel_id": "UCg3_C7BwcV0kBlJbBFHTPJQ",
+    "youtube_uploads_playlist_id": "UUg3_C7BwcV0kBlJbBFHTPJQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "jazz-at-lincoln-center",
+    "name": "Jazz at Lincoln Center",
+    "operator_name": "Jazz at Lincoln Center, Inc.",
+    "type": "venue_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "New York",
+    "location": {
+      "lat": 40.7687,
+      "lon": -73.983,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "Frederick P. Rose Hall, New York, United States"
+    },
+    "genres": [
+      "Jazz",
+      "Blues",
+      "Soul",
+      "Swing"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://jazz.org/",
+    "schedule_url": "https://jazz.org/live/",
+    "youtube_url": "https://www.youtube.com/channel/UCP108sGgYT_TlG2YRColGcg",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "concert",
+        "jazz at lincoln center",
+        "dizzy's club"
+      ],
+      "deny_title_patterns": [
+        "lesson",
+        "interview",
+        "academy",
+        "behind"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://jazz.org/live/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/JazzatLincolnCenter",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Jazz performance institution with free global webcasts and official YouTube concert distribution.",
+    "youtube_channel_id": "UCP108sGgYT_TlG2YRColGcg",
+    "youtube_uploads_playlist_id": "UUP108sGgYT_TlG2YRColGcg"
+  },
+  {
+    "schema_version": 2,
+    "id": "rototom-sunsplash",
+    "name": "Rototom Sunsplash",
+    "operator_name": "Rototom Sunsplash",
+    "type": "festival",
+    "country": "Spain",
+    "country_code": "ES",
+    "region": "Valencian Community",
+    "city": "Benicàssim",
+    "location": {
+      "lat": 40.0556,
+      "lon": 0.064,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Benicàssim, Spain"
+    },
+    "genres": [
+      "Reggae",
+      "Dub",
+      "Dancehall",
+      "Roots Reggae",
+      "Ska"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "music_radio_live",
+      "live_performance"
+    ],
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "official_site": "https://rototomsunsplash.com/en/",
+    "schedule_url": "https://rototomsunsplash.com/en/media/video/",
+    "youtube_url": "https://www.youtube.com/channel/UCS5mhnz5GcfALNvVeIszC5Q",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "rototom sunsplash",
+        "main stage",
+        "lion stage",
+        "radio rototom"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "forum",
+        "documentary"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://rototomsunsplash.com/en/media/video/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/rototomsunsplash",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official festival site explicitly advertises live concerts and daily Radio Rototom broadcasts on YouTube.",
+    "youtube_channel_id": "UCS5mhnz5GcfALNvVeIszC5Q",
+    "youtube_uploads_playlist_id": "UUS5mhnz5GcfALNvVeIszC5Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "canal-capital-music-live",
+    "name": "Canal Capital — live music",
+    "operator_name": "Canal Capital",
+    "type": "public_broadcaster",
+    "country": "Colombia",
+    "country_code": "CO",
+    "region": "Bogotá",
+    "city": "Bogotá",
+    "location": {
+      "lat": 4.6533,
+      "lon": -74.0837,
+      "precision": "source_base",
+      "role": "source_base",
+      "label": "Bogotá, Colombia"
+    },
+    "genres": [
+      "Latin Rock",
+      "Rock",
+      "Punk",
+      "Metal",
+      "Reggae",
+      "Latin",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.canalcapital.gov.co/",
+    "schedule_url": "https://rockalparque.canalcapital.gov.co/",
+    "youtube_url": "https://www.youtube.com/channel/UCeSx6aU8UGIIHxGCQPbYY_A",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "rock al parque",
+        "festival estéreo picnic",
+        "festival estereo picnic",
+        "en vivo",
+        "transmisión oficial"
+      ],
+      "deny_title_patterns": [
+        "noticias",
+        "ahora",
+        "deportes",
+        "entrevista"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.canalcapital.gov.co/institucional/1-informacion-de-la-entidad/1-10-mecanismo-de-presentacion-directa-de-solicitudes-quejas-y-reclamos-a-disposicion-del-publico-en-relacion-con-acciones-u-omisiones-del-sujeto-obligado/1-10-2-canales-de-comunicacion/",
+        "supports": [
+          "identity",
+          "official_channel",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://rockalparque.canalcapital.gov.co/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/CanalCapitalBogota",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Mixed Bogotá public broadcaster; only explicitly identified live-music festival streams are admitted.",
+    "youtube_channel_id": "UCeSx6aU8UGIIHxGCQPbYY_A",
+    "youtube_uploads_playlist_id": "UUeSx6aU8UGIIHxGCQPbYY_A"
+  },
+  {
+    "schema_version": 2,
+    "id": "the-headies",
+    "name": "The Headies Awards",
+    "operator_name": "Hip Hop World Magazine",
+    "type": "music_awards",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "region": "Lagos",
+    "city": "Lagos",
+    "location": {
+      "lat": 6.5244,
+      "lon": 3.3792,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Lagos, Nigeria"
+    },
+    "genres": [
+      "Afrobeats",
+      "Afropop",
+      "Hip-hop",
+      "R&B",
+      "Highlife",
+      "African Pop"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://theheadies.com/",
+    "schedule_url": "https://theheadies.com/",
+    "youtube_url": "https://www.youtube.com/@theheadiesawards",
+    "status": "annual",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "headies",
+        "live stream",
+        "performance",
+        "performs"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "nominees",
+        "documentary",
+        "speech"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://theheadies.com/about/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@theheadiesawards",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Annual Afrobeats-focused awards and live-performance event streamed globally on YouTube.",
+    "youtube_channel_id": "UCGtzgknAAGsnG3TbMM0TlKg",
+    "youtube_uploads_playlist_id": "UUGtzgknAAGsnG3TbMM0TlKg"
   }
 ]
