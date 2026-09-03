@@ -227,7 +227,8 @@
         "4Vmde-FmInQ": "playlist:2026-09-02",
         "0m8unFuQrcc": "2026-09-02T19:01:33+00:00",
         "sFjZgIHVT7A": "2026-09-02T22:38:27+00:00"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "audiotree": {
       "entries": {
@@ -350,7 +351,8 @@
         "8W-0ZDy44QY": "playlist:2026-09-02",
         "jSsHgZOxFcQ": "playlist:2026-09-02",
         "jCoI0yrD8ig": "playlist:2026-09-02"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "tomorrowland": {
       "entries": {
@@ -379,7 +381,8 @@
         "mLP6JQKQfsI": "playlist:2026-09-03",
         "rImJwrr4c50": "playlist:2026-09-03",
         "hfxufsfyVac": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "q-dance": {
       "entries": {
@@ -648,6 +651,10 @@
         "1cC-aud3g90": "playlist:2026-09-03",
         "C-Xaug2jpkU": "playlist:2026-09-03",
         "Bxq8-_G_-18": "playlist:2026-09-03"
+      },
+      "rss_failure_fallback": {
+        "last_attempt_at": "2026-09-03T06:27:55.429Z",
+        "last_success_at": "2026-09-03T06:27:55.429Z"
       }
     },
     "mixmag": {
@@ -677,7 +684,8 @@
         "RHmFz1m-So4": "playlist:2026-09-03",
         "lacR2meUeao": "playlist:2026-09-03",
         "6M-7FJYrmLg": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "beatport": {
       "entries": {
@@ -706,7 +714,8 @@
         "helfxhi9jxs": "playlist:2026-09-03",
         "xcic-yx5q-A": "playlist:2026-09-03",
         "B9DYghSmjII": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "insomniac": {
       "entries": {
@@ -735,7 +744,8 @@
         "M51f4heCZkk": "playlist:2026-09-03",
         "davEPndqCX8": "playlist:2026-09-03",
         "FSe3b3lb_f4": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "umf-tv": {
       "entries": {
@@ -764,7 +774,8 @@
         "USKfvmjjHtM": "playlist:2026-09-03",
         "L8m7mmGpSrs": "playlist:2026-09-03",
         "nR3p6CjLTQg": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "a-state-of-trance": {
       "entries": {
@@ -793,7 +804,8 @@
         "GcfXiP0AZtk": "playlist:2026-09-03",
         "ebDAkgYctrI": "playlist:2026-09-03",
         "7sDKs-UDKwg": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "club-space": {
       "entries": {
@@ -822,7 +834,8 @@
         "qkTgUHTw-Cs": "playlist:2026-09-03",
         "vgvVjjUnpNQ": "playlist:2026-09-03",
         "0RJxdleZ6S0": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "south-plug": {
       "entries": {
@@ -851,7 +864,8 @@
         "tfmP6Ye6nDU": "playlist:2026-09-03",
         "ACWAUdtiruI": "playlist:2026-09-03",
         "ABzfDRVi_UY": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "cercle": {
       "entries": {
@@ -880,7 +894,8 @@
         "e8LItPaYvho": "playlist:2026-09-03",
         "aAzsh8LnpRE": "playlist:2026-09-03",
         "hMmyv0jmoI4": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "defected": {
       "entries": {
@@ -909,7 +924,8 @@
         "OvwrLCVW55c": "playlist:2026-09-03",
         "y8dz4cPllvY": "playlist:2026-09-03",
         "0fk2xFdt-CI": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "kbs-world-tv": {
       "entries": {
@@ -938,7 +954,8 @@
         "N3XEQDUCImU": "playlist:2026-09-03",
         "kl23LlkVuQ8": "playlist:2026-09-03",
         "_oaqahBd-hE": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "arirang-k-pop": {
       "entries": {
@@ -967,7 +984,8 @@
         "p4-yhvy_A28": "playlist:2026-09-03",
         "gCgz-_tayXY": "playlist:2026-09-03",
         "48DhwzQ1XWc": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "im-live-arirang": {
       "entries": {
@@ -996,7 +1014,8 @@
         "XDAtG97sPAM": "playlist:2026-09-03",
         "vPZWppEECRo": "playlist:2026-09-03",
         "jyOsG2pVXL8": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "arirang-radio-k-pop": {
       "entries": {
@@ -1025,7 +1044,8 @@
         "81jpZ_DmMW8": "playlist:2026-09-03",
         "14dJLPI1LjU": "playlist:2026-09-03",
         "96vb8BUAPOc": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "sbskpop-inkigayo": {
       "entries": {
@@ -1054,7 +1074,8 @@
         "TqXm7dmZJms": "playlist:2026-09-03",
         "gdJWyNFe4bc": "playlist:2026-09-03",
         "_KaN5XsGssI": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "the-k-pop": {
       "entries": {
@@ -1083,7 +1104,8 @@
         "l0MM4c1633I": "playlist:2026-09-03",
         "Ge1cUPJO7AU": "playlist:2026-09-03",
         "9RVFFRdJBt0": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "kreciolatv-polandrock": {
       "entries": {
@@ -1112,7 +1134,8 @@
         "V_S8PHIGMJM": "playlist:2026-09-03",
         "livC9ISpzSo": "playlist:2026-09-03",
         "tHgwsYDTXps": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "hr-sinfonieorchester": {
       "entries": {
@@ -1141,7 +1164,8 @@
         "O_z1HfWgjMo": "playlist:2026-09-03",
         "9h-pWBTlw0U": "playlist:2026-09-03",
         "8OPrO_E0pW4": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "npr-music": {
       "entries": {
@@ -1170,7 +1194,8 @@
         "AzgbNvW793Q": "playlist:2026-09-03",
         "fEqGjypP5qY": "playlist:2026-09-03",
         "ClFp8yqfokk": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "kbs-kpop": {
       "entries": {
@@ -1199,7 +1224,8 @@
         "mbmNXUasccw": "playlist:2026-09-03",
         "XN4Gx4VCRr0": "playlist:2026-09-03",
         "4AdiiRTDh4c": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     }
   }
 }
