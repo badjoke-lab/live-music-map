@@ -69,6 +69,24 @@
     document.body.appendChild(footer);
   }
 
+  const tzSelect = document.getElementById('tz');
+  if (tzSelect) {
+    const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+    const labels = Object.freeze({
+      'America/New_York': 'US Eastern — New York',
+      'America/Los_Angeles': 'US Pacific — Los Angeles'
+    });
+    const applyTimezoneLabels = () => {
+      for (const option of tzSelect.options) {
+        const label = labels[option.value];
+        if (!label) continue;
+        option.textContent = option.value === localZone ? `Local · ${label}` : label;
+      }
+    };
+    applyTimezoneLabels();
+    new MutationObserver(applyTimezoneLabels).observe(tzSelect, { childList: true });
+  }
+
   const sourceCounts = document.getElementById('locationCounts');
   const toolbar = document.querySelector('.toolbar');
   if (sourceCounts && toolbar) {
