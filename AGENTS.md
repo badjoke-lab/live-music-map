@@ -9,7 +9,8 @@ Before implementation, read:
 1. `docs/PRODUCT_SPEC.md`
 2. `docs/EXECUTION_PLAN.md`
 3. `docs/DECISIONS.md`
-4. current production files involved in the task
+4. `docs/SOURCE_CONTRACT_V2.md` when touching Source records, source research, ingestion or validation
+5. current production files involved in the task
 
 Do not reconstruct product rules from chat memory when the repository documents answer the question.
 
@@ -22,8 +23,9 @@ For implementation decisions:
 1. latest explicit user decision;
 2. `docs/DECISIONS.md`;
 3. `docs/PRODUCT_SPEC.md`;
-4. `docs/EXECUTION_PLAN.md`;
-5. current implementation.
+4. `docs/SOURCE_CONTRACT_V2.md` for Source-record details;
+5. `docs/EXECUTION_PLAN.md`;
+6. current implementation.
 
 A new explicit decision that changes a durable rule must update the relevant documentation in the same workstream.
 
@@ -185,6 +187,8 @@ Source-count milestones:
 - 10,000
 
 Do not bulk-add guessed channel IDs or unverifiable location facts just to reach a number.
+
+Every Source addition must pass `node scripts/validate-sources.mjs` and the exact Source v2 contract in `docs/SOURCE_CONTRACT_V2.md`.
 
 Each production Source must have verified official/operator identity, live-music capability evidence, and geographic precision appropriate to the evidence.
 
