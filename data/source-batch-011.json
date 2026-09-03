@@ -232,7 +232,7 @@
     "languages": ["English"],
     "official_site": "https://www.armadamusic.com/",
     "schedule_url": "https://www.armadamusic.com/news/summer-is-calling-armada-music-launches-24-7-youtube-channel-of-chill-electronic-dance-tracks",
-    "youtube_url": "https://www.youtube.com/@armadamusic",
+    "youtube_url": "https://www.youtube.com/channel/UCGZXYc32ri4D0gSLPf2pZXQ",
     "status": "mixed",
     "schedule_pattern": "continuous",
     "lifecycle_status": "active",
@@ -240,11 +240,11 @@
     "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-04"},
     "evidence": [
       {"kind": "official_site", "url": "https://www.armadamusic.com/news/summer-is-calling-armada-music-launches-24-7-youtube-channel-of-chill-electronic-dance-tracks", "supports": ["identity", "music_live_capability", "schedule_pattern"]},
-      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/@armadamusic", "supports": ["official_channel", "music_live_capability"]}
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCGZXYc32ri4D0gSLPf2pZXQ", "supports": ["official_channel", "music_live_capability"]}
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
     "note": "Armada Music official channel including the Summer Is Calling 24/7 chill-electronic stream; mixed label uploads are filtered strictly.",
-    "youtube_channel_id": null,
+    "youtube_channel_id": "UCGZXYc32ri4D0gSLPf2pZXQ",
     "youtube_uploads_playlist_id": null
   },
   {
