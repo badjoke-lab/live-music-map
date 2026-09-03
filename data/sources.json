@@ -1,1 +1,4350 @@
-[{"schema_version":2,"id":"hoer-berlin","name":"HÖR BERLIN","operator_name":null,"type":"independent_media","country":"Germany","country_code":"DE","region":"Berlin","city":"Berlin","location":{"lat":52.52,"lon":13.405,"precision":"city_confirmed","role":"source_base","label":"Berlin, Germany"},"genres":["Electronic","Techno","House","Experimental"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://hoer.live/","schedule_url":"https://hoer.live/calendar/","youtube_url":"https://www.youtube.com/@hoer.berlin","status":"scheduled","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":[],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://hoer.live/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@hoer.berlin","supports":["official_channel"]},{"kind":"official_schedule","url":"https://hoer.live/calendar/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Source-level genres; individual streams may differ.","youtube_channel_id":"UCmfF7JZv26UUKyRedViGIlw","youtube_uploads_playlist_id":"UUmfF7JZv26UUKyRedViGIlw"},{"schema_version":2,"id":"the-lot-radio","name":"The Lot Radio","operator_name":null,"type":"radio","country":"United States","country_code":"US","region":"New York","city":"Brooklyn","location":{"lat":40.722,"lon":-73.953,"precision":"source_base","role":"source_base","label":"Brooklyn, New York"},"genres":["Jazz","House","Afrobeat","Electronic","Techno","Jungle","Breaks","Disco"],"formats":["dj_set","music_radio_live"],"languages":[],"official_site":"https://www.thelotradio.com/","schedule_url":"https://www.thelotradio.com/","youtube_url":"https://www.youtube.com/@TheLotRadio","status":"continuous","schedule_pattern":"continuous","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":[],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.thelotradio.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@TheLotRadio","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.thelotradio.com/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Multi-genre radio; show-level genres can differ.","youtube_channel_id":"UCJOtExbMu0RqIdiE4nMUPxQ","youtube_uploads_playlist_id":"UUJOtExbMu0RqIdiE4nMUPxQ"},{"schema_version":2,"id":"dommune","name":"DOMMUNE","operator_name":null,"type":"studio_media","country":"Japan","country_code":"JP","region":"Tokyo","city":"Tokyo","location":{"lat":35.6762,"lon":139.6503,"precision":"city_confirmed","role":"source_base","label":"Tokyo, Japan"},"genres":["Electronic","Experimental"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://www.dommune.com/","schedule_url":"https://www.dommune.com/","youtube_url":"https://www.youtube.com/@DOMMUNE","status":"scheduled","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["dj set","live set","live performance"],"deny_title_patterns":["talk","discussion","lecture","interview","podcast"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.dommune.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@DOMMUNE","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.dommune.com/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Programme-level details should come from the official programme page.","youtube_channel_id":"UC06WalpLcwTx-0ZVgglMc5Q","youtube_uploads_playlist_id":"UU06WalpLcwTx-0ZVgglMc5Q"},{"schema_version":2,"id":"kexp","name":"KEXP","operator_name":null,"type":"radio","country":"United States","country_code":"US","region":"Washington","city":"Seattle","location":{"lat":47.6062,"lon":-122.3321,"precision":"city_confirmed","role":"source_base","label":"Seattle, Washington"},"genres":["Multi-genre"],"formats":["studio_session","live_performance"],"languages":[],"official_site":"https://www.kexp.org/","schedule_url":"https://www.kexp.org/events/","youtube_url":"https://www.youtube.com/KEXP","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["live on kexp","live at kexp"],"deny_title_patterns":["interview","podcast","talk","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.kexp.org/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/KEXP","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.kexp.org/events/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Do not assume every in-studio session is live on YouTube.","youtube_channel_id":"UC3I2GFN_F8WudD_2jUZbojA","youtube_uploads_playlist_id":"UU3I2GFN_F8WudD_2jUZbojA"},{"schema_version":2,"id":"boiler-room","name":"Boiler Room","operator_name":null,"type":"media_events","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"operator_city_only","role":"operator_base","label":"London, UK"},"genres":["Electronic","House","Techno","Hip-hop","Rap","Afrobeats","Amapiano"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://boilerroom.tv/","schedule_url":"https://boilerroom.tv/upcoming/","youtube_url":"https://www.youtube.com/@boilerroom","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":[],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://boilerroom.tv/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@boilerroom","supports":["official_channel"]},{"kind":"official_schedule","url":"https://boilerroom.tv/upcoming/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Events happen globally; event location overrides operator location.","youtube_channel_id":"UCGBpxWJr9FNOcFYA5GkKrMg","youtube_uploads_playlist_id":"UUGBpxWJr9FNOcFYA5GkKrMg"},{"schema_version":2,"id":"coachella","name":"Coachella","operator_name":null,"type":"festival","country":"United States","country_code":"US","region":"California","city":"Indio","location":{"lat":33.7206,"lon":-116.2156,"precision":"city_confirmed","role":"event_home","label":"Indio, California"},"genres":["Multi-genre"],"formats":["festival_stream","live_performance"],"languages":[],"official_site":"https://www.coachella.com/","schedule_url":"https://coachella.com/youtube-livestream","youtube_url":"https://www.youtube.com/@Coachella","status":"seasonal","schedule_pattern":"seasonal","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":[],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.coachella.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@Coachella","supports":["official_channel"]},{"kind":"official_schedule","url":"https://coachella.com/youtube-livestream","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Festival, stage, stream and performance must be modeled separately.","youtube_channel_id":"UCHF66aWLOxBW4l6VkSrS3cQ","youtube_uploads_playlist_id":"UUHF66aWLOxBW4l6VkSrS3cQ"},{"schema_version":2,"id":"kcrw","name":"KCRW","operator_name":null,"type":"radio","country":"United States","country_code":"US","region":"California","city":"Santa Monica","location":{"lat":34.0195,"lon":-118.4912,"precision":"city_confirmed","role":"source_base","label":"Santa Monica, California"},"genres":["Multi-genre"],"formats":["studio_session","live_performance"],"languages":[],"official_site":"https://www.kcrw.com/","schedule_url":"https://www.kcrw.com/pages/live-sessions","youtube_url":"https://www.youtube.com/channel/UC54U5gpKkaa_BpXRVNip2Dw","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["live at kcrw","live from kcrw","kcrw live"],"deny_title_patterns":["interview","podcast","talk","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.kcrw.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC54U5gpKkaa_BpXRVNip2Dw","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.kcrw.com/pages/live-sessions","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"KCRW records live sessions at its Santa Monica studios; do not assume every session is a YouTube livestream.","youtube_channel_id":"UC54U5gpKkaa_BpXRVNip2Dw","youtube_uploads_playlist_id":"UU54U5gpKkaa_BpXRVNip2Dw"},{"schema_version":2,"id":"audiotree","name":"Audiotree","operator_name":null,"type":"studio_media","country":"United States","country_code":"US","region":"Illinois","city":"Chicago","location":{"lat":41.8781,"lon":-87.6298,"precision":"city_confirmed","role":"source_base","label":"Chicago, Illinois"},"genres":["Multi-genre"],"formats":["studio_session","live_performance"],"languages":[],"official_site":"https://www.audiotree.tv/","schedule_url":"https://www.audiotree.tv/","youtube_url":"https://www.youtube.com/channel/UCWjmAUHmajb1-eo5WKk_22A","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":[],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.audiotree.tv/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCWjmAUHmajb1-eo5WKk_22A","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.audiotree.tv/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Audiotree records live music sessions in Chicago; stream-level genre and live status require video-level verification.","youtube_channel_id":"UCWjmAUHmajb1-eo5WKk_22A","youtube_uploads_playlist_id":"UUWjmAUHmajb1-eo5WKk_22A"},{"schema_version":2,"id":"sofar-sounds","name":"Sofar Sounds","operator_name":null,"type":"media_events","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"city_confirmed","role":"origin","label":"London, UK (origin only)"},"genres":["Multi-genre"],"formats":["live_performance","acoustic_session"],"languages":[],"official_site":"https://www.sofarsounds.com/","schedule_url":"https://www.sofarsounds.com/","youtube_url":"https://www.youtube.com/sofarsounds","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":[],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.sofarsounds.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/sofarsounds","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.sofarsounds.com/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Global network operating in hundreds of cities; London is the origin city, not the location of each event. Event location must override this source-level origin.","youtube_channel_id":"UCRLZb8PpI9N7COmYqHiDH7A","youtube_uploads_playlist_id":"UURLZb8PpI9N7COmYqHiDH7A"},{"schema_version":2,"id":"triple-j","name":"triple j","operator_name":"Australian Broadcasting Corporation","type":"radio","country":"Australia","country_code":"AU","region":"New South Wales","city":"Sydney","location":{"lat":-33.8688,"lon":151.2093,"precision":"operator_city_only","role":"operator_base","label":"Sydney, Australia (network base)"},"genres":["Multi-genre"],"formats":["live_performance","festival_stream"],"languages":[],"official_site":"https://www.abc.net.au/triplej/","schedule_url":"https://www.abc.net.au/triplej/live-music","youtube_url":"https://www.youtube.com/channel/UCd2KNtfphz8HvYzM4pwtHmg","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["one night stand","live music","festival live"],"deny_title_patterns":["interview","podcast","talk","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.abc.net.au/triplej/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCd2KNtfphz8HvYzM4pwtHmg","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.abc.net.au/triplej/live-music","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"National Australian radio network with studio sessions, festival recordings and event livestreams. Sydney is source-level only; event locations must override it.","youtube_channel_id":"UCd2KNtfphz8HvYzM4pwtHmg","youtube_uploads_playlist_id":"UUd2KNtfphz8HvYzM4pwtHmg"},{"schema_version":2,"id":"arte-concert","name":"ARTE Concert","operator_name":"ARTE","type":"media_events","country":"France","country_code":"FR","region":"Grand Est","city":"Strasbourg","location":{"lat":48.5734,"lon":7.7521,"precision":"operator_city_only","role":"operator_base","label":"Strasbourg, France (operator base)"},"genres":["Electronic","Classical","Hip-hop","Pop & Rock","World","Metal","Opera","Jazz","Baroque"],"formats":["concert","festival_stream","opera","live_performance"],"languages":[],"official_site":"https://www.arte.tv/en/arte-concert/","schedule_url":"https://www.arte.tv/en/arte-concert/","youtube_url":"https://www.youtube.com/@arteconcert","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["concert","festival","opera","orchestra","symphony","recital","live session","live performance","dj set"],"deny_title_patterns":["interview","podcast","talk","discussion"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-02"},"evidence":[{"kind":"official_site","url":"https://www.arte.tv/en/arte-concert/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@arteconcert","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.arte.tv/en/arte-concert/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Concerts and livestreams originate from many venues and festivals; Strasbourg is operator-level only and must never be used as an event location.","youtube_channel_id":"UC-smeLB9AnOTeypr1YyjJ3A","youtube_uploads_playlist_id":"UU-smeLB9AnOTeypr1YyjJ3A"},{"schema_version":2,"id":"tomorrowland","name":"Tomorrowland","operator_name":"WEAREONE.world BV","type":"festival","country":"Belgium","country_code":"BE","region":"Antwerp","city":"Boom","location":{"lat":51.0878,"lon":4.3663,"precision":"city_confirmed","role":"event_home","label":"Boom, Belgium"},"genres":["Electronic","Dance"],"formats":["festival_stream","dj_set"],"languages":[],"official_site":"https://www.tomorrowland.com/","schedule_url":"https://belgium.tomorrowland.com/en/line-up/","youtube_url":"https://www.youtube.com/@tomorrowland","status":"seasonal","schedule_pattern":"seasonal","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["livestream","live set","dj set"],"deny_title_patterns":["countdown","interview","podcast","talk","aftermovie","trailer"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.tomorrowland.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@tomorrowland","supports":["official_channel"]},{"kind":"official_event_page","url":"https://www.tomorrowland.com/article/tomorrowland-belgium-2026-livestream-info/","supports":["music_live_capability","schedule_pattern"]},{"kind":"official_event_page","url":"https://belgium.tomorrowland.com/en/practical/how-to-get-there/","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Boom is the event home for Tomorrowland Belgium only; other Tomorrowland editions require their own event location.","youtube_channel_id":"UCsN8M73DMWa8SPp5o_0IAQQ","youtube_uploads_playlist_id":"UUsN8M73DMWa8SPp5o_0IAQQ"},{"schema_version":2,"id":"q-dance","name":"Q-dance","operator_name":null,"type":"promoter","country":"Netherlands","country_code":"NL","region":"North Holland","city":"Amsterdam","location":{"lat":52.3676,"lon":4.9041,"precision":"operator_city_only","role":"operator_base","label":"Amsterdam, Netherlands (operator base)"},"genres":["Hardstyle","Hardcore","Hard Dance"],"formats":["festival_stream","dj_set"],"languages":[],"official_site":"https://www.q-dance.com/","schedule_url":"https://www.q-dance.com/en/events/defqon-1/defqon-1-2026/","youtube_url":"https://www.youtube.com/@qdance","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["livestream","live set","dj set"],"deny_title_patterns":["interview","podcast","talk","aftermovie","trailer","the release"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.q-dance.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@qdance","supports":["official_channel"]},{"kind":"official_event_page","url":"https://www.q-dance.com/l/defqon1-ayntk-2026-online","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://store.q-dance.com/nl/policies/contact-information","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Amsterdam is operator-level only; Defqon.1 and other Q-dance event locations must be modeled separately.","youtube_channel_id":"UCAEwCfBRlB3jIY9whEfSP5Q","youtube_uploads_playlist_id":"UUAEwCfBRlB3jIY9whEfSP5Q"},{"schema_version":2,"id":"montreux-jazz-festival","name":"Montreux Jazz Festival","operator_name":"Fondation du Festival de Jazz de Montreux","type":"festival","country":"Switzerland","country_code":"CH","region":"Vaud","city":"Montreux","location":{"lat":46.4312,"lon":6.9107,"precision":"city_confirmed","role":"event_home","label":"Montreux, Switzerland"},"genres":["Jazz","Rock","Pop","Soul","Electronic","Hip-hop"],"formats":["concert","festival_stream","live_performance"],"languages":[],"official_site":"https://www.montreuxjazzfestival.com/","schedule_url":"https://www.montreuxjazzfestival.com/en/news/programme-2026/","youtube_url":"https://www.youtube.com/@MontreuxJazzFest","status":"seasonal","schedule_pattern":"seasonal","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["livestream","live at montreux","live session","concert"],"deny_title_patterns":["interview","podcast","talk","aftermovie","trailer"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.montreuxjazzfestival.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/@MontreuxJazzFest","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.montreuxjazzfestival.com/en/news/livestreams-le-festival-en-direct-dans-le-monde-entier/","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://www.montreuxjazzfestival.com/en/festival/contact-us/","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Montreux is the festival event home; individual stage and performance facts remain stream/event-level.","youtube_channel_id":"UClUghHElK6LMJrK1_xCWOPA","youtube_uploads_playlist_id":"UUlUghHElK6LMJrK1_xCWOPA"},{"schema_version":2,"id":"kiosk-radio","name":"Kiosk Radio","operator_name":null,"type":"radio","country":"Belgium","country_code":"BE","region":"Brussels-Capital Region","city":"Brussels","location":{"lat":50.8466,"lon":4.3528,"precision":"city_confirmed","role":"source_base","label":"Brussels, Belgium"},"genres":["Multi-genre","Electronic","Jazz","Experimental"],"formats":["dj_set","live_performance","music_radio_live"],"languages":[],"official_site":"https://kioskradio.com/","schedule_url":"https://www.kioskradio.com/schedule","youtube_url":"https://www.youtube.com/channel/UCal_TyiLk79vN9-OzEzUM6A","status":"continuous","schedule_pattern":"continuous","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["dj set","live set","live performance"],"deny_title_patterns":["interview","podcast","talk","conversation","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.kioskradio.com/about","supports":["identity","music_live_capability","source_location"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCal_TyiLk79vN9-OzEzUM6A","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.kioskradio.com/schedule","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"The schedule mixes live DJ sets, pre-recorded shows and conversations; ambiguous streams fail closed.","youtube_channel_id":"UCal_TyiLk79vN9-OzEzUM6A","youtube_uploads_playlist_id":"UUal_TyiLk79vN9-OzEzUM6A"},{"schema_version":2,"id":"wigmore-hall","name":"Wigmore Hall","operator_name":"Wigmore Hall","type":"venue","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"city_confirmed","role":"source_base","label":"London, UK (venue city)"},"genres":["Classical"],"formats":["concert","live_performance"],"languages":[],"official_site":"https://www.wigmore-hall.org.uk/","schedule_url":"https://www.wigmore-hall.org.uk/","youtube_url":"https://www.youtube.com/channel/UCJEwPH-wbOTa341mZyJ9NSw","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["concert","recital","livestream","live stream"],"deny_title_patterns":["interview","podcast","talk","lecture","masterclass"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.wigmore-hall.org.uk/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCJEwPH-wbOTa341mZyJ9NSw","supports":["official_channel"]},{"kind":"other_official","url":"https://media.wigmore-hall.org.uk/documents/Wigmore_Hall_-_2026.27_Season_Announcement_Press_Release.pdf","supports":["music_live_capability","schedule_pattern","source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"The 2026/27 season announcement states that concerts are livestreamed regularly throughout the season.","youtube_channel_id":"UCJEwPH-wbOTa341mZyJ9NSw","youtube_uploads_playlist_id":"UUJEwPH-wbOTa341mZyJ9NSw"},{"schema_version":2,"id":"keep-hush","name":"Keep Hush","operator_name":"KH Music Group LTD","type":"media_events","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"operator_city_only","role":"operator_base","label":"London, UK (operator base)"},"genres":["Electronic","Bass","Dance"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://keephush.net/","schedule_url":"https://keephush.net/","youtube_url":"https://www.youtube.com/channel/UCQAnY_suiNH0MvdTHk5GiBA","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["keep hush live","dj set","live set"],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://keephush.net/about","supports":["identity","music_live_capability"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCQAnY_suiNH0MvdTHk5GiBA","supports":["official_channel"]},{"kind":"official_schedule","url":"https://keephush.net/","supports":["schedule_pattern"]},{"kind":"other_official","url":"https://keephush.net/legal","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Events are global; London is operator-level only and must not be copied to event locations.","youtube_channel_id":"UCQAnY_suiNH0MvdTHk5GiBA","youtube_uploads_playlist_id":"UUQAnY_suiNH0MvdTHk5GiBA"},{"schema_version":2,"id":"seoul-community-radio","name":"Seoul Community Radio","operator_name":null,"type":"radio","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"city_confirmed","role":"source_base","label":"Seoul, South Korea"},"genres":["Multi-genre","Electronic","Hip-hop"],"formats":["dj_set","live_performance","music_radio_live"],"languages":[],"official_site":"https://seoul-community-radio.myshopify.com/","schedule_url":"https://seoul-community-radio.myshopify.com/","youtube_url":"https://www.youtube.com/channel/UCUjB4nj0j-pYBaYI0sXekfw","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["in-studio live","live set","dj set","live performance"],"deny_title_patterns":["interview","podcast","talk","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://seoul-community-radio.myshopify.com/","supports":["identity","music_live_capability","schedule_pattern"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCUjB4nj0j-pYBaYI0sXekfw","supports":["official_channel"]},{"kind":"other_official","url":"https://linktr.ee/seoulcommunityradio","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"SCR states that live shows are broadcast regularly; mixed non-music programming remains fail-closed.","youtube_channel_id":"UCUjB4nj0j-pYBaYI0sXekfw","youtube_uploads_playlist_id":"UUUjB4nj0j-pYBaYI0sXekfw"},{"schema_version":2,"id":"mutant-radio","name":"Mutant Radio","operator_name":null,"type":"radio","country":"Georgia","country_code":"GE","region":"Tbilisi","city":"Tbilisi","location":{"lat":41.7151,"lon":44.8271,"precision":"city_confirmed","role":"source_base","label":"Tbilisi, Georgia"},"genres":["Multi-genre","Electronic","Experimental"],"formats":["dj_set","live_performance","music_radio_live"],"languages":[],"official_site":"https://www.mutantradio.net/","schedule_url":"https://www.mutantradio.net/","youtube_url":"https://www.youtube.com/channel/UC7n1-g_hz0KlDf6p_ROJo4w","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["dj set","live set","live performance"],"deny_title_patterns":["interview","podcast","talk","educational","lecture","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.mutantradio.net/about","supports":["identity","music_live_capability","source_location"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC7n1-g_hz0KlDf6p_ROJo4w","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.mutantradio.net/","supports":["schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Tbilisi is the original broadcast hub; the platform also operates a Berlin studio. Interviews/talks are explicitly excluded from public music-live results.","youtube_channel_id":"UC7n1-g_hz0KlDf6p_ROJo4w","youtube_uploads_playlist_id":"UU7n1-g_hz0KlDf6p_ROJo4w"},{"schema_version":2,"id":"book-club-radio","name":"Book Club Radio","operator_name":null,"type":"media_events","country":"United States","country_code":"US","region":"New York","city":"Brooklyn","location":{"lat":40.6782,"lon":-73.9442,"precision":"city_confirmed","role":"source_base","label":"Brooklyn, New York"},"genres":["Electronic","House","Dance"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://www.bookclub.radio/","schedule_url":"https://www.bookclub.radio/","youtube_url":"https://www.youtube.com/channel/UCLmaR7ew57x0XJEe_-REUyg","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":["dj set","live mix","live dj"],"deny_title_patterns":["interview","podcast","talk"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.bookclub.radio/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCLmaR7ew57x0XJEe_-REUyg","supports":["official_channel"]},{"kind":"other_official","url":"https://bookclubstore.com/pages/about-us","supports":["music_live_capability","source_location"]},{"kind":"official_schedule","url":"https://www.bookclub.radio/","supports":["schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Book Club Radio states that its live DJ mixes are available on its YouTube channel; Brooklyn is the source base, not a per-event venue claim.","youtube_channel_id":"UCLmaR7ew57x0XJEe_-REUyg","youtube_uploads_playlist_id":"UULmaR7ew57x0XJEe_-REUyg"},{"schema_version":2,"id":"dj-mag","name":"DJ Mag","operator_name":null,"type":"independent_media","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"operator_city_only","role":"operator_base","label":"London, UK (operator base)"},"genres":["Electronic","Dance"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://djmag.com/","schedule_url":"https://djmag.com/livesets","youtube_url":"https://www.youtube.com/channel/UCJEKlziKdxoos1qbptjGgLg","status":"mixed","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["dj mag live","dj set","live set","live performance"],"deny_title_patterns":["interview","podcast","news","tutorial","documentary"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://djmag.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCJEKlziKdxoos1qbptjGgLg","supports":["official_channel"]},{"kind":"other_official","url":"https://djmag.com/information/how-pitch-dj-mag","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"DJ Mag runs live streams globally; London is operator base only and must not be used as event location.","youtube_channel_id":"UCJEKlziKdxoos1qbptjGgLg","youtube_uploads_playlist_id":"UUJEKlziKdxoos1qbptjGgLg"},{"schema_version":2,"id":"mixmag","name":"Mixmag","operator_name":"Wasted Talent Ltd","type":"independent_media","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"operator_city_only","role":"operator_base","label":"London, UK (operator base)"},"genres":["Electronic","Dance"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://mixmag.net/","schedule_url":"https://mixmag.net/feature/lab-ldn","youtube_url":"https://www.youtube.com/channel/UCQdCIrTpkhEH5Z8KPsn7NvQ","status":"mixed","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["mixmag lab","the lab","dj set","live set"],"deny_title_patterns":["interview","podcast","news","documentary","review"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://mixmag.net/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCQdCIrTpkhEH5Z8KPsn7NvQ","supports":["official_channel"]},{"kind":"official_schedule","url":"https://mixmag.net/feature/lab-ldn","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://mixmag.net/page/contact-mixmag","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"The Lab is a recurring livestream series; individual Lab locations can differ from the London operator base.","youtube_channel_id":"UCQdCIrTpkhEH5Z8KPsn7NvQ","youtube_uploads_playlist_id":"UUQdCIrTpkhEH5Z8KPsn7NvQ"},{"schema_version":2,"id":"beatport","name":"Beatport","operator_name":"Beatport, LLC","type":"independent_media","country":"United States","country_code":"US","region":"Colorado","city":"Denver","location":{"lat":39.7392,"lon":-104.9903,"precision":"operator_city_only","role":"operator_base","label":"Denver, Colorado (operator base)"},"genres":["Electronic","Dance"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://www.beatport.com/","schedule_url":"https://www.beatportal.com/promoter/beatport-live","youtube_url":"https://www.youtube.com/channel/UCyEMqKQPGdj8wKVKt2-agbQ","status":"mixed","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["beatport live","dj set","live set"],"deny_title_patterns":["interview","podcast","news","tutorial","release"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.beatport.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCyEMqKQPGdj8wKVKt2-agbQ","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.beatportal.com/promoter/beatport-live","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://support.beatport.com/hc/en-us/articles/14763475089044-Copyright-Information","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Beatport Live events occur in multiple cities; Denver is operator base only.","youtube_channel_id":"UCyEMqKQPGdj8wKVKt2-agbQ","youtube_uploads_playlist_id":"UUyEMqKQPGdj8wKVKt2-agbQ"},{"schema_version":2,"id":"insomniac","name":"Insomniac","operator_name":null,"type":"media_events","country":"United States","country_code":"US","region":null,"city":null,"location":{"lat":null,"lon":null,"precision":"country_only","role":"operator_base","label":"United States (operator country)"},"genres":["Electronic","Dance"],"formats":["festival_stream","dj_set","live_performance"],"languages":[],"official_site":"https://www.insomniac.com/","schedule_url":"https://www.insomniac.com/events/","youtube_url":"https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["insomniac live","edc live","livestream","live stream","dj set","live set"],"deny_title_patterns":["interview","podcast","news","aftermovie","after movie","recap","trailer"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.insomniac.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.insomniac.com/livestream-/","supports":["music_live_capability"]},{"kind":"official_schedule","url":"https://www.insomniac.com/events/","supports":["schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Insomniac operates many festivals and events; event-specific locations must override this country-level operator location.","youtube_channel_id":"UCr45VhwCBYwMfdN-gz7W_OA","youtube_uploads_playlist_id":"UUr45VhwCBYwMfdN-gz7W_OA"},{"schema_version":2,"id":"umf-tv","name":"UMF TV","operator_name":"Ultra Enterprises, Inc.","type":"festival","country":"United States","country_code":"US","region":"Florida","city":"Miami","location":{"lat":25.7617,"lon":-80.1918,"precision":"city_confirmed","role":"event_home","label":"Miami, Florida (Ultra Music Festival home)"},"genres":["Electronic","Dance"],"formats":["festival_stream","dj_set","live_performance"],"languages":[],"official_site":"https://ultramusicfestival.com/","schedule_url":"https://ultramusicfestival.com/livestream/","youtube_url":"https://www.youtube.com/channel/UCX9fOfRkHANZM8iFWhMSpNg","status":"seasonal","schedule_pattern":"seasonal","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["ultralive","live stream","livestream","live set","dj set"],"deny_title_patterns":["aftermovie","after movie","recap","trailer","announcement","interview"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://ultramusicfestival.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCX9fOfRkHANZM8iFWhMSpNg","supports":["official_channel"]},{"kind":"official_schedule","url":"https://ultramusicfestival.com/livestream/","supports":["music_live_capability","schedule_pattern","source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"UMF TV also covers Ultra events outside Miami; event location must override the Miami festival home.","youtube_channel_id":"UCX9fOfRkHANZM8iFWhMSpNg","youtube_uploads_playlist_id":"UUX9fOfRkHANZM8iFWhMSpNg"},{"schema_version":2,"id":"a-state-of-trance","name":"A State of Trance","operator_name":null,"type":"radio_media","country":"Netherlands","country_code":"NL","region":"South Holland","city":"Rotterdam","location":{"lat":51.9244,"lon":4.4777,"precision":"city_confirmed","role":"event_home","label":"Rotterdam, Netherlands (2026 event home)"},"genres":["Trance","Progressive","Electronic"],"formats":["music_radio_live","festival_stream","dj_set"],"languages":[],"official_site":"https://www.astateoftrance.com/","schedule_url":"https://festival.astateoftrance.com/livestream/","youtube_url":"https://www.youtube.com/channel/UCalCDSmZAYD73tqVZ4l8yJg","status":"mixed","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["a state of trance","asot live","asot"],"deny_title_patterns":["interview","podcast","news","recap","trailer"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.astateoftrance.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCalCDSmZAYD73tqVZ4l8yJg","supports":["official_channel"]},{"kind":"other_official","url":"https://www.astateoftrance.com/about/","supports":["music_live_capability","schedule_pattern"]},{"kind":"official_event_page","url":"https://festival.astateoftrance.com/faq-2026/","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"The radio show and event series are global; Rotterdam is the documented 2026 event home, not a universal stream location.","youtube_channel_id":"UCalCDSmZAYD73tqVZ4l8yJg","youtube_uploads_playlist_id":"UUalCDSmZAYD73tqVZ4l8yJg"},{"schema_version":2,"id":"club-space","name":"Club Space","operator_name":null,"type":"venue","country":"United States","country_code":"US","region":"Florida","city":"Miami","location":{"lat":25.7846667,"lon":-80.193,"precision":"source_base","role":"source_base","label":"34 NE 11 St, Miami, Florida"},"genres":["House","Techno","Electronic"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://www.clubspace.com/","schedule_url":"https://www.clubspace.com/","youtube_url":"https://www.youtube.com/channel/UCD2yZhDoieQ4TP5xKeRft-g","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["club space live","dj set","live stream","livestream"],"deny_title_patterns":["yoga","interview","podcast","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.clubspace.com/","supports":["identity","music_live_capability","schedule_pattern","source_location"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCD2yZhDoieQ4TP5xKeRft-g","supports":["official_channel"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Club Space publishes full DJ sets from its Miami venue; stream-level live status still requires YouTube live metadata.","youtube_channel_id":"UCD2yZhDoieQ4TP5xKeRft-g","youtube_uploads_playlist_id":"UUD2yZhDoieQ4TP5xKeRft-g"},{"schema_version":2,"id":"south-plug","name":"South Plug","operator_name":null,"type":"independent_media","country":"Spain","country_code":"ES","region":"Catalonia","city":"Barcelona","location":{"lat":41.3874,"lon":2.1686,"precision":"city_confirmed","role":"event_home","label":"Barcelona, Spain (current recurring session city)"},"genres":["Electronic","Experimental"],"formats":["dj_set","live_performance"],"languages":[],"official_site":"https://southplug.com/","schedule_url":"https://southplug.com/en/blog-sp/","youtube_url":"https://www.youtube.com/channel/UClsnAmmiSUXo6SOo0zBM4ug","status":"mixed","schedule_pattern":"irregular","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["live @ south plug","live from","live set","dj set","100% live"],"deny_title_patterns":["interview","documentary","trailer","podcast"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://southplug.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UClsnAmmiSUXo6SOo0zBM4ug","supports":["official_channel"]},{"kind":"official_schedule","url":"https://southplug.com/en/blog-sp/","supports":["music_live_capability","schedule_pattern","source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"South Plug publishes sessions from multiple cities; Barcelona is a current recurring session city and must not be copied to every stream.","youtube_channel_id":"UClsnAmmiSUXo6SOo0zBM4ug","youtube_uploads_playlist_id":"UUlsnAmmiSUXo6SOo0zBM4ug"},{"schema_version":2,"id":"cercle","name":"Cercle","operator_name":null,"type":"media_events","country":"France","country_code":"FR","region":null,"city":null,"location":{"lat":null,"lon":null,"precision":"country_only","role":"operator_base","label":"France (operator country)"},"genres":["Electronic"],"formats":["dj_set","live_performance","festival_stream"],"languages":[],"official_site":"https://www.cercle.io/","schedule_url":"https://festival.cercle.io/","youtube_url":"https://www.youtube.com/channel/UCPKT_csvP72boVX0XrMtagQ","status":"event_based","schedule_pattern":"event_based","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["live for cercle","cercle live","dj set","live set"],"deny_title_patterns":["interview","trailer","documentary","aftermovie","after movie","recap"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.cercle.io/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCPKT_csvP72boVX0XrMtagQ","supports":["official_channel"]},{"kind":"official_event_page","url":"https://festival.cercle.io/","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Cercle stages events globally; operator-country coordinates are intentionally not invented.","youtube_channel_id":"UCPKT_csvP72boVX0XrMtagQ","youtube_uploads_playlist_id":"UUPKT_csvP72boVX0XrMtagQ"},{"schema_version":2,"id":"defected","name":"Defected Records","operator_name":"Defected Records LTD","type":"label_media","country":"United Kingdom","country_code":"GB","region":"England","city":"London","location":{"lat":51.5072,"lon":-0.1276,"precision":"operator_city_only","role":"operator_base","label":"London, UK (operator base)"},"genres":["House","Electronic"],"formats":["dj_set","music_radio_live","live_performance"],"languages":[],"official_site":"https://defected.com/","schedule_url":"https://defected.com/events","youtube_url":"https://www.youtube.com/channel/UCnOxaDXBiBXg9Nn9hKWu6aw","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["defected live","live from defected","live event"],"deny_title_patterns":["archive","radio show","podcast","interview","playlist"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://defected.com/","supports":["identity","source_location"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCnOxaDXBiBXg9Nn9hKWu6aw","supports":["official_channel"]},{"kind":"other_official","url":"https://defected.com/news/post/defected-records-to-launch-new-247-live-broadcasting-channel","supports":["music_live_capability"]},{"kind":"official_schedule","url":"https://defected.com/events","supports":["schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Defected mixes archive sets, radio shows and live events; mixed policy must remain strict so a 24/7 archive/radio stream is not treated as live-event proof.","youtube_channel_id":"UCnOxaDXBiBXg9Nn9hKWu6aw","youtube_uploads_playlist_id":"UUnOxaDXBiBXg9Nn9hKWu6aw"},{"schema_version":2,"id":"kbs-world-tv","name":"KBS WORLD TV","operator_name":"Korean Broadcasting System","type":"broadcast_media","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (KBS operator base)"},"genres":["K-pop"],"formats":["live_performance"],"languages":["Korean","English"],"official_site":"https://world.kbs.co.kr/","schedule_url":"https://world.kbs.co.kr/service/contents_view.htm?board_seq=427396&menu_cate=tvguide","youtube_url":"https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["music bank","k-pop live","live performance"],"deny_title_patterns":["news","drama","interview","documentary","talk"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://world.kbs.co.kr/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig","supports":["official_channel"]},{"kind":"official_schedule","url":"https://world.kbs.co.kr/service/contents_view.htm?board_seq=427396&menu_cate=tvguide","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://english.kbs.co.kr/about/contact_us.html","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"high"},"note":"KBS WORLD TV is a mixed international broadcaster. Music Bank is a recurring YouTube livestream; non-music programming must fail closed.","youtube_channel_id":"UC5BMQOsAB8hKUyHu9KI6yig","youtube_uploads_playlist_id":"UU5BMQOsAB8hKUyHu9KI6yig"},{"schema_version":2,"id":"arirang-k-pop","name":"ARIRANG K-POP","operator_name":"Korea International Broadcasting Foundation","type":"broadcast_media","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (Arirang operator base)"},"genres":["K-pop"],"formats":["live_performance","studio_session"],"languages":["Korean","English"],"official_site":"https://www.arirang.com/","schedule_url":"https://www.arirang.com/","youtube_url":"https://www.youtube.com/channel/UC_6zPf4uuteHFFctnQtEaXQ","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["simply k-pop","i'm live","live performance","live session","concert"],"deny_title_patterns":["interview","news","talk","behind","reaction"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.arirang.com/","supports":["identity","music_live_capability","schedule_pattern"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC_6zPf4uuteHFFctnQtEaXQ","supports":["official_channel"]},{"kind":"other_official","url":"https://company.arirang.com/","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Official Arirang K-pop channel. Mixed programming requires explicit music-live evidence.","youtube_channel_id":"UC_6zPf4uuteHFFctnQtEaXQ","youtube_uploads_playlist_id":"UU_6zPf4uuteHFFctnQtEaXQ"},{"schema_version":2,"id":"im-live-arirang","name":"I'M LIVE","operator_name":"Korea International Broadcasting Foundation","type":"studio_media","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (Arirang operator base)"},"genres":["Multi-genre"],"formats":["live_performance","studio_session"],"languages":["Korean","English"],"official_site":"https://www.arirang.com/","schedule_url":"https://www.arirang.com/","youtube_url":"https://www.youtube.com/channel/UC82dHUwrlcpa34I2PmyMYQA","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":["i'm live","live performance","live session"],"deny_title_patterns":["interview","talk","behind"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.arirang.com/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC82dHUwrlcpa34I2PmyMYQA","supports":["official_channel","music_live_capability"]},{"kind":"other_official","url":"https://company.arirang.com/","supports":["source_location","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Dedicated Arirang live-performance channel; source-level location is operator base only.","youtube_channel_id":"UC82dHUwrlcpa34I2PmyMYQA","youtube_uploads_playlist_id":"UU82dHUwrlcpa34I2PmyMYQA"},{"schema_version":2,"id":"arirang-radio-k-pop","name":"Arirang Radio K-Pop","operator_name":"Korea International Broadcasting Foundation","type":"radio","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (Arirang operator base)"},"genres":["K-pop"],"formats":["music_radio_live","live_performance","studio_session"],"languages":["Korean","English"],"official_site":"https://www.arirang.com/radio/watch","schedule_url":"https://www.arirang.com/radio/watch","youtube_url":"https://www.youtube.com/channel/UCUSSnoEQ8DSRK-gnWS0vfyA","status":"continuous","schedule_pattern":"continuous","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["k-pop live session","live session","live performance","on-air","on air"],"deny_title_patterns":["news","interview","talk","podcast"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.arirang.com/radio/watch","supports":["identity","music_live_capability","schedule_pattern"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCUSSnoEQ8DSRK-gnWS0vfyA","supports":["official_channel"]},{"kind":"other_official","url":"https://company.arirang.com/","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"high"},"note":"Arirang Radio has continuous video/radio output and K-pop live sessions; mixed talk content must fail closed.","youtube_channel_id":"UCUSSnoEQ8DSRK-gnWS0vfyA","youtube_uploads_playlist_id":"UUUSSnoEQ8DSRK-gnWS0vfyA"},{"schema_version":2,"id":"sbskpop-inkigayo","name":"SBSKPOP X INKIGAYO","operator_name":"SBS","type":"broadcast_media","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (SBS operator base)"},"genres":["K-pop"],"formats":["live_performance"],"languages":["Korean"],"official_site":"https://programs.sbs.co.kr/enter/gayo/main","schedule_url":"https://programs.sbs.co.kr/enter/gayo/main","youtube_url":"https://www.youtube.com/channel/UCS_hnpJLQTvBkqALgapi_4g","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["inkigayo","k-pop live stream","live stream","stream"],"deny_title_patterns":["interview","behind","preview","teaser","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://programs.sbs.co.kr/enter/gayo/main","supports":["identity","schedule_pattern"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCS_hnpJLQTvBkqALgapi_4g","supports":["official_channel"]},{"kind":"official_event_page","url":"https://www.youtube.com/watch?v=H7caOPZ4Ukk","supports":["music_live_capability"]},{"kind":"other_official","url":"https://sbspr.sbs.co.kr/intro/pdf/SBSbrochure_eng_mobile_0908.pdf","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"high"},"note":"SBS music-show channel with recurring Inkigayo streams; clips and non-live uploads must not be promoted as live.","youtube_channel_id":"UCS_hnpJLQTvBkqALgapi_4g","youtube_uploads_playlist_id":"UUS_hnpJLQTvBkqALgapi_4g"},{"schema_version":2,"id":"the-k-pop","name":"THE K-POP","operator_name":"SBS Medianet","type":"broadcast_media","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (SBS Medianet operator base)"},"genres":["K-pop"],"formats":["live_performance"],"languages":["Korean"],"official_site":"https://sbsmedianet.sbs.co.kr/","schedule_url":"https://programs.sbs.co.kr/mtv/theshow/main","youtube_url":"https://www.youtube.com/channel/UCoRXPcv8XK5fAplLbk9PTww","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["the show","k-pop live","live performance"],"deny_title_patterns":["interview","behind","fanpopty","teaser","preview"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://sbsmedianet.sbs.co.kr/","supports":["identity","source_location"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCoRXPcv8XK5fAplLbk9PTww","supports":["official_channel","music_live_capability"]},{"kind":"official_schedule","url":"https://programs.sbs.co.kr/mtv/theshow/main","supports":["schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"high"},"note":"THE SHOW returned in 2026 with global YouTube livestream distribution. Mixed extras/interviews fail closed.","youtube_channel_id":"UCoRXPcv8XK5fAplLbk9PTww","youtube_uploads_playlist_id":"UUoRXPcv8XK5fAplLbk9PTww"},{"schema_version":2,"id":"kreciolatv-polandrock","name":"KręciołaTV / Pol'and'Rock Festival","operator_name":"Fundacja Wielka Orkiestra Świątecznej Pomocy","type":"festival","country":"Poland","country_code":"PL","region":"West Pomeranian","city":"Czaplinek","location":{"lat":53.5575,"lon":16.2335,"precision":"city_confirmed","role":"event_home","label":"Czaplinek, Poland (Pol'and'Rock Festival home)"},"genres":["Rock","Alternative","Metal","Multi-genre"],"formats":["festival_stream","live_performance"],"languages":["Polish"],"official_site":"https://polandrockfestival.pl/","schedule_url":"https://polandrockfestival.pl/","youtube_url":"https://www.youtube.com/channel/UC6FX0-x8RRJ4WsZr32Qh_FQ","status":"seasonal","schedule_pattern":"seasonal","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["pol'and'rock","polandrock","concert","koncert","live"],"deny_title_patterns":["interview","rozmowa","news","reportaż"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://polandrockfestival.pl/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC6FX0-x8RRJ4WsZr32Qh_FQ","supports":["official_channel"]},{"kind":"official_event_page","url":"https://newsroom.polandrockfestival.pl/466913-plyta-nocny-kochanek-live-31-polandrock-festival-juz-w-sprzedazy","supports":["music_live_capability"]},{"kind":"official_event_page","url":"https://newsroom.polandrockfestival.pl/462884-poznajcie-pelny-line-up-festiwalu","supports":["schedule_pattern","source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"KręciołaTV carries the annual Pol'and'Rock live transmission plus mixed editorial content; Czaplinek is the current festival home.","youtube_channel_id":"UC6FX0-x8RRJ4WsZr32Qh_FQ","youtube_uploads_playlist_id":"UU6FX0-x8RRJ4WsZr32Qh_FQ"},{"schema_version":2,"id":"hr-sinfonieorchester","name":"hr-Sinfonieorchester – Frankfurt Radio Symphony","operator_name":"Hessischer Rundfunk","type":"orchestra","country":"Germany","country_code":"DE","region":"Hesse","city":"Frankfurt","location":{"lat":50.1109,"lon":8.6821,"precision":"city_confirmed","role":"source_base","label":"Frankfurt am Main, Germany"},"genres":["Classical"],"formats":["concert","live_performance"],"languages":["German","English"],"official_site":"https://www.hr-sinfonieorchester.de/","schedule_url":"https://www.hr-sinfonieorchester.de/livestreams/index.html","youtube_url":"https://www.youtube.com/channel/UCiyuYC0D4-AO0AonCfMifPQ","status":"recurring","schedule_pattern":"recurring","lifecycle_status":"active","music_live_policy":{"mode":"music_only","allow_title_patterns":["live","livestream","concert"],"deny_title_patterns":["interview","talk","introduction"],"require_schedule_match_when_ambiguous":false},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.hr-sinfonieorchester.de/","supports":["identity","source_location"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCiyuYC0D4-AO0AonCfMifPQ","supports":["official_channel"]},{"kind":"official_schedule","url":"https://www.hr-sinfonieorchester.de/livestreams/index.html","supports":["music_live_capability","schedule_pattern"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"Frankfurt-based orchestra with recurring official YouTube concert livestreams.","youtube_channel_id":"UCiyuYC0D4-AO0AonCfMifPQ","youtube_uploads_playlist_id":"UUiyuYC0D4-AO0AonCfMifPQ"},{"schema_version":2,"id":"npr-music","name":"NPR Music","operator_name":"NPR","type":"studio_media","country":"United States","country_code":"US","region":"District of Columbia","city":"Washington","location":{"lat":38.9072,"lon":-77.0369,"precision":"operator_city_only","role":"operator_base","label":"Washington, DC (NPR operator base)"},"genres":["Multi-genre"],"formats":["live_performance","studio_session"],"languages":["English"],"official_site":"https://www.npr.org/music/","schedule_url":"https://www.npr.org/series/tiny-desk-concerts/","youtube_url":"https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A","status":"mixed","schedule_pattern":"irregular","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["livestream","live stream","live show","tiny desk contest top shelf"],"deny_title_patterns":["interview","documentary","podcast","news"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.npr.org/music/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A","supports":["official_channel"]},{"kind":"official_event_page","url":"https://www.youtube.com/live/vgpsHZmb_Tk","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://media.npr.org/documents/about/press/NPR_Fact_Sheet.pdf","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"NPR Music mixes recorded sessions, editorial content and occasional YouTube livestream series; ambiguous items fail closed.","youtube_channel_id":"UC4eYXhJI4-7wSWc8UNRwD4A","youtube_uploads_playlist_id":"UU4eYXhJI4-7wSWc8UNRwD4A"},{"schema_version":2,"id":"kbs-kpop","name":"KBS Kpop","operator_name":"Korean Broadcasting System","type":"broadcast_media","country":"South Korea","country_code":"KR","region":"Seoul","city":"Seoul","location":{"lat":37.5665,"lon":126.978,"precision":"operator_city_only","role":"operator_base","label":"Seoul, South Korea (KBS operator base)"},"genres":["K-pop"],"formats":["live_performance","studio_session"],"languages":["Korean"],"official_site":"https://www.kbs.co.kr/","schedule_url":"https://mylovekbs.kbs.co.kr/index.html?contents_id=70000000403293&sname=mylovekbs&source=mylovekbs&stype=blog","youtube_url":"https://www.youtube.com/channel/UCeLPm9yH_a_QH8n6445G-Ow","status":"mixed","schedule_pattern":"mixed","lifecycle_status":"active","music_live_policy":{"mode":"mixed","allow_title_patterns":["live","livestream","music bank","k-pop live","concert"],"deny_title_patterns":["interview","behind","talk","variety","preview"],"require_schedule_match_when_ambiguous":true},"verification":{"official_channel":true,"music_live_capable":true,"last_verified_at":"2026-09-03"},"evidence":[{"kind":"official_site","url":"https://www.kbs.co.kr/","supports":["identity"]},{"kind":"official_youtube_channel","url":"https://www.youtube.com/channel/UCeLPm9yH_a_QH8n6445G-Ow","supports":["official_channel"]},{"kind":"other_official","url":"https://mylovekbs.kbs.co.kr/index.html?contents_id=70000000403293&sname=mylovekbs&source=mylovekbs&stype=blog","supports":["music_live_capability","schedule_pattern"]},{"kind":"other_official","url":"https://english.kbs.co.kr/about/contact_us.html","supports":["source_location"]}],"acquisition":{"enabled":true,"method":"youtube_atom_feed","priority":"normal"},"note":"KBS official music channel. Mixed originals and clips require explicit live metadata.","youtube_channel_id":"UCeLPm9yH_a_QH8n6445G-Ow","youtube_uploads_playlist_id":"UUeLPm9yH_a_QH8n6445G-Ow"}]
+[
+  {
+    "schema_version": 2,
+    "id": "hoer-berlin",
+    "name": "HÖR BERLIN",
+    "operator_name": null,
+    "type": "independent_media",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": "Berlin",
+    "city": "Berlin",
+    "location": {
+      "lat": 52.52,
+      "lon": 13.405,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Berlin, Germany"
+    },
+    "genres": [
+      "Electronic",
+      "Techno",
+      "House",
+      "Experimental"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://hoer.live/",
+    "schedule_url": "https://hoer.live/calendar/",
+    "youtube_url": "https://www.youtube.com/@hoer.berlin",
+    "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://hoer.live/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@hoer.berlin",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://hoer.live/calendar/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Source-level genres; individual streams may differ.",
+    "youtube_channel_id": "UCmfF7JZv26UUKyRedViGIlw",
+    "youtube_uploads_playlist_id": "UUmfF7JZv26UUKyRedViGIlw"
+  },
+  {
+    "schema_version": 2,
+    "id": "the-lot-radio",
+    "name": "The Lot Radio",
+    "operator_name": null,
+    "type": "radio",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "Brooklyn",
+    "location": {
+      "lat": 40.722,
+      "lon": -73.953,
+      "precision": "source_base",
+      "role": "source_base",
+      "label": "Brooklyn, New York"
+    },
+    "genres": [
+      "Jazz",
+      "House",
+      "Afrobeat",
+      "Electronic",
+      "Techno",
+      "Jungle",
+      "Breaks",
+      "Disco"
+    ],
+    "formats": [
+      "dj_set",
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.thelotradio.com/",
+    "schedule_url": "https://www.thelotradio.com/",
+    "youtube_url": "https://www.youtube.com/@TheLotRadio",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.thelotradio.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@TheLotRadio",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.thelotradio.com/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Multi-genre radio; show-level genres can differ.",
+    "youtube_channel_id": "UCJOtExbMu0RqIdiE4nMUPxQ",
+    "youtube_uploads_playlist_id": "UUJOtExbMu0RqIdiE4nMUPxQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "dommune",
+    "name": "DOMMUNE",
+    "operator_name": null,
+    "type": "studio_media",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Tokyo, Japan"
+    },
+    "genres": [
+      "Electronic",
+      "Experimental"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.dommune.com/",
+    "schedule_url": "https://www.dommune.com/",
+    "youtube_url": "https://www.youtube.com/@DOMMUNE",
+    "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "dj set",
+        "live set",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "talk",
+        "discussion",
+        "lecture",
+        "interview",
+        "podcast"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.dommune.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@DOMMUNE",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.dommune.com/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Programme-level details should come from the official programme page.",
+    "youtube_channel_id": "UC06WalpLcwTx-0ZVgglMc5Q",
+    "youtube_uploads_playlist_id": "UU06WalpLcwTx-0ZVgglMc5Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "kexp",
+    "name": "KEXP",
+    "operator_name": null,
+    "type": "radio",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Washington",
+    "city": "Seattle",
+    "location": {
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Seattle, Washington"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.kexp.org/",
+    "schedule_url": "https://www.kexp.org/events/",
+    "youtube_url": "https://www.youtube.com/KEXP",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live on kexp",
+        "live at kexp"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kexp.org/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/KEXP",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.kexp.org/events/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Do not assume every in-studio session is live on YouTube.",
+    "youtube_channel_id": "UC3I2GFN_F8WudD_2jUZbojA",
+    "youtube_uploads_playlist_id": "UU3I2GFN_F8WudD_2jUZbojA"
+  },
+  {
+    "schema_version": 2,
+    "id": "boiler-room",
+    "name": "Boiler Room",
+    "operator_name": null,
+    "type": "media_events",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, UK"
+    },
+    "genres": [
+      "Electronic",
+      "House",
+      "Techno",
+      "Hip-hop",
+      "Rap",
+      "Afrobeats",
+      "Amapiano"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://boilerroom.tv/",
+    "schedule_url": "https://boilerroom.tv/upcoming/",
+    "youtube_url": "https://www.youtube.com/@boilerroom",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://boilerroom.tv/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@boilerroom",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://boilerroom.tv/upcoming/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Events happen globally; event location overrides operator location.",
+    "youtube_channel_id": "UCGBpxWJr9FNOcFYA5GkKrMg",
+    "youtube_uploads_playlist_id": "UUGBpxWJr9FNOcFYA5GkKrMg"
+  },
+  {
+    "schema_version": 2,
+    "id": "coachella",
+    "name": "Coachella",
+    "operator_name": null,
+    "type": "festival",
+    "country": "United States",
+    "country_code": "US",
+    "region": "California",
+    "city": "Indio",
+    "location": {
+      "lat": 33.7206,
+      "lon": -116.2156,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Indio, California"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.coachella.com/",
+    "schedule_url": "https://coachella.com/youtube-livestream",
+    "youtube_url": "https://www.youtube.com/@Coachella",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.coachella.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@Coachella",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://coachella.com/youtube-livestream",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Festival, stage, stream and performance must be modeled separately.",
+    "youtube_channel_id": "UCHF66aWLOxBW4l6VkSrS3cQ",
+    "youtube_uploads_playlist_id": "UUHF66aWLOxBW4l6VkSrS3cQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "kcrw",
+    "name": "KCRW",
+    "operator_name": null,
+    "type": "radio",
+    "country": "United States",
+    "country_code": "US",
+    "region": "California",
+    "city": "Santa Monica",
+    "location": {
+      "lat": 34.0195,
+      "lon": -118.4912,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Santa Monica, California"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.kcrw.com/",
+    "schedule_url": "https://www.kcrw.com/pages/live-sessions",
+    "youtube_url": "https://www.youtube.com/channel/UC54U5gpKkaa_BpXRVNip2Dw",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live at kcrw",
+        "live from kcrw",
+        "kcrw live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kcrw.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC54U5gpKkaa_BpXRVNip2Dw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.kcrw.com/pages/live-sessions",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "KCRW records live sessions at its Santa Monica studios; do not assume every session is a YouTube livestream.",
+    "youtube_channel_id": "UC54U5gpKkaa_BpXRVNip2Dw",
+    "youtube_uploads_playlist_id": "UU54U5gpKkaa_BpXRVNip2Dw"
+  },
+  {
+    "schema_version": 2,
+    "id": "audiotree",
+    "name": "Audiotree",
+    "operator_name": null,
+    "type": "studio_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Illinois",
+    "city": "Chicago",
+    "location": {
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Chicago, Illinois"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.audiotree.tv/",
+    "schedule_url": "https://www.audiotree.tv/",
+    "youtube_url": "https://www.youtube.com/channel/UCWjmAUHmajb1-eo5WKk_22A",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.audiotree.tv/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCWjmAUHmajb1-eo5WKk_22A",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.audiotree.tv/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Audiotree records live music sessions in Chicago; stream-level genre and live status require video-level verification.",
+    "youtube_channel_id": "UCWjmAUHmajb1-eo5WKk_22A",
+    "youtube_uploads_playlist_id": "UUWjmAUHmajb1-eo5WKk_22A"
+  },
+  {
+    "schema_version": 2,
+    "id": "sofar-sounds",
+    "name": "Sofar Sounds",
+    "operator_name": null,
+    "type": "media_events",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "city_confirmed",
+      "role": "origin",
+      "label": "London, UK (origin only)"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "acoustic_session"
+    ],
+    "languages": [],
+    "official_site": "https://www.sofarsounds.com/",
+    "schedule_url": "https://www.sofarsounds.com/",
+    "youtube_url": "https://www.youtube.com/sofarsounds",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.sofarsounds.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/sofarsounds",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.sofarsounds.com/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Global network operating in hundreds of cities; London is the origin city, not the location of each event. Event location must override this source-level origin.",
+    "youtube_channel_id": "UCRLZb8PpI9N7COmYqHiDH7A",
+    "youtube_uploads_playlist_id": "UURLZb8PpI9N7COmYqHiDH7A"
+  },
+  {
+    "schema_version": 2,
+    "id": "triple-j",
+    "name": "triple j",
+    "operator_name": "Australian Broadcasting Corporation",
+    "type": "radio",
+    "country": "Australia",
+    "country_code": "AU",
+    "region": "New South Wales",
+    "city": "Sydney",
+    "location": {
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Sydney, Australia (network base)"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "festival_stream"
+    ],
+    "languages": [],
+    "official_site": "https://www.abc.net.au/triplej/",
+    "schedule_url": "https://www.abc.net.au/triplej/live-music",
+    "youtube_url": "https://www.youtube.com/channel/UCd2KNtfphz8HvYzM4pwtHmg",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "one night stand",
+        "live music",
+        "festival live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.abc.net.au/triplej/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCd2KNtfphz8HvYzM4pwtHmg",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.abc.net.au/triplej/live-music",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "National Australian radio network with studio sessions, festival recordings and event livestreams. Sydney is source-level only; event locations must override it.",
+    "youtube_channel_id": "UCd2KNtfphz8HvYzM4pwtHmg",
+    "youtube_uploads_playlist_id": "UUd2KNtfphz8HvYzM4pwtHmg"
+  },
+  {
+    "schema_version": 2,
+    "id": "arte-concert",
+    "name": "ARTE Concert",
+    "operator_name": "ARTE",
+    "type": "media_events",
+    "country": "France",
+    "country_code": "FR",
+    "region": "Grand Est",
+    "city": "Strasbourg",
+    "location": {
+      "lat": 48.5734,
+      "lon": 7.7521,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Strasbourg, France (operator base)"
+    },
+    "genres": [
+      "Electronic",
+      "Classical",
+      "Hip-hop",
+      "Pop & Rock",
+      "World",
+      "Metal",
+      "Opera",
+      "Jazz",
+      "Baroque"
+    ],
+    "formats": [
+      "concert",
+      "festival_stream",
+      "opera",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.arte.tv/en/arte-concert/",
+    "schedule_url": "https://www.arte.tv/en/arte-concert/",
+    "youtube_url": "https://www.youtube.com/@arteconcert",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "concert",
+        "festival",
+        "opera",
+        "orchestra",
+        "symphony",
+        "recital",
+        "live session",
+        "live performance",
+        "dj set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "discussion"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-02"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.arte.tv/en/arte-concert/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@arteconcert",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.arte.tv/en/arte-concert/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Concerts and livestreams originate from many venues and festivals; Strasbourg is operator-level only and must never be used as an event location.",
+    "youtube_channel_id": "UC-smeLB9AnOTeypr1YyjJ3A",
+    "youtube_uploads_playlist_id": "UU-smeLB9AnOTeypr1YyjJ3A"
+  },
+  {
+    "schema_version": 2,
+    "id": "tomorrowland",
+    "name": "Tomorrowland",
+    "operator_name": "WEAREONE.world BV",
+    "type": "festival",
+    "country": "Belgium",
+    "country_code": "BE",
+    "region": "Antwerp",
+    "city": "Boom",
+    "location": {
+      "lat": 51.0878,
+      "lon": 4.3663,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Boom, Belgium"
+    },
+    "genres": [
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set"
+    ],
+    "languages": [],
+    "official_site": "https://www.tomorrowland.com/",
+    "schedule_url": "https://belgium.tomorrowland.com/en/line-up/",
+    "youtube_url": "https://www.youtube.com/@tomorrowland",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "livestream",
+        "live set",
+        "dj set"
+      ],
+      "deny_title_patterns": [
+        "countdown",
+        "interview",
+        "podcast",
+        "talk",
+        "aftermovie",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.tomorrowland.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@tomorrowland",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.tomorrowland.com/article/tomorrowland-belgium-2026-livestream-info/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://belgium.tomorrowland.com/en/practical/how-to-get-there/",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Boom is the event home for Tomorrowland Belgium only; other Tomorrowland editions require their own event location.",
+    "youtube_channel_id": "UCsN8M73DMWa8SPp5o_0IAQQ",
+    "youtube_uploads_playlist_id": "UUsN8M73DMWa8SPp5o_0IAQQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "q-dance",
+    "name": "Q-dance",
+    "operator_name": null,
+    "type": "promoter",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "region": "North Holland",
+    "city": "Amsterdam",
+    "location": {
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Amsterdam, Netherlands (operator base)"
+    },
+    "genres": [
+      "Hardstyle",
+      "Hardcore",
+      "Hard Dance"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set"
+    ],
+    "languages": [],
+    "official_site": "https://www.q-dance.com/",
+    "schedule_url": "https://www.q-dance.com/en/events/defqon-1/defqon-1-2026/",
+    "youtube_url": "https://www.youtube.com/@qdance",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "livestream",
+        "live set",
+        "dj set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "aftermovie",
+        "trailer",
+        "the release"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.q-dance.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@qdance",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.q-dance.com/l/defqon1-ayntk-2026-online",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://store.q-dance.com/nl/policies/contact-information",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Amsterdam is operator-level only; Defqon.1 and other Q-dance event locations must be modeled separately.",
+    "youtube_channel_id": "UCAEwCfBRlB3jIY9whEfSP5Q",
+    "youtube_uploads_playlist_id": "UUAEwCfBRlB3jIY9whEfSP5Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "montreux-jazz-festival",
+    "name": "Montreux Jazz Festival",
+    "operator_name": "Fondation du Festival de Jazz de Montreux",
+    "type": "festival",
+    "country": "Switzerland",
+    "country_code": "CH",
+    "region": "Vaud",
+    "city": "Montreux",
+    "location": {
+      "lat": 46.4312,
+      "lon": 6.9107,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Montreux, Switzerland"
+    },
+    "genres": [
+      "Jazz",
+      "Rock",
+      "Pop",
+      "Soul",
+      "Electronic",
+      "Hip-hop"
+    ],
+    "formats": [
+      "concert",
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.montreuxjazzfestival.com/",
+    "schedule_url": "https://www.montreuxjazzfestival.com/en/news/programme-2026/",
+    "youtube_url": "https://www.youtube.com/@MontreuxJazzFest",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "livestream",
+        "live at montreux",
+        "live session",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "aftermovie",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.montreuxjazzfestival.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@MontreuxJazzFest",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.montreuxjazzfestival.com/en/news/livestreams-le-festival-en-direct-dans-le-monde-entier/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.montreuxjazzfestival.com/en/festival/contact-us/",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Montreux is the festival event home; individual stage and performance facts remain stream/event-level.",
+    "youtube_channel_id": "UClUghHElK6LMJrK1_xCWOPA",
+    "youtube_uploads_playlist_id": "UUlUghHElK6LMJrK1_xCWOPA"
+  },
+  {
+    "schema_version": 2,
+    "id": "kiosk-radio",
+    "name": "Kiosk Radio",
+    "operator_name": null,
+    "type": "radio",
+    "country": "Belgium",
+    "country_code": "BE",
+    "region": "Brussels-Capital Region",
+    "city": "Brussels",
+    "location": {
+      "lat": 50.8466,
+      "lon": 4.3528,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Brussels, Belgium"
+    },
+    "genres": [
+      "Multi-genre",
+      "Electronic",
+      "Jazz",
+      "Experimental"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance",
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://kioskradio.com/",
+    "schedule_url": "https://www.kioskradio.com/schedule",
+    "youtube_url": "https://www.youtube.com/channel/UCal_TyiLk79vN9-OzEzUM6A",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "dj set",
+        "live set",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "conversation",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kioskradio.com/about",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCal_TyiLk79vN9-OzEzUM6A",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.kioskradio.com/schedule",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The schedule mixes live DJ sets, pre-recorded shows and conversations; ambiguous streams fail closed.",
+    "youtube_channel_id": "UCal_TyiLk79vN9-OzEzUM6A",
+    "youtube_uploads_playlist_id": "UUal_TyiLk79vN9-OzEzUM6A"
+  },
+  {
+    "schema_version": 2,
+    "id": "wigmore-hall",
+    "name": "Wigmore Hall",
+    "operator_name": "Wigmore Hall",
+    "type": "venue",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "London, UK (venue city)"
+    },
+    "genres": [
+      "Classical"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.wigmore-hall.org.uk/",
+    "schedule_url": "https://www.wigmore-hall.org.uk/",
+    "youtube_url": "https://www.youtube.com/channel/UCJEwPH-wbOTa341mZyJ9NSw",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "concert",
+        "recital",
+        "livestream",
+        "live stream"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "lecture",
+        "masterclass"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.wigmore-hall.org.uk/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCJEwPH-wbOTa341mZyJ9NSw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://media.wigmore-hall.org.uk/documents/Wigmore_Hall_-_2026.27_Season_Announcement_Press_Release.pdf",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The 2026/27 season announcement states that concerts are livestreamed regularly throughout the season.",
+    "youtube_channel_id": "UCJEwPH-wbOTa341mZyJ9NSw",
+    "youtube_uploads_playlist_id": "UUJEwPH-wbOTa341mZyJ9NSw"
+  },
+  {
+    "schema_version": 2,
+    "id": "keep-hush",
+    "name": "Keep Hush",
+    "operator_name": "KH Music Group LTD",
+    "type": "media_events",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, UK (operator base)"
+    },
+    "genres": [
+      "Electronic",
+      "Bass",
+      "Dance"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://keephush.net/",
+    "schedule_url": "https://keephush.net/",
+    "youtube_url": "https://www.youtube.com/channel/UCQAnY_suiNH0MvdTHk5GiBA",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "keep hush live",
+        "dj set",
+        "live set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://keephush.net/about",
+        "supports": [
+          "identity",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCQAnY_suiNH0MvdTHk5GiBA",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://keephush.net/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://keephush.net/legal",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Events are global; London is operator-level only and must not be copied to event locations.",
+    "youtube_channel_id": "UCQAnY_suiNH0MvdTHk5GiBA",
+    "youtube_uploads_playlist_id": "UUQAnY_suiNH0MvdTHk5GiBA"
+  },
+  {
+    "schema_version": 2,
+    "id": "seoul-community-radio",
+    "name": "Seoul Community Radio",
+    "operator_name": null,
+    "type": "radio",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Seoul, South Korea"
+    },
+    "genres": [
+      "Multi-genre",
+      "Electronic",
+      "Hip-hop"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance",
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://seoul-community-radio.myshopify.com/",
+    "schedule_url": "https://seoul-community-radio.myshopify.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCUjB4nj0j-pYBaYI0sXekfw",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "in-studio live",
+        "live set",
+        "dj set",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://seoul-community-radio.myshopify.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCUjB4nj0j-pYBaYI0sXekfw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://linktr.ee/seoulcommunityradio",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "SCR states that live shows are broadcast regularly; mixed non-music programming remains fail-closed.",
+    "youtube_channel_id": "UCUjB4nj0j-pYBaYI0sXekfw",
+    "youtube_uploads_playlist_id": "UUUjB4nj0j-pYBaYI0sXekfw"
+  },
+  {
+    "schema_version": 2,
+    "id": "mutant-radio",
+    "name": "Mutant Radio",
+    "operator_name": null,
+    "type": "radio",
+    "country": "Georgia",
+    "country_code": "GE",
+    "region": "Tbilisi",
+    "city": "Tbilisi",
+    "location": {
+      "lat": 41.7151,
+      "lon": 44.8271,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Tbilisi, Georgia"
+    },
+    "genres": [
+      "Multi-genre",
+      "Electronic",
+      "Experimental"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance",
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.mutantradio.net/",
+    "schedule_url": "https://www.mutantradio.net/",
+    "youtube_url": "https://www.youtube.com/channel/UC7n1-g_hz0KlDf6p_ROJo4w",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "dj set",
+        "live set",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "educational",
+        "lecture",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.mutantradio.net/about",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC7n1-g_hz0KlDf6p_ROJo4w",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.mutantradio.net/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Tbilisi is the original broadcast hub; the platform also operates a Berlin studio. Interviews/talks are explicitly excluded from public music-live results.",
+    "youtube_channel_id": "UC7n1-g_hz0KlDf6p_ROJo4w",
+    "youtube_uploads_playlist_id": "UU7n1-g_hz0KlDf6p_ROJo4w"
+  },
+  {
+    "schema_version": 2,
+    "id": "book-club-radio",
+    "name": "Book Club Radio",
+    "operator_name": null,
+    "type": "media_events",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "Brooklyn",
+    "location": {
+      "lat": 40.6782,
+      "lon": -73.9442,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Brooklyn, New York"
+    },
+    "genres": [
+      "Electronic",
+      "House",
+      "Dance"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.bookclub.radio/",
+    "schedule_url": "https://www.bookclub.radio/",
+    "youtube_url": "https://www.youtube.com/channel/UCLmaR7ew57x0XJEe_-REUyg",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "dj set",
+        "live mix",
+        "live dj"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.bookclub.radio/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCLmaR7ew57x0XJEe_-REUyg",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://bookclubstore.com/pages/about-us",
+        "supports": [
+          "music_live_capability",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.bookclub.radio/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Book Club Radio states that its live DJ mixes are available on its YouTube channel; Brooklyn is the source base, not a per-event venue claim.",
+    "youtube_channel_id": "UCLmaR7ew57x0XJEe_-REUyg",
+    "youtube_uploads_playlist_id": "UULmaR7ew57x0XJEe_-REUyg"
+  },
+  {
+    "schema_version": 2,
+    "id": "dj-mag",
+    "name": "DJ Mag",
+    "operator_name": null,
+    "type": "independent_media",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, UK (operator base)"
+    },
+    "genres": [
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://djmag.com/",
+    "schedule_url": "https://djmag.com/livesets",
+    "youtube_url": "https://www.youtube.com/channel/UCJEKlziKdxoos1qbptjGgLg",
+    "status": "mixed",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "dj mag live",
+        "dj set",
+        "live set",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "news",
+        "tutorial",
+        "documentary"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://djmag.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCJEKlziKdxoos1qbptjGgLg",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://djmag.com/information/how-pitch-dj-mag",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "DJ Mag runs live streams globally; London is operator base only and must not be used as event location.",
+    "youtube_channel_id": "UCJEKlziKdxoos1qbptjGgLg",
+    "youtube_uploads_playlist_id": "UUJEKlziKdxoos1qbptjGgLg"
+  },
+  {
+    "schema_version": 2,
+    "id": "mixmag",
+    "name": "Mixmag",
+    "operator_name": "Wasted Talent Ltd",
+    "type": "independent_media",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, UK (operator base)"
+    },
+    "genres": [
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://mixmag.net/",
+    "schedule_url": "https://mixmag.net/feature/lab-ldn",
+    "youtube_url": "https://www.youtube.com/channel/UCQdCIrTpkhEH5Z8KPsn7NvQ",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "mixmag lab",
+        "the lab",
+        "dj set",
+        "live set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "news",
+        "documentary",
+        "review"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://mixmag.net/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCQdCIrTpkhEH5Z8KPsn7NvQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://mixmag.net/feature/lab-ldn",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://mixmag.net/page/contact-mixmag",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The Lab is a recurring livestream series; individual Lab locations can differ from the London operator base.",
+    "youtube_channel_id": "UCQdCIrTpkhEH5Z8KPsn7NvQ",
+    "youtube_uploads_playlist_id": "UUQdCIrTpkhEH5Z8KPsn7NvQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "beatport",
+    "name": "Beatport",
+    "operator_name": "Beatport, LLC",
+    "type": "independent_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Colorado",
+    "city": "Denver",
+    "location": {
+      "lat": 39.7392,
+      "lon": -104.9903,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Denver, Colorado (operator base)"
+    },
+    "genres": [
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.beatport.com/",
+    "schedule_url": "https://www.beatportal.com/promoter/beatport-live",
+    "youtube_url": "https://www.youtube.com/channel/UCyEMqKQPGdj8wKVKt2-agbQ",
+    "status": "mixed",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "beatport live",
+        "dj set",
+        "live set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "news",
+        "tutorial",
+        "release"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.beatport.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCyEMqKQPGdj8wKVKt2-agbQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.beatportal.com/promoter/beatport-live",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://support.beatport.com/hc/en-us/articles/14763475089044-Copyright-Information",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Beatport Live events occur in multiple cities; Denver is operator base only.",
+    "youtube_channel_id": "UCyEMqKQPGdj8wKVKt2-agbQ",
+    "youtube_uploads_playlist_id": "UUyEMqKQPGdj8wKVKt2-agbQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "insomniac",
+    "name": "Insomniac",
+    "operator_name": null,
+    "type": "media_events",
+    "country": "United States",
+    "country_code": "US",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "United States (operator country)"
+    },
+    "genres": [
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.insomniac.com/",
+    "schedule_url": "https://www.insomniac.com/events/",
+    "youtube_url": "https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "insomniac live",
+        "edc live",
+        "livestream",
+        "live stream",
+        "dj set",
+        "live set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "news",
+        "aftermovie",
+        "after movie",
+        "recap",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.insomniac.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.insomniac.com/livestream-/",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.insomniac.com/events/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Insomniac operates many festivals and events; event-specific locations must override this country-level operator location.",
+    "youtube_channel_id": "UCr45VhwCBYwMfdN-gz7W_OA",
+    "youtube_uploads_playlist_id": "UUr45VhwCBYwMfdN-gz7W_OA"
+  },
+  {
+    "schema_version": 2,
+    "id": "umf-tv",
+    "name": "UMF TV",
+    "operator_name": "Ultra Enterprises, Inc.",
+    "type": "festival",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Florida",
+    "city": "Miami",
+    "location": {
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Miami, Florida (Ultra Music Festival home)"
+    },
+    "genres": [
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://ultramusicfestival.com/",
+    "schedule_url": "https://ultramusicfestival.com/livestream/",
+    "youtube_url": "https://www.youtube.com/channel/UCX9fOfRkHANZM8iFWhMSpNg",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "ultralive",
+        "live stream",
+        "livestream",
+        "live set",
+        "dj set"
+      ],
+      "deny_title_patterns": [
+        "aftermovie",
+        "after movie",
+        "recap",
+        "trailer",
+        "announcement",
+        "interview"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://ultramusicfestival.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCX9fOfRkHANZM8iFWhMSpNg",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://ultramusicfestival.com/livestream/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "UMF TV also covers Ultra events outside Miami; event location must override the Miami festival home.",
+    "youtube_channel_id": "UCX9fOfRkHANZM8iFWhMSpNg",
+    "youtube_uploads_playlist_id": "UUX9fOfRkHANZM8iFWhMSpNg"
+  },
+  {
+    "schema_version": 2,
+    "id": "a-state-of-trance",
+    "name": "A State of Trance",
+    "operator_name": null,
+    "type": "radio_media",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "location": {
+      "lat": 51.9244,
+      "lon": 4.4777,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Rotterdam, Netherlands (2026 event home)"
+    },
+    "genres": [
+      "Trance",
+      "Progressive",
+      "Electronic"
+    ],
+    "formats": [
+      "music_radio_live",
+      "festival_stream",
+      "dj_set"
+    ],
+    "languages": [],
+    "official_site": "https://www.astateoftrance.com/",
+    "schedule_url": "https://festival.astateoftrance.com/livestream/",
+    "youtube_url": "https://www.youtube.com/channel/UCalCDSmZAYD73tqVZ4l8yJg",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "a state of trance",
+        "asot live",
+        "asot"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "news",
+        "recap",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.astateoftrance.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCalCDSmZAYD73tqVZ4l8yJg",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.astateoftrance.com/about/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://festival.astateoftrance.com/faq-2026/",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The radio show and event series are global; Rotterdam is the documented 2026 event home, not a universal stream location.",
+    "youtube_channel_id": "UCalCDSmZAYD73tqVZ4l8yJg",
+    "youtube_uploads_playlist_id": "UUalCDSmZAYD73tqVZ4l8yJg"
+  },
+  {
+    "schema_version": 2,
+    "id": "club-space",
+    "name": "Club Space",
+    "operator_name": null,
+    "type": "venue",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Florida",
+    "city": "Miami",
+    "location": {
+      "lat": 25.7846667,
+      "lon": -80.193,
+      "precision": "source_base",
+      "role": "source_base",
+      "label": "34 NE 11 St, Miami, Florida"
+    },
+    "genres": [
+      "House",
+      "Techno",
+      "Electronic"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://www.clubspace.com/",
+    "schedule_url": "https://www.clubspace.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCD2yZhDoieQ4TP5xKeRft-g",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "club space live",
+        "dj set",
+        "live stream",
+        "livestream"
+      ],
+      "deny_title_patterns": [
+        "yoga",
+        "interview",
+        "podcast",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.clubspace.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCD2yZhDoieQ4TP5xKeRft-g",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Club Space publishes full DJ sets from its Miami venue; stream-level live status still requires YouTube live metadata.",
+    "youtube_channel_id": "UCD2yZhDoieQ4TP5xKeRft-g",
+    "youtube_uploads_playlist_id": "UUD2yZhDoieQ4TP5xKeRft-g"
+  },
+  {
+    "schema_version": 2,
+    "id": "south-plug",
+    "name": "South Plug",
+    "operator_name": null,
+    "type": "independent_media",
+    "country": "Spain",
+    "country_code": "ES",
+    "region": "Catalonia",
+    "city": "Barcelona",
+    "location": {
+      "lat": 41.3874,
+      "lon": 2.1686,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Barcelona, Spain (current recurring session city)"
+    },
+    "genres": [
+      "Electronic",
+      "Experimental"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://southplug.com/",
+    "schedule_url": "https://southplug.com/en/blog-sp/",
+    "youtube_url": "https://www.youtube.com/channel/UClsnAmmiSUXo6SOo0zBM4ug",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live @ south plug",
+        "live from",
+        "live set",
+        "dj set",
+        "100% live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "documentary",
+        "trailer",
+        "podcast"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://southplug.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UClsnAmmiSUXo6SOo0zBM4ug",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://southplug.com/en/blog-sp/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "South Plug publishes sessions from multiple cities; Barcelona is a current recurring session city and must not be copied to every stream.",
+    "youtube_channel_id": "UClsnAmmiSUXo6SOo0zBM4ug",
+    "youtube_uploads_playlist_id": "UUlsnAmmiSUXo6SOo0zBM4ug"
+  },
+  {
+    "schema_version": 2,
+    "id": "cercle",
+    "name": "Cercle",
+    "operator_name": null,
+    "type": "media_events",
+    "country": "France",
+    "country_code": "FR",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "France (operator country)"
+    },
+    "genres": [
+      "Electronic"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance",
+      "festival_stream"
+    ],
+    "languages": [],
+    "official_site": "https://www.cercle.io/",
+    "schedule_url": "https://festival.cercle.io/",
+    "youtube_url": "https://www.youtube.com/channel/UCPKT_csvP72boVX0XrMtagQ",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live for cercle",
+        "cercle live",
+        "dj set",
+        "live set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "trailer",
+        "documentary",
+        "aftermovie",
+        "after movie",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.cercle.io/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCPKT_csvP72boVX0XrMtagQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://festival.cercle.io/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Cercle stages events globally; operator-country coordinates are intentionally not invented.",
+    "youtube_channel_id": "UCPKT_csvP72boVX0XrMtagQ",
+    "youtube_uploads_playlist_id": "UUPKT_csvP72boVX0XrMtagQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "defected",
+    "name": "Defected Records",
+    "operator_name": "Defected Records LTD",
+    "type": "label_media",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, UK (operator base)"
+    },
+    "genres": [
+      "House",
+      "Electronic"
+    ],
+    "formats": [
+      "dj_set",
+      "music_radio_live",
+      "live_performance"
+    ],
+    "languages": [],
+    "official_site": "https://defected.com/",
+    "schedule_url": "https://defected.com/events",
+    "youtube_url": "https://www.youtube.com/channel/UCnOxaDXBiBXg9Nn9hKWu6aw",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "defected live",
+        "live from defected",
+        "live event"
+      ],
+      "deny_title_patterns": [
+        "archive",
+        "radio show",
+        "podcast",
+        "interview",
+        "playlist"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://defected.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCnOxaDXBiBXg9Nn9hKWu6aw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://defected.com/news/post/defected-records-to-launch-new-247-live-broadcasting-channel",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://defected.com/events",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Defected mixes archive sets, radio shows and live events; mixed policy must remain strict so a 24/7 archive/radio stream is not treated as live-event proof.",
+    "youtube_channel_id": "UCnOxaDXBiBXg9Nn9hKWu6aw",
+    "youtube_uploads_playlist_id": "UUnOxaDXBiBXg9Nn9hKWu6aw"
+  },
+  {
+    "schema_version": 2,
+    "id": "kbs-world-tv",
+    "name": "KBS WORLD TV",
+    "operator_name": "Korean Broadcasting System",
+    "type": "broadcast_media",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (KBS operator base)"
+    },
+    "genres": [
+      "K-pop"
+    ],
+    "formats": [
+      "live_performance"
+    ],
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "official_site": "https://world.kbs.co.kr/",
+    "schedule_url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=427396&menu_cate=tvguide",
+    "youtube_url": "https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "music bank",
+        "k-pop live",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "news",
+        "drama",
+        "interview",
+        "documentary",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://world.kbs.co.kr/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=427396&menu_cate=tvguide",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://english.kbs.co.kr/about/contact_us.html",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "KBS WORLD TV is a mixed international broadcaster. Music Bank is a recurring YouTube livestream; non-music programming must fail closed.",
+    "youtube_channel_id": "UC5BMQOsAB8hKUyHu9KI6yig",
+    "youtube_uploads_playlist_id": "UU5BMQOsAB8hKUyHu9KI6yig"
+  },
+  {
+    "schema_version": 2,
+    "id": "arirang-k-pop",
+    "name": "ARIRANG K-POP",
+    "operator_name": "Korea International Broadcasting Foundation",
+    "type": "broadcast_media",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (Arirang operator base)"
+    },
+    "genres": [
+      "K-pop"
+    ],
+    "formats": [
+      "live_performance",
+      "studio_session"
+    ],
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "official_site": "https://www.arirang.com/",
+    "schedule_url": "https://www.arirang.com/",
+    "youtube_url": "https://www.youtube.com/channel/UC_6zPf4uuteHFFctnQtEaXQ",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "simply k-pop",
+        "i'm live",
+        "live performance",
+        "live session",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "news",
+        "talk",
+        "behind",
+        "reaction"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.arirang.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC_6zPf4uuteHFFctnQtEaXQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://company.arirang.com/",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official Arirang K-pop channel. Mixed programming requires explicit music-live evidence.",
+    "youtube_channel_id": "UC_6zPf4uuteHFFctnQtEaXQ",
+    "youtube_uploads_playlist_id": "UU_6zPf4uuteHFFctnQtEaXQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "im-live-arirang",
+    "name": "I'M LIVE",
+    "operator_name": "Korea International Broadcasting Foundation",
+    "type": "studio_media",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (Arirang operator base)"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "studio_session"
+    ],
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "official_site": "https://www.arirang.com/",
+    "schedule_url": "https://www.arirang.com/",
+    "youtube_url": "https://www.youtube.com/channel/UC82dHUwrlcpa34I2PmyMYQA",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "i'm live",
+        "live performance",
+        "live session"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "talk",
+        "behind"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.arirang.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC82dHUwrlcpa34I2PmyMYQA",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://company.arirang.com/",
+        "supports": [
+          "source_location",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Dedicated Arirang live-performance channel; source-level location is operator base only.",
+    "youtube_channel_id": "UC82dHUwrlcpa34I2PmyMYQA",
+    "youtube_uploads_playlist_id": "UU82dHUwrlcpa34I2PmyMYQA"
+  },
+  {
+    "schema_version": 2,
+    "id": "arirang-radio-k-pop",
+    "name": "Arirang Radio K-Pop",
+    "operator_name": "Korea International Broadcasting Foundation",
+    "type": "radio",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (Arirang operator base)"
+    },
+    "genres": [
+      "K-pop"
+    ],
+    "formats": [
+      "music_radio_live",
+      "live_performance",
+      "studio_session"
+    ],
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "official_site": "https://www.arirang.com/radio/watch",
+    "schedule_url": "https://www.arirang.com/radio/watch",
+    "youtube_url": "https://www.youtube.com/channel/UCUSSnoEQ8DSRK-gnWS0vfyA",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "k-pop live session",
+        "live session",
+        "live performance",
+        "on-air",
+        "on air"
+      ],
+      "deny_title_patterns": [
+        "news",
+        "interview",
+        "talk",
+        "podcast"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.arirang.com/radio/watch",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCUSSnoEQ8DSRK-gnWS0vfyA",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://company.arirang.com/",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Arirang Radio has continuous video/radio output and K-pop live sessions; mixed talk content must fail closed.",
+    "youtube_channel_id": "UCUSSnoEQ8DSRK-gnWS0vfyA",
+    "youtube_uploads_playlist_id": "UUUSSnoEQ8DSRK-gnWS0vfyA"
+  },
+  {
+    "schema_version": 2,
+    "id": "sbskpop-inkigayo",
+    "name": "SBSKPOP X INKIGAYO",
+    "operator_name": "SBS",
+    "type": "broadcast_media",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (SBS operator base)"
+    },
+    "genres": [
+      "K-pop"
+    ],
+    "formats": [
+      "live_performance"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "official_site": "https://programs.sbs.co.kr/enter/gayo/main",
+    "schedule_url": "https://programs.sbs.co.kr/enter/gayo/main",
+    "youtube_url": "https://www.youtube.com/channel/UCS_hnpJLQTvBkqALgapi_4g",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "inkigayo",
+        "k-pop live stream",
+        "live stream",
+        "stream"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "behind",
+        "preview",
+        "teaser",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://programs.sbs.co.kr/enter/gayo/main",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCS_hnpJLQTvBkqALgapi_4g",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=H7caOPZ4Ukk",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://sbspr.sbs.co.kr/intro/pdf/SBSbrochure_eng_mobile_0908.pdf",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "SBS music-show channel with recurring Inkigayo streams; clips and non-live uploads must not be promoted as live.",
+    "youtube_channel_id": "UCS_hnpJLQTvBkqALgapi_4g",
+    "youtube_uploads_playlist_id": "UUS_hnpJLQTvBkqALgapi_4g"
+  },
+  {
+    "schema_version": 2,
+    "id": "the-k-pop",
+    "name": "THE K-POP",
+    "operator_name": "SBS Medianet",
+    "type": "broadcast_media",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (SBS Medianet operator base)"
+    },
+    "genres": [
+      "K-pop"
+    ],
+    "formats": [
+      "live_performance"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "official_site": "https://sbsmedianet.sbs.co.kr/",
+    "schedule_url": "https://programs.sbs.co.kr/mtv/theshow/main",
+    "youtube_url": "https://www.youtube.com/channel/UCoRXPcv8XK5fAplLbk9PTww",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "the show",
+        "k-pop live",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "behind",
+        "fanpopty",
+        "teaser",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://sbsmedianet.sbs.co.kr/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCoRXPcv8XK5fAplLbk9PTww",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://programs.sbs.co.kr/mtv/theshow/main",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "THE SHOW returned in 2026 with global YouTube livestream distribution. Mixed extras/interviews fail closed.",
+    "youtube_channel_id": "UCoRXPcv8XK5fAplLbk9PTww",
+    "youtube_uploads_playlist_id": "UUoRXPcv8XK5fAplLbk9PTww"
+  },
+  {
+    "schema_version": 2,
+    "id": "kreciolatv-polandrock",
+    "name": "KręciołaTV / Pol'and'Rock Festival",
+    "operator_name": "Fundacja Wielka Orkiestra Świątecznej Pomocy",
+    "type": "festival",
+    "country": "Poland",
+    "country_code": "PL",
+    "region": "West Pomeranian",
+    "city": "Czaplinek",
+    "location": {
+      "lat": 53.5575,
+      "lon": 16.2335,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Czaplinek, Poland (Pol'and'Rock Festival home)"
+    },
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Metal",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "Polish"
+    ],
+    "official_site": "https://polandrockfestival.pl/",
+    "schedule_url": "https://polandrockfestival.pl/",
+    "youtube_url": "https://www.youtube.com/channel/UC6FX0-x8RRJ4WsZr32Qh_FQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "pol'and'rock",
+        "polandrock",
+        "concert",
+        "koncert",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "rozmowa",
+        "news",
+        "reportaż"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://polandrockfestival.pl/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC6FX0-x8RRJ4WsZr32Qh_FQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://newsroom.polandrockfestival.pl/466913-plyta-nocny-kochanek-live-31-polandrock-festival-juz-w-sprzedazy",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://newsroom.polandrockfestival.pl/462884-poznajcie-pelny-line-up-festiwalu",
+        "supports": [
+          "schedule_pattern",
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "KręciołaTV carries the annual Pol'and'Rock live transmission plus mixed editorial content; Czaplinek is the current festival home.",
+    "youtube_channel_id": "UC6FX0-x8RRJ4WsZr32Qh_FQ",
+    "youtube_uploads_playlist_id": "UU6FX0-x8RRJ4WsZr32Qh_FQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "hr-sinfonieorchester",
+    "name": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+    "operator_name": "Hessischer Rundfunk",
+    "type": "orchestra",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": "Hesse",
+    "city": "Frankfurt",
+    "location": {
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Frankfurt am Main, Germany"
+    },
+    "genres": [
+      "Classical"
+    ],
+    "formats": [
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "official_site": "https://www.hr-sinfonieorchester.de/",
+    "schedule_url": "https://www.hr-sinfonieorchester.de/livestreams/index.html",
+    "youtube_url": "https://www.youtube.com/channel/UCiyuYC0D4-AO0AonCfMifPQ",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "livestream",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "talk",
+        "introduction"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.hr-sinfonieorchester.de/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCiyuYC0D4-AO0AonCfMifPQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.hr-sinfonieorchester.de/livestreams/index.html",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Frankfurt-based orchestra with recurring official YouTube concert livestreams.",
+    "youtube_channel_id": "UCiyuYC0D4-AO0AonCfMifPQ",
+    "youtube_uploads_playlist_id": "UUiyuYC0D4-AO0AonCfMifPQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "npr-music",
+    "name": "NPR Music",
+    "operator_name": "NPR",
+    "type": "studio_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "District of Columbia",
+    "city": "Washington",
+    "location": {
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Washington, DC (NPR operator base)"
+    },
+    "genres": [
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "studio_session"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.npr.org/music/",
+    "schedule_url": "https://www.npr.org/series/tiny-desk-concerts/",
+    "youtube_url": "https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "livestream",
+        "live stream",
+        "live show",
+        "tiny desk contest top shelf"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "documentary",
+        "podcast",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.npr.org/music/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/live/vgpsHZmb_Tk",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://media.npr.org/documents/about/press/NPR_Fact_Sheet.pdf",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "NPR Music mixes recorded sessions, editorial content and occasional YouTube livestream series; ambiguous items fail closed.",
+    "youtube_channel_id": "UC4eYXhJI4-7wSWc8UNRwD4A",
+    "youtube_uploads_playlist_id": "UU4eYXhJI4-7wSWc8UNRwD4A"
+  },
+  {
+    "schema_version": 2,
+    "id": "kbs-kpop",
+    "name": "KBS Kpop",
+    "operator_name": "Korean Broadcasting System",
+    "type": "broadcast_media",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Seoul, South Korea (KBS operator base)"
+    },
+    "genres": [
+      "K-pop"
+    ],
+    "formats": [
+      "live_performance",
+      "studio_session"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "official_site": "https://www.kbs.co.kr/",
+    "schedule_url": "https://mylovekbs.kbs.co.kr/index.html?contents_id=70000000403293&sname=mylovekbs&source=mylovekbs&stype=blog",
+    "youtube_url": "https://www.youtube.com/channel/UCeLPm9yH_a_QH8n6445G-Ow",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "livestream",
+        "music bank",
+        "k-pop live",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "behind",
+        "talk",
+        "variety",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kbs.co.kr/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCeLPm9yH_a_QH8n6445G-Ow",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://mylovekbs.kbs.co.kr/index.html?contents_id=70000000403293&sname=mylovekbs&source=mylovekbs&stype=blog",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://english.kbs.co.kr/about/contact_us.html",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "KBS official music channel. Mixed originals and clips require explicit live metadata.",
+    "youtube_channel_id": "UCeLPm9yH_a_QH8n6445G-Ow",
+    "youtube_uploads_playlist_id": "UUeLPm9yH_a_QH8n6445G-Ow"
+  },
+  {
+    "schema_version": 2,
+    "id": "lofi-girl",
+    "name": "Lofi Girl",
+    "operator_name": "LOFI Records SAS",
+    "type": "radio_media",
+    "country": "France",
+    "country_code": "FR",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "France (operator country)"
+    },
+    "genres": [
+      "Lofi",
+      "Hip-hop",
+      "Chill",
+      "Synthwave",
+      "Jazz"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.lofigirl.com/",
+    "schedule_url": "https://www.lofigirl.com/",
+    "youtube_url": "https://www.youtube.com/@lofigirl",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "radio",
+        "beats to relax",
+        "beats to study",
+        "synthwave",
+        "jazz lofi"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.lofigirl.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@lofigirl",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Long-running music livestreams; country is operator-level only.",
+    "youtube_channel_id": "UCSJ4gkVC6NrvII8umztf0Ow",
+    "youtube_uploads_playlist_id": "UUSJ4gkVC6NrvII8umztf0Ow"
+  },
+  {
+    "schema_version": 2,
+    "id": "chillhop-music",
+    "name": "Chillhop Music",
+    "operator_name": "Chillhop Music B.V.",
+    "type": "label_media",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "region": "South Holland",
+    "city": "Rotterdam",
+    "location": {
+      "lat": 51.9244,
+      "lon": 4.4777,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Rotterdam, Netherlands (operator base)"
+    },
+    "genres": [
+      "Chillhop",
+      "Lofi",
+      "Hip-hop",
+      "Jazz"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://chillhop.com/",
+    "schedule_url": "https://chillhop.com/",
+    "youtube_url": "https://www.youtube.com/@chillhopmusic",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "chillhop radio",
+        "live radio",
+        "beats"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://chillhop.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@chillhopmusic",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Rotterdam operator base; stream geography is not inferred from it.",
+    "youtube_channel_id": "UCOxqgCwgOqC2lMqC5PYz_Dg",
+    "youtube_uploads_playlist_id": "UUOxqgCwgOqC2lMqC5PYz_Dg"
+  },
+  {
+    "schema_version": 2,
+    "id": "cafe-music-bgm",
+    "name": "Cafe Music BGM channel",
+    "operator_name": "BGMC PTE. LTD.",
+    "type": "label_media",
+    "country": "Singapore",
+    "country_code": "SG",
+    "region": null,
+    "city": "Singapore",
+    "location": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Singapore (BGMC operator base)"
+    },
+    "genres": [
+      "Jazz",
+      "Bossa Nova",
+      "Cafe Music"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.bgmcrecords.com/artists/cafe-music-bgm-channel",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@cafemusicbgmchannel",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "bgm",
+        "cafe",
+        "jazz"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.bgmcrecords.com/artists/cafe-music-bgm-channel",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@cafemusicbgmchannel",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Singapore is the label/operator base, not an asserted stream location.",
+    "youtube_channel_id": "UCJhjE7wbdYAae1G25m0tHAA",
+    "youtube_uploads_playlist_id": "UUJhjE7wbdYAae1G25m0tHAA"
+  },
+  {
+    "schema_version": 2,
+    "id": "bgm-channel",
+    "name": "BGM channel",
+    "operator_name": "BGMC PTE. LTD.",
+    "type": "label_media",
+    "country": "Singapore",
+    "country_code": "SG",
+    "region": null,
+    "city": "Singapore",
+    "location": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Singapore (BGMC operator base)"
+    },
+    "genres": [
+      "Jazz",
+      "Cafe Music",
+      "Relaxation"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.bgmcrecords.com/",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@bgmchannelbgm",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "bgm",
+        "jazz",
+        "cafe"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.bgmcrecords.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@bgmchannelbgm",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Singapore is the BGMC operator base only.",
+    "youtube_channel_id": "UCQINXHZqCU5i06HzxRkujfg",
+    "youtube_uploads_playlist_id": "UUQINXHZqCU5i06HzxRkujfg"
+  },
+  {
+    "schema_version": 2,
+    "id": "hawaiian-bgm-channel",
+    "name": "Hawaiian BGM channel",
+    "operator_name": "BGMC PTE. LTD.",
+    "type": "label_media",
+    "country": "Singapore",
+    "country_code": "SG",
+    "region": null,
+    "city": "Singapore",
+    "location": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Singapore (BGMC operator base)"
+    },
+    "genres": [
+      "Hawaiian",
+      "Acoustic",
+      "Relaxation"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.bgmcrecords.com/artists/hawaiian-bgm-channel",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@hawaiianbgmchannel",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "hawaiian",
+        "beach",
+        "relaxing music"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.bgmcrecords.com/artists/hawaiian-bgm-channel",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@hawaiianbgmchannel",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The Hawaii theme is musical branding; Singapore remains operator base and is not a stream venue.",
+    "youtube_channel_id": "UCXwZEtR4z7grN0nmGzwg6Ow",
+    "youtube_uploads_playlist_id": "UUXwZEtR4z7grN0nmGzwg6Ow"
+  },
+  {
+    "schema_version": 2,
+    "id": "relax-music-bgm-channel",
+    "name": "Relax Music BGM CHANNEL",
+    "operator_name": null,
+    "type": "independent_media",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "origin",
+      "label": "Japan (channel country)"
+    },
+    "genres": [
+      "Jazz",
+      "Ambient",
+      "Classical",
+      "Relaxation"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.tunecore.co.jp/artists/Relax-Music-BGM-CHANNEL?lang=en",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@RelaxMusicBGMCHANNEL",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "bgm",
+        "jazz",
+        "relaxing music",
+        "sleep"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.tunecore.co.jp/artists/Relax-Music-BGM-CHANNEL?lang=en",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@RelaxMusicBGMCHANNEL",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Japan is channel/origin country only; livestream venue is not inferred.",
+    "youtube_channel_id": "UC4zMk7dbUqzTZieuIFzzSgg",
+    "youtube_uploads_playlist_id": "UU4zMk7dbUqzTZieuIFzzSgg"
+  },
+  {
+    "schema_version": 2,
+    "id": "steezyasfuck",
+    "name": "STEEZYASFUCK",
+    "operator_name": null,
+    "type": "independent_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "California",
+    "city": "Los Angeles",
+    "location": {
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Los Angeles, California"
+    },
+    "genres": [
+      "Lofi",
+      "Hip-hop",
+      "Instrumental Hip-hop"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.stzzzy.com/",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@STEEZYASFUCK",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "radio",
+        "24/7",
+        "lofi",
+        "coffee shop"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.stzzzy.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@STEEZYASFUCK",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Los Angeles source base; livestream itself has no venue assumption.",
+    "youtube_channel_id": "UCsIg9WMfxjZZvwROleiVsQg",
+    "youtube_uploads_playlist_id": "UUsIg9WMfxjZZvwROleiVsQg"
+  },
+  {
+    "schema_version": 2,
+    "id": "the-jazz-hop-cafe",
+    "name": "The Jazz Hop Café",
+    "operator_name": "The Jazz Hop Café Ltd",
+    "type": "label_media",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "Bristol",
+    "location": {
+      "lat": 51.4545,
+      "lon": -2.5879,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Bristol, UK (operator base)"
+    },
+    "genres": [
+      "Jazzhop",
+      "Lofi",
+      "Hip-hop"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://www.thejazzhopcafe.com/",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@JazzHopCafe",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "radio",
+        "live",
+        "jazzhop",
+        "lofi"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.thejazzhopcafe.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@JazzHopCafe",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Bristol is operator base only.",
+    "youtube_channel_id": "UCi8wqezBudeAiTdKOX571ug",
+    "youtube_uploads_playlist_id": "UUi8wqezBudeAiTdKOX571ug"
+  },
+  {
+    "schema_version": 2,
+    "id": "soothing-relaxation",
+    "name": "Soothing Relaxation",
+    "operator_name": "Peder B. Helland",
+    "type": "artist_media",
+    "country": "Norway",
+    "country_code": "NO",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "origin",
+      "label": "Norway (artist origin)"
+    },
+    "genres": [
+      "Ambient",
+      "Piano",
+      "Relaxation",
+      "Meditation"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://soothingrelaxation.com/",
+    "schedule_url": null,
+    "youtube_url": "https://www.youtube.com/@SoothingRelaxation",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "relaxing music",
+        "sleep",
+        "meditation"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://soothingrelaxation.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@SoothingRelaxation",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Norway is artist origin only; no stream venue is inferred.",
+    "youtube_channel_id": "UCjzHeG1KWoonmf9d5KBvSiw",
+    "youtube_uploads_playlist_id": "UUjzHeG1KWoonmf9d5KBvSiw"
+  },
+  {
+    "schema_version": 2,
+    "id": "college-music",
+    "name": "College Music",
+    "operator_name": "College Music Records Ltd",
+    "type": "label_media",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, UK (operator base)"
+    },
+    "genres": [
+      "Lofi",
+      "Hip-hop",
+      "Chill"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [],
+    "official_site": "https://collegemusic.co.uk/",
+    "schedule_url": "https://collegemusic.co.uk/about-us/",
+    "youtube_url": "https://www.youtube.com/@CollegeMusic",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "radio",
+        "24/7",
+        "lofi",
+        "beats"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://collegemusic.co.uk/about-us/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@CollegeMusic",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "London is operator base only; long-running radio is seeded once during onboarding.",
+    "youtube_channel_id": "UCWzZ5TIGoZ6o-KtbGCyhnhg",
+    "youtube_uploads_playlist_id": "UUWzZ5TIGoZ6o-KtbGCyhnhg"
+  }
+]
