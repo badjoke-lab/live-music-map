@@ -1,41 +1,5 @@
 [
   {
-    "id": "youtube:IUJAIQWpYwA",
-    "origin": "youtube_api",
-    "discovery": "youtube_atom_feed",
-    "query_event_type": "live",
-    "source_id": "hoer-berlin",
-    "youtube_video_id": "IUJAIQWpYwA",
-    "youtube_url": "https://www.youtube.com/watch?v=IUJAIQWpYwA",
-    "title": "Lola Kay | HÖR - September 2 / 2026",
-    "status": "live",
-    "published_at": "2026-09-01T13:49:22Z",
-    "scheduled_start": "2026-09-02T19:00:00Z",
-    "actual_start": "2026-09-02T19:04:10Z",
-    "actual_end": null,
-    "concurrent_viewers": 6,
-    "thumbnail": "https://i.ytimg.com/vi/IUJAIQWpYwA/maxresdefault_live.jpg",
-    "embed_allowed": true,
-    "youtube_category_id": "22",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "dj_set",
-    "music_live_decision": "global_allow_pattern",
-    "music_live_evidence": [
-      {
-        "type": "youtube_metadata_pattern",
-        "value": "dj set"
-      }
-    ],
-    "music_live_requires_schedule_match": false,
-    "genres": [],
-    "genre_status": "unknown",
-    "performers": [],
-    "venue": null,
-    "location": null,
-    "location_rule": "unknown_until_verified"
-  },
-  {
     "id": "youtube:W1HUhTDQuKU",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
@@ -1036,6 +1000,42 @@
       }
     ],
     "music_live_requires_schedule_match": true,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
+  },
+  {
+    "id": "youtube:bK6nZ4RXbDY",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "upcoming",
+    "source_id": "hr-sinfonieorchester",
+    "youtube_video_id": "bK6nZ4RXbDY",
+    "youtube_url": "https://www.youtube.com/watch?v=bK6nZ4RXbDY",
+    "title": "Frankfurt Radio Symphony LIVE: Julia Fischer & Alain Altinoglu with Benzecry, Wieniawski & Beethoven",
+    "status": "upcoming",
+    "published_at": "2026-08-24T09:50:23Z",
+    "scheduled_start": "2026-09-18T18:00:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/bK6nZ4RXbDY/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "live"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
     "genres": [],
     "genre_status": "unknown",
     "performers": [],

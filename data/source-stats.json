@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T02:40:17.628Z",
+  "generated_at": "2026-09-03T03:36:22.824Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 30,
-    "live_now": 1,
-    "upcoming": 23,
+    "sources_total": 40,
+    "live_now": 0,
+    "upcoming": 24,
     "observed_live_streams_total": 3,
     "observed_live_streams_7d": 3,
     "observed_live_streams_30d": 3,
-    "history_records": 2
+    "history_records": 3
   },
   "by_source": {
     "hoer-berlin": {
@@ -29,7 +29,7 @@
         "House",
         "Experimental"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 6,
       "observed_live_streams_total": 3,
       "observed_live_streams_7d": 3,
@@ -701,18 +701,231 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "kbs-world-tv": {
+      "source_id": "kbs-world-tv",
+      "source_name": "KBS WORLD TV",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "K-pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "arirang-k-pop": {
+      "source_id": "arirang-k-pop",
+      "source_name": "ARIRANG K-POP",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "K-pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "im-live-arirang": {
+      "source_id": "im-live-arirang",
+      "source_name": "I'M LIVE",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "studio_media",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "arirang-radio-k-pop": {
+      "source_id": "arirang-radio-k-pop",
+      "source_name": "Arirang Radio K-Pop",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "radio",
+      "source_genres": [
+        "K-pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "sbskpop-inkigayo": {
+      "source_id": "sbskpop-inkigayo",
+      "source_name": "SBSKPOP X INKIGAYO",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "K-pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "the-k-pop": {
+      "source_id": "the-k-pop",
+      "source_name": "THE K-POP",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "K-pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "kreciolatv-polandrock": {
+      "source_id": "kreciolatv-polandrock",
+      "source_name": "KręciołaTV / Pol'and'Rock Festival",
+      "country_code": "PL",
+      "country": "Poland",
+      "region": "West Pomeranian",
+      "city": "Czaplinek",
+      "source_type": "festival",
+      "source_genres": [
+        "Rock",
+        "Alternative",
+        "Metal",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "hr-sinfonieorchester": {
+      "source_id": "hr-sinfonieorchester",
+      "source_name": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "country_code": "DE",
+      "country": "Germany",
+      "region": "Hesse",
+      "city": "Frankfurt",
+      "source_type": "orchestra",
+      "source_genres": [
+        "Classical"
+      ],
+      "live_now": 0,
+      "upcoming_count": 1,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-18T18:00:00.000Z",
+      "observed_content_types": []
+    },
+    "npr-music": {
+      "source_id": "npr-music",
+      "source_name": "NPR Music",
+      "country_code": "US",
+      "country": "United States",
+      "region": "District of Columbia",
+      "city": "Washington",
+      "source_type": "studio_media",
+      "source_genres": [
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "kbs-kpop": {
+      "source_id": "kbs-kpop",
+      "source_name": "KBS Kpop",
+      "country_code": "KR",
+      "country": "South Korea",
+      "region": "Seoul",
+      "city": "Seoul",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "K-pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
     "by_country": {
       "DE": {
-        "sources": 1,
-        "live_now": 1,
-        "upcoming": 6,
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 7,
         "observed_live_30d": 3
       },
       "US": {
-        "sources": 10,
+        "sources": 11,
         "live_now": 0,
         "upcoming": 11,
         "observed_live_30d": 0
@@ -760,7 +973,7 @@
         "observed_live_30d": 0
       },
       "KR": {
-        "sources": 1,
+        "sources": 8,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
@@ -776,23 +989,29 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "PL": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_type": {
       "independent_media": {
         "sources": 5,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 13,
         "observed_live_30d": 3
       },
       "radio": {
-        "sources": 7,
+        "sources": 8,
         "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 0
       },
       "studio_media": {
-        "sources": 2,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -804,7 +1023,7 @@
         "observed_live_30d": 0
       },
       "festival": {
-        "sources": 4,
+        "sources": 5,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -832,30 +1051,42 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "broadcast_media": {
+        "sources": 5,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "orchestra": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
       }
     },
     "by_source_genre": {
       "Electronic": {
         "sources": 22,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 20,
         "observed_live_30d": 3
       },
       "Techno": {
         "sources": 4,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 11,
         "observed_live_30d": 3
       },
       "House": {
         "sources": 6,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 11,
         "observed_live_30d": 3
       },
       "Experimental": {
         "sources": 5,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 3
       },
@@ -890,7 +1121,7 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 9,
+        "sources": 12,
         "live_now": 0,
         "upcoming": 4,
         "observed_live_30d": 0
@@ -920,9 +1151,9 @@
         "observed_live_30d": 0
       },
       "Classical": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Pop & Rock": {
@@ -938,7 +1169,7 @@
         "observed_live_30d": 0
       },
       "Metal": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -980,7 +1211,7 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -1010,6 +1241,18 @@
         "observed_live_30d": 0
       },
       "Progressive": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "K-pop": {
+        "sources": 6,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Alternative": {
         "sources": 1,
         "live_now": 0,
         "upcoming": 0,
