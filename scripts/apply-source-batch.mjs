@@ -28,7 +28,7 @@ function youtubeRef(urlString) {
   if (parts[0] === 'channel' && parts[1]) return { kind: 'channel', value: parts[1] };
   if (parts[0]?.startsWith('@')) return { kind: 'handle', value: parts[0].slice(1) };
   if (parts[0] === 'user' && parts[1]) return { kind: 'username', value: parts[1] };
-  if (parts[0]) return { kind: 'username', value: parts[0] };
+  if (parts[0]) return { kind: 'custom', value: parts[0] };
   return null;
 }
 
@@ -37,13 +37,19 @@ async function resolveChannelId(source) {
   const ref = youtubeRef(source.youtube_url);
   if (!ref) throw new Error(`[${source.id}] cannot parse YouTube URL`);
   if (ref.kind === 'channel') return ref.value;
-  const params = { part: 'id', maxResults: 1 };
-  if (ref.kind === 'handle') params.forHandle = ref.value;
-  else params.forUsername = ref.value;
-  const result = await api('channels', params);
-  const id = result.items?.[0]?.id;
-  if (!id) throw new Error(`[${source.id}] YouTube channel could not be resolved`);
-  return id;
+
+  const lookups = ref.kind === 'handle'
+    ? [{ forHandle: ref.value }]
+    : ref.kind === 'username'
+      ? [{ forUsername: ref.value }]
+      : [{ forUsername: ref.value }, { forHandle: ref.value }];
+
+  for (const lookup of lookups) {
+    const result = await api('channels', { part: 'id', maxResults: 1, ...lookup });
+    const id = result.items?.[0]?.id;
+    if (id) return id;
+  }
+  throw new Error(`[${source.id}] YouTube channel could not be resolved`);
 }
 
 function thumbnail(snippet) {
