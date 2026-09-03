@@ -5941,5 +5941,92 @@
     "note": "The official channel states that live broadcasting began there, and the venue describes its dedicated livestream system for music performances.",
     "youtube_channel_id": "UCRFl2fmHm-_hnMJeuuW_mQw",
     "youtube_uploads_playlist_id": "UURFl2fmHm-_hnMJeuuW_mQw"
+  },
+  {
+    "schema_version": 2,
+    "id": "shinjuku-loft",
+    "name": "Shinjuku LOFT",
+    "operator_name": "Loft Project",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "1-12-9 Kabukicho B2F, Shinjuku, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Punk",
+      "Pop",
+      "Indie",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.loft-prj.co.jp/schedule/?post_type=loft",
+    "schedule_url": "https://www.loft-prj.co.jp/schedule/?post_type=loft",
+    "youtube_url": "https://www.youtube.com/channel/UCwZP3znS07GrTtX2xl4PwBA",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "生配信",
+        "配信ライブ",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "talk",
+        "トーク",
+        "interview",
+        "インタビュー"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.loft-prj.co.jp/schedule/?post_type=loft",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCwZP3znS07GrTtX2xl4PwBA",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Added as the replacement for the duplicate CLUB Que entry in batch 007. Shinjuku LOFT is an active recurring music venue with an official YouTube channel; mixed programming is handled fail-closed for ambiguous items.",
+    "youtube_channel_id": "UCwZP3znS07GrTtX2xl4PwBA",
+    "youtube_uploads_playlist_id": "UUwZP3znS07GrTtX2xl4PwBA"
   }
 ]

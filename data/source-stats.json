@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T12:15:12.269Z",
+  "generated_at": "2026-09-03T12:44:35.151Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 69,
-    "live_now": 46,
+    "sources_total": 70,
+    "live_now": 44,
     "upcoming": 32,
     "observed_live_streams_total": 49,
     "observed_live_streams_7d": 11,
     "observed_live_streams_30d": 17,
-    "history_records": 3
+    "history_records": 5
   },
   "by_source": {
     "hoer-berlin": {
@@ -1057,7 +1057,7 @@
         "Classical",
         "Relaxation"
       ],
-      "live_now": 10,
+      "live_now": 9,
       "upcoming_count": 0,
       "observed_live_streams_total": 10,
       "observed_live_streams_7d": 2,
@@ -1181,7 +1181,7 @@
         "Blues",
         "Multi-genre"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 1,
@@ -1628,6 +1628,31 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "shinjuku-loft": {
+      "source_id": "shinjuku-loft",
+      "source_name": "Shinjuku LOFT",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Tokyo",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Punk",
+        "Pop",
+        "Indie",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -1645,8 +1670,8 @@
         "observed_live_30d": 0
       },
       "JP": {
-        "sources": 21,
-        "live_now": 11,
+        "sources": 22,
+        "live_now": 9,
         "upcoming": 1,
         "observed_live_30d": 7
       },
@@ -1726,7 +1751,7 @@
     "by_source_type": {
       "independent_media": {
         "sources": 7,
-        "live_now": 12,
+        "live_now": 11,
         "upcoming": 18,
         "observed_live_30d": 9
       },
@@ -1761,8 +1786,8 @@
         "observed_live_30d": 0
       },
       "venue": {
-        "sources": 21,
-        "live_now": 1,
+        "sources": 22,
+        "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 1
       },
@@ -1824,7 +1849,7 @@
       },
       "Jazz": {
         "sources": 10,
-        "live_now": 37,
+        "live_now": 36,
         "upcoming": 4,
         "observed_live_30d": 13
       },
@@ -1853,8 +1878,8 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 31,
-        "live_now": 1,
+        "sources": 32,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 1
       },
@@ -1884,7 +1909,7 @@
       },
       "Classical": {
         "sources": 4,
-        "live_now": 10,
+        "live_now": 9,
         "upcoming": 2,
         "observed_live_30d": 6
       },
@@ -1943,13 +1968,13 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 20,
-        "live_now": 1,
+        "sources": 21,
+        "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 1
       },
       "Pop": {
-        "sources": 12,
+        "sources": 13,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -2028,7 +2053,7 @@
       },
       "Relaxation": {
         "sources": 4,
-        "live_now": 23,
+        "live_now": 22,
         "upcoming": 0,
         "observed_live_30d": 8
       },
@@ -2040,13 +2065,13 @@
       },
       "Acoustic": {
         "sources": 3,
-        "live_now": 5,
+        "live_now": 4,
         "upcoming": 0,
         "observed_live_30d": 1
       },
       "Ambient": {
         "sources": 2,
-        "live_now": 12,
+        "live_now": 11,
         "upcoming": 0,
         "observed_live_30d": 6
       },
@@ -2076,18 +2101,18 @@
       },
       "Folk": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 1
       },
       "Blues": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 1
       },
       "Punk": {
-        "sources": 4,
+        "sources": 5,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -2099,7 +2124,7 @@
         "observed_live_30d": 0
       },
       "Indie": {
-        "sources": 10,
+        "sources": 11,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -2112,9 +2137,9 @@
       }
     },
     "by_verified_stream_content_type_30d": {
-      "dj_set": 3,
       "music_radio_live": 13,
-      "music_live_unspecified": 1
+      "music_live_unspecified": 1,
+      "dj_set": 3
     }
   }
 }
