@@ -23,6 +23,9 @@ Completed:
 - theater action label `シアター`
 - right detail order: LIVE -> source information -> Upcoming
 - compact Upcoming section
+- Source v2 contract freeze and validator
+- Source evidence/provenance structure
+- duplicate Source id / YouTube channel id / YouTube URL rejection
 
 Current registered source baseline when this plan was written: 11.
 
@@ -55,23 +58,27 @@ The agreed desktop interaction contract is now:
 
 Future UI work is continuous refinement, not a prerequisite rewrite of the theater model.
 
-## M1 — Source data contract freeze
+## M1 — Source data contract freeze — completed
 
-Goal: ensure all future sources use one stable shape.
+The production Source contract is now frozen in `docs/SOURCE_CONTRACT_V2.md` and enforced by `scripts/validate-sources.mjs`.
 
-Tasks:
+Completed work:
 
-- validate all existing Source v2 records against the product spec;
-- remove/rename non-standard location precision values where necessary;
-- ensure `type`, `formats`, `genres`, `schedule_pattern`, verification and acquisition fields are present;
-- ensure no unverified performer/venue/event facts are embedded in source fields;
-- add explicit evidence/provenance structure if needed before mass ingestion;
-- add duplicate checks for source id and YouTube channel id.
+- all existing 11 Source v2 records migrated to the same contract used for future records;
+- non-standard location precision values removed;
+- `location.role` added so source base / operator base / origin / recurring event home are not conflated;
+- source `genres[]` and `formats[]` cleaned so non-music content such as Talk is not counted as a music genre/format;
+- structured official `evidence[]` added for identity, official YouTube channel and music-live capability;
+- duplicate Source ids rejected;
+- duplicate YouTube channel ids rejected;
+- duplicate YouTube URLs rejected;
+- canonical uploads playlist id checked against the channel id;
+- validation runs before YouTube refresh and before Pages deployment.
 
 Exit gate:
 
 - existing records pass the same requirements applied to new records;
-- adding the 100th source does not require a schema redesign.
+- adding the 100th source does not require a Source schema redesign.
 
 ## M2 — 11 -> 100 sources
 
@@ -99,10 +106,10 @@ Per-source admission process:
 1. confirm official channel/operator identity;
 2. confirm official site or equivalent first-party evidence;
 3. confirm current/recurring live-music behavior;
-4. record location only at the verified precision;
+4. record location only at the verified precision and role;
 5. assign non-AI music-live policy;
-6. add Source v2 record;
-7. reject duplicates by YouTube channel id.
+6. add Source v2 record with `evidence[]`;
+7. pass `node scripts/validate-sources.mjs`.
 
 Batch verification:
 
@@ -306,4 +313,4 @@ Continuously verify:
 
 ## What to do next
 
-The next scheduled milestone is **M1 Source data contract freeze**. After M1 passes, continue immediately to **M2 11 -> 100-source expansion**.
+The next scheduled milestone is **M2 11 -> 100-source expansion**. Start with verified, geographically diverse production Sources and do not weaken the Source v2 contract to increase count.

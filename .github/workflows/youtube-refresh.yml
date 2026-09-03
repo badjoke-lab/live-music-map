@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/refresh-youtube-live.mjs'
       - 'scripts/update-history-stats.mjs'
+      - 'scripts/validate-sources.mjs'
       - 'data/sources.json'
       - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
@@ -37,6 +38,8 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
+      - name: Validate source contract
+        run: node scripts/validate-sources.mjs
       - name: Select discovery mode
         id: mode
         shell: bash
