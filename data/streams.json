@@ -13,7 +13,7 @@
     "scheduled_start": "2026-09-02T19:00:00Z",
     "actual_start": "2026-09-02T19:04:10Z",
     "actual_end": null,
-    "concurrent_viewers": 3,
+    "concurrent_viewers": 6,
     "thumbnail": "https://i.ytimg.com/vi/IUJAIQWpYwA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "22",
@@ -866,7 +866,7 @@
   {
     "id": "youtube:QNfLF40KyWo",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "beatport",
     "youtube_video_id": "QNfLF40KyWo",
@@ -902,7 +902,7 @@
   {
     "id": "youtube:jUR4AhT2FGo",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "beatport",
     "youtube_video_id": "jUR4AhT2FGo",
@@ -938,7 +938,7 @@
   {
     "id": "youtube:Way0LYAl9Zk",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "beatport",
     "youtube_video_id": "Way0LYAl9Zk",
