@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T01:48:15.063Z",
+  "generated_at": "2026-09-03T02:40:17.628Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 20,
+    "sources_total": 30,
     "live_now": 1,
-    "upcoming": 16,
+    "upcoming": 23,
     "observed_live_streams_total": 3,
     "observed_live_streams_7d": 3,
     "observed_live_streams_30d": 3,
@@ -480,6 +480,227 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "dj-mag": {
+      "source_id": "dj-mag",
+      "source_name": "DJ Mag",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "independent_media",
+      "source_genres": [
+        "Electronic",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "mixmag": {
+      "source_id": "mixmag",
+      "source_name": "Mixmag",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "independent_media",
+      "source_genres": [
+        "Electronic",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "beatport": {
+      "source_id": "beatport",
+      "source_name": "Beatport",
+      "country_code": "US",
+      "country": "United States",
+      "region": "Colorado",
+      "city": "Denver",
+      "source_type": "independent_media",
+      "source_genres": [
+        "Electronic",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 7,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-03T17:30:00.000Z",
+      "observed_content_types": []
+    },
+    "insomniac": {
+      "source_id": "insomniac",
+      "source_name": "Insomniac",
+      "country_code": "US",
+      "country": "United States",
+      "region": null,
+      "city": null,
+      "source_type": "media_events",
+      "source_genres": [
+        "Electronic",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "umf-tv": {
+      "source_id": "umf-tv",
+      "source_name": "UMF TV",
+      "country_code": "US",
+      "country": "United States",
+      "region": "Florida",
+      "city": "Miami",
+      "source_type": "festival",
+      "source_genres": [
+        "Electronic",
+        "Dance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "a-state-of-trance": {
+      "source_id": "a-state-of-trance",
+      "source_name": "A State of Trance",
+      "country_code": "NL",
+      "country": "Netherlands",
+      "region": "South Holland",
+      "city": "Rotterdam",
+      "source_type": "radio_media",
+      "source_genres": [
+        "Trance",
+        "Progressive",
+        "Electronic"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "club-space": {
+      "source_id": "club-space",
+      "source_name": "Club Space",
+      "country_code": "US",
+      "country": "United States",
+      "region": "Florida",
+      "city": "Miami",
+      "source_type": "venue",
+      "source_genres": [
+        "House",
+        "Techno",
+        "Electronic"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "south-plug": {
+      "source_id": "south-plug",
+      "source_name": "South Plug",
+      "country_code": "ES",
+      "country": "Spain",
+      "region": "Catalonia",
+      "city": "Barcelona",
+      "source_type": "independent_media",
+      "source_genres": [
+        "Electronic",
+        "Experimental"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "cercle": {
+      "source_id": "cercle",
+      "source_name": "Cercle",
+      "country_code": "FR",
+      "country": "France",
+      "region": null,
+      "city": null,
+      "source_type": "media_events",
+      "source_genres": [
+        "Electronic"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "defected": {
+      "source_id": "defected",
+      "source_name": "Defected Records",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "source_type": "label_media",
+      "source_genres": [
+        "House",
+        "Electronic"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -491,9 +712,9 @@
         "observed_live_30d": 3
       },
       "US": {
-        "sources": 6,
+        "sources": 10,
         "live_now": 0,
-        "upcoming": 4,
+        "upcoming": 11,
         "observed_live_30d": 0
       },
       "JP": {
@@ -503,7 +724,7 @@
         "observed_live_30d": 0
       },
       "GB": {
-        "sources": 4,
+        "sources": 7,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 0
@@ -515,7 +736,7 @@
         "observed_live_30d": 0
       },
       "FR": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -527,7 +748,7 @@
         "observed_live_30d": 0
       },
       "NL": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -549,13 +770,19 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "ES": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_type": {
       "independent_media": {
-        "sources": 1,
+        "sources": 5,
         "live_now": 1,
-        "upcoming": 6,
+        "upcoming": 13,
         "observed_live_30d": 3
       },
       "radio": {
@@ -571,13 +798,13 @@
         "observed_live_30d": 0
       },
       "media_events": {
-        "sources": 5,
+        "sources": 7,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
       },
       "festival": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -589,33 +816,45 @@
         "observed_live_30d": 0
       },
       "venue": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "radio_media": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "label_media": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
         "observed_live_30d": 0
       }
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 12,
+        "sources": 22,
         "live_now": 1,
-        "upcoming": 13,
+        "upcoming": 20,
         "observed_live_30d": 3
       },
       "Techno": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 1,
         "upcoming": 11,
         "observed_live_30d": 3
       },
       "House": {
-        "sources": 4,
+        "sources": 6,
         "live_now": 1,
         "upcoming": 11,
         "observed_live_30d": 3
       },
       "Experimental": {
-        "sources": 4,
+        "sources": 5,
         "live_now": 1,
         "upcoming": 6,
         "observed_live_30d": 3
@@ -717,9 +956,9 @@
         "observed_live_30d": 0
       },
       "Dance": {
-        "sources": 3,
+        "sources": 8,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 7,
         "observed_live_30d": 0
       },
       "Hardstyle": {
@@ -759,6 +998,18 @@
         "observed_live_30d": 0
       },
       "Bass": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Trance": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Progressive": {
         "sources": 1,
         "live_now": 0,
         "upcoming": 0,
