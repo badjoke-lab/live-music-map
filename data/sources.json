@@ -6028,5 +6028,432 @@
     "note": "Added as the replacement for the duplicate CLUB Que entry in batch 007. Shinjuku LOFT is an active recurring music venue with an official YouTube channel; mixed programming is handled fail-closed for ambiguous items.",
     "youtube_channel_id": "UCwZP3znS07GrTtX2xl4PwBA",
     "youtube_uploads_playlist_id": "UUwZP3znS07GrTtX2xl4PwBA"
+  },
+  {
+    "schema_version": 2,
+    "id": "rinse-fm",
+    "name": "Rinse FM",
+    "operator_name": "Rinse FM",
+    "type": "radio",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "London, United Kingdom"
+    },
+    "genres": [
+      "Electronic",
+      "Grime",
+      "UK Garage",
+      "House",
+      "Drum and Bass",
+      "Hip-hop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "dj_set",
+      "music_radio_live",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://rinse.fm/",
+    "schedule_url": "https://rinse.fm/schedule/",
+    "youtube_url": "https://www.youtube.com/@rinsefm",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live from",
+        "rinse live",
+        "dj set",
+        "live set"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://rinse.fm/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@rinsefm",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official verified channel publishes recurring live-from event and session programming; mixed talk content requires title/schedule filtering.",
+    "youtube_channel_id": "UCgGfSxNOBkJDtCQ932iQU7Q",
+    "youtube_uploads_playlist_id": "UUgGfSxNOBkJDtCQ932iQU7Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "exit-festival",
+    "name": "EXIT Festival",
+    "operator_name": "EXIT Foundation",
+    "type": "festival",
+    "country": "Serbia",
+    "country_code": "RS",
+    "region": "Vojvodina",
+    "city": "Novi Sad",
+    "location": {
+      "lat": 45.2527,
+      "lon": 19.8625,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Novi Sad, Serbia"
+    },
+    "genres": [
+      "Electronic",
+      "Rock",
+      "Pop",
+      "Hip-hop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "dj_set"
+    ],
+    "languages": [],
+    "official_site": "https://www.exitfest.org/",
+    "schedule_url": "https://www.exitfest.org/en/exit-live-stream",
+    "youtube_url": "https://www.youtube.com/@EXITFestival",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "full show",
+        "dance arena",
+        "main stage"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.exitfest.org/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.exitfest.org/en/exit-live-stream",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@EXITFestival",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official festival pages state selected performances are livestreamed on EXIT's official YouTube channel.",
+    "youtube_channel_id": "UCa_xJKsllwjLgZ1qkm1aW7g",
+    "youtube_uploads_playlist_id": "UUa_xJKsllwjLgZ1qkm1aW7g"
+  },
+  {
+    "schema_version": 2,
+    "id": "sziget-festival",
+    "name": "Sziget Festival",
+    "operator_name": "Sziget Cultural Management",
+    "type": "festival",
+    "country": "Hungary",
+    "country_code": "HU",
+    "region": "Budapest",
+    "city": "Budapest",
+    "location": {
+      "lat": 47.5519,
+      "lon": 19.052,
+      "precision": "event_exact",
+      "role": "event_home",
+      "label": "Óbuda Island, Budapest, Hungary"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Electronic",
+      "Hip-hop",
+      "World",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "dj_set"
+    ],
+    "languages": [],
+    "official_site": "https://szigetfestival.com/",
+    "schedule_url": "https://szigetfestival.com/en/stream",
+    "youtube_url": "https://www.youtube.com/@szigetofficial",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "concert",
+        "livestream"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://szigetfestival.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://szigetfestival.com/en/stream",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@szigetofficial",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Sziget stream page promotes festival livestreams and links viewers to the official YouTube channel.",
+    "youtube_channel_id": "UCFPuTxN3n9iesF0I6-gyOjA",
+    "youtube_uploads_playlist_id": "UUFPuTxN3n9iesF0I6-gyOjA"
+  },
+  {
+    "schema_version": 2,
+    "id": "rock-in-rio",
+    "name": "Rock in Rio",
+    "operator_name": "Rock World",
+    "type": "festival",
+    "country": "Brazil",
+    "country_code": "BR",
+    "region": "Rio de Janeiro",
+    "city": "Rio de Janeiro",
+    "location": {
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Rio de Janeiro, Brazil"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Metal",
+      "Electronic",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "Portuguese"
+    ],
+    "official_site": "https://rockinrio.com/",
+    "schedule_url": "https://rockinrio.com/rio/en/",
+    "youtube_url": "https://www.youtube.com/@rockinrio",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ao vivo",
+        "show",
+        "concert"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://rockinrio.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@rockinrio",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official Rock in Rio pages direct users to the official YouTube channel for festival video coverage; source kept music-only for live-event discovery.",
+    "youtube_channel_id": "UCe1JDfpNjAg2cAeDCMuh7ZA",
+    "youtube_uploads_playlist_id": "UUe1JDfpNjAg2cAeDCMuh7ZA"
+  },
+  {
+    "schema_version": 2,
+    "id": "sydney-opera-house",
+    "name": "Sydney Opera House",
+    "operator_name": "Sydney Opera House Trust",
+    "type": "venue",
+    "country": "Australia",
+    "country_code": "AU",
+    "region": "New South Wales",
+    "city": "Sydney",
+    "location": {
+      "lat": -33.8568,
+      "lon": 151.2153,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "Bennelong Point, Sydney, Australia"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Classical",
+      "Electronic",
+      "Jazz",
+      "Experimental",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.sydneyoperahouse.com/",
+    "schedule_url": "https://www.sydneyoperahouse.com/whats-on",
+    "youtube_url": "https://www.youtube.com/@SydneyOperaHouse",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live at sydney opera house",
+        "live stream",
+        "livestream",
+        "full set",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "talk",
+        "behind the scenes"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.sydneyoperahouse.com/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@SydneyOperaHouse",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The verified Sydney Opera House YouTube channel explicitly promotes performances and live streams from the House; mixed arts/editorial content requires title or schedule matching.",
+    "youtube_channel_id": "UCvzqRBw-s63GzEaI4q4Y8dg",
+    "youtube_uploads_playlist_id": "UUvzqRBw-s63GzEaI4q4Y8dg"
   }
 ]
