@@ -89,3 +89,17 @@ Cluster center number always means total Source count.
 A LIVE-containing cluster uses a red ring/halo/pulse and explicit `LIVE n` badge. An Upcoming-only cluster uses an orange ring and `UP n` badge. Source-only cluster stays neutral gray.
 
 Do not use a solid red/orange total-count cluster that could be read as "all n are LIVE/Upcoming".
+
+## 2026-09-03 — Source v2 contract freeze
+
+Source expansion from source 12 onward uses the frozen record contract in `docs/SOURCE_CONTRACT_V2.md`.
+
+Durable rules:
+
+- every Source carries structured official `evidence[]` for identity, official YouTube channel and music-live capability;
+- Source location has both `precision` and `role`, so source base/operator base/origin/event home are not conflated;
+- non-music labels such as Talk do not belong in Source music `genres[]` or music-live `formats[]`;
+- duplicate Source ids, duplicate YouTube channel ids and duplicate YouTube URLs are rejected;
+- the uploads playlist id must correspond to the canonical channel id;
+- `scripts/validate-sources.mjs` is the executable contract and runs before acquisition and Pages deployment;
+- the validator must not be weakened merely to admit more sources.
