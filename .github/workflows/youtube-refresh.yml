@@ -47,10 +47,17 @@ jobs:
       - name: Select discovery mode
         id: mode
         shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          REQUESTED_MODE: ${{ inputs.discovery_mode }}
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "value=${{ inputs.discovery_mode }}" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.event_name }}" == "push" || "${{ github.event.schedule }}" == "13 0 * * *" ]]; then
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "value=${REQUESTED_MODE:-rss+playlist}" >> "$GITHUB_OUTPUT"
+          elif [[ "$EVENT_NAME" == "push" && "$COMMIT_MESSAGE" == *"[rss-only]"* ]]; then
+            echo "value=rss" >> "$GITHUB_OUTPUT"
+          elif [[ "$EVENT_NAME" == "push" || "$EVENT_SCHEDULE" == "13 0 * * *" ]]; then
             echo "value=rss+playlist" >> "$GITHUB_OUTPUT"
           else
             echo "value=rss" >> "$GITHUB_OUTPUT"
