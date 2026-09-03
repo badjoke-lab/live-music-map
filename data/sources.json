@@ -5198,5 +5198,748 @@
     "note": "CLUB Que marks streamed events in its schedule; some current delivery uses DANKE, so only actual YouTube live metadata is surfaced.",
     "youtube_channel_id": "UCRybGEkcPKrlnVWlrRQqhoQ",
     "youtube_uploads_playlist_id": "UURybGEkcPKrlnVWlrRQqhoQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "nishieifuku-jam",
+    "name": "NISHIEIFUKU JAM",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Suginami",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "3-34-14 Eifuku B1F, Suginami, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Indie",
+      "Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://jam.rinky.info/",
+    "schedule_url": "https://jam.rinky.info/events",
+    "youtube_url": "https://www.youtube.com/@jam-zk8tw",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://jam.rinky.info/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://jam.rinky.info/contents/about",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@jam-zk8tw",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Rinky Dink's venue network explicitly promoted this official YouTube channel for live-distribution activity; current JAM rental information also offers audience plus livestream plans.",
+    "youtube_channel_id": "UCMnj4sEb5QbN8QIpI8-yyFA",
+    "youtube_uploads_playlist_id": "UUMnj4sEb5QbN8QIpI8-yyFA"
+  },
+  {
+    "schema_version": 2,
+    "id": "otsuka-meets",
+    "name": "Otsuka MEETS",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Toshima",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "3-50-1 Minami-Otsuka B1F, Toshima, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Singer-Songwriter",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://meets.rinky.info/",
+    "schedule_url": "https://meets.rinky.info/events",
+    "youtube_url": "https://www.youtube.com/@meetstv6851",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://meets.rinky.info/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://meets.rinky.info/events",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@meetstv6851",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Current official schedules repeatedly include paid livestream tickets alongside in-person music events; the channel is one of Rinky Dink's venue YouTube channels.",
+    "youtube_channel_id": "UCbgTK4T0s8qCFaM0K331pRg",
+    "youtube_uploads_playlist_id": "UUbgTK4T0s8qCFaM0K331pRg"
+  },
+  {
+    "schema_version": 2,
+    "id": "shinjuku-nine-spices",
+    "name": "Shinjuku NINE SPICES",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-1-2 Kabukicho, HANROKU Bldg B1F, Shinjuku, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Punk",
+      "Hardcore",
+      "Indie",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://9spices.rinky.info/",
+    "schedule_url": "https://9spices.rinky.info/events",
+    "youtube_url": "https://www.youtube.com/@ninespices",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://9spices.rinky.info/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@ninespices",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Rinky Dink's venue network explicitly identified NINE SPICES as an official venue channel being developed for YouTube distribution.",
+    "youtube_channel_id": "UC5b__Om9Hw2coWupxAeh0NA",
+    "youtube_uploads_playlist_id": "UU5b__Om9Hw2coWupxAeh0NA"
+  },
+  {
+    "schema_version": 2,
+    "id": "shimokitazawa-era",
+    "name": "Shimokitazawa ERA",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-34-5 Kitazawa, Primavera Shimokitazawa 4F, Setagaya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Indie",
+      "Alternative",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://s-era.jp/",
+    "schedule_url": "https://s-era.jp/schedule/",
+    "youtube_url": "https://www.youtube.com/@shimokitazawaera7819",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://s-era.jp/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://s-era.jp/schedule/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@shimokitazawaera7819",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "ERA's official channel announcement states that the Rinky Dink venues would strengthen YouTube distribution and lists ERA's venue channel directly.",
+    "youtube_channel_id": "UCGfiLFQKX34Ea50_P6xUzBA",
+    "youtube_uploads_playlist_id": "UUGfiLFQKX34Ea50_P6xUzBA"
+  },
+  {
+    "schema_version": 2,
+    "id": "kichijoji-warp",
+    "name": "Kichijoji WARP",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Musashino",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "1-30-10 Kichijoji Honcho B1F, Musashino, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Indie",
+      "Alternative",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://warp.rinky.info/",
+    "schedule_url": "https://warp.rinky.info/events",
+    "youtube_url": "https://www.youtube.com/@warp3884",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://warp.rinky.info/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@warp3884",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Rinky Dink's venue network lists WARP's official YouTube channel among the venues using YouTube distribution.",
+    "youtube_channel_id": "UCnUf6OERRiy043tuNUnu4Yw",
+    "youtube_uploads_playlist_id": "UUnUf6OERRiy043tuNUnu4Yw"
+  },
+  {
+    "schema_version": 2,
+    "id": "hachioji-rips",
+    "name": "Hachioji RIPS",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Hachioji",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-7 Misakicho, Yoro Bldg 5F, Hachioji, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Punk",
+      "Melodic Hardcore",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://rips.rinky.info/",
+    "schedule_url": "https://rips.rinky.info/events",
+    "youtube_url": "https://www.youtube.com/@ripshachioji4440",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://rips.rinky.info/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@ripshachioji4440",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Rinky Dink's venue network lists the Hachioji RIPS YouTube channel as part of its venue distribution push.",
+    "youtube_channel_id": "UCMbn8lo3ciFcow-QLrnZIwg",
+    "youtube_uploads_playlist_id": "UUMbn8lo3ciFcow-QLrnZIwg"
+  },
+  {
+    "schema_version": 2,
+    "id": "hachioji-match-vox",
+    "name": "Hachioji Match Vox",
+    "operator_name": "Rinky Dink Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Hachioji",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "2-7 Misakicho, Yoro Bldg B1F, Hachioji, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Punk",
+      "Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://matchvox.rinky.info/",
+    "schedule_url": "https://matchvox.rinky.info/events",
+    "youtube_url": "https://www.youtube.com/@matchvox9597",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://matchvox.rinky.info/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@matchvox9597",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Rinky Dink's venue network lists Match Vox's official YouTube channel among venue channels used for distribution.",
+    "youtube_channel_id": "UChPwk6tzdb3RwY6dlgQtS5w",
+    "youtube_uploads_playlist_id": "UUhPwk6tzdb3RwY6dlgQtS5w"
+  },
+  {
+    "schema_version": 2,
+    "id": "shibuya-lamama",
+    "name": "Shibuya La.mama",
+    "operator_name": null,
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "1-15-3 Dogenzaka, Primera Dogenzaka B1F, Shibuya, Tokyo"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Indie",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.lamama.net/",
+    "schedule_url": "https://www.lamama.net/schedule/",
+    "youtube_url": "https://www.youtube.com/channel/UCcjItmjZeqKv5hZKu7L5ldg",
+    "status": "mixed",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "生配信",
+        "配信ライブ",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "talk",
+        "トーク",
+        "interview",
+        "インタビュー"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.lamama.net/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.lamama.net/article/i-20200403/",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/shibuyalamama",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "La.mama's official site launched the channel specifically with live distribution as a central use; mixed non-performance programming requires schedule matching when ambiguous.",
+    "youtube_channel_id": "UCcjItmjZeqKv5hZKu7L5ldg",
+    "youtube_uploads_playlist_id": "UUcjItmjZeqKv5hZKu7L5ldg"
+  },
+  {
+    "schema_version": 2,
+    "id": "aoyama-moonromantic",
+    "name": "Aoyama MoonRomantic",
+    "operator_name": "Moon Romantics Inc.",
+    "type": "venue",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "source_base",
+      "label": "4-9-1 Minami-Aoyama, Simple Aoyama B1F, Minato, Tokyo"
+    },
+    "genres": [
+      "Jazz",
+      "Pop",
+      "Indie",
+      "World",
+      "Multi-genre"
+    ],
+    "formats": [
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.moonromantic.com/",
+    "schedule_url": "https://www.moonromantic.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCRFl2fmHm-_hnMJeuuW_mQw",
+    "status": "recurring",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "ライブ",
+        "生配信",
+        "配信"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.moonromantic.com/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCRFl2fmHm-_hnMJeuuW_mQw",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The official channel states that live broadcasting began there, and the venue describes its dedicated livestream system for music performances.",
+    "youtube_channel_id": "UCRFl2fmHm-_hnMJeuuW_mQw",
+    "youtube_uploads_playlist_id": "UURFl2fmHm-_hnMJeuuW_mQw"
   }
 ]

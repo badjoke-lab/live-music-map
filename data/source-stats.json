@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T11:29:24.573Z",
+  "generated_at": "2026-09-03T12:15:12.269Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 60,
+    "sources_total": 69,
     "live_now": 46,
-    "upcoming": 27,
+    "upcoming": 32,
     "observed_live_streams_total": 49,
     "observed_live_streams_7d": 11,
     "observed_live_streams_30d": 17,
@@ -30,7 +30,7 @@
         "Experimental"
       ],
       "live_now": 0,
-      "upcoming_count": 6,
+      "upcoming_count": 10,
       "observed_live_streams_total": 3,
       "observed_live_streams_7d": 3,
       "observed_live_streams_30d": 3,
@@ -1410,6 +1410,224 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "nishieifuku-jam": {
+      "source_id": "nishieifuku-jam",
+      "source_name": "NISHIEIFUKU JAM",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Suginami",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Indie",
+        "Pop",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "otsuka-meets": {
+      "source_id": "otsuka-meets",
+      "source_name": "Otsuka MEETS",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Toshima",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Pop",
+        "Singer-Songwriter",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "shinjuku-nine-spices": {
+      "source_id": "shinjuku-nine-spices",
+      "source_name": "Shinjuku NINE SPICES",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Tokyo",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Punk",
+        "Hardcore",
+        "Indie",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 1,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "shimokitazawa-era": {
+      "source_id": "shimokitazawa-era",
+      "source_name": "Shimokitazawa ERA",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Tokyo",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Indie",
+        "Alternative",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "kichijoji-warp": {
+      "source_id": "kichijoji-warp",
+      "source_name": "Kichijoji WARP",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Musashino",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Indie",
+        "Alternative",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "hachioji-rips": {
+      "source_id": "hachioji-rips",
+      "source_name": "Hachioji RIPS",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Hachioji",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Punk",
+        "Melodic Hardcore",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "hachioji-match-vox": {
+      "source_id": "hachioji-match-vox",
+      "source_name": "Hachioji Match Vox",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Hachioji",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Punk",
+        "Pop",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "shibuya-lamama": {
+      "source_id": "shibuya-lamama",
+      "source_name": "Shibuya La.mama",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Tokyo",
+      "source_type": "venue",
+      "source_genres": [
+        "Rock",
+        "Pop",
+        "Indie",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "aoyama-moonromantic": {
+      "source_id": "aoyama-moonromantic",
+      "source_name": "Aoyama MoonRomantic",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": "Tokyo",
+      "city": "Tokyo",
+      "source_type": "venue",
+      "source_genres": [
+        "Jazz",
+        "Pop",
+        "Indie",
+        "World",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -1417,7 +1635,7 @@
       "DE": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 7,
+        "upcoming": 11,
         "observed_live_30d": 3
       },
       "US": {
@@ -1427,9 +1645,9 @@
         "observed_live_30d": 0
       },
       "JP": {
-        "sources": 12,
+        "sources": 21,
         "live_now": 11,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 7
       },
       "GB": {
@@ -1509,7 +1727,7 @@
       "independent_media": {
         "sources": 7,
         "live_now": 12,
-        "upcoming": 14,
+        "upcoming": 18,
         "observed_live_30d": 9
       },
       "radio": {
@@ -1543,9 +1761,9 @@
         "observed_live_30d": 0
       },
       "venue": {
-        "sources": 12,
+        "sources": 21,
         "live_now": 1,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 1
       },
       "radio_media": {
@@ -1583,29 +1801,29 @@
       "Electronic": {
         "sources": 22,
         "live_now": 0,
-        "upcoming": 22,
+        "upcoming": 26,
         "observed_live_30d": 3
       },
       "Techno": {
         "sources": 4,
         "live_now": 0,
-        "upcoming": 11,
+        "upcoming": 15,
         "observed_live_30d": 3
       },
       "House": {
         "sources": 6,
         "live_now": 0,
-        "upcoming": 11,
+        "upcoming": 15,
         "observed_live_30d": 3
       },
       "Experimental": {
         "sources": 6,
         "live_now": 0,
-        "upcoming": 6,
+        "upcoming": 10,
         "observed_live_30d": 3
       },
       "Jazz": {
-        "sources": 9,
+        "sources": 10,
         "live_now": 37,
         "upcoming": 4,
         "observed_live_30d": 13
@@ -1635,9 +1853,9 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 22,
+        "sources": 31,
         "live_now": 1,
-        "upcoming": 5,
+        "upcoming": 6,
         "observed_live_30d": 1
       },
       "Hip-hop": {
@@ -1677,7 +1895,7 @@
         "observed_live_30d": 0
       },
       "World": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -1713,9 +1931,9 @@
         "observed_live_30d": 0
       },
       "Hardcore": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Hard Dance": {
@@ -1725,13 +1943,13 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 12,
+        "sources": 20,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "Pop": {
-        "sources": 7,
+        "sources": 12,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -1767,7 +1985,7 @@
         "observed_live_30d": 0
       },
       "Alternative": {
-        "sources": 5,
+        "sources": 7,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -1869,19 +2087,25 @@
         "observed_live_30d": 1
       },
       "Punk": {
-        "sources": 1,
+        "sources": 4,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Singer-Songwriter": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "Indie": {
-        "sources": 4,
+        "sources": 10,
+        "live_now": 0,
+        "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Melodic Hardcore": {
+        "sources": 1,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
