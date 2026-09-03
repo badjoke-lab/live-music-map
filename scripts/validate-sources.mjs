@@ -1,7 +1,10 @@
 import fs from 'node:fs/promises';
 
 const sourcesPath = new URL('../data/sources.json', import.meta.url);
+const countryReferencePath = new URL('../country-reference-points.js', import.meta.url);
 const sources = JSON.parse(await fs.readFile(sourcesPath, 'utf8'));
+const countryReferenceText = await fs.readFile(countryReferencePath, 'utf8');
+const countryReferenceCodes = new Set([...countryReferenceText.matchAll(/^\s*([A-Z]{2}):\s*\[/gm)].map((match) => match[1]));
 
 const errors = [];
 const allowedPrecision = new Set(['venue_exact', 'event_exact', 'city_confirmed', 'source_base', 'operator_city_only', 'country_only', 'unknown']);
@@ -68,6 +71,7 @@ for (const source of sources) {
     if (hasLat && (location.lat < -90 || location.lat > 90)) fail(source, 'location.lat is out of range');
     if (hasLon && (location.lon < -180 || location.lon > 180)) fail(source, 'location.lon is out of range');
     if (!hasLat && location.precision !== 'country_only' && location.precision !== 'unknown') fail(source, 'mapped precision requires coordinates');
+    if (location.precision === 'country_only' && !countryReferenceCodes.has(source.country_code)) fail(source, `country_only requires a capital reference point for ${source.country_code}`);
   }
 
   if (!stringArray(source.genres)) fail(source, 'genres must be an array of non-empty strings');
