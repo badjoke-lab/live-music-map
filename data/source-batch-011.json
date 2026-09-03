@@ -201,7 +201,7 @@
     "languages": ["English", "German"],
     "official_site": "https://pan-pot.net/",
     "schedule_url": "https://pan-pot.net/",
-    "youtube_url": "https://www.youtube.com/user/panpotoffical",
+    "youtube_url": "https://www.youtube.com/channel/UCRl5Tb3N3ZrRVxDO-BsjfiQ",
     "status": "continuous",
     "schedule_pattern": "continuous",
     "lifecycle_status": "active",
@@ -209,11 +209,11 @@
     "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-04"},
     "evidence": [
       {"kind": "official_site", "url": "https://pan-pot.net/", "supports": ["identity", "schedule_pattern"]},
-      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/user/panpotoffical", "supports": ["official_channel", "music_live_capability"]}
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCRl5Tb3N3ZrRVxDO-BsjfiQ", "supports": ["official_channel", "music_live_capability"]}
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
     "note": "Berlin techno duo's official channel, including Pan-Pot TV continuous live programming and festival/DJ sets.",
-    "youtube_channel_id": null,
+    "youtube_channel_id": "UCRl5Tb3N3ZrRVxDO-BsjfiQ",
     "youtube_uploads_playlist_id": null
   },
   {
