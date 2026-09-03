@@ -48,6 +48,27 @@
     }
   });
 
+  const header = document.querySelector('header');
+  const title = header?.querySelector('b');
+  if (header && title && !header.querySelector('.brand-block')) {
+    const brand = document.createElement('div');
+    brand.className = 'brand-block';
+    header.insertBefore(brand, title);
+    brand.appendChild(title);
+
+    const tagline = document.createElement('span');
+    tagline.className = 'site-tagline';
+    tagline.textContent = '世界の音楽ライブ配信を、地図から探す。';
+    brand.appendChild(tagline);
+  }
+
+  if (!document.querySelector('.site-footer')) {
+    const footer = document.createElement('footer');
+    footer.className = 'site-footer';
+    footer.innerHTML = '<div class="footer-credit">このサイトは、とむいさんの<a href="https://tomarigi.me/" target="_blank" rel="noopener noreferrer">「とまり木」</a>に着想を得て、音楽ライブ向けに作ったものです。 <a href="https://x.com/tomuisan/status/2089222447954575449" target="_blank" rel="noopener noreferrer">元になった投稿を見る</a></div><div class="footer-links"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKtMMnr7b--lF0LU9dJq4lkrTTSt2C4RWN6HNOOtmimSK_AQ/viewform" target="_blank" rel="noopener noreferrer">Contact</a><span class="footer-separator" aria-hidden="true">·</span><a href="https://badjoke-lab.com/" target="_blank" rel="noopener noreferrer">badjoke-lab.com</a></div>';
+    document.body.appendChild(footer);
+  }
+
   const sourceCounts = document.getElementById('locationCounts');
   const toolbar = document.querySelector('.toolbar');
   if (sourceCounts && toolbar) {
