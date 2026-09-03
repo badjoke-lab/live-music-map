@@ -6906,5 +6906,513 @@
     "note": "The official 2026 National Day Concert page explicitly states that the concert will be streamed live on the Singapore Symphony YouTube channel; the channel also hosts recurring orchestra livestreams.",
     "youtube_channel_id": "UCREEzq_Crwhf09fQ-sf6Ntw",
     "youtube_uploads_playlist_id": "UUREEzq_Crwhf09fQ-sf6Ntw"
+  },
+  {
+    "schema_version": 2,
+    "id": "defected-records",
+    "name": "Defected Records",
+    "operator_name": "Defected Records",
+    "type": "music_media",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "London, United Kingdom"
+    },
+    "genres": [
+      "House",
+      "Disco",
+      "Electronic",
+      "Dance"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance",
+      "music_radio_live"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://defected.com/",
+    "schedule_url": "https://defected.com/events",
+    "youtube_url": "https://www.youtube.com/@DefectedRecords",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "defected",
+        "glitterbox",
+        "dj set"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://defected.com/news/post/defected-records-to-launch-new-247-live-broadcasting-channel",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@DefectedRecords",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Defected launched a 24/7 broadcasting channel across YouTube and other platforms with live-event streams and DJ programming.",
+    "youtube_channel_id": "UCJUSZH98MEv0Sa5KKeP-PPQ",
+    "youtube_uploads_playlist_id": "UUJUSZH98MEv0Sa5KKeP-PPQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "rolling-loud",
+    "name": "Rolling Loud",
+    "operator_name": "Rolling Loud",
+    "type": "festival",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Florida",
+    "city": "Miami",
+    "location": {
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Miami, Florida, United States"
+    },
+    "genres": [
+      "Hip-hop",
+      "Rap",
+      "Trap"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.rollingloud.com/",
+    "schedule_url": "https://www.rollingloud.com/livestream",
+    "youtube_url": "https://www.youtube.com/c/rollingloud",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "rolling loud",
+        "full set",
+        "performance"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.rollingloud.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.rollingloud.com/livestream-cali",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/c/rollingloud",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Rolling Loud livestream pages have offered festival streams directly on YouTube alongside other platforms.",
+    "youtube_channel_id": "UCXE6F2oZzy_6xEXiJiUFo2w",
+    "youtube_uploads_playlist_id": "UUXE6F2oZzy_6xEXiJiUFo2w"
+  },
+  {
+    "schema_version": 2,
+    "id": "creamfields",
+    "name": "Creamfields",
+    "operator_name": "Cream Global Ltd",
+    "type": "festival",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "Daresbury",
+    "location": {
+      "lat": 53.3416,
+      "lon": -2.6359,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Daresbury, Cheshire, United Kingdom"
+    },
+    "genres": [
+      "Electronic",
+      "House",
+      "Techno",
+      "Trance",
+      "Drum and Bass",
+      "Dance"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://creamfields.com/",
+    "schedule_url": "https://creamfields.com/",
+    "youtube_url": "https://www.youtube.com/channel/UC7RZ3YtxzlR61_3kfjdolAA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "live",
+        "creamfields",
+        "full set",
+        "dj set"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://creamfields.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC7RZ3YtxzlR61_3kfjdolAA",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The current official festival site exposes a Watch Live Stream entry and links the verified Creamfields YouTube channel.",
+    "youtube_channel_id": "UC7RZ3YtxzlR61_3kfjdolAA",
+    "youtube_uploads_playlist_id": "UU7RZ3YtxzlR61_3kfjdolAA"
+  },
+  {
+    "schema_version": 2,
+    "id": "tomorrowland-one-world-radio",
+    "name": "Tomorrowland One World Radio",
+    "operator_name": "WeAreOne.world",
+    "type": "radio",
+    "country": "Belgium",
+    "country_code": "BE",
+    "region": "Antwerp",
+    "city": "Boom",
+    "location": {
+      "lat": 51.0882,
+      "lon": 4.3669,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Boom, Belgium"
+    },
+    "genres": [
+      "Electronic",
+      "House",
+      "Techno",
+      "Trance",
+      "Dance",
+      "EDM"
+    ],
+    "formats": [
+      "music_radio_live",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.tomorrowland.com/article/one-world-radio/",
+    "schedule_url": "https://www.tomorrowland.com/article/one-world-radio/",
+    "youtube_url": "https://www.youtube.com/@tomorrowlandoneworldradio",
+    "status": "always_on",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "one world radio",
+        "live",
+        "tomorrowland",
+        "mix"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.tomorrowland.com/article/one-world-radio-countries",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@tomorrowlandoneworldradio",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Tomorrowland states One World Radio is available live 24/7 worldwide on YouTube and other platforms.",
+    "youtube_channel_id": "UCcQsPKI-pijvP4hbi33ve1w",
+    "youtube_uploads_playlist_id": "UUcQsPKI-pijvP4hbi33ve1w"
+  },
+  {
+    "schema_version": 2,
+    "id": "ministry-of-sound",
+    "name": "Ministry of Sound",
+    "operator_name": "Ministry of Sound",
+    "type": "venue",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": "England",
+    "city": "London",
+    "location": {
+      "lat": 51.4976,
+      "lon": -0.0993,
+      "precision": "source_base",
+      "role": "source_base",
+      "label": "103 Gaunt Street, London, United Kingdom"
+    },
+    "genres": [
+      "House",
+      "Electronic",
+      "Dance",
+      "Techno",
+      "Disco",
+      "UK Garage"
+    ],
+    "formats": [
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://ministryofsound.com/",
+    "schedule_url": "https://ministryofsound.com/",
+    "youtube_url": "https://www.youtube.com/ministryofsound",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "ministry of sound",
+        "dj set",
+        "boxed in"
+      ],
+      "deny_title_patterns": [
+        "official video",
+        "lyrics"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://ministryofsound.com/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://boxedin.ministryofsound.com/",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/ministryofsound",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Current Ministry of Sound Boxed In is a 12-hour streamed DJ competition from the London club; channel is mixed music-video/live content.",
+    "youtube_channel_id": "UCh3jNAgLW6BRVIHT454Xnfg",
+    "youtube_uploads_playlist_id": "UUh3jNAgLW6BRVIHT454Xnfg"
+  },
+  {
+    "schema_version": 2,
+    "id": "rinse-france",
+    "name": "Rinse France",
+    "operator_name": "Rinse France",
+    "type": "radio",
+    "country": "France",
+    "country_code": "FR",
+    "region": "Île-de-France",
+    "city": "Paris",
+    "location": {
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Paris, France"
+    },
+    "genres": [
+      "Electronic",
+      "House",
+      "Techno",
+      "Bass",
+      "Hip-hop",
+      "Afrobeat",
+      "Dancehall",
+      "Experimental",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_radio_live",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [
+      "French"
+    ],
+    "official_site": "https://www.rinse.fm/channels/france",
+    "schedule_url": "https://www.rinse.fm/schedule?channel=france",
+    "youtube_url": "https://www.youtube.com/@rinsefranceradio",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "dj set",
+        "live",
+        "rinse france",
+        "guest show"
+      ],
+      "deny_title_patterns": [
+        "talk",
+        "podcast",
+        "interview"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-03"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.rinse.fm/channels/france",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@rinsefranceradio",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Current Rinse France pages expose Watch entries through YouTube players alongside a live radio schedule; mixed talk content is filtered.",
+    "youtube_channel_id": "UCcTI8Xsh6DnXuCSKFP4WqkA",
+    "youtube_uploads_playlist_id": "UUcTI8Xsh6DnXuCSKFP4WqkA"
   }
 ]
