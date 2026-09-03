@@ -34,7 +34,8 @@
         "YvemxsdgjL4": "2026-09-02T19:21:02+00:00",
         "VZKQSgrRQPk": "2026-09-02T19:20:13+00:00",
         "gXvWAn41hVw": "2026-09-02T19:18:36+00:00"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "the-lot-radio": {
       "entries": {
@@ -67,6 +68,10 @@
         "qEhpo6CPUrI": "2026-09-02T17:04:58+00:00",
         "-LhteU3Cn3k": "2026-09-02T17:02:44+00:00",
         "4zK-XS6RbUU": "2026-09-02T17:00:04+00:00"
+      },
+      "rss_failure_fallback": {
+        "last_attempt_at": "2026-09-03T02:09:18.615Z",
+        "last_success_at": "2026-09-03T02:09:18.615Z"
       }
     },
     "dommune": {
@@ -97,7 +102,8 @@
         "U28D4ODx3mY": "playlist:2026-09-02",
         "EotJOxQsGeM": "playlist:2026-09-02",
         "98adlitlh94": "playlist:2026-09-02"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "boiler-room": {
       "entries": {
@@ -126,6 +132,10 @@
         "7jh5ze408ZM": "playlist:2026-09-02",
         "gOCuZufPD1A": "playlist:2026-09-02",
         "TLqP_zjGcmQ": "playlist:2026-09-02"
+      },
+      "rss_failure_fallback": {
+        "last_attempt_at": "2026-09-03T02:09:18.615Z",
+        "last_success_at": "2026-09-03T02:09:18.615Z"
       }
     },
     "coachella": {
@@ -155,7 +165,8 @@
         "12p9J5YZb-A": "playlist:2026-09-02",
         "qhQE_sFAGGU": "playlist:2026-09-02",
         "TEor1i0sOus": "playlist:2026-09-02"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "kexp": {
       "entries": {
@@ -184,7 +195,8 @@
         "6FOHVaPOinc": "playlist:2026-09-02",
         "r5tJdJqr5kU": "playlist:2026-09-02",
         "VttQVXOOFaQ": "playlist:2026-09-02"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "kcrw": {
       "entries": {
@@ -245,7 +257,8 @@
         "YGoZxl00k0s": "playlist:2026-09-02",
         "_RFtJxHXDhI": "playlist:2026-09-02",
         "78yJXR1pcOA": "playlist:2026-09-02"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "sofar-sounds": {
       "entries": {
@@ -275,7 +288,8 @@
         "zjUEp_a9VR8": "playlist:2026-09-02",
         "irodLo4Vges": "playlist:2026-09-02",
         "BjKhBc3FXUc": "2026-09-02T16:03:51+00:00"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "arte-concert": {
       "entries": {
@@ -306,7 +320,8 @@
         "b-QmghHHlek": "playlist:2026-09-02",
         "ubxgVGZrAfA": "2026-09-02T16:01:25+00:00",
         "dBaFWlLDL8c": "2026-09-02T21:11:57+00:00"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "triple-j": {
       "entries": {
@@ -393,7 +408,8 @@
         "WGSDLFe_PaM": "playlist:2026-09-03",
         "k6dWApbwEIw": "playlist:2026-09-03",
         "e6izV_B0iaM": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "montreux-jazz-festival": {
       "entries": {
@@ -422,7 +438,8 @@
         "3wnxBmE82mk": "playlist:2026-09-03",
         "EwOvgx4pdfg": "playlist:2026-09-03",
         "tq-yfv71YjE": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "kiosk-radio": {
       "entries": {
@@ -451,25 +468,26 @@
         "k3Wy6cvH1mE": "playlist:2026-09-03",
         "-tqvDBKACxw": "playlist:2026-09-03",
         "mKBdMHt0i-0": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "wigmore-hall": {
       "entries": {
-        "DpJc0lL7hy8": "playlist:2026-09-03",
-        "7JNfT6Dd2UM": "playlist:2026-09-03",
-        "mtUs8vp-FKA": "playlist:2026-09-03",
-        "BqziALG6O3g": "playlist:2026-09-03",
-        "v-_a9lnEkvM": "playlist:2026-09-03",
-        "_fS6-58kl_U": "playlist:2026-09-03",
-        "_8jB0cZw1es": "playlist:2026-09-03",
-        "iBTpV46GGHI": "playlist:2026-09-03",
-        "G9_pqnpQecg": "playlist:2026-09-03",
-        "q_uMcomrJkw": "playlist:2026-09-03",
-        "3McNep1RuCg": "playlist:2026-09-03",
-        "H0XILGPtrTU": "playlist:2026-09-03",
-        "lZ_ziCc3sNY": "playlist:2026-09-03",
-        "ALeoJTcvf0U": "playlist:2026-09-03",
-        "JadsBfUTLkU": "playlist:2026-09-03",
+        "DpJc0lL7hy8": "2026-09-03T00:41:53+00:00",
+        "7JNfT6Dd2UM": "2026-08-25T07:35:02+00:00",
+        "mtUs8vp-FKA": "2026-08-25T06:34:11+00:00",
+        "BqziALG6O3g": "2026-08-25T06:49:36+00:00",
+        "v-_a9lnEkvM": "2026-08-25T08:07:38+00:00",
+        "_fS6-58kl_U": "2026-08-21T08:03:45+00:00",
+        "_8jB0cZw1es": "2026-09-02T13:33:07+00:00",
+        "iBTpV46GGHI": "2026-07-31T07:24:18+00:00",
+        "G9_pqnpQecg": "2026-09-02T13:31:40+00:00",
+        "q_uMcomrJkw": "2026-07-27T22:24:03+00:00",
+        "3McNep1RuCg": "2026-08-08T11:06:35+00:00",
+        "H0XILGPtrTU": "2026-07-01T23:37:45+00:00",
+        "lZ_ziCc3sNY": "2026-06-29T16:01:04+00:00",
+        "ALeoJTcvf0U": "2026-07-01T23:39:59+00:00",
+        "JadsBfUTLkU": "2026-06-06T19:13:24+00:00",
         "9KrDu62m8u0": "playlist:2026-09-03",
         "t3WESWXWwwI": "playlist:2026-09-03",
         "7K3Fh_29Smw": "playlist:2026-09-03",
@@ -480,7 +498,8 @@
         "2-iDSGZDvQQ": "playlist:2026-09-03",
         "iJz08loP-Lw": "playlist:2026-09-03",
         "4TAQBn9hP54": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "keep-hush": {
       "entries": {
@@ -509,7 +528,8 @@
         "FE1hQRRqmeA": "playlist:2026-09-03",
         "SvcBM-O3DCQ": "playlist:2026-09-03",
         "2Uh5iewkQ90": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "seoul-community-radio": {
       "entries": {
@@ -538,7 +558,8 @@
         "u0i9R3jpQYk": "playlist:2026-09-03",
         "W1HUhTDQuKU": "playlist:2026-09-03",
         "JLAVn76eA-I": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "mutant-radio": {
       "entries": {
@@ -567,7 +588,8 @@
         "xZg09-fF9rg": "playlist:2026-09-03",
         "fQi8m_N4WFg": "playlist:2026-09-03",
         "DocWq_ZGxxI": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     },
     "book-club-radio": {
       "entries": {
@@ -596,7 +618,8 @@
         "OHI5sfmQ_eE": "playlist:2026-09-03",
         "rmKEwdQO8iA": "playlist:2026-09-03",
         "tBf_q32RWro": "playlist:2026-09-03"
-      }
+      },
+      "rss_failure_fallback": {}
     }
   }
 }

@@ -9,6 +9,14 @@
     "playlist_backstop": "daily",
     "playlist_backstop_recent_videos": 25,
     "music_live_classifier_version": 1,
-    "public_stream_rule": "music_live_status=verified"
+    "public_stream_rule": "music_live_status=verified",
+    "rss_failure_fallback": {
+      "enabled": true,
+      "success_cooldown_hours": 6,
+      "failed_attempt_cooldown_hours": 1,
+      "widespread_failure_threshold": 0.5,
+      "widespread_cohorts": 24,
+      "recent_videos": 25
+    }
   }
 }

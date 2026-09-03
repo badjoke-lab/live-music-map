@@ -13,7 +13,7 @@
     "scheduled_start": "2026-09-02T19:00:00Z",
     "actual_start": "2026-09-02T19:04:10Z",
     "actual_end": null,
-    "concurrent_viewers": 4,
+    "concurrent_viewers": 2,
     "thumbnail": "https://i.ytimg.com/vi/IUJAIQWpYwA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "22",
@@ -74,7 +74,7 @@
   {
     "id": "youtube:DpJc0lL7hy8",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "wigmore-hall",
     "youtube_video_id": "DpJc0lL7hy8",
@@ -758,7 +758,7 @@
   {
     "id": "youtube:_fS6-58kl_U",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "wigmore-hall",
     "youtube_video_id": "_fS6-58kl_U",
@@ -794,7 +794,7 @@
   {
     "id": "youtube:v-_a9lnEkvM",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "wigmore-hall",
     "youtube_video_id": "v-_a9lnEkvM",
@@ -830,7 +830,7 @@
   {
     "id": "youtube:BqziALG6O3g",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "wigmore-hall",
     "youtube_video_id": "BqziALG6O3g",
@@ -866,7 +866,7 @@
   {
     "id": "youtube:mtUs8vp-FKA",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "wigmore-hall",
     "youtube_video_id": "mtUs8vp-FKA",
@@ -902,7 +902,7 @@
   {
     "id": "youtube:7JNfT6Dd2UM",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "wigmore-hall",
     "youtube_video_id": "7JNfT6Dd2UM",
