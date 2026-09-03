@@ -205,6 +205,14 @@
       acq.textContent = acquisition?.youtube?.configured ? 'YouTube自動取得: 有効' : 'YouTube自動取得: APIキー未設定';
     }
 
+    function currentViewerCount(sourceId) {
+      const values = orderedStreams(sourceId)
+        .filter(stream => stream.status === 'live' && stream.concurrent_viewers !== null && stream.concurrent_viewers !== undefined)
+        .map(stream => Number(stream.concurrent_viewers))
+        .filter(Number.isFinite);
+      return values.length ? values.reduce((sum, value) => sum + value, 0) : null;
+    }
+
     function renderCombined() {
       markerLayer.clearLayers();
       const subset = sources.filter(source => matchesSearch(source) && matchesState(source) && matchesCategory(source)).sort(sourceOrder);
@@ -212,8 +220,10 @@
         const st = stateFor(source);
         const upcoming = orderedStreams(source.id).find(stream => stream.status === 'upcoming');
         const next = st === 'upcoming' && upcoming ? ` · ${formatTime(upcoming.scheduled_start)}` : '';
+        const viewerCount = st === 'live' ? currentViewerCount(source.id) : null;
+        const viewers = viewerCount === null ? '' : ` · 👁 ${viewerCount.toLocaleString('ja-JP')}`;
         const stateLabel = st === 'source' ? 'ソース' : st.toUpperCase();
-        return `<div class="source" data-id="${esc(source.id)}"><div class="name"><span class="status ${st}">${stateLabel}</span>${esc(source.name)}</div><div class="meta">${esc(source.city || '')}${source.city && source.country ? ', ' : ''}${esc(source.country || '')} · ${esc(source.type)}${esc(next)}</div><div class="badges">${(source.genres || []).slice(0, 5).map(badge).join('')}</div></div>`;
+        return `<div class="source" data-id="${esc(source.id)}"><div class="name"><span class="status ${st}">${stateLabel}</span>${esc(source.name)}</div><div class="meta">${esc(source.city || '')}${source.city && source.country ? ', ' : ''}${esc(source.country || '')} · ${esc(source.type)}${viewers}${esc(next)}</div><div class="badges">${(source.genres || []).slice(0, 5).map(badge).join('')}</div></div>`;
       }).join('');
       document.querySelectorAll('.source').forEach(element => {
         element.onclick = () => show(sources.find(source => source.id === element.dataset.id));
