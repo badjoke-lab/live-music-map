@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T21:22:47.322Z",
+  "generated_at": "2026-09-03T01:00:46.768Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -79,9 +79,7 @@
       "source_type": "studio_media",
       "source_genres": [
         "Electronic",
-        "Experimental",
-        "Live Music",
-        "Talk"
+        "Experimental"
       ],
       "live_now": 0,
       "upcoming_count": 0,
@@ -263,7 +261,6 @@
         "Metal",
         "Opera",
         "Jazz",
-        "Performing Arts",
         "Baroque"
       ],
       "live_now": 0,
@@ -403,18 +400,6 @@
         "upcoming": 3,
         "observed_live_30d": 0
       },
-      "Live Music": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Talk": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
       "Multi-genre": {
         "sources": 6,
         "live_now": 0,
@@ -470,12 +455,6 @@
         "observed_live_30d": 0
       },
       "Opera": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Performing Arts": {
         "sources": 1,
         "live_now": 0,
         "upcoming": 0,
