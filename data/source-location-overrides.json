@@ -1,0 +1,20 @@
+[
+  {
+    "id": "music-awards-japan-ceipa",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Tokyo, Japan"
+    },
+    "evidence": {
+      "kind": "official_site",
+      "url": "https://www.ceipa.net/",
+      "supports": ["source_location"]
+    },
+    "note": "CEIPA operator base is in Kita-Aoyama, Minato-ku, Tokyo; individual MUSIC AWARDS JAPAN event venues override the operator location when verified."
+  }
+]
