@@ -10020,14 +10020,14 @@
     "type": "music_awards",
     "country": "Japan",
     "country_code": "JP",
-    "region": null,
-    "city": null,
+    "region": "Tokyo",
+    "city": "Tokyo",
     "location": {
-      "lat": null,
-      "lon": null,
-      "precision": "country_only",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "precision": "operator_city_only",
       "role": "operator_base",
-      "label": "Japan"
+      "label": "Tokyo, Japan"
     },
     "genres": [
       "J-pop",
@@ -10097,6 +10097,13 @@
           "music_live_capability",
           "schedule_pattern"
         ]
+      },
+      {
+        "kind": "official_site",
+        "url": "https://www.ceipa.net/",
+        "supports": [
+          "source_location"
+        ]
       }
     ],
     "acquisition": {
@@ -10104,7 +10111,7 @@
       "method": "youtube_atom_feed",
       "priority": "normal"
     },
-    "note": "Official MUSIC AWARDS JAPAN channel with global YouTube livestreams of the Premiere and Grand ceremonies; ancillary award content is excluded.",
+    "note": "CEIPA operator base is in Kita-Aoyama, Minato-ku, Tokyo; individual MUSIC AWARDS JAPAN event venues override the operator location when verified.",
     "youtube_channel_id": "UCriL9o4WlGQvTQw_pZ4ZqIQ",
     "youtube_uploads_playlist_id": "UUriL9o4WlGQvTQw_pZ4ZqIQ"
   },
