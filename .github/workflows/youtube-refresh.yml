@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/refresh-youtube-live.mjs'
+      - 'scripts/correct-title-classification.mjs'
       - 'scripts/update-history-stats.mjs'
       - 'scripts/validate-sources.mjs'
       - 'data/sources.json'
@@ -58,6 +59,8 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/refresh-youtube-live.mjs
+      - name: Apply title classification precedence
+        run: node scripts/correct-title-classification.mjs
       - name: Archive ended streams and build source stats
         run: node scripts/update-history-stats.mjs finalize
       - name: Commit generated data
