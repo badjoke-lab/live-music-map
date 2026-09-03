@@ -115,3 +115,20 @@ Deterministic precedence for this conflict:
 3. ambiguous streams still fail closed; YouTube category alone is never enough.
 
 This rule exists to prevent false negatives such as a title explicitly stating `DJ Set` being rejected because the description contains a generic `news` reference.
+
+## 2026-09-03 — RSS outage fallback — acquisition reliability correction
+
+Production runs after the 20-source expansion showed simultaneous YouTube Atom feed failures across old and new channels: 19/20 and then 18/20 feeds failed while the corresponding uploads-playlist API calls still succeeded. Atom RSS therefore remains a zero-quota discovery input but is not treated as a reliable sole 15-minute path.
+
+For normal RSS-only runs, `scripts/rss-failure-fallback.mjs` provides a bounded playlist fallback:
+
+- only Sources whose RSS probe failed are eligible;
+- an isolated failed Source gets a successful playlist fallback at most once per 6 hours;
+- a failed playlist attempt is retried no more than once per hour;
+- if at least 50% of enabled feeds fail together, failures are spread across 24 deterministic 15-minute cohorts, so a persistent global outage does not trigger every playlist on every run;
+- the fallback reads only the latest 25 uploads and batches `videos.list` calls;
+- known active videos continue through the normal active-video check;
+- the daily full playlist backstop remains in place;
+- `search.list` remains unused.
+
+Because Atom reliability has now failed in production, WebSub migration is no longer deferred until after 1,000 Sources. Push acquisition should be implemented and measured during the 100–300 Source phase, while this bounded fallback remains the polling safety net.
