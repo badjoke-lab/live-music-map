@@ -263,7 +263,7 @@
     "languages": ["English"],
     "official_site": "https://www.grammy.com/",
     "schedule_url": "https://www.grammy.com/news/how-watch-2026-grammys-live-streaming-performers-host-air-date-red-carpet/",
-    "youtube_url": "https://www.youtube.com/recordingacademy",
+    "youtube_url": "https://www.youtube.com/channel/UCq4isO8ZYOZfmvGJ-_1UdIA",
     "status": "seasonal",
     "schedule_pattern": "seasonal",
     "lifecycle_status": "active",
@@ -271,11 +271,11 @@
     "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-04"},
     "evidence": [
       {"kind": "official_event_page", "url": "https://www.grammy.com/news/how-watch-2026-grammys-live-streaming-performers-host-air-date-red-carpet/", "supports": ["identity", "music_live_capability", "schedule_pattern"]},
-      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/recordingacademy", "supports": ["official_channel", "music_live_capability"]}
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCq4isO8ZYOZfmvGJ-_1UdIA", "supports": ["official_channel", "music_live_capability"]}
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
     "note": "Recording Academy channel with annual GRAMMY Premiere Ceremony livestreams and live performances; ancillary ceremony content is excluded.",
-    "youtube_channel_id": null,
+    "youtube_channel_id": "UCq4isO8ZYOZfmvGJ-_1UdIA",
     "youtube_uploads_playlist_id": null
   },
   {
@@ -294,7 +294,7 @@
     "languages": ["Spanish", "Portuguese", "English"],
     "official_site": "https://www.latingrammy.com/",
     "schedule_url": "https://www.latingrammy.com/",
-    "youtube_url": "https://www.youtube.com/@LatinGRAMMYs",
+    "youtube_url": "https://www.youtube.com/channel/UCwXP0qTloNCs8x8iORTpHZA",
     "status": "seasonal",
     "schedule_pattern": "seasonal",
     "lifecycle_status": "active",
@@ -302,11 +302,11 @@
     "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-04"},
     "evidence": [
       {"kind": "official_site", "url": "https://www.latingrammy.com/", "supports": ["identity", "music_live_capability", "schedule_pattern"]},
-      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/@LatinGRAMMYs", "supports": ["official_channel", "music_live_capability"]}
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCwXP0qTloNCs8x8iORTpHZA", "supports": ["official_channel", "music_live_capability"]}
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
     "note": "Latin Recording Academy channel for Latin GRAMMY ceremony livestreams and live performances; non-performance award content fails closed.",
-    "youtube_channel_id": null,
+    "youtube_channel_id": "UCwXP0qTloNCs8x8iORTpHZA",
     "youtube_uploads_playlist_id": null
   }
 ]
