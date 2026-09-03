@@ -47,4 +47,24 @@
       return '';
     }
   });
+
+  const sourceCounts = document.getElementById('locationCounts');
+  const toolbar = document.querySelector('.toolbar');
+  if (sourceCounts && toolbar) {
+    const summary = document.createElement('div');
+    summary.id = 'locationSummaryBar';
+    summary.setAttribute('aria-label', '配信元の位置内訳');
+    toolbar.insertAdjacentElement('afterend', summary);
+
+    const syncSummary = () => {
+      summary.innerHTML = sourceCounts.innerHTML;
+    };
+    syncSummary();
+    new MutationObserver(syncSummary).observe(sourceCounts, { childList: true, subtree: true, characterData: true });
+  }
+
+  const legend = document.querySelector('.legend');
+  if (legend) {
+    legend.textContent = '状態: 赤 LIVE / 橙 Upcoming / 灰 Sourceのみ · 位置: ○ 実際の会場・配信地点 / ◇ 配信元拠点 / 点線外周 国レベル参考位置 · 不明は地図非表示 · クラスタ中央=配信元総数';
+  }
 })();
