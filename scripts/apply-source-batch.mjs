@@ -32,11 +32,18 @@ function youtubeRef(urlString) {
   return null;
 }
 
-async function resolveChannelId(source) {
-  if (typeof source.youtube_channel_id === 'string' && /^UC[A-Za-z0-9_-]{22}$/.test(source.youtube_channel_id)) return source.youtube_channel_id;
+function normalizedChannelName(value) {
+  return String(value || '').trim().toLocaleLowerCase('en-US').replace(/\s+/g, ' ');
+}
+
+async function resolveChannel(source) {
+  if (typeof source.youtube_channel_id === 'string' && /^UC[A-Za-z0-9_-]{22}$/.test(source.youtube_channel_id)) {
+    return { id: source.youtube_channel_id, canonicalizeUrl: false };
+  }
+
   const ref = youtubeRef(source.youtube_url);
   if (!ref) throw new Error(`[${source.id}] cannot parse YouTube URL`);
-  if (ref.kind === 'channel') return ref.value;
+  if (ref.kind === 'channel') return { id: ref.value, canonicalizeUrl: false };
 
   const lookups = ref.kind === 'handle'
     ? [{ forHandle: ref.value }]
@@ -47,8 +54,20 @@ async function resolveChannelId(source) {
   for (const lookup of lookups) {
     const result = await api('channels', { part: 'id', maxResults: 1, ...lookup });
     const id = result.items?.[0]?.id;
-    if (id) return id;
+    if (id) return { id, canonicalizeUrl: false };
   }
+
+  const targetName = normalizedChannelName(source.name);
+  const search = await api('search', { part: 'snippet', type: 'channel', q: source.name, maxResults: 5 });
+  const exactMatches = (search.items || []).filter((item) => {
+    const id = item.id?.channelId;
+    const title = normalizedChannelName(item.snippet?.title);
+    return typeof id === 'string' && /^UC[A-Za-z0-9_-]{22}$/.test(id) && title === targetName;
+  });
+  if (exactMatches.length === 1) {
+    return { id: exactMatches[0].id.channelId, canonicalizeUrl: true };
+  }
+  if (exactMatches.length > 1) throw new Error(`[${source.id}] multiple exact-name YouTube channels found; pin youtube_channel_id explicitly`);
   throw new Error(`[${source.id}] YouTube channel could not be resolved`);
 }
 
@@ -65,8 +84,16 @@ for (const candidate of batch) {
   if (!candidate?.id) throw new Error('Batch source is missing id');
   if (existingIds.has(candidate.id)) continue;
   const source = structuredClone(candidate);
-  source.youtube_channel_id = await resolveChannelId(source);
+  const resolved = await resolveChannel(source);
+  source.youtube_channel_id = resolved.id;
   source.youtube_uploads_playlist_id = `UU${source.youtube_channel_id.slice(2)}`;
+  if (resolved.canonicalizeUrl) {
+    const canonicalUrl = `https://www.youtube.com/channel/${source.youtube_channel_id}`;
+    source.youtube_url = canonicalUrl;
+    for (const item of source.evidence || []) {
+      if (item?.kind === 'official_youtube_channel') item.url = canonicalUrl;
+    }
+  }
   if (existingChannels.has(source.youtube_channel_id)) {
     skippedDuplicateChannels.push(`${source.id}:${source.youtube_channel_id}`);
     continue;
