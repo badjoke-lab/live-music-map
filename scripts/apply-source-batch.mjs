@@ -54,13 +54,17 @@ function thumbnail(snippet) {
 const existingIds = new Set(sources.map((source) => source.id));
 const existingChannels = new Set(sources.map((source) => source.youtube_channel_id).filter(Boolean));
 const added = [];
+const skippedDuplicateChannels = [];
 for (const candidate of batch) {
   if (!candidate?.id) throw new Error('Batch source is missing id');
   if (existingIds.has(candidate.id)) continue;
   const source = structuredClone(candidate);
   source.youtube_channel_id = await resolveChannelId(source);
   source.youtube_uploads_playlist_id = `UU${source.youtube_channel_id.slice(2)}`;
-  if (existingChannels.has(source.youtube_channel_id)) throw new Error(`[${source.id}] duplicate YouTube channel ${source.youtube_channel_id}`);
+  if (existingChannels.has(source.youtube_channel_id)) {
+    skippedDuplicateChannels.push(`${source.id}:${source.youtube_channel_id}`);
+    continue;
+  }
   existingIds.add(source.id);
   existingChannels.add(source.youtube_channel_id);
   sources.push(source);
@@ -102,4 +106,4 @@ const seededIds = new Set(seeded.map((record) => record.id));
 const mergedStreams = [...streams.filter((record) => !seededIds.has(record.id)), ...seeded];
 await fs.writeFile(sourcesUrl, `${JSON.stringify(sources, null, 2)}\n`);
 await fs.writeFile(streamsUrl, `${JSON.stringify(mergedStreams, null, 2)}\n`);
-console.log(`Source batch applied: ${added.length} added, ${sources.length} total. Onboarding live search: ${searchQueries} calls, ${searchFailures} failures, ${seeded.length} current live records seeded.`);
+console.log(`Source batch applied: ${added.length} added, ${sources.length} total. Duplicate channels skipped: ${skippedDuplicateChannels.length}${skippedDuplicateChannels.length ? ` (${skippedDuplicateChannels.join(', ')})` : ''}. Onboarding live search: ${searchQueries} calls, ${searchFailures} failures, ${seeded.length} current live records seeded.`);
