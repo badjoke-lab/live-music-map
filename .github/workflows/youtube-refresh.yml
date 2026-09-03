@@ -9,8 +9,6 @@ on:
       - 'scripts/correct-title-classification.mjs'
       - 'scripts/update-history-stats.mjs'
       - 'scripts/validate-sources.mjs'
-      - 'scripts/apply-source-batch.mjs'
-      - 'data/source-batch-004.json'
       - 'data/sources.json'
       - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
@@ -42,8 +40,6 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Apply approved M2 source batch 004
-        run: node scripts/apply-source-batch.mjs data/source-batch-004.json
       - name: Validate source contract
         run: node scripts/validate-sources.mjs
       - name: Check RSS fallback script
