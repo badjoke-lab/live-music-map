@@ -103,3 +103,15 @@ Durable rules:
 - the uploads playlist id must correspond to the canonical channel id;
 - `scripts/validate-sources.mjs` is the executable contract and runs before acquisition and Pages deployment;
 - the validator must not be weakened merely to admit more sources.
+
+## 2026-09-03 — Title signal precedence in music-live classification
+
+YouTube descriptions may contain boilerplate/navigation words such as `news` that do not describe the stream itself. A deny word found only outside the title must not override an explicit music-live phrase in the title.
+
+Deterministic precedence for this conflict:
+
+1. an explicit non-music deny signal in the **title** remains authoritative and the stream is rejected;
+2. otherwise, an explicit source-specific or global music-live allow signal in the **title** may verify the stream;
+3. ambiguous streams still fail closed; YouTube category alone is never enough.
+
+This rule exists to prevent false negatives such as a title explicitly stating `DJ Set` being rejected because the description contains a generic `news` reference.
