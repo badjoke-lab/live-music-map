@@ -11,6 +11,7 @@ on:
       - 'scripts/validate-sources.mjs'
       - 'scripts/apply-source-batch.mjs'
       - 'data/source-batch-008.json'
+      - 'data/source-batch-008-fill.json'
       - 'data/sources.json'
       - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
@@ -46,6 +47,10 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/apply-source-batch.mjs data/source-batch-008.json
+      - name: Apply batch 008 replacement source and seed current live
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/apply-source-batch.mjs data/source-batch-008-fill.json
       - name: Validate source contract
         run: node scripts/validate-sources.mjs
       - name: Check RSS fallback script
