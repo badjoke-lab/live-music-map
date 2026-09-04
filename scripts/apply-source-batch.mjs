@@ -80,7 +80,7 @@ async function findLiveProof(channelId) {
   return null;
 }
 
-async function preflightBatch() {
+async function preflightBatch({ skipExistingIds = false } = {}) {
   const existingIds = new Set(sources.map((source) => source.id));
   const existingNames = new Map(sources.map((source) => [normalizedChannelName(source.name), source.id]));
   const existingChannels = new Map(sources.map((source) => [source.youtube_channel_id, source.id]).filter(([channelId]) => channelId));
@@ -94,8 +94,18 @@ async function preflightBatch() {
       errors.push('Batch source is missing id');
       continue;
     }
-    if (existingIds.has(candidate.id)) errors.push(`[${candidate.id}] duplicate source id already in canonical`);
-    if (batchIds.has(candidate.id)) errors.push(`[${candidate.id}] duplicate source id inside batch`);
+    if (existingIds.has(candidate.id)) {
+      if (skipExistingIds) {
+        console.log(`Preflight ${candidate.id}: already canonical, skipped.`);
+        continue;
+      }
+      errors.push(`[${candidate.id}] duplicate source id already in canonical`);
+      continue;
+    }
+    if (batchIds.has(candidate.id)) {
+      errors.push(`[${candidate.id}] duplicate source id inside batch`);
+      continue;
+    }
     batchIds.add(candidate.id);
 
     const normalizedName = normalizedChannelName(candidate.name);
@@ -124,13 +134,15 @@ async function preflightBatch() {
     for (const error of errors) console.error(`- ${error}`);
     process.exit(1);
   }
-  console.log(`Source batch preflight OK: ${resolvedRows.length} candidates, ${batchChannels.size} unique YouTube channels, no canonical duplicates, live-broadcast proof present for every candidate.`);
+  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${batchChannels.size} unique YouTube channels, no canonical duplicates, live-broadcast proof present for every pending candidate.`);
 }
 
 if (PREFLIGHT) {
   await preflightBatch();
   process.exit(0);
 }
+
+await preflightBatch({ skipExistingIds: true });
 
 function thumbnail(snippet) {
   const t = snippet?.thumbnails || {};
