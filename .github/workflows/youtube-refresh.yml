@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/refresh-youtube-live.mjs'
       - 'scripts/budgeted-playlist-sweep.mjs'
+      - 'scripts/prune-stale-upcoming.mjs'
       - 'scripts/enforce-stream-channel-identity.mjs'
       - 'scripts/correct-title-classification.mjs'
       - 'scripts/update-history-stats.mjs'
@@ -123,6 +124,7 @@ jobs:
       - name: Check acquisition hardening scripts
         run: |
           node --check scripts/budgeted-playlist-sweep.mjs
+          node --check scripts/prune-stale-upcoming.mjs
           node --check scripts/repair-missing-uploads-playlists.mjs
           node --check scripts/apply-source-youtube-overrides.mjs
           node --check scripts/enforce-stream-channel-identity.mjs
@@ -161,6 +163,8 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_PLAYLIST_SWEEP_BUDGET: '75'
         run: node scripts/budgeted-playlist-sweep.mjs
+      - name: Prune stale upcoming streams
+        run: node scripts/prune-stale-upcoming.mjs
       - name: Enforce stream channel identity
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
