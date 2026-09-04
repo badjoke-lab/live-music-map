@@ -7269,7 +7269,7 @@
     ],
     "official_site": "https://ministryofsound.com/",
     "schedule_url": "https://ministryofsound.com/",
-    "youtube_url": "https://www.youtube.com/ministryofsound",
+    "youtube_url": "https://www.youtube.com/@ministrysound",
     "status": "recurring",
     "schedule_pattern": "recurring",
     "lifecycle_status": "active",
@@ -7311,7 +7311,7 @@
       },
       {
         "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/ministryofsound",
+        "url": "https://www.youtube.com/@ministrysound",
         "supports": [
           "official_channel"
         ]
@@ -7323,8 +7323,8 @@
       "priority": "normal"
     },
     "note": "Current Ministry of Sound Boxed In is a 12-hour streamed DJ competition from the London club; channel is mixed music-video/live content.",
-    "youtube_channel_id": "UCh3jNAgLW6BRVIHT454Xnfg",
-    "youtube_uploads_playlist_id": "UUh3jNAgLW6BRVIHT454Xnfg"
+    "youtube_channel_id": "UC8T81Q-rEobLa-YuQKj8L1A",
+    "youtube_uploads_playlist_id": "UU8T81Q-rEobLa-YuQKj8L1A"
   },
   {
     "schema_version": 2,
