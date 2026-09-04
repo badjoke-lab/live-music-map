@@ -1,0 +1,207 @@
+[
+  {
+    "schema_version": 2,
+    "id": "coachella",
+    "name": "Coachella",
+    "operator_name": "Goldenvoice",
+    "type": "festival",
+    "country": "United States",
+    "country_code": "US",
+    "region": "California",
+    "city": "Indio",
+    "location": {
+      "lat": 33.7206,
+      "lon": -116.2156,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Indio, California, United States"
+    },
+    "genres": [
+      "Pop",
+      "Rock",
+      "Hip-hop",
+      "R&B",
+      "Electronic",
+      "Alternative",
+      "Latin",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Multi-language"
+    ],
+    "official_site": "https://coachella.com/",
+    "schedule_url": "https://coachella.com/youtube-livestream",
+    "youtube_url": "https://www.youtube.com/@coachella",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Coachella",
+        "live",
+        "livestream",
+        "Main Stage",
+        "Outdoor Theatre",
+        "Sahara",
+        "Mojave",
+        "Gobi",
+        "Yuma",
+        "Quasar"
+      ],
+      "deny_title_patterns": [
+        "interview only",
+        "documentary",
+        "trailer",
+        "behind the scenes only"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://coachella.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://coachella.com/getting-here/",
+        "supports": [
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://coachella.com/youtube-livestream",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@coachella",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official Coachella festival source. The official 2026 site carried seven live stages on YouTube across both weekends; source location is the festival home in Indio, not an inferred stream location.",
+    "youtube_channel_id": null,
+    "youtube_uploads_playlist_id": null
+  },
+  {
+    "schema_version": 2,
+    "id": "the-headies",
+    "name": "The Headies",
+    "operator_name": "Hip Hop World Magazine",
+    "type": "music_awards",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "origin",
+      "label": "Nigeria"
+    },
+    "genres": [
+      "Afrobeats",
+      "Hip-hop",
+      "R&B",
+      "Afropop",
+      "Highlife",
+      "Gospel",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards_live",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://theheadies.com/",
+    "schedule_url": "https://theheadies.com/events/",
+    "youtube_url": "https://www.youtube.com/@theheadiesawards",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Headies",
+        "Headies Awards",
+        "live",
+        "livestream",
+        "performance",
+        "performs"
+      ],
+      "deny_title_patterns": [
+        "interview only",
+        "red carpet only",
+        "nominee announcement only",
+        "press conference only"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://theheadies.com/",
+        "supports": [
+          "identity",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://theheadies.com/events/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@theheadiesawards",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Nigeria-origin music awards source. The official site states the annual ceremony includes live performances and is streamed globally on YouTube; the 18th Headies is scheduled in Toronto in October 2026, so event location must not be inferred from this source-origin record.",
+    "youtube_channel_id": null,
+    "youtube_uploads_playlist_id": null
+  }
+]
