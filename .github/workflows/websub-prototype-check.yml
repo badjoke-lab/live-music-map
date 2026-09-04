@@ -9,6 +9,7 @@ on:
       - 'scripts/test-websub-worker.mjs'
       - 'scripts/websub-subscribe.mjs'
       - '.github/workflows/websub-notification.yml'
+      - '.github/workflows/deploy-websub-worker.yml'
       - '.github/workflows/websub-prototype-check.yml'
   pull_request:
     paths:
@@ -18,6 +19,7 @@ on:
       - 'scripts/test-websub-worker.mjs'
       - 'scripts/websub-subscribe.mjs'
       - '.github/workflows/websub-notification.yml'
+      - '.github/workflows/deploy-websub-worker.yml'
       - '.github/workflows/websub-prototype-check.yml'
 
 jobs:
