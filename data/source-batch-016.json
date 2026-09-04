@@ -232,7 +232,7 @@
     "location": {
       "lat": null,
       "lon": null,
-      "precision": "country_only",
+      "precision": "unknown",
       "role": "operator_base",
       "label": "Austria (Red Bull operator country; Batalla events are international)"
     },
