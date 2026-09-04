@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T03:42:52.183Z",
+  "generated_at": "2026-09-04T04:27:57.458Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 130,
-    "live_now": 66,
-    "upcoming": 43,
-    "observed_live_streams_total": 92,
-    "observed_live_streams_7d": 37,
-    "observed_live_streams_30d": 50,
+    "live_now": 67,
+    "upcoming": 42,
+    "observed_live_streams_total": 93,
+    "observed_live_streams_7d": 38,
+    "observed_live_streams_30d": 51,
     "history_records": 26
   },
   "by_source": {
@@ -744,15 +744,17 @@
       "source_genres": [
         "K-pop"
       ],
-      "live_now": 0,
-      "upcoming_count": 1,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": "2026-09-04T04:00:00.000Z",
-      "observed_content_types": []
+      "live_now": 1,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 1,
+      "observed_live_streams_7d": 1,
+      "observed_live_streams_30d": 1,
+      "active_days_30d": 1,
+      "last_live_at": "2026-09-04T04:00:07.000Z",
+      "next_live_at": null,
+      "observed_content_types": [
+        "music_live_unspecified"
+      ]
     },
     "im-live-arirang": {
       "source_id": "im-live-arirang",
@@ -3276,9 +3278,9 @@
       },
       "KR": {
         "sources": 12,
-        "live_now": 0,
-        "upcoming": 7,
-        "observed_live_30d": 2
+        "live_now": 1,
+        "upcoming": 6,
+        "observed_live_30d": 3
       },
       "GE": {
         "sources": 1,
@@ -3434,9 +3436,9 @@
       },
       "broadcast_media": {
         "sources": 5,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 0
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 1
       },
       "orchestra": {
         "sources": 3,
@@ -3712,9 +3714,9 @@
       },
       "K-pop": {
         "sources": 11,
-        "live_now": 0,
-        "upcoming": 4,
-        "observed_live_30d": 1
+        "live_now": 1,
+        "upcoming": 3,
+        "observed_live_30d": 2
       },
       "Alternative": {
         "sources": 9,
@@ -4312,7 +4314,7 @@
       }
     },
     "by_verified_stream_content_type_30d": {
-      "music_live_unspecified": 18,
+      "music_live_unspecified": 19,
       "dj_set": 11,
       "music_radio_live": 21
     }
