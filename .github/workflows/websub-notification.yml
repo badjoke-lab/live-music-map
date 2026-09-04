@@ -36,6 +36,8 @@ jobs:
           YOUTUBE_WEBSUB_VIDEO_ID: ${{ github.event.client_payload.video_id }}
           YOUTUBE_WEBSUB_CHANNEL_ID: ${{ github.event.client_payload.channel_id }}
         run: node scripts/process-websub-video.mjs
+      - name: Prune stale upcoming streams
+        run: node scripts/prune-stale-upcoming.mjs
       - name: Archive ended streams and build source stats
         run: node scripts/update-history-stats.mjs finalize
       - name: Commit WebSub data changes
