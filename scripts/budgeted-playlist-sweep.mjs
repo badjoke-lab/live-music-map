@@ -57,7 +57,11 @@ async function api(path, params) {
   }
   const response = await fetch(url, { headers: { accept: 'application/json' } });
   const body = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(`${path}: ${body?.error?.message || `${response.status} ${response.statusText}`}`);
+  if (!response.ok) {
+    const error = new Error(`${path}: ${body?.error?.message || `${response.status} ${response.statusText}`}`);
+    error.status = response.status;
+    throw error;
+  }
   return body;
 }
 
@@ -113,18 +117,54 @@ const existingVideoIds = new Set(streams.map((record) => record.youtube_video_id
 const candidates = new Map();
 let playlistQueries = 0;
 let playlistFailures = 0;
+let channelRepairQueries = 0;
+let playlistRepairs = 0;
+let sourcesChanged = false;
 const nowIso = new Date().toISOString();
+
+async function queryPlaylist(playlistId) {
+  playlistQueries += 1;
+  return api('playlistItems', {
+    part: 'contentDetails',
+    playlistId,
+    maxResults: RECENT_VIDEOS
+  });
+}
+
+async function querySourcePlaylist(source) {
+  try {
+    return await queryPlaylist(source.youtube_uploads_playlist_id);
+  } catch (error) {
+    if (error.status !== 404) throw error;
+
+    channelRepairQueries += 1;
+    const channel = await api('channels', {
+      part: 'contentDetails',
+      id: source.youtube_channel_id,
+      maxResults: 1
+    });
+    const authoritativePlaylistId = channel.items?.[0]?.contentDetails?.relatedPlaylists?.uploads || null;
+    if (!/^UU[A-Za-z0-9_-]{22}$/.test(authoritativePlaylistId || '')) {
+      throw new Error(`playlist repair failed after ${error.message}: channel contentDetails has no valid uploads playlist`);
+    }
+    if (authoritativePlaylistId === source.youtube_uploads_playlist_id) {
+      throw error;
+    }
+
+    const previousPlaylistId = source.youtube_uploads_playlist_id;
+    source.youtube_uploads_playlist_id = authoritativePlaylistId;
+    sourcesChanged = true;
+    playlistRepairs += 1;
+    console.log(`[${source.id}] repaired uploads playlist ${previousPlaylistId} -> ${authoritativePlaylistId}; retrying once.`);
+    return queryPlaylist(authoritativePlaylistId);
+  }
+}
 
 for (const source of selected) {
   const sweep = sourceState(source.id);
   sweep.last_checked_at = nowIso;
   try {
-    const playlist = await api('playlistItems', {
-      part: 'contentDetails',
-      playlistId: source.youtube_uploads_playlist_id,
-      maxResults: RECENT_VIDEOS
-    });
-    playlistQueries += 1;
+    const playlist = await querySourcePlaylist(source);
     sweep.last_success_at = nowIso;
     sweep.last_error = null;
     const feedEntries = state.feeds[source.id].entries;
@@ -194,7 +234,11 @@ acquisition.youtube = {
     recent_videos_per_source: RECENT_VIDEOS,
     selection: 'oldest_checked_first',
     source_count: enabled.length,
-    projected_max_full_sweep_minutes: fullSweepMinutes
+    projected_max_full_sweep_minutes: fullSweepMinutes,
+    playlist_404_repair: 'channels.contentDetails_then_single_retry',
+    playlist_calls_last_run: playlistQueries,
+    channel_repair_calls_last_run: channelRepairQueries,
+    repaired_playlists_last_run: playlistRepairs
   },
   rss_failure_fallback: {
     enabled: false,
@@ -202,7 +246,8 @@ acquisition.youtube = {
   }
 };
 
+if (sourcesChanged) await fs.writeFile(sourcesPath, `${JSON.stringify(sources, null, 2)}\n`);
 await fs.writeFile(statePath, `${JSON.stringify(state, null, 2)}\n`);
 await fs.writeFile(acquisitionPath, `${JSON.stringify(acquisition, null, 2)}\n`);
 
-console.log(`Budgeted playlist sweep: selected=${selected.length}/${enabled.length}, playlist calls=${playlistQueries}, playlist failures=${playlistFailures}, candidate video batches=${videoQueries}, targeted processors=${processorRuns}, processor failures=${processorFailures}, projected full sweep <=${fullSweepMinutes}m.`);
+console.log(`Budgeted playlist sweep: selected=${selected.length}/${enabled.length}, playlist calls=${playlistQueries}, playlist failures=${playlistFailures}, channel repair calls=${channelRepairQueries}, repaired playlists=${playlistRepairs}, candidate video batches=${videoQueries}, targeted processors=${processorRuns}, processor failures=${processorFailures}, projected full sweep <=${fullSweepMinutes}m.`);
