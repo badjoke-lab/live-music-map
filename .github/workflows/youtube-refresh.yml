@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/refresh-youtube-live.mjs'
-      - 'scripts/rss-failure-fallback.mjs'
+      - 'scripts/budgeted-playlist-sweep.mjs'
       - 'scripts/correct-title-classification.mjs'
       - 'scripts/update-history-stats.mjs'
       - 'scripts/validate-sources.mjs'
@@ -87,8 +87,8 @@ jobs:
         run: node scripts/apply-source-location-overrides.mjs
       - name: Validate source contract
         run: node scripts/validate-sources.mjs
-      - name: Check RSS fallback script
-        run: node --check scripts/rss-failure-fallback.mjs
+      - name: Check rolling playlist sweep script
+        run: node --check scripts/budgeted-playlist-sweep.mjs
       - name: Select discovery mode
         id: mode
         shell: bash
@@ -114,11 +114,12 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/refresh-youtube-live.mjs
-      - name: Bounded playlist fallback for RSS failures
+      - name: Budgeted rolling playlist discovery
         if: steps.mode.outputs.value == 'rss'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: node scripts/rss-failure-fallback.mjs
+          YOUTUBE_PLAYLIST_SWEEP_BUDGET: '40'
+        run: node scripts/budgeted-playlist-sweep.mjs
       - name: Apply title classification precedence
         run: node scripts/correct-title-classification.mjs
       - name: Archive ended streams and build source stats
