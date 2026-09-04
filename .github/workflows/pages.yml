@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Repair missing uploads playlists before validation
+        run: node scripts/repair-missing-uploads-playlists.mjs
       - name: Validate source contract
         run: node scripts/validate-sources.mjs
       - name: Setup Pages
