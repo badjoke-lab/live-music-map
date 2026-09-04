@@ -46,7 +46,7 @@ Required Worker secret:
 
 - `GITHUB_DISPATCH_TOKEN` — fine-grained token able to call repository dispatch for this repository.
 
-Recommended Worker secret:
+Required signature secret:
 
 - `WEBSUB_SECRET` — sent as `hub.secret` when subscribing and used to verify `X-Hub-Signature` on incoming notifications.
 
@@ -58,9 +58,24 @@ Public configuration:
 
 Do not commit secret values.
 
+## GitHub-driven deployment
+
+`.github/workflows/deploy-websub-worker.yml` is the supported deployment path. It deploys the Worker, installs Worker secrets, resolves the account workers.dev subdomain, smoke-tests the callback challenge endpoint, and requests subscriptions for all five prototype Sources.
+
+Configure these repository Actions secrets once:
+
+- `CLOUDFLARE_API_TOKEN` — Cloudflare API token scoped to this account with Workers Scripts Write permission.
+- `CLOUDFLARE_ACCOUNT_ID` — the Cloudflare account ID.
+- `WEBSUB_GITHUB_DISPATCH_TOKEN` — fine-grained GitHub token for `badjoke-lab/live-music-map` able to create repository dispatch events.
+- `WEBSUB_SECRET` — a separate high-entropy random secret for WebSub HMAC verification; do not reuse either API token.
+
+Then run `Deploy WebSub Worker prototype` with `workflow_dispatch`.
+
+The workflow intentionally does not run on every push because a code merge must not silently create or rotate external Cloudflare state. A successful run records the concrete workers.dev callback URL in the Actions job summary.
+
 ## Subscription
 
-After the Worker has a stable HTTPS callback URL, request subscriptions with:
+The deploy workflow requests subscriptions automatically. For a manual re-subscribe, use:
 
 `WEBSUB_CALLBACK_URL=https://.../youtube WEBSUB_SECRET=... node scripts/websub-subscribe.mjs`
 
