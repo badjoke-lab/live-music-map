@@ -1,0 +1,389 @@
+[
+  {
+    "schema_version": 2,
+    "id": "golden-melody-awards",
+    "name": "Golden Melody Awards / 金曲獎",
+    "operator_name": "Bureau of Audiovisual and Music Industry Development, Ministry of Culture",
+    "type": "music_awards",
+    "country": "Taiwan",
+    "country_code": "TW",
+    "region": "Taipei",
+    "city": "Taipei",
+    "location": {
+      "lat": 25.0375,
+      "lon": 121.5637,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Taipei, Taiwan"
+    },
+    "genres": [
+      "Multi-genre",
+      "Mandopop",
+      "Taiwanese Pop"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance"
+    ],
+    "languages": [
+      "Chinese",
+      "Taiwanese",
+      "Multi-language"
+    ],
+    "official_site": "https://gma.tavis.tw/",
+    "schedule_url": "https://gma.tavis.tw/",
+    "youtube_url": "https://www.youtube.com/channel/UC_r0QUJ6T4ZLaadqQcaA7qw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "金曲獎",
+        "golden melody",
+        "gma",
+        "頒獎典禮",
+        "live",
+        "直播"
+      ],
+      "deny_title_patterns": [
+        "入圍",
+        "nominee",
+        "interview",
+        "訪問",
+        "記者會",
+        "press conference",
+        "trailer",
+        "預告"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://gma.tavis.tw/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC_r0QUJ6T4ZLaadqQcaA7qw",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Annual Taiwan music-awards source. Awards speeches and ancillary material are mixed with live performances, so only deterministically verified ceremony/live broadcasts are admitted.",
+    "youtube_channel_id": "UC_r0QUJ6T4ZLaadqQcaA7qw",
+    "youtube_uploads_playlist_id": "UU_r0QUJ6T4ZLaadqQcaA7qw"
+  },
+  {
+    "schema_version": 2,
+    "id": "festival-nacional-folklore-cosquin",
+    "name": "Festival Nacional de Folklore de Cosquín / Aquí Cosquín",
+    "operator_name": "Comisión Municipal de Folklore de Cosquín",
+    "type": "festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Córdoba",
+    "city": "Cosquín",
+    "location": {
+      "lat": -31.2426,
+      "lon": -64.4656,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Cosquín, Córdoba, Argentina"
+    },
+    "genres": [
+      "Folk",
+      "Argentine Folklore",
+      "Latin"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://aquicosquin.com.ar/",
+    "schedule_url": "https://aquicosquin.com.ar/edicion-2026/",
+    "youtube_url": "https://www.youtube.com/@aquicosquin2150",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "aquí cosquín",
+        "aqui cosquin",
+        "cosquín",
+        "cosquin",
+        "festival nacional",
+        "luna",
+        "en vivo",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "entrevista",
+        "interview",
+        "conferencia",
+        "press conference",
+        "trailer",
+        "resumen",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://aquicosquin.com.ar/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://aquicosquin.com.ar/edicion-2026/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@aquicosquin2150",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Festival Nacional de Folklore de Cosquín source, distinct from the existing Cosquín Rock source. Full festival broadcasts can include awards and dance segments, so ambiguous non-music livestreams fail closed.",
+    "youtube_channel_id": null,
+    "youtube_uploads_playlist_id": null
+  },
+  {
+    "schema_version": 2,
+    "id": "untold-festival",
+    "name": "UNTOLD Festival",
+    "operator_name": "UNTOLD LIVE S.R.L.",
+    "type": "festival",
+    "country": "Romania",
+    "country_code": "RO",
+    "region": "Cluj",
+    "city": "Cluj-Napoca",
+    "location": {
+      "lat": 46.7712,
+      "lon": 23.6236,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Cluj-Napoca, Romania"
+    },
+    "genres": [
+      "Electronic",
+      "Dance",
+      "House",
+      "Techno",
+      "Pop",
+      "Hip-hop"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Romanian",
+      "Multi-language"
+    ],
+    "official_site": "https://www.untold.com/",
+    "schedule_url": "https://www.untold.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCeDqemm8j1o4u90IHkC0h0w",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "untold",
+        "mainstage",
+        "main stage",
+        "galaxy",
+        "alchemy",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "aftermovie",
+        "recap",
+        "interview",
+        "talk",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.untold.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://untold.com/news/c313b7e0-60c6-4968-a63e-44126e59a43c",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCeDqemm8j1o4u90IHkC0h0w",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official UNTOLD Festival source in Cluj-Napoca. The channel also carries promotional and recap material, which is excluded from music-live publication.",
+    "youtube_channel_id": "UCeDqemm8j1o4u90IHkC0h0w",
+    "youtube_uploads_playlist_id": "UUeDqemm8j1o4u90IHkC0h0w"
+  },
+  {
+    "schema_version": 2,
+    "id": "premios-juventud",
+    "name": "Premios Juventud",
+    "operator_name": "TelevisaUnivision",
+    "type": "music_awards",
+    "country": "United States",
+    "country_code": "US",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "operator_base",
+      "label": "United States (TelevisaUnivision operator country; Premios Juventud event locations vary)"
+    },
+    "genres": [
+      "Latin",
+      "Latin Pop",
+      "Reggaeton",
+      "Regional Mexican",
+      "Urban Latin"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.univision.com/shows/premios-juventud",
+    "schedule_url": "https://corporate.televisaunivision.com/press/2026/08/28/where-to-watch-23rd-annual-premios-juventud-a-historic-night-from-starlite-marbella-on-september-3/",
+    "youtube_url": "https://www.youtube.com/channel/UCcEWv_J2SEU8XO2tEm4Phgw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "premios juventud",
+        "premiosjuventud",
+        "pj fest"
+      ],
+      "deny_title_patterns": [
+        "backstage",
+        "alfombra",
+        "red carpet",
+        "noche de estrellas",
+        "interview",
+        "entrevista",
+        "reaction",
+        "reacción",
+        "recap",
+        "resumen"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.univision.com/shows/premios-juventud",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://corporate.televisaunivision.com/press/2026/08/28/where-to-watch-23rd-annual-premios-juventud-a-historic-night-from-starlite-marbella-on-september-3/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCcEWv_J2SEU8XO2tEm4Phgw",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Premios Juventud uses the official Univision YouTube channel rather than a dedicated channel. That channel is heavily mixed; only Premios Juventud livestreams verified against official event evidence are eligible, and operator location must never be copied to the event.",
+    "youtube_channel_id": "UCcEWv_J2SEU8XO2tEm4Phgw",
+    "youtube_uploads_playlist_id": "UUcEWv_J2SEU8XO2tEm4Phgw"
+  }
+]
