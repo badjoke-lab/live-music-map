@@ -19,7 +19,14 @@ const selected = sourceIds.map((id) => {
 });
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const retryDelaysMs = [0, 5_000, 10_000, 20_000, 30_000];
+const retryDelaysMs = [0, 10_000];
+const hubUrl = 'https://pubsubhubbub.appspot.com/subscribe';
+
+function compactResponseBody(text) {
+  const compact = String(text || '').replace(/\s+/g, ' ').trim();
+  if (!compact) return '(empty)';
+  return compact.length <= 500 ? compact : `${compact.slice(0, 500)}…`;
+}
 
 async function requestSubscription(source) {
   const body = new URLSearchParams({
@@ -35,36 +42,49 @@ async function requestSubscription(source) {
     if (retryDelaysMs[attempt] > 0) await sleep(retryDelaysMs[attempt]);
 
     try {
-      const response = await fetch('https://pubsubhubbub.appspot.com/subscribe', {
+      const response = await fetch(hubUrl, {
         method: 'POST',
         headers: { 'content-type': 'application/x-www-form-urlencoded' },
         body,
         signal: AbortSignal.timeout(30_000)
       });
+      const responseBody = compactResponseBody(await response.text());
 
       if (response.ok) {
-        console.log(`WebSub subscription requested: ${source.id} ${source.youtube_channel_id} (attempt ${attempt + 1})`);
-        return;
+        console.log(`WebSub subscription accepted: ${source.id} ${source.youtube_channel_id} HTTP ${response.status} (attempt ${attempt + 1}) body=${responseBody}`);
+        return { sourceId: source.id, ok: true, status: response.status };
       }
 
       const retryable = response.status === 408 || response.status === 429 || response.status >= 500;
-      lastError = new Error(`[${source.id}] hub subscription request failed: ${response.status} ${response.statusText}`);
-      if (!retryable) throw lastError;
+      lastError = new Error(`[${source.id}] hub subscription failed: HTTP ${response.status} ${response.statusText}; body=${responseBody}`);
+      if (!retryable || attempt === retryDelaysMs.length - 1) break;
 
       console.warn(`${lastError.message}; retrying (${attempt + 1}/${retryDelaysMs.length})`);
     } catch (error) {
-      if (error === lastError) throw error;
       lastError = error;
       if (attempt === retryDelaysMs.length - 1) break;
       console.warn(`[${source.id}] hub subscription request error: ${error.message}; retrying (${attempt + 1}/${retryDelaysMs.length})`);
     }
   }
 
-  throw lastError || new Error(`[${source.id}] hub subscription request failed after retries`);
+  return {
+    sourceId: source.id,
+    ok: false,
+    error: lastError?.message || `[${source.id}] hub subscription failed after retries`
+  };
 }
 
+const results = [];
 for (const source of selected) {
-  await requestSubscription(source);
+  const result = await requestSubscription(source);
+  results.push(result);
+  if (!result.ok) console.error(result.error);
 }
 
-console.log(`WebSub prototype subscription requests accepted by hub: ${selected.length} sources.`);
+const accepted = results.filter((result) => result.ok);
+const failed = results.filter((result) => !result.ok);
+console.log(`WebSub prototype subscription summary: accepted=${accepted.length} failed=${failed.length} total=${selected.length}`);
+
+if (failed.length > 0) {
+  throw new Error(`WebSub hub rejected ${failed.length}/${selected.length} prototype subscriptions: ${failed.map((result) => result.sourceId).join(', ')}`);
+}
