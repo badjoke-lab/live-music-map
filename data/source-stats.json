@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T10:52:04.963Z",
+  "generated_at": "2026-09-04T12:31:38.603Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 137,
-    "live_now": 72,
-    "upcoming": 48,
+    "sources_total": 140,
+    "live_now": 71,
+    "upcoming": 49,
     "observed_live_streams_total": 101,
     "observed_live_streams_7d": 41,
     "observed_live_streams_30d": 55,
-    "history_records": 29
+    "history_records": 30
   },
   "by_source": {
     "hoer-berlin": {
@@ -1686,13 +1686,13 @@
         "Multi-genre"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": null,
+      "next_live_at": "2026-09-04T17:00:00.000Z",
       "observed_content_types": []
     },
     "exit-festival": {
@@ -2400,7 +2400,7 @@
         "R&B",
         "Hip-hop"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 2,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 1,
@@ -3400,6 +3400,78 @@
       "last_live_at": null,
       "next_live_at": "2026-09-12T22:00:00.000Z",
       "observed_content_types": []
+    },
+    "golden-melody-awards": {
+      "source_id": "golden-melody-awards",
+      "source_name": "Golden Melody Awards / 金曲獎",
+      "country_code": "TW",
+      "country": "Taiwan",
+      "region": "Taipei",
+      "city": "Taipei",
+      "source_type": "music_awards",
+      "source_genres": [
+        "Multi-genre",
+        "Mandopop",
+        "Taiwanese Pop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "festival-nacional-folklore-cosquin": {
+      "source_id": "festival-nacional-folklore-cosquin",
+      "source_name": "Festival Nacional de Folklore de Cosquín / Aquí Cosquín",
+      "country_code": "AR",
+      "country": "Argentina",
+      "region": "Córdoba",
+      "city": "Cosquín",
+      "source_type": "festival",
+      "source_genres": [
+        "Folk",
+        "Argentine Folklore",
+        "Latin"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "untold-festival": {
+      "source_id": "untold-festival",
+      "source_name": "UNTOLD Festival",
+      "country_code": "RO",
+      "country": "Romania",
+      "region": "Cluj",
+      "city": "Cluj-Napoca",
+      "source_type": "festival",
+      "source_genres": [
+        "Electronic",
+        "Dance",
+        "House",
+        "Techno",
+        "Pop",
+        "Hip-hop"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -3425,7 +3497,7 @@
       "GB": {
         "sources": 18,
         "live_now": 1,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 3
       },
       "AU": {
@@ -3460,7 +3532,7 @@
       },
       "KR": {
         "sources": 12,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 5,
         "observed_live_30d": 6
       },
@@ -3567,7 +3639,7 @@
         "observed_live_30d": 0
       },
       "AR": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -3589,6 +3661,18 @@
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
+      },
+      "TW": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "RO": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_type": {
@@ -3601,7 +3685,7 @@
       "radio": {
         "sources": 11,
         "live_now": 0,
-        "upcoming": 7,
+        "upcoming": 8,
         "observed_live_30d": 3
       },
       "studio_media": {
@@ -3617,7 +3701,7 @@
         "observed_live_30d": 1
       },
       "festival": {
-        "sources": 22,
+        "sources": 24,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
@@ -3696,7 +3780,7 @@
       },
       "festival_media": {
         "sources": 3,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 1
       },
@@ -3713,7 +3797,7 @@
         "observed_live_30d": 0
       },
       "music_awards": {
-        "sources": 6,
+        "sources": 7,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -3751,21 +3835,21 @@
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 48,
+        "sources": 49,
         "live_now": 14,
-        "upcoming": 33,
+        "upcoming": 34,
         "observed_live_30d": 23
       },
       "Techno": {
-        "sources": 11,
+        "sources": 12,
         "live_now": 0,
         "upcoming": 15,
         "observed_live_30d": 10
       },
       "House": {
-        "sources": 15,
+        "sources": 16,
         "live_now": 0,
-        "upcoming": 15,
+        "upcoming": 16,
         "observed_live_30d": 10
       },
       "Experimental": {
@@ -3805,15 +3889,15 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 60,
+        "sources": 61,
         "live_now": 4,
-        "upcoming": 18,
+        "upcoming": 19,
         "observed_live_30d": 10
       },
       "Hip-hop": {
-        "sources": 30,
-        "live_now": 19,
-        "upcoming": 10,
+        "sources": 31,
+        "live_now": 18,
+        "upcoming": 11,
         "observed_live_30d": 7
       },
       "Rap": {
@@ -3871,8 +3955,8 @@
         "observed_live_30d": 0
       },
       "Dance": {
-        "sources": 19,
-        "live_now": 1,
+        "sources": 20,
+        "live_now": 0,
         "upcoming": 8,
         "observed_live_30d": 6
       },
@@ -3901,8 +3985,8 @@
         "observed_live_30d": 3
       },
       "Pop": {
-        "sources": 37,
-        "live_now": 8,
+        "sources": 38,
+        "live_now": 7,
         "upcoming": 11,
         "observed_live_30d": 3
       },
@@ -3932,7 +4016,7 @@
       },
       "K-pop": {
         "sources": 11,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 2,
         "observed_live_30d": 5
       },
@@ -4027,7 +4111,7 @@
         "observed_live_30d": 0
       },
       "Folk": {
-        "sources": 4,
+        "sources": 5,
         "live_now": 2,
         "upcoming": 8,
         "observed_live_30d": 3
@@ -4065,19 +4149,19 @@
       "Grime": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "UK Garage": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Drum and Bass": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Pops": {
@@ -4160,12 +4244,12 @@
       },
       "R&B": {
         "sources": 13,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 2
       },
       "Latin": {
-        "sources": 4,
+        "sources": 5,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 2
@@ -4553,11 +4637,29 @@
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
+      },
+      "Mandopop": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Taiwanese Pop": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Argentine Folklore": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_verified_stream_content_type_30d": {
-      "live_performance": 2,
       "music_live_unspecified": 21,
+      "live_performance": 2,
       "dj_set": 11,
       "music_radio_live": 21
     }
