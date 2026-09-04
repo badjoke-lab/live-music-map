@@ -149,3 +149,23 @@ The first three remain discoverable on the map. `不明` remains in the Source l
 LIVE / Upcoming / Source-only state color remains independent from location precision marker shape.
 
 The Source-list header must show total Source count plus the four-class breakdown, and the four counts must sum to the total.
+
+## 2026-09-04 — WebSub prototype parked — supersedes WebSub-primary migration timing
+
+The 2026-09-03 RSS outage fallback decision remains valid for Atom/playlist reliability, but its instruction to move WebSub toward production during the 100–300 Source phase is superseded by this entry.
+
+Production proof run `33841446486`, job `100924409585`, demonstrated:
+
+- Cloudflare Worker deployment succeeded;
+- Worker secret injection succeeded;
+- the workers.dev callback URL resolved correctly;
+- callback challenge verification succeeded;
+- the official Google PubSubHubbub subscribe endpoint returned HTTP 503 for each of five independent prototype Sources (`hoer-berlin`, `the-lot-radio`, `dommune`, `kexp`, `boiler-room`), including retry;
+- the response body for each failure was `Transient error; please try again later`;
+- final subscription summary was `accepted=0 failed=5 total=5`.
+
+Therefore WebSub is parked and must not be treated as a production dependency or primary discovery path. The manual deploy/subscribe workflow is removed to prevent repeated known-failing runs.
+
+Production continues with Atom as opportunistic zero-quota input, bounded uploads-playlist fallback, daily playlist backstop, and bounded `videos.list` checks. Normal acquisition still must not use `search.list`.
+
+The 10,000-Source target still requires a materially cheaper event-driven or equivalent architecture, but the exact mechanism is now undecided. WebSub may only be reconsidered after a fresh bounded proof shows successful subscriptions across multiple Sources and at least one real notification through the full callback -> repository_dispatch -> targeted `videos.list` path.
