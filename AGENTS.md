@@ -128,7 +128,7 @@ Do not put a long Upcoming stack before source information.
 
 ### Theater
 
-User-facing label is `シアター`.
+User-facing label is `シアター` on desktop.
 
 Desktop contract:
 
@@ -138,18 +138,24 @@ Desktop contract:
 - the floating window is resizable;
 - keep the window recoverable on-screen rather than allowing it to be lost completely outside the viewport;
 - closing clears the iframe `src`;
-- Escape closes the theater.
+- Escape closes the theater;
+- do not replace the center/map pane with the theater;
+- do not constrain the theater to the center/map region only;
+- do not make a browser-wide video-only takeover.
 
 Mobile contract:
 
-- keep a responsive floating presentation;
-- desktop-style free resize is not required.
-
-Do not replace the center/map pane with the theater.
-
-Do not constrain the theater to the center/map region only.
-
-Do not make a browser-wide video-only takeover.
+- map discovery is the primary surface;
+- do not auto-open a Source detail on initial mobile map load;
+- selecting a Source opens a map-overlay bottom sheet with peek and expanded states;
+- the peek state carries the Source identity plus immediate LIVE/Upcoming state and primary actions, while the expanded state carries full detail;
+- LIVE playback is opt-in from the sheet and opens a dedicated mobile playback view;
+- do not keep a persistent iframe embedded in the mobile detail sheet;
+- mobile playback provides a clear return-to-map control and an external-platform action;
+- closing mobile playback clears the iframe `src` and preserves the selected map context;
+- Upcoming has no playback action until it is LIVE;
+- desktop-style drag/resize is not required on mobile;
+- the dedicated mobile playback view may temporarily cover the app viewport. This is a mobile-only interaction and does not change the desktop no-takeover rule.
 
 ### Cluster semantics
 
