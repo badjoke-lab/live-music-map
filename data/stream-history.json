@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:FaFEARUHb9E",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "seoul-community-radio",
+    "youtube_video_id": "FaFEARUHb9E",
+    "youtube_url": "https://www.youtube.com/watch?v=FaFEARUHb9E",
+    "title": "Phase Pattern l SCR In-Studio Live l SCR",
+    "status": "ended",
+    "published_at": "2026-08-30T08:47:22Z",
+    "scheduled_start": "2026-09-04T15:00:00Z",
+    "actual_start": "2026-09-04T15:07:56Z",
+    "actual_end": null,
+    "concurrent_viewers": 6,
+    "thumbnail": "https://i.ytimg.com/vi/FaFEARUHb9E/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "in-studio live"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-04T16:38:03.782Z",
+    "history_archived_at": "2026-09-04T16:38:03.782Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:RaGOmatDCZQ",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
