@@ -1,23 +1,19 @@
 # YouTube WebSub Prototype
 
-Status: implementation-ready prototype, not yet the production primary discovery path
+Status: parked after upstream subscription failure; not a production discovery path
 Last updated: 2026-09-04
 
-## Purpose
+## Decision
 
-Reduce dependence on 15-minute polling and playlist backstops by receiving YouTube channel upload/update notifications through the official PubSubHubbub/WebSub path.
+Do not promote YouTube WebSub / PubSubHubbub to the production primary discovery path at this time.
 
-The official YouTube topic URL for a channel is:
+The prototype implementation itself reached a working deployed callback, but the official Google hub did not accept subscriptions in production proof runs.
 
-`https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID`
+The production acquisition path remains Atom where available plus bounded uploads-playlist fallback, daily playlist backstop, and targeted/batched `videos.list` checks. Normal acquisition still does not use `search.list`.
 
-The Google hub is:
+## Production proof result
 
-`https://pubsubhubbub.appspot.com/subscribe`
-
-## Controlled prototype scope
-
-Initial Sources:
+Controlled prototype Sources:
 
 - `hoer-berlin`
 - `the-lot-radio`
@@ -25,30 +21,50 @@ Initial Sources:
 - `kexp`
 - `boiler-room`
 
-The Worker allowlist is intentionally limited to these five canonical channel IDs. Unknown channels fail closed.
+Final proof run:
 
-## Data path
+- GitHub Actions run: `33841446486`
+- job: `100924409585`
+- Worker deploy: success
+- Worker secret injection: success
+- workers.dev callback resolution: success
+- callback challenge smoke test: success
+- subscription requests: failed for all five Sources
+- hub result: HTTP 503 for every Source, including retry
+- hub response body: `Transient error; please try again later`
+- summary: `accepted=0 failed=5 total=5`
 
-`YouTube hub -> Cloudflare Worker callback -> GitHub repository_dispatch -> targeted videos.list -> data/streams.json -> history/stats -> main -> GitHub Pages`
+This demonstrates that the local Worker/callback path was not the blocking component. The unresolved blocker is the upstream subscription endpoint behavior observed in the production proof.
 
-A notification carries `yt:videoId` and `yt:channelId`. The GitHub workflow processes only the notified video ID with `videos.list`; it does not perform a 130-Source discovery sweep.
+## Deployed prototype components
 
-## Worker
-
-Files:
+Repository files retained for evidence and possible future re-evaluation:
 
 - `websub/worker.mjs`
 - `websub/wrangler.toml`
+- `scripts/websub-subscribe.mjs`
+- `scripts/process-websub-video.mjs`
+- `.github/workflows/websub-notification.yml`
+- `.github/workflows/websub-prototype-check.yml`
+
+The manual deployment/subscription workflow is removed while the prototype is parked so operators are not encouraged to repeat a known-failing subscription procedure.
+
+The previously deployed Worker may remain externally until it is deliberately removed from Cloudflare. Its existence does not make WebSub an active production acquisition path.
+
+## Prototype design retained for reference
+
+The intended data path was:
+
+`YouTube hub -> Cloudflare Worker callback -> GitHub repository_dispatch -> targeted videos.list -> data/streams.json -> history/stats -> main -> GitHub Pages`
+
+A valid notification would carry `yt:videoId` and `yt:channelId`. The GitHub workflow is designed to process only the notified video ID with `videos.list`, without performing a global Source discovery sweep.
 
 Callback path defaults to `/youtube`.
 
-Required Worker secret:
+Worker secrets used by the prototype:
 
-- `GITHUB_DISPATCH_TOKEN` — fine-grained token able to call repository dispatch for this repository.
-
-Required signature secret:
-
-- `WEBSUB_SECRET` — sent as `hub.secret` when subscribing and used to verify `X-Hub-Signature` on incoming notifications.
+- `GITHUB_DISPATCH_TOKEN`
+- `WEBSUB_SECRET`
 
 Public configuration:
 
@@ -58,51 +74,27 @@ Public configuration:
 
 Do not commit secret values.
 
-## GitHub-driven deployment
-
-`.github/workflows/deploy-websub-worker.yml` is the supported deployment path. It deploys the Worker, installs Worker secrets, resolves the account workers.dev subdomain, smoke-tests the callback challenge endpoint, and requests subscriptions for all five prototype Sources.
-
-Configure these repository Actions secrets once:
-
-- `CLOUDFLARE_API_TOKEN` — Cloudflare API token scoped to this account with Workers Scripts Write permission.
-- `CLOUDFLARE_ACCOUNT_ID` — the Cloudflare account ID.
-- `WEBSUB_GITHUB_DISPATCH_TOKEN` — fine-grained GitHub token for `badjoke-lab/live-music-map` able to create repository dispatch events.
-- `WEBSUB_SECRET` — a separate high-entropy random secret for WebSub HMAC verification; do not reuse either API token.
-
-Then run `Deploy WebSub Worker prototype` with `workflow_dispatch`.
-
-The workflow intentionally does not run on every push because a code merge must not silently create or rotate external Cloudflare state. A successful run records the concrete workers.dev callback URL in the Actions job summary.
-
-## Subscription
-
-The deploy workflow requests subscriptions automatically. For a manual re-subscribe, use:
-
-`WEBSUB_CALLBACK_URL=https://.../youtube WEBSUB_SECRET=... node scripts/websub-subscribe.mjs`
-
-The callback must answer the hub verification GET request by returning `hub.challenge`. A subscription is not considered proven until that verification and at least one real notification have been observed.
-
-## GitHub processing
-
-`.github/workflows/websub-notification.yml` listens for repository-dispatch event type `youtube_websub`.
-
-It validates the channel/video IDs, snapshots history, calls `scripts/process-websub-video.mjs`, rebuilds history/stats, and commits only when data changed. The existing Pages workflow deploys the resulting main push.
-
-## Source onboarding change
+## Source onboarding rule remains active
 
 `scripts/apply-source-batch.mjs` must not call YouTube `search.list`.
 
 Channel resolution is limited to canonical channel IDs plus low-cost `channels.list` handle/username resolution. If a custom URL cannot resolve through those methods, onboarding fails and the canonical channel ID must be pinned explicitly.
 
-New Sources are not separately live-seeded during onboarding. The normal Atom/playlist/videos.list refresh handles discovery immediately after a batch is applied.
+New Sources are not separately live-seeded during onboarding. Normal production acquisition handles discovery after a batch is applied.
 
-## Prototype exit proof
+## Re-evaluation gate
 
-Do not call the WebSub prototype complete until all are true:
+Do not reactivate this prototype merely because time has passed.
 
-1. Worker is deployed at a stable HTTPS callback URL.
-2. Hub verification succeeds for all five Sources.
-3. At least one real YouTube notification reaches the Worker.
-4. The notification produces a GitHub `youtube_websub` repository-dispatch run.
-5. That run uses one targeted `videos.list` request for the notified video.
-6. Any resulting stream/history/stat change is committed and Pages deployment succeeds.
-7. Lease/renewal behavior is measured from the actual verification response rather than guessed.
+A future re-evaluation must begin with a fresh, bounded proof against the official hub. WebSub may be reconsidered only if all of the following are demonstrated again with real production traffic:
+
+1. stable HTTPS callback is deployed;
+2. the official hub accepts subscriptions for multiple independent Sources;
+3. verification succeeds for those Sources;
+4. at least one real YouTube notification reaches the Worker;
+5. the notification produces a GitHub `youtube_websub` repository-dispatch run;
+6. the run uses one targeted `videos.list` request for the notified video;
+7. any resulting stream/history/stat change is committed and Pages deployment succeeds;
+8. lease/renewal behavior is measured from actual hub responses.
+
+Until those gates are met, WebSub is an archived prototype, not an operational dependency.
