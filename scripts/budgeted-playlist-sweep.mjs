@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
 
+// The per-run playlist budget is deliberately fixed and measured in production before it is raised.
 const API_KEY = process.env.YOUTUBE_API_KEY?.trim();
 const RUN_BUDGET = Math.max(1, Number.parseInt(process.env.YOUTUBE_PLAYLIST_SWEEP_BUDGET || '40', 10) || 40);
 const CADENCE_MINUTES = 15;
