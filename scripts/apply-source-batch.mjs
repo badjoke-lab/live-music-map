@@ -51,11 +51,14 @@ async function resolveChannel(source) {
     return { id: ref.value, canonicalizeUrl: false };
   }
 
-  const lookups = ref.kind === 'handle'
-    ? [{ forHandle: ref.value }]
-    : ref.kind === 'username'
-      ? [{ forUsername: ref.value }]
-      : [{ forUsername: ref.value }, { forHandle: ref.value }];
+  // YouTube bare paths such as /88rising are ambiguous: historically they may
+  // resemble legacy usernames, while modern branded paths can map to handles.
+  // Never let a bare path silently fall through to forUsername; only an explicit
+  // /user/... URL is allowed to use that legacy lookup. If forHandle cannot
+  // resolve a bare path, onboarding must pin youtube_channel_id explicitly.
+  const lookups = ref.kind === 'username'
+    ? [{ forUsername: ref.value }]
+    : [{ forHandle: ref.value }];
 
   for (const lookup of lookups) {
     const result = await api('channels', { part: 'id', maxResults: 1, ...lookup });
