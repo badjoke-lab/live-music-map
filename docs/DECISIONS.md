@@ -169,3 +169,23 @@ Therefore WebSub is parked and must not be treated as a production dependency or
 Production continues with Atom as opportunistic zero-quota input, bounded uploads-playlist fallback, daily playlist backstop, and bounded `videos.list` checks. Normal acquisition still must not use `search.list`.
 
 The 10,000-Source target still requires a materially cheaper event-driven or equivalent architecture, but the exact mechanism is now undecided. WebSub may only be reconsidered after a fresh bounded proof shows successful subscriptions across multiple Sources and at least one real notification through the full callback -> repository_dispatch -> targeted `videos.list` path.
+
+## 2026-09-04 — Rolling playlist sweep — supersedes the 6-hour RSS-failure fallback
+
+The bounded RSS-failure fallback above is too sparse for the current product. With 24 fixed 15-minute cohorts and a six-hour success cooldown, a Source can go roughly six hours between uploads-playlist checks while Atom is globally failing. That is an unacceptable discovery gap at the current ~130-Source scale and can miss short live streams.
+
+Production scheduled acquisition therefore changes to a quota-budgeted rolling uploads-playlist sweep:
+
+- every normal 15-minute scheduled refresh still attempts Atom as a free opportunistic input;
+- independently of Atom health, the sweep selects up to 40 enabled Sources with the oldest `last_checked_at` timestamps;
+- each selected Source reads the latest 50 uploads using one `playlistItems.list` call;
+- candidate IDs are checked with batched `videos.list` requests of up to 50 IDs;
+- only active live/upcoming candidates go through the existing deterministic targeted stream processor;
+- already observed non-live candidates are remembered so they are not repeatedly billed;
+- known active/upcoming streams continue to be rechecked every normal refresh;
+- the daily full uploads-playlist backstop remains;
+- `search.list` remains prohibited for normal acquisition.
+
+At 130 Sources and a budget of 40 playlist calls per 15-minute run, the projected worst-case full sweep interval is at most 60 minutes. The rolling playlist path has a fixed baseline ceiling of 3,840 playlist quota units/day (`40 * 96`) before candidate detail calls, instead of attempting all Sources every 15 minutes.
+
+The sweep budget is explicit and must be changed only from measured quota/runtime data. This is the production correction after WebSub failed its five-Source proof; WebSub remains parked and is not a prerequisite for source growth to 300.
