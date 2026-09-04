@@ -25,7 +25,7 @@
       {"kind": "official_site", "url": "https://www.lostlandsfestival.com/", "supports": ["identity", "source_location"]},
       {"kind": "official_schedule", "url": "https://www.lostlandsfestival.com/lineup/", "supports": ["schedule_pattern"]},
       {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCNkEZxxZeRd6VXMnQV8EX0g", "supports": ["official_channel", "music_live_capability"]},
-      {"kind": "official_youtube_livestream", "url": "https://www.youtube.com/watch?v=f5PpoR91zqw", "supports": ["music_live_capability"]}
+      {"kind": "other_official", "url": "https://www.youtube.com/watch?v=f5PpoR91zqw", "supports": ["music_live_capability"]}
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "Lost Lands is an annual bass-music festival at Legend Valley in Thornville, Ohio. The official channel has carried Couch Lands festival livestreams and 2026 Couch Lands Rewind programming. Source-level genres reflect the festival's bass-focused programming; individual sets may differ.",
@@ -42,7 +42,7 @@
     "country_code": "CA",
     "region": null,
     "city": null,
-    "location": {"lat": 56.1304, "lon": -106.3468, "precision": "country_confirmed", "role": "operator_base", "label": "Canada"},
+    "location": {"lat": 56.1304, "lon": -106.3468, "precision": "country_only", "role": "operator_base", "label": "Canada"},
     "genres": ["Electronic", "Future Bass", "Chillstep", "Ambient", "Lofi", "Melodic Electronic"],
     "formats": ["music_radio_live", "continuous_stream"],
     "languages": ["English"],
@@ -73,7 +73,7 @@
     "country_code": "US",
     "region": null,
     "city": null,
-    "location": {"lat": 39.8283, "lon": -98.5795, "precision": "country_confirmed", "role": "operator_base", "label": "United States"},
+    "location": {"lat": 39.8283, "lon": -98.5795, "precision": "country_only", "role": "operator_base", "label": "United States"},
     "genres": ["Dancehall", "Electronic", "EDM", "Reggae Fusion", "Hip-hop"],
     "formats": ["music_radio_live", "continuous_stream"],
     "languages": ["English"],
@@ -88,7 +88,7 @@
     "evidence": [
       {"kind": "official_site", "url": "https://majorlazer.com/", "supports": ["identity"]},
       {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCMJ5Qf3sOvQpcYiai1Noa3Q", "supports": ["official_channel", "music_live_capability"]},
-      {"kind": "official_youtube_livestream", "url": "https://www.youtube.com/watch?v=MqzSIhT4TNs", "supports": ["music_live_capability", "schedule_pattern"]}
+      {"kind": "other_official", "url": "https://www.youtube.com/watch?v=MqzSIhT4TNs", "supports": ["music_live_capability", "schedule_pattern"]}
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "Major Lazer's Official Artist Channel carries an official 'Major Lazer 24/7' continuous music stream. Location is kept at country level because the stream is artist-based rather than tied to a fixed venue.",
