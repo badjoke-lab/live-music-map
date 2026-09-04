@@ -189,3 +189,21 @@ Production scheduled acquisition therefore changes to a quota-budgeted rolling u
 At 130 Sources and a budget of 40 playlist calls per 15-minute run, the projected worst-case full sweep interval is at most 60 minutes. The rolling playlist path has a fixed baseline ceiling of 3,840 playlist quota units/day (`40 * 96`) before candidate detail calls, instead of attempting all Sources every 15 minutes.
 
 The sweep budget is explicit and must be changed only from measured quota/runtime data. This is the production correction after WebSub failed its five-Source proof; WebSub remains parked and is not a prerequisite for source growth to 300.
+
+## 2026-09-05 — Mobile map-first selection and playback — supersedes the mobile portion of the Theater interaction correction
+
+The desktop theater contract remains unchanged: `シアター` stays a floating page-level player that is draggable/resizable and preserves the normal desktop map/list/detail context.
+
+Mobile intentionally diverges from that desktop presentation:
+
+- map discovery is the primary surface, so the top controls must stay compact and the map takes the remaining viewport;
+- the mobile state filters are one horizontally scrollable row with counts for `すべて`, `LIVE`, `Upcoming`, and `ソースのみ`; do not add a second redundant aggregate row;
+- timezone remains available but is a compact secondary control rather than a large primary block;
+- no Source detail is auto-opened on initial mobile load;
+- selecting a map Source opens a bottom sheet in a compact peek state; the same sheet can expand for the complete Source/LIVE/Upcoming detail and can collapse or close without leaving the map;
+- when the bottom sheet appears, map positioning may compensate so the selected marker remains visible above the sheet;
+- mobile detail must not keep a persistent embedded player that consumes map space;
+- a verified LIVE stream exposes an explicit `再生` action and an external-platform action;
+- `再生` opens a dedicated mobile playback view above the exploration UI, with a clear `地図へ戻る` action; closing playback clears the iframe source and restores the selected map context;
+- Upcoming has no playback action before it becomes LIVE; it may expose detail and its external stream page;
+- the dedicated mobile playback view may temporarily cover the app viewport. This supersedes the earlier statement that mobile should merely keep a responsive floating version of the desktop theater.
