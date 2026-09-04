@@ -8919,7 +8919,7 @@
     ],
     "official_site": "https://88rising.com/",
     "schedule_url": "https://hitcfestival.com/",
-    "youtube_url": "https://www.youtube.com/88rising",
+    "youtube_url": "https://www.youtube.com/@88rising",
     "status": "event_based",
     "schedule_pattern": "event_based",
     "lifecycle_status": "active",
@@ -8956,7 +8956,7 @@
       },
       {
         "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/88rising",
+        "url": "https://www.youtube.com/@88rising",
         "supports": [
           "official_channel",
           "music_live_capability"
@@ -8969,8 +8969,8 @@
       "priority": "high"
     },
     "note": "Asian-focused global music media and Head In The Clouds festival operator; non-live music videos fail closed.",
-    "youtube_channel_id": "UCAO4bfnfxh5OIZGyOaoOYew",
-    "youtube_uploads_playlist_id": "UUAO4bfnfxh5OIZGyOaoOYew"
+    "youtube_channel_id": "UCZW5lIUz93q_aZIkJPAC0IQ",
+    "youtube_uploads_playlist_id": "UUZW5lIUz93q_aZIkJPAC0IQ"
   },
   {
     "schema_version": 2,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T06:20:44.167Z",
+  "generated_at": "2026-09-04T06:28:32.145Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -8,7 +8,7 @@
   "summary": {
     "sources_total": 130,
     "live_now": 70,
-    "upcoming": 45,
+    "upcoming": 47,
     "observed_live_streams_total": 97,
     "observed_live_streams_7d": 37,
     "observed_live_streams_30d": 51,
@@ -2448,7 +2448,7 @@
         "Acoustic"
       ],
       "live_now": 0,
-      "upcoming_count": 1,
+      "upcoming_count": 2,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
@@ -2686,7 +2686,7 @@
         "Electronic"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
@@ -3227,13 +3227,13 @@
       "DE": {
         "sources": 8,
         "live_now": 6,
-        "upcoming": 11,
+        "upcoming": 12,
         "observed_live_30d": 10
       },
       "US": {
         "sources": 30,
         "live_now": 14,
-        "upcoming": 10,
+        "upcoming": 11,
         "observed_live_30d": 17
       },
       "JP": {
@@ -3409,7 +3409,7 @@
       "festival": {
         "sources": 16,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "promoter": {
@@ -3451,7 +3451,7 @@
       "artist_media": {
         "sources": 3,
         "live_now": 2,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "performing_arts_center": {
@@ -3537,19 +3537,19 @@
       "Electronic": {
         "sources": 44,
         "live_now": 14,
-        "upcoming": 32,
+        "upcoming": 33,
         "observed_live_30d": 23
       },
       "Techno": {
         "sources": 10,
         "live_now": 0,
-        "upcoming": 14,
+        "upcoming": 15,
         "observed_live_30d": 10
       },
       "House": {
         "sources": 14,
         "live_now": 0,
-        "upcoming": 14,
+        "upcoming": 15,
         "observed_live_30d": 10
       },
       "Experimental": {
@@ -3777,7 +3777,7 @@
       "Acoustic": {
         "sources": 6,
         "live_now": 6,
-        "upcoming": 2,
+        "upcoming": 3,
         "observed_live_30d": 1
       },
       "Ambient": {
@@ -4041,19 +4041,19 @@
       "Maritime Folk": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Sea Shanty": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Traditional Folk": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Singer-songwriter": {

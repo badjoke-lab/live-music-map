@@ -24,7 +24,7 @@
       "projected_max_full_sweep_minutes": 60,
       "playlist_404_repair": "channels.contentDetails_then_single_retry",
       "playlist_calls_last_run": 40,
-      "channel_repair_calls_last_run": 1,
+      "channel_repair_calls_last_run": 0,
       "repaired_playlists_last_run": 0
     }
   }
