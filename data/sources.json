@@ -10279,5 +10279,688 @@
     "note": "Mezzrow is a separate SmallsLIVE venue and YouTube channel, streaming its nightly jazz performances live.",
     "youtube_channel_id": "UCiVMkTWyuIZmw_RIRDBCckA",
     "youtube_uploads_playlist_id": "UUiVMkTWyuIZmw_RIRDBCckA"
+  },
+  {
+    "schema_version": 2,
+    "id": "wish-1075",
+    "name": "Wish 107.5",
+    "operator_name": "Breakthrough and Milestones Productions International",
+    "type": "radio_media",
+    "country": "Philippines",
+    "country_code": "PH",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "Philippines"
+    },
+    "genres": [
+      "OPM",
+      "Pop",
+      "R&B",
+      "Hip-hop",
+      "Rock",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_radio_live",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Filipino"
+    ],
+    "official_site": "https://www.wish1075.com/",
+    "schedule_url": "https://www.wish1075.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCdfq8-581QVUtVsa8ChVnDQ",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "wish 107.5",
+        "wish bus",
+        "live",
+        "wishclusive",
+        "wish awards"
+      ],
+      "deny_title_patterns": [
+        "interview only",
+        "news"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.wish1075.com/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCdfq8-581QVUtVsa8ChVnDQ",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Wish Bus and radio music source.",
+    "youtube_channel_id": "UCdfq8-581QVUtVsa8ChVnDQ",
+    "youtube_uploads_playlist_id": "UUdfq8-581QVUtVsa8ChVnDQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "java-jazz-festival",
+    "name": "JavaJazzFest",
+    "operator_name": "Java Festival Production",
+    "type": "festival",
+    "country": "Indonesia",
+    "country_code": "ID",
+    "region": "Jakarta",
+    "city": "Jakarta",
+    "location": {
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Jakarta, Indonesia"
+    },
+    "genres": [
+      "Jazz",
+      "R&B",
+      "Soul",
+      "Funk",
+      "Pop",
+      "Indonesian",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "Indonesian",
+      "English"
+    ],
+    "official_site": "https://www.javajazzfestival.com/",
+    "schedule_url": "https://www.javajazzfestival.com/livestreaming",
+    "youtube_url": "https://www.youtube.com/@JavaJazzFest",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "java jazz",
+        "live",
+        "festival"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "press conference"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.javajazzfestival.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.javajazzfestival.com/livestreaming",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@JavaJazzFest",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Jakarta festival source; individual stream venue can override the festival home location.",
+    "youtube_channel_id": "UCGW-Pf2Tzy4lnbVc1HW_m3A",
+    "youtube_uploads_playlist_id": "UUGW-Pf2Tzy4lnbVc1HW_m3A"
+  },
+  {
+    "schema_version": 2,
+    "id": "south-african-music-awards",
+    "name": "South African Music Awards",
+    "operator_name": "Recording Industry of South Africa",
+    "type": "music_awards",
+    "country": "South Africa",
+    "country_code": "ZA",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "South Africa"
+    },
+    "genres": [
+      "Amapiano",
+      "Afropop",
+      "Hip-hop",
+      "Gospel",
+      "Rock",
+      "Afrikaans",
+      "Traditional",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards_live",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://samusicawards.co.za/",
+    "schedule_url": "https://samusicawards.co.za/",
+    "youtube_url": "https://www.youtube.com/channel/UCo8wrl7jdEiCg78Jjq6rYyA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "SAMA",
+        "South African Music Awards",
+        "live broadcast",
+        "livestream",
+        "performance"
+      ],
+      "deny_title_patterns": [
+        "nominee announcement only",
+        "interview only"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://samusicawards.co.za/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCo8wrl7jdEiCg78Jjq6rYyA",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.sabc.co.za/sabc/sama29-unveils-star-studded-lineup-of-presenters-and-performers-as-sabc1-carries-out-the-live-broadcast/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Annual South African awards source with official live-broadcast history.",
+    "youtube_channel_id": "UCo8wrl7jdEiCg78Jjq6rYyA",
+    "youtube_uploads_playlist_id": "UUo8wrl7jdEiCg78Jjq6rYyA"
+  },
+  {
+    "schema_version": 2,
+    "id": "brit-awards",
+    "name": "The BRIT Awards",
+    "operator_name": "British Phonographic Industry",
+    "type": "music_awards",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "United Kingdom"
+    },
+    "genres": [
+      "Pop",
+      "Rock",
+      "R&B",
+      "Hip-hop",
+      "Alternative",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards_live",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.brits.co.uk/",
+    "schedule_url": "https://www.brits.co.uk/news/2026/how-to-watch-brits-2026",
+    "youtube_url": "https://www.youtube.com/@BRITs",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "BRIT Awards",
+        "BRITs",
+        "live",
+        "performance"
+      ],
+      "deny_title_patterns": [
+        "acceptance speech only",
+        "interview only",
+        "red carpet only"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.brits.co.uk/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.brits.co.uk/news/2026/how-to-watch-brits-2026",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@BRITs",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "International viewers received the full 2026 ceremony live on the BRITs YouTube channel.",
+    "youtube_channel_id": "UCxrnpUor0IuXwxMiV7Fx_Cw",
+    "youtube_uploads_playlist_id": "UUxrnpUor0IuXwxMiV7Fx_Cw"
+  },
+  {
+    "schema_version": 2,
+    "id": "kral-muzik",
+    "name": "Kral Müzik",
+    "operator_name": "Kral Müzik",
+    "type": "music_tv",
+    "country": "Turkey",
+    "country_code": "TR",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "Turkey"
+    },
+    "genres": [
+      "Turkish Pop",
+      "Arabesk",
+      "Acoustic",
+      "Pop"
+    ],
+    "formats": [
+      "music_tv_live",
+      "music_radio_live",
+      "live_performance"
+    ],
+    "languages": [
+      "Turkish"
+    ],
+    "official_site": "https://www.kralmuzik.com.tr/",
+    "schedule_url": "https://www.kralmuzik.com.tr/tv/",
+    "youtube_url": "https://www.youtube.com/@kralmuzik",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "canlı",
+        "Kral Pop TV",
+        "Kral FM",
+        "live",
+        "akustik"
+      ],
+      "deny_title_patterns": [
+        "interview only",
+        "magazin only"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kralmuzik.com.tr/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.kralmuzik.com.tr/tv/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@kralmuzik",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Turkish music TV/radio source with continuous live programming and live performances.",
+    "youtube_channel_id": "UCEAW_kmPVjxTC50vuLyKOQA",
+    "youtube_uploads_playlist_id": "UUEAW_kmPVjxTC50vuLyKOQA"
+  },
+  {
+    "schema_version": 2,
+    "id": "lofi-fruits",
+    "name": "Lofi Fruits",
+    "operator_name": "Fruits Music B.V.",
+    "type": "label_media",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "Netherlands"
+    },
+    "genres": [
+      "Lo-fi",
+      "Chill",
+      "Jazz",
+      "Ambient"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://fruitsmusic.com/",
+    "schedule_url": "https://www.youtube.com/@lofifruits",
+    "youtube_url": "https://www.youtube.com/@lofifruits",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "24/7",
+        "lofi",
+        "radio",
+        "live"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://fruitsmusic.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@lofifruits",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official 24/7 Lofi Fruits radio source.",
+    "youtube_channel_id": "UCnV2UaGCuZzepjpQNVGXHAA",
+    "youtube_uploads_playlist_id": "UUnV2UaGCuZzepjpQNVGXHAA"
+  },
+  {
+    "schema_version": 2,
+    "id": "chill-music-lab",
+    "name": "Chill Music Lab",
+    "operator_name": "Chill Music Lab",
+    "type": "independent_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "United States"
+    },
+    "genres": [
+      "Electronic",
+      "Ambient",
+      "Focus",
+      "Chill"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.chillmusiclab.com/",
+    "schedule_url": "https://www.youtube.com/channel/UCwVQIkAtyZzQSA-OY1rsGig",
+    "youtube_url": "https://www.youtube.com/channel/UCwVQIkAtyZzQSA-OY1rsGig",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "24/7",
+        "focus",
+        "live",
+        "music lab"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.chillmusiclab.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCwVQIkAtyZzQSA-OY1rsGig",
+        "supports": [
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Continuous focus/electronic music streams.",
+    "youtube_channel_id": "UCwVQIkAtyZzQSA-OY1rsGig",
+    "youtube_uploads_playlist_id": "UUwVQIkAtyZzQSA-OY1rsGig"
+  },
+  {
+    "schema_version": 2,
+    "id": "the-good-life-radio",
+    "name": "The Good Life Radio x Sensual Musique",
+    "operator_name": "Sensual Musique",
+    "type": "independent_media",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "Germany"
+    },
+    "genres": [
+      "Deep House",
+      "Tropical House",
+      "Chill House",
+      "EDM",
+      "Pop"
+    ],
+    "formats": [
+      "music_radio_live"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.youtube.com/channel/UChs0pSaEoNLV4mevBFGaoKA",
+    "schedule_url": "https://www.youtube.com/channel/UChs0pSaEoNLV4mevBFGaoKA",
+    "youtube_url": "https://www.youtube.com/channel/UChs0pSaEoNLV4mevBFGaoKA",
+    "status": "continuous",
+    "schedule_pattern": "continuous",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "24/7",
+        "live radio",
+        "chill",
+        "deep house"
+      ],
+      "deny_title_patterns": [],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UChs0pSaEoNLV4mevBFGaoKA",
+        "supports": [
+          "identity",
+          "official_channel",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Continuous chill/deep-house radio source.",
+    "youtube_channel_id": "UChs0pSaEoNLV4mevBFGaoKA",
+    "youtube_uploads_playlist_id": "UUhs0pSaEoNLV4mevBFGaoKA"
   }
 ]
