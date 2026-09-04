@@ -1,0 +1,9 @@
+name = "live-music-map-websub-prototype"
+main = "worker.mjs"
+compatibility_date = "2026-09-04"
+workers_dev = true
+
+[vars]
+GITHUB_REPOSITORY = "badjoke-lab/live-music-map"
+CALLBACK_PATH = "/youtube"
+PROTOTYPE_CHANNEL_IDS = "UCmfF7JZv26UUKyRedViGIlw,UCJOtExbMu0RqIdiE4nMUPxQ,UC06WalpLcwTx-0ZVgglMc5Q,UC3I2GFN_F8WudD_2jUZbojA,UCGBpxWJr9FNOcFYA5GkKrMg"
