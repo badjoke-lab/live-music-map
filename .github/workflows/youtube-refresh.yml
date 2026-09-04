@@ -141,7 +141,7 @@ jobs:
         if: steps.mode.outputs.value == 'rss'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_PLAYLIST_SWEEP_BUDGET: '40'
+          YOUTUBE_PLAYLIST_SWEEP_BUDGET: '75'
         run: node scripts/budgeted-playlist-sweep.mjs
       - name: Enforce stream channel identity
         env:
