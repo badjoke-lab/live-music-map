@@ -10,6 +10,7 @@ on:
       - 'scripts/correct-title-classification.mjs'
       - 'scripts/update-history-stats.mjs'
       - 'scripts/validate-sources.mjs'
+      - 'scripts/repair-missing-uploads-playlists.mjs'
       - 'scripts/apply-source-batch.mjs'
       - 'scripts/apply-source-youtube-overrides.mjs'
       - 'scripts/apply-source-location-overrides.mjs'
@@ -102,6 +103,7 @@ jobs:
       - name: Check acquisition hardening scripts
         run: |
           node --check scripts/budgeted-playlist-sweep.mjs
+          node --check scripts/repair-missing-uploads-playlists.mjs
           node --check scripts/apply-source-youtube-overrides.mjs
           node --check scripts/enforce-stream-channel-identity.mjs
       - name: Select discovery mode
@@ -129,6 +131,10 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/refresh-youtube-live.mjs
+      - name: Repair missing uploads playlists after refresh
+        run: node scripts/repair-missing-uploads-playlists.mjs
+      - name: Revalidate source contract after refresh
+        run: node scripts/validate-sources.mjs
       - name: Budgeted rolling playlist discovery
         if: steps.mode.outputs.value == 'rss'
         env:
