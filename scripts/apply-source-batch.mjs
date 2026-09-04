@@ -81,7 +81,7 @@ async function findLiveProof(channelId) {
   return null;
 }
 
-async function preflightBatch({ skipExistingIds = false } = {}) {
+async function preflightBatch({ skipExistingIds = false, requireLiveProof = true } = {}) {
   const existingIds = new Set(sources.map((source) => source.id));
   const existingNames = new Map(sources.map((source) => [normalizedChannelName(source.name), source.id]));
   const existingChannels = new Map(sources.map((source) => [source.youtube_channel_id, source.id]).filter(([channelId]) => channelId));
@@ -119,8 +119,8 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
       if (batchChannels.has(resolved.id)) errors.push(`[${candidate.id}] duplicate YouTube channel ${resolved.id} inside batch; already used by ${batchChannels.get(resolved.id)}`);
       batchChannels.set(resolved.id, candidate.id);
 
-      const liveProof = await findLiveProof(resolved.id);
-      if (!liveProof) errors.push(`[${candidate.id}] no YouTube live/upcoming/completed broadcast proof found on resolved channel ${resolved.id}`);
+      const liveProof = requireLiveProof ? await findLiveProof(resolved.id) : null;
+      if (requireLiveProof && !liveProof) errors.push(`[${candidate.id}] no YouTube live/upcoming/completed broadcast proof found on resolved channel ${resolved.id}`);
       resolvedRows.push({ id: candidate.id, channelId: resolved.id, liveProof });
     } catch (error) {
       errors.push(error.message);
@@ -128,14 +128,15 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
   }
 
   for (const row of resolvedRows) {
-    console.log(`Preflight ${row.id}: channel=${row.channelId}, liveProof=${row.liveProof ? `${row.liveProof.eventType}:${row.liveProof.videoId}` : 'none'}`);
+    console.log(`Preflight ${row.id}: channel=${row.channelId}${requireLiveProof ? `, liveProof=${row.liveProof ? `${row.liveProof.eventType}:${row.liveProof.videoId}` : 'none'}` : ''}`);
   }
   if (errors.length) {
     console.error(`Source batch preflight failed with ${errors.length} error(s):`);
     for (const error of errors) console.error(`- ${error}`);
     process.exit(1);
   }
-  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${batchChannels.size} unique YouTube channels, no canonical duplicates, live-broadcast proof present for every pending candidate.`);
+  const proofNote = requireLiveProof ? ', live-broadcast proof present for every pending candidate' : '';
+  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${batchChannels.size} unique YouTube channels, no canonical duplicates${proofNote}.`);
 }
 
 if (PREFLIGHT) {
@@ -143,7 +144,7 @@ if (PREFLIGHT) {
   process.exit(0);
 }
 
-if (AUTO_PREFLIGHT) await preflightBatch({ skipExistingIds: true });
+if (AUTO_PREFLIGHT) await preflightBatch({ skipExistingIds: true, requireLiveProof: false });
 
 function thumbnail(snippet) {
   const t = snippet?.thumbnails || {};
