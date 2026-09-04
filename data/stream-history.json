@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:knD8AbE88j4",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "kbs-world-tv",
+    "youtube_video_id": "knD8AbE88j4",
+    "youtube_url": "https://www.youtube.com/watch?v=knD8AbE88j4",
+    "title": "[Music Bank 2026.09.04] NCT 127, TUIDE, DINO, and more: Let’s enjoy all together❗️",
+    "status": "ended",
+    "published_at": "2026-09-04T05:08:41Z",
+    "scheduled_start": "2026-09-04T08:15:00Z",
+    "actual_start": "2026-09-04T08:00:11Z",
+    "actual_end": null,
+    "concurrent_viewers": 3203,
+    "thumbnail": "https://i.ytimg.com/vi/knD8AbE88j4/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "live_performance",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "music bank"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-04T10:52:04.963Z",
+    "history_archived_at": "2026-09-04T10:52:04.963Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:wRuSAUenUEY",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
