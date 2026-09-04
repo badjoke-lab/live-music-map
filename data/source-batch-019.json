@@ -124,7 +124,7 @@
     ],
     "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "Jazzaldia streams selected festival concerts on its official YouTube channel and publishes current-edition concert replays. The festival home is San Sebastian; individual venue locations should override the city-level source location.",
-    "youtube_channel_id": null,
-    "youtube_uploads_playlist_id": null
+    "youtube_channel_id": "UC8-Hs7utuv_5qyTZW3JJnoA",
+    "youtube_uploads_playlist_id": "UU8-Hs7utuv_5qyTZW3JJnoA"
   }
 ]
