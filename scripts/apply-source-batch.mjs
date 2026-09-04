@@ -1,9 +1,11 @@
 import fs from 'node:fs/promises';
 
 const API_KEY = process.env.YOUTUBE_API_KEY?.trim();
-const batchArg = process.argv[2];
+const args = process.argv.slice(2);
+const PREFLIGHT = args.includes('--preflight');
+const batchArg = args.find((arg) => !arg.startsWith('--'));
 if (!API_KEY) throw new Error('YOUTUBE_API_KEY is required for source onboarding');
-if (!batchArg) throw new Error('Usage: node scripts/apply-source-batch.mjs <batch.json>');
+if (!batchArg) throw new Error('Usage: node scripts/apply-source-batch.mjs <batch.json> [--preflight]');
 
 const sourcesUrl = new URL('../data/sources.json', import.meta.url);
 const streamsUrl = new URL('../data/streams.json', import.meta.url);
@@ -64,12 +66,83 @@ async function resolveChannel(source) {
     const title = normalizedChannelName(item.snippet?.title);
     return typeof id === 'string' && /^UC[A-Za-z0-9_-]{22}$/.test(id) && title === targetName;
   });
-  if (exactMatches.length === 1) {
-    return { id: exactMatches[0].id.channelId, canonicalizeUrl: true };
-  }
+  if (exactMatches.length === 1) return { id: exactMatches[0].id.channelId, canonicalizeUrl: true };
   if (exactMatches.length > 1) throw new Error(`[${source.id}] multiple exact-name YouTube channels found; pin youtube_channel_id explicitly`);
   throw new Error(`[${source.id}] YouTube channel could not be resolved`);
 }
+
+async function findLiveProof(channelId) {
+  for (const eventType of ['live', 'upcoming', 'completed']) {
+    const result = await api('search', { part: 'id', channelId, eventType, type: 'video', maxResults: 1 });
+    const videoId = result.items?.[0]?.id?.videoId;
+    if (typeof videoId === 'string' && /^[A-Za-z0-9_-]{11}$/.test(videoId)) return { eventType, videoId };
+  }
+  return null;
+}
+
+async function preflightBatch({ skipExistingIds = false } = {}) {
+  const existingIds = new Set(sources.map((source) => source.id));
+  const existingNames = new Map(sources.map((source) => [normalizedChannelName(source.name), source.id]));
+  const existingChannels = new Map(sources.map((source) => [source.youtube_channel_id, source.id]).filter(([channelId]) => channelId));
+  const batchIds = new Set();
+  const batchChannels = new Map();
+  const errors = [];
+  const resolvedRows = [];
+
+  for (const candidate of batch) {
+    if (!candidate?.id) {
+      errors.push('Batch source is missing id');
+      continue;
+    }
+    if (existingIds.has(candidate.id)) {
+      if (skipExistingIds) {
+        console.log(`Preflight ${candidate.id}: already canonical, skipped.`);
+        continue;
+      }
+      errors.push(`[${candidate.id}] duplicate source id already in canonical`);
+      continue;
+    }
+    if (batchIds.has(candidate.id)) {
+      errors.push(`[${candidate.id}] duplicate source id inside batch`);
+      continue;
+    }
+    batchIds.add(candidate.id);
+
+    const normalizedName = normalizedChannelName(candidate.name);
+    if (existingNames.has(normalizedName)) errors.push(`[${candidate.id}] duplicate source name already used by ${existingNames.get(normalizedName)}`);
+
+    try {
+      const resolved = await resolveChannel(candidate);
+      const existingSource = existingChannels.get(resolved.id);
+      if (existingSource) errors.push(`[${candidate.id}] duplicate YouTube channel ${resolved.id}; already used by ${existingSource}`);
+      if (batchChannels.has(resolved.id)) errors.push(`[${candidate.id}] duplicate YouTube channel ${resolved.id} inside batch; already used by ${batchChannels.get(resolved.id)}`);
+      batchChannels.set(resolved.id, candidate.id);
+
+      const liveProof = await findLiveProof(resolved.id);
+      if (!liveProof) errors.push(`[${candidate.id}] no YouTube live/upcoming/completed broadcast proof found on resolved channel ${resolved.id}`);
+      resolvedRows.push({ id: candidate.id, channelId: resolved.id, liveProof });
+    } catch (error) {
+      errors.push(error.message);
+    }
+  }
+
+  for (const row of resolvedRows) {
+    console.log(`Preflight ${row.id}: channel=${row.channelId}, liveProof=${row.liveProof ? `${row.liveProof.eventType}:${row.liveProof.videoId}` : 'none'}`);
+  }
+  if (errors.length) {
+    console.error(`Source batch preflight failed with ${errors.length} error(s):`);
+    for (const error of errors) console.error(`- ${error}`);
+    process.exit(1);
+  }
+  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${batchChannels.size} unique YouTube channels, no canonical duplicates, live-broadcast proof present for every pending candidate.`);
+}
+
+if (PREFLIGHT) {
+  await preflightBatch();
+  process.exit(0);
+}
+
+await preflightBatch({ skipExistingIds: true });
 
 function thumbnail(snippet) {
   const t = snippet?.thumbnails || {};
