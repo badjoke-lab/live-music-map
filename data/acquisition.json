@@ -17,13 +17,13 @@
     "rolling_playlist_sweep": {
       "enabled": true,
       "cadence_minutes": 15,
-      "max_playlist_calls_per_run": 40,
+      "max_playlist_calls_per_run": 130,
       "recent_videos_per_source": 50,
       "selection": "oldest_checked_first",
       "source_count": 130,
-      "projected_max_full_sweep_minutes": 60,
+      "projected_max_full_sweep_minutes": 15,
       "playlist_404_repair": "channels.contentDetails_then_single_retry",
-      "playlist_calls_last_run": 40,
+      "playlist_calls_last_run": 130,
       "channel_repair_calls_last_run": 0,
       "repaired_playlists_last_run": 0
     }
