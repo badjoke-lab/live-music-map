@@ -18,7 +18,10 @@ const selected = sourceIds.map((id) => {
   return source;
 });
 
-for (const source of selected) {
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const retryDelaysMs = [0, 5_000, 10_000, 20_000, 30_000];
+
+async function requestSubscription(source) {
   const body = new URLSearchParams({
     'hub.callback': callback,
     'hub.mode': 'subscribe',
@@ -27,13 +30,41 @@ for (const source of selected) {
   });
   if (secret) body.set('hub.secret', secret);
 
-  const response = await fetch('https://pubsubhubbub.appspot.com/subscribe', {
-    method: 'POST',
-    headers: { 'content-type': 'application/x-www-form-urlencoded' },
-    body
-  });
-  if (!response.ok) throw new Error(`[${source.id}] hub subscription request failed: ${response.status} ${response.statusText}`);
-  console.log(`WebSub subscription requested: ${source.id} ${source.youtube_channel_id}`);
+  let lastError = null;
+  for (let attempt = 0; attempt < retryDelaysMs.length; attempt += 1) {
+    if (retryDelaysMs[attempt] > 0) await sleep(retryDelaysMs[attempt]);
+
+    try {
+      const response = await fetch('https://pubsubhubbub.appspot.com/subscribe', {
+        method: 'POST',
+        headers: { 'content-type': 'application/x-www-form-urlencoded' },
+        body,
+        signal: AbortSignal.timeout(30_000)
+      });
+
+      if (response.ok) {
+        console.log(`WebSub subscription requested: ${source.id} ${source.youtube_channel_id} (attempt ${attempt + 1})`);
+        return;
+      }
+
+      const retryable = response.status === 408 || response.status === 429 || response.status >= 500;
+      lastError = new Error(`[${source.id}] hub subscription request failed: ${response.status} ${response.statusText}`);
+      if (!retryable) throw lastError;
+
+      console.warn(`${lastError.message}; retrying (${attempt + 1}/${retryDelaysMs.length})`);
+    } catch (error) {
+      if (error === lastError) throw error;
+      lastError = error;
+      if (attempt === retryDelaysMs.length - 1) break;
+      console.warn(`[${source.id}] hub subscription request error: ${error.message}; retrying (${attempt + 1}/${retryDelaysMs.length})`);
+    }
+  }
+
+  throw lastError || new Error(`[${source.id}] hub subscription request failed after retries`);
+}
+
+for (const source of selected) {
+  await requestSubscription(source);
 }
 
 console.log(`WebSub prototype subscription requests accepted by hub: ${selected.length} sources.`);
