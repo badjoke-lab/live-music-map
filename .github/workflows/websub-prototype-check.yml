@@ -1,0 +1,42 @@
+name: WebSub prototype checks
+
+on:
+  push:
+    paths:
+      - 'websub/**'
+      - 'scripts/apply-source-batch.mjs'
+      - 'scripts/process-websub-video.mjs'
+      - 'scripts/test-websub-worker.mjs'
+      - 'scripts/websub-subscribe.mjs'
+      - '.github/workflows/websub-notification.yml'
+      - '.github/workflows/websub-prototype-check.yml'
+  pull_request:
+    paths:
+      - 'websub/**'
+      - 'scripts/apply-source-batch.mjs'
+      - 'scripts/process-websub-video.mjs'
+      - 'scripts/test-websub-worker.mjs'
+      - 'scripts/websub-subscribe.mjs'
+      - '.github/workflows/websub-notification.yml'
+      - '.github/workflows/websub-prototype-check.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Syntax checks
+        run: |
+          node --check scripts/apply-source-batch.mjs
+          node --check scripts/process-websub-video.mjs
+          node --check scripts/websub-subscribe.mjs
+          node --check websub/worker.mjs
+      - name: Worker request tests
+        run: node scripts/test-websub-worker.mjs
+      - name: Enforce searchless onboarding
+        run: |
+          if grep -Eq "api\(['\"]search['\"]" scripts/apply-source-batch.mjs; then
+            echo "search.list call found in source onboarding"
+            exit 1
+          fi
+          echo "Source onboarding search.list calls: 0"
