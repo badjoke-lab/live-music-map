@@ -290,13 +290,12 @@
   #detailPanel.open:not(.expanded){height:204px!important;touch-action:pan-x}
   #detailPanel .section{padding-top:42px!important}
   #detailPanel .sheet-expand{display:none!important}
-  #detailPanel .sheet-handle{display:flex!important;position:absolute!important;top:0!important;left:0!important;right:0!important;transform:none!important;width:100%!important;height:132px!important;padding:5px 0 0!important;border:0!important;border-radius:18px 18px 0 0!important;background:transparent!important;z-index:1!important;align-items:flex-start!important;justify-content:center!important;touch-action:none!important}
-  #detailPanel .sheet-handle::before{content:'';display:block;width:44px;height:5px;border-radius:999px;background:#727985;margin:3px auto 0}
-  #detailPanel .sheet-handle::after{content:'詳細を見る';position:absolute;top:15px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:700;color:#aab2bd;white-space:nowrap;letter-spacing:.02em}
-  #detailPanel.expanded .sheet-handle{height:42px!important}
+  #detailPanel .sheet-handle{display:flex!important;position:absolute!important;top:4px!important;left:50%!important;transform:translateX(-50%)!important;width:112px!important;height:34px!important;padding:0!important;border:0!important;background:transparent!important;z-index:3!important;align-items:flex-start!important;justify-content:center!important;touch-action:none!important}
+  #detailPanel .sheet-handle::before{content:'';display:block;width:44px;height:5px;border-radius:999px;background:#727985;margin-top:3px}
+  #detailPanel .sheet-handle::after{content:'詳細を見る';position:absolute;top:13px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:700;color:#aab2bd;white-space:nowrap;letter-spacing:.02em}
   #detailPanel.expanded .sheet-handle::after{content:'縮小'}
   #detailPanel .sheet-close{z-index:4!important}
-  #detailPanel .section,#detailPanel .mobile-primary-actions,#detailPanel .desktop-only-detail{position:relative;z-index:2}
+  #detailPanel .mobile-primary-actions{position:relative;z-index:4}
 }
 `;
   document.head.appendChild(style);
@@ -311,53 +310,85 @@
     const handle = originalHandle.cloneNode(true);
     originalHandle.replaceWith(handle);
 
-    let gesture = null;
-    let suppressClick = false;
+    let handleGesture = null;
+    let panelGesture = null;
+    let suppressHandleClick = false;
+    let suppressPanelClick = false;
 
-    const toggle = () => {
-      if (!panel.classList.contains('open')) return;
-      setSheet(true, !panel.classList.contains('expanded'));
-    };
+    const interactive = target => target.closest('a,button,input,select,textarea,summary');
 
     handle.addEventListener('click', event => {
-      if (suppressClick) {
-        suppressClick = false;
+      if (suppressHandleClick) {
+        suppressHandleClick = false;
         event.preventDefault();
         return;
       }
-      toggle();
+      if (!panel.classList.contains('open')) return;
+      setSheet(true, !panel.classList.contains('expanded'));
     });
 
     handle.addEventListener('pointerdown', event => {
-      gesture = { id: event.pointerId, x: event.clientX, y: event.clientY };
+      handleGesture = { id: event.pointerId, x: event.clientX, y: event.clientY };
       handle.setPointerCapture(event.pointerId);
     });
 
     handle.addEventListener('pointermove', event => {
-      if (!gesture || gesture.id !== event.pointerId) return;
-      const dx = event.clientX - gesture.x;
-      const dy = event.clientY - gesture.y;
+      if (!handleGesture || handleGesture.id !== event.pointerId) return;
+      const dx = event.clientX - handleGesture.x;
+      const dy = event.clientY - handleGesture.y;
       if (Math.abs(dy) > 8 && Math.abs(dy) > Math.abs(dx)) event.preventDefault();
     });
 
     handle.addEventListener('pointerup', event => {
-      if (!gesture || gesture.id !== event.pointerId) return;
-      const dy = event.clientY - gesture.y;
-      const dx = event.clientX - gesture.x;
-      gesture = null;
+      if (!handleGesture || handleGesture.id !== event.pointerId) return;
+      const dy = event.clientY - handleGesture.y;
+      const dx = event.clientX - handleGesture.x;
+      handleGesture = null;
       if (Math.abs(dy) <= Math.abs(dx) || Math.abs(dy) < 24) return;
-      suppressClick = true;
+      suppressHandleClick = true;
       if (dy < 0) setSheet(true, true);
       else if (panel.classList.contains('expanded')) setSheet(true, false);
       else if (dy > 48) closeSheet();
-      window.setTimeout(() => { suppressClick = false; }, 350);
+      window.setTimeout(() => { suppressHandleClick = false; }, 350);
     });
 
-    handle.addEventListener('pointercancel', () => { gesture = null; });
+    handle.addEventListener('pointercancel', () => { handleGesture = null; });
+
+    panel.addEventListener('pointerdown', event => {
+      if (!mobile.matches || !panel.classList.contains('open') || panel.classList.contains('expanded')) return;
+      if (interactive(event.target)) return;
+      panelGesture = { id: event.pointerId, x: event.clientX, y: event.clientY };
+      panel.setPointerCapture(event.pointerId);
+    });
+
+    panel.addEventListener('pointermove', event => {
+      if (!panelGesture || panelGesture.id !== event.pointerId) return;
+      const dx = event.clientX - panelGesture.x;
+      const dy = event.clientY - panelGesture.y;
+      if (Math.abs(dy) > 8 && Math.abs(dy) > Math.abs(dx)) event.preventDefault();
+    });
+
+    panel.addEventListener('pointerup', event => {
+      if (!panelGesture || panelGesture.id !== event.pointerId) return;
+      const dy = event.clientY - panelGesture.y;
+      const dx = event.clientX - panelGesture.x;
+      panelGesture = null;
+      if (Math.abs(dy) <= Math.abs(dx) || Math.abs(dy) < 24) return;
+      suppressPanelClick = true;
+      if (dy < 0) setSheet(true, true);
+      else if (dy > 48) closeSheet();
+      window.setTimeout(() => { suppressPanelClick = false; }, 350);
+    });
+
+    panel.addEventListener('pointercancel', () => { panelGesture = null; });
 
     panel.addEventListener('click', event => {
+      if (suppressPanelClick) {
+        suppressPanelClick = false;
+        return;
+      }
       if (!mobile.matches || !panel.classList.contains('open') || panel.classList.contains('expanded')) return;
-      if (event.target.closest('a,button,input,select,textarea,summary')) return;
+      if (interactive(event.target)) return;
       setSheet(true, true);
     });
 
