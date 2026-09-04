@@ -5,6 +5,7 @@ const API_KEY = process.env.YOUTUBE_API_KEY?.trim();
 const RUN_BUDGET = Math.max(1, Number.parseInt(process.env.YOUTUBE_PLAYLIST_SWEEP_BUDGET || '40', 10) || 40);
 const CADENCE_MINUTES = 15;
 const RECENT_VIDEOS = 50;
+const DISCOVERY_LABEL = 'uploads_playlist_budgeted_sweep';
 
 if (!API_KEY) {
   console.log('Budgeted playlist sweep skipped: YOUTUBE_API_KEY is not configured.');
@@ -74,6 +75,19 @@ function remember(sourceId, videoId, marker) {
   if (keys.length > 100) {
     for (const staleId of keys.slice(0, keys.length - 100)) delete entries[staleId];
   }
+}
+
+async function relabelDiscovery(videoId) {
+  const latestStreams = JSON.parse(await fs.readFile(streamsPath, 'utf8'));
+  let changed = false;
+  for (const record of latestStreams) {
+    if (record.youtube_video_id !== videoId) continue;
+    if (record.discovery !== DISCOVERY_LABEL) {
+      record.discovery = DISCOVERY_LABEL;
+      changed = true;
+    }
+  }
+  if (changed) await fs.writeFile(streamsPath, `${JSON.stringify(latestStreams, null, 2)}\n`);
 }
 
 const enabled = sources.filter((source) =>
@@ -160,6 +174,7 @@ for (const ids of chunks([...candidates.keys()], 50)) {
     });
     processorRuns += 1;
     if (result.status === 0) {
+      await relabelDiscovery(id);
       remember(source.id, id, `playlist-sweep:${nowIso}`);
     } else {
       processorFailures += 1;
