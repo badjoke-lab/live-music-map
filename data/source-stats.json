@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T06:07:40.281Z",
+  "generated_at": "2026-09-04T06:13:57.903Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -8,7 +8,7 @@
   "summary": {
     "sources_total": 130,
     "live_now": 66,
-    "upcoming": 42,
+    "upcoming": 44,
     "observed_live_streams_total": 93,
     "observed_live_streams_7d": 37,
     "observed_live_streams_30d": 51,
@@ -1838,13 +1838,13 @@
         "Multi-genre"
       ],
       "live_now": 1,
-      "upcoming_count": 6,
+      "upcoming_count": 8,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 1,
       "observed_live_streams_30d": 1,
       "active_days_30d": 1,
       "last_live_at": "2026-09-02T21:50:15.000Z",
-      "next_live_at": "2026-09-23T14:30:00.000Z",
+      "next_live_at": "2026-09-04T14:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -3273,7 +3273,7 @@
       "CH": {
         "sources": 2,
         "live_now": 1,
-        "upcoming": 6,
+        "upcoming": 8,
         "observed_live_30d": 1
       },
       "KR": {
@@ -3461,7 +3461,7 @@
       "music_event_broadcaster": {
         "sources": 1,
         "live_now": 1,
-        "upcoming": 6,
+        "upcoming": 8,
         "observed_live_30d": 1
       },
       "concert_hall": {
@@ -3535,7 +3535,7 @@
       "Electronic": {
         "sources": 44,
         "live_now": 14,
-        "upcoming": 29,
+        "upcoming": 31,
         "observed_live_30d": 23
       },
       "Techno": {
@@ -3589,7 +3589,7 @@
       "Multi-genre": {
         "sources": 57,
         "live_now": 3,
-        "upcoming": 16,
+        "upcoming": 18,
         "observed_live_30d": 9
       },
       "Hip-hop": {
@@ -3631,7 +3631,7 @@
       "World": {
         "sources": 6,
         "live_now": 1,
-        "upcoming": 6,
+        "upcoming": 8,
         "observed_live_30d": 1
       },
       "Metal": {
@@ -3679,13 +3679,13 @@
       "Rock": {
         "sources": 36,
         "live_now": 1,
-        "upcoming": 11,
+        "upcoming": 13,
         "observed_live_30d": 2
       },
       "Pop": {
         "sources": 36,
         "live_now": 5,
-        "upcoming": 9,
+        "upcoming": 11,
         "observed_live_30d": 2
       },
       "Soul": {
@@ -3811,7 +3811,7 @@
       "Folk": {
         "sources": 4,
         "live_now": 1,
-        "upcoming": 7,
+        "upcoming": 9,
         "observed_live_30d": 2
       },
       "Blues": {
