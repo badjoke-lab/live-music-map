@@ -70,12 +70,28 @@ jobs:
           set -euo pipefail
           challenge="deploy-proof-${GITHUB_RUN_ID}"
           topic="https://www.youtube.com/feeds/videos.xml?channel_id=$FIRST_CHANNEL_ID"
-          response="$(curl -fsS -G "$CALLBACK_URL" \
-            --data-urlencode 'hub.mode=subscribe' \
-            --data-urlencode "hub.topic=$topic" \
-            --data-urlencode "hub.challenge=$challenge")"
-          test "$response" = "$challenge"
-          echo "Worker challenge smoke test: success" >> "$GITHUB_STEP_SUMMARY"
+          tmp_body="$(mktemp)"
+          trap 'rm -f "$tmp_body"' EXIT
+
+          for attempt in $(seq 1 18); do
+            : > "$tmp_body"
+            http_code="$(curl -sS -o "$tmp_body" -w '%{http_code}' -G "$CALLBACK_URL" \
+              --data-urlencode 'hub.mode=subscribe' \
+              --data-urlencode "hub.topic=$topic" \
+              --data-urlencode "hub.challenge=$challenge" || true)"
+            response="$(cat "$tmp_body")"
+
+            if [[ "$http_code" == "200" && "$response" == "$challenge" ]]; then
+              echo "Worker challenge smoke test: success on attempt $attempt" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+
+            echo "Worker challenge attempt $attempt/18: HTTP $http_code body=${response@Q}"
+            sleep 5
+          done
+
+          echo "::error::Worker challenge endpoint did not become ready after 90 seconds"
+          exit 1
 
       - name: Request five WebSub subscriptions
         env:
