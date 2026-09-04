@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T07:40:51.185Z",
+  "generated_at": "2026-09-04T08:53:16.911Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 134,
-    "live_now": 69,
+    "live_now": 70,
     "upcoming": 48,
-    "observed_live_streams_total": 97,
-    "observed_live_streams_7d": 37,
-    "observed_live_streams_30d": 51,
+    "observed_live_streams_total": 98,
+    "observed_live_streams_7d": 38,
+    "observed_live_streams_30d": 52,
     "history_records": 28
   },
   "by_source": {
@@ -723,15 +723,17 @@
       "source_genres": [
         "K-pop"
       ],
-      "live_now": 0,
-      "upcoming_count": 1,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": "2026-09-04T08:15:00.000Z",
-      "observed_content_types": []
+      "live_now": 1,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 1,
+      "observed_live_streams_7d": 1,
+      "observed_live_streams_30d": 1,
+      "active_days_30d": 1,
+      "last_live_at": "2026-09-04T08:00:11.000Z",
+      "next_live_at": null,
+      "observed_content_types": [
+        "live_performance"
+      ]
     },
     "arirang-k-pop": {
       "source_id": "arirang-k-pop",
@@ -2579,13 +2581,13 @@
         "Multi-genre"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": null,
+      "next_live_at": "2026-09-04T13:00:00.000Z",
       "observed_content_types": []
     },
     "nuclear-blast-records": {
@@ -3341,7 +3343,7 @@
       "JP": {
         "sources": 24,
         "live_now": 9,
-        "upcoming": 2,
+        "upcoming": 3,
         "observed_live_30d": 7
       },
       "GB": {
@@ -3382,9 +3384,9 @@
       },
       "KR": {
         "sources": 12,
-        "live_now": 0,
-        "upcoming": 7,
-        "observed_live_30d": 3
+        "live_now": 1,
+        "upcoming": 6,
+        "observed_live_30d": 4
       },
       "GE": {
         "sources": 1,
@@ -3517,7 +3519,7 @@
       "studio_media": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "media_events": {
@@ -3558,9 +3560,9 @@
       },
       "broadcast_media": {
         "sources": 5,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 1
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 2
       },
       "orchestra": {
         "sources": 3,
@@ -3711,13 +3713,13 @@
       "Multi-genre": {
         "sources": 59,
         "live_now": 3,
-        "upcoming": 18,
+        "upcoming": 19,
         "observed_live_30d": 9
       },
       "Hip-hop": {
         "sources": 28,
         "live_now": 18,
-        "upcoming": 8,
+        "upcoming": 9,
         "observed_live_30d": 6
       },
       "Rap": {
@@ -3801,13 +3803,13 @@
       "Rock": {
         "sources": 38,
         "live_now": 1,
-        "upcoming": 13,
+        "upcoming": 14,
         "observed_live_30d": 2
       },
       "Pop": {
         "sources": 37,
         "live_now": 7,
-        "upcoming": 11,
+        "upcoming": 12,
         "observed_live_30d": 2
       },
       "Soul": {
@@ -3836,9 +3838,9 @@
       },
       "K-pop": {
         "sources": 11,
-        "live_now": 0,
-        "upcoming": 4,
-        "observed_live_30d": 2
+        "live_now": 1,
+        "upcoming": 3,
+        "observed_live_30d": 3
       },
       "Alternative": {
         "sources": 10,
@@ -4065,7 +4067,7 @@
       "R&B": {
         "sources": 13,
         "live_now": 0,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 1
       },
       "Latin": {
@@ -4221,7 +4223,7 @@
       "J-pop": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Heavy Metal": {
@@ -4450,7 +4452,8 @@
     "by_verified_stream_content_type_30d": {
       "music_live_unspecified": 19,
       "dj_set": 11,
-      "music_radio_live": 21
+      "music_radio_live": 21,
+      "live_performance": 1
     }
   }
 }
