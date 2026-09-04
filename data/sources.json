@@ -11245,5 +11245,394 @@
     "note": "Electronic-music network; Tallinn is the current operator base, not event location.",
     "youtube_channel_id": "UCAcA2jlilFEFVezWYz7xVKQ",
     "youtube_uploads_playlist_id": "UUAcA2jlilFEFVezWYz7xVKQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "sunburn-festival",
+    "name": "Sunburn Festival",
+    "operator_name": null,
+    "type": "festival",
+    "country": "India",
+    "country_code": "IN",
+    "region": "Maharashtra",
+    "city": "Mumbai",
+    "location": {
+      "lat": 19.0177,
+      "lon": 72.8439,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Mumbai, Maharashtra, India (operator office)"
+    },
+    "genres": [
+      "Electronic",
+      "EDM",
+      "House",
+      "Techno",
+      "Trance"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "official_site": "https://sunburn.in/",
+    "schedule_url": "https://sunburn.in/event/sunburn-festival-2026/",
+    "youtube_url": "https://www.youtube.com/@SunburnFestival",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Sunburn",
+        "live stream",
+        "livestream",
+        "DJ set",
+        "festival"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "trailer",
+        "aftermovie"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://sunburn.in/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_site",
+        "url": "https://sunburn.in/team_group/live/",
+        "supports": [
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@SunburnFestival",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://perceptindia.in/percept_news_inner.aspx?id=404",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://sunburn.in/event/sunburn-festival-2026/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "India electronic festival source; Mumbai is the operator office/current festival city, not an inferred Stream location.",
+    "youtube_channel_id": "UCqD7C-bA_Kzm3SMn7P-92-A",
+    "youtube_uploads_playlist_id": "UUqD7C-bA_Kzm3SMn7P-92-A"
+  },
+  {
+    "schema_version": 2,
+    "id": "cosquin-rock",
+    "name": "Cosquín Rock",
+    "operator_name": "EN VIVO PRODUCCIONES S.A.",
+    "type": "festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Córdoba",
+    "city": "Santa María de Punilla",
+    "location": {
+      "lat": -31.270332,
+      "lon": -64.465336,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Santa María de Punilla, Córdoba, Argentina"
+    },
+    "genres": [
+      "Rock",
+      "Alternative",
+      "Indie",
+      "Hip-hop",
+      "Electronic",
+      "Reggae",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://cosquinrock.net/",
+    "schedule_url": "https://cosquinrock.net/",
+    "youtube_url": "https://www.youtube.com/channel/UCF8zTYRL2jFnesZ314ie5tA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Cosquin Rock",
+        "Cosquín Rock",
+        "en vivo",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "entrevista",
+        "podcast",
+        "aftermovie"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://cosquinrock.net/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://cosquinrock.net/preguntas-frecuentes/",
+        "supports": [
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/CosquinRockTV",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Argentina multi-genre rock festival; channel contains historically streamed official live performances and mixed promotional content fails closed.",
+    "youtube_channel_id": "UCF8zTYRL2jFnesZ314ie5tA"
+  },
+  {
+    "schema_version": 2,
+    "id": "papjazz-haiti",
+    "name": "PAPJAZZ",
+    "operator_name": "Fondation Haiti Jazz",
+    "type": "festival",
+    "country": "Haiti",
+    "country_code": "HT",
+    "region": "Ouest",
+    "city": "Port-au-Prince",
+    "location": {
+      "lat": 18.54349,
+      "lon": -72.33881,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Port-au-Prince, Haiti"
+    },
+    "genres": [
+      "Jazz",
+      "Caribbean",
+      "Haitian",
+      "World"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "French",
+      "Haitian Creole",
+      "English"
+    ],
+    "official_site": "https://www.papjazzhaiti.org/",
+    "schedule_url": "https://www.papjazzhaiti.org/live-stream-en",
+    "youtube_url": "https://www.youtube.com/@papjazzhaiti",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "PAPJAZZ",
+        "live now",
+        "live",
+        "stage"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "press conference"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.papjazzhaiti.org/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@papjazzhaiti",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.papjazzhaiti.org/live-stream-en",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Port-au-Prince jazz festival; the official 2026 live-stream page explicitly carries the festival on YouTube.",
+    "youtube_channel_id": "UCVjQakDVMpFDgSR-IhwcF-Q",
+    "youtube_uploads_playlist_id": "UUVjQakDVMpFDgSR-IhwcF-Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "music-matters-live",
+    "name": "Music Matters Live",
+    "operator_name": "Branded Pte Ltd",
+    "type": "festival",
+    "country": "Singapore",
+    "country_code": "SG",
+    "region": null,
+    "city": "Singapore",
+    "location": {
+      "lat": 1.289669,
+      "lon": 103.850069,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Singapore"
+    },
+    "genres": [
+      "Pop",
+      "Rock",
+      "Indie",
+      "Hip-hop",
+      "Electronic",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance",
+      "acoustic_session"
+    ],
+    "languages": [
+      "English",
+      "Multi-language"
+    ],
+    "official_site": "https://www.branded.live/music-matters",
+    "schedule_url": "https://www.branded.live/mml-2026",
+    "youtube_url": "https://www.youtube.com/channel/UCnwo7BfcTgRdD9dn8c7SONw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Music Matters Live",
+        "MML From Home",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "conference",
+        "panel",
+        "interview",
+        "keynote",
+        "podcast"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.branded.live/music-matters",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/musicmatterstome/featured",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.branded.live/mml-2026",
+        "supports": [
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Singapore discovery festival source; conference/panel content on the broader brand channel is excluded unless independently verified as music-live.",
+    "youtube_channel_id": "UCnwo7BfcTgRdD9dn8c7SONw"
   }
 ]

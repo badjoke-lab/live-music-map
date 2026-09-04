@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T06:28:32.145Z",
+  "generated_at": "2026-09-04T07:40:51.185Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 130,
-    "live_now": 70,
-    "upcoming": 47,
+    "sources_total": 134,
+    "live_now": 69,
+    "upcoming": 48,
     "observed_live_streams_total": 97,
     "observed_live_streams_7d": 37,
     "observed_live_streams_30d": 51,
-    "history_records": 27
+    "history_records": 28
   },
   "by_source": {
     "hoer-berlin": {
@@ -724,13 +724,13 @@
         "K-pop"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": null,
+      "next_live_at": "2026-09-04T08:15:00.000Z",
       "observed_content_types": []
     },
     "arirang-k-pop": {
@@ -2892,7 +2892,7 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 3,
       "observed_live_streams_7d": 3,
@@ -3220,6 +3220,108 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "sunburn-festival": {
+      "source_id": "sunburn-festival",
+      "source_name": "Sunburn Festival",
+      "country_code": "IN",
+      "country": "India",
+      "region": "Maharashtra",
+      "city": "Mumbai",
+      "source_type": "festival",
+      "source_genres": [
+        "Electronic",
+        "EDM",
+        "House",
+        "Techno",
+        "Trance"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "cosquin-rock": {
+      "source_id": "cosquin-rock",
+      "source_name": "Cosquín Rock",
+      "country_code": "AR",
+      "country": "Argentina",
+      "region": "Córdoba",
+      "city": "Santa María de Punilla",
+      "source_type": "festival",
+      "source_genres": [
+        "Rock",
+        "Alternative",
+        "Indie",
+        "Hip-hop",
+        "Electronic",
+        "Reggae",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "papjazz-haiti": {
+      "source_id": "papjazz-haiti",
+      "source_name": "PAPJAZZ",
+      "country_code": "HT",
+      "country": "Haiti",
+      "region": "Ouest",
+      "city": "Port-au-Prince",
+      "source_type": "festival",
+      "source_genres": [
+        "Jazz",
+        "Caribbean",
+        "Haitian",
+        "World"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "music-matters-live": {
+      "source_id": "music-matters-live",
+      "source_name": "Music Matters Live",
+      "country_code": "SG",
+      "country": "Singapore",
+      "region": null,
+      "city": "Singapore",
+      "source_type": "festival",
+      "source_genres": [
+        "Pop",
+        "Rock",
+        "Indie",
+        "Hip-hop",
+        "Electronic",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -3232,7 +3334,7 @@
       },
       "US": {
         "sources": 30,
-        "live_now": 14,
+        "live_now": 13,
         "upcoming": 11,
         "observed_live_30d": 17
       },
@@ -3281,7 +3383,7 @@
       "KR": {
         "sources": 12,
         "live_now": 0,
-        "upcoming": 6,
+        "upcoming": 7,
         "observed_live_30d": 3
       },
       "GE": {
@@ -3303,7 +3405,7 @@
         "observed_live_30d": 0
       },
       "SG": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 17,
         "upcoming": 0,
         "observed_live_30d": 6
@@ -3379,6 +3481,24 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "IN": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "AR": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "HT": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_type": {
@@ -3407,7 +3527,7 @@
         "observed_live_30d": 1
       },
       "festival": {
-        "sources": 16,
+        "sources": 20,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 0
@@ -3420,7 +3540,7 @@
       },
       "venue": {
         "sources": 26,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 5
       },
@@ -3439,7 +3559,7 @@
       "broadcast_media": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "orchestra": {
@@ -3535,19 +3655,19 @@
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 44,
+        "sources": 47,
         "live_now": 14,
         "upcoming": 33,
         "observed_live_30d": 23
       },
       "Techno": {
-        "sources": 10,
+        "sources": 11,
         "live_now": 0,
         "upcoming": 15,
         "observed_live_30d": 10
       },
       "House": {
-        "sources": 14,
+        "sources": 15,
         "live_now": 0,
         "upcoming": 15,
         "observed_live_30d": 10
@@ -3559,8 +3679,8 @@
         "observed_live_30d": 9
       },
       "Jazz": {
-        "sources": 20,
-        "live_now": 39,
+        "sources": 21,
+        "live_now": 38,
         "upcoming": 4,
         "observed_live_30d": 19
       },
@@ -3589,13 +3709,13 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 57,
+        "sources": 59,
         "live_now": 3,
         "upcoming": 18,
         "observed_live_30d": 9
       },
       "Hip-hop": {
-        "sources": 26,
+        "sources": 28,
         "live_now": 18,
         "upcoming": 8,
         "observed_live_30d": 6
@@ -3631,7 +3751,7 @@
         "observed_live_30d": 0
       },
       "World": {
-        "sources": 6,
+        "sources": 7,
         "live_now": 1,
         "upcoming": 8,
         "observed_live_30d": 1
@@ -3679,13 +3799,13 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 36,
+        "sources": 38,
         "live_now": 1,
         "upcoming": 13,
         "observed_live_30d": 2
       },
       "Pop": {
-        "sources": 36,
+        "sources": 37,
         "live_now": 7,
         "upcoming": 11,
         "observed_live_30d": 2
@@ -3703,7 +3823,7 @@
         "observed_live_30d": 1
       },
       "Trance": {
-        "sources": 7,
+        "sources": 8,
         "live_now": 2,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -3717,11 +3837,11 @@
       "K-pop": {
         "sources": 11,
         "live_now": 0,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 2
       },
       "Alternative": {
-        "sources": 9,
+        "sources": 10,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -3835,7 +3955,7 @@
         "observed_live_30d": 0
       },
       "Indie": {
-        "sources": 12,
+        "sources": 14,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -3895,7 +4015,7 @@
         "observed_live_30d": 0
       },
       "EDM": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 4,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -3961,7 +4081,7 @@
         "observed_live_30d": 0
       },
       "Reggae": {
-        "sources": 4,
+        "sources": 5,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 0
@@ -4202,19 +4322,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 4
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 3
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 4
       },
@@ -4309,6 +4429,18 @@
         "observed_live_30d": 0
       },
       "Tech House": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Caribbean": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Haitian": {
         "sources": 1,
         "live_now": 0,
         "upcoming": 0,
