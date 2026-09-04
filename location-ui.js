@@ -272,3 +272,98 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setupCombinedFilters, { once: true });
   else setupCombinedFilters();
 })();
+
+(() => {
+  const mobile = window.matchMedia('(max-width: 900px)');
+
+  const style = document.createElement('style');
+  style.textContent = `
+@media(max-width:900px){
+  #locationSummaryBar{display:none!important}
+  .site-footer{display:none!important}
+  .layout{height:calc(100vh - 152px)!important;height:calc(100dvh - 152px)!important}
+  .toolbar[data-combined-filters="true"]{height:48px!important;padding:5px 8px!important;gap:7px!important}
+  .toolbar[data-combined-filters="true"] .filter-axis-state{display:flex!important;gap:7px!important}
+  .toolbar[data-combined-filters="true"] .filter-axis-state .filter-axis-label{display:none!important}
+  .toolbar[data-combined-filters="true"] .filter-axis-category,.toolbar[data-combined-filters="true"] .filter-axis-divider{display:none!important}
+  .toolbar[data-combined-filters="true"] button{height:36px!important;padding:7px 11px!important;font-size:14px!important}
+  #detailPanel.open:not(.expanded){height:204px!important;touch-action:pan-x}
+  #detailPanel .section{padding-top:42px!important}
+  #detailPanel .sheet-expand{display:none!important}
+  #detailPanel .sheet-handle{display:flex!important;position:absolute!important;top:0!important;left:0!important;right:0!important;transform:none!important;width:100%!important;height:132px!important;padding:5px 0 0!important;border:0!important;border-radius:18px 18px 0 0!important;background:transparent!important;z-index:1!important;align-items:flex-start!important;justify-content:center!important;touch-action:none!important}
+  #detailPanel .sheet-handle::before{content:'';display:block;width:44px;height:5px;border-radius:999px;background:#727985;margin:3px auto 0}
+  #detailPanel .sheet-handle::after{content:'詳細を見る';position:absolute;top:15px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:700;color:#aab2bd;white-space:nowrap;letter-spacing:.02em}
+  #detailPanel.expanded .sheet-handle{height:42px!important}
+  #detailPanel.expanded .sheet-handle::after{content:'縮小'}
+  #detailPanel .sheet-close{z-index:4!important}
+  #detailPanel .section,#detailPanel .mobile-primary-actions,#detailPanel .desktop-only-detail{position:relative;z-index:2}
+}
+`;
+  document.head.appendChild(style);
+
+  function setup() {
+    if (!mobile.matches) return;
+    const panel = document.getElementById('detailPanel');
+    const originalHandle = document.getElementById('sheetHandle');
+    if (!panel || !originalHandle || panel.dataset.mobileGestureFix === 'true') return;
+    panel.dataset.mobileGestureFix = 'true';
+
+    const handle = originalHandle.cloneNode(true);
+    originalHandle.replaceWith(handle);
+
+    let gesture = null;
+    let suppressClick = false;
+
+    const toggle = () => {
+      if (!panel.classList.contains('open')) return;
+      setSheet(true, !panel.classList.contains('expanded'));
+    };
+
+    handle.addEventListener('click', event => {
+      if (suppressClick) {
+        suppressClick = false;
+        event.preventDefault();
+        return;
+      }
+      toggle();
+    });
+
+    handle.addEventListener('pointerdown', event => {
+      gesture = { id: event.pointerId, x: event.clientX, y: event.clientY };
+      handle.setPointerCapture(event.pointerId);
+    });
+
+    handle.addEventListener('pointermove', event => {
+      if (!gesture || gesture.id !== event.pointerId) return;
+      const dx = event.clientX - gesture.x;
+      const dy = event.clientY - gesture.y;
+      if (Math.abs(dy) > 8 && Math.abs(dy) > Math.abs(dx)) event.preventDefault();
+    });
+
+    handle.addEventListener('pointerup', event => {
+      if (!gesture || gesture.id !== event.pointerId) return;
+      const dy = event.clientY - gesture.y;
+      const dx = event.clientX - gesture.x;
+      gesture = null;
+      if (Math.abs(dy) <= Math.abs(dx) || Math.abs(dy) < 24) return;
+      suppressClick = true;
+      if (dy < 0) setSheet(true, true);
+      else if (panel.classList.contains('expanded')) setSheet(true, false);
+      else if (dy > 48) closeSheet();
+      window.setTimeout(() => { suppressClick = false; }, 350);
+    });
+
+    handle.addEventListener('pointercancel', () => { gesture = null; });
+
+    panel.addEventListener('click', event => {
+      if (!mobile.matches || !panel.classList.contains('open') || panel.classList.contains('expanded')) return;
+      if (event.target.closest('a,button,input,select,textarea,summary')) return;
+      setSheet(true, true);
+    });
+
+    if (panel.classList.contains('open')) closeSheet();
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setup, { once: true });
+  else setup();
+})();
