@@ -1,0 +1,460 @@
+[
+  {
+    "schema_version": 2,
+    "id": "afrima",
+    "name": "AFRIMA - All Africa Music Awards",
+    "operator_name": "All Africa Music Awards (AFRIMA)",
+    "type": "music_awards",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "region": "Lagos",
+    "city": "Lagos",
+    "location": {
+      "lat": 6.5244,
+      "lon": 3.3792,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Lagos, Nigeria"
+    },
+    "genres": [
+      "Multi-genre",
+      "Afrobeats",
+      "African Music"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Multi-language"
+    ],
+    "official_site": "https://afrima.org/",
+    "schedule_url": "https://afrima.org/",
+    "youtube_url": "https://www.youtube.com/@AFRIMA_AWARDS",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "afrima",
+        "all africa music awards",
+        "music village",
+        "awards live",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "press conference",
+        "recap",
+        "highlights",
+        "nominee",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://afrima.org/",
+        "supports": [
+          "identity",
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://afrima.org/2026/01/08/9th-afrima-lagos-comes-alive-as-africas-biggest-music-awards-begin/",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@AFRIMA_AWARDS",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "AFRIMA host city can change between editions. Lagos is the confirmed 2026 event home; event-level location should override this source location when future editions move.",
+    "youtube_channel_id": null,
+    "youtube_uploads_playlist_id": null
+  },
+  {
+    "schema_version": 2,
+    "id": "charterhouse-live-tgma",
+    "name": "Charterhouse Live / Telecel Ghana Music Awards",
+    "operator_name": "Charterhouse Productions",
+    "type": "music_awards",
+    "country": "Ghana",
+    "country_code": "GH",
+    "region": "Greater Accra",
+    "city": "Accra",
+    "location": {
+      "lat": 5.6037,
+      "lon": -0.187,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Accra, Ghana"
+    },
+    "genres": [
+      "Multi-genre",
+      "Afrobeats",
+      "Highlife",
+      "Hiplife",
+      "Gospel",
+      "Reggae",
+      "Dancehall"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance",
+      "concert"
+    ],
+    "languages": [
+      "English",
+      "Multi-language"
+    ],
+    "official_site": "https://ghanamusicawards.com/",
+    "schedule_url": "https://ghanamusicawards.com/",
+    "youtube_url": "https://www.youtube.com/channel/UChZJkSv8MBOx9WMXq3chOOA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "tgma",
+        "ghana music awards",
+        "telecel ghana music awards",
+        "vgma",
+        "xperience concert",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "nominee",
+        "nominations",
+        "press conference",
+        "recap",
+        "highlights",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://ghanamusicawards.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UChZJkSv8MBOx9WMXq3chOOA",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Charterhouse Live carries TGMA ceremony and related music-event streams. Mixed promotional and awards material is excluded unless the title is deterministically music-live relevant.",
+    "youtube_channel_id": "UChZJkSv8MBOx9WMXq3chOOA",
+    "youtube_uploads_playlist_id": "UUhZJkSv8MBOx9WMXq3chOOA"
+  },
+  {
+    "schema_version": 2,
+    "id": "rnz-music",
+    "name": "RNZ Music",
+    "operator_name": "Radio New Zealand",
+    "type": "public_media",
+    "country": "New Zealand",
+    "country_code": "NZ",
+    "region": "Wellington",
+    "city": "Wellington",
+    "location": {
+      "lat": -41.2866,
+      "lon": 174.7756,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Wellington, New Zealand"
+    },
+    "genres": [
+      "Multi-genre",
+      "New Zealand Music"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Māori"
+    ],
+    "official_site": "https://www.rnz.co.nz/music",
+    "schedule_url": "https://www.rnz.co.nz/national/programmes/nzlive",
+    "youtube_url": "https://www.youtube.com/channel/UCwvY7j7Yof4E4aQNuhr8h3A",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live at rnz",
+        "rnz live",
+        "nz live",
+        "live session",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "news",
+        "review",
+        "podcast",
+        "explainer",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.rnz.co.nz/music",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.rnz.co.nz/national/programmes/nzlive",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCwvY7j7Yof4E4aQNuhr8h3A",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "RNZ Music publishes interviews and editorial video alongside live sessions; only deterministic live-performance titles are admitted.",
+    "youtube_channel_id": "UCwvY7j7Yof4E4aQNuhr8h3A",
+    "youtube_uploads_playlist_id": "UUwvY7j7Yof4E4aQNuhr8h3A"
+  },
+  {
+    "schema_version": 2,
+    "id": "reggae-jam",
+    "name": "Reggae Jam Festival",
+    "operator_name": "BL CulTTour GmbH & Co. KG",
+    "type": "festival",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": "Lower Saxony",
+    "city": "Bersenbrück",
+    "location": {
+      "lat": 52.5512,
+      "lon": 7.9481,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Bersenbrück, Lower Saxony, Germany"
+    },
+    "genres": [
+      "Reggae",
+      "Dancehall",
+      "Dub"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "German",
+      "English"
+    ],
+    "official_site": "https://reggaejam.de/",
+    "schedule_url": "https://reggaejam.de/en/tickets/105.html",
+    "youtube_url": "https://www.youtube.com/channel/UCu6_qlLH47D4Tpvct5xjhnw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "reggae jam",
+        "reggaejam"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "recap",
+        "highlights",
+        "trailer",
+        "teaser",
+        "soundbwoy tv live"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://reggaejam.de/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.youtube.com/watch?v=ro_i-Kh0B2c",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The 2026 official Reggae Jam livestream was carried by Soundbwoy TV with Vir2al-FX. Because the partner channel also publishes unrelated material, admission is restricted to titles explicitly containing Reggae Jam/ReggaeJam.",
+    "youtube_channel_id": "UCu6_qlLH47D4Tpvct5xjhnw",
+    "youtube_uploads_playlist_id": "UUu6_qlLH47D4Tpvct5xjhnw"
+  },
+  {
+    "schema_version": 2,
+    "id": "rebel-salute",
+    "name": "Rebel Salute",
+    "operator_name": "Rebel Salute",
+    "type": "festival",
+    "country": "Jamaica",
+    "country_code": "JM",
+    "region": "Saint Ann",
+    "city": "Priory",
+    "location": {
+      "lat": 18.4413,
+      "lon": -77.239,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Priory, Saint Ann, Jamaica"
+    },
+    "genres": [
+      "Reggae",
+      "Roots Reggae",
+      "Dancehall"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "official_site": "https://www.rebelsalutejamaica.com/",
+    "schedule_url": "https://www.rebelsalutejamaica.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCm4lOf2EB9HdnGSNRlA4cow",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "rebel salute",
+        "rebelsalute",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "report",
+        "recap",
+        "highlights",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.rebelsalutejamaica.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCm4lOf2EB9HdnGSNRlA4cow",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Annual roots-reggae festival at Plantation Cove in Priory, Saint Ann. Non-performance reports and promotional clips are excluded.",
+    "youtube_channel_id": "UCm4lOf2EB9HdnGSNRlA4cow",
+    "youtube_uploads_playlist_id": "UUm4lOf2EB9HdnGSNRlA4cow"
+  }
+]
