@@ -1,0 +1,327 @@
+[
+  {
+    "schema_version": 2,
+    "id": "pop-yours",
+    "name": "POP YOURS",
+    "operator_name": "Space Shower Networks Inc.",
+    "type": "festival",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Chiba",
+    "city": "Chiba",
+    "location": {
+      "lat": 35.64833,
+      "lon": 140.03472,
+      "precision": "event_exact",
+      "role": "event_home",
+      "label": "Makuhari Messe, Chiba, Japan"
+    },
+    "genres": [
+      "Hip-hop",
+      "Rap",
+      "Japanese Hip-hop"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "dj_set"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://popyours.jp/",
+    "schedule_url": "https://popyours.jp/contents/1061205",
+    "youtube_url": "https://www.youtube.com/@POPYOURS",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "pop yours",
+        "live",
+        "生配信",
+        "day 1",
+        "day 2",
+        "day 3"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "インタビュー",
+        "talk",
+        "トーク",
+        "behind the scenes"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://popyours.jp/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://popyours.jp/makuhari2026",
+        "supports": [
+          "source_location",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://popyours.jp/contents/1061205",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@POPYOURS",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Japanese hip-hop festival source. The 2026 edition streamed all three festival days on the official YouTube channel; Makuhari Messe is the documented festival home for this source record, not an inferred location for unrelated future streams.",
+    "youtube_channel_id": null,
+    "youtube_uploads_playlist_id": null
+  },
+  {
+    "schema_version": 2,
+    "id": "festival-internacional-cervantino",
+    "name": "Festival Internacional Cervantino",
+    "operator_name": "Secretaría de Cultura de México / Dirección General de Circuitos y Festivales",
+    "type": "festival",
+    "country": "Mexico",
+    "country_code": "MX",
+    "region": "Guanajuato",
+    "city": "Guanajuato",
+    "location": {
+      "lat": 21.0159,
+      "lon": -101.2528,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Guanajuato, Mexico"
+    },
+    "genres": [
+      "Multi-genre",
+      "Classical",
+      "Jazz",
+      "Latin",
+      "Rock",
+      "Electronic",
+      "Traditional",
+      "World"
+    ],
+    "formats": [
+      "festival_stream",
+      "concert",
+      "live_performance",
+      "opera"
+    ],
+    "languages": [
+      "Spanish",
+      "Multi-language"
+    ],
+    "official_site": "https://festivalcervantino.gob.mx/",
+    "schedule_url": "https://festivalcervantino.gob.mx/",
+    "youtube_url": "https://www.youtube.com/channel/UCUEb0k8IntJYXexe5TRc47g",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "concierto",
+        "concert",
+        "música",
+        "music",
+        "orquesta",
+        "orchestra",
+        "jazz",
+        "mariachi",
+        "banda",
+        "band",
+        "ensemble",
+        "ópera",
+        "opera",
+        "en vivo",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "teatro",
+        "theatre",
+        "danza",
+        "dance",
+        "cine",
+        "film",
+        "conferencia",
+        "conference",
+        "charla",
+        "talk",
+        "entrevista",
+        "interview"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://festivalcervantino.gob.mx/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://festivalcervantino.gob.mx/faq/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCUEb0k8IntJYXexe5TRc47g",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Mixed-arts festival source. Only deterministically verified music-live broadcasts are admitted; theatre, dance, film and other non-music programming fail closed. Guanajuato is the festival home, while individual event venues remain event-level facts.",
+    "youtube_channel_id": "UCUEb0k8IntJYXexe5TRc47g",
+    "youtube_uploads_playlist_id": "UUUEb0k8IntJYXexe5TRc47g"
+  },
+  {
+    "schema_version": 2,
+    "id": "red-bull-batalla",
+    "name": "Red Bull Batalla",
+    "operator_name": "Red Bull GmbH",
+    "type": "music_competition",
+    "country": "Austria",
+    "country_code": "AT",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "Austria (Red Bull operator country; Batalla events are international)"
+    },
+    "genres": [
+      "Hip-hop",
+      "Rap",
+      "Freestyle Rap"
+    ],
+    "formats": [
+      "freestyle_battle",
+      "live_performance",
+      "dj_set"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.redbull.com/us-en/event-series/red-bull-batalla",
+    "schedule_url": "https://www.redbull.com/us-en/event-series/red-bull-batalla",
+    "youtube_url": "https://www.youtube.com/@RedBullBatalla",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "red bull batalla",
+        "batalla",
+        "final nacional",
+        "final internacional",
+        "freestyle",
+        "rap",
+        "vs"
+      ],
+      "deny_title_patterns": [
+        "entrevista",
+        "interview",
+        "podcast",
+        "reacción",
+        "reaction",
+        "resumen",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-04"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.redbull.com/us-en/event-series/red-bull-batalla",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.redbull.com/car-es/todo-sobre-final-sudamerica-batalla-26",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@RedBullBatalla",
+        "supports": [
+          "official_channel",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.redbull.com/int-en/energydrink/questions/when-was-red-bull-founded",
+        "supports": [
+          "source_location"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Spanish-language international freestyle-rap competition. Austria is recorded only as the Red Bull operator country; every Batalla event requires its own verified event location before that location is shown publicly.",
+    "youtube_channel_id": null,
+    "youtube_uploads_playlist_id": null
+  }
+]
