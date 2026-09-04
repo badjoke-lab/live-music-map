@@ -280,8 +280,12 @@
   style.textContent = `
 @media(max-width:900px){
   #locationSummaryBar{display:none!important}
-  .site-footer{display:none!important}
-  .layout{height:calc(100vh - 152px)!important;height:calc(100dvh - 152px)!important}
+  .site-footer{display:flex!important;height:96px!important;min-height:96px!important;flex:0 0 96px!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;gap:8px!important;padding:10px 12px calc(10px + env(safe-area-inset-bottom))!important;overflow:hidden!important}
+  .site-footer .footer-credit{width:100%!important;white-space:normal!important;overflow:visible!important;text-overflow:clip!important;line-height:1.45!important;font-size:10px!important}
+  .site-footer .footer-links{display:flex!important;align-items:center!important;gap:0!important;white-space:nowrap!important;font-size:11px!important;line-height:1.2!important}
+  .site-footer .footer-links a{display:inline-block!important;padding:4px 0!important}
+  .site-footer .footer-separator{margin:0 8px!important}
+  .layout{height:calc(100vh - 248px)!important;height:calc(100dvh - 248px)!important}
   .toolbar[data-combined-filters="true"]{height:48px!important;padding:5px 8px!important;gap:7px!important}
   .toolbar[data-combined-filters="true"] .filter-axis-state{display:flex!important;gap:7px!important}
   .toolbar[data-combined-filters="true"] .filter-axis-state .filter-axis-label{display:none!important}
