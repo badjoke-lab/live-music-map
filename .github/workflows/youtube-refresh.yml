@@ -19,6 +19,7 @@ on:
       - 'data/source-batch-010.json'
       - 'data/source-batch-011.json'
       - 'data/source-batch-012.json'
+      - 'data/source-batch-014.json'
       - 'data/sources.json'
       - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
@@ -78,6 +79,10 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/apply-source-batch.mjs data/source-batch-012.json
+      - name: Apply non-classical source batch 014 and seed current live
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/apply-source-batch.mjs data/source-batch-014.json
       - name: Apply verified source location overrides
         run: node scripts/apply-source-location-overrides.mjs
       - name: Validate source contract
