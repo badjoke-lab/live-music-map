@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T02:01:39.868Z",
+  "generated_at": "2026-09-04T02:42:13.120Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 127,
-    "live_now": 69,
+    "sources_total": 130,
+    "live_now": 68,
     "upcoming": 43,
     "observed_live_streams_total": 91,
     "observed_live_streams_7d": 36,
     "observed_live_streams_30d": 49,
-    "history_records": 22
+    "history_records": 23
   },
   "by_source": {
     "hoer-berlin": {
@@ -2190,7 +2190,7 @@
         "Dance",
         "R&B"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 1,
@@ -3135,6 +3135,87 @@
       "observed_content_types": [
         "music_radio_live"
       ]
+    },
+    "festival-halleluya": {
+      "source_id": "festival-halleluya",
+      "source_name": "Festival Halleluya",
+      "country_code": "BR",
+      "country": "Brazil",
+      "region": "Ceará",
+      "city": "Fortaleza",
+      "source_type": "festival",
+      "source_genres": [
+        "Christian",
+        "Catholic",
+        "Rock",
+        "Pop",
+        "Gospel",
+        "Electronic",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "reggae-land": {
+      "source_id": "reggae-land",
+      "source_name": "Reggae Land",
+      "country_code": "GB",
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Milton Keynes",
+      "source_type": "festival",
+      "source_genres": [
+        "Reggae",
+        "Dancehall",
+        "Dub",
+        "Jungle",
+        "Afrobeats",
+        "Roots"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "dance-tv": {
+      "source_id": "dance-tv",
+      "source_name": "Dance TV",
+      "country_code": "EE",
+      "country": "Estonia",
+      "region": "Harju maakond",
+      "city": "Tallinn",
+      "source_type": "music_media",
+      "source_genres": [
+        "Electronic",
+        "Techno",
+        "House",
+        "Deep House",
+        "Tech House",
+        "Trance",
+        "EDM",
+        "Ambient"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -3158,7 +3239,7 @@
         "observed_live_30d": 7
       },
       "GB": {
-        "sources": 17,
+        "sources": 18,
         "live_now": 1,
         "upcoming": 3,
         "observed_live_30d": 3
@@ -3195,7 +3276,7 @@
       },
       "KR": {
         "sources": 12,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 2
       },
@@ -3242,7 +3323,7 @@
         "observed_live_30d": 0
       },
       "BR": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -3288,6 +3369,12 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "EE": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_type": {
@@ -3316,7 +3403,7 @@
         "observed_live_30d": 1
       },
       "festival": {
-        "sources": 14,
+        "sources": 16,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -3382,14 +3469,14 @@
         "observed_live_30d": 0
       },
       "music_media": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "music_broadcaster": {
         "sources": 3,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 1
       },
@@ -3444,19 +3531,19 @@
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 42,
+        "sources": 44,
         "live_now": 14,
         "upcoming": 29,
         "observed_live_30d": 23
       },
       "Techno": {
-        "sources": 9,
+        "sources": 10,
         "live_now": 0,
         "upcoming": 13,
         "observed_live_30d": 10
       },
       "House": {
-        "sources": 13,
+        "sources": 14,
         "live_now": 0,
         "upcoming": 13,
         "observed_live_30d": 10
@@ -3480,7 +3567,7 @@
         "observed_live_30d": 1
       },
       "Jungle": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 0
@@ -3498,7 +3585,7 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 56,
+        "sources": 57,
         "live_now": 4,
         "upcoming": 16,
         "observed_live_30d": 9
@@ -3516,7 +3603,7 @@
         "observed_live_30d": 1
       },
       "Afrobeats": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 1
@@ -3565,7 +3652,7 @@
       },
       "Dance": {
         "sources": 19,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 9,
         "observed_live_30d": 5
       },
@@ -3588,14 +3675,14 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 35,
+        "sources": 36,
         "live_now": 1,
         "upcoming": 11,
         "observed_live_30d": 2
       },
       "Pop": {
-        "sources": 35,
-        "live_now": 6,
+        "sources": 36,
+        "live_now": 5,
         "upcoming": 9,
         "observed_live_30d": 2
       },
@@ -3612,7 +3699,7 @@
         "observed_live_30d": 1
       },
       "Trance": {
-        "sources": 6,
+        "sources": 7,
         "live_now": 2,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -3625,7 +3712,7 @@
       },
       "K-pop": {
         "sources": 11,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 4,
         "observed_live_30d": 1
       },
@@ -3690,7 +3777,7 @@
         "observed_live_30d": 1
       },
       "Ambient": {
-        "sources": 7,
+        "sources": 8,
         "live_now": 24,
         "upcoming": 0,
         "observed_live_30d": 13
@@ -3804,13 +3891,13 @@
         "observed_live_30d": 0
       },
       "EDM": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 4,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "Dancehall": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 1
@@ -3853,7 +3940,7 @@
       },
       "R&B": {
         "sources": 13,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 1
       },
@@ -3870,13 +3957,13 @@
         "observed_live_30d": 0
       },
       "Reggae": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 0
       },
       "Dub": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -3930,7 +4017,7 @@
         "observed_live_30d": 0
       },
       "Roots": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4038,7 +4125,7 @@
         "observed_live_30d": 2
       },
       "Deep House": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 7,
         "upcoming": 0,
         "observed_live_30d": 1
@@ -4152,7 +4239,7 @@
         "observed_live_30d": 0
       },
       "Gospel": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4202,6 +4289,24 @@
       "Chill House": {
         "sources": 1,
         "live_now": 4,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Christian": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Catholic": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Tech House": {
+        "sources": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       }

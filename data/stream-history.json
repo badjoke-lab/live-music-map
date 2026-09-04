@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:rvdxtV7-e6M",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "mbckpop",
+    "youtube_video_id": "rvdxtV7-e6M",
+    "youtube_url": "https://www.youtube.com/watch?v=rvdxtV7-e6M",
+    "title": "[🔴라이브] 09/05 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ##GirlsGeneration_HRS #MonstaX #NCT127 #DINO #ALPHADRIVEONE #TEN",
+    "status": "ended",
+    "published_at": "2026-09-03T13:51:46Z",
+    "scheduled_start": "2026-09-05T06:10:00Z",
+    "actual_start": "2026-09-04T02:00:09Z",
+    "actual_end": null,
+    "concurrent_viewers": 66,
+    "thumbnail": "https://i.ytimg.com/vi/rvdxtV7-e6M/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "쇼! 음악중심"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-04T02:42:13.120Z",
+    "history_archived_at": "2026-09-04T02:42:13.120Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:xf3WL_g6LGU",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
