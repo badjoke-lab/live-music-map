@@ -73,24 +73,18 @@ async function resolveChannel(source) {
 
 async function preflightBatch({ skipExistingIds = false } = {}) {
   const existingIds = new Set(sources.map((source) => source.id));
+  const existingById = new Map(sources.map((source) => [source.id, source]));
   const existingNames = new Map(sources.map((source) => [normalizedChannelName(source.name), source.id]));
   const existingChannels = new Map(sources.map((source) => [source.youtube_channel_id, source.id]).filter(([channelId]) => channelId));
   const batchIds = new Set();
   const batchChannels = new Map();
   const errors = [];
   const resolvedRows = [];
+  let verifiedExisting = 0;
 
   for (const candidate of batch) {
     if (!candidate?.id) {
       errors.push('Batch source is missing id');
-      continue;
-    }
-    if (existingIds.has(candidate.id)) {
-      if (skipExistingIds) {
-        console.log(`Preflight ${candidate.id}: already canonical, skipped.`);
-        continue;
-      }
-      errors.push(`[${candidate.id}] duplicate source id already in canonical`);
       continue;
     }
     if (batchIds.has(candidate.id)) {
@@ -98,6 +92,31 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
       continue;
     }
     batchIds.add(candidate.id);
+
+    if (existingIds.has(candidate.id)) {
+      if (skipExistingIds) {
+        console.log(`Preflight ${candidate.id}: already canonical, skipped.`);
+        continue;
+      }
+
+      const existing = existingById.get(candidate.id);
+      try {
+        const resolved = await resolveChannel(candidate);
+        if (resolved.id !== existing?.youtube_channel_id) {
+          errors.push(`[${candidate.id}] canonical channel mismatch: batch resolves to ${resolved.id}, canonical uses ${existing?.youtube_channel_id || '(missing)'}`);
+          continue;
+        }
+        if (normalizedChannelName(candidate.name) !== normalizedChannelName(existing?.name)) {
+          errors.push(`[${candidate.id}] canonical name mismatch: batch=${candidate.name}, canonical=${existing?.name || '(missing)'}`);
+          continue;
+        }
+        verifiedExisting += 1;
+        console.log(`Preflight ${candidate.id}: already canonical, channel=${resolved.id}, verified.`);
+      } catch (error) {
+        errors.push(error.message);
+      }
+      continue;
+    }
 
     const normalizedName = normalizedChannelName(candidate.name);
     if (existingNames.has(normalizedName)) errors.push(`[${candidate.id}] duplicate source name already used by ${existingNames.get(normalizedName)}`);
@@ -120,7 +139,7 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
     for (const error of errors) console.error(`- ${error}`);
     process.exit(1);
   }
-  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${batchChannels.size} unique YouTube channels, no canonical duplicates, search.list=0.`);
+  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${verifiedExisting} already canonical verified, ${batchChannels.size} pending unique YouTube channels, no canonical duplicates, search.list=0.`);
 }
 
 if (PREFLIGHT) {
