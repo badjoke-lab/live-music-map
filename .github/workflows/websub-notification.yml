@@ -1,0 +1,52 @@
+name: Process YouTube WebSub notification
+
+on:
+  repository_dispatch:
+    types: [youtube_websub]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-live-refresh
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Validate payload
+        shell: bash
+        env:
+          VIDEO_ID: ${{ github.event.client_payload.video_id }}
+          CHANNEL_ID: ${{ github.event.client_payload.channel_id }}
+        run: |
+          [[ "$VIDEO_ID" =~ ^[A-Za-z0-9_-]{11}$ ]]
+          [[ "$CHANNEL_ID" =~ ^UC[A-Za-z0-9_-]{22}$ ]]
+      - name: Validate source contract
+        run: node scripts/validate-sources.mjs
+      - name: Snapshot active streams for history
+        run: node scripts/update-history-stats.mjs snapshot
+      - name: Process notified video only
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_WEBSUB_VIDEO_ID: ${{ github.event.client_payload.video_id }}
+          YOUTUBE_WEBSUB_CHANNEL_ID: ${{ github.event.client_payload.channel_id }}
+        run: node scripts/process-websub-video.mjs
+      - name: Archive ended streams and build source stats
+        run: node scripts/update-history-stats.mjs finalize
+      - name: Commit WebSub data changes
+        shell: bash
+        run: |
+          if git diff --quiet -- data/streams.json data/stream-history.json data/source-stats.json; then
+            echo "No WebSub data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/streams.json data/stream-history.json data/source-stats.json
+          git commit -m "data: process YouTube WebSub notification"
+          git push origin HEAD:main
