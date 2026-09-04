@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T06:13:57.903Z",
+  "generated_at": "2026-09-04T06:20:44.167Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 130,
-    "live_now": 66,
-    "upcoming": 44,
-    "observed_live_streams_total": 93,
+    "live_now": 70,
+    "upcoming": 45,
+    "observed_live_streams_total": 97,
     "observed_live_streams_7d": 37,
     "observed_live_streams_30d": 51,
     "history_records": 27
@@ -30,7 +30,7 @@
         "Experimental"
       ],
       "live_now": 0,
-      "upcoming_count": 9,
+      "upcoming_count": 10,
       "observed_live_streams_total": 8,
       "observed_live_streams_7d": 8,
       "observed_live_streams_30d": 8,
@@ -942,9 +942,9 @@
         "Synthwave",
         "Jazz"
       ],
-      "live_now": 11,
+      "live_now": 13,
       "upcoming_count": 0,
-      "observed_live_streams_total": 11,
+      "observed_live_streams_total": 13,
       "observed_live_streams_7d": 1,
       "observed_live_streams_30d": 3,
       "active_days_30d": 3,
@@ -3051,15 +3051,17 @@
         "Acoustic",
         "Pop"
       ],
-      "live_now": 0,
+      "live_now": 2,
       "upcoming_count": 0,
-      "observed_live_streams_total": 0,
+      "observed_live_streams_total": 2,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
-      "last_live_at": null,
+      "last_live_at": "2026-02-11T06:39:01.000Z",
       "next_live_at": null,
-      "observed_content_types": []
+      "observed_content_types": [
+        "music_live_unspecified"
+      ]
     },
     "lofi-fruits": {
       "source_id": "lofi-fruits",
@@ -3225,7 +3227,7 @@
       "DE": {
         "sources": 8,
         "live_now": 6,
-        "upcoming": 10,
+        "upcoming": 11,
         "observed_live_30d": 10
       },
       "US": {
@@ -3254,7 +3256,7 @@
       },
       "FR": {
         "sources": 4,
-        "live_now": 11,
+        "live_now": 13,
         "upcoming": 0,
         "observed_live_30d": 4
       },
@@ -3368,7 +3370,7 @@
       },
       "TR": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 2,
         "upcoming": 0,
         "observed_live_30d": 0
       },
@@ -3383,7 +3385,7 @@
       "independent_media": {
         "sources": 10,
         "live_now": 26,
-        "upcoming": 14,
+        "upcoming": 15,
         "observed_live_30d": 25
       },
       "radio": {
@@ -3424,7 +3426,7 @@
       },
       "radio_media": {
         "sources": 3,
-        "live_now": 11,
+        "live_now": 13,
         "upcoming": 0,
         "observed_live_30d": 3
       },
@@ -3526,7 +3528,7 @@
       },
       "music_tv": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 2,
         "upcoming": 0,
         "observed_live_30d": 0
       }
@@ -3535,30 +3537,30 @@
       "Electronic": {
         "sources": 44,
         "live_now": 14,
-        "upcoming": 31,
+        "upcoming": 32,
         "observed_live_30d": 23
       },
       "Techno": {
         "sources": 10,
         "live_now": 0,
-        "upcoming": 13,
+        "upcoming": 14,
         "observed_live_30d": 10
       },
       "House": {
         "sources": 14,
         "live_now": 0,
-        "upcoming": 13,
+        "upcoming": 14,
         "observed_live_30d": 10
       },
       "Experimental": {
         "sources": 8,
         "live_now": 0,
-        "upcoming": 9,
+        "upcoming": 10,
         "observed_live_30d": 9
       },
       "Jazz": {
         "sources": 20,
-        "live_now": 37,
+        "live_now": 39,
         "upcoming": 4,
         "observed_live_30d": 19
       },
@@ -3594,7 +3596,7 @@
       },
       "Hip-hop": {
         "sources": 26,
-        "live_now": 16,
+        "live_now": 18,
         "upcoming": 8,
         "observed_live_30d": 6
       },
@@ -3684,7 +3686,7 @@
       },
       "Pop": {
         "sources": 36,
-        "live_now": 5,
+        "live_now": 7,
         "upcoming": 11,
         "observed_live_30d": 2
       },
@@ -3726,19 +3728,19 @@
       },
       "Lofi": {
         "sources": 5,
-        "live_now": 16,
+        "live_now": 18,
         "upcoming": 1,
         "observed_live_30d": 3
       },
       "Chill": {
         "sources": 5,
-        "live_now": 21,
+        "live_now": 23,
         "upcoming": 0,
         "observed_live_30d": 9
       },
       "Synthwave": {
         "sources": 1,
-        "live_now": 11,
+        "live_now": 13,
         "upcoming": 0,
         "observed_live_30d": 3
       },
@@ -3774,7 +3776,7 @@
       },
       "Acoustic": {
         "sources": 6,
-        "live_now": 4,
+        "live_now": 6,
         "upcoming": 2,
         "observed_live_30d": 1
       },
@@ -4260,13 +4262,13 @@
       },
       "Turkish Pop": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 2,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "Arabesk": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 2,
         "upcoming": 0,
         "observed_live_30d": 0
       },
