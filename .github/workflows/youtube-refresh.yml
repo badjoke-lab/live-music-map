@@ -6,11 +6,14 @@ on:
     paths:
       - 'scripts/refresh-youtube-live.mjs'
       - 'scripts/budgeted-playlist-sweep.mjs'
+      - 'scripts/enforce-stream-channel-identity.mjs'
       - 'scripts/correct-title-classification.mjs'
       - 'scripts/update-history-stats.mjs'
       - 'scripts/validate-sources.mjs'
       - 'scripts/apply-source-batch.mjs'
+      - 'scripts/apply-source-youtube-overrides.mjs'
       - 'scripts/apply-source-location-overrides.mjs'
+      - 'data/source-youtube-overrides.json'
       - 'data/source-location-overrides.json'
       - 'data/source-batch-008.json'
       - 'data/source-batch-008-fill.json'
@@ -83,12 +86,19 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/apply-source-batch.mjs data/source-batch-014.json
+      - name: Apply verified YouTube source identity overrides
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/apply-source-youtube-overrides.mjs
       - name: Apply verified source location overrides
         run: node scripts/apply-source-location-overrides.mjs
       - name: Validate source contract
         run: node scripts/validate-sources.mjs
-      - name: Check rolling playlist sweep script
-        run: node --check scripts/budgeted-playlist-sweep.mjs
+      - name: Check acquisition hardening scripts
+        run: |
+          node --check scripts/budgeted-playlist-sweep.mjs
+          node --check scripts/apply-source-youtube-overrides.mjs
+          node --check scripts/enforce-stream-channel-identity.mjs
       - name: Select discovery mode
         id: mode
         shell: bash
@@ -120,6 +130,10 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_PLAYLIST_SWEEP_BUDGET: '40'
         run: node scripts/budgeted-playlist-sweep.mjs
+      - name: Enforce stream channel identity
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/enforce-stream-channel-identity.mjs
       - name: Apply title classification precedence
         run: node scripts/correct-title-classification.mjs
       - name: Archive ended streams and build source stats
