@@ -98,6 +98,8 @@ jobs:
         run: node scripts/apply-source-youtube-overrides.mjs
       - name: Apply verified source location overrides
         run: node scripts/apply-source-location-overrides.mjs
+      - name: Repair missing uploads playlists before validation
+        run: node scripts/repair-missing-uploads-playlists.mjs
       - name: Validate source contract
         run: node scripts/validate-sources.mjs
       - name: Check acquisition hardening scripts
