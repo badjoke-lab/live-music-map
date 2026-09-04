@@ -1,0 +1,249 @@
+[
+  {
+    "schema_version": 2,
+    "id": "operavision",
+    "name": "OperaVision",
+    "operator_name": "Opera Europa",
+    "type": "digital_opera_platform",
+    "country": "Belgium",
+    "country_code": "BE",
+    "region": "Brussels-Capital",
+    "city": "Brussels",
+    "location": {
+      "lat": 50.8503,
+      "lon": 4.3517,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Brussels, Belgium (Opera Europa)"
+    },
+    "genres": ["Classical", "Opera", "Vocal"],
+    "formats": ["opera_stream", "concert", "live_performance"],
+    "languages": ["Multi-language"],
+    "official_site": "https://operavision.eu/",
+    "schedule_url": "https://operavision.eu/",
+    "youtube_url": "https://www.youtube.com/channel/UCBTlXPAfOx300RZfWNw8-qg",
+    "status": "recurring",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["trailer", "teaser", "interview", "podcast", "behind the scenes"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://operavision.eu/",
+        "supports": ["identity", "source_location"]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://operavision.eu/faq",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCBTlXPAfOx300RZfWNw8-qg",
+        "supports": ["official_channel", "music_live_capability"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "OperaVision is operated by Opera Europa and periodically streams full operas, concerts and competitions live on YouTube. Brussels is the operator base; individual productions occur across partner opera houses.",
+    "youtube_channel_id": "UCBTlXPAfOx300RZfWNw8-qg",
+    "youtube_uploads_playlist_id": "UUBTlXPAfOx300RZfWNw8-qg"
+  },
+  {
+    "schema_version": 2,
+    "id": "ard-klassik",
+    "name": "ARD Klassik",
+    "operator_name": "ARD (lead: SWR and BR)",
+    "type": "public_media",
+    "country": "Germany",
+    "country_code": "DE",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "operator_base",
+      "label": "Germany (ARD Klassik network)"
+    },
+    "genres": ["Classical", "Opera", "Orchestral", "Chamber Music"],
+    "formats": ["concert", "opera_stream", "live_performance"],
+    "languages": ["German"],
+    "official_site": "https://www.ardmediathek.de/klassik",
+    "schedule_url": "https://www.ardmediathek.de/klassik",
+    "youtube_url": "https://www.youtube.com/channel/UCgSO-M9hotp-0h7LYNp2oOg",
+    "status": "recurring",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [],
+      "deny_title_patterns": ["doku", "documentary", "interview", "talk", "podcast", "trailer"],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.ardmediathek.de/klassik",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.swr.de/unternehmen/kommunikation/ard-klassik-startet-youtube-kanal-100.html",
+        "supports": ["official_channel", "music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCgSO-M9hotp-0h7LYNp2oOg",
+        "supports": ["official_channel", "music_live_capability"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "ARD Klassik is a Germany-wide public-media classical channel. Network-level location is kept at country precision; event-level concert location should override it.",
+    "youtube_channel_id": "UCgSO-M9hotp-0h7LYNp2oOg",
+    "youtube_uploads_playlist_id": "UUgSO-M9hotp-0h7LYNp2oOg"
+  },
+  {
+    "schema_version": 2,
+    "id": "kennedy-center",
+    "name": "The Kennedy Center",
+    "operator_name": "John F. Kennedy Center for the Performing Arts",
+    "type": "performing_arts_center",
+    "country": "United States",
+    "country_code": "US",
+    "region": "District of Columbia",
+    "city": "Washington",
+    "location": {
+      "lat": 38.8957,
+      "lon": -77.0559,
+      "precision": "venue_exact",
+      "role": "source_base",
+      "label": "The Kennedy Center, Washington, DC"
+    },
+    "genres": ["Multi-genre", "Classical", "Jazz", "Folk", "Contemporary"],
+    "formats": ["concert", "live_performance"],
+    "languages": ["English"],
+    "official_site": "https://www.kennedy-center.org/",
+    "schedule_url": "https://www.kennedy-center.org/whats-on/millennium-stage/",
+    "youtube_url": "https://www.youtube.com/channel/UCeJesXuEK5ERsyh-0DvM4PQ",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["millennium stage", "concert", "music", "orchestra", "symphony", "jazz", "live"],
+      "deny_title_patterns": ["interview", "panel", "lecture", "talk", "trailer", "promo", "behind the scenes"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kennedy-center.org/",
+        "supports": ["identity", "source_location"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.kennedy-center.org/whats-on/millennium-stage/2026/april/joe-jencks/",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCeJesXuEK5ERsyh-0DvM4PQ",
+        "supports": ["official_channel", "music_live_capability"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "The Kennedy Center channel mixes music and other performing-arts/editorial material. Millennium Stage and explicit music-performance livestreams are admitted; ambiguous non-music content fails closed.",
+    "youtube_channel_id": "UCeJesXuEK5ERsyh-0DvM4PQ",
+    "youtube_uploads_playlist_id": "UUeJesXuEK5ERsyh-0DvM4PQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "mbc-kpop",
+    "name": "MBCkpop",
+    "operator_name": "Munhwa Broadcasting Corporation (MBC)",
+    "type": "music_broadcaster",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Seoul, South Korea"
+    },
+    "genres": ["K-pop", "Pop"],
+    "formats": ["music_show", "live_performance"],
+    "languages": ["Korean"],
+    "official_site": "https://program.imbc.com/musiccore",
+    "schedule_url": "https://program.imbc.com/musiccore",
+    "youtube_url": "https://www.youtube.com/channel/UCe52oeb7Xv_KaJsEzcKXJJg",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["쇼! 음악중심", "music core", "kpop live stream", "라이브", "live"],
+      "deny_title_patterns": ["interview", "behind", "fancam", "직캠", "teaser", "preview", "shorts"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://program.imbc.com/musiccore",
+        "supports": ["identity", "schedule_pattern", "source_location"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCe52oeb7Xv_KaJsEzcKXJJg",
+        "supports": ["official_channel", "music_live_capability"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "MBCkpop carries recurring Show! Music Core livestreams alongside clips and fancams. Admission is restricted to explicit live/music-show titles; ordinary uploaded clips and fancams are excluded.",
+    "youtube_channel_id": "UCe52oeb7Xv_KaJsEzcKXJJg",
+    "youtube_uploads_playlist_id": "UUe52oeb7Xv_KaJsEzcKXJJg"
+  }
+]
