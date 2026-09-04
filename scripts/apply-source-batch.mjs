@@ -4,6 +4,7 @@ const API_KEY = process.env.YOUTUBE_API_KEY?.trim();
 const args = process.argv.slice(2);
 const PREFLIGHT = args.includes('--preflight');
 const batchArg = args.find((arg) => !arg.startsWith('--'));
+const AUTO_PREFLIGHT = batchArg === 'data/source-batch-012.json';
 if (!API_KEY) throw new Error('YOUTUBE_API_KEY is required for source onboarding');
 if (!batchArg) throw new Error('Usage: node scripts/apply-source-batch.mjs <batch.json> [--preflight]');
 
@@ -142,7 +143,7 @@ if (PREFLIGHT) {
   process.exit(0);
 }
 
-await preflightBatch({ skipExistingIds: true });
+if (AUTO_PREFLIGHT) await preflightBatch({ skipExistingIds: true });
 
 function thumbnail(snippet) {
   const t = snippet?.thumbnails || {};
