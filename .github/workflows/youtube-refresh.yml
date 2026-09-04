@@ -25,7 +25,6 @@ on:
       - 'data/source-batch-012.json'
       - 'data/source-batch-014.json'
       - 'data/source-batch-015.json'
-      - 'data/source-batch-016.json'
       - 'data/sources.json'
       - 'data/youtube-state.json'
       - '.github/workflows/youtube-refresh.yml'
@@ -93,14 +92,6 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/apply-source-batch.mjs data/source-batch-015.json
-      - name: Preflight approved source batch 016
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: node scripts/apply-source-batch.mjs data/source-batch-016.json --preflight
-      - name: Apply approved source batch 016 and seed current live
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: node scripts/apply-source-batch.mjs data/source-batch-016.json
       - name: Apply verified YouTube source identity overrides
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
