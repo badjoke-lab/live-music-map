@@ -42,7 +42,7 @@
     "country_code": "CA",
     "region": null,
     "city": null,
-    "location": {"lat": 56.1304, "lon": -106.3468, "precision": "country_only", "role": "operator_base", "label": "Canada"},
+    "location": {"lat": 56.1304, "lon": -106.3468, "precision": "unknown", "role": "operator_base", "label": "Canada"},
     "genres": ["Electronic", "Future Bass", "Chillstep", "Ambient", "Lofi", "Melodic Electronic"],
     "formats": ["music_radio_live", "continuous_stream"],
     "languages": ["English"],
