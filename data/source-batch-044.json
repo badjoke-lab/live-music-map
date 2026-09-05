@@ -9,28 +9,9 @@
     "country_code": "GB",
     "region": "England",
     "city": "London",
-    "location": {
-      "lat": 51.5072,
-      "lon": -0.1276,
-      "precision": "operator_city_only",
-      "role": "operator_base",
-      "label": "London, UK"
-    },
-    "genres": [
-      "Electronic",
-      "House",
-      "Techno",
-      "UK Garage",
-      "Drum & Bass",
-      "Disco",
-      "Trance",
-      "Bass"
-    ],
-    "formats": [
-      "dj_set",
-      "live_performance",
-      "music_event_stream"
-    ],
+    "location": {"lat": 51.5072, "lon": -0.1276, "precision": "operator_city_only", "role": "operator_base", "label": "London, UK"},
+    "genres": ["Electronic", "House", "Techno", "UK Garage", "Drum & Bass", "Disco", "Trance", "Bass"],
+    "formats": ["dj_set", "live_performance", "music_event_stream"],
     "languages": ["English"],
     "official_site": "https://mixmag.net/",
     "schedule_url": "https://mixmag.net/feature/lab-ldn",
@@ -40,62 +21,19 @@
     "lifecycle_status": "active",
     "music_live_policy": {
       "mode": "mixed",
-      "allow_title_patterns": [
-        "Mixmag Lab",
-        "The Mixmag Lab",
-        "The Lab LDN",
-        "The Lab LA",
-        "The Lab NYC"
-      ],
-      "deny_title_patterns": [
-        "interview",
-        "podcast",
-        "talk",
-        "documentary",
-        "tutorial",
-        "how to",
-        "trailer",
-        "teaser",
-        "recap",
-        "highlights",
-        "shorts",
-        "replay"
-      ],
+      "allow_title_patterns": ["Mixmag Lab", "The Mixmag Lab", "The Lab LDN", "The Lab LA", "The Lab NYC"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "documentary", "tutorial", "how to", "trailer", "teaser", "recap", "highlights", "shorts", "replay"],
       "require_schedule_match_when_ambiguous": true,
       "require_source_allow_match": true
     },
-    "verification": {
-      "official_channel": true,
-      "music_live_capable": true,
-      "last_verified_at": "2026-09-06"
-    },
+    "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-06"},
     "evidence": [
-      {
-        "kind": "official_site",
-        "url": "https://mixmag.net/",
-        "supports": ["identity"]
-      },
-      {
-        "kind": "official_schedule",
-        "url": "https://mixmag.net/feature/lab-ldn",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      },
-      {
-        "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/channel/UCQdCIrTpkhEH5Z8KPsn7NvQ",
-        "supports": ["official_channel"]
-      },
-      {
-        "kind": "official_event_page",
-        "url": "https://www.youtube.com/watch?v=NeVs1pM3nEs",
-        "supports": ["music_live_capability"]
-      }
+      {"kind": "official_site", "url": "https://mixmag.net/", "supports": ["identity"]},
+      {"kind": "official_schedule", "url": "https://mixmag.net/feature/lab-ldn", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCQdCIrTpkhEH5Z8KPsn7NvQ", "supports": ["official_channel"]},
+      {"kind": "official_event_page", "url": "https://www.youtube.com/watch?v=NeVs1pM3nEs", "supports": ["music_live_capability"]}
     ],
-    "acquisition": {
-      "enabled": true,
-      "method": "youtube_atom_feed",
-      "priority": "high"
-    },
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "Mixmag's 2026 Lab page describes The Mixmag Lab London as a live-streamed event series and directs viewers to the Mixmag YouTube channel. Only Lab-branded live events are admitted; editorial, interviews, tutorials, promos, recaps and replays fail closed.",
     "youtube_channel_id": "UCQdCIrTpkhEH5Z8KPsn7NvQ",
     "youtube_uploads_playlist_id": "UUQdCIrTpkhEH5Z8KPsn7NvQ"
@@ -110,28 +48,9 @@
     "country_code": "GB",
     "region": "England",
     "city": "London",
-    "location": {
-      "lat": 51.5072,
-      "lon": -0.1276,
-      "precision": "operator_city_only",
-      "role": "operator_base",
-      "label": "London, UK"
-    },
-    "genres": [
-      "Electronic",
-      "House",
-      "Techno",
-      "Trance",
-      "Drum & Bass",
-      "UK Garage",
-      "Bass",
-      "EDM"
-    ],
-    "formats": [
-      "dj_set",
-      "live_performance",
-      "music_event_stream"
-    ],
+    "location": {"lat": 51.5072, "lon": -0.1276, "precision": "operator_city_only", "role": "operator_base", "label": "London, UK"},
+    "genres": ["Electronic", "House", "Techno", "Trance", "Drum & Bass", "UK Garage", "Bass", "EDM"],
+    "formats": ["dj_set", "live_performance", "music_event_stream"],
     "languages": ["English"],
     "official_site": "https://djmag.com/",
     "schedule_url": "https://djmag.com/video",
@@ -141,154 +60,22 @@
     "lifecycle_status": "active",
     "music_live_policy": {
       "mode": "mixed",
-      "allow_title_patterns": [
-        "DJ Mag HQ",
-        "Live From DJ Mag",
-        "Live from DJ Mag",
-        "DJ Mag Live"
-      ],
-      "deny_title_patterns": [
-        "interview",
-        "podcast",
-        "talk",
-        "documentary",
-        "tutorial",
-        "how to",
-        "trailer",
-        "teaser",
-        "recap",
-        "highlights",
-        "shorts",
-        "replay"
-      ],
+      "allow_title_patterns": ["DJ Mag HQ", "Live From DJ Mag", "Live from DJ Mag", "DJ Mag Live"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "documentary", "tutorial", "how to", "trailer", "teaser", "recap", "highlights", "shorts", "replay"],
       "require_schedule_match_when_ambiguous": true,
       "require_source_allow_match": true
     },
-    "verification": {
-      "official_channel": true,
-      "music_live_capable": true,
-      "last_verified_at": "2026-09-06"
-    },
+    "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-06"},
     "evidence": [
-      {
-        "kind": "official_site",
-        "url": "https://djmag.com/",
-        "supports": ["identity"]
-      },
-      {
-        "kind": "official_schedule",
-        "url": "https://djmag.com/information/how-pitch-dj-mag",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      },
-      {
-        "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/channel/UCJEKlziKdxoos1qbptjGgLg",
-        "supports": ["official_channel"]
-      },
-      {
-        "kind": "official_event_page",
-        "url": "https://djmag.com/news/tom-swoon-play-exclusive-live-dj-set-dj-mag-hq",
-        "supports": ["music_live_capability"]
-      }
+      {"kind": "official_site", "url": "https://djmag.com/", "supports": ["identity"]},
+      {"kind": "official_schedule", "url": "https://djmag.com/information/how-pitch-dj-mag", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCJEKlziKdxoos1qbptjGgLg", "supports": ["official_channel"]},
+      {"kind": "official_event_page", "url": "https://djmag.com/news/tom-swoon-play-exclusive-live-dj-set-dj-mag-hq", "supports": ["music_live_capability"]}
     ],
-    "acquisition": {
-      "enabled": true,
-      "method": "youtube_atom_feed",
-      "priority": "high"
-    },
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "DJ Mag states that it hosts regular live streams and its official archive documents DJ Mag HQ sets streamed live on the DJ Mag YouTube channel. Strict title scope admits DJ Mag-branded live sets only and rejects editorial/promotional/replay content.",
     "youtube_channel_id": "UCJEKlziKdxoos1qbptjGgLg",
     "youtube_uploads_playlist_id": "UUJEKlziKdxoos1qbptjGgLg"
-  },
-  {
-    "schema_version": 2,
-    "id": "kbs-world-music-bank",
-    "name": "KBS WORLD TV / Music Bank",
-    "operator_name": "KBS WORLD",
-    "type": "music_broadcaster",
-    "country": "South Korea",
-    "country_code": "KR",
-    "region": "Seoul",
-    "city": "Seoul",
-    "location": {
-      "lat": 37.5665,
-      "lon": 126.978,
-      "precision": "city_confirmed",
-      "role": "source_base",
-      "label": "Seoul, South Korea"
-    },
-    "genres": [
-      "K-pop",
-      "Pop",
-      "Hip-hop",
-      "R&B",
-      "Dance",
-      "Ballad"
-    ],
-    "formats": [
-      "music_tv_show",
-      "live_performance",
-      "music_event_stream"
-    ],
-    "languages": ["Korean", "English"],
-    "official_site": "https://world.kbs.co.kr/",
-    "schedule_url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=425120&menu_cate=tvguide",
-    "youtube_url": "https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig",
-    "status": "scheduled",
-    "schedule_pattern": "recurring",
-    "lifecycle_status": "active",
-    "music_live_policy": {
-      "mode": "mixed",
-      "allow_title_patterns": [
-        "Music Bank",
-        "뮤직뱅크"
-      ],
-      "deny_title_patterns": [
-        "interview",
-        "behind",
-        "behind the scenes",
-        "preview",
-        "trailer",
-        "teaser",
-        "recap",
-        "highlights",
-        "shorts",
-        "1hr loop",
-        "loop"
-      ],
-      "require_schedule_match_when_ambiguous": true,
-      "require_source_allow_match": true
-    },
-    "verification": {
-      "official_channel": true,
-      "music_live_capable": true,
-      "last_verified_at": "2026-09-06"
-    },
-    "evidence": [
-      {
-        "kind": "official_site",
-        "url": "https://world.kbs.co.kr/",
-        "supports": ["identity"]
-      },
-      {
-        "kind": "official_schedule",
-        "url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=425120&menu_cate=tvguide",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      },
-      {
-        "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig",
-        "supports": ["official_channel"]
-      }
-    ],
-    "acquisition": {
-      "enabled": true,
-      "method": "youtube_atom_feed",
-      "priority": "high"
-    },
-    "note": "KBS WORLD explicitly states that Music Bank is live streamed on the KBS WORLD TV YouTube channel every Friday. Because the channel carries dramas and general entertainment, only Music Bank-branded live records are admitted; loops, previews, interviews and non-live programming fail closed.",
-    "youtube_channel_id": "UC5BMQOsAB8hKUyHu9KI6yig",
-    "youtube_uploads_playlist_id": "UU5BMQOsAB8hKUyHu9KI6yig"
   },
   {
     "schema_version": 2,
@@ -300,28 +87,9 @@
     "country_code": "US",
     "region": "California",
     "city": "Los Angeles",
-    "location": {
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "precision": "operator_city_only",
-      "role": "operator_base",
-      "label": "Los Angeles, California"
-    },
-    "genres": [
-      "EDM",
-      "House",
-      "Techno",
-      "Trance",
-      "Bass",
-      "Drum & Bass",
-      "Hard Dance"
-    ],
-    "formats": [
-      "festival_stream",
-      "dj_set",
-      "live_performance",
-      "music_event_stream"
-    ],
+    "location": {"lat": 34.0522, "lon": -118.2437, "precision": "operator_city_only", "role": "operator_base", "label": "Los Angeles, California"},
+    "genres": ["EDM", "House", "Techno", "Trance", "Bass", "Drum & Bass", "Hard Dance"],
+    "formats": ["festival_stream", "dj_set", "live_performance", "music_event_stream"],
     "languages": ["English"],
     "official_site": "https://www.insomniac.com/",
     "schedule_url": "https://www.insomniac.com/livestream-/",
@@ -331,64 +99,19 @@
     "lifecycle_status": "active",
     "music_live_policy": {
       "mode": "mixed",
-      "allow_title_patterns": [
-        "EDC",
-        "Electric Daisy Carnival",
-        "Beyond Wonderland",
-        "Escape Halloween",
-        "Dreamstate",
-        "HARD Summer",
-        "Nocturnal Wonderland"
-      ],
-      "deny_title_patterns": [
-        "interview",
-        "podcast",
-        "talk",
-        "news",
-        "trailer",
-        "teaser",
-        "recap",
-        "highlights",
-        "shorts",
-        "replay",
-        "after movie",
-        "aftermovie"
-      ],
+      "allow_title_patterns": ["EDC", "Electric Daisy Carnival", "Beyond Wonderland", "Escape Halloween", "Dreamstate", "HARD Summer", "Nocturnal Wonderland"],
+      "deny_title_patterns": ["interview", "podcast", "talk", "news", "trailer", "teaser", "recap", "highlights", "shorts", "replay", "after movie", "aftermovie"],
       "require_schedule_match_when_ambiguous": true,
       "require_source_allow_match": true
     },
-    "verification": {
-      "official_channel": true,
-      "music_live_capable": true,
-      "last_verified_at": "2026-09-06"
-    },
+    "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-06"},
     "evidence": [
-      {
-        "kind": "official_site",
-        "url": "https://www.insomniac.com/",
-        "supports": ["identity"]
-      },
-      {
-        "kind": "official_schedule",
-        "url": "https://www.insomniac.com/livestream-/",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      },
-      {
-        "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA",
-        "supports": ["official_channel"]
-      },
-      {
-        "kind": "official_event_page",
-        "url": "https://www.youtube.com/live/iageZvRexTU",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      }
+      {"kind": "official_site", "url": "https://www.insomniac.com/", "supports": ["identity"]},
+      {"kind": "official_schedule", "url": "https://www.insomniac.com/livestream-/", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA", "supports": ["official_channel"]},
+      {"kind": "official_event_page", "url": "https://www.youtube.com/live/iageZvRexTU", "supports": ["music_live_capability", "schedule_pattern"]}
     ],
-    "acquisition": {
-      "enabled": true,
-      "method": "youtube_atom_feed",
-      "priority": "high"
-    },
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "Insomniac's 2026 EDC Las Vegas broadcast used multiple official YouTube live feeds. Only named Insomniac music-festival streams are admitted; recap, replay, promotional and non-performance programming fail closed. Event locations override the Los Angeles operator base when available.",
     "youtube_channel_id": "UCr45VhwCBYwMfdN-gz7W_OA",
     "youtube_uploads_playlist_id": "UUr45VhwCBYwMfdN-gz7W_OA"
@@ -403,26 +126,9 @@
     "country_code": "KR",
     "region": "Seoul",
     "city": "Seoul",
-    "location": {
-      "lat": 37.5665,
-      "lon": 126.978,
-      "precision": "operator_city_only",
-      "role": "operator_base",
-      "label": "Seoul, South Korea"
-    },
-    "genres": [
-      "K-pop",
-      "Pop",
-      "Hip-hop",
-      "R&B",
-      "Dance"
-    ],
-    "formats": [
-      "festival_stream",
-      "concert",
-      "live_performance",
-      "music_event_stream"
-    ],
+    "location": {"lat": 37.5665, "lon": 126.978, "precision": "operator_city_only", "role": "operator_base", "label": "Seoul, South Korea"},
+    "genres": ["K-pop", "Pop", "Hip-hop", "R&B", "Dance"],
+    "formats": ["festival_stream", "concert", "live_performance", "music_event_stream"],
     "languages": ["Korean", "English", "Japanese"],
     "official_site": "https://www.kconofficial.com/",
     "schedule_url": "https://www.kconofficial.com/",
@@ -432,67 +138,19 @@
     "lifecycle_status": "active",
     "music_live_policy": {
       "mode": "mixed",
-      "allow_title_patterns": [
-        "LIVE I KCON",
-        "M COUNTDOWN",
-        "MCOUNTDOWN",
-        "ARTIST STAGE",
-        "X STAGE"
-      ],
-      "deny_title_patterns": [
-        "red carpet",
-        "meet & greet",
-        "meet and greet",
-        "check-in",
-        "check in",
-        "loading",
-        "interview",
-        "talk",
-        "behind",
-        "trailer",
-        "teaser",
-        "recap",
-        "highlights",
-        "shorts",
-        "re-streaming",
-        "restream",
-        "replay"
-      ],
+      "allow_title_patterns": ["LIVE I KCON", "M COUNTDOWN", "MCOUNTDOWN", "ARTIST STAGE", "X STAGE"],
+      "deny_title_patterns": ["red carpet", "meet & greet", "meet and greet", "check-in", "check in", "loading", "interview", "talk", "behind", "trailer", "teaser", "recap", "highlights", "shorts", "re-streaming", "restream", "replay"],
       "require_schedule_match_when_ambiguous": true,
       "require_source_allow_match": true
     },
-    "verification": {
-      "official_channel": true,
-      "music_live_capable": true,
-      "last_verified_at": "2026-09-06"
-    },
+    "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-06"},
     "evidence": [
-      {
-        "kind": "official_site",
-        "url": "https://www.kconofficial.com/",
-        "supports": ["identity"]
-      },
-      {
-        "kind": "official_schedule",
-        "url": "https://catchon-front.cjenm.com/en/news/kcon-japan-2026-wraps-with-starstudded-lineup-expanded-klifestyle-experiences/",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      },
-      {
-        "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/channel/UC2aul0Y3jUJ9sMzOhWPT9AA",
-        "supports": ["official_channel"]
-      },
-      {
-        "kind": "official_event_page",
-        "url": "https://www.youtube.com/watch?v=6GsvqcwLHus",
-        "supports": ["music_live_capability", "schedule_pattern"]
-      }
+      {"kind": "official_site", "url": "https://www.kconofficial.com/", "supports": ["identity"]},
+      {"kind": "official_schedule", "url": "https://catchon-front.cjenm.com/en/news/kcon-japan-2026-wraps-with-starstudded-lineup-expanded-klifestyle-experiences/", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UC2aul0Y3jUJ9sMzOhWPT9AA", "supports": ["official_channel"]},
+      {"kind": "official_event_page", "url": "https://www.youtube.com/watch?v=6GsvqcwLHus", "supports": ["music_live_capability", "schedule_pattern"]}
     ],
-    "acquisition": {
-      "enabled": true,
-      "method": "youtube_atom_feed",
-      "priority": "high"
-    },
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
     "note": "CJ ENM confirms KCON JAPAN 2026 was livestreamed globally on YouTube, and the official KCON channel retains the actual 2026 live event. Only performance-stage titles are admitted; red carpet, meet-and-greet, check-in, loading, re-streaming and other K-culture programming fail closed. Event locations override the Seoul operator base when available.",
     "youtube_channel_id": "UC2aul0Y3jUJ9sMzOhWPT9AA",
     "youtube_uploads_playlist_id": "UU2aul0Y3jUJ9sMzOhWPT9AA"
