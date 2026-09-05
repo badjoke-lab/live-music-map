@@ -3,6 +3,7 @@
 // Add a capital point here before admitting a new country_only source.
 window.COUNTRY_REFERENCE_POINT_KIND = 'capital';
 window.COUNTRY_REFERENCE_POINTS = Object.freeze({
+  CA: [45.4215, -75.6972],   // Ottawa
   DE: [52.5167, 13.4],       // Berlin
   FR: [48.8667, 2.3333],     // Paris
   GB: [51.5072, -0.1276],    // London
