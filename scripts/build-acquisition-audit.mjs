@@ -109,26 +109,23 @@ function parseLog(log) {
 }
 
 const runResponse = await github(`/actions/workflows/${encodeURIComponent(WORKFLOW)}/runs?branch=main&status=completed&per_page=50`);
-const successful = (runResponse.workflow_runs || [])
-  .filter((run) => run.conclusion === 'success')
-  .slice(0, SAMPLE_SIZE);
-
-if (successful.length < SAMPLE_SIZE) {
-  throw new Error(`Need at least ${SAMPLE_SIZE} successful ${WORKFLOW} runs; found ${successful.length}`);
-}
-
+const completedRuns = runResponse.workflow_runs || [];
 const runs = [];
-for (const run of successful) {
+
+for (const run of completedRuns) {
+  if (runs.length >= SAMPLE_SIZE) break;
   const jobsResponse = await github(`/actions/runs/${run.id}/jobs?per_page=100`);
-  const refreshJob = (jobsResponse.jobs || []).find((job) => job.name === 'refresh');
+  const refreshJob = (jobsResponse.jobs || []).find((job) => job.name === 'refresh' && job.conclusion === 'success');
   if (!refreshJob?.id || !refreshJob.started_at || !refreshJob.completed_at) continue;
 
   const log = await github(`/actions/jobs/${refreshJob.id}/logs`, { accept: 'text/plain', text: true });
   const parsed = parseLog(log);
+  if (!parsed.refresh || !Number.isFinite(parsed.source_count)) continue;
   const durationSeconds = Math.max(0, Math.round((Date.parse(refreshJob.completed_at) - Date.parse(refreshJob.started_at)) / 1000));
   runs.push({
     run_id: run.id,
     run_number: run.run_number,
+    workflow_conclusion: run.conclusion,
     event: run.event,
     head_sha: run.head_sha,
     created_at: run.created_at,
@@ -138,7 +135,7 @@ for (const run of successful) {
 }
 
 if (runs.length < SAMPLE_SIZE) {
-  throw new Error(`Only ${runs.length}/${SAMPLE_SIZE} successful runs had readable refresh job logs`);
+  throw new Error(`Need at least ${SAMPLE_SIZE} successful refresh jobs with readable metrics; found ${runs.length}`);
 }
 
 const sampled = runs.slice(0, SAMPLE_SIZE);
@@ -157,6 +154,7 @@ const report = {
   repository: REPOSITORY,
   workflow: WORKFLOW,
   sample_size: sampled.length,
+  sample_rule: 'latest completed workflow runs whose refresh job succeeded and exposed acquisition metrics, regardless of later Pages deployment result',
   percentile_method: 'nearest_rank',
   api_unit_method: {
     description: 'Estimated YouTube Data API v3 quota units used by acquisition steps whose calls are logged. Atom feed HTTP fetches cost 0 YouTube Data API units.',
@@ -190,7 +188,7 @@ await fs.writeFile(outputPath, `${JSON.stringify(report, null, 2)}\n`);
 const failurePct = report.summary.rss_failure_rate === null
   ? 'n/a'
   : `${(report.summary.rss_failure_rate * 100).toFixed(2)}%`;
-const md = `# Acquisition audit\n\nGenerated: ${report.generated_at}\n\nThis is the M3 production audit for the YouTube acquisition path. It samples the latest ${report.sample_size} successful \`${WORKFLOW}\` refresh jobs on \`main\`.\n\n## Runtime\n\n- p50: **${report.summary.duration_seconds.p50}s**\n- p95: **${report.summary.duration_seconds.p95}s**\n- max: **${report.summary.duration_seconds.max}s**\n\n## Estimated YouTube Data API quota\n\n- p50: **${report.summary.api_units_estimated.p50} units/run**\n- p95: **${report.summary.api_units_estimated.p95} units/run**\n- max: **${report.summary.api_units_estimated.max} units/run**\n- total across sample: **${report.summary.api_units_total_sample} units**\n\nThe estimate counts logged \`channels.list\`, \`playlistItems.list\`, and \`videos.list\` calls at one unit each. Official Atom feed fetches cost zero YouTube Data API quota units. The rolling sweep estimate also counts one \`videos.list\` call per targeted processor. \`search.list\` is not used by this refresh path.\n\n## Reliability\n\n- RSS fetches: **${report.summary.rss_fetches_total}**\n- RSS failures: **${report.summary.rss_failures_total}** (${failurePct})\n- rolling playlist failures: **${report.summary.rolling_playlist_failures_total}**\n- stream/source channel mismatches removed: **${report.summary.identity_mismatches_removed_total}**\n- source preservations caused by failed detail batches: **${report.summary.detail_failure_preserved_sources_total}**\n- source count represented in sample: **${report.summary.source_count_min ?? 'n/a'}–${report.summary.source_count_max ?? 'n/a'}**\n\n## Decision rule\n\nDo not increase the global polling cadence or add a permanent extra polling tier from source-count intuition alone. Use this audit plus the active/upcoming coverage audit to decide whether the current RSS + rolling playlist sweep is empirically insufficient. WebSub remains a complement/pilot path, not a replacement for the bridge.\n`;
+const md = `# Acquisition audit\n\nGenerated: ${report.generated_at}\n\nThis is the M3 production audit for the YouTube acquisition path. It samples the latest ${report.sample_size} completed \`${WORKFLOW}\` runs whose **refresh job itself succeeded**, even if a later Pages deployment failed for an unrelated reason.\n\n## Runtime\n\n- p50: **${report.summary.duration_seconds.p50}s**\n- p95: **${report.summary.duration_seconds.p95}s**\n- max: **${report.summary.duration_seconds.max}s**\n\n## Estimated YouTube Data API quota\n\n- p50: **${report.summary.api_units_estimated.p50} units/run**\n- p95: **${report.summary.api_units_estimated.p95} units/run**\n- max: **${report.summary.api_units_estimated.max} units/run**\n- total across sample: **${report.summary.api_units_total_sample} units**\n\nThe estimate counts logged \`channels.list\`, \`playlistItems.list\`, and \`videos.list\` calls at one unit each. Official Atom feed fetches cost zero YouTube Data API quota units. The rolling sweep estimate also counts one \`videos.list\` call per targeted processor. \`search.list\` is not used by this refresh path.\n\n## Reliability\n\n- RSS fetches: **${report.summary.rss_fetches_total}**\n- RSS failures: **${report.summary.rss_failures_total}** (${failurePct})\n- rolling playlist failures: **${report.summary.rolling_playlist_failures_total}**\n- stream/source channel mismatches removed: **${report.summary.identity_mismatches_removed_total}**\n- source preservations caused by failed detail batches: **${report.summary.detail_failure_preserved_sources_total}**\n- source count represented in sample: **${report.summary.source_count_min ?? 'n/a'}–${report.summary.source_count_max ?? 'n/a'}**\n\n## Decision rule\n\nDo not increase the global polling cadence or add a permanent extra polling tier from source-count intuition alone. Use this audit plus the active/upcoming coverage audit to decide whether the current RSS + rolling playlist sweep is empirically insufficient. WebSub remains a complement/pilot path, not a replacement for the bridge.\n`;
 await fs.writeFile(markdownPath, md);
 
 console.log(`Acquisition audit: ${sampled.length} runs, duration p50/p95/max=${report.summary.duration_seconds.p50}/${report.summary.duration_seconds.p95}/${report.summary.duration_seconds.max}s, API units p50/p95/max=${report.summary.api_units_estimated.p50}/${report.summary.api_units_estimated.p95}/${report.summary.api_units_estimated.max}, RSS failures=${rssFailures}/${rssFetches}.`);
