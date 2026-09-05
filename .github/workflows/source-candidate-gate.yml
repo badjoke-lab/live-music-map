@@ -1,0 +1,50 @@
+name: Source candidate gate
+
+on:
+  pull_request:
+    paths:
+      - 'data/source-batch-*.json'
+      - 'data/source-onboarding-policy.json'
+      - 'scripts/validate-source-batch-policy.mjs'
+      - 'scripts/apply-source-batch.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  candidate-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Determine candidate batches
+        id: batches
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}" -- 'data/source-batch-*.json' > /tmp/batches.txt
+          else
+            git diff --name-only HEAD^ HEAD -- 'data/source-batch-*.json' > /tmp/batches.txt || true
+          fi
+          cat /tmp/batches.txt
+          if [[ ! -s /tmp/batches.txt ]]; then
+            echo "No source batch file changed; policy/script-only change."
+          fi
+      - name: Enforce project source policy and canonical duplicate gate
+        shell: bash
+        run: |
+          while IFS= read -r batch; do
+            [[ -z "$batch" ]] && continue
+            node scripts/validate-source-batch-policy.mjs "$batch"
+          done < /tmp/batches.txt
+      - name: Resolve and verify YouTube identities against canonical
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        shell: bash
+        run: |
+          while IFS= read -r batch; do
+            [[ -z "$batch" ]] && continue
+            node scripts/apply-source-batch.mjs "$batch" --preflight
+          done < /tmp/batches.txt

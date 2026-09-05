@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'data/source-batch-022.json'
+      - 'data/source-onboarding-policy.json'
+      - 'scripts/validate-source-batch-policy.mjs'
       - '.github/workflows/source-batch-022.yml'
   workflow_dispatch:
 
@@ -24,6 +26,8 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
+      - name: Enforce source onboarding policy
+        run: node scripts/validate-source-batch-policy.mjs data/source-batch-022.json
       - name: Preflight source batch 022
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}

@@ -1,0 +1,37 @@
+name: Roll back paused batch 022 classical sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rollback-batch-022-classical.yml'
+      - 'data/source-batch-022.json'
+      - 'scripts/remove-sources-by-id.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Remove paused classical sources
+        run: node scripts/remove-sources-by-id.mjs osaka-international-chamber-music-competition-festa boston-civic-symphony
+      - name: Validate source contract
+        run: node scripts/validate-sources.mjs
+      - name: Commit canonical rollback
+        shell: bash
+        run: |
+          if git diff --quiet -- data/sources.json; then
+            echo "No canonical rollback changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sources.json
+          git commit -m "Remove paused classical batch 022 sources"
+          git push origin HEAD:main
