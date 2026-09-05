@@ -13,7 +13,7 @@
     "scheduled_start": "2017-12-03T10:00:00Z",
     "actual_start": "2017-12-03T09:12:50Z",
     "actual_end": null,
-    "concurrent_viewers": 48,
+    "concurrent_viewers": 52,
     "thumbnail": "https://i.ytimg.com/vi/d8Oc90QevaI/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -49,18 +49,18 @@
     "scheduled_start": "2018-03-23T23:00:00Z",
     "actual_start": "2018-03-23T12:22:44Z",
     "actual_end": null,
-    "concurrent_viewers": 197,
+    "concurrent_viewers": 201,
     "thumbnail": "https://i.ytimg.com/vi/WsDyRAPFBC8/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_live_unspecified",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "24/7"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -85,18 +85,18 @@
     "scheduled_start": "2018-11-29T06:00:00Z",
     "actual_start": "2018-11-29T06:12:32Z",
     "actual_end": null,
-    "concurrent_viewers": 323,
+    "concurrent_viewers": 314,
     "thumbnail": "https://i.ytimg.com/vi/fEvM-OUbaKs/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -125,14 +125,14 @@
     "thumbnail": "https://i.ytimg.com/vi/DSGyEsJ17cI/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "bgm"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -157,18 +157,18 @@
     "scheduled_start": "2019-01-15T15:20:00Z",
     "actual_start": "2019-01-15T15:20:16Z",
     "actual_end": null,
-    "concurrent_viewers": 918,
+    "concurrent_viewers": 901,
     "thumbnail": "https://i.ytimg.com/vi/Dx5qFachd3A/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -193,18 +193,18 @@
     "scheduled_start": "2020-03-21T14:05:00Z",
     "actual_start": "2020-03-21T14:07:07Z",
     "actual_end": null,
-    "concurrent_viewers": 188,
+    "concurrent_viewers": 190,
     "thumbnail": "https://i.ytimg.com/vi/7NOSDKb0HlU/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "beats"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -229,18 +229,18 @@
     "scheduled_start": "2020-03-21T16:00:00Z",
     "actual_start": "2020-03-21T13:22:51Z",
     "actual_end": null,
-    "concurrent_viewers": 395,
+    "concurrent_viewers": 376,
     "thumbnail": "https://i.ytimg.com/vi/5yx6BWlEVcY/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "chillhop radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -265,18 +265,18 @@
     "scheduled_start": "2020-03-28T00:19:07Z",
     "actual_start": "2020-03-28T00:20:22Z",
     "actual_end": null,
-    "concurrent_viewers": 1545,
+    "concurrent_viewers": 1501,
     "thumbnail": "https://i.ytimg.com/vi/36YnV9STBqc/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "24/7"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -301,7 +301,7 @@
     "scheduled_start": "2020-04-22T01:58:47Z",
     "actual_start": "2020-04-22T02:04:37Z",
     "actual_end": null,
-    "concurrent_viewers": 166,
+    "concurrent_viewers": 164,
     "thumbnail": "https://i.ytimg.com/vi/SORD03t7nlo/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -337,7 +337,7 @@
     "scheduled_start": "2020-04-28T12:18:55Z",
     "actual_start": "2020-04-28T12:24:01Z",
     "actual_end": null,
-    "concurrent_viewers": 64,
+    "concurrent_viewers": 58,
     "thumbnail": "https://i.ytimg.com/vi/HdiKqg23D0o/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -373,7 +373,7 @@
     "scheduled_start": "2020-05-24T02:26:30Z",
     "actual_start": "2020-05-24T02:41:13Z",
     "actual_end": null,
-    "concurrent_viewers": 31,
+    "concurrent_viewers": 28,
     "thumbnail": "https://i.ytimg.com/vi/4V0uYRtPyfE/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -409,7 +409,7 @@
     "scheduled_start": "2020-05-29T11:55:26Z",
     "actual_start": "2020-05-29T12:01:57Z",
     "actual_end": null,
-    "concurrent_viewers": 22,
+    "concurrent_viewers": 18,
     "thumbnail": "https://i.ytimg.com/vi/Og4vzwkbfU8/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -445,18 +445,18 @@
     "scheduled_start": "2020-06-30T01:50:09Z",
     "actual_start": "2020-06-30T01:52:40Z",
     "actual_end": null,
-    "concurrent_viewers": 69,
+    "concurrent_viewers": 71,
     "thumbnail": "https://i.ytimg.com/vi/_KJRF4zBgQM/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "background_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -481,7 +481,7 @@
     "scheduled_start": "2020-09-11T13:20:00Z",
     "actual_start": "2020-09-11T13:19:31Z",
     "actual_end": null,
-    "concurrent_viewers": 124,
+    "concurrent_viewers": 117,
     "thumbnail": "https://i.ytimg.com/vi/ljBAlUOQAGE/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -517,7 +517,7 @@
     "scheduled_start": "2021-03-15T09:10:00Z",
     "actual_start": "2021-03-15T09:07:59Z",
     "actual_end": null,
-    "concurrent_viewers": 146,
+    "concurrent_viewers": 141,
     "thumbnail": "https://i.ytimg.com/vi/6uddGul0oAc/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -553,7 +553,7 @@
     "scheduled_start": "2021-05-17T09:30:00Z",
     "actual_start": "2021-05-17T09:23:09Z",
     "actual_end": null,
-    "concurrent_viewers": 67,
+    "concurrent_viewers": 53,
     "thumbnail": "https://i.ytimg.com/vi/gzxFyqJfUeo/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -589,18 +589,18 @@
     "scheduled_start": "2021-06-13T11:30:00Z",
     "actual_start": "2021-06-13T11:16:44Z",
     "actual_end": null,
-    "concurrent_viewers": 372,
+    "concurrent_viewers": 373,
     "thumbnail": "https://i.ytimg.com/vi/9UMxZofMNbA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "24/7"
+        "type": "youtube_title_rule",
+        "value": "background_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -625,7 +625,7 @@
     "scheduled_start": "2022-05-17T03:40:00Z",
     "actual_start": "2022-05-17T03:50:07Z",
     "actual_end": null,
-    "concurrent_viewers": 3,
+    "concurrent_viewers": 2,
     "thumbnail": "https://i.ytimg.com/vi/w5er1MrAGrw/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -661,7 +661,7 @@
     "scheduled_start": "2022-09-15T04:05:00Z",
     "actual_start": "2022-09-15T04:12:57Z",
     "actual_end": null,
-    "concurrent_viewers": 14,
+    "concurrent_viewers": 15,
     "thumbnail": "https://i.ytimg.com/vi/4bmMiocAhvk/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -697,18 +697,18 @@
     "scheduled_start": "2022-09-26T05:30:00Z",
     "actual_start": "2022-09-26T05:29:08Z",
     "actual_end": null,
-    "concurrent_viewers": 42,
+    "concurrent_viewers": 44,
     "thumbnail": "https://i.ytimg.com/vi/m52ynxt1mOo/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "24/7"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -733,18 +733,18 @@
     "scheduled_start": "2022-11-21T10:40:00Z",
     "actual_start": "2022-11-21T10:44:33Z",
     "actual_end": null,
-    "concurrent_viewers": 427,
+    "concurrent_viewers": 401,
     "thumbnail": "https://i.ytimg.com/vi/-5ajVJ1Yxlg/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "relaxing music"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -769,7 +769,7 @@
     "scheduled_start": "2023-07-02T21:20:00Z",
     "actual_start": "2023-07-02T21:30:22Z",
     "actual_end": null,
-    "concurrent_viewers": 1239,
+    "concurrent_viewers": 1266,
     "thumbnail": "https://i.ytimg.com/vi/4xDzrJKXOOY/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -805,18 +805,18 @@
     "scheduled_start": "2023-08-02T21:25:00Z",
     "actual_start": "2023-08-02T21:23:27Z",
     "actual_end": null,
-    "concurrent_viewers": 251,
+    "concurrent_viewers": 254,
     "thumbnail": "https://i.ytimg.com/vi/rPjez8z61rI/sddefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -841,18 +841,18 @@
     "scheduled_start": "2023-11-14T05:30:00Z",
     "actual_start": "2023-11-14T05:28:08Z",
     "actual_end": null,
-    "concurrent_viewers": 137,
+    "concurrent_viewers": 131,
     "thumbnail": "https://i.ytimg.com/vi/IkmLXvBfVv0/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "24/7"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -877,7 +877,7 @@
     "scheduled_start": "2025-06-04T14:15:00Z",
     "actual_start": "2025-06-04T14:17:51Z",
     "actual_end": null,
-    "concurrent_viewers": 620,
+    "concurrent_viewers": 579,
     "thumbnail": "https://i.ytimg.com/vi/xORCbIptqcc/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -917,14 +917,14 @@
     "thumbnail": "https://i.ytimg.com/vi/E_XmwjgRLz8/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "work_study_relax_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -949,18 +949,18 @@
     "scheduled_start": "2025-10-28T16:00:00Z",
     "actual_start": "2025-10-28T16:00:16Z",
     "actual_end": null,
-    "concurrent_viewers": 105,
+    "concurrent_viewers": 93,
     "thumbnail": "https://i.ytimg.com/vi/i6WzngxTnBA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "beats"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -985,18 +985,18 @@
     "scheduled_start": "2025-11-14T08:30:00Z",
     "actual_start": "2025-11-14T08:33:27Z",
     "actual_end": null,
-    "concurrent_viewers": 145,
+    "concurrent_viewers": 141,
     "thumbnail": "https://i.ytimg.com/vi/w9S5ID3nfOc/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1021,18 +1021,18 @@
     "scheduled_start": "2025-11-15T01:45:00Z",
     "actual_start": "2025-11-15T01:47:01Z",
     "actual_end": null,
-    "concurrent_viewers": 145,
+    "concurrent_viewers": 148,
     "thumbnail": "https://i.ytimg.com/vi/hjr_nnFAbp0/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1057,7 +1057,7 @@
     "scheduled_start": "2025-11-15T01:55:00Z",
     "actual_start": "2025-11-15T01:57:06Z",
     "actual_end": null,
-    "concurrent_viewers": 262,
+    "concurrent_viewers": 251,
     "thumbnail": "https://i.ytimg.com/vi/F8UTuGvow7E/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1093,7 +1093,7 @@
     "scheduled_start": "2025-11-27T17:00:00Z",
     "actual_start": "2025-11-27T17:02:01Z",
     "actual_end": null,
-    "concurrent_viewers": 102,
+    "concurrent_viewers": 87,
     "thumbnail": "https://i.ytimg.com/vi/A8jDx9TLMQc/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1129,18 +1129,18 @@
     "scheduled_start": "2025-11-30T20:25:00Z",
     "actual_start": "2025-11-30T20:30:26Z",
     "actual_end": null,
-    "concurrent_viewers": 167,
+    "concurrent_viewers": 160,
     "thumbnail": "https://i.ytimg.com/vi/blAFxjhg62k/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1165,7 +1165,7 @@
     "scheduled_start": "2026-01-08T13:45:00Z",
     "actual_start": "2026-01-08T14:12:17Z",
     "actual_end": null,
-    "concurrent_viewers": 1488,
+    "concurrent_viewers": 1443,
     "thumbnail": "https://i.ytimg.com/vi/6He9sFxFv8Y/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1201,7 +1201,7 @@
     "scheduled_start": "2026-02-11T06:40:00Z",
     "actual_start": "2026-02-11T06:39:01Z",
     "actual_end": null,
-    "concurrent_viewers": 326,
+    "concurrent_viewers": 331,
     "thumbnail": "https://i.ytimg.com/vi/O_-NjHABJIg/sddefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1237,7 +1237,7 @@
     "scheduled_start": "2026-04-14T16:15:00Z",
     "actual_start": "2026-04-14T16:19:17Z",
     "actual_end": null,
-    "concurrent_viewers": 159,
+    "concurrent_viewers": 158,
     "thumbnail": "https://i.ytimg.com/vi/N0snMcR6aaA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1273,7 +1273,7 @@
     "scheduled_start": "2026-05-07T20:40:00Z",
     "actual_start": "2026-05-07T20:41:18Z",
     "actual_end": null,
-    "concurrent_viewers": 104,
+    "concurrent_viewers": 108,
     "thumbnail": "https://i.ytimg.com/vi/91nWHPfeaWw/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1309,18 +1309,18 @@
     "scheduled_start": "2026-05-21T15:20:00Z",
     "actual_start": "2026-05-21T15:45:56Z",
     "actual_end": null,
-    "concurrent_viewers": 2569,
+    "concurrent_viewers": 2467,
     "thumbnail": "https://i.ytimg.com/vi/JD-kMIpDfnY/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1345,18 +1345,18 @@
     "scheduled_start": "2026-05-22T13:45:00Z",
     "actual_start": "2026-05-22T13:55:12Z",
     "actual_end": null,
-    "concurrent_viewers": 847,
+    "concurrent_viewers": 834,
     "thumbnail": "https://i.ytimg.com/vi/E2vONfzoyRI/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1381,18 +1381,18 @@
     "scheduled_start": "2026-05-26T13:45:00Z",
     "actual_start": "2026-05-26T13:53:26Z",
     "actual_end": null,
-    "concurrent_viewers": 540,
+    "concurrent_viewers": 542,
     "thumbnail": "https://i.ytimg.com/vi/1Tl2FtV06qo/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1417,7 +1417,7 @@
     "scheduled_start": "2026-05-29T17:50:00Z",
     "actual_start": "2026-05-29T17:53:17Z",
     "actual_end": null,
-    "concurrent_viewers": 61,
+    "concurrent_viewers": 62,
     "thumbnail": "https://i.ytimg.com/vi/HQm2ke2NBS0/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1453,18 +1453,18 @@
     "scheduled_start": "2026-06-03T11:00:00Z",
     "actual_start": "2026-06-03T12:56:32Z",
     "actual_end": null,
-    "concurrent_viewers": 244,
+    "concurrent_viewers": 234,
     "thumbnail": "https://i.ytimg.com/vi/GSfT7H87zq4/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "work_study_relax_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1489,18 +1489,18 @@
     "scheduled_start": "2026-07-01T15:15:00Z",
     "actual_start": "2026-07-01T15:18:47Z",
     "actual_end": null,
-    "concurrent_viewers": 831,
+    "concurrent_viewers": 791,
     "thumbnail": "https://i.ytimg.com/vi/VAlMDl00mYY/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1525,7 +1525,7 @@
     "scheduled_start": "2026-07-02T14:30:00Z",
     "actual_start": "2026-07-02T13:30:08Z",
     "actual_end": null,
-    "concurrent_viewers": 19,
+    "concurrent_viewers": 18,
     "thumbnail": "https://i.ytimg.com/vi/SVKQ1EZCMNs/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1561,18 +1561,18 @@
     "scheduled_start": "2026-07-13T16:30:00Z",
     "actual_start": "2026-07-13T15:58:33Z",
     "actual_end": null,
-    "concurrent_viewers": 43,
+    "concurrent_viewers": 38,
     "thumbnail": "https://i.ytimg.com/vi/kj6vgffSGw4/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "focus"
+        "type": "youtube_title_rule",
+        "value": "work_study_relax_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1597,7 +1597,7 @@
     "scheduled_start": "2026-07-19T19:00:00Z",
     "actual_start": "2026-07-19T18:11:44Z",
     "actual_end": null,
-    "concurrent_viewers": 17,
+    "concurrent_viewers": 16,
     "thumbnail": "https://i.ytimg.com/vi/iwHys_I17qM/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1633,7 +1633,7 @@
     "scheduled_start": "2026-07-21T17:30:00Z",
     "actual_start": "2026-07-21T17:04:23Z",
     "actual_end": null,
-    "concurrent_viewers": 32,
+    "concurrent_viewers": 31,
     "thumbnail": "https://i.ytimg.com/vi/0qQwTj1tcfM/maxresdefault_live.jpg",
     "embed_allowed": false,
     "youtube_category_id": "10",
@@ -1669,7 +1669,7 @@
     "scheduled_start": "2026-08-08T11:40:00Z",
     "actual_start": "2026-08-08T11:43:22Z",
     "actual_end": null,
-    "concurrent_viewers": 52,
+    "concurrent_viewers": 50,
     "thumbnail": "https://i.ytimg.com/vi/rX7c2h5-JiY/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1705,7 +1705,7 @@
     "scheduled_start": "2026-08-08T11:50:00Z",
     "actual_start": "2026-08-08T11:52:37Z",
     "actual_end": null,
-    "concurrent_viewers": 23,
+    "concurrent_viewers": 28,
     "thumbnail": "https://i.ytimg.com/vi/s4oMtx3EWiA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1741,7 +1741,7 @@
     "scheduled_start": "2026-08-11T06:20:00Z",
     "actual_start": "2026-08-11T06:20:16Z",
     "actual_end": null,
-    "concurrent_viewers": 10,
+    "concurrent_viewers": 7,
     "thumbnail": "https://i.ytimg.com/vi/bydg18KZxAY/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1781,14 +1781,14 @@
     "thumbnail": "https://i.ytimg.com/vi/0muHFBSiybw/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1813,7 +1813,7 @@
     "scheduled_start": "2026-08-13T13:35:40Z",
     "actual_start": "2026-08-13T13:36:47Z",
     "actual_end": null,
-    "concurrent_viewers": 16,
+    "concurrent_viewers": 20,
     "thumbnail": "https://i.ytimg.com/vi/EZP9z9CMdYg/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -1853,14 +1853,14 @@
     "thumbnail": "https://i.ytimg.com/vi/AkZuqGvcLME/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_live_unspecified",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "anjunadeep"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1921,18 +1921,18 @@
     "scheduled_start": "2026-08-19T07:40:00Z",
     "actual_start": "2026-08-19T07:43:43Z",
     "actual_end": null,
-    "concurrent_viewers": 7479,
+    "concurrent_viewers": 7466,
     "thumbnail": "https://i.ytimg.com/vi/rFZHOHl-L8A/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "lofi_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -1982,7 +1982,7 @@
   {
     "id": "youtube:tvn4ha8LmtQ",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "live",
     "source_id": "chill-music-lab",
     "youtube_video_id": "tvn4ha8LmtQ",
@@ -1993,18 +1993,18 @@
     "scheduled_start": "2026-08-20T14:45:00Z",
     "actual_start": "2026-08-20T14:07:49Z",
     "actual_end": null,
-    "concurrent_viewers": 5,
+    "concurrent_viewers": 8,
     "thumbnail": "https://i.ytimg.com/vi/tvn4ha8LmtQ/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "focus"
+        "type": "youtube_title_rule",
+        "value": "work_study_relax_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2018,7 +2018,7 @@
   {
     "id": "youtube:iUHppo3fGnI",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "live",
     "source_id": "chill-music-lab",
     "youtube_video_id": "iUHppo3fGnI",
@@ -2029,7 +2029,7 @@
     "scheduled_start": "2026-08-22T14:45:00Z",
     "actual_start": "2026-08-22T13:41:08Z",
     "actual_end": null,
-    "concurrent_viewers": 12,
+    "concurrent_viewers": 10,
     "thumbnail": "https://i.ytimg.com/vi/iUHppo3fGnI/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2054,7 +2054,7 @@
   {
     "id": "youtube:zv-VylyJCxM",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "live",
     "source_id": "chill-music-lab",
     "youtube_video_id": "zv-VylyJCxM",
@@ -2065,7 +2065,7 @@
     "scheduled_start": "2026-08-27T18:00:00Z",
     "actual_start": "2026-08-27T13:42:08Z",
     "actual_end": null,
-    "concurrent_viewers": 11,
+    "concurrent_viewers": 14,
     "thumbnail": "https://i.ytimg.com/vi/zv-VylyJCxM/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2101,7 +2101,7 @@
     "scheduled_start": "2026-08-28T05:08:58Z",
     "actual_start": "2026-08-28T05:12:16Z",
     "actual_end": null,
-    "concurrent_viewers": 3,
+    "concurrent_viewers": 4,
     "thumbnail": "https://i.ytimg.com/vi/UoD9bHahVlc/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2137,7 +2137,7 @@
     "scheduled_start": "2026-08-28T20:30:00Z",
     "actual_start": "2026-08-28T19:38:24Z",
     "actual_end": null,
-    "concurrent_viewers": 2,
+    "concurrent_viewers": 1,
     "thumbnail": "https://i.ytimg.com/vi/a_x_2IuGLK8/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2209,18 +2209,18 @@
     "scheduled_start": "2026-09-02T09:50:00Z",
     "actual_start": "2026-09-02T18:05:36Z",
     "actual_end": null,
-    "concurrent_viewers": 313,
+    "concurrent_viewers": 289,
     "thumbnail": "https://i.ytimg.com/vi/OmnaqLn0aPs/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "radio"
+        "type": "youtube_title_rule",
+        "value": "24/7_background_radio"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2234,7 +2234,7 @@
   {
     "id": "youtube:v24Op4hPgNM",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "live",
     "source_id": "eurovision-song-contest",
     "youtube_video_id": "v24Op4hPgNM",
@@ -2245,7 +2245,7 @@
     "scheduled_start": "2026-09-02T21:45:05Z",
     "actual_start": "2026-09-02T21:50:15Z",
     "actual_end": null,
-    "concurrent_viewers": 209,
+    "concurrent_viewers": 186,
     "thumbnail": "https://i.ytimg.com/vi/v24Op4hPgNM/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "22",
@@ -2270,7 +2270,7 @@
   {
     "id": "youtube:hDFQUKKVSGo",
     "origin": "youtube_api",
-    "discovery": "youtube_atom_feed",
+    "discovery": "uploads_playlist_daily_backstop",
     "query_event_type": "live",
     "source_id": "chill-music-lab",
     "youtube_video_id": "hDFQUKKVSGo",
@@ -2281,7 +2281,7 @@
     "scheduled_start": "2026-09-03T14:45:00Z",
     "actual_start": "2026-09-03T14:02:33Z",
     "actual_end": null,
-    "concurrent_viewers": 28,
+    "concurrent_viewers": 27,
     "thumbnail": "https://i.ytimg.com/vi/hDFQUKKVSGo/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2317,18 +2317,18 @@
     "scheduled_start": "2026-09-03T16:00:00Z",
     "actual_start": "2026-09-03T16:00:13Z",
     "actual_end": null,
-    "concurrent_viewers": 79,
+    "concurrent_viewers": 74,
     "thumbnail": "https://i.ytimg.com/vi/OnHFCAKl3IA/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "background_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2353,18 +2353,18 @@
     "scheduled_start": "2026-09-03T19:00:00Z",
     "actual_start": "2026-09-03T19:00:18Z",
     "actual_end": null,
-    "concurrent_viewers": 65,
+    "concurrent_viewers": 66,
     "thumbnail": "https://i.ytimg.com/vi/zJNEt_RBIl0/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "work_study_relax_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2389,7 +2389,7 @@
     "scheduled_start": "2026-09-04T09:25:00Z",
     "actual_start": "2026-09-04T09:24:06Z",
     "actual_end": null,
-    "concurrent_viewers": 73,
+    "concurrent_viewers": 79,
     "thumbnail": "https://i.ytimg.com/vi/lO5HNd_qbP4/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2425,18 +2425,18 @@
     "scheduled_start": "2026-09-04T16:00:00Z",
     "actual_start": "2026-09-04T16:00:08Z",
     "actual_end": null,
-    "concurrent_viewers": 508,
+    "concurrent_viewers": 456,
     "thumbnail": "https://i.ytimg.com/vi/2ch8jn7508s/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "background_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2461,18 +2461,18 @@
     "scheduled_start": "2026-09-04T19:00:00Z",
     "actual_start": "2026-09-04T18:59:18Z",
     "actual_end": null,
-    "concurrent_viewers": 545,
+    "concurrent_viewers": 506,
     "thumbnail": "https://i.ytimg.com/vi/sG5-h_jfYrs/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_radio_live",
-    "music_live_decision": "source_allow_pattern",
+    "classifier_version": 3,
+    "music_live_status": "rejected",
+    "content_type": "background_music",
+    "music_live_decision": "background_stream_exclusion",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "live"
+        "type": "youtube_title_rule",
+        "value": "work_study_relax_music"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2497,7 +2497,7 @@
     "scheduled_start": "2026-09-04T19:00:00Z",
     "actual_start": "2026-09-04T18:37:49Z",
     "actual_end": null,
-    "concurrent_viewers": 39,
+    "concurrent_viewers": 45,
     "thumbnail": "https://i.ytimg.com/vi/HjEZkDgi7sU/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2533,7 +2533,7 @@
     "scheduled_start": "2026-09-05T07:45:00Z",
     "actual_start": "2026-09-05T07:45:31Z",
     "actual_end": null,
-    "concurrent_viewers": 1346,
+    "concurrent_viewers": 1439,
     "thumbnail": "https://i.ytimg.com/vi/s6YtrmMlMYU/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2569,7 +2569,7 @@
     "scheduled_start": "2026-09-05T08:00:00Z",
     "actual_start": "2026-09-05T07:46:51Z",
     "actual_end": null,
-    "concurrent_viewers": 83,
+    "concurrent_viewers": 74,
     "thumbnail": "https://i.ytimg.com/vi/fWu_LyQQD0E/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2605,7 +2605,7 @@
     "scheduled_start": "2026-09-05T10:00:00Z",
     "actual_start": "2026-09-05T09:52:21Z",
     "actual_end": null,
-    "concurrent_viewers": 4,
+    "concurrent_viewers": 7,
     "thumbnail": "https://i.ytimg.com/vi/H4j1KsSHWgE/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
@@ -2834,6 +2834,42 @@
     "location_rule": "unknown_until_verified"
   },
   {
+    "id": "youtube:-LhteU3Cn3k",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "upcoming",
+    "source_id": "the-lot-radio",
+    "youtube_video_id": "-LhteU3Cn3k",
+    "youtube_url": "https://www.youtube.com/watch?v=-LhteU3Cn3k",
+    "title": "Love Injection invites Benny Soto @TheLotRadio 09-05-2026",
+    "status": "upcoming",
+    "published_at": "2026-09-02T17:01:16Z",
+    "scheduled_start": "2026-09-05T16:00:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/-LhteU3Cn3k/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
+  },
+  {
     "id": "youtube:U7UNzcTgILY",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -2859,42 +2895,6 @@
       {
         "type": "youtube_metadata_pattern",
         "value": "dj set"
-      }
-    ],
-    "music_live_requires_schedule_match": false,
-    "genres": [],
-    "genre_status": "unknown",
-    "performers": [],
-    "venue": null,
-    "location": null,
-    "location_rule": "unknown_until_verified"
-  },
-  {
-    "id": "youtube:-LhteU3Cn3k",
-    "origin": "youtube_api",
-    "discovery": "youtube_atom_feed",
-    "query_event_type": "upcoming",
-    "source_id": "the-lot-radio",
-    "youtube_video_id": "-LhteU3Cn3k",
-    "youtube_url": "https://www.youtube.com/watch?v=-LhteU3Cn3k",
-    "title": "Love Injection invites Benny Soto @TheLotRadio 09-05-2026",
-    "status": "upcoming",
-    "published_at": "2026-09-02T17:01:16Z",
-    "scheduled_start": "2026-09-05T16:00:00Z",
-    "actual_start": null,
-    "actual_end": null,
-    "concurrent_viewers": null,
-    "thumbnail": "https://i.ytimg.com/vi/-LhteU3Cn3k/maxresdefault_live.jpg",
-    "embed_allowed": true,
-    "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_live_unspecified",
-    "music_live_decision": "verified_music_only_source",
-    "music_live_evidence": [
-      {
-        "type": "source_policy",
-        "value": "music_only"
       }
     ],
     "music_live_requires_schedule_match": false,
@@ -2978,6 +2978,42 @@
     "location_rule": "unknown_until_verified"
   },
   {
+    "id": "youtube:qEhpo6CPUrI",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "upcoming",
+    "source_id": "the-lot-radio",
+    "youtube_video_id": "qEhpo6CPUrI",
+    "youtube_url": "https://www.youtube.com/watch?v=qEhpo6CPUrI",
+    "title": "Fergus Jones @TheLotRadio 09-05-2026",
+    "status": "upcoming",
+    "published_at": "2026-09-02T17:04:43Z",
+    "scheduled_start": "2026-09-05T18:00:00Z",
+    "actual_start": null,
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/qEhpo6CPUrI/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified"
+  },
+  {
     "id": "youtube:OY7kFKZzzpo",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -3029,42 +3065,6 @@
     "actual_end": null,
     "concurrent_viewers": null,
     "thumbnail": "https://i.ytimg.com/vi/KENrplP8ZfQ/maxresdefault_live.jpg",
-    "embed_allowed": true,
-    "youtube_category_id": "10",
-    "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_live_unspecified",
-    "music_live_decision": "verified_music_only_source",
-    "music_live_evidence": [
-      {
-        "type": "source_policy",
-        "value": "music_only"
-      }
-    ],
-    "music_live_requires_schedule_match": false,
-    "genres": [],
-    "genre_status": "unknown",
-    "performers": [],
-    "venue": null,
-    "location": null,
-    "location_rule": "unknown_until_verified"
-  },
-  {
-    "id": "youtube:qEhpo6CPUrI",
-    "origin": "youtube_api",
-    "discovery": "youtube_atom_feed",
-    "query_event_type": "upcoming",
-    "source_id": "the-lot-radio",
-    "youtube_video_id": "qEhpo6CPUrI",
-    "youtube_url": "https://www.youtube.com/watch?v=qEhpo6CPUrI",
-    "title": "Fergus Jones @TheLotRadio 09-05-2026",
-    "status": "upcoming",
-    "published_at": "2026-09-02T17:04:43Z",
-    "scheduled_start": "2026-09-05T18:00:00Z",
-    "actual_start": null,
-    "actual_end": null,
-    "concurrent_viewers": null,
-    "thumbnail": "https://i.ytimg.com/vi/qEhpo6CPUrI/maxresdefault_live.jpg",
     "embed_allowed": true,
     "youtube_category_id": "10",
     "classifier_version": 1,
@@ -4657,7 +4657,7 @@
   {
     "id": "youtube:mQZD7sbZiQo",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "aria-awards",
     "youtube_video_id": "mQZD7sbZiQo",
@@ -5017,7 +5017,7 @@
   {
     "id": "youtube:uiXFs2yrgRM",
     "origin": "youtube_api",
-    "discovery": "uploads_playlist_daily_backstop",
+    "discovery": "youtube_atom_feed",
     "query_event_type": "upcoming",
     "source_id": "eurovision-song-contest",
     "youtube_video_id": "uiXFs2yrgRM",
