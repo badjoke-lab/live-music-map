@@ -1,0 +1,236 @@
+[
+  {
+    "schema_version": 2,
+    "id": "premio-btg-pactual-musica-brasileira",
+    "name": "Prêmio BTG Pactual da Música Brasileira",
+    "operator_name": "Prêmio BTG Pactual da Música Brasileira",
+    "type": "music_awards",
+    "country": "Brazil",
+    "country_code": "BR",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "operator_base",
+      "label": "Brazil (operator base)"
+    },
+    "genres": ["MPB", "Pop", "Rock", "Sertanejo", "Brazilian Music", "Multi-genre"],
+    "formats": ["award_show", "live_performance", "concert_stream"],
+    "languages": ["Portuguese"],
+    "official_site": "https://www.premiodamusica.com.br/",
+    "schedule_url": "https://www.premiodamusica.com.br/",
+    "youtube_url": "https://www.youtube.com/channel/UC7juW2QkItSpMpJUGIG8WxQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["ao vivo", "prêmio", "premio", "música brasileira", "musica brasileira", "show", "live"],
+      "deny_title_patterns": ["trailer", "teaser", "entrevista", "interview"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://www.premiodamusica.com.br/", "supports": ["identity", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UC7juW2QkItSpMpJUGIG8WxQ", "supports": ["official_channel", "music_live_capability"]},
+      {"kind": "official_event_page", "url": "https://www.youtube.com/watch?v=CU21myt4aHs", "supports": ["music_live_capability", "schedule_pattern"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "Official Brazilian music-awards source. The 33rd Prêmio BTG Pactual da Música Brasileira streamed live on YouTube on 2026-06-10 and included multiple live musical performances. Seasonal/annual source; award-only non-performance material should be filtered.",
+    "youtube_channel_id": "UC7juW2QkItSpMpJUGIG8WxQ",
+    "youtube_uploads_playlist_id": "UU7juW2QkItSpMpJUGIG8WxQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "sesc-sao-paulo",
+    "name": "Sesc São Paulo",
+    "operator_name": "Sesc São Paulo",
+    "type": "cultural_institution",
+    "country": "Brazil",
+    "country_code": "BR",
+    "region": "São Paulo",
+    "city": "São Paulo",
+    "location": {
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "São Paulo, Brazil"
+    },
+    "genres": ["MPB", "Samba", "Soul", "Pop", "Brazilian Music", "Multi-genre"],
+    "formats": ["live_performance", "concert_stream", "music_program"],
+    "languages": ["Portuguese"],
+    "official_site": "https://www.sescsp.org.br/",
+    "schedule_url": "https://www.sescsp.org.br/editorial/programa-bem-brasil-retorna-a-tv-cultura-com-shows-gratuitos-no-sesc-itaquera/",
+    "youtube_url": "https://www.youtube.com/channel/UCESs365L1Ccnq4q3J5yZ7nQ",
+    "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["bem brasil", "música", "musica", "show", "ao vivo", "live", "sesc ao vivo"],
+      "deny_title_patterns": ["teatro", "dança", "danca", "cinema", "debate", "entrevista", "interview", "talk"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://www.sescsp.org.br/", "supports": ["identity"]},
+      {"kind": "official_schedule", "url": "https://www.sescsp.org.br/editorial/programa-bem-brasil-retorna-a-tv-cultura-com-shows-gratuitos-no-sesc-itaquera/", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCESs365L1Ccnq4q3J5yZ7nQ", "supports": ["official_channel"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "Mixed cultural-institution channel. In 2026 Sesc São Paulo's Bem Brasil program streams live music performances on its official YouTube channel on Sundays; only explicitly identified music livestreams should be admitted.",
+    "youtube_channel_id": "UCESs365L1Ccnq4q3J5yZ7nQ",
+    "youtube_uploads_playlist_id": "UUESs365L1Ccnq4q3J5yZ7nQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "vorterix",
+    "name": "Vorterix",
+    "operator_name": "Vorterix",
+    "type": "music_media",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Buenos Aires",
+    "city": "Buenos Aires",
+    "location": {
+      "lat": -34.6037,
+      "lon": -58.3816,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Buenos Aires, Argentina"
+    },
+    "genres": ["Rock", "Alternative", "Pop", "Indie", "Multi-genre"],
+    "formats": ["live_performance", "festival_stream", "music_program"],
+    "languages": ["Spanish"],
+    "official_site": "https://www.vorterix.com/",
+    "schedule_url": "https://www.vorterix.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCvCTWHCbBC0b9UIeLeNs8ug",
+    "status": "mixed",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["en vivo", "show", "festival", "live", "banda", "recital", "música", "musica"],
+      "deny_title_patterns": ["entrevista", "interview", "podcast", "talk", "noticias", "news"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://www.vorterix.com/", "supports": ["identity", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCvCTWHCbBC0b9UIeLeNs8ug", "supports": ["official_channel", "music_live_capability"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "Argentina-based music/entertainment media channel with recurring YouTube live streams plus live band shows and festival transmissions. Mixed talk content must be excluded; event-specific locations override the operator base.",
+    "youtube_channel_id": "UCvCTWHCbBC0b9UIeLeNs8ug",
+    "youtube_uploads_playlist_id": "UUvCTWHCbBC0b9UIeLeNs8ug"
+  },
+  {
+    "schema_version": 2,
+    "id": "hiptv",
+    "name": "HipTV",
+    "operator_name": "HipTV",
+    "type": "music_tv",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "region": "Lagos",
+    "city": "Lagos",
+    "location": {
+      "lat": 6.5244,
+      "lon": 3.3792,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Lagos, Nigeria"
+    },
+    "genres": ["Afrobeats", "Hip-hop", "R&B", "Pop", "African Music"],
+    "formats": ["live_performance", "concert_stream", "music_tv_live"],
+    "languages": ["English"],
+    "official_site": "https://hiptv.tv/",
+    "schedule_url": "https://hiptv.tv/hiptv-archive/live-broadcasts/",
+    "youtube_url": "https://www.youtube.com/channel/UC_FJtrv0AfN7GQV-sZrlX9g",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["live broadcast", "live", "concert", "acoustic", "performance", "music", "festival", "afrobeats"],
+      "deny_title_patterns": ["interview", "news", "gossip", "talk", "trailer"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://hiptv.tv/", "supports": ["identity"]},
+      {"kind": "official_schedule", "url": "https://hiptv.tv/hiptv-archive/live-broadcasts/", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UC_FJtrv0AfN7GQV-sZrlX9g", "supports": ["official_channel"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "Nigeria-based music and urban-culture TV source with a dedicated live-broadcast archive and recurring concert/event coverage. Non-music entertainment/news streams must be filtered.",
+    "youtube_channel_id": "UC_FJtrv0AfN7GQV-sZrlX9g",
+    "youtube_uploads_playlist_id": "UU_FJtrv0AfN7GQV-sZrlX9g"
+  },
+  {
+    "schema_version": 2,
+    "id": "billboard-brasil",
+    "name": "Billboard Brasil",
+    "operator_name": "Billboard Brasil",
+    "type": "music_media",
+    "country": "Brazil",
+    "country_code": "BR",
+    "region": "São Paulo",
+    "city": "São Paulo",
+    "location": {
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "São Paulo, Brazil"
+    },
+    "genres": ["Pop", "MPB", "Sertanejo", "Funk", "Rap", "Brazilian Music", "Multi-genre"],
+    "formats": ["award_show", "live_performance", "music_event_stream"],
+    "languages": ["Portuguese"],
+    "official_site": "https://billboard.com.br/",
+    "schedule_url": "https://billboard.com.br/assista-wme-awards-2025-ao-vivo/",
+    "youtube_url": "https://www.youtube.com/channel/UCNi-0kjRodQzGIF1ro1xaUw",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["wme", "awards", "ao vivo", "live", "show", "música", "musica", "performance"],
+      "deny_title_patterns": ["interview", "entrevista", "podcast", "news", "notícias", "noticias", "talk"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://billboard.com.br/", "supports": ["identity"]},
+      {"kind": "official_event_page", "url": "https://billboard.com.br/assista-wme-awards-2025-ao-vivo/", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCNi-0kjRodQzGIF1ro1xaUw", "supports": ["official_channel"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "Brazilian music-media channel. Billboard Brasil carried the 2025 WME Awards live on YouTube with multiple music performances. Only explicitly identified music-event livestreams are admitted.",
+    "youtube_channel_id": "UCNi-0kjRodQzGIF1ro1xaUw",
+    "youtube_uploads_playlist_id": "UUNi-0kjRodQzGIF1ro1xaUw"
+  }
+]
