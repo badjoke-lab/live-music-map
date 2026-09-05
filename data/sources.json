@@ -14353,5 +14353,105 @@
     "note": "Official Avex channel carrying a-nation festival livestreams. In 2025 both festival days at Ajinomoto Stadium were streamed live for free on YouTube. The channel is mixed-purpose, so only titles explicitly tied to a-nation/live-event streaming are admitted.",
     "youtube_channel_id": "UC1oPBUWifc0QOOY8DEKhLuQ",
     "youtube_uploads_playlist_id": "UU1oPBUWifc0QOOY8DEKhLuQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "reggae-sumfest",
+    "name": "Reggae Sumfest",
+    "operator_name": "Downsound Entertainment Ltd.",
+    "type": "festival",
+    "country": "Jamaica",
+    "country_code": "JM",
+    "region": "Saint Ann",
+    "city": "Priory",
+    "location": {
+      "lat": 18.45,
+      "lon": -77.24,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Priory, Saint Ann, Jamaica"
+    },
+    "genres": [
+      "Reggae",
+      "Dancehall",
+      "Caribbean",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "official_site": "https://reggaesumfest.com/",
+    "schedule_url": "https://reggaesumfest.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCHWqekyGOTkdu8IlcapvJSw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "reggae sumfest",
+        "sumfest",
+        "festival night",
+        "livestream"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "press conference",
+        "trailer",
+        "teaser",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://reggaesumfest.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCHWqekyGOTkdu8IlcapvJSw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=l04M9pLj6Ks",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=c6Pfg1jOxj4",
+        "supports": [
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Jamaican reggae/dancehall festival source. The official Reggae Sumfest YouTube channel carried full festival-night livestreams in 2023 and 2025. The event location can change between editions; event-level location should override the source home when needed.",
+    "youtube_channel_id": "UCHWqekyGOTkdu8IlcapvJSw",
+    "youtube_uploads_playlist_id": "UUHWqekyGOTkdu8IlcapvJSw"
   }
 ]
