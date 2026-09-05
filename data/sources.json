@@ -14625,5 +14625,320 @@
     "note": "Brazilian music-media channel. Billboard Brasil carried the 2025 WME Awards live on YouTube with multiple music performances. Only explicitly identified music-event livestreams are admitted.",
     "youtube_channel_id": "UCNi-0kjRodQzGIF1ro1xaUw",
     "youtube_uploads_playlist_id": "UUNi-0kjRodQzGIF1ro1xaUw"
+  },
+  {
+    "schema_version": 2,
+    "id": "3music-tv",
+    "name": "3MUSIC TV",
+    "operator_name": "3Media Networks Limited",
+    "type": "music_tv",
+    "country": "Ghana",
+    "country_code": "GH",
+    "region": "Greater Accra",
+    "city": "Accra",
+    "location": {
+      "lat": 5.6037,
+      "lon": -0.187,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Accra, Ghana"
+    },
+    "genres": [
+      "Afrobeats",
+      "Hip-hop",
+      "Gospel",
+      "Pop",
+      "African Music",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_tv_live"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.3music.tv/",
+    "schedule_url": "https://www.3music.tv/section/news/article?nid=ebSqTCyruKCGYHqkBm4udNztFch",
+    "youtube_url": "https://www.youtube.com/channel/UCcvZrECWjP0Mj5Y_U9jxlGQ",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "3music awards",
+        "3music",
+        "live",
+        "performance",
+        "concert",
+        "awards",
+        "afrobeats",
+        "gospel"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "news",
+        "talk",
+        "podcast",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.3music.tv/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.3music.tv/section/news/article?nid=ebSqTCyruKCGYHqkBm4udNztFch",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCcvZrECWjP0Mj5Y_U9jxlGQ",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Ghana-based music TV/media source. 3Music states that the 3Music Awards run for several hours with multiple performances and are simulcast live on official 3Music YouTube/social handles. Only clearly identified music-event and performance livestreams should be admitted; news/talk content is excluded.",
+    "youtube_channel_id": "UCcvZrECWjP0Mj5Y_U9jxlGQ",
+    "youtube_uploads_playlist_id": "UUcvZrECWjP0Mj5Y_U9jxlGQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "golden-indie-music-awards",
+    "name": "Golden Indie Music Awards / 金音創作獎",
+    "operator_name": "Golden Indie Music Awards",
+    "type": "music_awards",
+    "country": "Taiwan",
+    "country_code": "TW",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "operator_base",
+      "label": "Taiwan (event series)"
+    },
+    "genres": [
+      "Rock",
+      "Electronic",
+      "Hip-hop",
+      "Jazz",
+      "R&B",
+      "Alternative",
+      "Folk",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Mandarin Chinese"
+    ],
+    "official_site": "https://tavis.tw/GIMA/15th/",
+    "schedule_url": "https://tavis.tw/GIMA/15th/show_live.html",
+    "youtube_url": "https://www.youtube.com/channel/UCn_aBy0P6o8_spQS7ZjvlSQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "金音",
+        "gima",
+        "golden indie",
+        "live",
+        "直播",
+        "頒獎",
+        "典禮",
+        "performance"
+      ],
+      "deny_title_patterns": [
+        "訪談",
+        "interview",
+        "trailer",
+        "teaser",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://tavis.tw/GIMA/15th/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://tavis.tw/GIMA/15th/show_live.html",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCn_aBy0P6o8_spQS7ZjvlSQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=QPgcQfm1NQQ",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official Taiwan indie-music awards source. The 2025 16th Golden Indie Music Awards ceremony streamed live on the official YouTube channel for more than four hours with multiple rock, electronic, hip-hop, jazz, R&B and alternative performances. Annual/seasonal source; promotional non-live clips should be filtered.",
+    "youtube_channel_id": "UCn_aBy0P6o8_spQS7ZjvlSQ",
+    "youtube_uploads_playlist_id": "UUn_aBy0P6o8_spQS7ZjvlSQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "kkbox",
+    "name": "KKBOX",
+    "operator_name": "KKBOX",
+    "type": "music_platform",
+    "country": "Taiwan",
+    "country_code": "TW",
+    "region": "Taipei",
+    "city": "Taipei",
+    "location": {
+      "lat": 25.033,
+      "lon": 121.5654,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Taipei, Taiwan"
+    },
+    "genres": [
+      "Mandopop",
+      "Pop",
+      "Rock",
+      "R&B",
+      "Hip-hop",
+      "K-pop",
+      "J-pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Mandarin Chinese"
+    ],
+    "official_site": "https://www.kkbox.com/",
+    "schedule_url": "https://a-www.kfs.io/tw/tc/column/showbiz-0-10262-1.html",
+    "youtube_url": "https://www.youtube.com/channel/UCWjDbk8VIEc_OYqsAyal-Cw",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "kkbox",
+        "風雲榜",
+        "music awards",
+        "live",
+        "直播",
+        "performance",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "訪談",
+        "podcast",
+        "trailer",
+        "teaser",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.kkbox.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://a-www.kfs.io/tw/tc/column/showbiz-0-10262-1.html",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCWjDbk8VIEc_OYqsAyal-Cw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=fqPBf9Fagyk",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Taiwan-based music platform and event source. KKBOX's official 2026 event information listed KKBOX YouTube as an official livestream platform for the 21st KKBOX Music Awards / 風雲榜, featuring 21 performers. Only explicitly documented event/performance livestreams should be admitted so general music-video uploads are excluded.",
+    "youtube_channel_id": "UCWjDbk8VIEc_OYqsAyal-Cw",
+    "youtube_uploads_playlist_id": "UUWjDbk8VIEc_OYqsAyal-Cw"
   }
 ]
