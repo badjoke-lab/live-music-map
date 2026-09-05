@@ -13853,5 +13853,368 @@
     "note": "Hospital Records is a London-based drum-and-bass label with official continuous YouTube radio/live programming. London is the operator base and must not be treated as the location of every streamed performance.",
     "youtube_channel_id": "UCw49uOTAJjGUdoAeUcp7tOg",
     "youtube_uploads_playlist_id": "UUw49uOTAJjGUdoAeUcp7tOg"
+  },
+  {
+    "schema_version": 2,
+    "id": "reona",
+    "name": "ReoNa",
+    "operator_name": null,
+    "type": "artist",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "country_only",
+      "role": "origin",
+      "label": "Japan"
+    },
+    "genres": [
+      "J-pop",
+      "Rock",
+      "Alternative Rock",
+      "Anime Music"
+    ],
+    "formats": [
+      "live_performance",
+      "concert_stream"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "official_site": "https://www.reona-reona.com/",
+    "schedule_url": "https://www.reona-reona.com/live/",
+    "youtube_url": "https://www.youtube.com/channel/UCyUhtF50BuUjr2jOhxF3IjQ",
+    "status": "event_based",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "concert",
+        "free live",
+        "生配信"
+      ],
+      "deny_title_patterns": [
+        "music video",
+        "official music video",
+        "lyric",
+        "trailer",
+        "teaser",
+        "interview"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.reona-reona.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCyUhtF50BuUjr2jOhxF3IjQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/581311",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official artist channel with event-based live performance streams. The 2026-03-07 Amami homecoming free concert was simulcast live on YouTube; ordinary music videos and premieres must not be treated as live-concert evidence.",
+    "youtube_channel_id": "UCyUhtF50BuUjr2jOhxF3IjQ",
+    "youtube_uploads_playlist_id": "UUyUhtF50BuUjr2jOhxF3IjQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "osaka-international-chamber-music-competition-festa",
+    "name": "Osaka International Chamber Music Competition & Festa",
+    "operator_name": "Japan Chamber Music Foundation",
+    "type": "music_competition",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Osaka",
+    "city": "Osaka",
+    "location": {
+      "lat": 34.6937,
+      "lon": 135.5023,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Osaka, Japan"
+    },
+    "genres": [
+      "Classical",
+      "Chamber Music",
+      "World Music",
+      "Folk"
+    ],
+    "formats": [
+      "competition_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "official_site": "https://jcmf.or.jp/12thcompetition-festa/en/",
+    "schedule_url": "https://jcmf.or.jp/12thcompetition-festa/en/",
+    "youtube_url": "https://www.youtube.com/@Osakachambermusic",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "competition",
+        "festa",
+        "showcase",
+        "コンクール",
+        "フェスタ",
+        "生配信"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "message",
+        "trailer",
+        "digest",
+        "special program"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://jcmf.or.jp/12thcompetition-festa/en/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/@Osakachambermusic",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The official 2026 competition/festa site explicitly states that performances are streamed live on YouTube. Some rounds also occur outside Osaka, so event-specific locations must override the Osaka event-home location.",
+    "youtube_channel_id": "UC5OGRwdKu8GKHn80Oarjp4Q",
+    "youtube_uploads_playlist_id": "UU5OGRwdKu8GKHn80Oarjp4Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "boston-civic-symphony",
+    "name": "Boston Civic Symphony",
+    "operator_name": "Boston Civic Symphony",
+    "type": "orchestra",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Massachusetts",
+    "city": "Boston",
+    "location": {
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Boston, Massachusetts, United States"
+    },
+    "genres": [
+      "Classical",
+      "Orchestral"
+    ],
+    "formats": [
+      "concert_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://bostoncivicsymphony.org/",
+    "schedule_url": "https://bostoncivicsymphony.org/youtube/",
+    "youtube_url": "https://www.youtube.com/user/civicsymphonyboston",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": [
+        "livestream",
+        "live",
+        "symphony",
+        "concert"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "talk",
+        "trailer"
+      ],
+      "require_schedule_match_when_ambiguous": false
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://bostoncivicsymphony.org/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/user/civicsymphonyboston",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://bostoncivicsymphony.org/youtube/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The orchestra's official YouTube page lists recurring concert livestreams, including 2026-03-28, 2026-04-26 and 2026-11-08. The legacy /user/ URL is intentionally resolved to its permanent UC ID during source-batch preflight.",
+    "youtube_channel_id": "UChUhzZ7nLS-2Sy3_-vLsTGQ",
+    "youtube_uploads_playlist_id": "UUhUhzZ7nLS-2Sy3_-vLsTGQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "gregory-burrus-productions",
+    "name": "Gregory Burrus Productions",
+    "operator_name": "Gregory Burrus Productions",
+    "type": "live_music_producer",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New Jersey",
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "operator_base",
+      "label": "Northern New Jersey, United States (operator base)"
+    },
+    "genres": [
+      "Jazz",
+      "R&B",
+      "Funk",
+      "Soul",
+      "Live Music"
+    ],
+    "formats": [
+      "live_performance",
+      "concert_stream",
+      "festival_stream"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://gregoryburrusproductions.com/",
+    "schedule_url": "https://gregoryburrusproductions.com/events/",
+    "youtube_url": "https://www.youtube.com/channel/UCf8W7q1qlz0yt5Ebcn4tkSQ",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "live",
+        "livestream",
+        "jazz",
+        "concert",
+        "festival"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://gregoryburrusproductions.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCf8W7q1qlz0yt5Ebcn4tkSQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://gregoryburrusproductions.com/event/rutgers-ijs-presents-the-greg-abate-quartet/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Live-music producer/promoter and streaming channel serving multiple Northern New Jersey venues. Current September 2026 Rutgers Institute of Jazz Studies/Clement's Place events explicitly direct viewers to this YouTube channel for the livestream; event-specific locations must override the operator-level location.",
+    "youtube_channel_id": "UCf8W7q1qlz0yt5Ebcn4tkSQ",
+    "youtube_uploads_playlist_id": "UUf8W7q1qlz0yt5Ebcn4tkSQ"
   }
 ]
