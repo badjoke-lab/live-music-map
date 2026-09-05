@@ -118,7 +118,7 @@ for (const run of completedRuns) {
   const refreshJob = (jobsResponse.jobs || []).find((job) => job.name === 'refresh' && job.conclusion === 'success');
   if (!refreshJob?.id || !refreshJob.started_at || !refreshJob.completed_at) continue;
 
-  const log = await github(`/actions/jobs/${refreshJob.id}/logs`, { accept: 'text/plain', text: true });
+  const log = await github(`/actions/jobs/${refreshJob.id}/logs`, { text: true });
   const parsed = parseLog(log);
   if (!parsed.refresh || !Number.isFinite(parsed.source_count)) continue;
   const durationSeconds = Math.max(0, Math.round((Date.parse(refreshJob.completed_at) - Date.parse(refreshJob.started_at)) / 1000));
@@ -183,7 +183,7 @@ const report = {
   runs: sampled
 };
 
-await fs.writeFile(outputPath, `${JSON.stringify(report, null, 2)}\n`);
+await fs.writeFile(outputPath, `${JSON.stringify(report, null,2)}\n`);
 
 const failurePct = report.summary.rss_failure_rate === null
   ? 'n/a'
