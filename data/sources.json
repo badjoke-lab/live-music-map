@@ -15107,5 +15107,125 @@
     "note": "Official TRACE music-media source with TRACE Awards livestream capability. YouTube API live metadata confirms the 2025 TRACE Awards full ceremony streamed on TRACE Music from 2025-05-23 14:46:38Z to 16:13:32Z. TRACE's own site identifies the 2025 Zanzibar awards and links the complete ceremony. TRACE Music is a mixed-purpose channel, so only deterministic live music-event and award-show streams are admitted. Event locations override the TRACE Global operator base.",
     "youtube_channel_id": "UCQbbxLP4yfIIy9exVtdipUQ",
     "youtube_uploads_playlist_id": "UUQbbxLP4yfIIy9exVtdipUQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "vix-musica",
+    "name": "ViX Música",
+    "operator_name": "TelevisaUnivision",
+    "type": "music_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Florida",
+    "city": "Miami",
+    "location": {
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Miami, Florida (TelevisaUnivision operator base)"
+    },
+    "genres": [
+      "Latin Pop",
+      "Regional Mexican",
+      "Reggaeton",
+      "Latin Urban",
+      "Rock en Español",
+      "Tropical",
+      "Multi-genre"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://vix.com/",
+    "schedule_url": "https://vix.com/es-es/detail/video-4958415",
+    "youtube_url": "https://www.youtube.com/channel/UCEltOcaOfMu7psU4Lp8SDBw",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "vix música sessions",
+        "vix musica sessions",
+        "canciones en vivo",
+        "presentación en vivo",
+        "presentacion en vivo",
+        "live performance",
+        "live concert"
+      ],
+      "deny_title_patterns": [
+        "backstage",
+        "entrevista only",
+        "reacción",
+        "reaction",
+        "recap",
+        "trailer",
+        "teaser",
+        "official music video",
+        "official audio",
+        "lyric video"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://vix.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCEltOcaOfMu7psU4Lp8SDBw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=b3bx9mPucS4",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://vix.com/es-es/detail/video-4958415",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://corporate.televisaunivision.com/press/2026/08/19/premios-juventud-confirms-morat-for-a-special-performance-at-the-awards-show-on-september-3-from-starlite-marbella/amp/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Current TelevisaUnivision Latin-music channel. A scan of the 50 most recent uploads on 2026-09-05 found two genuine YouTube livestream records, including MORAT: Canciones EN VIVO + Entrevista con Calle y Poché | ViX Música Sessions, streamed from 2026-09-04 15:03:31Z to 15:54:26Z. TelevisaUnivision and ViX describe ViX Música Sessions as live studio performances. Backstage-only awards coverage is excluded.",
+    "youtube_channel_id": "UCEltOcaOfMu7psU4Lp8SDBw",
+    "youtube_uploads_playlist_id": "UUEltOcaOfMu7psU4Lp8SDBw"
   }
 ]
