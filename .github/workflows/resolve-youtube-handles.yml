@@ -21,7 +21,7 @@ jobs:
       - name: Resolve handles to permanent channel IDs
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_HANDLES: 'reggaesumfestchannel3845'
+          YOUTUBE_HANDLES: 'SautizaBusara'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
