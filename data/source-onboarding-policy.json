@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "new_source_policy": {
+    "blocked_genres": [
+      "Classical",
+      "Chamber Music",
+      "Orchestral",
+      "Opera",
+      "Vocal",
+      "Contemporary Classical"
+    ],
+    "blocked_schedule_patterns": [
+      "continuous"
+    ],
+    "blocked_formats": [
+      "continuous_stream"
+    ],
+    "require_permanent_youtube_channel_id": true
+  },
+  "notes": [
+    "Classical-family additions are temporarily paused by project decision.",
+    "Continuous/background-radio style sources are temporarily blocked for new onboarding; event-based live performance sources are the priority.",
+    "Every candidate must have a permanent UC channel ID before it is eligible for merge."
+  ]
+}
