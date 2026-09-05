@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T11:57:44.438Z",
+  "source_count_before": 170,
+  "rule": {
+    "remove": "continuous-like AND no explicit performance/event format AND strong background/lofi/BGM metadata",
+    "retain": "continuous-like sources with DJ/live-performance/concert/festival/studio/award/music-TV formats",
+    "review_only": "background-like but not continuous-like"
+  },
+  "remove_count": 14,
+  "remove": [
+    {
+      "id": "lofi-girl",
+      "name": "Lofi Girl",
+      "country": "France",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Lofi",
+        "Hip-hop",
+        "Chill",
+        "Synthwave",
+        "Jazz"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "chillhop-music",
+      "name": "Chillhop Music",
+      "country": "Netherlands",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Chillhop",
+        "Lofi",
+        "Hip-hop",
+        "Jazz"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "cafe-music-bgm",
+      "name": "Cafe Music BGM channel",
+      "country": "Singapore",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Jazz",
+        "Bossa Nova",
+        "Cafe Music"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "bgm-channel",
+      "name": "BGM channel",
+      "country": "Singapore",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Jazz",
+        "Cafe Music",
+        "Relaxation"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "hawaiian-bgm-channel",
+      "name": "Hawaiian BGM channel",
+      "country": "Singapore",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Hawaiian",
+        "Acoustic",
+        "Relaxation"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "relax-music-bgm-channel",
+      "name": "Relax Music BGM CHANNEL",
+      "country": "Japan",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Jazz",
+        "Ambient",
+        "Classical",
+        "Relaxation"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "steezyasfuck",
+      "name": "STEEZYASFUCK",
+      "country": "United States",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Lofi",
+        "Hip-hop",
+        "Instrumental Hip-hop"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "the-jazz-hop-cafe",
+      "name": "The Jazz Hop Café",
+      "country": "United Kingdom",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Jazzhop",
+        "Lofi",
+        "Hip-hop"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "soothing-relaxation",
+      "name": "Soothing Relaxation",
+      "country": "Norway",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Ambient",
+        "Piano",
+        "Relaxation",
+        "Meditation"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "college-music",
+      "name": "College Music",
+      "country": "United Kingdom",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Lofi",
+        "Hip-hop",
+        "Chill"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "lofi-fruits",
+      "name": "Lofi Fruits",
+      "country": "Netherlands",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Lo-fi",
+        "Chill",
+        "Jazz",
+        "Ambient"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "chill-music-lab",
+      "name": "Chill Music Lab",
+      "country": "United States",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Electronic",
+        "Ambient",
+        "Focus",
+        "Chill"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "the-good-life-radio",
+      "name": "The Good Life Radio x Sensual Musique",
+      "country": "Germany",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live"
+      ],
+      "genres": [
+        "Deep House",
+        "Tropical House",
+        "Chill House",
+        "EDM",
+        "Pop"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    },
+    {
+      "id": "mrsuicidesheep",
+      "name": "MrSuicideSheep",
+      "country": "Canada",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "continuous_stream"
+      ],
+      "genres": [
+        "Electronic",
+        "Future Bass",
+        "Chillstep",
+        "Ambient",
+        "Lofi",
+        "Melodic Electronic"
+      ],
+      "reason": "continuous/background-only source without DJ/performance/concert/event format"
+    }
+  ],
+  "retain_continuous_performance_count": 12,
+  "retain_continuous_performance": [
+    {
+      "id": "the-lot-radio",
+      "name": "The Lot Radio",
+      "country": "United States",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "dj_set",
+        "music_radio_live"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "kiosk-radio",
+      "name": "Kiosk Radio",
+      "country": "Belgium",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "dj_set",
+        "live_performance",
+        "music_radio_live"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "arirang-radio-k-pop",
+      "name": "Arirang Radio K-Pop",
+      "country": "South Korea",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "live_performance",
+        "studio_session"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "nuclear-blast-records",
+      "name": "Nuclear Blast Records",
+      "country": "Germany",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "concert",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "anjunadeep",
+      "name": "Anjunadeep",
+      "country": "United Kingdom",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "dj_set",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "monstercat-silk",
+      "name": "Monstercat Silk",
+      "country": "Canada",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "dj_set"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "pan-pot",
+      "name": "Pan-Pot",
+      "country": "Germany",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "dj_set",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "armada-music",
+      "name": "Armada Music / Summer Is Calling 24/7",
+      "country": "Netherlands",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "dj_set",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "anjunabeats",
+      "name": "Anjunabeats",
+      "country": "United Kingdom",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "dj_set",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "kral-muzik",
+      "name": "Kral Müzik",
+      "country": "Turkey",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_tv_live",
+        "music_radio_live",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "dance-tv",
+      "name": "Dance TV",
+      "country": "Estonia",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "dj_set",
+        "festival_stream",
+        "music_radio_live"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    },
+    {
+      "id": "hospital-records",
+      "name": "Hospital Records",
+      "country": "United Kingdom",
+      "schedule_pattern": "continuous",
+      "formats": [
+        "music_radio_live",
+        "continuous_stream",
+        "dj_set",
+        "live_performance"
+      ],
+      "reason": "continuous-capable but has explicit human performance/event format"
+    }
+  ],
+  "review_count": 0,
+  "review": []
+}
