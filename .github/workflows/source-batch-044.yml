@@ -10,7 +10,7 @@ on:
       - 'scripts/validate-source-batch-policy.mjs'
       - 'scripts/apply-source-batch.mjs'
       - 'scripts/enforce-source-title-scope.mjs'
-      - 'scripts/tighten-kbs-world-tv-music-bank-scope.mjs'
+      - 'scripts/tighten-batch-044-existing-scopes.mjs'
       - '.github/workflows/source-batch-044.yml'
   workflow_dispatch:
 
@@ -37,7 +37,7 @@ jobs:
       - name: Check source-scope scripts
         run: |
           node --check scripts/enforce-source-title-scope.mjs
-          node --check scripts/tighten-kbs-world-tv-music-bank-scope.mjs
+          node --check scripts/tighten-batch-044-existing-scopes.mjs
       - name: Preflight source batch 044
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -46,8 +46,8 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/apply-source-batch.mjs data/source-batch-044.json
-      - name: Tighten existing KBS WORLD TV to Music Bank scope
-        run: node scripts/tighten-kbs-world-tv-music-bank-scope.mjs
+      - name: Tighten strict scope for existing batch 044 targets
+        run: node scripts/tighten-batch-044-existing-scopes.mjs
       - name: Repair uploads playlists
         run: node scripts/repair-missing-uploads-playlists.mjs
       - name: Validate source contract
