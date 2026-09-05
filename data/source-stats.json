@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T11:41:10.356Z",
+  "generated_at": "2026-09-05T11:59:59.638Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 170,
-    "live_now": 40,
-    "upcoming": 50,
-    "observed_live_streams_total": 94,
-    "observed_live_streams_7d": 61,
-    "observed_live_streams_30d": 72,
-    "history_records": 54
+    "sources_total": 156,
+    "live_now": 11,
+    "upcoming": 49,
+    "observed_live_streams_total": 59,
+    "observed_live_streams_7d": 53,
+    "observed_live_streams_30d": 56,
+    "history_records": 48
   },
   "by_source": {
     "hoer-berlin": {
@@ -921,251 +921,6 @@
       "source_type": "broadcast_media",
       "source_genres": [
         "K-pop"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
-    "lofi-girl": {
-      "source_id": "lofi-girl",
-      "source_name": "Lofi Girl",
-      "country_code": "FR",
-      "country": "France",
-      "region": null,
-      "city": null,
-      "source_type": "radio_media",
-      "source_genres": [
-        "Lofi",
-        "Hip-hop",
-        "Chill",
-        "Synthwave",
-        "Jazz"
-      ],
-      "live_now": 4,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 4,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": "2026-04-14T16:19:17.000Z",
-      "next_live_at": null,
-      "observed_content_types": [
-        "music_radio_live"
-      ]
-    },
-    "chillhop-music": {
-      "source_id": "chillhop-music",
-      "source_name": "Chillhop Music",
-      "country_code": "NL",
-      "country": "Netherlands",
-      "region": "South Holland",
-      "city": "Rotterdam",
-      "source_type": "label_media",
-      "source_genres": [
-        "Chillhop",
-        "Lofi",
-        "Hip-hop",
-        "Jazz"
-      ],
-      "live_now": 0,
-      "upcoming_count": 1,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": "2026-09-08T08:00:00.000Z",
-      "observed_content_types": []
-    },
-    "cafe-music-bgm": {
-      "source_id": "cafe-music-bgm",
-      "source_name": "Cafe Music BGM channel",
-      "country_code": "SG",
-      "country": "Singapore",
-      "region": null,
-      "city": "Singapore",
-      "source_type": "label_media",
-      "source_genres": [
-        "Jazz",
-        "Bossa Nova",
-        "Cafe Music"
-      ],
-      "live_now": 2,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 4,
-      "observed_live_streams_7d": 2,
-      "observed_live_streams_30d": 2,
-      "active_days_30d": 2,
-      "last_live_at": "2026-09-02T18:59:43.000Z",
-      "next_live_at": null,
-      "observed_content_types": [
-        "music_radio_live"
-      ]
-    },
-    "bgm-channel": {
-      "source_id": "bgm-channel",
-      "source_name": "BGM channel",
-      "country_code": "SG",
-      "country": "Singapore",
-      "region": null,
-      "city": "Singapore",
-      "source_type": "label_media",
-      "source_genres": [
-        "Jazz",
-        "Cafe Music",
-        "Relaxation"
-      ],
-      "live_now": 3,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 5,
-      "observed_live_streams_7d": 2,
-      "observed_live_streams_30d": 2,
-      "active_days_30d": 2,
-      "last_live_at": "2026-09-02T15:59:52.000Z",
-      "next_live_at": null,
-      "observed_content_types": [
-        "music_radio_live"
-      ]
-    },
-    "hawaiian-bgm-channel": {
-      "source_id": "hawaiian-bgm-channel",
-      "source_name": "Hawaiian BGM channel",
-      "country_code": "SG",
-      "country": "Singapore",
-      "region": null,
-      "city": "Singapore",
-      "source_type": "label_media",
-      "source_genres": [
-        "Hawaiian",
-        "Acoustic",
-        "Relaxation"
-      ],
-      "live_now": 4,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 4,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": "2022-09-15T04:12:57.000Z",
-      "next_live_at": null,
-      "observed_content_types": [
-        "music_radio_live"
-      ]
-    },
-    "relax-music-bgm-channel": {
-      "source_id": "relax-music-bgm-channel",
-      "source_name": "Relax Music BGM CHANNEL",
-      "country_code": "JP",
-      "country": "Japan",
-      "region": null,
-      "city": null,
-      "source_type": "independent_media",
-      "source_genres": [
-        "Jazz",
-        "Ambient",
-        "Classical",
-        "Relaxation"
-      ],
-      "live_now": 8,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 9,
-      "observed_live_streams_7d": 1,
-      "observed_live_streams_30d": 6,
-      "active_days_30d": 5,
-      "last_live_at": "2026-09-03T11:00:06.000Z",
-      "next_live_at": null,
-      "observed_content_types": [
-        "music_radio_live"
-      ]
-    },
-    "steezyasfuck": {
-      "source_id": "steezyasfuck",
-      "source_name": "STEEZYASFUCK",
-      "country_code": "US",
-      "country": "United States",
-      "region": "California",
-      "city": "Los Angeles",
-      "source_type": "independent_media",
-      "source_genres": [
-        "Lofi",
-        "Hip-hop",
-        "Instrumental Hip-hop"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
-    "the-jazz-hop-cafe": {
-      "source_id": "the-jazz-hop-cafe",
-      "source_name": "The Jazz Hop Café",
-      "country_code": "GB",
-      "country": "United Kingdom",
-      "region": "England",
-      "city": "Bristol",
-      "source_type": "label_media",
-      "source_genres": [
-        "Jazzhop",
-        "Lofi",
-        "Hip-hop"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
-    "soothing-relaxation": {
-      "source_id": "soothing-relaxation",
-      "source_name": "Soothing Relaxation",
-      "country_code": "NO",
-      "country": "Norway",
-      "region": null,
-      "city": null,
-      "source_type": "artist_media",
-      "source_genres": [
-        "Ambient",
-        "Piano",
-        "Relaxation",
-        "Meditation"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
-    "college-music": {
-      "source_id": "college-music",
-      "source_name": "College Music",
-      "country_code": "GB",
-      "country": "United Kingdom",
-      "region": "England",
-      "city": "London",
-      "source_type": "label_media",
-      "source_genres": [
-        "Lofi",
-        "Hip-hop",
-        "Chill"
       ],
       "live_now": 0,
       "upcoming_count": 0,
@@ -3068,81 +2823,6 @@
         "music_live_unspecified"
       ]
     },
-    "lofi-fruits": {
-      "source_id": "lofi-fruits",
-      "source_name": "Lofi Fruits",
-      "country_code": "NL",
-      "country": "Netherlands",
-      "region": null,
-      "city": null,
-      "source_type": "label_media",
-      "source_genres": [
-        "Lo-fi",
-        "Chill",
-        "Jazz",
-        "Ambient"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
-    "chill-music-lab": {
-      "source_id": "chill-music-lab",
-      "source_name": "Chill Music Lab",
-      "country_code": "US",
-      "country": "United States",
-      "region": null,
-      "city": null,
-      "source_type": "independent_media",
-      "source_genres": [
-        "Electronic",
-        "Ambient",
-        "Focus",
-        "Chill"
-      ],
-      "live_now": 8,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 9,
-      "observed_live_streams_7d": 3,
-      "observed_live_streams_30d": 6,
-      "active_days_30d": 6,
-      "last_live_at": "2026-09-04T18:37:49.000Z",
-      "next_live_at": null,
-      "observed_content_types": [
-        "music_radio_live"
-      ]
-    },
-    "the-good-life-radio": {
-      "source_id": "the-good-life-radio",
-      "source_name": "The Good Life Radio x Sensual Musique",
-      "country_code": "DE",
-      "country": "Germany",
-      "region": null,
-      "city": null,
-      "source_type": "independent_media",
-      "source_genres": [
-        "Deep House",
-        "Tropical House",
-        "Chill House",
-        "EDM",
-        "Pop"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
     "festival-halleluya": {
       "source_id": "festival-halleluya",
       "source_name": "Festival Halleluya",
@@ -3818,32 +3498,6 @@
       "next_live_at": null,
       "observed_content_types": []
     },
-    "mrsuicidesheep": {
-      "source_id": "mrsuicidesheep",
-      "source_name": "MrSuicideSheep",
-      "country_code": "CA",
-      "country": "Canada",
-      "region": null,
-      "city": null,
-      "source_type": "independent_media",
-      "source_genres": [
-        "Electronic",
-        "Future Bass",
-        "Chillstep",
-        "Ambient",
-        "Lofi",
-        "Melodic Electronic"
-      ],
-      "live_now": 0,
-      "upcoming_count": 0,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": null,
-      "observed_content_types": []
-    },
     "major-lazer-official": {
       "source_id": "major-lazer-official",
       "source_name": "Major Lazer Official",
@@ -4238,25 +3892,25 @@
   "aggregates": {
     "by_country": {
       "DE": {
-        "sources": 10,
+        "sources": 9,
         "live_now": 3,
         "upcoming": 17,
         "observed_live_30d": 16
       },
       "US": {
-        "sources": 36,
-        "live_now": 9,
+        "sources": 34,
+        "live_now": 1,
         "upcoming": 16,
-        "observed_live_30d": 23
+        "observed_live_30d": 17
       },
       "JP": {
-        "sources": 27,
-        "live_now": 9,
+        "sources": 26,
+        "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 9
+        "observed_live_30d": 3
       },
       "GB": {
-        "sources": 20,
+        "sources": 18,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 4
@@ -4268,8 +3922,8 @@
         "observed_live_30d": 1
       },
       "FR": {
-        "sources": 4,
-        "live_now": 4,
+        "sources": 3,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 2
       },
@@ -4280,9 +3934,9 @@
         "observed_live_30d": 1
       },
       "NL": {
-        "sources": 5,
+        "sources": 3,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 0,
         "observed_live_30d": 0
       },
       "CH": {
@@ -4315,18 +3969,6 @@
         "upcoming": 0,
         "observed_live_30d": 0
       },
-      "SG": {
-        "sources": 6,
-        "live_now": 9,
-        "upcoming": 0,
-        "observed_live_30d": 4
-      },
-      "NO": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
       "RS": {
         "sources": 1,
         "live_now": 0,
@@ -4345,6 +3987,12 @@
         "upcoming": 1,
         "observed_live_30d": 0
       },
+      "SG": {
+        "sources": 3,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
       "CO": {
         "sources": 1,
         "live_now": 0,
@@ -4358,7 +4006,7 @@
         "observed_live_30d": 0
       },
       "CA": {
-        "sources": 3,
+        "sources": 2,
         "live_now": 1,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4456,10 +4104,10 @@
     },
     "by_source_type": {
       "independent_media": {
-        "sources": 11,
-        "live_now": 17,
+        "sources": 6,
+        "live_now": 1,
         "upcoming": 14,
-        "observed_live_30d": 29
+        "observed_live_30d": 17
       },
       "radio": {
         "sources": 11,
@@ -4498,16 +4146,16 @@
         "observed_live_30d": 12
       },
       "radio_media": {
-        "sources": 3,
-        "live_now": 4,
+        "sources": 2,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "label_media": {
-        "sources": 14,
-        "live_now": 12,
-        "upcoming": 1,
-        "observed_live_30d": 6
+        "sources": 7,
+        "live_now": 3,
+        "upcoming": 0,
+        "observed_live_30d": 2
       },
       "broadcast_media": {
         "sources": 5,
@@ -4520,12 +4168,6 @@
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
-      },
-      "artist_media": {
-        "sources": 3,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 1
       },
       "performing_arts_center": {
         "sources": 2,
@@ -4599,6 +4241,12 @@
         "upcoming": 0,
         "observed_live_30d": 2
       },
+      "artist_media": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 1
+      },
       "music_tv": {
         "sources": 3,
         "live_now": 2,
@@ -4668,10 +4316,10 @@
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 57,
-        "live_now": 10,
+        "sources": 55,
+        "live_now": 2,
         "upcoming": 26,
-        "observed_live_30d": 32
+        "observed_live_30d": 26
       },
       "Techno": {
         "sources": 12,
@@ -4692,10 +4340,10 @@
         "observed_live_30d": 14
       },
       "Jazz": {
-        "sources": 26,
-        "live_now": 17,
-        "upcoming": 10,
-        "observed_live_30d": 20
+        "sources": 20,
+        "live_now": 0,
+        "upcoming": 9,
+        "observed_live_30d": 10
       },
       "Afrobeat": {
         "sources": 2,
@@ -4728,9 +4376,9 @@
         "observed_live_30d": 19
       },
       "Hip-hop": {
-        "sources": 37,
-        "live_now": 4,
-        "upcoming": 6,
+        "sources": 32,
+        "live_now": 0,
+        "upcoming": 5,
         "observed_live_30d": 9
       },
       "Rap": {
@@ -4752,10 +4400,10 @@
         "observed_live_30d": 1
       },
       "Classical": {
-        "sources": 18,
-        "live_now": 9,
+        "sources": 17,
+        "live_now": 1,
         "upcoming": 16,
-        "observed_live_30d": 10
+        "observed_live_30d": 4
       },
       "Pop & Rock": {
         "sources": 1,
@@ -4818,7 +4466,7 @@
         "observed_live_30d": 6
       },
       "Pop": {
-        "sources": 47,
+        "sources": 46,
         "live_now": 3,
         "upcoming": 10,
         "observed_live_30d": 5
@@ -4859,89 +4507,11 @@
         "upcoming": 1,
         "observed_live_30d": 0
       },
-      "Lofi": {
-        "sources": 6,
-        "live_now": 4,
-        "upcoming": 1,
-        "observed_live_30d": 0
-      },
-      "Chill": {
-        "sources": 5,
-        "live_now": 12,
-        "upcoming": 0,
-        "observed_live_30d": 6
-      },
-      "Synthwave": {
-        "sources": 1,
-        "live_now": 4,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Chillhop": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 0
-      },
-      "Bossa Nova": {
-        "sources": 1,
-        "live_now": 2,
-        "upcoming": 0,
-        "observed_live_30d": 2
-      },
-      "Cafe Music": {
-        "sources": 2,
-        "live_now": 5,
-        "upcoming": 0,
-        "observed_live_30d": 4
-      },
-      "Relaxation": {
-        "sources": 4,
-        "live_now": 15,
-        "upcoming": 0,
-        "observed_live_30d": 8
-      },
-      "Hawaiian": {
-        "sources": 1,
-        "live_now": 4,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
       "Acoustic": {
-        "sources": 6,
-        "live_now": 7,
+        "sources": 5,
+        "live_now": 3,
         "upcoming": 0,
         "observed_live_30d": 3
-      },
-      "Ambient": {
-        "sources": 9,
-        "live_now": 17,
-        "upcoming": 0,
-        "observed_live_30d": 12
-      },
-      "Instrumental Hip-hop": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Jazzhop": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Piano": {
-        "sources": 3,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Meditation": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
       },
       "Folk": {
         "sources": 7,
@@ -5028,7 +4598,7 @@
         "observed_live_30d": 0
       },
       "EDM": {
-        "sources": 5,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5262,7 +4832,7 @@
         "observed_live_30d": 2
       },
       "Deep House": {
-        "sources": 4,
+        "sources": 3,
         "live_now": 1,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5285,9 +4855,21 @@
         "upcoming": 0,
         "observed_live_30d": 0
       },
+      "Ambient": {
+        "sources": 4,
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
       "Chillout": {
         "sources": 1,
         "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Chill": {
+        "sources": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       },
@@ -5405,30 +4987,6 @@
         "upcoming": 0,
         "observed_live_30d": 0
       },
-      "Lo-fi": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Focus": {
-        "sources": 1,
-        "live_now": 8,
-        "upcoming": 0,
-        "observed_live_30d": 6
-      },
-      "Tropical House": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Chill House": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
       "Christian": {
         "sources": 1,
         "live_now": 0,
@@ -5525,6 +5083,12 @@
         "upcoming": 7,
         "observed_live_30d": 1
       },
+      "Piano": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
       "Violin": {
         "sources": 1,
         "live_now": 0,
@@ -5545,24 +5109,6 @@
       },
       "Drum & Bass": {
         "sources": 2,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Future Bass": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Chillstep": {
-        "sources": 1,
-        "live_now": 0,
-        "upcoming": 0,
-        "observed_live_30d": 0
-      },
-      "Melodic Electronic": {
-        "sources": 1,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5645,8 +5191,7 @@
       "dj_set": 17,
       "festival_stream": 1,
       "concert": 1,
-      "live_performance": 2,
-      "music_radio_live": 16
+      "live_performance": 2
     }
   }
 }
