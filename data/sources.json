@@ -14769,5 +14769,122 @@
     "note": "Official Folk Alliance International source for the annual International Folk Music Awards. The 2026 ceremony was livestreamed on the official FAI YouTube channel, with YouTube API live metadata confirming an actual stream from 2026-01-21 23:45:32Z to 2026-01-22 02:01:32Z. FAI states the 2027 awards will again be streamed publicly on YouTube. Conference panels and announcement-only streams are excluded.",
     "youtube_channel_id": "UC69D-igAG3wOkD1RFi8QNZQ",
     "youtube_uploads_playlist_id": "UU69D-igAG3wOkD1RFi8QNZQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "cbc-music",
+    "name": "CBC Music",
+    "operator_name": "Canadian Broadcasting Corporation",
+    "type": "music_media",
+    "country": "Canada",
+    "country_code": "CA",
+    "region": "Ontario",
+    "city": "Toronto",
+    "location": {
+      "lat": 43.6532,
+      "lon": -79.3832,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Toronto, Ontario (CBC operator base)"
+    },
+    "genres": [
+      "Canadian Music",
+      "Pop",
+      "Rock",
+      "Indie",
+      "Hip-hop",
+      "R&B",
+      "Country",
+      "Folk",
+      "Jazz",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_event_stream",
+      "award_show",
+      "live_performance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://www.cbc.ca/music/",
+    "schedule_url": "https://www.cbc.ca/music/events",
+    "youtube_url": "https://www.youtube.com/channel/UCAILl3AE11CoqiSVs6rBwBQ",
+    "status": "mixed",
+    "schedule_pattern": "mixed",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "juno awards",
+        "juno awards gala",
+        "live concert",
+        "live performance",
+        "live from"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "behind the scenes",
+        "official music video",
+        "official audio",
+        "lyric video",
+        "playlist",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.cbc.ca/music/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCAILl3AE11CoqiSVs6rBwBQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=9NqLBYIWG_Y",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=TVFdHtCcO1Y",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://junoawards.ca/the-2026-juno-awards-celebrate-artists-from-first-spark-to-lasting-legacy-with-cameron-whitcomb-and-a-tribute-to-joni-mitchell-by-sarah-mclachlan-and-allison-russell-presented-by-the-national-music-ce/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official CBC music channel with current YouTube livestream capability. YouTube API live metadata confirms the 2026 JUNO Awards streamed from 2026-03-29 23:46:21Z to 2026-03-30 02:10:42Z and the 2026 JUNO Awards Gala streamed from 2026-03-28 21:50:16Z to 2026-03-29 01:46:30Z. Mixed editorial and recorded content is excluded unless deterministically live-music relevant.",
+    "youtube_channel_id": "UCAILl3AE11CoqiSVs6rBwBQ",
+    "youtube_uploads_playlist_id": "UUAILl3AE11CoqiSVs6rBwBQ"
   }
 ]
