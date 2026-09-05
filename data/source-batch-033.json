@@ -1,0 +1,93 @@
+[
+  {
+    "schema_version": 2,
+    "id": "folk-alliance-international",
+    "name": "Folk Alliance International / International Folk Music Awards",
+    "operator_name": "Folk Alliance International",
+    "type": "music_awards",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Missouri",
+    "city": "Kansas City",
+    "location": {
+      "lat": 39.0997,
+      "lon": -94.5786,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Kansas City, Missouri (operator base)"
+    },
+    "genres": [
+      "Folk",
+      "Americana",
+      "Roots",
+      "World",
+      "Singer-songwriter",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": ["English"],
+    "official_site": "https://www.folk.org/",
+    "schedule_url": "https://www.folk.org/programs/ifmas",
+    "youtube_url": "https://www.youtube.com/channel/UC69D-igAG3wOkD1RFi8QNZQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "international folk music awards",
+        "folk alliance international",
+        "ifma",
+        "awards"
+      ],
+      "deny_title_patterns": [
+        "awards announcement",
+        "nominees announcement",
+        "panel",
+        "workshop",
+        "interview",
+        "keynote only"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.folk.org/",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC69D-igAG3wOkD1RFi8QNZQ",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=_UduodoB_YY",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.folk.org/programs/ifmas",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Folk Alliance International source for the annual International Folk Music Awards. The 2026 ceremony was livestreamed on the official FAI YouTube channel, with YouTube API live metadata confirming an actual stream from 2026-01-21 23:45:32Z to 2026-01-22 02:01:32Z. FAI states the 2027 awards will again be streamed publicly on YouTube. Conference panels and announcement-only streams are excluded.",
+    "youtube_channel_id": "UC69D-igAG3wOkD1RFi8QNZQ",
+    "youtube_uploads_playlist_id": "UU69D-igAG3wOkD1RFi8QNZQ"
+  }
+]
