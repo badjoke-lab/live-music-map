@@ -20,7 +20,7 @@
       "max_playlist_calls_per_run": 75,
       "recent_videos_per_source": 50,
       "selection": "oldest_checked_first",
-      "source_count": 173,
+      "source_count": 176,
       "projected_max_full_sweep_minutes": 45,
       "playlist_404_repair": "channels.contentDetails_then_single_retry",
       "playlist_calls_last_run": 75,

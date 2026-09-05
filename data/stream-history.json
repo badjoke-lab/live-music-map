@@ -200,6 +200,46 @@
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
+    "id": "youtube:fWu_LyQQD0E",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "ard-klassik",
+    "youtube_video_id": "fWu_LyQQD0E",
+    "youtube_url": "https://www.youtube.com/watch?v=fWu_LyQQD0E",
+    "title": "LIVE: 2. Durchgang im Fach Fagott Tag 1 | ARD-Musikwettbewerb",
+    "status": "ended",
+    "published_at": "2026-08-12T08:48:01Z",
+    "scheduled_start": "2026-09-05T08:00:00Z",
+    "actual_start": "2026-09-05T07:46:51Z",
+    "actual_end": null,
+    "concurrent_viewers": 198,
+    "thumbnail": "https://i.ytimg.com/vi/fWu_LyQQD0E/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-05T18:13:46.873Z",
+    "history_archived_at": "2026-09-05T18:13:46.873Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:s6YtrmMlMYU",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
