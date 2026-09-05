@@ -14453,5 +14453,113 @@
     "note": "Official Jamaican reggae/dancehall festival source. The official Reggae Sumfest YouTube channel carried full festival-night livestreams in 2023 and 2025. The event location can change between editions; event-level location should override the source home when needed.",
     "youtube_channel_id": "UCHWqekyGOTkdu8IlcapvJSw",
     "youtube_uploads_playlist_id": "UUHWqekyGOTkdu8IlcapvJSw"
+  },
+  {
+    "schema_version": 2,
+    "id": "sauti-za-busara",
+    "name": "Sauti za Busara",
+    "operator_name": "Busara Promotions",
+    "type": "festival",
+    "country": "Tanzania",
+    "country_code": "TZ",
+    "region": "Zanzibar Urban/West",
+    "city": "Stone Town",
+    "location": {
+      "lat": -6.1622,
+      "lon": 39.1921,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Stone Town, Zanzibar, Tanzania"
+    },
+    "genres": [
+      "African",
+      "East African",
+      "Afrobeat",
+      "Afro-fusion",
+      "Traditional",
+      "World",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "Swahili",
+      "English",
+      "Multi-language"
+    ],
+    "official_site": "https://busaramusic.org/",
+    "schedule_url": "https://busaramusic.org/",
+    "youtube_url": "https://www.youtube.com/channel/UCVuhEYt1Zy-ih3o2KQM8whw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "sauti za busara",
+        "szb2023",
+        "szb2024",
+        "szb2025",
+        "szb2026",
+        "#live"
+      ],
+      "deny_title_patterns": [
+        "highlight",
+        "documentary",
+        "trailer",
+        "teaser",
+        "interview",
+        "call for artists"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://busaramusic.org/press-kit/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCVuhEYt1Zy-ih3o2KQM8whw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=D_AhREhlJZM",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://busaramusic.org/Newsletters/Newsletter_230313_ENG.html",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official annual pan-African live-music festival in Stone Town, Zanzibar, operated by Busara Promotions. The official channel carried artist-stage streams marked #LIVE during the 2023 festival, and the organiser's newsletter directs audiences to its YouTube streams archive. The channel also carries other Busara Promotions content, so only explicit Sauti za Busara live-event streams are admitted.",
+    "youtube_channel_id": "UCVuhEYt1Zy-ih3o2KQM8whw",
+    "youtube_uploads_playlist_id": "UUVuhEYt1Zy-ih3o2KQM8whw"
   }
 ]
