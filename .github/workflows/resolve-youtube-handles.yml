@@ -18,10 +18,11 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Resolve channel identity and livestream metadata
+      - name: Resolve candidate channel identity and livestream metadata
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_VIDEO_IDS: 'qM0I5DezXd0,j2rs6TFXlkI,wGPF4NKckmY'
+          YOUTUBE_VIDEO_IDS: 'qM0I5DezXd0,j2rs6TFXlkI,wGPF4NKckmY,8_A9fuN0CrY'
+          YOUTUBE_HANDLES: 'vaundy'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
