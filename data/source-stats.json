@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T04:23:08.092Z",
+  "generated_at": "2026-09-05T05:40:28.039Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 160,
-    "live_now": 72,
+    "live_now": 71,
     "upcoming": 51,
     "observed_live_streams_total": 123,
     "observed_live_streams_7d": 62,
     "observed_live_streams_30d": 77,
-    "history_records": 51
+    "history_records": 52
   },
   "by_source": {
     "hoer-berlin": {
@@ -2929,7 +2929,7 @@
         "Bebop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 2,
       "observed_live_streams_7d": 2,
@@ -3987,7 +3987,7 @@
       },
       "US": {
         "sources": 36,
-        "live_now": 15,
+        "live_now": 14,
         "upcoming": 16,
         "observed_live_30d": 24
       },
@@ -4235,7 +4235,7 @@
       },
       "venue": {
         "sources": 26,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 2,
         "observed_live_30d": 11
       },
@@ -4417,7 +4417,7 @@
       },
       "Jazz": {
         "sources": 25,
-        "live_now": 40,
+        "live_now": 39,
         "upcoming": 10,
         "observed_live_30d": 27
       },
@@ -5059,7 +5059,7 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 0,
         "observed_live_30d": 9
       },
@@ -5071,13 +5071,13 @@
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 0,
         "observed_live_30d": 9
       },
       "Piano Jazz": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 2
       },

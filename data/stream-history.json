@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:uua58BdwfqY",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "mezzrow-jazz-club",
+    "youtube_video_id": "uua58BdwfqY",
+    "youtube_url": "https://www.youtube.com/watch?v=uua58BdwfqY",
+    "title": "Round Midnight Solo Piano with Jill McCarron - Mezzrow Jazz Club - 09/04/2026",
+    "status": "ended",
+    "published_at": "2026-09-05T03:59:11Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-05T03:59:43Z",
+    "actual_end": null,
+    "concurrent_viewers": 10,
+    "thumbnail": "https://i.ytimg.com/vi/uua58BdwfqY/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "mezzrow"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-05T05:40:28.039Z",
+    "history_archived_at": "2026-09-05T05:40:28.039Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:DXnxM3HCfpA",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
