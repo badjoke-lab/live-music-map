@@ -18,10 +18,10 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Resolve ready candidate channel identities
+      - name: Resolve non-artist candidate livestreams
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_HANDLES: 'saucydog,hirai_dai,vaundy,afoc_official'
+          YOUTUBE_VIDEO_IDS: 'qM0I5DezXd0,GdIPy_5kjko,DiYcwzL4WoU'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
