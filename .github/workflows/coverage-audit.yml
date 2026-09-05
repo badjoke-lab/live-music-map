@@ -1,0 +1,40 @@
+name: Build coverage audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-coverage-audit.mjs'
+      - '.github/workflows/coverage-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coverage-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Validate coverage audit builder
+        run: node --check scripts/build-coverage-audit.mjs
+      - name: Build coverage audit
+        run: node scripts/build-coverage-audit.mjs
+      - name: Commit coverage audit
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- data/coverage-audit.json docs/COVERAGE_AUDIT.md)" ]; then
+            echo 'No coverage audit changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/coverage-audit.json docs/COVERAGE_AUDIT.md
+          git commit -m 'data: update coverage audit'
+          git push origin HEAD:main
