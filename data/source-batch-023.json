@@ -1,0 +1,96 @@
+[
+  {
+    "schema_version": 2,
+    "id": "allverse",
+    "name": "Virtual Music Project -ALLVERSE- Channel",
+    "operator_name": "ALLVERSE Project / loy",
+    "type": "virtual_music_festival",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": null,
+    "city": null,
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "operator_base",
+      "label": "Japan (operator base; events take place in VRChat)"
+    },
+    "genres": ["Virtual Music", "Pop", "Rock", "Electronic", "Dance", "Singer-Songwriter"],
+    "formats": ["festival_stream", "live_performance", "virtual_concert"],
+    "languages": ["Japanese", "English"],
+    "official_site": "https://allverse.studio.site/",
+    "schedule_url": "https://theall2026.vercel.app/",
+    "youtube_url": "https://www.youtube.com/channel/UCGKokN4vvU-2Fr46ho3QXFw",
+    "status": "event_based",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "music_only",
+      "allow_title_patterns": ["theall", "allverse", "clubverse", "live", "festival", "fes", "vr live"],
+      "deny_title_patterns": ["talk", "interview", "trailer", "teaser", "cross talk"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://allverse.studio.site/", "supports": ["identity", "schedule_pattern"]},
+      {"kind": "official_event_page", "url": "https://theall2026.vercel.app/", "supports": ["music_live_capability", "schedule_pattern"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCGKokN4vvU-2Fr46ho3QXFw", "supports": ["official_channel"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "ALLVERSE runs recurring VRChat music events and festivals. theALL2026 explicitly streamed its eve show and both festival days free on YouTube Live with 31 performing groups. Source location is operator-level only; individual virtual events must not inherit a physical event location.",
+    "youtube_channel_id": "UCGKokN4vvU-2Fr46ho3QXFw",
+    "youtube_uploads_playlist_id": "UUGKokN4vvU-2Fr46ho3QXFw"
+  },
+  {
+    "schema_version": 2,
+    "id": "nihon-falcom",
+    "name": "ファルコムチャンネル",
+    "operator_name": "Nihon Falcom Corporation",
+    "type": "game_music_media",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tachikawa",
+    "location": {
+      "lat": null,
+      "lon": null,
+      "precision": "unknown",
+      "role": "operator_base",
+      "label": "Tachikawa, Tokyo, Japan (operator base)"
+    },
+    "genres": ["Video Game Music", "Rock", "Progressive Rock", "Instrumental"],
+    "formats": ["live_performance", "concert_stream", "online_live"],
+    "languages": ["Japanese"],
+    "official_site": "https://www.falcom.co.jp/",
+    "schedule_url": "https://www.falcom.co.jp/sora2/special/tgs.html",
+    "youtube_url": "https://www.youtube.com/channel/UCI4kCOGFXW7-tpdCSBMmsJw",
+    "status": "event_based",
+    "schedule_pattern": "irregular",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["jdk band", "special online live", "スペシャルオンラインlive", "スペシャルライブ", "live"],
+      "deny_title_patterns": ["pv", "cm", "trailer", "gameplay", "developer", "interview", "talk", "発売", "紹介"],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {"kind": "official_site", "url": "https://www.falcom.co.jp/", "supports": ["identity"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCI4kCOGFXW7-tpdCSBMmsJw", "supports": ["official_channel"]},
+      {"kind": "official_event_page", "url": "https://www.falcom.co.jp/sora2/special/tgs.html", "supports": ["music_live_capability", "schedule_pattern"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "normal"},
+    "note": "Nihon Falcom's official channel is mixed game/media content. Only explicit Falcom jdk BAND and scheduled music-performance livestreams are admitted. The official Tokyo Game Show 2026 page schedules two Falcom jdk BAND special online YouTube Live performances on September 19 and 20, 2026.",
+    "youtube_channel_id": "UCI4kCOGFXW7-tpdCSBMmsJw",
+    "youtube_uploads_playlist_id": "UUI4kCOGFXW7-tpdCSBMmsJw"
+  }
+]
