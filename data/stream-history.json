@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:-LhteU3Cn3k",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "the-lot-radio",
+    "youtube_video_id": "-LhteU3Cn3k",
+    "youtube_url": "https://www.youtube.com/watch?v=-LhteU3Cn3k",
+    "title": "Love Injection invites Benny Soto @TheLotRadio 09-05-2026",
+    "status": "ended",
+    "published_at": "2026-09-02T17:01:16Z",
+    "scheduled_start": "2026-09-05T16:00:00Z",
+    "actual_start": "2026-09-05T14:15:40Z",
+    "actual_end": null,
+    "concurrent_viewers": 15,
+    "thumbnail": "https://i.ytimg.com/vi/-LhteU3Cn3k/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-05T16:12:11.917Z",
+    "history_archived_at": "2026-09-05T16:12:11.917Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:H4j1KsSHWgE",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
