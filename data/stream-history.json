@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:H4j1KsSHWgE",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "H4j1KsSHWgE",
+    "youtube_url": "https://www.youtube.com/watch?v=H4j1KsSHWgE",
+    "title": "『劇薬』出演：浅井永久堀口たかしアベヒロシ / S.リューシン(SAMURAI) / 音緒 / 斧昇平",
+    "status": "ended",
+    "published_at": "2026-09-05T01:16:44Z",
+    "scheduled_start": "2026-09-05T10:00:00Z",
+    "actual_start": "2026-09-05T09:52:21Z",
+    "actual_end": null,
+    "concurrent_viewers": 7,
+    "thumbnail": "https://i.ytimg.com/vi/H4j1KsSHWgE/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-05T16:01:26.085Z",
+    "history_archived_at": "2026-09-05T16:01:26.085Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:RmECkF9VZ70",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -37,6 +77,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-05T11:07:14.894Z",
     "history_archived_at": "2026-09-05T11:07:14.894Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:s6YtrmMlMYU",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "triple-j",
+    "youtube_video_id": "s6YtrmMlMYU",
+    "youtube_url": "https://www.youtube.com/watch?v=s6YtrmMlMYU",
+    "title": "triple j's One Night Stand 2026 LIVE (Ninajirachi, DMA'S, Genesis Owusu)",
+    "status": "ended",
+    "published_at": "2026-08-28T04:36:30Z",
+    "scheduled_start": "2026-09-05T07:45:00Z",
+    "actual_start": "2026-09-05T07:45:31Z",
+    "actual_end": null,
+    "concurrent_viewers": 1439,
+    "thumbnail": "https://i.ytimg.com/vi/s6YtrmMlMYU/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "one night stand"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-05T16:01:26.085Z",
+    "history_archived_at": "2026-09-05T16:01:26.085Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
