@@ -1,0 +1,27 @@
+name: Resolve YouTube handles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/resolve-youtube-handles.mjs'
+      - '.github/workflows/resolve-youtube-handles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Resolve handles to permanent channel IDs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_HANDLES: 'amiawards,BimhuisTV'
+        run: |
+          node --check scripts/resolve-youtube-handles.mjs
+          node scripts/resolve-youtube-handles.mjs
