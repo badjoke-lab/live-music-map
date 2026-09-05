@@ -15573,5 +15573,325 @@
     "note": "Official MusicNT source for the annual National Indigenous Music Awards in Darwin. The 2025 ceremony was presented by YouTube and livestreamed globally; YouTube API live metadata confirms the official MusicNT stream ran from 2025-08-09T09:14:36Z to 12:25:23Z. The NIMAs returned in Darwin on 2026-08-08 with a multi-genre First Nations live-performance lineup. MusicNT also publishes broader music-industry content, so only deterministic NIMA/live-performance streams are admitted.",
     "youtube_channel_id": "UC3q0OsscJwkgXMXGIG3vY4g",
     "youtube_uploads_playlist_id": "UU3q0OsscJwkgXMXGIG3vY4g"
+  },
+  {
+    "schema_version": 2,
+    "id": "korean-music-awards",
+    "name": "Korean Music Awards",
+    "operator_name": "Korean Music Awards Selection Committee",
+    "type": "music_awards",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Seoul, South Korea"
+    },
+    "genres": [
+      "K-pop",
+      "Rock",
+      "Alternative",
+      "Hip-hop",
+      "R&B",
+      "Electronic",
+      "Folk",
+      "Jazz",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "official_site": "https://koreanmusicawards.com/",
+    "schedule_url": "https://koreanmusicawards.com/kma2026/",
+    "youtube_url": "https://www.youtube.com/channel/UCEslKRViAh4jR8ZNCalo2VQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Korean Music Awards",
+        "한국대중음악상",
+        "KMA",
+        "awards",
+        "live performance"
+      ],
+      "deny_title_patterns": [
+        "nominee announcement",
+        "interview only",
+        "trailer",
+        "teaser",
+        "recap",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://koreanmusicawards.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://koreanmusicawards.com/kma2026/",
+        "supports": [
+          "schedule_pattern",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCEslKRViAh4jR8ZNCalo2VQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=qM0I5DezXd0",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Korean Music Awards source. YouTube API live metadata confirms the full 2026 ceremony streamed from 2026-02-26T10:57:27Z to 14:06:44Z. The annual awards span Korean pop, rock, hip-hop, R&B, electronic, folk, jazz and other contemporary genres; non-live editorial items fail closed.",
+    "youtube_channel_id": "UCEslKRViAh4jR8ZNCalo2VQ",
+    "youtube_uploads_playlist_id": "UUEslKRViAh4jR8ZNCalo2VQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "tvn-chile-premios-pulsar",
+    "name": "TVN Chile / Premios Pulsar",
+    "operator_name": "Televisión Nacional de Chile",
+    "type": "broadcast_media",
+    "country": "Chile",
+    "country_code": "CL",
+    "region": "Santiago Metropolitan Region",
+    "city": "Santiago",
+    "location": {
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Santiago, Chile"
+    },
+    "genres": [
+      "Pop",
+      "Rock",
+      "Urban",
+      "Hip-hop",
+      "Folk",
+      "Jazz",
+      "Metal",
+      "Electronic",
+      "Tropical",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.tvn.cl/",
+    "schedule_url": "https://www.tvn.cl/noticias/tendencias/desde-un-homenaje-a-tommy-rey-hasta-lo-nuevo-de-jere-klein-tvn-transmitira-los-premios-pulsar-2025-",
+    "youtube_url": "https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Premios Pulsar",
+        "Pulsar 2025",
+        "Pulsar 2026"
+      ],
+      "deny_title_patterns": [
+        "noticias",
+        "news",
+        "entrevista",
+        "interview",
+        "trailer",
+        "teaser",
+        "resumen",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.tvn.cl/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.tvn.cl/noticias/tendencias/desde-un-homenaje-a-tommy-rey-hasta-lo-nuevo-de-jere-klein-tvn-transmitira-los-premios-pulsar-2025-",
+        "supports": [
+          "schedule_pattern",
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=GdIPy_5kjko",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official TVN Chile channel, admitted only for deterministic Premios Pulsar music-awards livestreams. YouTube API live metadata confirms the 2025 ceremony streamed from 2025-07-06T22:27:17Z to 2025-07-07T00:59:00Z. General TVN news and non-music programming fail closed.",
+    "youtube_channel_id": "UCaVaCaiG6qRzDiJDuEGKOhQ",
+    "youtube_uploads_playlist_id": "UUaVaCaiG6qRzDiJDuEGKOhQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "fix-tv-premios-graffiti",
+    "name": "FIX TV / Premios Graffiti",
+    "operator_name": "FIX TV",
+    "type": "music_media",
+    "country": "Uruguay",
+    "country_code": "UY",
+    "region": "Montevideo",
+    "city": "Montevideo",
+    "location": {
+      "lat": -34.9011,
+      "lon": -56.1645,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Montevideo, Uruguay"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Hip-hop",
+      "Electronic",
+      "Metal",
+      "Candombe",
+      "Tropical",
+      "Folk",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.fixtv.com.uy/",
+    "schedule_url": "https://www.premiosgraffiti.com.uy/",
+    "youtube_url": "https://www.youtube.com/channel/UCg17-IAPVEkNdqtaYBi-mcQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Premios Graffiti",
+        "Graffiti 2025",
+        "Graffiti 2026"
+      ],
+      "deny_title_patterns": [
+        "entrevista",
+        "interview",
+        "trailer",
+        "teaser",
+        "resumen",
+        "recap",
+        "noticias"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.fixtv.com.uy/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.premiosgraffiti.com.uy/",
+        "supports": [
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCg17-IAPVEkNdqtaYBi-mcQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=DiYcwzL4WoU",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official FIX TV source, admitted only for deterministic Premios Graffiti music-awards livestreams. YouTube API live metadata confirms the 2025 ceremony streamed from 2025-10-15T23:45:42Z to 2025-10-16T02:18:05Z. Non-music FIX TV programming fails closed.",
+    "youtube_channel_id": "UCg17-IAPVEkNdqtaYBi-mcQ",
+    "youtube_uploads_playlist_id": "UUg17-IAPVEkNdqtaYBi-mcQ"
   }
 ]
