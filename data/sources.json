@@ -14561,5 +14561,110 @@
     "note": "Official annual pan-African live-music festival in Stone Town, Zanzibar, operated by Busara Promotions. The official channel carried artist-stage streams marked #LIVE during the 2023 festival, and the organiser's newsletter directs audiences to its YouTube streams archive. The channel also carries other Busara Promotions content, so only explicit Sauti za Busara live-event streams are admitted.",
     "youtube_channel_id": "UCVuhEYt1Zy-ih3o2KQM8whw",
     "youtube_uploads_playlist_id": "UUVuhEYt1Zy-ih3o2KQM8whw"
+  },
+  {
+    "schema_version": 2,
+    "id": "junior-eurovision-song-contest",
+    "name": "Junior Eurovision Song Contest",
+    "operator_name": "European Broadcasting Union",
+    "type": "music_event_broadcaster",
+    "country": "Switzerland",
+    "country_code": "CH",
+    "region": "Geneva",
+    "city": "Geneva",
+    "location": {
+      "lat": 46.2044,
+      "lon": 6.1432,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Geneva, Switzerland (EBU operator base)"
+    },
+    "genres": [
+      "Pop",
+      "Dance-pop",
+      "Ballad",
+      "Youth Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_event_stream",
+      "live_performance"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Multi-language"
+    ],
+    "official_site": "https://junior.eurovision.com/",
+    "schedule_url": "https://junior.eurovision.com/how-to-watch-junior-eurovision/",
+    "youtube_url": "https://www.youtube.com/channel/UC-lkYjunAyfultKGuRJz6HQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "junior eurovision",
+        "jesc",
+        "live from",
+        "live show"
+      ],
+      "deny_title_patterns": [
+        "official music video",
+        "roundup",
+        "recap",
+        "reaction",
+        "interview",
+        "rehearsal clip",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://junior.eurovision.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC-lkYjunAyfultKGuRJz6HQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://junior.eurovision.com/news/16-countries-to-take-part-junior-eurovision-2026/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://www.eurovision.com/newsroom/release/junior-eurovision-song-contest-2025-unites-millions-tv-online/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official EBU youth song contest source. The 2025 live show was streamed on the official Junior Eurovision YouTube channel and the EBU reported live YouTube viewing figures; the 2026 Malta show is also explicitly scheduled for live distribution on the official YouTube channel. Host city changes annually, so event-level location should override the EBU operator base.",
+    "youtube_channel_id": "UC-lkYjunAyfultKGuRJz6HQ",
+    "youtube_uploads_playlist_id": "UU-lkYjunAyfultKGuRJz6HQ"
   }
 ]
