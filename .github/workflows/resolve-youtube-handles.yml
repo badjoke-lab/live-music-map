@@ -21,8 +21,7 @@ jobs:
       - name: Resolve channel identity and livestream metadata
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_IDS: 'UCEltOcaOfMu7psU4Lp8SDBw'
-          YOUTUBE_SCAN_LIMIT: '50'
+          YOUTUBE_HANDLES: 'Operator-radio'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
