@@ -38,7 +38,7 @@ jobs:
       - name: Commit audit report
         shell: bash
         run: |
-          if git diff --quiet -- data/acquisition-audit.json docs/ACQUISITION_AUDIT.md; then
+          if [ -z "$(git status --porcelain -- data/acquisition-audit.json docs/ACQUISITION_AUDIT.md)" ]; then
             echo 'No audit changes.'
             exit 0
           fi
