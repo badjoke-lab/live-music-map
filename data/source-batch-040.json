@@ -1,0 +1,110 @@
+[
+  {
+    "schema_version": 2,
+    "id": "insomniac-events",
+    "name": "Insomniac",
+    "operator_name": "Insomniac Events",
+    "type": "festival_promoter",
+    "country": "United States",
+    "country_code": "US",
+    "region": "California",
+    "city": "Los Angeles",
+    "location": {
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Los Angeles, California (Insomniac home base)"
+    },
+    "genres": [
+      "Electronic",
+      "EDM",
+      "House",
+      "Techno",
+      "Trance",
+      "Bass",
+      "Hard Dance",
+      "Drum & Bass",
+      "Multi-genre Electronic"
+    ],
+    "formats": [
+      "festival_stream",
+      "dj_set",
+      "live_performance"
+    ],
+    "languages": ["English"],
+    "official_site": "https://www.insomniac.com/",
+    "schedule_url": "https://www.insomniac.com/events/",
+    "youtube_url": "https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "EDC Las Vegas",
+        "EDC Orlando",
+        "circuitGROUNDS",
+        "kineticFIELD",
+        "cosmicMEADOW",
+        "neonGARDEN",
+        "bassPOD",
+        "wasteLAND",
+        "stereoBLOOM",
+        "livestream",
+        "live stream",
+        "replay"
+      ],
+      "deny_title_patterns": [
+        "official trailer",
+        "aftermovie",
+        "interview",
+        "podcast",
+        "official audio",
+        "music video",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.insomniac.com/",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCr45VhwCBYwMfdN-gz7W_OA",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.insomniac.com/events/",
+        "supports": ["schedule_pattern"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=8Aw5LObzFFc",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://blog.youtube/news-and-events/edc-2026-las-vegas-youtube-live/",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Insomniac festival-promoter channel. YouTube's official blog states that EDC Las Vegas 2026 streamed exclusively on the Insomniac YouTube channel May 15-17 with six live feeds per day. YouTube API verification of circuitGROUNDS Friday (8Aw5LObzFFc) confirms a genuine livestream from 2026-05-16T01:45:49Z through 2026-05-17T01:46:04Z. The channel also publishes trailers, aftermovies and recorded material, so only deterministic live-event/DJ-stage streams are admitted. Event locations override the Los Angeles operator base.",
+    "youtube_channel_id": "UCr45VhwCBYwMfdN-gz7W_OA",
+    "youtube_uploads_playlist_id": "UUr45VhwCBYwMfdN-gz7W_OA"
+  }
+]
