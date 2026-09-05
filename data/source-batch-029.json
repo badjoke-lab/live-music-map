@@ -1,0 +1,93 @@
+[
+  {
+    "schema_version": 2,
+    "id": "avex-a-nation",
+    "name": "avex / a-nation",
+    "operator_name": "Avex Live Creative Inc.",
+    "type": "festival_promoter",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Tokyo, Japan"
+    },
+    "genres": [
+      "J-pop",
+      "K-pop",
+      "Hip-hop",
+      "Dance",
+      "Rock",
+      "Electronic",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": ["Japanese"],
+    "official_site": "https://a-nation.net/",
+    "schedule_url": "https://a-nation.net/",
+    "youtube_url": "https://www.youtube.com/channel/UC1oPBUWifc0QOOY8DEKhLuQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "a-nation",
+        "a nation",
+        "youtube live"
+      ],
+      "deny_title_patterns": [
+        "music video",
+        "mv",
+        "lyric video",
+        "teaser",
+        "trailer",
+        "interview",
+        "behind the scenes"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://a-nation.net/",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC1oPBUWifc0QOOY8DEKhLuQ",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://avexnet.jp/news/1026945",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=fMJn_begirA",
+        "supports": ["music_live_capability"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Avex channel carrying a-nation festival livestreams. In 2025 both festival days at Ajinomoto Stadium were streamed live for free on YouTube. The channel is mixed-purpose, so only titles explicitly tied to a-nation/live-event streaming are admitted.",
+    "youtube_channel_id": "UC1oPBUWifc0QOOY8DEKhLuQ",
+    "youtube_uploads_playlist_id": "UU1oPBUWifc0QOOY8DEKhLuQ"
+  }
+]
