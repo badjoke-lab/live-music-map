@@ -18,10 +18,11 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Resolve non-artist candidate livestreams
+      - name: Resolve next non-artist source candidates
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_VIDEO_IDS: 'qM0I5DezXd0,GdIPy_5kjko,DiYcwzL4WoU'
+          YOUTUBE_HANDLES: 'NiEWJP,IRAWMA,A2IM'
+          YOUTUBE_VIDEO_IDS: 'Zr-EdlD3F9A,DE95bDO4-74,_4Suf6S7Ow4'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
