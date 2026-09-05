@@ -1,0 +1,91 @@
+[
+  {
+    "schema_version": 2,
+    "id": "king-gizzard-and-the-lizard-wizard",
+    "name": "King Gizzard & The Lizard Wizard",
+    "operator_name": "King Gizzard & The Lizard Wizard",
+    "type": "artist_channel",
+    "country": "Australia",
+    "country_code": "AU",
+    "region": "Victoria",
+    "city": "Melbourne",
+    "location": {
+      "lat": -37.8136,
+      "lon": 144.9631,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Melbourne, Australia"
+    },
+    "genres": [
+      "Psychedelic Rock",
+      "Garage Rock",
+      "Progressive Rock",
+      "Alternative",
+      "Electronic",
+      "Metal",
+      "Multi-genre"
+    ],
+    "formats": [
+      "concert_stream",
+      "festival_stream",
+      "live_performance"
+    ],
+    "languages": ["English"],
+    "official_site": "https://kinggizzardandthelizardwizard.com/",
+    "schedule_url": "https://kinggizzardandthelizardwizard.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCNiyS8zr2RIddszLwtoyUow",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "field of vision",
+        "live",
+        "livestream",
+        "concert",
+        "festival",
+        "live from"
+      ],
+      "deny_title_patterns": [
+        "official video",
+        "music video",
+        "official audio",
+        "visualizer",
+        "trailer",
+        "teaser"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://kinggizzardandthelizardwizard.com/",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCNiyS8zr2RIddszLwtoyUow",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=BZvR1J9kIVk",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Official artist channel with event-based full concert and festival livestreams. King Gizzard streamed Field of Vision 2025 via its official YouTube channel, including the full Day 1 broadcast on 2025-08-15. Only clearly identified live concert/festival streams should be admitted; ordinary music videos, official audio, visualizers, trailers and teasers are excluded.",
+    "youtube_channel_id": "UCNiyS8zr2RIddszLwtoyUow",
+    "youtube_uploads_playlist_id": "UUNiyS8zr2RIddszLwtoyUow"
+  }
+]
