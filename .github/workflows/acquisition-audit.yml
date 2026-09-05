@@ -1,0 +1,44 @@
+name: Build acquisition audit
+
+on:
+  workflow_run:
+    workflows: ['Refresh YouTube live streams']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: acquisition-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Validate audit builder
+        run: node --check scripts/build-acquisition-audit.mjs
+      - name: Build 10-run acquisition audit
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ACQUISITION_AUDIT_SAMPLE_SIZE: '10'
+        run: node scripts/build-acquisition-audit.mjs
+      - name: Commit audit report
+        shell: bash
+        run: |
+          if git diff --quiet -- data/acquisition-audit.json docs/ACQUISITION_AUDIT.md; then
+            echo 'No audit changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/acquisition-audit.json docs/ACQUISITION_AUDIT.md
+          git commit -m 'data: update acquisition audit'
+          git push origin HEAD:main
