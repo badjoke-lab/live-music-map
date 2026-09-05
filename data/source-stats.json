@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T11:07:14.894Z",
+  "generated_at": "2026-09-05T11:25:00.246Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 168,
+    "sources_total": 170,
     "live_now": 73,
-    "upcoming": 49,
+    "upcoming": 50,
     "observed_live_streams_total": 127,
     "observed_live_streams_7d": 66,
     "observed_live_streams_30d": 81,
@@ -4188,6 +4188,61 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "king-gizzard-and-the-lizard-wizard": {
+      "source_id": "king-gizzard-and-the-lizard-wizard",
+      "source_name": "King Gizzard & The Lizard Wizard",
+      "country_code": "AU",
+      "country": "Australia",
+      "region": "Victoria",
+      "city": "Melbourne",
+      "source_type": "artist_channel",
+      "source_genres": [
+        "Psychedelic Rock",
+        "Garage Rock",
+        "Progressive Rock",
+        "Alternative",
+        "Electronic",
+        "Metal",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "aria-awards": {
+      "source_id": "aria-awards",
+      "source_name": "ARIA Awards",
+      "country_code": "AU",
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "source_type": "music_awards",
+      "source_genres": [
+        "Pop",
+        "Rock",
+        "Hip-hop",
+        "Electronic",
+        "R&B",
+        "Alternative",
+        "Country",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 1,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": "2026-09-24T00:00:00.000Z",
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -4217,9 +4272,9 @@
         "observed_live_30d": 5
       },
       "AU": {
-        "sources": 2,
+        "sources": 4,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "FR": {
@@ -4531,9 +4586,9 @@
         "observed_live_30d": 1
       },
       "music_awards": {
-        "sources": 11,
+        "sources": 12,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "music_show_venue": {
@@ -4613,13 +4668,19 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "artist_channel": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 55,
+        "sources": 57,
         "live_now": 14,
-        "upcoming": 25,
+        "upcoming": 26,
         "observed_live_30d": 34
       },
       "Techno": {
@@ -4671,15 +4732,15 @@
         "observed_live_30d": 0
       },
       "Multi-genre": {
-        "sources": 73,
+        "sources": 75,
         "live_now": 5,
-        "upcoming": 20,
+        "upcoming": 21,
         "observed_live_30d": 19
       },
       "Hip-hop": {
-        "sources": 36,
+        "sources": 37,
         "live_now": 18,
-        "upcoming": 5,
+        "upcoming": 6,
         "observed_live_30d": 12
       },
       "Rap": {
@@ -4719,7 +4780,7 @@
         "observed_live_30d": 2
       },
       "Metal": {
-        "sources": 7,
+        "sources": 8,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 1
@@ -4761,15 +4822,15 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 45,
+        "sources": 46,
         "live_now": 2,
-        "upcoming": 9,
+        "upcoming": 10,
         "observed_live_30d": 6
       },
       "Pop": {
-        "sources": 46,
+        "sources": 47,
         "live_now": 7,
-        "upcoming": 9,
+        "upcoming": 10,
         "observed_live_30d": 5
       },
       "Soul": {
@@ -4803,9 +4864,9 @@
         "observed_live_30d": 6
       },
       "Alternative": {
-        "sources": 12,
+        "sources": 14,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Lofi": {
@@ -5025,9 +5086,9 @@
         "observed_live_30d": 1
       },
       "R&B": {
-        "sources": 17,
+        "sources": 18,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 3
       },
       "Latin": {
@@ -5091,9 +5152,9 @@
         "observed_live_30d": 0
       },
       "Country": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Bluegrass": {
@@ -5568,6 +5629,24 @@
         "sources": 1,
         "live_now": 0,
         "upcoming": 1,
+        "observed_live_30d": 0
+      },
+      "Psychedelic Rock": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Garage Rock": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Progressive Rock": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
         "observed_live_30d": 0
       }
     },
