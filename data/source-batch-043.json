@@ -1,0 +1,289 @@
+[
+  {
+    "schema_version": 2,
+    "id": "irawma",
+    "name": "IRAWMA — International Reggae And World Music Awards",
+    "operator_name": null,
+    "type": "music_awards",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Florida",
+    "city": "Lauderhill",
+    "location": {
+      "lat": 26.1404,
+      "lon": -80.2134,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Lauderhill, Florida"
+    },
+    "genres": [
+      "Reggae",
+      "Dancehall",
+      "Afrobeats",
+      "Soca",
+      "Caribbean",
+      "World",
+      "Gospel Reggae"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": ["English"],
+    "official_site": "https://irawma.com/",
+    "schedule_url": "https://irawma.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCE_mCxfNiphp7o0JjvINygg",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "IRAWMA",
+        "International Reggae And World Music Awards"
+      ],
+      "deny_title_patterns": [
+        "red carpet",
+        "nominee",
+        "nomination",
+        "press conference",
+        "interview",
+        "podcast",
+        "news",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://irawma.com/",
+        "supports": ["identity", "music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCE_mCxfNiphp7o0JjvINygg",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=iKD2ZiljVCs",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official IRAWMA awards source. The 2026 ceremony was confirmed as an actual YouTube livestream; only IRAWMA-branded awards/showcase/performance streams are admitted. Red carpet, nomination, press, interview and promotional items fail closed by title scope.",
+    "youtube_channel_id": "UCE_mCxfNiphp7o0JjvINygg",
+    "youtube_uploads_playlist_id": "UUE_mCxfNiphp7o0JjvINygg"
+  },
+  {
+    "schema_version": 2,
+    "id": "jam-in-the-van",
+    "name": "Jam in the Van",
+    "operator_name": null,
+    "type": "music_media",
+    "country": "United States",
+    "country_code": "US",
+    "region": "California",
+    "city": "Los Angeles",
+    "location": {
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "precision": "city_confirmed",
+      "role": "source_base",
+      "label": "Los Angeles, California"
+    },
+    "genres": [
+      "Indie",
+      "Alternative Rock",
+      "Folk",
+      "Soul",
+      "Punk",
+      "Metal",
+      "Americana",
+      "Reggae",
+      "Psychedelic",
+      "Pop"
+    ],
+    "formats": [
+      "studio_session",
+      "live_performance"
+    ],
+    "languages": ["English"],
+    "official_site": "https://jaminthevan.com/",
+    "schedule_url": "https://jaminthevan.com/watch/",
+    "youtube_url": "https://www.youtube.com/channel/UCwfYU2M8TBAus0TIaNtjxlQ",
+    "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Full Set",
+        "Live Session"
+      ],
+      "deny_title_patterns": [
+        "comedy",
+        "comedian",
+        "open mic",
+        "stand-up",
+        "standup",
+        "roast",
+        "podcast",
+        "interview",
+        "talk",
+        "trailer",
+        "teaser",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://jaminthevan.com/",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://jaminthevan.com/watch/",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCwfYU2M8TBAus0TIaNtjxlQ",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "other_official",
+        "url": "https://jaminthevan.com/band/the-last-light/",
+        "supports": ["music_live_capability"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "High-frequency Jam in the Van music-session source. The same operator also publishes comedy and other programming, so only titles explicitly marked Full Set or Live Session are admitted; comedy, podcasts, interviews and related programming fail closed.",
+    "youtube_channel_id": "UCwfYU2M8TBAus0TIaNtjxlQ",
+    "youtube_uploads_playlist_id": "UUwfYU2M8TBAus0TIaNtjxlQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "niew-expop",
+    "name": "NiEW / exPoP!!!!!",
+    "operator_name": "NiEW",
+    "type": "music_media",
+    "country": "Japan",
+    "country_code": "JP",
+    "region": "Tokyo",
+    "city": "Tokyo",
+    "location": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Tokyo, Japan"
+    },
+    "genres": [
+      "Indie",
+      "Alternative",
+      "Rock",
+      "Pop",
+      "R&B",
+      "Soul",
+      "Electronic",
+      "Hip-hop",
+      "Singer-songwriter"
+    ],
+    "formats": [
+      "concert",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": ["Japanese"],
+    "official_site": "https://niewmedia.com/",
+    "schedule_url": "https://niewmedia.com/news/2608expop187/",
+    "youtube_url": "https://www.youtube.com/channel/UCXHNN4xg8VnFqqPnEhr8DzQ",
+    "status": "scheduled",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "exPoP!!!!!",
+        "exPoP"
+      ],
+      "deny_title_patterns": [
+        "digest",
+        "recap",
+        "interview",
+        "podcast",
+        "talk",
+        "news",
+        "trailer",
+        "teaser",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://niewmedia.com/",
+        "supports": ["identity"]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://niewmedia.com/news/2608expop187/",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCXHNN4xg8VnFqqPnEhr8DzQ",
+        "supports": ["official_channel"]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=56mzvH-MMT0",
+        "supports": ["music_live_capability", "schedule_pattern"]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "NiEW source admitted only for exPoP!!!!!-branded live events. The monthly series began in 2007 and has exceeded 200 events; official 2026 event pages confirm YouTube livestreaming. Other NiEW programming fails closed unless the title carries the exPoP brand.",
+    "youtube_channel_id": "UCXHNN4xg8VnFqqPnEhr8DzQ",
+    "youtube_uploads_playlist_id": "UUXHNN4xg8VnFqqPnEhr8DzQ"
+  }
+]
