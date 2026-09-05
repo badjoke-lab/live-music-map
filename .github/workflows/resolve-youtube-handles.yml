@@ -21,7 +21,7 @@ jobs:
       - name: Resolve channel identity and livestream metadata
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_VIDEO_IDS: 'NMgkAR9RCW8'
+          YOUTUBE_VIDEO_IDS: 'qM0I5DezXd0,j2rs6TFXlkI,wGPF4NKckmY'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
