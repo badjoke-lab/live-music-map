@@ -14886,5 +14886,113 @@
     "note": "Official CBC music channel with current YouTube livestream capability. YouTube API live metadata confirms the 2026 JUNO Awards streamed from 2026-03-29 23:46:21Z to 2026-03-30 02:10:42Z and the 2026 JUNO Awards Gala streamed from 2026-03-28 21:50:16Z to 2026-03-29 01:46:30Z. Mixed editorial and recorded content is excluded unless deterministically live-music relevant.",
     "youtube_channel_id": "UCAILl3AE11CoqiSVs6rBwBQ",
     "youtube_uploads_playlist_id": "UUAILl3AE11CoqiSVs6rBwBQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "grammis-sweden",
+    "name": "Grammis",
+    "operator_name": "IFPI Sverige",
+    "type": "music_awards",
+    "country": "Sweden",
+    "country_code": "SE",
+    "region": "Stockholm County",
+    "city": "Stockholm",
+    "location": {
+      "lat": 59.3293,
+      "lon": 18.0686,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Stockholm, Sweden"
+    },
+    "genres": [
+      "Pop",
+      "Rock",
+      "Hip-hop",
+      "R&B",
+      "Electronic",
+      "Folk",
+      "Jazz",
+      "Metal",
+      "Singer-songwriter",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Swedish"
+    ],
+    "official_site": "https://grammis.se/",
+    "schedule_url": "https://grammis.se/",
+    "youtube_url": "https://www.youtube.com/channel/UCpO9CpZse2JyjjGSMhUTZdw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "grammis",
+        "grammis 2026",
+        "grammis 2027",
+        "live"
+      ],
+      "deny_title_patterns": [
+        "red carpet",
+        "interview",
+        "nominerade",
+        "nominations",
+        "trailer",
+        "teaser",
+        "shorts"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://grammis.se/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCpO9CpZse2JyjjGSMhUTZdw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=h1AhAyw166M",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://grammis.se/news/har-ar-alla-vinnare-fran-grammis-2026/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official Swedish Grammis awards source operated by IFPI Sverige. The 2026 gala was streamed live in full on the official Grammis YouTube channel and included live performances by Veronica Maggio, Viagra Boys, Miss Li, Nektar, ADAAM and Greekazo. YouTube API live metadata confirms actual streaming from 2026-04-29 16:55:52Z to 19:27:53Z. Red-carpet and non-performance ancillary content are excluded.",
+    "youtube_channel_id": "UCpO9CpZse2JyjjGSMhUTZdw",
+    "youtube_uploads_playlist_id": "UUpO9CpZse2JyjjGSMhUTZdw"
   }
 ]
