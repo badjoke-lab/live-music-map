@@ -18,10 +18,10 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Scan next candidate channels for livestream history
+      - name: Scan Jam in the Van livestream history
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_IDS: 'UCXHNN4xg8VnFqqPnEhr8DzQ,UCE_mCxfNiphp7o0JjvINygg,UC3ZH2GznkvyfOsbTO7vAgkA,UCGNnGrpbspf0i4-SOmwYkYA'
+          YOUTUBE_HANDLES: 'jaminthevan'
           YOUTUBE_SCAN_LIMIT: '50'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
