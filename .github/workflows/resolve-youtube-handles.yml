@@ -21,7 +21,7 @@ jobs:
       - name: Resolve channel identity and livestream metadata
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_IDS: 'UCIzviXrH8rVQV9lfU7X3t-g'
+          YOUTUBE_CHANNEL_IDS: 'UC5BMQOsAB8hKUyHu9KI6yig'
           YOUTUBE_SCAN_LIMIT: '50'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
