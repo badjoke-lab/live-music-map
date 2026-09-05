@@ -1,0 +1,71 @@
+name: RSS outage fallback
+
+on:
+  workflow_run:
+    workflows: ['Refresh YouTube live streams']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rss-outage-fallback
+  cancel-in-progress: false
+
+jobs:
+  fallback:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Validate fallback scripts
+        run: |
+          node --check scripts/rss-outage-guard.mjs
+          node --check scripts/budgeted-playlist-sweep.mjs
+      - name: Probe YouTube Atom health
+        id: rss
+        env:
+          RSS_OUTAGE_THRESHOLD: '0.5'
+          RSS_OUTAGE_FULL_SWEEP_COOLDOWN_HOURS: '24'
+        run: node scripts/rss-outage-guard.mjs probe
+      - name: Full playlist fallback for widespread RSS outage
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_PLAYLIST_SWEEP_BUDGET: '500'
+        run: node scripts/budgeted-playlist-sweep.mjs
+      - name: Enforce stream channel identity after fallback
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/enforce-stream-channel-identity.mjs
+      - name: Apply title classification precedence after fallback
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        run: node scripts/correct-title-classification.mjs
+      - name: Refresh history and source stats after fallback
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        run: node scripts/update-history-stats.mjs finalize
+      - name: Mark widespread fallback cooldown
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        env:
+          RSS_OUTAGE_SWEEP_SOURCE_COUNT: ${{ steps.rss.outputs.source_count }}
+        run: node scripts/rss-outage-guard.mjs mark-full-sweep
+      - name: Discard sweep-internal state not owned by this workflow
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        run: git checkout -- data/youtube-state.json data/acquisition.json
+      - name: Commit outage fallback results
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        shell: bash
+        run: |
+          git add data/streams.json data/source-stats.json data/stream-history.json data/rss-outage-fallback-state.json data/sources.json
+          if git diff --cached --quiet; then
+            echo 'No outage fallback changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: apply widespread RSS outage fallback'
+          git push origin HEAD:main
