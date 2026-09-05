@@ -15463,5 +15463,115 @@
     "note": "Official Canadian Folk Music Awards channel. A 2026-09-05 API scan of the 50 most recent uploads found 29 YouTube livestream records. All four 2026 Calgary concert/awards programs were genuine livestreams with actual start/end timestamps: Songs & Stories, Folk Forward!, Traditional and Global Roots, and Folk for Families. The channel also contains recurring award-concert livestreams from 2021 through 2025. Nominee-announcement streams are excluded. Host city changes annually, so event-level location overrides this Canada-level source location.",
     "youtube_channel_id": "UCIzviXrH8rVQV9lfU7X3t-g",
     "youtube_uploads_playlist_id": "UUIzviXrH8rVQV9lfU7X3t-g"
+  },
+  {
+    "schema_version": 2,
+    "id": "national-indigenous-music-awards",
+    "name": "National Indigenous Music Awards (NIMAs) / MusicNT",
+    "operator_name": "MusicNT",
+    "type": "music_awards",
+    "country": "Australia",
+    "country_code": "AU",
+    "region": "Northern Territory",
+    "city": "Darwin",
+    "location": {
+      "lat": -12.4634,
+      "lon": 130.8456,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Darwin, Northern Territory, Australia"
+    },
+    "genres": [
+      "Indigenous Australian",
+      "Hip-hop",
+      "Rock",
+      "Pop",
+      "Country",
+      "Reggae",
+      "Soul",
+      "Traditional",
+      "Multi-genre"
+    ],
+    "formats": [
+      "award_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "English",
+      "Indigenous Australian languages"
+    ],
+    "official_site": "https://nima.musicnt.com.au/",
+    "schedule_url": "https://nima.musicnt.com.au/event-details/",
+    "youtube_url": "https://www.youtube.com/channel/UC3q0OsscJwkgXMXGIG3vY4g",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "National Indigenous Music Awards",
+        "NIMAs",
+        "NIMA",
+        "live performance",
+        "awards"
+      ],
+      "deny_title_patterns": [
+        "nomination announcement",
+        "interview only",
+        "workshop",
+        "panel",
+        "trailer",
+        "teaser",
+        "recap"
+      ],
+      "require_schedule_match_when_ambiguous": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-05"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://nima.musicnt.com.au/about/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC3q0OsscJwkgXMXGIG3vY4g",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=NMgkAR9RCW8",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://nima.musicnt.com.au/news/national-indigenous-music-awards-nimasreveal-2026-winners/",
+        "supports": [
+          "identity",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official MusicNT source for the annual National Indigenous Music Awards in Darwin. The 2025 ceremony was presented by YouTube and livestreamed globally; YouTube API live metadata confirms the official MusicNT stream ran from 2025-08-09T09:14:36Z to 12:25:23Z. The NIMAs returned in Darwin on 2026-08-08 with a multi-genre First Nations live-performance lineup. MusicNT also publishes broader music-industry content, so only deterministic NIMA/live-performance streams are admitted.",
+    "youtube_channel_id": "UC3q0OsscJwkgXMXGIG3vY4g",
+    "youtube_uploads_playlist_id": "UU3q0OsscJwkgXMXGIG3vY4g"
   }
 ]
