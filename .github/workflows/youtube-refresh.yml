@@ -227,6 +227,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
+          name: github-pages-${{ github.run_attempt }}
 
   deploy-refreshed-data:
     needs: refresh
@@ -239,3 +240,5 @@ jobs:
       - name: Deploy refreshed data to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
