@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T00:54:23.474Z",
+  "generated_at": "2026-09-05T04:23:08.092Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 157,
-    "live_now": 71,
-    "upcoming": 50,
-    "observed_live_streams_total": 121,
-    "observed_live_streams_7d": 60,
-    "observed_live_streams_30d": 75,
-    "history_records": 50
+    "sources_total": 160,
+    "live_now": 72,
+    "upcoming": 51,
+    "observed_live_streams_total": 123,
+    "observed_live_streams_7d": 62,
+    "observed_live_streams_30d": 77,
+    "history_records": 51
   },
   "by_source": {
     "hoer-berlin": {
@@ -1197,13 +1197,13 @@
         "Multi-genre"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 2,
       "observed_live_streams_7d": 2,
       "observed_live_streams_30d": 2,
       "active_days_30d": 2,
       "last_live_at": "2026-09-04T09:51:21.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-09-05T10:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -2905,11 +2905,11 @@
       ],
       "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 6,
-      "observed_live_streams_7d": 6,
-      "observed_live_streams_30d": 6,
+      "observed_live_streams_total": 7,
+      "observed_live_streams_7d": 7,
+      "observed_live_streams_30d": 7,
       "active_days_30d": 3,
-      "last_live_at": "2026-09-05T00:33:53.000Z",
+      "last_live_at": "2026-09-05T03:34:47.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
@@ -2929,13 +2929,13 @@
         "Bebop",
         "Contemporary Jazz"
       ],
-      "live_now": 0,
+      "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 1,
-      "observed_live_streams_7d": 1,
-      "observed_live_streams_30d": 1,
-      "active_days_30d": 1,
-      "last_live_at": "2026-09-04T00:34:17.000Z",
+      "observed_live_streams_total": 2,
+      "observed_live_streams_7d": 2,
+      "observed_live_streams_30d": 2,
+      "active_days_30d": 2,
+      "last_live_at": "2026-09-05T03:59:43.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
@@ -3900,6 +3900,81 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "reona": {
+      "source_id": "reona",
+      "source_name": "ReoNa",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": null,
+      "city": null,
+      "source_type": "artist",
+      "source_genres": [
+        "J-pop",
+        "Rock",
+        "Alternative Rock",
+        "Anime Music"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "gregory-burrus-productions": {
+      "source_id": "gregory-burrus-productions",
+      "source_name": "Gregory Burrus Productions",
+      "country_code": "US",
+      "country": "United States",
+      "region": "New Jersey",
+      "city": null,
+      "source_type": "live_music_producer",
+      "source_genres": [
+        "Jazz",
+        "R&B",
+        "Funk",
+        "Soul",
+        "Live Music"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "allverse": {
+      "source_id": "allverse",
+      "source_name": "Virtual Music Project -ALLVERSE- Channel",
+      "country_code": "JP",
+      "country": "Japan",
+      "region": null,
+      "city": null,
+      "source_type": "virtual_music_festival",
+      "source_genres": [
+        "Virtual Music",
+        "Pop",
+        "Rock",
+        "Electronic",
+        "Dance",
+        "Singer-Songwriter"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -3911,15 +3986,15 @@
         "observed_live_30d": 15
       },
       "US": {
-        "sources": 35,
-        "live_now": 14,
+        "sources": 36,
+        "live_now": 15,
         "upcoming": 16,
-        "observed_live_30d": 22
+        "observed_live_30d": 24
       },
       "JP": {
-        "sources": 25,
+        "sources": 27,
         "live_now": 9,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 8
       },
       "GB": {
@@ -4160,9 +4235,9 @@
       },
       "venue": {
         "sources": 26,
-        "live_now": 1,
-        "upcoming": 1,
-        "observed_live_30d": 9
+        "live_now": 2,
+        "upcoming": 2,
+        "observed_live_30d": 11
       },
       "radio_media": {
         "sources": 3,
@@ -4297,6 +4372,18 @@
         "observed_live_30d": 0
       },
       "artist": {
+        "sources": 2,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "live_music_producer": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "virtual_music_festival": {
         "sources": 1,
         "live_now": 0,
         "upcoming": 0,
@@ -4305,7 +4392,7 @@
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 53,
+        "sources": 54,
         "live_now": 14,
         "upcoming": 25,
         "observed_live_30d": 34
@@ -4329,10 +4416,10 @@
         "observed_live_30d": 14
       },
       "Jazz": {
-        "sources": 24,
-        "live_now": 39,
+        "sources": 25,
+        "live_now": 40,
         "upcoming": 10,
-        "observed_live_30d": 25
+        "observed_live_30d": 27
       },
       "Afrobeat": {
         "sources": 2,
@@ -4361,7 +4448,7 @@
       "Multi-genre": {
         "sources": 66,
         "live_now": 3,
-        "upcoming": 20,
+        "upcoming": 21,
         "observed_live_30d": 17
       },
       "Hip-hop": {
@@ -4425,7 +4512,7 @@
         "observed_live_30d": 0
       },
       "Dance": {
-        "sources": 20,
+        "sources": 21,
         "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 7
@@ -4449,19 +4536,19 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 39,
+        "sources": 41,
         "live_now": 1,
-        "upcoming": 9,
+        "upcoming": 10,
         "observed_live_30d": 5
       },
       "Pop": {
-        "sources": 38,
+        "sources": 39,
         "live_now": 7,
         "upcoming": 9,
         "observed_live_30d": 4
       },
       "Soul": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4547,7 +4634,7 @@
       "Acoustic": {
         "sources": 6,
         "live_now": 6,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Ambient": {
@@ -4583,13 +4670,13 @@
       "Folk": {
         "sources": 6,
         "live_now": 1,
-        "upcoming": 14,
+        "upcoming": 15,
         "observed_live_30d": 5
       },
       "Blues": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Punk": {
@@ -4599,7 +4686,7 @@
         "observed_live_30d": 2
       },
       "Singer-Songwriter": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4689,7 +4776,7 @@
         "observed_live_30d": 0
       },
       "Alternative Rock": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4713,7 +4800,7 @@
         "observed_live_30d": 1
       },
       "R&B": {
-        "sources": 13,
+        "sources": 14,
         "live_now": 0,
         "upcoming": 2,
         "observed_live_30d": 2
@@ -4869,7 +4956,7 @@
         "observed_live_30d": 0
       },
       "J-pop": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4972,27 +5059,27 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 2,
         "upcoming": 0,
-        "observed_live_30d": 7
+        "observed_live_30d": 9
       },
       "Hard Bop": {
         "sources": 1,
         "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 6
+        "observed_live_30d": 7
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 2,
         "upcoming": 0,
-        "observed_live_30d": 7
+        "observed_live_30d": 9
       },
       "Piano Jazz": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 1
+        "observed_live_30d": 2
       },
       "OPM": {
         "sources": 1,
@@ -5001,7 +5088,7 @@
         "observed_live_30d": 0
       },
       "Funk": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5215,10 +5302,28 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "Anime Music": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Live Music": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Virtual Music": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_verified_stream_content_type_30d": {
-      "music_live_unspecified": 30,
+      "music_live_unspecified": 32,
       "dj_set": 17,
       "festival_stream": 1,
       "concert": 1,
