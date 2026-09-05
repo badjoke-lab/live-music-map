@@ -51,18 +51,23 @@ for (const handle of handles) {
 }
 
 for (const videoId of videoIds) {
-  const result = await api('videos', { part: 'snippet', id: videoId, maxResults: 1 });
+  const result = await api('videos', { part: 'snippet,liveStreamingDetails', id: videoId, maxResults: 1 });
   const video = result.items?.[0];
   const channelId = video?.snippet?.channelId;
   if (!channelId) {
     console.log(`UNRESOLVED VIDEO ${videoId}`);
     continue;
   }
+  const live = video.liveStreamingDetails || null;
   console.log(JSON.stringify({
     video_id: videoId,
     video_title: video.snippet?.title || null,
     video_channel_title: video.snippet?.channelTitle || null,
-    video_channel_id: channelId
+    video_channel_id: channelId,
+    scheduled_start: live?.scheduledStartTime || null,
+    actual_start: live?.actualStartTime || null,
+    actual_end: live?.actualEndTime || null,
+    has_live_streaming_details: Boolean(live)
   }));
   await printChannel(channelId, `video:${videoId}`);
 }
