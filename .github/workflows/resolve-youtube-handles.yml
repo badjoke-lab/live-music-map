@@ -18,10 +18,10 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
-      - name: Resolve handles to permanent channel IDs
+      - name: Resolve channel identity
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_HANDLES: 'SautizaBusara'
+          YOUTUBE_VIDEO_IDS: 'aRarRTbJOIU'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
