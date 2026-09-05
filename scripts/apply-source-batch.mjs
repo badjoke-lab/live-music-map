@@ -10,8 +10,14 @@ if (!batchArg) throw new Error('Usage: node scripts/apply-source-batch.mjs <batc
 
 const sourcesUrl = new URL('../data/sources.json', import.meta.url);
 const batchUrl = new URL(`../${batchArg.replace(/^\.\//, '')}`, import.meta.url);
+const retiredUrl = new URL('../data/source-retired.json', import.meta.url);
 const sources = JSON.parse(await fs.readFile(sourcesUrl, 'utf8'));
 const batch = JSON.parse(await fs.readFile(batchUrl, 'utf8'));
+let retiredIds = new Set();
+try {
+  const retired = JSON.parse(await fs.readFile(retiredUrl, 'utf8'));
+  retiredIds = new Set(Array.isArray(retired?.source_ids) ? retired.source_ids : []);
+} catch {}
 if (!Array.isArray(sources) || !Array.isArray(batch)) throw new Error('Source and batch files must contain arrays');
 
 async function api(path, params) {
@@ -51,11 +57,6 @@ async function resolveChannel(source) {
     return { id: ref.value, canonicalizeUrl: false };
   }
 
-  // YouTube bare paths such as /88rising are ambiguous: historically they may
-  // resemble legacy usernames, while modern branded paths can map to handles.
-  // Never let a bare path silently fall through to forUsername; only an explicit
-  // /user/... URL is allowed to use that legacy lookup. If forHandle cannot
-  // resolve a bare path, onboarding must pin youtube_channel_id explicitly.
   const lookups = ref.kind === 'username'
     ? [{ forUsername: ref.value }]
     : [{ forHandle: ref.value }];
@@ -81,6 +82,7 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
   const errors = [];
   const resolvedRows = [];
   let verifiedExisting = 0;
+  let retiredSkipped = 0;
 
   for (const candidate of batch) {
     if (!candidate?.id) {
@@ -92,6 +94,12 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
       continue;
     }
     batchIds.add(candidate.id);
+
+    if (retiredIds.has(candidate.id)) {
+      retiredSkipped += 1;
+      console.log(`Preflight ${candidate.id}: retired source, skipped.`);
+      continue;
+    }
 
     if (existingIds.has(candidate.id)) {
       if (skipExistingIds) {
@@ -139,7 +147,7 @@ async function preflightBatch({ skipExistingIds = false } = {}) {
     for (const error of errors) console.error(`- ${error}`);
     process.exit(1);
   }
-  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${verifiedExisting} already canonical verified, ${batchChannels.size} pending unique YouTube channels, no canonical duplicates, search.list=0.`);
+  console.log(`Source batch preflight OK: ${resolvedRows.length} pending candidates, ${verifiedExisting} already canonical verified, ${retiredSkipped} retired skipped, ${batchChannels.size} pending unique YouTube channels, no canonical duplicates, search.list=0.`);
 }
 
 if (PREFLIGHT) {
@@ -153,8 +161,13 @@ const existingIds = new Set(sources.map((source) => source.id));
 const existingChannels = new Set(sources.map((source) => source.youtube_channel_id).filter(Boolean));
 const added = [];
 const skippedDuplicateChannels = [];
+const skippedRetired = [];
 for (const candidate of batch) {
   if (!candidate?.id) throw new Error('Batch source is missing id');
+  if (retiredIds.has(candidate.id)) {
+    skippedRetired.push(candidate.id);
+    continue;
+  }
   if (existingIds.has(candidate.id)) continue;
   const source = structuredClone(candidate);
   const resolved = await resolveChannel(source);
@@ -178,4 +191,4 @@ for (const candidate of batch) {
 }
 
 await fs.writeFile(sourcesUrl, `${JSON.stringify(sources, null, 2)}\n`);
-console.log(`Source batch applied: ${added.length} added, ${sources.length} total. Duplicate channels skipped: ${skippedDuplicateChannels.length}${skippedDuplicateChannels.length ? ` (${skippedDuplicateChannels.join(', ')})` : ''}. Onboarding search.list: 0 calls by design; the normal Atom/playlist/videos.list refresh handles live and upcoming discovery.`);
+console.log(`Source batch applied: ${added.length} added, ${sources.length} total. Retired skipped: ${skippedRetired.length}${skippedRetired.length ? ` (${skippedRetired.join(', ')})` : ''}. Duplicate channels skipped: ${skippedDuplicateChannels.length}${skippedDuplicateChannels.length ? ` (${skippedDuplicateChannels.join(', ')})` : ''}. Onboarding search.list: 0 calls by design; the normal Atom/playlist/videos.list refresh handles live and upcoming discovery.`);
