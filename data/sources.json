@@ -7018,7 +7018,7 @@
     ],
     "official_site": "https://www.rollingloud.com/",
     "schedule_url": "https://www.rollingloud.com/livestream",
-    "youtube_url": "https://www.youtube.com/c/rollingloud",
+    "youtube_url": "https://www.youtube.com/@rollingloud",
     "status": "seasonal",
     "schedule_pattern": "seasonal",
     "lifecycle_status": "active",
@@ -7056,7 +7056,7 @@
       },
       {
         "kind": "official_youtube_channel",
-        "url": "https://www.youtube.com/c/rollingloud",
+        "url": "https://www.youtube.com/@rollingloud",
         "supports": [
           "official_channel"
         ]
@@ -7068,8 +7068,8 @@
       "priority": "high"
     },
     "note": "Official Rolling Loud livestream pages have offered festival streams directly on YouTube alongside other platforms.",
-    "youtube_channel_id": "UCXE6F2oZzy_6xEXiJiUFo2w",
-    "youtube_uploads_playlist_id": "UUXE6F2oZzy_6xEXiJiUFo2w"
+    "youtube_channel_id": "UCxrr-B7ydfDYr4sqsxNg5WA",
+    "youtube_uploads_playlist_id": "UUxrr-B7ydfDYr4sqsxNg5WA"
   },
   {
     "schema_version": 2,
