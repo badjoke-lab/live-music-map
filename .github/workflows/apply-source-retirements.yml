@@ -1,0 +1,49 @@
+name: Apply source retirements
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/source-retired.json'
+      - 'scripts/apply-source-retirements.mjs'
+      - '.github/workflows/apply-source-retirements.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-source-retirements
+  cancel-in-progress: false
+
+jobs:
+  retire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Apply retired source cleanup
+        run: |
+          node --check scripts/apply-source-retirements.mjs
+          node scripts/apply-source-retirements.mjs
+      - name: Validate source contract
+        run: node scripts/validate-sources.mjs
+      - name: Rebuild history and source stats
+        run: node scripts/update-history-stats.mjs finalize
+      - name: Rebuild hygiene and coverage audits
+        run: |
+          node scripts/build-source-hygiene-audit.mjs
+          node scripts/build-coverage-audit.mjs
+      - name: Commit retirement cleanup
+        shell: bash
+        run: |
+          git add data/sources.json data/streams.json data/stream-history.json data/youtube-state.json data/source-stats.json data/source-hygiene-audit.json data/coverage-audit.json docs/COVERAGE_AUDIT.md
+          if git diff --cached --quiet; then
+            echo 'No retirement cleanup changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: retire background-only sources'
+          git push origin HEAD:main
