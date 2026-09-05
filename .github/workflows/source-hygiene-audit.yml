@@ -1,0 +1,40 @@
+name: Source hygiene audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-source-hygiene-audit.mjs'
+      - '.github/workflows/source-hygiene-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-hygiene-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Build deterministic source hygiene audit
+        run: |
+          node --check scripts/build-source-hygiene-audit.mjs
+          node scripts/build-source-hygiene-audit.mjs
+      - name: Commit audit
+        shell: bash
+        run: |
+          git add data/source-hygiene-audit.json
+          if git diff --cached --quiet; then
+            echo 'No hygiene audit changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'data: update source hygiene audit'
+          git push origin HEAD:main
