@@ -1790,24 +1790,33 @@
     "music_live_policy": {
       "mode": "mixed",
       "allow_title_patterns": [
-        "dj mag live",
-        "dj set",
-        "live set",
-        "live performance"
+        "DJ Mag HQ",
+        "Live From DJ Mag",
+        "Live from DJ Mag",
+        "DJ Mag Live"
       ],
       "deny_title_patterns": [
         "interview",
         "podcast",
         "news",
         "tutorial",
-        "documentary"
+        "documentary",
+        "talk",
+        "how to",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay"
       ],
-      "require_schedule_match_when_ambiguous": true
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
     },
     "verification": {
       "official_channel": true,
       "music_live_capable": true,
-      "last_verified_at": "2026-09-03"
+      "last_verified_at": "2026-09-06"
     },
     "evidence": [
       {
@@ -1838,7 +1847,7 @@
       "method": "youtube_atom_feed",
       "priority": "normal"
     },
-    "note": "DJ Mag runs live streams globally; London is operator base only and must not be used as event location.",
+    "note": "Strict source title scope admits DJ Mag HQ and explicitly DJ Mag-branded live sets only; editorial, interviews, tutorials, promos, recaps and replays fail closed.",
     "youtube_channel_id": "UCJEKlziKdxoos1qbptjGgLg",
     "youtube_uploads_playlist_id": "UUJEKlziKdxoos1qbptjGgLg"
   },
@@ -1877,24 +1886,35 @@
     "music_live_policy": {
       "mode": "mixed",
       "allow_title_patterns": [
-        "mixmag lab",
-        "the lab",
-        "dj set",
-        "live set"
+        "Mixmag Lab",
+        "The Mixmag Lab",
+        "The Lab LDN",
+        "The Lab LA",
+        "The Lab NYC"
       ],
       "deny_title_patterns": [
         "interview",
         "podcast",
         "news",
         "documentary",
-        "review"
+        "review",
+        "talk",
+        "tutorial",
+        "how to",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay"
       ],
-      "require_schedule_match_when_ambiguous": true
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
     },
     "verification": {
       "official_channel": true,
       "music_live_capable": true,
-      "last_verified_at": "2026-09-03"
+      "last_verified_at": "2026-09-06"
     },
     "evidence": [
       {
@@ -1932,7 +1952,7 @@
       "method": "youtube_atom_feed",
       "priority": "normal"
     },
-    "note": "The Lab is a recurring livestream series; individual Lab locations can differ from the London operator base.",
+    "note": "The Lab is Mixmag’s target recurring livestream series. Strict source title scope admits Lab-branded live records only; editorial, interviews, tutorials, promos, recaps and replays fail closed.",
     "youtube_channel_id": "UCQdCIrTpkhEH5Z8KPsn7NvQ",
     "youtube_uploads_playlist_id": "UUQdCIrTpkhEH5Z8KPsn7NvQ"
   },
@@ -2065,12 +2085,13 @@
     "music_live_policy": {
       "mode": "mixed",
       "allow_title_patterns": [
-        "insomniac live",
-        "edc live",
-        "livestream",
-        "live stream",
-        "dj set",
-        "live set"
+        "EDC",
+        "Electric Daisy Carnival",
+        "Beyond Wonderland",
+        "Escape Halloween",
+        "Dreamstate",
+        "HARD Summer",
+        "Nocturnal Wonderland"
       ],
       "deny_title_patterns": [
         "interview",
@@ -2079,14 +2100,20 @@
         "aftermovie",
         "after movie",
         "recap",
-        "trailer"
+        "trailer",
+        "talk",
+        "teaser",
+        "highlights",
+        "shorts",
+        "replay"
       ],
-      "require_schedule_match_when_ambiguous": true
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
     },
     "verification": {
       "official_channel": true,
       "music_live_capable": true,
-      "last_verified_at": "2026-09-03"
+      "last_verified_at": "2026-09-06"
     },
     "evidence": [
       {
@@ -2123,7 +2150,7 @@
       "method": "youtube_atom_feed",
       "priority": "normal"
     },
-    "note": "Insomniac operates many festivals and events; event-specific locations must override this country-level operator location.",
+    "note": "Strict source title scope admits named Insomniac music-festival live records only; recap, replay, promotional and non-performance programming fail closed. Event locations override the Los Angeles operator base when available.",
     "youtube_channel_id": "UCr45VhwCBYwMfdN-gz7W_OA",
     "youtube_uploads_playlist_id": "UUr45VhwCBYwMfdN-gz7W_OA"
   },
@@ -2701,23 +2728,33 @@
     "music_live_policy": {
       "mode": "mixed",
       "allow_title_patterns": [
-        "music bank",
-        "k-pop live",
-        "live performance"
+        "Music Bank",
+        "뮤직뱅크"
       ],
       "deny_title_patterns": [
         "news",
         "drama",
         "interview",
         "documentary",
-        "talk"
+        "talk",
+        "behind",
+        "behind the scenes",
+        "preview",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts",
+        "1hr loop",
+        "loop"
       ],
-      "require_schedule_match_when_ambiguous": true
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
     },
     "verification": {
       "official_channel": true,
       "music_live_capable": true,
-      "last_verified_at": "2026-09-03"
+      "last_verified_at": "2026-09-06"
     },
     "evidence": [
       {
@@ -2755,7 +2792,7 @@
       "method": "youtube_atom_feed",
       "priority": "high"
     },
-    "note": "KBS WORLD TV is a mixed international broadcaster. Music Bank is a recurring YouTube livestream; non-music programming must fail closed.",
+    "note": "KBS WORLD TV is a mixed international broadcaster. Strict source title scope admits only Music Bank-branded live records; general KBS programming, loops, previews and interviews fail closed.",
     "youtube_channel_id": "UC5BMQOsAB8hKUyHu9KI6yig",
     "youtube_uploads_playlist_id": "UU5BMQOsAB8hKUyHu9KI6yig"
   },
@@ -7729,23 +7766,39 @@
     "music_live_policy": {
       "mode": "mixed",
       "allow_title_patterns": [
-        "kcon",
-        "m countdown",
-        "live",
-        "red carpet"
+        "LIVE I KCON",
+        "M COUNTDOWN",
+        "MCOUNTDOWN",
+        "ARTIST STAGE",
+        "X STAGE"
       ],
       "deny_title_patterns": [
         "behind",
         "reaction",
         "interview",
-        "teaser"
+        "teaser",
+        "red carpet",
+        "meet & greet",
+        "meet and greet",
+        "check-in",
+        "check in",
+        "loading",
+        "talk",
+        "trailer",
+        "recap",
+        "highlights",
+        "shorts",
+        "re-streaming",
+        "restream",
+        "replay"
       ],
-      "require_schedule_match_when_ambiguous": true
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
     },
     "verification": {
       "official_channel": true,
       "music_live_capable": true,
-      "last_verified_at": "2026-09-04"
+      "last_verified_at": "2026-09-06"
     },
     "evidence": [
       {
@@ -7770,7 +7823,7 @@
       "method": "youtube_atom_feed",
       "priority": "high"
     },
-    "note": "Official KCON festival channel; event performances are admitted while ancillary K-culture uploads fail closed.",
+    "note": "Strict source title scope admits KCON performance-stage live records only; red carpet, meet-and-greet, check-in, loading, re-streaming and other K-culture programming fail closed. Event locations override the Seoul operator base when available.",
     "youtube_channel_id": "UC2aul0Y3jUJ9sMzOhWPT9AA",
     "youtube_uploads_playlist_id": "UU2aul0Y3jUJ9sMzOhWPT9AA"
   },
