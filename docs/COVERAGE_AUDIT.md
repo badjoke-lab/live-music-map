@@ -1,6 +1,6 @@
 # Coverage audit
 
-Generated: 2026-09-05T11:37:42.632Z
+Generated: 2026-09-05T11:42:14.117Z
 
 ## Current acquisition coverage
 
@@ -8,19 +8,19 @@ Generated: 2026-09-05T11:37:42.632Z
 - active stream records: **145**
 - LIVE records: **74**
 - Upcoming records: **71**
-- verified records: **123**
-- rejected records: **6**
+- verified records: **90**
+- rejected records: **39**
 - unknown records: **16**
 - Sources with current LIVE: **21**
 - Sources with current Upcoming: **19**
-- Sources with current verified record: **34**
-- Sources never observed LIVE: **132**
-- Sources with no observed LIVE in 30d: **139**
+- Sources with current verified record: **30**
+- Sources never observed LIVE: **137**
+- Sources with no observed LIVE in 30d: **141**
 - Sources with neither current records nor observed-live history: **123**
 
 ## Classification review queues
 
-- background/BGM-like titles currently marked verified: **56**
+- background/BGM-like titles currently marked verified: **25**
 - ambiguous records currently marked unknown: **16**
 
 The background/BGM-like queue is a heuristic audit queue, not an automatic deletion rule. It exists because 24/7, lo-fi, chill, study, relaxation, BGM and similar streams are not the target for new Source expansion and can pollute discovery if left mixed with event/live-performance streams.
