@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/rss-outage-guard.mjs'
+      - 'scripts/enforce-source-title-scope.mjs'
       - '.github/workflows/rss-outage-fallback.yml'
   workflow_dispatch:
 
@@ -30,6 +31,7 @@ jobs:
         run: |
           node --check scripts/rss-outage-guard.mjs
           node --check scripts/budgeted-playlist-sweep.mjs
+          node --check scripts/enforce-source-title-scope.mjs
       - name: Probe YouTube Atom health
         id: rss
         env:
@@ -50,6 +52,9 @@ jobs:
       - name: Apply title classification precedence after fallback
         if: steps.rss.outputs.run_full_sweep == 'true'
         run: node scripts/correct-title-classification.mjs
+      - name: Enforce strict source title scope after fallback
+        if: steps.rss.outputs.run_full_sweep == 'true'
+        run: node scripts/enforce-source-title-scope.mjs
       - name: Refresh history and source stats after fallback
         if: steps.rss.outputs.run_full_sweep == 'true'
         run: node scripts/update-history-stats.mjs finalize

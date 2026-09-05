@@ -9,6 +9,7 @@ on:
       - 'scripts/prune-stale-upcoming.mjs'
       - 'scripts/enforce-stream-channel-identity.mjs'
       - 'scripts/correct-title-classification.mjs'
+      - 'scripts/enforce-source-title-scope.mjs'
       - 'scripts/update-history-stats.mjs'
       - 'scripts/validate-sources.mjs'
       - 'scripts/repair-missing-uploads-playlists.mjs'
@@ -155,6 +156,7 @@ jobs:
           node --check scripts/repair-missing-uploads-playlists.mjs
           node --check scripts/apply-source-youtube-overrides.mjs
           node --check scripts/enforce-stream-channel-identity.mjs
+          node --check scripts/enforce-source-title-scope.mjs
       - name: Select discovery mode
         id: mode
         shell: bash
@@ -198,6 +200,8 @@ jobs:
         run: node scripts/enforce-stream-channel-identity.mjs
       - name: Apply title classification precedence
         run: node scripts/correct-title-classification.mjs
+      - name: Enforce strict source title scope
+        run: node scripts/enforce-source-title-scope.mjs
       - name: Archive ended streams and build source stats
         run: node scripts/update-history-stats.mjs finalize
       - name: Commit generated data
