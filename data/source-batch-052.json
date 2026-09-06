@@ -1,0 +1,79 @@
+[
+  {
+    "schema_version": 2,
+    "id": "neuquen-fiesta-nacional-confluencia",
+    "name": "Municipalidad de Neuquén / Fiesta Nacional de la Confluencia",
+    "operator_name": "Municipalidad de Neuquén",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Neuquén",
+    "city": "Neuquén",
+    "location": {"lat": -38.9516, "lon": -68.0591, "precision": "city_confirmed", "role": "event_home", "label": "Neuquén, Neuquén, Argentina"},
+    "genres": ["Pop", "Rock", "Cumbia", "Urban", "Argentine Folk", "Latin", "Multi-genre"],
+    "formats": ["festival_stream", "live_performance", "music_event_stream"],
+    "languages": ["Spanish"],
+    "official_site": "https://www.neuquencapital.gov.ar/",
+    "schedule_url": "https://www.youtube.com/watch?v=Q0NSfIrSth4",
+    "youtube_url": "https://www.youtube.com/channel/UCQSJa-exwEAh5yW-TCUdQKA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["Fiesta Nacional de la Confluencia", "Fiesta de la Confluencia"],
+      "deny_title_patterns": ["municipalidad", "municipio", "intendente", "gobierno", "secretaría", "secretaria", "conferencia", "conferencia de prensa", "noticias", "news", "deportes", "deporte", "fútbol", "futbol", "partido", "entrevista", "podcast", "talk", "recap", "resumen", "highlights", "shorts", "replay", "trailer", "teaser", "promo", "preview"],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-07"},
+    "evidence": [
+      {"kind": "official_site", "url": "https://www.neuquencapital.gov.ar/", "supports": ["identity", "source_location"]},
+      {"kind": "official_event_page", "url": "https://www.youtube.com/watch?v=Q0NSfIrSth4", "supports": ["music_live_capability", "schedule_pattern", "source_location"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UCQSJa-exwEAh5yW-TCUdQKA", "supports": ["official_channel"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
+    "note": "The official Municipalidad de Neuquén YouTube channel carried the 2026 Fiesta Nacional de la Confluencia as multi-day official live transmissions, including a Day 1 stream explicitly titled 'Transmisión Oficial' from Neuquén Capital. Only titles explicitly identifying Fiesta Nacional de la Confluencia / Fiesta de la Confluencia are admitted; municipal administration, press, sports, interviews, promos, recaps and unrelated uploads fail closed.",
+    "youtube_channel_id": "UCQSJa-exwEAh5yW-TCUdQKA",
+    "youtube_uploads_playlist_id": "UUQSJa-exwEAh5yW-TCUdQKA"
+  },
+  {
+    "schema_version": 2,
+    "id": "mendoza-fiesta-nacional-vendimia",
+    "name": "Gobierno de Mendoza / Fiesta Nacional de la Vendimia",
+    "operator_name": "Gobierno de Mendoza",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Mendoza",
+    "city": "Mendoza",
+    "location": {"lat": -32.8895, "lon": -68.8458, "precision": "city_confirmed", "role": "event_home", "label": "Mendoza, Mendoza, Argentina"},
+    "genres": ["Argentine Folk", "Folk", "Latin", "Pop", "Multi-genre"],
+    "formats": ["festival_stream", "live_performance", "music_event_stream"],
+    "languages": ["Spanish"],
+    "official_site": "https://www.mendoza.gob.ar/vendimia/",
+    "schedule_url": "https://www.mendoza.gob.ar/vendimia/",
+    "youtube_url": "https://www.youtube.com/channel/UC6OhbIFDPdkzBNC_KzuEv3g",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": ["Fiesta Nacional de la Vendimia 2026", "90 cosechas de una misma cepa", "Acto Central Vendimia"],
+      "deny_title_patterns": ["Streaming de Vendimia", "entrevista", "entrevistas", "programa", "noticias", "news", "gobernador", "gobierno", "ministerio", "conferencia", "conferencia de prensa", "reina", "virreina", "agenda", "podcast", "talk", "recap", "resumen", "highlights", "shorts", "replay", "trailer", "teaser", "promo", "preview"],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {"official_channel": true, "music_live_capable": true, "last_verified_at": "2026-09-07"},
+    "evidence": [
+      {"kind": "official_site", "url": "https://www.mendoza.gob.ar/vendimia/", "supports": ["identity", "schedule_pattern", "source_location"]},
+      {"kind": "official_event_page", "url": "https://www.mendoza.gob.ar/noticias/el-domingo-llega-el-streaming-de-vendimia-en-vivo-desde-el-acto-central/", "supports": ["music_live_capability", "schedule_pattern", "source_location"]},
+      {"kind": "official_event_page", "url": "https://www.youtube.com/watch?v=GOnIKk6Zynw", "supports": ["music_live_capability"]},
+      {"kind": "official_youtube_channel", "url": "https://www.youtube.com/channel/UC6OhbIFDPdkzBNC_KzuEv3g", "supports": ["official_channel"]}
+    ],
+    "acquisition": {"enabled": true, "method": "youtube_atom_feed", "priority": "high"},
+    "note": "Gobierno de Mendoza's official YouTube channel carried the 2026 Fiesta Nacional de la Vendimia central spectacle '90 cosechas de una misma cepa'. The broader 'Streaming de Vendimia' series is interview/information programming and is explicitly excluded. Only deterministic central-festival music-performance titles are admitted; interviews, government content, queen/virreina segments, recaps, promos and unrelated uploads fail closed.",
+    "youtube_channel_id": "UC6OhbIFDPdkzBNC_KzuEv3g",
+    "youtube_uploads_playlist_id": "UU6OhbIFDPdkzBNC_KzuEv3g"
+  }
+]
