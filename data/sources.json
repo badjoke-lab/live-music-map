@@ -16711,5 +16711,347 @@
     "note": "Tagata Pasifika is mixed public-interest media, so this source is scoped only to Pacific Music Awards livestreams. The Pacific Music Awards official site states that the 2026 ceremony was livestreamed by Tagata Pasifika on TP+, and TP+ published the live awards presentation with live performances. All unrelated Tagata Pasifika programming fails closed.",
     "youtube_channel_id": "UC3FEVw9ttw-kYZgRMRc7S0w",
     "youtube_uploads_playlist_id": "UU3FEVw9ttw-kYZgRMRc7S0w"
+  },
+  {
+    "schema_version": 2,
+    "id": "tv5-philippines-vibe-plus",
+    "name": "TV5 Philippines / Vibe+",
+    "operator_name": "TV5 Network",
+    "type": "broadcast_media",
+    "country": "Philippines",
+    "country_code": "PH",
+    "region": "Metro Manila",
+    "city": "Mandaluyong",
+    "location": {
+      "lat": 14.5794,
+      "lon": 121.0359,
+      "precision": "city_confirmed",
+      "role": "operator_base",
+      "label": "Mandaluyong, Philippines"
+    },
+    "genres": [
+      "OPM",
+      "P-pop",
+      "Pop",
+      "Rock",
+      "R&B",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_show",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "official_site": "https://www.tv5.com.ph/",
+    "schedule_url": "https://www.tv5.com.ph/schedule",
+    "youtube_url": "https://www.youtube.com/channel/UCiFx0kZFjR29u0uJxTSq5MQ",
+    "status": "recurring",
+    "schedule_pattern": "recurring",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "VIBE+",
+        "Vibe+",
+        "VIBE PLUS",
+        "Vibe Plus",
+        "Vibe PH"
+      ],
+      "deny_title_patterns": [
+        "frontline",
+        "news",
+        "breaking",
+        "interview",
+        "podcast",
+        "talk",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "behind",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.tv5.com.ph/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://www.tv5.com.ph/schedule",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCiFx0kZFjR29u0uJxTSq5MQ",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=ivfmQ5SPcBw",
+        "supports": [
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "TV5 is a mixed broadcaster, so only Vibe+-branded live music programming is admitted. TV5's current schedule lists VIBE PLUS as a Saturday 6:00 PM Pinoy music variety show, and the official TV5 Philippines YouTube channel carried a Vibe+ live broadcast on 2026-09-05. News, talk, promo and unrelated TV5 programming fail closed.",
+    "youtube_channel_id": "UCiFx0kZFjR29u0uJxTSq5MQ",
+    "youtube_uploads_playlist_id": "UUiFx0kZFjR29u0uJxTSq5MQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "los40-music-awards",
+    "name": "LOS40 / LOS40 Music Awards Santander",
+    "operator_name": "PRISA Radio / LOS40",
+    "type": "music_media",
+    "country": "Spain",
+    "country_code": "ES",
+    "region": "Community of Madrid",
+    "city": "Madrid",
+    "location": {
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "precision": "city_confirmed",
+      "role": "operator_base",
+      "label": "Madrid, Spain"
+    },
+    "genres": [
+      "Pop",
+      "Latin Pop",
+      "Urban",
+      "Reggaeton",
+      "International Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://los40.com/",
+    "schedule_url": "https://los40.com/2025/10/30/los40-music-awards-santander-podra-verse-desde-casa-estos-son-los-canales-de-retransmision/",
+    "youtube_url": "https://www.youtube.com/channel/UCDwjiSF4qEb3aeT3ZLkPc_Q",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "LOS40 MUSIC AWARDS",
+        "LOS40 Music Awards"
+      ],
+      "deny_title_patterns": [
+        "preshow",
+        "pre-show",
+        "red carpet",
+        "alfombra roja",
+        "interview",
+        "entrevista",
+        "podcast",
+        "talk",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "behind",
+        "promo",
+        "preview",
+        "nominados",
+        "nominees"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://los40.com/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_schedule",
+        "url": "https://los40.com/2025/10/30/los40-music-awards-santander-podra-verse-desde-casa-estos-son-los-canales-de-retransmision/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCDwjiSF4qEb3aeT3ZLkPc_Q",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=mXIZM8F1xrs",
+        "supports": [
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "LOS40 is mixed music media, so this source is scoped to the LOS40 Music Awards gala only. LOS40's official 2025 event guidance explicitly listed its YouTube channel as a live platform for the gala, which included live performances by major Spanish and international artists. Preshow, red-carpet, interview, nominee-announcement and recap content fail closed.",
+    "youtube_channel_id": "UCDwjiSF4qEb3aeT3ZLkPc_Q",
+    "youtube_uploads_playlist_id": "UUDwjiSF4qEb3aeT3ZLkPc_Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "garuda-tv-ami-awards",
+    "name": "GARUDA TV / AMI Awards",
+    "operator_name": "GARUDA TV",
+    "type": "broadcast_media",
+    "country": "Indonesia",
+    "country_code": "ID",
+    "region": "Jakarta",
+    "city": "Jakarta",
+    "location": {
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "precision": "city_confirmed",
+      "role": "operator_base",
+      "label": "Jakarta, Indonesia"
+    },
+    "genres": [
+      "Indonesian Pop",
+      "Jazz",
+      "Dangdut",
+      "Keroncong",
+      "Rock",
+      "Traditional",
+      "Contemporary",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Indonesian"
+    ],
+    "official_site": "https://garuda.tv/",
+    "schedule_url": "https://garuda.tv/ami-awards-2025-siap-guncang-industri-musik-indonesia/",
+    "youtube_url": "https://www.youtube.com/channel/UCmXp0n4Oq8DGzjRZj3EvG4Q",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "AMI AWARDS",
+        "AMI Awards",
+        "Anugerah Musik Indonesia"
+      ],
+      "deny_title_patterns": [
+        "news",
+        "berita",
+        "breaking",
+        "interview",
+        "wawancara",
+        "podcast",
+        "talk",
+        "trailer",
+        "teaser",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "behind",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://garuda.tv/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_site",
+        "url": "https://garuda.tv/ami-awards-2025-siap-guncang-industri-musik-indonesia/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCmXp0n4Oq8DGzjRZj3EvG4Q",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=n6S7z5S9dv8",
+        "supports": [
+          "music_live_capability"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "GARUDA TV is a mixed Indonesian broadcaster, so only AMI Awards / Anugerah Musik Indonesia event livestreams are admitted. Its official YouTube channel carried the 2025 AMI Awards full live program with live artist performances; unrelated news and general programming fail closed.",
+    "youtube_channel_id": "UCmXp0n4Oq8DGzjRZj3EvG4Q",
+    "youtube_uploads_playlist_id": "UUmXp0n4Oq8DGzjRZj3EvG4Q"
   }
 ]
