@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:t5aNdP8k7WY",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "kcon-official",
+    "youtube_video_id": "t5aNdP8k7WY",
+    "youtube_url": "https://www.youtube.com/watch?v=t5aNdP8k7WY",
+    "title": "🔴 I KCON LA 2026 M COUNTDOWN TV ON AIR ver. I AUG 16 (KST 2026.09.06 6:00 PM)",
+    "status": "ended",
+    "published_at": "2026-08-31T00:29:14Z",
+    "scheduled_start": "2026-09-06T09:00:00Z",
+    "actual_start": "2026-09-06T08:55:21Z",
+    "actual_end": null,
+    "concurrent_viewers": 624,
+    "thumbnail": "https://i.ytimg.com/vi/t5aNdP8k7WY/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "M COUNTDOWN"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-06T12:35:26.177Z",
+    "history_archived_at": "2026-09-06T12:35:26.177Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:3FUGNkrHreM",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
