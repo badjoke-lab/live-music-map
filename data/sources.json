@@ -17275,5 +17275,224 @@
     "note": "Official 1theK source scoped only to Melon Music Awards livestreams. The verified 1theK channel's MMA2025 official teaser states the December 20, 2025 awards show would stream live on 1theK YouTube globally, with alternate platforms in some territories. 1theK publishes a very large volume of music videos and original content, so only deterministic MMA-branded livestream records are admitted and teasers, clips, interviews, recaps and unrelated uploads fail closed.",
     "youtube_channel_id": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
     "youtube_uploads_playlist_id": "UUweOkPb1wVVH0Q0Tlj4a5Pw"
+  },
+  {
+    "schema_version": 2,
+    "id": "afrimma-awards-festival",
+    "name": "AFRIMMA / African Muzik Magazine Awards & Festival",
+    "operator_name": "African Muzik Magazine",
+    "type": "music_awards_festival",
+    "country": "United States",
+    "country_code": "US",
+    "region": "Texas",
+    "city": "Dallas",
+    "location": {
+      "lat": 32.7767,
+      "lon": -96.797,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Dallas, Texas, United States"
+    },
+    "genres": [
+      "Afrobeats",
+      "Amapiano",
+      "Hip-hop",
+      "R&B",
+      "Dancehall",
+      "African Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards",
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://afrimma.com/",
+    "schedule_url": "https://afrimma.com/",
+    "youtube_url": "https://www.youtube.com/channel/UCOkbB7UJQ42U1RiMa9qIGaQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "AFRIMMA",
+        "African Muzik Magazine Awards"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "nominee",
+        "nominees",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview",
+        "fashion show"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://afrimma.com/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://afrimma.com/index.php/awards/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://afrimma.com/wp-content/uploads/2023/09/AFRIMMA-PARTNERSHIP-2023.pdf",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCOkbB7UJQ42U1RiMa9qIGaQ",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "AFRIMMA's official partnership material states that the awards partner with YouTube each year to livestream globally. The 2026 AFRIMMA Awards & Festival is scheduled for September 12 in Dallas with live Afrobeats, Hip-hop, Amapiano and other performances. Only AFRIMMA-branded music-live records are admitted; interviews, promos, nominee clips, recaps and unrelated African Muzik Magazine uploads fail closed.",
+    "youtube_channel_id": "UCOkbB7UJQ42U1RiMa9qIGaQ",
+    "youtube_uploads_playlist_id": "UUOkbB7UJQ42U1RiMa9qIGaQ"
+  },
+  {
+    "schema_version": 2,
+    "id": "soundcity-mvp-awards",
+    "name": "Soundcity / Soundcity MVP Awards Festival",
+    "operator_name": "Soundcity",
+    "type": "music_media_awards",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "region": "Lagos",
+    "city": "Lagos",
+    "location": {
+      "lat": 6.5244,
+      "lon": 3.3792,
+      "precision": "operator_city_only",
+      "role": "operator_base",
+      "label": "Lagos, Nigeria"
+    },
+    "genres": [
+      "Afrobeats",
+      "Hip-hop",
+      "R&B",
+      "Pop",
+      "Amapiano",
+      "African Music",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://soundcitymvp.com/",
+    "schedule_url": "https://soundcitymvp.com/livestream/",
+    "youtube_url": "https://www.youtube.com/channel/UCGuIbAVY4_O-KOQmLkU0IKQ",
+    "status": "event_based",
+    "schedule_pattern": "event_based",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Soundcity MVP",
+        "MVP Awards",
+        "MVP Awards Festival",
+        "Soundcity MVP Awards"
+      ],
+      "deny_title_patterns": [
+        "interview",
+        "podcast",
+        "talk",
+        "news",
+        "e-news",
+        "top 10",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://soundcitymvp.com/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://soundcitymvp.com/livestream/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCGuIbAVY4_O-KOQmLkU0IKQ",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "Soundcity is a mixed music-media channel, while the official Soundcity MVP site maintains a dedicated livestream page for the awards festival and the event includes live performances by major African artists. Only deterministic Soundcity MVP Awards livestream records are admitted; editorial, news, interviews, charts, promos and unrelated uploads fail closed.",
+    "youtube_channel_id": "UCGuIbAVY4_O-KOQmLkU0IKQ",
+    "youtube_uploads_playlist_id": "UUGuIbAVY4_O-KOQmLkU0IKQ"
   }
 ]
