@@ -17053,5 +17053,227 @@
     "note": "GARUDA TV is a mixed Indonesian broadcaster, so only AMI Awards / Anugerah Musik Indonesia event livestreams are admitted. Its official YouTube channel carried the 2025 AMI Awards full live program with live artist performances; unrelated news and general programming fail closed.",
     "youtube_channel_id": "UCmXp0n4Oq8DGzjRZj3EvG4Q",
     "youtube_uploads_playlist_id": "UUmXp0n4Oq8DGzjRZj3EvG4Q"
+  },
+  {
+    "schema_version": 2,
+    "id": "a2im-libera-awards",
+    "name": "A2IM / Libera Awards",
+    "operator_name": "American Association of Independent Music (A2IM)",
+    "type": "music_awards",
+    "country": "United States",
+    "country_code": "US",
+    "region": "New York",
+    "city": "New York City",
+    "location": {
+      "lat": 40.7128,
+      "lon": -74.006,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "New York City, United States"
+    },
+    "genres": [
+      "Independent",
+      "Rock",
+      "Hip-hop",
+      "R&B",
+      "Electronic",
+      "Folk",
+      "Jazz",
+      "Latin",
+      "Global",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "English"
+    ],
+    "official_site": "https://a2im.org/",
+    "schedule_url": "https://news.a2im.org/news/libera-awards-presented-by-merlin-announces-2026-winners",
+    "youtube_url": "https://www.youtube.com/channel/UCnMSufcEqF-BylOewxkayHg",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Libera Awards",
+        "Libera Award"
+      ],
+      "deny_title_patterns": [
+        "nominees",
+        "nominee",
+        "interview",
+        "podcast",
+        "talk",
+        "press",
+        "panel",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://a2im.org/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://a2im.org/the-winners-for-the-2023-libera-awards-presented-by-merlin/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://news.a2im.org/news/libera-awards-presented-by-merlin-announces-2026-winners",
+        "supports": [
+          "music_live_capability",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCnMSufcEqF-BylOewxkayHg",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "normal"
+    },
+    "note": "A2IM's official 2023 Libera Awards page explicitly identifies the YouTube livestream, while its production RFP states YouTube was the exclusive livestream partner. The annual awards remain active in New York City and the 2026 ceremony included multiple live artist performances. Only Libera Awards-branded livestreams are admitted; conference, nominee, interview and press content fails closed.",
+    "youtube_channel_id": "UCnMSufcEqF-BylOewxkayHg",
+    "youtube_uploads_playlist_id": "UUnMSufcEqF-BylOewxkayHg"
+  },
+  {
+    "schema_version": 2,
+    "id": "1thek-melon-music-awards",
+    "name": "1theK / Melon Music Awards",
+    "operator_name": "Kakao Entertainment",
+    "type": "music_media_awards",
+    "country": "South Korea",
+    "country_code": "KR",
+    "region": "Seoul",
+    "city": "Seoul",
+    "location": {
+      "lat": 37.5665,
+      "lon": 126.978,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Seoul, South Korea"
+    },
+    "genres": [
+      "K-pop",
+      "Pop",
+      "Hip-hop",
+      "R&B",
+      "Dance",
+      "Multi-genre"
+    ],
+    "formats": [
+      "music_awards",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "official_site": "https://www.melon.com/mma/home.htm",
+    "schedule_url": "https://www.melon.com/mma/home.htm",
+    "youtube_url": "https://www.youtube.com/channel/UCweOkPb1wVVH0Q0Tlj4a5Pw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "MELON MUSIC AWARDS",
+        "Melon Music Awards",
+        "MMA2025",
+        "MMA2026"
+      ],
+      "deny_title_patterns": [
+        "teaser",
+        "trailer",
+        "preview",
+        "nominee",
+        "nominees",
+        "interview",
+        "podcast",
+        "talk",
+        "behind",
+        "recap",
+        "highlights",
+        "shorts",
+        "replay",
+        "promo"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-06"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.melon.com/mma/home.htm",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCweOkPb1wVVH0Q0Tlj4a5Pw",
+        "supports": [
+          "official_channel"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=rd7m3Po85Tc",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Official 1theK source scoped only to Melon Music Awards livestreams. The verified 1theK channel's MMA2025 official teaser states the December 20, 2025 awards show would stream live on 1theK YouTube globally, with alternate platforms in some territories. 1theK publishes a very large volume of music videos and original content, so only deterministic MMA-branded livestream records are admitted and teasers, clips, interviews, recaps and unrelated uploads fail closed.",
+    "youtube_channel_id": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+    "youtube_uploads_playlist_id": "UUweOkPb1wVVH0Q0Tlj4a5Pw"
   }
 ]
