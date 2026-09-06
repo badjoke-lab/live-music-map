@@ -18110,5 +18110,251 @@
     "note": "Gobierno de Mendoza's official YouTube channel carried the 2026 Fiesta Nacional de la Vendimia central spectacle '90 cosechas de una misma cepa'. The broader 'Streaming de Vendimia' series is interview/information programming and is explicitly excluded. Only deterministic central-festival music-performance titles are admitted; interviews, government content, queen/virreina segments, recaps, promos and unrelated uploads fail closed.",
     "youtube_channel_id": "UC6OhbIFDPdkzBNC_KzuEv3g",
     "youtube_uploads_playlist_id": "UU6OhbIFDPdkzBNC_KzuEv3g"
+  },
+  {
+    "schema_version": 2,
+    "id": "corrientes-fiesta-nacional-chamame",
+    "name": "Gobierno de Corrientes / Fiesta Nacional del Chamamé",
+    "operator_name": "Gobierno de Corrientes",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Corrientes",
+    "city": "Corrientes",
+    "location": {
+      "lat": -27.4692,
+      "lon": -58.8306,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Corrientes, Corrientes, Argentina"
+    },
+    "genres": [
+      "Chamamé",
+      "Argentine Folk",
+      "Folk",
+      "Latin",
+      "World"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://fiestanacionaldelchamame.com.ar/",
+    "schedule_url": "https://fiestanacionaldelchamame.com.ar/",
+    "youtube_url": "https://www.youtube.com/channel/UCx4F9M2SzHQa4QrZPPktxTg",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Fiesta Nacional del Chamamé",
+        "Fiesta Nacional Del Chamamé"
+      ],
+      "deny_title_patterns": [
+        "gobernador",
+        "vicegobernador",
+        "ministro",
+        "ministerio",
+        "conferencia",
+        "conferencia de prensa",
+        "acto oficial",
+        "licitación",
+        "obra pública",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "podcast",
+        "talk",
+        "noticias",
+        "news",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-07"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://fiestanacionaldelchamame.com.ar/",
+        "supports": [
+          "identity",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=1i6Z2Wh7aZU",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=KDzhKmSJDYY",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCx4F9M2SzHQa4QrZPPktxTg",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The official Gobierno de Corrientes YouTube channel carried the 2026 Fiesta Nacional del Chamamé across its multi-night run. Only titles explicitly identifying Fiesta Nacional del Chamamé are admitted; government administration, press, sports, interviews, promos, recaps and unrelated uploads fail closed.",
+    "youtube_channel_id": "UCx4F9M2SzHQa4QrZPPktxTg",
+    "youtube_uploads_playlist_id": "UUx4F9M2SzHQa4QrZPPktxTg"
+  },
+  {
+    "schema_version": 2,
+    "id": "parana-fiesta-nacional-mate",
+    "name": "Municipalidad de Paraná / Fiesta Nacional del Mate",
+    "operator_name": "Municipalidad de Paraná",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Entre Ríos",
+    "city": "Paraná",
+    "location": {
+      "lat": -31.7413,
+      "lon": -60.5115,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Paraná, Entre Ríos, Argentina"
+    },
+    "genres": [
+      "Rock",
+      "Pop",
+      "Argentine Folk",
+      "Latin",
+      "Cumbia",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.parana.gob.ar/",
+    "schedule_url": "https://www.youtube.com/watch?v=YMNQbkh0jPU",
+    "youtube_url": "https://www.youtube.com/channel/UCX6JbDWNbsEQLpop0iZzvoA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Fiesta Nacional del Mate",
+        "Fiesta Nacional Del Mate"
+      ],
+      "deny_title_patterns": [
+        "intendente",
+        "secretaría",
+        "secretaria",
+        "conferencia",
+        "conferencia de prensa",
+        "acto oficial",
+        "licitación",
+        "obra pública",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "podcast",
+        "talk",
+        "noticias",
+        "news",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-07"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.parana.gob.ar/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=YMNQbkh0jPU",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=2bBdeq8YLkE",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCX6JbDWNbsEQLpop0iZzvoA",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The official Municipalidad de Paraná YouTube channel carried both nights of the 35th Fiesta Nacional del Mate in 2026 as official live transmissions with major music acts. Only titles explicitly identifying Fiesta Nacional del Mate are admitted; municipal administration, press, sports, interviews, promos, recaps and unrelated uploads fail closed.",
+    "youtube_channel_id": "UCX6JbDWNbsEQLpop0iZzvoA",
+    "youtube_uploads_playlist_id": "UUX6JbDWNbsEQLpop0iZzvoA"
   }
 ]
