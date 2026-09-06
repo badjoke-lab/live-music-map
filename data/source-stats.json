@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T02:42:49.725Z",
+  "generated_at": "2026-09-06T03:43:29.466Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 180,
+    "sources_total": 183,
     "live_now": 10,
     "upcoming": 44,
-    "observed_live_streams_total": 73,
-    "observed_live_streams_7d": 67,
-    "observed_live_streams_30d": 70,
-    "history_records": 63
+    "observed_live_streams_total": 74,
+    "observed_live_streams_7d": 68,
+    "observed_live_streams_30d": 71,
+    "history_records": 64
   },
   "by_source": {
     "hoer-berlin": {
@@ -2656,11 +2656,11 @@
       ],
       "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 9,
-      "observed_live_streams_7d": 9,
-      "observed_live_streams_30d": 9,
+      "observed_live_streams_total": 10,
+      "observed_live_streams_7d": 10,
+      "observed_live_streams_30d": 10,
       "active_days_30d": 4,
-      "last_live_at": "2026-09-06T00:35:08.000Z",
+      "last_live_at": "2026-09-06T03:34:46.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
@@ -4556,6 +4556,86 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "tv5-philippines-vibe-plus": {
+      "source_id": "tv5-philippines-vibe-plus",
+      "source_name": "TV5 Philippines / Vibe+",
+      "country_code": "PH",
+      "country": "Philippines",
+      "region": "Metro Manila",
+      "city": "Mandaluyong",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "OPM",
+        "P-pop",
+        "Pop",
+        "Rock",
+        "R&B",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "los40-music-awards": {
+      "source_id": "los40-music-awards",
+      "source_name": "LOS40 / LOS40 Music Awards Santander",
+      "country_code": "ES",
+      "country": "Spain",
+      "region": "Community of Madrid",
+      "city": "Madrid",
+      "source_type": "music_media",
+      "source_genres": [
+        "Pop",
+        "Latin Pop",
+        "Urban",
+        "Reggaeton",
+        "International Pop",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "garuda-tv-ami-awards": {
+      "source_id": "garuda-tv-ami-awards",
+      "source_name": "GARUDA TV / AMI Awards",
+      "country_code": "ID",
+      "country": "Indonesia",
+      "region": "Jakarta",
+      "city": "Jakarta",
+      "source_type": "broadcast_media",
+      "source_genres": [
+        "Indonesian Pop",
+        "Jazz",
+        "Dangdut",
+        "Keroncong",
+        "Rock",
+        "Traditional",
+        "Contemporary",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -4570,7 +4650,7 @@
         "sources": 38,
         "live_now": 3,
         "upcoming": 13,
-        "observed_live_30d": 23
+        "observed_live_30d": 24
       },
       "JP": {
         "sources": 28,
@@ -4627,7 +4707,7 @@
         "observed_live_30d": 0
       },
       "ES": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4681,13 +4761,13 @@
         "observed_live_30d": 0
       },
       "PH": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "ID": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -4842,7 +4922,7 @@
         "sources": 27,
         "live_now": 2,
         "upcoming": 3,
-        "observed_live_30d": 15
+        "observed_live_30d": 16
       },
       "radio_media": {
         "sources": 2,
@@ -4857,7 +4937,7 @@
         "observed_live_30d": 2
       },
       "broadcast_media": {
-        "sources": 7,
+        "sources": 9,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 2
@@ -4887,7 +4967,7 @@
         "observed_live_30d": 0
       },
       "music_media": {
-        "sources": 13,
+        "sources": 14,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -5057,10 +5137,10 @@
         "observed_live_30d": 16
       },
       "Jazz": {
-        "sources": 27,
+        "sources": 28,
         "live_now": 2,
         "upcoming": 7,
-        "observed_live_30d": 16
+        "observed_live_30d": 17
       },
       "Afrobeat": {
         "sources": 3,
@@ -5087,7 +5167,7 @@
         "observed_live_30d": 2
       },
       "Multi-genre": {
-        "sources": 93,
+        "sources": 96,
         "live_now": 4,
         "upcoming": 19,
         "observed_live_30d": 23
@@ -5177,13 +5257,13 @@
         "observed_live_30d": 0
       },
       "Rock": {
-        "sources": 55,
+        "sources": 57,
         "live_now": 2,
         "upcoming": 11,
         "observed_live_30d": 8
       },
       "Pop": {
-        "sources": 56,
+        "sources": 58,
         "live_now": 3,
         "upcoming": 11,
         "observed_live_30d": 5
@@ -5363,7 +5443,7 @@
         "observed_live_30d": 1
       },
       "R&B": {
-        "sources": 26,
+        "sources": 27,
         "live_now": 0,
         "upcoming": 3,
         "observed_live_30d": 3
@@ -5483,13 +5563,13 @@
         "observed_live_30d": 0
       },
       "Latin Pop": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 2
       },
       "Reggaeton": {
-        "sources": 3,
+        "sources": 4,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 2
@@ -5636,19 +5716,19 @@
         "sources": 2,
         "live_now": 2,
         "upcoming": 0,
-        "observed_live_30d": 12
+        "observed_live_30d": 13
       },
       "Hard Bop": {
         "sources": 1,
         "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 9
+        "observed_live_30d": 10
       },
       "Contemporary Jazz": {
         "sources": 2,
         "live_now": 2,
         "upcoming": 0,
-        "observed_live_30d": 12
+        "observed_live_30d": 13
       },
       "Piano Jazz": {
         "sources": 1,
@@ -5657,7 +5737,7 @@
         "observed_live_30d": 3
       },
       "OPM": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5687,7 +5767,7 @@
         "observed_live_30d": 0
       },
       "Traditional": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5795,7 +5875,7 @@
         "observed_live_30d": 5
       },
       "Contemporary": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 2
@@ -5903,13 +5983,13 @@
         "observed_live_30d": 0
       },
       "Indonesian Pop": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
       },
       "Dangdut": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5993,7 +6073,7 @@
         "observed_live_30d": 0
       },
       "Urban": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -6045,10 +6125,28 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "P-pop": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "International Pop": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Keroncong": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_verified_stream_content_type_30d": {
-      "music_live_unspecified": 46,
+      "music_live_unspecified": 47,
       "dj_set": 20,
       "concert": 2,
       "festival_stream": 1,
