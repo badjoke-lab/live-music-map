@@ -48,7 +48,7 @@
     "country_code": "BE",
     "region": "Antwerp",
     "city": "Antwerp",
-    "location": {"lat": 51.2194, "lon": 4.4025, "precision": "event_city_only", "role": "event_home", "label": "Antwerp, Belgium"},
+    "location": {"lat": 51.2194, "lon": 4.4025, "precision": "city_confirmed", "role": "event_home", "label": "Antwerp, Belgium"},
     "genres": ["Drum & Bass", "Dubstep", "Bass", "Electronic"],
     "formats": ["festival_stream", "dj_set", "live_performance"],
     "languages": ["English"],
