@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:TLZszSbFAqE",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "TLZszSbFAqE",
+    "youtube_url": "https://www.youtube.com/watch?v=TLZszSbFAqE",
+    "title": "『生命線〜あの日千切れた弦は未だお前のなかで鳴っているか〜』出演：川上隆一 / 仔馬［アベヒロシ+ホリグチタカシ］/ 黒田梢 / Peace",
+    "status": "ended",
+    "published_at": "2026-09-06T01:39:10Z",
+    "scheduled_start": "2026-09-06T10:00:00Z",
+    "actual_start": "2026-09-06T09:51:51Z",
+    "actual_end": null,
+    "concurrent_viewers": 9,
+    "thumbnail": "https://i.ytimg.com/vi/TLZszSbFAqE/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-06T13:15:22.552Z",
+    "history_archived_at": "2026-09-06T13:15:22.552Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:t5aNdP8k7WY",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
