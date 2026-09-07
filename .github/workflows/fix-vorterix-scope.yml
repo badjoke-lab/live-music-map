@@ -1,0 +1,67 @@
+name: Fix Vorterix strict scope
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/tighten-vorterix-scope.mjs'
+      - '.github/workflows/fix-vorterix-scope.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fix-vorterix-strict-scope
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Tighten Vorterix source scope
+        run: node scripts/tighten-vorterix-scope.mjs
+      - name: Validate strict source scope
+        run: node scripts/enforce-source-title-scope.mjs validate data/sources.json
+      - name: Reject active Vorterix non-music records
+        run: node scripts/enforce-source-title-scope.mjs
+      - name: Assert reported Vorterix stream is rejected
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const streams = JSON.parse(fs.readFileSync('data/streams.json', 'utf8'));
+          const record = streams.find((item) => item.youtube_video_id === 'ykrCLKAWpSE');
+          if (!record) throw new Error('Reported Vorterix stream ykrCLKAWpSE not found');
+          if (record.music_live_status !== 'rejected') throw new Error(`Reported Vorterix stream still ${record.music_live_status}`);
+          console.log(`Vorterix regression OK: ${record.youtube_video_id} -> ${record.music_live_status} / ${record.music_live_decision}`);
+          NODE
+      - name: Validate source contract
+        run: node scripts/validate-sources.mjs
+      - name: Commit repaired canonical data
+        shell: bash
+        run: |
+          if git diff --quiet -- data/sources.json data/streams.json; then
+            echo "No Vorterix data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sources.json data/streams.json
+          git commit -m "Fix Vorterix music-live scope"
+          git push origin HEAD:main
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: github-pages-${{ github.run_attempt }}
+          path: .
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
