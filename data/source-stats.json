@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T01:08:36.384Z",
+  "generated_at": "2026-09-07T04:36:13.289Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
-    "sources_total": 194,
-    "live_now": 10,
+    "sources_total": 196,
+    "live_now": 9,
     "upcoming": 38,
-    "observed_live_streams_total": 90,
-    "observed_live_streams_7d": 84,
-    "observed_live_streams_30d": 87,
-    "history_records": 80
+    "observed_live_streams_total": 91,
+    "observed_live_streams_7d": 85,
+    "observed_live_streams_30d": 88,
+    "history_records": 82
   },
   "by_source": {
     "hoer-berlin": {
@@ -1901,7 +1901,7 @@
         "Metalcore",
         "Post-hardcore"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 0,
@@ -2656,11 +2656,11 @@
       ],
       "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 13,
-      "observed_live_streams_7d": 13,
-      "observed_live_streams_30d": 13,
+      "observed_live_streams_total": 14,
+      "observed_live_streams_7d": 14,
+      "observed_live_streams_30d": 14,
       "active_days_30d": 5,
-      "last_live_at": "2026-09-07T00:32:19.000Z",
+      "last_live_at": "2026-09-07T03:38:28.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
@@ -4936,6 +4936,57 @@
       "last_live_at": null,
       "next_live_at": null,
       "observed_content_types": []
+    },
+    "telemedellin-feria-de-las-flores": {
+      "source_id": "telemedellin-feria-de-las-flores",
+      "source_name": "Canal Telemedellín / Feria de las Flores",
+      "country_code": "CO",
+      "country": "Colombia",
+      "region": "Antioquia",
+      "city": "Medellín",
+      "source_type": "government_media_festival",
+      "source_genres": [
+        "Latin Pop",
+        "Vallenato",
+        "Tropical",
+        "Colombian Popular",
+        "Trova",
+        "Afro-Colombian",
+        "Electronic",
+        "Multi-genre"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
+    },
+    "canal10-cordoba-cosquin-de-penas": {
+      "source_id": "canal10-cordoba-cosquin-de-penas",
+      "source_name": "Canal 10 Córdoba / Cosquín de Peñas",
+      "country_code": "AR",
+      "country": "Argentina",
+      "region": "Córdoba",
+      "city": "Cosquín",
+      "source_type": "government_media_festival",
+      "source_genres": [
+        "Argentine Folk",
+        "Folklore",
+        "Folk"
+      ],
+      "live_now": 0,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 0,
+      "observed_live_streams_7d": 0,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
+      "last_live_at": null,
+      "next_live_at": null,
+      "observed_content_types": []
     }
   },
   "aggregates": {
@@ -4948,9 +4999,9 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 3,
+        "live_now": 2,
         "upcoming": 14,
-        "observed_live_30d": 29
+        "observed_live_30d": 30
       },
       "JP": {
         "sources": 28,
@@ -5043,7 +5094,7 @@
         "observed_live_30d": 0
       },
       "CO": {
-        "sources": 2,
+        "sources": 3,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 3
@@ -5097,7 +5148,7 @@
         "observed_live_30d": 0
       },
       "AR": {
-        "sources": 8,
+        "sources": 9,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5184,7 +5235,7 @@
     "by_source_type": {
       "independent_media": {
         "sources": 6,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 8,
         "observed_live_30d": 24
       },
@@ -5222,7 +5273,7 @@
         "sources": 27,
         "live_now": 2,
         "upcoming": 3,
-        "observed_live_30d": 22
+        "observed_live_30d": 23
       },
       "radio_media": {
         "sources": 2,
@@ -5417,7 +5468,7 @@
         "observed_live_30d": 0
       },
       "government_media_festival": {
-        "sources": 5,
+        "sources": 7,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -5431,7 +5482,7 @@
     },
     "by_source_genre": {
       "Electronic": {
-        "sources": 67,
+        "sources": 68,
         "live_now": 3,
         "upcoming": 20,
         "observed_live_30d": 37
@@ -5458,7 +5509,7 @@
         "sources": 29,
         "live_now": 2,
         "upcoming": 8,
-        "observed_live_30d": 22
+        "observed_live_30d": 23
       },
       "Afrobeat": {
         "sources": 3,
@@ -5485,7 +5536,7 @@
         "observed_live_30d": 2
       },
       "Multi-genre": {
-        "sources": 106,
+        "sources": 107,
         "live_now": 4,
         "upcoming": 18,
         "observed_live_30d": 28
@@ -5564,7 +5615,7 @@
       },
       "Hardcore": {
         "sources": 3,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 1
       },
@@ -5629,7 +5680,7 @@
         "observed_live_30d": 4
       },
       "Folk": {
-        "sources": 18,
+        "sources": 19,
         "live_now": 1,
         "upcoming": 15,
         "observed_live_30d": 8
@@ -5642,7 +5693,7 @@
       },
       "Punk": {
         "sources": 10,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 4
       },
@@ -5750,13 +5801,13 @@
       },
       "Metalcore": {
         "sources": 2,
-        "live_now": 3,
+        "live_now": 2,
         "upcoming": 0,
         "observed_live_30d": 3
       },
       "Post-hardcore": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 1
       },
@@ -5881,7 +5932,7 @@
         "observed_live_30d": 0
       },
       "Latin Pop": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 2
@@ -6001,7 +6052,7 @@
         "observed_live_30d": 0
       },
       "Tropical": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 1,
         "observed_live_30d": 0
@@ -6034,19 +6085,19 @@
         "sources": 2,
         "live_now": 2,
         "upcoming": 0,
-        "observed_live_30d": 18
+        "observed_live_30d": 19
       },
       "Hard Bop": {
         "sources": 1,
         "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 13
+        "observed_live_30d": 14
       },
       "Contemporary Jazz": {
         "sources": 2,
         "live_now": 2,
         "upcoming": 0,
-        "observed_live_30d": 18
+        "observed_live_30d": 19
       },
       "Piano Jazz": {
         "sources": 1,
@@ -6481,7 +6532,7 @@
         "observed_live_30d": 0
       },
       "Vallenato": {
-        "sources": 1,
+        "sources": 2,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -6493,7 +6544,7 @@
         "observed_live_30d": 0
       },
       "Argentine Folk": {
-        "sources": 5,
+        "sources": 6,
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
@@ -6515,10 +6566,34 @@
         "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 0
+      },
+      "Colombian Popular": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Trova": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Afro-Colombian": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
+      },
+      "Folklore": {
+        "sources": 1,
+        "live_now": 0,
+        "upcoming": 0,
+        "observed_live_30d": 0
       }
     },
     "by_verified_stream_content_type_30d": {
-      "music_live_unspecified": 59,
+      "music_live_unspecified": 60,
       "dj_set": 24,
       "concert": 2,
       "festival_stream": 1,

@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:XzbVVqa1beg",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "XzbVVqa1beg",
+    "youtube_url": "https://www.youtube.com/watch?v=XzbVVqa1beg",
+    "title": "Altin Sencalar Quintet - Live at Smalls Jazz Club - 9/6/2026",
+    "status": "ended",
+    "published_at": "2026-09-07T00:31:33Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-07T00:32:19Z",
+    "actual_end": null,
+    "concurrent_viewers": 34,
+    "thumbnail": "https://i.ytimg.com/vi/XzbVVqa1beg/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-07T04:36:13.289Z",
+    "history_archived_at": "2026-09-07T04:36:13.289Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:88Y90g8pm7M",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -3197,6 +3237,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-02T18:48:06.412Z",
     "history_archived_at": "2026-09-02T18:48:06.412Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:a_x_2IuGLK8",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "hate5six",
+    "youtube_video_id": "a_x_2IuGLK8",
+    "youtube_url": "https://www.youtube.com/watch?v=a_x_2IuGLK8",
+    "title": "hate5sixTV: 24/7 viewer-controlled livestream. Request bands in chat.",
+    "status": "ended",
+    "published_at": "2026-08-28T19:32:26Z",
+    "scheduled_start": "2026-08-28T20:30:00Z",
+    "actual_start": "2026-08-28T19:38:24Z",
+    "actual_end": null,
+    "concurrent_viewers": 6,
+    "thumbnail": "https://i.ytimg.com/vi/a_x_2IuGLK8/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "hate5six"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-07T04:36:13.289Z",
+    "history_archived_at": "2026-09-07T04:36:13.289Z",
     "history_reason": "previously_observed_live_no_longer_active"
   }
 ]
