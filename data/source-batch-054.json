@@ -1,0 +1,258 @@
+[
+  {
+    "schema_version": 2,
+    "id": "telemedellin-feria-de-las-flores",
+    "name": "Canal Telemedellín / Feria de las Flores",
+    "operator_name": "Telemedellín",
+    "type": "government_media_festival",
+    "country": "Colombia",
+    "country_code": "CO",
+    "region": "Antioquia",
+    "city": "Medellín",
+    "location": {
+      "lat": 6.2442,
+      "lon": -75.5812,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Medellín, Antioquia, Colombia"
+    },
+    "genres": [
+      "Latin Pop",
+      "Vallenato",
+      "Tropical",
+      "Colombian Popular",
+      "Trova",
+      "Afro-Colombian",
+      "Electronic",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://telemedellin.tv/",
+    "schedule_url": "https://telemedellin.tv/contenidos/feria-de-las-flores-2026/",
+    "youtube_url": "https://www.youtube.com/channel/UCENHqi7NXxW30fwepMHsGTw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Festival Nacional de la Trova",
+        "Concierto Inaugural.*Feria de las Flores",
+        "Parque Cultural Nocturno",
+        "Noche Afro",
+        "Noche Tropical"
+      ],
+      "deny_title_patterns": [
+        "desfile",
+        "silletero",
+        "silleterito",
+        "autos clásicos",
+        "autos clasicos",
+        "bicicleta",
+        "ritmo de bici",
+        "caminata canina",
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-07"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://telemedellin.tv/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://telemedellin.tv/contenidos/feria-de-las-flores-2026/",
+        "supports": [
+          "schedule_pattern",
+          "music_live_capability",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=47XRLonfJlo",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCENHqi7NXxW30fwepMHsGTw",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Telemedellín carries multiple official Feria de las Flores music events live. Because Feria de las Flores also includes parades, civic programming and non-music events, only deterministic music-event titles such as Festival Nacional de la Trova, Concierto Inaugural, Parque Cultural Nocturno, Noche Afro and Noche Tropical are admitted; parades, sports, news, interviews, promos, recaps and unrelated programming fail closed.",
+    "youtube_channel_id": "UCENHqi7NXxW30fwepMHsGTw",
+    "youtube_uploads_playlist_id": "UUENHqi7NXxW30fwepMHsGTw"
+  },
+  {
+    "schema_version": 2,
+    "id": "canal10-cordoba-cosquin-de-penas",
+    "name": "Canal 10 Córdoba / Cosquín de Peñas",
+    "operator_name": "SRT Media / Universidad Nacional de Córdoba",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Córdoba",
+    "city": "Cosquín",
+    "location": {
+      "lat": -31.2451,
+      "lon": -64.4656,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Cosquín, Córdoba, Argentina"
+    },
+    "genres": [
+      "Argentine Folk",
+      "Folklore",
+      "Folk"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.cba24n.com.ar/canal-10-cordoba",
+    "schedule_url": "https://www.cba24n.com.ar/cordoba/folklore-de-dia-y-de-noche--como-sigue-el-cosquin-de-penas-2026_a6a593acad72611d335a7c560",
+    "youtube_url": "https://www.youtube.com/channel/UCUzonpa3XKurQVycdMY70XQ",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Cosquín de Peñas",
+        "Cosquin de Penas"
+      ],
+      "deny_title_patterns": [
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "programación",
+        "programacion",
+        "señal en vivo",
+        "senal en vivo",
+        "toda la programación",
+        "toda la programacion",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-07"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.cba24n.com.ar/canal-10-cordoba",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.cba24n.com.ar/cordoba/folklore-de-dia-y-de-noche--como-sigue-el-cosquin-de-penas-2026_a6a593acad72611d335a7c560",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=1CZ0niZiMmM",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=8eoa22XdCtQ",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCUzonpa3XKurQVycdMY70XQ",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Canal 10 Córdoba carried Cosquín de Peñas 2026 live from Cosquín across multiple July weekends. The broadcaster is a general public university channel, so only titles explicitly identifying Cosquín de Peñas are admitted; its continuous TV signal, news, sports, interviews, promos, recaps and unrelated programming fail closed.",
+    "youtube_channel_id": "UCUzonpa3XKurQVycdMY70XQ",
+    "youtube_uploads_playlist_id": "UUUzonpa3XKurQVycdMY70XQ"
+  }
+]
