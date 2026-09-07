@@ -842,13 +842,13 @@
     "embed_allowed": true,
     "youtube_category_id": "24",
     "classifier_version": 1,
-    "music_live_status": "verified",
-    "content_type": "music_live_unspecified",
-    "music_live_decision": "source_allow_pattern",
+    "music_live_status": "rejected",
+    "content_type": "unknown",
+    "music_live_decision": "strict_source_deny_pattern",
     "music_live_evidence": [
       {
-        "type": "youtube_metadata_pattern",
-        "value": "en vivo"
+        "type": "youtube_title_pattern",
+        "value": "no preguntes por rusia"
       }
     ],
     "music_live_requires_schedule_match": false,

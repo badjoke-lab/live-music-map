@@ -13353,14 +13353,15 @@
     "music_live_policy": {
       "mode": "mixed",
       "allow_title_patterns": [
-        "en vivo",
-        "show",
-        "festival",
-        "live",
-        "banda",
+        "música en vivo",
+        "musica en vivo",
+        "live session",
+        "sesión en vivo",
+        "sesion en vivo",
+        "concierto",
         "recital",
-        "música",
-        "musica"
+        "full concert",
+        "showcase"
       ],
       "deny_title_patterns": [
         "entrevista",
@@ -13368,14 +13369,43 @@
         "podcast",
         "talk",
         "noticias",
-        "news"
+        "news",
+        "no preguntes por rusia",
+        "paren la mano",
+        "zona liberada",
+        "qué rompimos",
+        "que rompimos",
+        "cohete al sol",
+        "cortina de humo",
+        "suban los vidrios",
+        "maldición",
+        "maldicion",
+        "cross over",
+        "nos anotó un amigo",
+        "nos anoto un amigo",
+        "debate",
+        "gaming",
+        "humor",
+        "política",
+        "politica",
+        "economía",
+        "economia",
+        "trailer",
+        "teaser",
+        "promo",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay"
       ],
-      "require_schedule_match_when_ambiguous": true
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
     },
     "verification": {
       "official_channel": true,
       "music_live_capable": true,
-      "last_verified_at": "2026-09-05"
+      "last_verified_at": "2026-09-08"
     },
     "evidence": [
       {
@@ -13400,7 +13430,7 @@
       "method": "youtube_atom_feed",
       "priority": "normal"
     },
-    "note": "Argentina-based music/entertainment media channel with recurring YouTube live streams plus live band shows and festival transmissions. Mixed talk content must be excluded; event-specific locations override the operator base.",
+    "note": "Vorterix is a mixed music-and-entertainment broadcaster. Generic EN VIVO/LIVE wording is not evidence of a music performance. Strict title scope admits only explicitly music-performance titles (music live/session/concert/recital/showcase); named talk, news, humor, gaming and editorial programs fail closed.",
     "youtube_channel_id": "UCvCTWHCbBC0b9UIeLeNs8ug",
     "youtube_uploads_playlist_id": "UUvCTWHCbBC0b9UIeLeNs8ug"
   },
