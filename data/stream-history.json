@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:BZNP2cKupbU",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "BZNP2cKupbU",
+    "youtube_url": "https://www.youtube.com/watch?v=BZNP2cKupbU",
+    "title": "Jam Session Hosted By Adam Ray - Live at Smalls Jazz Club - 9/7/2026",
+    "status": "ended",
+    "published_at": "2026-09-08T03:28:59Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-08T03:30:03Z",
+    "actual_end": null,
+    "concurrent_viewers": 35,
+    "thumbnail": "https://i.ytimg.com/vi/BZNP2cKupbU/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-08T11:44:03.430Z",
+    "history_archived_at": "2026-09-08T11:44:03.430Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:kRQOwvMh5xo",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_budgeted_sweep",
@@ -2517,6 +2557,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-04T15:06:26.968Z",
     "history_archived_at": "2026-09-04T15:06:26.968Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:9_jHUVy3tpQ",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "avex-a-nation",
+    "youtube_video_id": "9_jHUVy3tpQ",
+    "youtube_url": "https://www.youtube.com/watch?v=9_jHUVy3tpQ",
+    "title": "a-nation歴代パフォーマンス配信中！",
+    "status": "ended",
+    "published_at": "2026-09-04T06:53:44Z",
+    "scheduled_start": "2026-09-04T09:00:00Z",
+    "actual_start": "2026-09-04T09:00:18Z",
+    "actual_end": null,
+    "concurrent_viewers": 2,
+    "thumbnail": "https://i.ytimg.com/vi/9_jHUVy3tpQ/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "a-nation"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-08T11:44:03.430Z",
+    "history_archived_at": "2026-09-08T11:44:03.430Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
