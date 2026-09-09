@@ -1,6 +1,6 @@
 # Acquisition audit
 
-Generated: 2026-09-09T12:01:50.520Z
+Generated: 2026-09-09T16:35:21.656Z
 
 This is the M3 production audit for the YouTube acquisition path. It samples the latest 10 completed `youtube-refresh.yml` runs whose **refresh job itself succeeded**, even if a later Pages deployment failed for an unrelated reason.
 
@@ -12,17 +12,17 @@ This is the M3 production audit for the YouTube acquisition path. It samples the
 
 ## Estimated YouTube Data API quota
 
-- p50: **99 units/run**
+- p50: **100 units/run**
 - p95: **205 units/run**
 - max: **205 units/run**
-- total across sample: **1089 units**
+- total across sample: **1100 units**
 
 The estimate counts logged `channels.list`, `playlistItems.list`, and `videos.list` calls at one unit each. Official Atom feed fetches cost zero YouTube Data API quota units. The rolling sweep estimate also counts one `videos.list` call per targeted processor. `search.list` is not used by this refresh path.
 
 ## Reliability
 
-- RSS fetches: **1375**
-- RSS failures: **585** (42.55%)
+- RSS fetches: **1568**
+- RSS failures: **392** (25.00%)
 - rolling playlist failures: **0**
 - stream/source channel mismatches removed: **0**
 - source preservations caused by failed detail batches: **0**
