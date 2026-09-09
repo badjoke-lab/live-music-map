@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:wINMBO6xfJM",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "wINMBO6xfJM",
+    "youtube_url": "https://www.youtube.com/watch?v=wINMBO6xfJM",
+    "title": "Frank Lacy Quartet - Live at Smalls Jazz Club - 9/8/2026",
+    "status": "ended",
+    "published_at": "2026-09-08T07:25:34Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-08T21:30:00Z",
+    "actual_end": null,
+    "concurrent_viewers": 27,
+    "thumbnail": "https://i.ytimg.com/vi/wINMBO6xfJM/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-09T01:38:57.492Z",
+    "history_archived_at": "2026-09-09T01:38:57.492Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:DKaxXaIcjaQ",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
