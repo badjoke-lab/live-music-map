@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T09:38:45.906Z",
+  "generated_at": "2026-09-10T13:55:03.281Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -8,9 +8,9 @@
   "summary": {
     "sources_total": 196,
     "live_now": 9,
-    "upcoming": 48,
+    "upcoming": 51,
     "observed_live_streams_total": 119,
-    "observed_live_streams_7d": 109,
+    "observed_live_streams_7d": 107,
     "observed_live_streams_30d": 116,
     "history_records": 110
   },
@@ -134,7 +134,7 @@
       "live_now": 0,
       "upcoming_count": 2,
       "observed_live_streams_total": 1,
-      "observed_live_streams_7d": 1,
+      "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 1,
       "active_days_30d": 1,
       "last_live_at": "2026-09-03T13:00:06.000Z",
@@ -434,13 +434,13 @@
         "Hip-hop"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 2,
       "observed_live_streams_total": 4,
       "observed_live_streams_7d": 4,
       "observed_live_streams_30d": 4,
       "active_days_30d": 3,
       "last_live_at": "2026-09-05T15:14:31.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-09-10T15:00:00.000Z",
       "observed_content_types": [
         "dj_set",
         "music_live_unspecified"
@@ -557,7 +557,7 @@
       "observed_live_streams_30d": 4,
       "active_days_30d": 2,
       "last_live_at": "2026-09-07T16:30:06.000Z",
-      "next_live_at": "2026-09-10T17:30:00.000Z",
+      "next_live_at": "2026-09-11T13:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -952,7 +952,7 @@
       "live_now": 0,
       "upcoming_count": 1,
       "observed_live_streams_total": 5,
-      "observed_live_streams_7d": 5,
+      "observed_live_streams_7d": 4,
       "observed_live_streams_30d": 5,
       "active_days_30d": 5,
       "last_live_at": "2026-09-09T09:51:31.000Z",
@@ -2396,13 +2396,13 @@
         "Electronic"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 1,
       "observed_live_streams_30d": 1,
       "active_days_30d": 1,
       "last_live_at": "2026-09-09T16:00:06.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-09-10T15:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -5015,7 +5015,7 @@
       "GB": {
         "sources": 19,
         "live_now": 0,
-        "upcoming": 5,
+        "upcoming": 6,
         "observed_live_30d": 7
       },
       "AU": {
@@ -5051,7 +5051,7 @@
       "KR": {
         "sources": 14,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 3,
         "observed_live_30d": 11
       },
       "GE": {
@@ -5245,7 +5245,7 @@
       "radio": {
         "sources": 11,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 2,
         "observed_live_30d": 13
       },
       "studio_media": {
@@ -5287,7 +5287,7 @@
       "label_media": {
         "sources": 7,
         "live_now": 3,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 3
       },
       "broadcast_media": {
@@ -5487,7 +5487,7 @@
       "Electronic": {
         "sources": 68,
         "live_now": 3,
-        "upcoming": 22,
+        "upcoming": 25,
         "observed_live_30d": 45
       },
       "Techno": {
@@ -5541,13 +5541,13 @@
       "Multi-genre": {
         "sources": 107,
         "live_now": 4,
-        "upcoming": 21,
+        "upcoming": 23,
         "observed_live_30d": 31
       },
       "Hip-hop": {
         "sources": 49,
         "live_now": 1,
-        "upcoming": 7,
+        "upcoming": 9,
         "observed_live_30d": 14
       },
       "Rap": {
@@ -6003,31 +6003,31 @@
       "Deep House": {
         "sources": 3,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "Melodic House": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "Progressive House": {
         "sources": 3,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "Downtempo": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "Ambient": {
         "sources": 4,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 1
       },
       "Chillout": {
