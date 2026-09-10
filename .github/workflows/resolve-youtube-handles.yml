@@ -2,9 +2,8 @@ name: Resolve YouTube handles
 
 on:
   push:
-    branches: [main]
+    branches: [research/resolve-next-sources-056]
     paths:
-      - 'scripts/resolve-youtube-handles.mjs'
       - '.github/workflows/resolve-youtube-handles.yml'
   workflow_dispatch:
 
@@ -17,12 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: main
-      - name: Scan Jam in the Van channel directly
+          ref: research/resolve-next-sources-056
+      - name: Resolve next source candidates
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_IDS: 'UCwfYU2M8TBAus0TIaNtjxlQ'
-          YOUTUBE_SCAN_LIMIT: '50'
+          YOUTUBE_HANDLES: 'FestivalJesusMariaOficial,culturacatamarca,AnfiteatroVillaMaría'
+          YOUTUBE_VIDEO_IDS: 'sv4gjLZTzNk,hqxuQiXn5j4,w3uCQGnX_mg'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
