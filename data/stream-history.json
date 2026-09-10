@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:T3jBhpy0v5I",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "T3jBhpy0v5I",
+    "youtube_url": "https://www.youtube.com/watch?v=T3jBhpy0v5I",
+    "title": "Dan Blake Quartet - Live at Smalls Jazz Club - 9/9/2026",
+    "status": "ended",
+    "published_at": "2026-09-09T07:24:52Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-09T21:29:27Z",
+    "actual_end": null,
+    "concurrent_viewers": 23,
+    "thumbnail": "https://i.ytimg.com/vi/T3jBhpy0v5I/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-10T04:38:49.195Z",
+    "history_archived_at": "2026-09-10T04:38:49.195Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:JqKoTUpe4p8",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
