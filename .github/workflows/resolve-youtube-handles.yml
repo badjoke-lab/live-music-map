@@ -17,11 +17,11 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: research/resolve-next-sources-056
-      - name: Resolve next source candidates
+      - name: Scan Villa Maria source candidate
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_HANDLES: 'FestivalJesusMariaOficial,culturacatamarca,AnfiteatroVillaMaría'
-          YOUTUBE_VIDEO_IDS: 'sv4gjLZTzNk,hqxuQiXn5j4,w3uCQGnX_mg'
+          YOUTUBE_CHANNEL_IDS: 'UC2rMd1z6NwV-B13v6Sy37zg'
+          YOUTUBE_SCAN_LIMIT: '50'
         run: |
           node --check scripts/resolve-youtube-handles.mjs
           node scripts/resolve-youtube-handles.mjs
