@@ -1,0 +1,375 @@
+[
+  {
+    "schema_version": 2,
+    "id": "villa-maria-festival-internacional-penas",
+    "name": "Anfiteatro Villa María / Festival Internacional de Peñas",
+    "operator_name": "Municipalidad de Villa María / Anfiteatro Municipal Centenario",
+    "type": "festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Córdoba",
+    "city": "Villa María",
+    "location": {
+      "lat": -32.4075,
+      "lon": -63.2402,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Villa María, Córdoba, Argentina"
+    },
+    "genres": [
+      "Latin Pop",
+      "Pop",
+      "Rock",
+      "Cuarteto",
+      "Urban",
+      "Argentine Folk",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.villamaria.gob.ar/",
+    "schedule_url": "https://www.villamaria.gob.ar/noticias/2026/2/5/el-anfiteatro-se-prepara-para-la-edicion-2026-del-festival-internacional-de-penas",
+    "youtube_url": "https://www.youtube.com/channel/UC2rMd1z6NwV-B13v6Sy37zg",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Festival de Peñas Villa María",
+        "Festival Internacional de Peñas Villa María",
+        "Festival Internacional de Peñas"
+      ],
+      "deny_title_patterns": [
+        "charla",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "presentación",
+        "presentacion",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-11"
+    },
+    "evidence": [
+      {
+        "kind": "official_event_page",
+        "url": "https://www.villamaria.gob.ar/noticias/2026/2/5/el-anfiteatro-se-prepara-para-la-edicion-2026-del-festival-internacional-de-penas",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=sK1jIye51Ik",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=yudAYrA2gI4",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UC2rMd1z6NwV-B13v6Sy37zg",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The Anfiteatro Villa María channel also carries interviews and other programming. Only titles explicitly naming Festival de Peñas Villa María / Festival Internacional de Peñas are admitted; generic EN VIVO/LIVE or non-festival programming fails closed.",
+    "youtube_channel_id": "UC2rMd1z6NwV-B13v6Sy37zg",
+    "youtube_uploads_playlist_id": "UU2rMd1z6NwV-B13v6Sy37zg"
+  },
+  {
+    "schema_version": 2,
+    "id": "dolores-fiesta-nacional-guitarra",
+    "name": "Municipalidad de Dolores / Fiesta Nacional de la Guitarra",
+    "operator_name": "Municipalidad de Dolores",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Buenos Aires Province",
+    "city": "Dolores",
+    "location": {
+      "lat": -36.3132,
+      "lon": -57.6792,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Dolores, Buenos Aires Province, Argentina"
+    },
+    "genres": [
+      "Argentine Folk",
+      "Folklore",
+      "Latin",
+      "Cumbia",
+      "Cuarteto",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://dolores.gob.ar/",
+    "schedule_url": "https://dolores.gob.ar/eventos/fiesta-de-la-guitarra/",
+    "youtube_url": "https://www.youtube.com/channel/UCdR5dwk4uAINC24MGj915WA",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Fiesta Nacional de la Guitarra"
+      ],
+      "deny_title_patterns": [
+        "carnaval del sol",
+        "mx argentina",
+        "mx argentino",
+        "estadio cubierto",
+        "fiesta de la torta argentina",
+        "municipal",
+        "concejo",
+        "intendente",
+        "inauguración",
+        "inauguracion",
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-11"
+    },
+    "evidence": [
+      {
+        "kind": "official_event_page",
+        "url": "https://dolores.gob.ar/eventos/fiesta-de-la-guitarra/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=6YqK9vDo6XI",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=oU3P8gChuow",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCdR5dwk4uAINC24MGj915WA",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Municipalidad de Dolores is a broad municipal channel with sports, civic events and other festivals. Only titles explicitly naming Fiesta Nacional de la Guitarra are admitted; generic EN VIVO/LIVE and unrelated municipal streams fail closed.",
+    "youtube_channel_id": "UCdR5dwk4uAINC24MGj915WA",
+    "youtube_uploads_playlist_id": "UUdR5dwk4uAINC24MGj915WA"
+  },
+  {
+    "schema_version": 2,
+    "id": "catamarca-fiesta-del-poncho",
+    "name": "Ministerio de Cultura, Turismo y Deporte Catamarca / Fiesta Nacional e Internacional del Poncho",
+    "operator_name": "Gobierno de Catamarca / Ministerio de Cultura, Turismo y Deporte",
+    "type": "government_media_festival",
+    "country": "Argentina",
+    "country_code": "AR",
+    "region": "Catamarca",
+    "city": "San Fernando del Valle de Catamarca",
+    "location": {
+      "lat": -28.4696,
+      "lon": -65.7852,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "San Fernando del Valle de Catamarca, Catamarca, Argentina"
+    },
+    "genres": [
+      "Argentine Folk",
+      "Folklore",
+      "Latin",
+      "Rock",
+      "Pop",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://fiestadelponcho.gob.ar/",
+    "schedule_url": "https://fiestadelponcho.gob.ar/",
+    "youtube_url": "https://www.youtube.com/channel/UClvQGfbj1T_ofautTOYAaEg",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Fiesta Nacional e Internacional del Poncho"
+      ],
+      "deny_title_patterns": [
+        "acto de apertura",
+        "poncho sunset",
+        "conferencia",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "turismo",
+        "artesanos",
+        "artesanías",
+        "artesanias",
+        "gastronomía",
+        "gastronomia",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-11"
+    },
+    "evidence": [
+      {
+        "kind": "official_event_page",
+        "url": "https://fiestadelponcho.gob.ar/",
+        "supports": [
+          "identity",
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=w3uCQGnX_mg",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=CKMbAoVpMSY",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UClvQGfbj1T_ofautTOYAaEg",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "The Catamarca ministry channel is broad and the Poncho event also contains non-music activities. Only titles explicitly naming Fiesta Nacional e Internacional del Poncho are admitted, while opening ceremonies, Poncho Sunset, tourism/craft content and generic EN VIVO/LIVE fail closed.",
+    "youtube_channel_id": "UClvQGfbj1T_ofautTOYAaEg",
+    "youtube_uploads_playlist_id": "UUlvQGfbj1T_ofautTOYAaEg"
+  }
+]
