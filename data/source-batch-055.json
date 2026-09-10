@@ -1,0 +1,265 @@
+[
+  {
+    "schema_version": 2,
+    "id": "telecaribe-festival-leyenda-vallenata",
+    "name": "Canal Telecaribe / Festival de la Leyenda Vallenata",
+    "operator_name": "Canal Regional de Televisión del Caribe Ltda. (Telecaribe)",
+    "type": "government_media_festival",
+    "country": "Colombia",
+    "country_code": "CO",
+    "region": "Cesar",
+    "city": "Valledupar",
+    "location": {
+      "lat": 10.4631,
+      "lon": -73.2532,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "Valledupar, Cesar, Colombia"
+    },
+    "genres": [
+      "Vallenato",
+      "Colombian Folk",
+      "Tropical",
+      "Latin"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://telecaribe.co/",
+    "schedule_url": "https://festivalvallenato.com/comunicado-fundacion-festival-de-la-leyenda-vallenata/",
+    "youtube_url": "https://www.youtube.com/channel/UCZudXgtqD1e5L8g92MPZKCw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Festival Vallenato",
+        "Festival de la Leyenda Vallenata",
+        "Final Acordeonero Profesional",
+        "Canción Vallenata Inédita",
+        "Cancion Vallenata Inedita"
+      ],
+      "deny_title_patterns": [
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "magazín",
+        "magazin",
+        "programación",
+        "programacion",
+        "señal en vivo",
+        "senal en vivo",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-11"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://telecaribe.co/",
+        "supports": [
+          "identity"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://festivalvallenato.com/comunicado-fundacion-festival-de-la-leyenda-vallenata/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=aok4K2OXXgI",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.youtube.com/watch?v=ibZC9vk6tlc",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCZudXgtqD1e5L8g92MPZKCw",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "Telecaribe is a broad public regional broadcaster. Only deterministic Festival Vallenato / Festival de la Leyenda Vallenata music-event titles are admitted. Generic EN VIVO/LIVE, ordinary programming, news, sports, interviews, promos and recaps fail closed.",
+    "youtube_channel_id": "UCZudXgtqD1e5L8g92MPZKCw",
+    "youtube_uploads_playlist_id": "UUZudXgtqD1e5L8g92MPZKCw"
+  },
+  {
+    "schema_version": 2,
+    "id": "san-bernardo-festival-nacional-folklore",
+    "name": "San Bernardo TV / Festival Nacional de Folklore de San Bernardo",
+    "operator_name": "Municipalidad de San Bernardo",
+    "type": "government_media_festival",
+    "country": "Chile",
+    "country_code": "CL",
+    "region": "Santiago Metropolitan Region",
+    "city": "San Bernardo",
+    "location": {
+      "lat": -33.5922,
+      "lon": -70.6996,
+      "precision": "city_confirmed",
+      "role": "event_home",
+      "label": "San Bernardo, Santiago Metropolitan Region, Chile"
+    },
+    "genres": [
+      "Chilean Folk",
+      "Cueca",
+      "Nueva Canción",
+      "Cumbia Ranchera",
+      "Latin Folk",
+      "Multi-genre"
+    ],
+    "formats": [
+      "festival_stream",
+      "live_performance",
+      "music_event_stream"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "official_site": "https://www.sanbernardo.cl/",
+    "schedule_url": "https://www.sanbernardo.cl/festival-nacional-de-folklore-de-san-bernardo-2026-conoce-la-programacion-de-artistas-y-como-obtener-entradas/",
+    "youtube_url": "https://www.youtube.com/channel/UCV8K3aignCahQmCEvL5Jvxw",
+    "status": "seasonal",
+    "schedule_pattern": "seasonal",
+    "lifecycle_status": "active",
+    "music_live_policy": {
+      "mode": "mixed",
+      "allow_title_patterns": [
+        "Festival Nacional de Folklore de San Bernardo",
+        "Festival Nacional del Folklore de San Bernardo",
+        "Festival Nacional de Folklore San Bernardo",
+        "Festival Nacional del Folklore San Bernardo"
+      ],
+      "deny_title_patterns": [
+        "municipal",
+        "concejo",
+        "cuenta pública",
+        "cuenta publica",
+        "alcalde",
+        "noticias",
+        "news",
+        "deportes",
+        "deporte",
+        "fútbol",
+        "futbol",
+        "partido",
+        "entrevista",
+        "entrevistas",
+        "podcast",
+        "talk",
+        "misa",
+        "virgen del carmen",
+        "recap",
+        "resumen",
+        "highlights",
+        "shorts",
+        "replay",
+        "trailer",
+        "teaser",
+        "promo",
+        "preview"
+      ],
+      "require_schedule_match_when_ambiguous": true,
+      "require_source_allow_match": true
+    },
+    "verification": {
+      "official_channel": true,
+      "music_live_capable": true,
+      "last_verified_at": "2026-09-11"
+    },
+    "evidence": [
+      {
+        "kind": "official_site",
+        "url": "https://www.sanbernardo.cl/",
+        "supports": [
+          "identity",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.sanbernardo.cl/festival-nacional-de-folklore-de-san-bernardo-2026-conoce-la-programacion-de-artistas-y-como-obtener-entradas/",
+        "supports": [
+          "music_live_capability",
+          "schedule_pattern",
+          "source_location"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.sanbernardo.cl/san-bernardo-dio-el-vamos-al-55-festival-nacional-de-folklore-con-una-noche-cargada-de-identidad-y-emocion/",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_event_page",
+        "url": "https://www.sanbernardo.cl/quilapayun-marco-la-tercera-noche-del-55-festival-nacional-de-folklore-de-san-bernardo/",
+        "supports": [
+          "music_live_capability"
+        ]
+      },
+      {
+        "kind": "official_youtube_channel",
+        "url": "https://www.youtube.com/channel/UCV8K3aignCahQmCEvL5Jvxw",
+        "supports": [
+          "official_channel"
+        ]
+      }
+    ],
+    "acquisition": {
+      "enabled": true,
+      "method": "youtube_atom_feed",
+      "priority": "high"
+    },
+    "note": "San Bernardo TV is a broad municipal channel. Only titles explicitly naming the Festival Nacional de Folklore de San Bernardo are admitted. Municipal administration, council streams, mass/religious ceremonies, news, sports, interviews, promos and recaps fail closed.",
+    "youtube_channel_id": "UCV8K3aignCahQmCEvL5Jvxw",
+    "youtube_uploads_playlist_id": "UUV8K3aignCahQmCEvL5Jvxw"
+  }
+]
