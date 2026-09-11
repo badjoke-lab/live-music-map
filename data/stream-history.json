@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:JJFfR0TGgqA",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "kennedy-center",
+    "youtube_video_id": "JJFfR0TGgqA",
+    "youtube_url": "https://www.youtube.com/watch?v=JJFfR0TGgqA",
+    "title": "Lions Gate Trio - Millennium Stage (September 10, 2026)",
+    "status": "ended",
+    "published_at": "2026-08-28T18:30:40Z",
+    "scheduled_start": "2026-09-10T22:00:00Z",
+    "actual_start": "2026-09-10T21:58:21Z",
+    "actual_end": null,
+    "concurrent_viewers": 13,
+    "thumbnail": "https://i.ytimg.com/vi/JJFfR0TGgqA/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "millennium stage"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-11T00:32:40.221Z",
+    "history_archived_at": "2026-09-11T00:32:40.221Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:xKdkv5K3xw8",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
