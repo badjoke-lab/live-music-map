@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:8hcuVhPwPvQ",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "hoer-berlin",
+    "youtube_video_id": "8hcuVhPwPvQ",
+    "youtube_url": "https://www.youtube.com/watch?v=8hcuVhPwPvQ",
+    "title": "MAGIE NOIRE - Heepmann | HÖR - September 12 / 2026",
+    "status": "ended",
+    "published_at": "2026-09-11T20:21:58Z",
+    "scheduled_start": "2026-09-12T18:00:00Z",
+    "actual_start": "2026-09-12T17:59:49Z",
+    "actual_end": null,
+    "concurrent_viewers": 105,
+    "thumbnail": "https://i.ytimg.com/vi/8hcuVhPwPvQ/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-12T20:56:12.593Z",
+    "history_archived_at": "2026-09-12T20:56:12.593Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:9JxRV-JNhOc",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -37,6 +77,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-12T18:31:25.747Z",
     "history_archived_at": "2026-09-12T18:31:25.747Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:5bsMM8_8rhM",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "ard-klassik",
+    "youtube_video_id": "5bsMM8_8rhM",
+    "youtube_url": "https://www.youtube.com/watch?v=5bsMM8_8rhM",
+    "title": "LIVE: Finale im Fach Streichquartett | ARD-Musikwettbewerb",
+    "status": "ended",
+    "published_at": "2026-08-12T08:44:46Z",
+    "scheduled_start": "2026-09-12T13:50:00Z",
+    "actual_start": "2026-09-12T13:45:26Z",
+    "actual_end": null,
+    "concurrent_viewers": 674,
+    "thumbnail": "https://i.ytimg.com/vi/5bsMM8_8rhM/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-12T20:56:12.593Z",
+    "history_archived_at": "2026-09-12T20:56:12.593Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
