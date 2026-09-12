@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:XsLcz0lO-xc",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "mbckpop",
+    "youtube_video_id": "XsLcz0lO-xc",
+    "youtube_url": "https://www.youtube.com/watch?v=XsLcz0lO-xc",
+    "title": "[🔴라이브] 2026 MUSE ON FESTIVAL DAY4 │산보 (Sanbo), 산만한시선 (Sanmanhan), 정우 (JUNGWOO)",
+    "status": "ended",
+    "published_at": "2026-09-07T01:52:48Z",
+    "scheduled_start": "2026-09-12T08:00:00Z",
+    "actual_start": "2026-09-12T07:50:16Z",
+    "actual_end": null,
+    "concurrent_viewers": 55,
+    "thumbnail": "https://i.ytimg.com/vi/XsLcz0lO-xc/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "라이브"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-12T12:57:19.335Z",
+    "history_archived_at": "2026-09-12T12:57:19.335Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:IPffRg-N5ao",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
