@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:3SGJI1wxNoo",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "national-indigenous-music-awards",
+    "youtube_video_id": "3SGJI1wxNoo",
+    "youtube_url": "https://www.youtube.com/watch?v=3SGJI1wxNoo",
+    "title": "MusicNT's Bush Bands Bash 2026 – Full Concert – Live on Arrernte Country",
+    "status": "ended",
+    "published_at": "2026-09-10T04:50:49Z",
+    "scheduled_start": "2026-09-13T06:00:00Z",
+    "actual_start": "2026-09-13T06:00:01Z",
+    "actual_end": null,
+    "concurrent_viewers": 151,
+    "thumbnail": "https://i.ytimg.com/vi/3SGJI1wxNoo/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "concert",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "concert"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-13T15:07:34.625Z",
+    "history_archived_at": "2026-09-13T15:07:34.625Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:GIHJ7nHJ1Sk",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
