@@ -80,6 +80,46 @@
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
+    "id": "youtube:b-MW1mx_mf0",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "b-MW1mx_mf0",
+    "youtube_url": "https://www.youtube.com/watch?v=b-MW1mx_mf0",
+    "title": "Justin Robinson Quartet - Live at Smalls Jazz Club - 9/12/2026",
+    "status": "ended",
+    "published_at": "2026-09-13T03:36:36Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-13T03:37:53Z",
+    "actual_end": null,
+    "concurrent_viewers": 51,
+    "thumbnail": "https://i.ytimg.com/vi/b-MW1mx_mf0/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-13T11:43:46.999Z",
+    "history_archived_at": "2026-09-13T11:43:46.999Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:iSVfpTJDcSk",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -197,6 +237,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-13T04:43:59.727Z",
     "history_archived_at": "2026-09-13T04:43:59.727Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:uUu7mbcyuvg",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "above-and-beyond",
+    "youtube_video_id": "uUu7mbcyuvg",
+    "youtube_url": "https://www.youtube.com/watch?v=uUu7mbcyuvg",
+    "title": "Above & Beyond: Group Therapy 700 live from The Gorge Amphitheatre, Washington #ABGT700",
+    "status": "ended",
+    "published_at": "2026-09-10T16:57:30Z",
+    "scheduled_start": "2026-09-12T23:00:00Z",
+    "actual_start": "2026-09-12T22:46:00Z",
+    "actual_end": null,
+    "concurrent_viewers": 3082,
+    "thumbnail": "https://i.ytimg.com/vi/uUu7mbcyuvg/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "group therapy"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-13T11:43:46.999Z",
+    "history_archived_at": "2026-09-13T11:43:46.999Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
