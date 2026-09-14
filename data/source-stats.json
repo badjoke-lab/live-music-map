@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T06:10:51.617Z",
+  "generated_at": "2026-09-14T13:04:04.672Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
-    "upcoming": 34,
+    "live_now": 8,
+    "upcoming": 35,
     "observed_live_streams_total": 165,
-    "observed_live_streams_7d": 74,
+    "observed_live_streams_7d": 72,
     "observed_live_streams_30d": 161,
-    "history_records": 156
+    "history_records": 157
   },
   "by_source": {
     "hoer-berlin": {
@@ -2397,13 +2397,13 @@
         "Electronic"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 2,
       "observed_live_streams_7d": 2,
       "observed_live_streams_30d": 2,
       "active_days_30d": 2,
       "last_live_at": "2026-09-13T22:15:21.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-09-14T16:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -2658,7 +2658,7 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 35,
       "observed_live_streams_7d": 21,
@@ -3323,7 +3323,7 @@
       "live_now": 0,
       "upcoming_count": 4,
       "observed_live_streams_total": 19,
-      "observed_live_streams_7d": 13,
+      "observed_live_streams_7d": 11,
       "observed_live_streams_30d": 19,
       "active_days_30d": 10,
       "last_live_at": "2026-09-13T13:47:11.000Z",
@@ -5139,7 +5139,7 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 11,
         "observed_live_30d": 64
       },
@@ -5152,7 +5152,7 @@
       "GB": {
         "sources": 19,
         "live_now": 0,
-        "upcoming": 2,
+        "upcoming": 3,
         "observed_live_30d": 10
       },
       "AU": {
@@ -5411,7 +5411,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 4,
         "observed_live_30d": 53
       },
@@ -5424,7 +5424,7 @@
       "label_media": {
         "sources": 7,
         "live_now": 3,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 3
       },
       "broadcast_media": {
@@ -5624,7 +5624,7 @@
       "Electronic": {
         "sources": 68,
         "live_now": 3,
-        "upcoming": 18,
+        "upcoming": 19,
         "observed_live_30d": 54
       },
       "Techno": {
@@ -5647,7 +5647,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 55
       },
@@ -6140,31 +6140,31 @@
       "Deep House": {
         "sources": 3,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Melodic House": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Progressive House": {
         "sources": 3,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Downtempo": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Ambient": {
         "sources": 4,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 2
       },
       "Chillout": {
@@ -6223,19 +6223,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 46
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 35
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 46
       },
