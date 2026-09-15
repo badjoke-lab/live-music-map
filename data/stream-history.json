@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:4qwnZuDbx_g",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "the-k-pop",
+    "youtube_video_id": "4qwnZuDbx_g",
+    "youtube_url": "https://www.youtube.com/watch?v=4qwnZuDbx_g",
+    "title": "[🔴LIVE] 2026 THE SHOW Ep.399 (2026.09.15) l EVAN, ARTMS, VERIVERY, 82MAJOR, TUNEXX, etc.",
+    "status": "ended",
+    "published_at": "2026-09-14T00:46:33Z",
+    "scheduled_start": "2026-09-15T09:00:00Z",
+    "actual_start": "2026-09-15T08:53:31Z",
+    "actual_end": null,
+    "concurrent_viewers": 2416,
+    "thumbnail": "https://i.ytimg.com/vi/4qwnZuDbx_g/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "live_performance",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "the show"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-15T15:06:50.361Z",
+    "history_archived_at": "2026-09-15T15:06:50.361Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:SIEXnvw98ug",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
