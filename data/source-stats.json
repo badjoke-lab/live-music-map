@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T21:43:48.561Z",
+  "generated_at": "2026-09-17T23:46:05.640Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 10,
+    "live_now": 11,
     "upcoming": 52,
-    "observed_live_streams_total": 194,
+    "observed_live_streams_total": 195,
     "observed_live_streams_7d": 71,
-    "observed_live_streams_30d": 189,
+    "observed_live_streams_30d": 190,
     "history_records": 184
   },
   "by_source": {
@@ -3358,7 +3358,7 @@
       "live_now": 0,
       "upcoming_count": 4,
       "observed_live_streams_total": 5,
-      "observed_live_streams_7d": 3,
+      "observed_live_streams_7d": 2,
       "observed_live_streams_30d": 5,
       "active_days_30d": 5,
       "last_live_at": "2026-09-12T21:57:41.000Z",
@@ -3609,13 +3609,13 @@
         "Soul",
         "Live Music"
       ],
-      "live_now": 0,
+      "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 1,
-      "observed_live_streams_7d": 1,
-      "observed_live_streams_30d": 1,
-      "active_days_30d": 1,
-      "last_live_at": "2026-09-16T23:33:43.000Z",
+      "observed_live_streams_total": 2,
+      "observed_live_streams_7d": 2,
+      "observed_live_streams_30d": 2,
+      "active_days_30d": 2,
+      "last_live_at": "2026-09-17T23:35:13.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
@@ -5154,9 +5154,9 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 3,
+        "live_now": 4,
         "upcoming": 16,
-        "observed_live_30d": 78
+        "observed_live_30d": 79
       },
       "JP": {
         "sources": 28,
@@ -5570,9 +5570,9 @@
       },
       "live_music_producer": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 1
+        "observed_live_30d": 2
       },
       "virtual_music_festival": {
         "sources": 1,
@@ -5662,9 +5662,9 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 2,
         "upcoming": 8,
-        "observed_live_30d": 67
+        "observed_live_30d": 68
       },
       "Afrobeat": {
         "sources": 3,
@@ -5794,9 +5794,9 @@
       },
       "Soul": {
         "sources": 11,
-        "live_now": 0,
+        "live_now": 1,
         "upcoming": 2,
-        "observed_live_30d": 4
+        "observed_live_30d": 5
       },
       "Bass": {
         "sources": 3,
@@ -5968,9 +5968,9 @@
       },
       "R&B": {
         "sources": 31,
-        "live_now": 0,
+        "live_now": 1,
         "upcoming": 2,
-        "observed_live_30d": 9
+        "observed_live_30d": 10
       },
       "Latin": {
         "sources": 15,
@@ -6268,9 +6268,9 @@
       },
       "Funk": {
         "sources": 5,
-        "live_now": 0,
+        "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 1
+        "observed_live_30d": 2
       },
       "Indonesian": {
         "sources": 1,
@@ -6454,9 +6454,9 @@
       },
       "Live Music": {
         "sources": 1,
-        "live_now": 0,
+        "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 1
+        "observed_live_30d": 2
       },
       "Virtual Music": {
         "sources": 1,
@@ -6786,7 +6786,7 @@
     "by_verified_stream_content_type_30d": {
       "dj_set": 37,
       "concert": 15,
-      "music_live_unspecified": 132,
+      "music_live_unspecified": 133,
       "live_performance": 2,
       "opera": 1,
       "festival_stream": 2
