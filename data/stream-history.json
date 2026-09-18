@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:oryXIkO3grM",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "oryXIkO3grM",
+    "youtube_url": "https://www.youtube.com/watch?v=oryXIkO3grM",
+    "title": "Jam Session Hosted By Matt Snow - Live at Smalls Jazz Club - 9/17/2026",
+    "status": "ended",
+    "published_at": "2026-09-18T03:34:27Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-18T03:35:02Z",
+    "actual_end": null,
+    "concurrent_viewers": 47,
+    "thumbnail": "https://i.ytimg.com/vi/oryXIkO3grM/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-18T11:55:21.756Z",
+    "history_archived_at": "2026-09-18T11:55:21.756Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:M6dxQSkvvso",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_budgeted_sweep",
@@ -3717,6 +3757,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-08T21:49:32.096Z",
     "history_archived_at": "2026-09-08T21:49:32.096Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:T_BupMD08Uw",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "avex-a-nation",
+    "youtube_video_id": "T_BupMD08Uw",
+    "youtube_url": "https://www.youtube.com/watch?v=T_BupMD08Uw",
+    "title": "a-nation歴代パフォーマンス配信中！",
+    "status": "ended",
+    "published_at": "2026-09-08T09:13:55Z",
+    "scheduled_start": "2026-09-08T09:13:54Z",
+    "actual_start": "2026-09-08T09:14:26Z",
+    "actual_end": null,
+    "concurrent_viewers": 24,
+    "thumbnail": "https://i.ytimg.com/vi/T_BupMD08Uw/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "a-nation"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-18T11:55:21.756Z",
+    "history_archived_at": "2026-09-18T11:55:21.756Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
