@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T23:46:41.101Z",
+  "generated_at": "2026-09-18T01:39:11.489Z",
   "repository": "badjoke-lab/live-music-map",
   "workflow": "youtube-refresh.yml",
   "sample_size": 10,
@@ -24,18 +24,18 @@
   "summary": {
     "duration_seconds": {
       "p50": 82,
-      "p95": 111,
-      "max": 111
+      "p95": 102,
+      "max": 102
     },
     "api_units_estimated": {
       "p50": 97,
-      "p95": 109,
-      "max": 109
+      "p95": 102,
+      "max": 102
     },
-    "api_units_total_sample": 981,
-    "rss_fetches_total": 1809,
-    "rss_failures_total": 201,
-    "rss_failure_rate": 0.1111111111111111,
+    "api_units_total_sample": 962,
+    "rss_fetches_total": 1618,
+    "rss_failures_total": 392,
+    "rss_failure_rate": 0.242274412855377,
     "rolling_playlist_failures_total": 0,
     "identity_mismatches_removed_total": 0,
     "detail_failure_preserved_sources_total": 0,
@@ -43,6 +43,53 @@
     "source_count_max": 201
   },
   "runs": [
+    {
+      "run_id": 35296086661,
+      "run_number": 205,
+      "workflow_conclusion": "success",
+      "event": "schedule",
+      "head_sha": "d96e3ad1c3fedadeaad3131932619b5f3db23c76",
+      "created_at": "2026-09-18T01:37:36Z",
+      "duration_seconds": 63,
+      "source_count": 201,
+      "unique_youtube_channels": 201,
+      "refresh": {
+        "rss_fetches": 10,
+        "rss_failures": 191,
+        "channel_calls": 0,
+        "playlist_calls": 0,
+        "video_calls": 3,
+        "active_records": 107,
+        "verified_music": 55,
+        "rejected": 22,
+        "unknown": 30,
+        "preserved_sources": 0
+      },
+      "rolling_sweep": {
+        "selected_sources": 75,
+        "eligible_sources": 201,
+        "playlist_calls": 75,
+        "playlist_failures": 0,
+        "channel_repair_calls": 0,
+        "repaired_playlists": 0,
+        "video_calls": 7,
+        "targeted_processors": 2,
+        "processor_failures": 0,
+        "projected_full_sweep_minutes": 45
+      },
+      "identity_check": {
+        "checked_records": 109,
+        "video_calls": 3,
+        "mismatches_removed": 0,
+        "failed_batches_preserved": 0
+      },
+      "api_units_estimated": 90,
+      "api_units_breakdown": {
+        "refresh": 3,
+        "rolling_sweep": 84,
+        "identity_check": 3
+      }
+    },
     {
       "run_id": 35288207197,
       "run_number": 204,
@@ -464,53 +511,6 @@
         "refresh": 11,
         "rolling_sweep": 89,
         "identity_check": 2
-      }
-    },
-    {
-      "run_id": 35111765531,
-      "run_number": 194,
-      "workflow_conclusion": "success",
-      "event": "schedule",
-      "head_sha": "83610cd2b256df7d8cc5d4b164f82728c8b321c8",
-      "created_at": "2026-09-16T14:54:51Z",
-      "duration_seconds": 111,
-      "source_count": 201,
-      "unique_youtube_channels": 201,
-      "refresh": {
-        "rss_fetches": 201,
-        "rss_failures": 0,
-        "channel_calls": 0,
-        "playlist_calls": 0,
-        "video_calls": 15,
-        "active_records": 106,
-        "verified_music": 55,
-        "rejected": 21,
-        "unknown": 30,
-        "preserved_sources": 0
-      },
-      "rolling_sweep": {
-        "selected_sources": 75,
-        "eligible_sources": 201,
-        "playlist_calls": 75,
-        "playlist_failures": 0,
-        "channel_repair_calls": 0,
-        "repaired_playlists": 0,
-        "video_calls": 15,
-        "targeted_processors": 1,
-        "processor_failures": 0,
-        "projected_full_sweep_minutes": 45
-      },
-      "identity_check": {
-        "checked_records": 106,
-        "video_calls": 3,
-        "mismatches_removed": 0,
-        "failed_batches_preserved": 0
-      },
-      "api_units_estimated": 109,
-      "api_units_breakdown": {
-        "refresh": 15,
-        "rolling_sweep": 91,
-        "identity_check": 3
       }
     }
   ]
