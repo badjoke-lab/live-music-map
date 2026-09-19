@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:_dvnfmjYXK0",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "hoer-berlin",
+    "youtube_video_id": "_dvnfmjYXK0",
+    "youtube_url": "https://www.youtube.com/watch?v=_dvnfmjYXK0",
+    "title": "SILIKON - MAUDUX | HÖR - September 19 / 2026",
+    "status": "ended",
+    "published_at": "2026-09-18T15:09:51Z",
+    "scheduled_start": "2026-09-19T17:00:00Z",
+    "actual_start": "2026-09-19T16:59:55Z",
+    "actual_end": null,
+    "concurrent_viewers": 150,
+    "thumbnail": "https://i.ytimg.com/vi/_dvnfmjYXK0/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "22",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-19T19:36:51.337Z",
+    "history_archived_at": "2026-09-19T19:36:51.337Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:e6Lg23oRV2I",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
