@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:39:20.181Z",
+  "generated_at": "2026-09-19T14:52:04.576Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 10,
-    "upcoming": 41,
+    "live_now": 8,
+    "upcoming": 42,
     "observed_live_streams_total": 221,
-    "observed_live_streams_7d": 80,
+    "observed_live_streams_7d": 79,
     "observed_live_streams_30d": 216,
-    "history_records": 211
+    "history_records": 213
   },
   "by_source": {
     "hoer-berlin": {
@@ -599,7 +599,7 @@
         "Electronic",
         "Dance"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 2,
       "observed_live_streams_total": 2,
       "observed_live_streams_7d": 2,
@@ -960,14 +960,14 @@
         "Blues",
         "Multi-genre"
       ],
-      "live_now": 1,
-      "upcoming_count": 0,
+      "live_now": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 8,
       "observed_live_streams_7d": 2,
       "observed_live_streams_30d": 8,
       "active_days_30d": 7,
       "last_live_at": "2026-09-19T09:51:12.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-09-20T04:30:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -3334,7 +3334,7 @@
       "live_now": 0,
       "upcoming_count": 4,
       "observed_live_streams_total": 24,
-      "observed_live_streams_7d": 7,
+      "observed_live_streams_7d": 6,
       "observed_live_streams_30d": 24,
       "active_days_30d": 13,
       "last_live_at": "2026-09-18T18:00:31.000Z",
@@ -5162,14 +5162,14 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 12,
         "observed_live_30d": 91
       },
       "JP": {
         "sources": 28,
-        "live_now": 2,
-        "upcoming": 1,
+        "live_now": 1,
+        "upcoming": 2,
         "observed_live_30d": 11
       },
       "GB": {
@@ -5422,7 +5422,7 @@
       },
       "festival": {
         "sources": 33,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 4,
         "observed_live_30d": 3
       },
@@ -5434,8 +5434,8 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
-        "upcoming": 5,
+        "live_now": 0,
+        "upcoming": 6,
         "observed_live_30d": 69
       },
       "radio_media": {
@@ -5646,7 +5646,7 @@
     "by_source_genre": {
       "Electronic": {
         "sources": 68,
-        "live_now": 4,
+        "live_now": 3,
         "upcoming": 20,
         "observed_live_30d": 78
       },
@@ -5700,8 +5700,8 @@
       },
       "Multi-genre": {
         "sources": 111,
-        "live_now": 5,
-        "upcoming": 17,
+        "live_now": 4,
+        "upcoming": 18,
         "observed_live_30d": 47
       },
       "Hip-hop": {
@@ -5766,7 +5766,7 @@
       },
       "Dance": {
         "sources": 24,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 2,
         "observed_live_30d": 24
       },
@@ -5790,8 +5790,8 @@
       },
       "Rock": {
         "sources": 64,
-        "live_now": 3,
-        "upcoming": 11,
+        "live_now": 2,
+        "upcoming": 12,
         "observed_live_30d": 23
       },
       "Pop": {
@@ -5838,20 +5838,20 @@
       },
       "Acoustic": {
         "sources": 5,
-        "live_now": 3,
-        "upcoming": 0,
+        "live_now": 2,
+        "upcoming": 1,
         "observed_live_30d": 8
       },
       "Folk": {
         "sources": 19,
-        "live_now": 2,
-        "upcoming": 11,
+        "live_now": 1,
+        "upcoming": 12,
         "observed_live_30d": 16
       },
       "Blues": {
         "sources": 5,
-        "live_now": 1,
-        "upcoming": 0,
+        "live_now": 0,
+        "upcoming": 1,
         "observed_live_30d": 8
       },
       "Punk": {
