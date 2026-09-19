@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:_QvspdgbPW8",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_budgeted_sweep",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "_QvspdgbPW8",
+    "youtube_url": "https://www.youtube.com/watch?v=_QvspdgbPW8",
+    "title": "Sam Newsome Quintet - Live at Smalls Jazz Club - 9/18/2026",
+    "status": "ended",
+    "published_at": "2026-09-19T00:35:13Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-19T00:35:59Z",
+    "actual_end": null,
+    "concurrent_viewers": 47,
+    "thumbnail": "https://i.ytimg.com/vi/_QvspdgbPW8/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_title_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-19T04:35:07.029Z",
+    "history_archived_at": "2026-09-19T04:35:07.029Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:sGbcLZ3MIA4",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -157,6 +197,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-18T21:39:49.052Z",
     "history_archived_at": "2026-09-18T21:39:49.052Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:USYw_EP5Ivw",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "lost-lands-music-festival",
+    "youtube_video_id": "USYw_EP5Ivw",
+    "youtube_url": "https://www.youtube.com/watch?v=USYw_EP5Ivw",
+    "title": "LOST LANDS FESTIVAL LIVE: COUCH LANDS - DAY 1",
+    "status": "ended",
+    "published_at": "2026-09-01T18:34:09Z",
+    "scheduled_start": "2026-09-18T18:00:00Z",
+    "actual_start": "2026-09-18T18:23:33Z",
+    "actual_end": null,
+    "concurrent_viewers": 20979,
+    "thumbnail": "https://i.ytimg.com/vi/USYw_EP5Ivw/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "lost lands"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-19T04:35:07.029Z",
+    "history_archived_at": "2026-09-19T04:35:07.029Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
