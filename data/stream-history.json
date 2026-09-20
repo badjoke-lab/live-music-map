@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:7whWkwlUAcY",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "7whWkwlUAcY",
+    "youtube_url": "https://www.youtube.com/watch?v=7whWkwlUAcY",
+    "title": "『地下表現者狂騒曲〜超熱帯夜Special〜』出演：The Coils / 耕時 / イシガミシンタロウ / 立石鉄郎",
+    "status": "ended",
+    "published_at": "2026-09-20T06:54:26Z",
+    "scheduled_start": "2026-09-20T10:00:00Z",
+    "actual_start": "2026-09-20T09:50:11Z",
+    "actual_end": null,
+    "concurrent_viewers": 9,
+    "thumbnail": "https://i.ytimg.com/vi/7whWkwlUAcY/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-20T16:21:19.082Z",
+    "history_archived_at": "2026-09-20T16:21:19.082Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:hCegAiigny0",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
