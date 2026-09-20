@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T21:31:00.908Z",
+  "generated_at": "2026-09-20T23:30:15.647Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -10,7 +10,7 @@
     "live_now": 10,
     "upcoming": 31,
     "observed_live_streams_total": 243,
-    "observed_live_streams_7d": 82,
+    "observed_live_streams_7d": 81,
     "observed_live_streams_30d": 238,
     "history_records": 233
   },
@@ -2412,7 +2412,7 @@
       "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 2,
-      "observed_live_streams_7d": 1,
+      "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 2,
       "active_days_30d": 2,
       "last_live_at": "2026-09-13T22:15:21.000Z",
