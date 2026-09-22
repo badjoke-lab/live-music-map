@@ -1,14 +1,14 @@
 # Acquisition audit
 
-Generated: 2026-09-22T20:10:58.644Z
+Generated: 2026-09-22T23:04:29.001Z
 
 This is the M3 production audit for the YouTube acquisition path. It samples the latest 10 completed `youtube-refresh.yml` runs whose **refresh job itself succeeded**, even if a later Pages deployment failed for an unrelated reason.
 
 ## Runtime
 
-- p50: **83s**
-- p95: **108s**
-- max: **108s**
+- p50: **88s**
+- p95: **113s**
+- max: **113s**
 
 ## Estimated YouTube Data API quota
 
