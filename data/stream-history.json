@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:wiC-50ynqE8",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "wiC-50ynqE8",
+    "youtube_url": "https://www.youtube.com/watch?v=wiC-50ynqE8",
+    "title": "『Showtime! Not Lunchtime』出演：木村一男とベイクドポテト / NAKAYOSHI / うたジロウ",
+    "status": "ended",
+    "published_at": "2026-09-23T02:56:50Z",
+    "scheduled_start": "2026-09-23T04:30:00Z",
+    "actual_start": "2026-09-23T04:24:51Z",
+    "actual_end": null,
+    "concurrent_viewers": 3,
+    "thumbnail": "https://i.ytimg.com/vi/wiC-50ynqE8/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-23T06:38:01.638Z",
+    "history_archived_at": "2026-09-23T06:38:01.638Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:ZyTt38IOZuw",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
