@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:gn2jcuUqe4I",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "gn2jcuUqe4I",
+    "youtube_url": "https://www.youtube.com/watch?v=gn2jcuUqe4I",
+    "title": "Eyal Vilner Big Band - Live at Smalls Jazz Club - 9/23/2026",
+    "status": "ended",
+    "published_at": "2026-09-23T07:21:32Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-23T21:30:15Z",
+    "actual_end": null,
+    "concurrent_viewers": 14,
+    "thumbnail": "https://i.ytimg.com/vi/gn2jcuUqe4I/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-24T01:24:27.717Z",
+    "history_archived_at": "2026-09-24T01:24:27.717Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:gUeQL-om09E",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
