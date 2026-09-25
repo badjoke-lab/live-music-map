@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T04:54:35.225Z",
+  "generated_at": "2026-09-25T07:42:45.388Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
+    "live_now": 8,
     "upcoming": 44,
     "observed_live_streams_total": 269,
     "observed_live_streams_7d": 72,
     "observed_live_streams_30d": 264,
-    "history_records": 260
+    "history_records": 261
   },
   "by_source": {
     "hoer-berlin": {
@@ -2673,7 +2673,7 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 62,
       "observed_live_streams_7d": 20,
@@ -5166,7 +5166,7 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 13,
         "observed_live_30d": 120
       },
@@ -5438,7 +5438,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 98
       },
@@ -5674,7 +5674,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 101
       },
@@ -6250,19 +6250,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 83
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 62
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 83
       },
