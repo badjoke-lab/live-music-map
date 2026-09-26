@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:jjgbRt2yYZE",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "the-lot-radio",
+    "youtube_video_id": "jjgbRt2yYZE",
+    "youtube_url": "https://www.youtube.com/watch?v=jjgbRt2yYZE",
+    "title": "Jennifer Loveless @TheLotRadio 09-26-2026",
+    "status": "ended",
+    "published_at": "2026-09-24T21:40:27Z",
+    "scheduled_start": "2026-09-26T21:00:00Z",
+    "actual_start": "2026-09-26T14:09:31Z",
+    "actual_end": null,
+    "concurrent_viewers": 7,
+    "thumbnail": "https://i.ytimg.com/vi/jjgbRt2yYZE/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-26T18:00:02.508Z",
+    "history_archived_at": "2026-09-26T18:00:02.508Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:7kVQYM8tr4Y",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
