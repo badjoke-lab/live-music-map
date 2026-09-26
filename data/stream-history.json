@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:qzhwaful8xY",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "qzhwaful8xY",
+    "youtube_url": "https://www.youtube.com/watch?v=qzhwaful8xY",
+    "title": "『手の鳴る方へ』出演：YUZO＆ZOVAN / 水口きみや / 荒井恒太",
+    "status": "ended",
+    "published_at": "2026-09-26T02:54:26Z",
+    "scheduled_start": "2026-09-26T04:30:00Z",
+    "actual_start": "2026-09-26T04:20:27Z",
+    "actual_end": null,
+    "concurrent_viewers": 6,
+    "thumbnail": "https://i.ytimg.com/vi/qzhwaful8xY/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-26T09:58:59.251Z",
+    "history_archived_at": "2026-09-26T09:58:59.251Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:GcYxJofuml4",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
@@ -37,6 +77,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-09-26T05:11:11.368Z",
     "history_archived_at": "2026-09-26T05:11:11.368Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:-lujWF5n3iY",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "-lujWF5n3iY",
+    "youtube_url": "https://www.youtube.com/watch?v=-lujWF5n3iY",
+    "title": "Ken Fowser Quintet - Live from Smalls - 9/25/2026",
+    "status": "ended",
+    "published_at": "2026-09-26T03:32:40Z",
+    "scheduled_start": null,
+    "actual_start": "2026-09-26T03:33:36Z",
+    "actual_end": null,
+    "concurrent_viewers": 37,
+    "thumbnail": "https://i.ytimg.com/vi/-lujWF5n3iY/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-09-26T09:58:59.251Z",
+    "history_archived_at": "2026-09-26T09:58:59.251Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
