@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T05:41:40.468Z",
+  "generated_at": "2026-09-29T08:44:17.526Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
+    "live_now": 8,
     "upcoming": 47,
     "observed_live_streams_total": 312,
     "observed_live_streams_7d": 61,
     "observed_live_streams_30d": 306,
-    "history_records": 303
+    "history_records": 304
   },
   "by_source": {
     "hoer-berlin": {
@@ -2680,7 +2680,7 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 73,
       "observed_live_streams_7d": 18,
@@ -5177,7 +5177,7 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 18,
         "observed_live_30d": 144
       },
@@ -5449,7 +5449,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 117
       },
@@ -5685,7 +5685,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 15,
         "observed_live_30d": 119
       },
@@ -6261,19 +6261,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 97
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 73
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 97
       },
