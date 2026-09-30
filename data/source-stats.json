@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T08:59:33.854Z",
+  "generated_at": "2026-09-30T15:54:20.707Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -8,11 +8,11 @@
   "summary": {
     "sources_total": 201,
     "live_now": 9,
-    "upcoming": 50,
-    "observed_live_streams_total": 316,
+    "upcoming": 53,
+    "observed_live_streams_total": 317,
     "observed_live_streams_7d": 58,
-    "observed_live_streams_30d": 310,
-    "history_records": 307
+    "observed_live_streams_30d": 311,
+    "history_records": 308
   },
   "by_source": {
     "hoer-berlin": {
@@ -30,13 +30,13 @@
         "Experimental"
       ],
       "live_now": 0,
-      "upcoming_count": 5,
+      "upcoming_count": 3,
       "observed_live_streams_total": 45,
       "observed_live_streams_7d": 8,
       "observed_live_streams_30d": 45,
       "active_days_30d": 23,
       "last_live_at": "2026-09-27T20:00:06.000Z",
-      "next_live_at": "2026-09-30T14:00:00.000Z",
+      "next_live_at": "2026-09-30T16:00:00.000Z",
       "observed_content_types": [
         "dj_set"
       ]
@@ -132,7 +132,7 @@
         "Amapiano"
       ],
       "live_now": 0,
-      "upcoming_count": 1,
+      "upcoming_count": 5,
       "observed_live_streams_total": 3,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 3,
@@ -968,11 +968,11 @@
       "live_now": 0,
       "upcoming_count": 1,
       "observed_live_streams_total": 17,
-      "observed_live_streams_7d": 5,
+      "observed_live_streams_7d": 4,
       "observed_live_streams_30d": 17,
       "active_days_30d": 12,
       "last_live_at": "2026-09-27T09:52:52.000Z",
-      "next_live_at": "2026-09-30T10:00:00.000Z",
+      "next_live_at": "2026-10-01T10:30:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -1612,14 +1612,14 @@
         "World",
         "Multi-genre"
       ],
-      "live_now": 1,
-      "upcoming_count": 5,
-      "observed_live_streams_total": 2,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 2,
-      "active_days_30d": 2,
-      "last_live_at": "2026-09-04T13:54:46.000Z",
-      "next_live_at": "2026-09-30T14:50:00.000Z",
+      "live_now": 2,
+      "upcoming_count": 4,
+      "observed_live_streams_total": 3,
+      "observed_live_streams_7d": 1,
+      "observed_live_streams_30d": 3,
+      "active_days_30d": 3,
+      "last_live_at": "2026-09-30T14:44:14.000Z",
+      "next_live_at": "2026-10-03T14:30:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -1841,13 +1841,13 @@
         "Multi-genre"
       ],
       "live_now": 0,
-      "upcoming_count": 1,
+      "upcoming_count": 2,
       "observed_live_streams_total": 6,
       "observed_live_streams_7d": 2,
       "observed_live_streams_30d": 6,
       "active_days_30d": 6,
       "last_live_at": "2026-09-29T15:00:08.000Z",
-      "next_live_at": "2026-10-06T15:00:00.000Z",
+      "next_live_at": "2026-09-30T16:00:00.000Z",
       "observed_content_types": [
         "dj_set",
         "music_live_unspecified"
@@ -1944,7 +1944,7 @@
         "Pop",
         "Dance"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 1,
@@ -2582,13 +2582,13 @@
         "Dance"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 4,
       "observed_live_streams_7d": 1,
       "observed_live_streams_30d": 4,
       "active_days_30d": 4,
       "last_live_at": "2026-09-23T17:00:08.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-10-02T18:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -5174,7 +5174,7 @@
       "DE": {
         "sources": 9,
         "live_now": 2,
-        "upcoming": 11,
+        "upcoming": 9,
         "observed_live_30d": 70
       },
       "US": {
@@ -5192,7 +5192,7 @@
       "GB": {
         "sources": 19,
         "live_now": 0,
-        "upcoming": 9,
+        "upcoming": 14,
         "observed_live_30d": 15
       },
       "AU": {
@@ -5204,7 +5204,7 @@
       "FR": {
         "sources": 4,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 8
       },
       "BE": {
@@ -5221,13 +5221,13 @@
       },
       "CH": {
         "sources": 3,
-        "live_now": 1,
-        "upcoming": 6,
-        "observed_live_30d": 2
+        "live_now": 2,
+        "upcoming": 5,
+        "observed_live_30d": 3
       },
       "KR": {
         "sources": 14,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 17
       },
@@ -5416,13 +5416,13 @@
       "independent_media": {
         "sources": 6,
         "live_now": 1,
-        "upcoming": 8,
+        "upcoming": 6,
         "observed_live_30d": 57
       },
       "radio": {
         "sources": 11,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 24
       },
       "studio_media": {
@@ -5434,7 +5434,7 @@
       "media_events": {
         "sources": 7,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 5,
         "observed_live_30d": 5
       },
       "festival": {
@@ -5487,9 +5487,9 @@
       },
       "music_event_broadcaster": {
         "sources": 2,
-        "live_now": 1,
-        "upcoming": 6,
-        "observed_live_30d": 2
+        "live_now": 2,
+        "upcoming": 5,
+        "observed_live_30d": 3
       },
       "concert_hall": {
         "sources": 1,
@@ -5505,7 +5505,7 @@
       },
       "music_broadcaster": {
         "sources": 3,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 5
       },
@@ -5554,7 +5554,7 @@
       "artist_media": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 4
       },
       "music_tv": {
@@ -5663,26 +5663,26 @@
     "by_source_genre": {
       "Electronic": {
         "sources": 68,
-        "live_now": 3,
-        "upcoming": 17,
-        "observed_live_30d": 108
+        "live_now": 4,
+        "upcoming": 20,
+        "observed_live_30d": 109
       },
       "Techno": {
         "sources": 12,
         "live_now": 0,
-        "upcoming": 7,
+        "upcoming": 10,
         "observed_live_30d": 65
       },
       "House": {
         "sources": 16,
         "live_now": 0,
-        "upcoming": 7,
+        "upcoming": 10,
         "observed_live_30d": 67
       },
       "Experimental": {
         "sources": 10,
         "live_now": 0,
-        "upcoming": 7,
+        "upcoming": 6,
         "observed_live_30d": 53
       },
       "Jazz": {
@@ -5694,7 +5694,7 @@
       "Afrobeat": {
         "sources": 3,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 16
       },
       "Jungle": {
@@ -5717,32 +5717,32 @@
       },
       "Multi-genre": {
         "sources": 111,
-        "live_now": 4,
+        "live_now": 5,
         "upcoming": 23,
-        "observed_live_30d": 67
+        "observed_live_30d": 68
       },
       "Hip-hop": {
         "sources": 49,
         "live_now": 1,
-        "upcoming": 4,
+        "upcoming": 9,
         "observed_live_30d": 32
       },
       "Rap": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 2,
+        "upcoming": 6,
         "observed_live_30d": 5
       },
       "Afrobeats": {
         "sources": 12,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 5,
         "observed_live_30d": 5
       },
       "Amapiano": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 5,
         "observed_live_30d": 3
       },
       "Classical": {
@@ -5759,9 +5759,9 @@
       },
       "World": {
         "sources": 16,
-        "live_now": 1,
-        "upcoming": 6,
-        "observed_live_30d": 6
+        "live_now": 2,
+        "upcoming": 5,
+        "observed_live_30d": 7
       },
       "Metal": {
         "sources": 13,
@@ -5783,8 +5783,8 @@
       },
       "Dance": {
         "sources": 24,
-        "live_now": 2,
-        "upcoming": 4,
+        "live_now": 1,
+        "upcoming": 5,
         "observed_live_30d": 32
       },
       "Hardstyle": {
@@ -5807,15 +5807,15 @@
       },
       "Rock": {
         "sources": 64,
-        "live_now": 2,
-        "upcoming": 8,
-        "observed_live_30d": 40
+        "live_now": 3,
+        "upcoming": 7,
+        "observed_live_30d": 41
       },
       "Pop": {
         "sources": 67,
         "live_now": 4,
-        "upcoming": 10,
-        "observed_live_30d": 23
+        "upcoming": 9,
+        "observed_live_30d": 24
       },
       "Soul": {
         "sources": 11,
@@ -5826,24 +5826,24 @@
       "Bass": {
         "sources": 3,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 6
       },
       "Trance": {
         "sources": 8,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 4
       },
       "Progressive": {
         "sources": 2,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 4
       },
       "K-pop": {
         "sources": 15,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 0,
         "observed_live_30d": 15
       },
@@ -5861,9 +5861,9 @@
       },
       "Folk": {
         "sources": 19,
-        "live_now": 1,
-        "upcoming": 20,
-        "observed_live_30d": 25
+        "live_now": 2,
+        "upcoming": 19,
+        "observed_live_30d": 26
       },
       "Blues": {
         "sources": 5,
@@ -5952,7 +5952,7 @@
       "Dancehall": {
         "sources": 12,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 9
       },
       "Indie Rock": {
@@ -6809,7 +6809,7 @@
       }
     },
     "by_verified_stream_content_type_30d": {
-      "music_live_unspecified": 226,
+      "music_live_unspecified": 227,
       "dj_set": 55,
       "festival_stream": 5,
       "concert": 21,
