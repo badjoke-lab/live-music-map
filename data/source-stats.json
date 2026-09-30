@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T02:29:18.843Z",
+  "generated_at": "2026-09-30T05:29:55.603Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
-    "upcoming": 48,
+    "live_now": 8,
+    "upcoming": 49,
     "observed_live_streams_total": 315,
-    "observed_live_streams_7d": 59,
+    "observed_live_streams_7d": 57,
     "observed_live_streams_30d": 309,
-    "history_records": 306
+    "history_records": 307
   },
   "by_source": {
     "hoer-berlin": {
@@ -968,7 +968,7 @@
       "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 17,
-      "observed_live_streams_7d": 6,
+      "observed_live_streams_7d": 5,
       "observed_live_streams_30d": 17,
       "active_days_30d": 12,
       "last_live_at": "2026-09-27T09:52:52.000Z",
@@ -1945,13 +1945,13 @@
         "Dance"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": null,
+      "next_live_at": "2026-09-30T08:00:00.000Z",
       "observed_content_types": []
     },
     "mbckpop": {
@@ -2683,7 +2683,7 @@
       "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 74,
-      "observed_live_streams_7d": 17,
+      "observed_live_streams_7d": 16,
       "observed_live_streams_30d": 74,
       "active_days_30d": 27,
       "last_live_at": "2026-09-29T21:30:13.000Z",
@@ -2706,7 +2706,7 @@
         "Bebop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 25,
       "observed_live_streams_7d": 6,
@@ -5177,7 +5177,7 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 17,
         "observed_live_30d": 146
       },
@@ -5226,7 +5226,7 @@
       "KR": {
         "sources": 14,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 16
       },
       "GE": {
@@ -5449,7 +5449,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 119
       },
@@ -5504,7 +5504,7 @@
       "music_broadcaster": {
         "sources": 3,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 4
       },
       "festival_media": {
@@ -5685,7 +5685,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 14,
         "observed_live_30d": 121
       },
@@ -5782,7 +5782,7 @@
       "Dance": {
         "sources": 24,
         "live_now": 1,
-        "upcoming": 4,
+        "upcoming": 5,
         "observed_live_30d": 31
       },
       "Hardstyle": {
@@ -5812,7 +5812,7 @@
       "Pop": {
         "sources": 67,
         "live_now": 3,
-        "upcoming": 9,
+        "upcoming": 10,
         "observed_live_30d": 22
       },
       "Soul": {
@@ -5842,7 +5842,7 @@
       "K-pop": {
         "sources": 15,
         "live_now": 1,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 14
       },
       "Alternative": {
@@ -6261,7 +6261,7 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 99
       },
@@ -6273,13 +6273,13 @@
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 99
       },
       "Piano Jazz": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 25
       },
