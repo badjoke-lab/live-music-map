@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T00:13:38.076Z",
+  "generated_at": "2026-10-01T05:48:32.100Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
+    "live_now": 8,
     "upcoming": 51,
     "observed_live_streams_total": 318,
-    "observed_live_streams_7d": 55,
+    "observed_live_streams_7d": 53,
     "observed_live_streams_30d": 312,
-    "history_records": 309
+    "history_records": 310
   },
   "by_source": {
     "hoer-berlin": {
@@ -2682,10 +2682,10 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 75,
-      "observed_live_streams_7d": 16,
+      "observed_live_streams_7d": 15,
       "observed_live_streams_30d": 75,
       "active_days_30d": 28,
       "last_live_at": "2026-09-30T21:28:24.000Z",
@@ -2711,7 +2711,7 @@
       "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 25,
-      "observed_live_streams_7d": 6,
+      "observed_live_streams_7d": 5,
       "observed_live_streams_30d": 25,
       "active_days_30d": 22,
       "last_live_at": "2026-09-30T01:05:55.000Z",
@@ -5179,7 +5179,7 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 15,
         "observed_live_30d": 147
       },
@@ -5451,7 +5451,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 120
       },
@@ -5687,7 +5687,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 14,
         "observed_live_30d": 122
       },
@@ -6263,19 +6263,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 100
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 75
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 100
       },
