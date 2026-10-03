@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T05:15:10.570Z",
+  "generated_at": "2026-10-03T08:33:22.958Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 10,
-    "upcoming": 46,
+    "live_now": 8,
+    "upcoming": 47,
     "observed_live_streams_total": 340,
     "observed_live_streams_7d": 59,
     "observed_live_streams_30d": 330,
-    "history_records": 330
+    "history_records": 333
   },
   "by_source": {
     "hoer-berlin": {
@@ -965,14 +965,14 @@
         "Blues",
         "Multi-genre"
       ],
-      "live_now": 1,
-      "upcoming_count": 0,
+      "live_now": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 18,
       "observed_live_streams_7d": 4,
       "observed_live_streams_30d": 18,
       "active_days_30d": 13,
       "last_live_at": "2026-10-03T03:49:46.000Z",
-      "next_live_at": null,
+      "next_live_at": "2026-10-03T10:00:00.000Z",
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -1612,7 +1612,7 @@
         "World",
         "Multi-genre"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 5,
       "observed_live_streams_total": 4,
       "observed_live_streams_7d": 2,
@@ -5187,8 +5187,8 @@
       },
       "JP": {
         "sources": 28,
-        "live_now": 2,
-        "upcoming": 3,
+        "live_now": 1,
+        "upcoming": 4,
         "observed_live_30d": 26
       },
       "GB": {
@@ -5223,7 +5223,7 @@
       },
       "CH": {
         "sources": 3,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 3
       },
@@ -5453,8 +5453,8 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 2,
-        "upcoming": 5,
+        "live_now": 1,
+        "upcoming": 6,
         "observed_live_30d": 130
       },
       "radio_media": {
@@ -5489,7 +5489,7 @@
       },
       "music_event_broadcaster": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 3
       },
@@ -5665,7 +5665,7 @@
     "by_source_genre": {
       "Electronic": {
         "sources": 68,
-        "live_now": 3,
+        "live_now": 2,
         "upcoming": 15,
         "observed_live_30d": 116
       },
@@ -5719,8 +5719,8 @@
       },
       "Multi-genre": {
         "sources": 111,
-        "live_now": 5,
-        "upcoming": 25,
+        "live_now": 3,
+        "upcoming": 26,
         "observed_live_30d": 70
       },
       "Hip-hop": {
@@ -5761,7 +5761,7 @@
       },
       "World": {
         "sources": 16,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 5,
         "observed_live_30d": 8
       },
@@ -5809,13 +5809,13 @@
       },
       "Rock": {
         "sources": 64,
-        "live_now": 3,
-        "upcoming": 12,
+        "live_now": 1,
+        "upcoming": 13,
         "observed_live_30d": 43
       },
       "Pop": {
         "sources": 67,
-        "live_now": 3,
+        "live_now": 2,
         "upcoming": 11,
         "observed_live_30d": 24
       },
@@ -5857,20 +5857,20 @@
       },
       "Acoustic": {
         "sources": 5,
-        "live_now": 3,
-        "upcoming": 0,
+        "live_now": 2,
+        "upcoming": 1,
         "observed_live_30d": 21
       },
       "Folk": {
         "sources": 19,
-        "live_now": 2,
-        "upcoming": 17,
+        "live_now": 0,
+        "upcoming": 18,
         "observed_live_30d": 28
       },
       "Blues": {
         "sources": 5,
-        "live_now": 1,
-        "upcoming": 0,
+        "live_now": 0,
+        "upcoming": 1,
         "observed_live_30d": 18
       },
       "Punk": {
