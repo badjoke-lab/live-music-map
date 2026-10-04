@@ -200,6 +200,46 @@
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
+    "id": "youtube:JAWv5fQZnuE",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "avex-a-nation",
+    "youtube_video_id": "JAWv5fQZnuE",
+    "youtube_url": "https://www.youtube.com/watch?v=JAWv5fQZnuE",
+    "title": "a-nation 2026 出演アーティストステーション",
+    "status": "ended",
+    "published_at": "2026-10-03T02:54:39Z",
+    "scheduled_start": "2026-10-03T11:30:00Z",
+    "actual_start": "2026-10-03T11:02:54Z",
+    "actual_end": null,
+    "concurrent_viewers": 189,
+    "thumbnail": "https://i.ytimg.com/vi/JAWv5fQZnuE/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "a-nation"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-04T05:49:45.341Z",
+    "history_archived_at": "2026-10-04T05:49:45.341Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:RDTmViXWMQI",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
