@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T05:49:45.341Z",
+  "generated_at": "2026-10-04T08:53:11.992Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
-    "upcoming": 42,
+    "live_now": 8,
+    "upcoming": 43,
     "observed_live_streams_total": 349,
     "observed_live_streams_7d": 51,
-    "observed_live_streams_30d": 317,
-    "history_records": 340
+    "observed_live_streams_30d": 316,
+    "history_records": 341
   },
   "by_source": {
     "hoer-berlin": {
@@ -742,8 +742,8 @@
       "upcoming_count": 0,
       "observed_live_streams_total": 1,
       "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 1,
-      "active_days_30d": 1,
+      "observed_live_streams_30d": 0,
+      "active_days_30d": 0,
       "last_live_at": "2026-09-04T08:00:11.000Z",
       "next_live_at": null,
       "observed_content_types": [
@@ -2682,7 +2682,7 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 80,
       "observed_live_streams_7d": 13,
@@ -3050,13 +3050,13 @@
         "Japanese Hip-hop"
       ],
       "live_now": 0,
-      "upcoming_count": 0,
+      "upcoming_count": 1,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": null,
+      "next_live_at": "2026-10-04T11:00:00.000Z",
       "observed_content_types": []
     },
     "festival-internacional-cervantino": {
@@ -5185,14 +5185,14 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 13,
         "observed_live_30d": 148
       },
       "JP": {
         "sources": 28,
         "live_now": 1,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 27
       },
       "GB": {
@@ -5235,7 +5235,7 @@
         "sources": 14,
         "live_now": 0,
         "upcoming": 0,
-        "observed_live_30d": 14
+        "observed_live_30d": 13
       },
       "GE": {
         "sources": 1,
@@ -5446,7 +5446,7 @@
       "festival": {
         "sources": 33,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 12
       },
       "promoter": {
@@ -5457,7 +5457,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 6,
         "observed_live_30d": 127
       },
@@ -5477,7 +5477,7 @@
         "sources": 9,
         "live_now": 0,
         "upcoming": 0,
-        "observed_live_30d": 7
+        "observed_live_30d": 6
       },
       "orchestra": {
         "sources": 3,
@@ -5693,7 +5693,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 11,
         "observed_live_30d": 129
       },
@@ -5730,13 +5730,13 @@
       "Hip-hop": {
         "sources": 49,
         "live_now": 1,
-        "upcoming": 2,
+        "upcoming": 3,
         "observed_live_30d": 37
       },
       "Rap": {
         "sources": 5,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 8
       },
       "Afrobeats": {
@@ -5851,7 +5851,7 @@
         "sources": 15,
         "live_now": 1,
         "upcoming": 0,
-        "observed_live_30d": 16
+        "observed_live_30d": 15
       },
       "Alternative": {
         "sources": 18,
@@ -6269,19 +6269,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 103
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 77
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 103
       },
@@ -6372,7 +6372,7 @@
       "Japanese Hip-hop": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 0,
+        "upcoming": 1,
         "observed_live_30d": 0
       },
       "Freestyle Rap": {
@@ -6819,7 +6819,7 @@
       "dj_set": 50,
       "concert": 23,
       "festival_stream": 5,
-      "live_performance": 2,
+      "live_performance": 1,
       "opera": 1
     }
   }
