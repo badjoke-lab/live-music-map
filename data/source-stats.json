@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T18:22:03.770Z",
+  "generated_at": "2026-10-04T21:44:04.408Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
@@ -9,10 +9,10 @@
     "sources_total": 201,
     "live_now": 8,
     "upcoming": 40,
-    "observed_live_streams_total": 350,
-    "observed_live_streams_7d": 47,
+    "observed_live_streams_total": 351,
+    "observed_live_streams_7d": 46,
     "observed_live_streams_30d": 301,
-    "history_records": 342
+    "history_records": 343
   },
   "by_source": {
     "hoer-berlin": {
@@ -32,7 +32,7 @@
       "live_now": 0,
       "upcoming_count": 3,
       "observed_live_streams_total": 48,
-      "observed_live_streams_7d": 4,
+      "observed_live_streams_7d": 3,
       "observed_live_streams_30d": 36,
       "active_days_30d": 22,
       "last_live_at": "2026-10-03T17:00:26.000Z",
@@ -2684,11 +2684,11 @@
       ],
       "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 81,
+      "observed_live_streams_total": 82,
       "observed_live_streams_7d": 13,
       "observed_live_streams_30d": 77,
-      "active_days_30d": 31,
-      "last_live_at": "2026-10-04T18:00:11.000Z",
+      "active_days_30d": 30,
+      "last_live_at": "2026-10-04T21:20:23.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
