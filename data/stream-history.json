@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:J-8XRzjTlRE",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_daily_backstop",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "J-8XRzjTlRE",
+    "youtube_url": "https://www.youtube.com/watch?v=J-8XRzjTlRE",
+    "title": "Jam Session Hosted By Adam Ray - Live from Smalls - 10/05/2026",
+    "status": "ended",
+    "published_at": "2026-10-06T03:43:09Z",
+    "scheduled_start": null,
+    "actual_start": "2026-10-06T03:43:58Z",
+    "actual_end": null,
+    "concurrent_viewers": 38,
+    "thumbnail": "https://i.ytimg.com/vi/J-8XRzjTlRE/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-06T08:54:54.978Z",
+    "history_archived_at": "2026-10-06T08:54:54.978Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:ydKyaW83NAY",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
