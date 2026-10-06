@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:GxlVEC6UjuY",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "the-k-pop",
+    "youtube_video_id": "GxlVEC6UjuY",
+    "youtube_url": "https://www.youtube.com/watch?v=GxlVEC6UjuY",
+    "title": "[🔴LIVE] 2026 THE SHOW Ep.400 (2026.10.06) l ONEUS, CRAVITY, CLOSE YOUR EYES, TIOT, S2IT, etc.",
+    "status": "ended",
+    "published_at": "2026-10-02T01:35:12Z",
+    "scheduled_start": "2026-10-06T09:00:00Z",
+    "actual_start": "2026-10-06T08:29:51Z",
+    "actual_end": null,
+    "concurrent_viewers": 313,
+    "thumbnail": "https://i.ytimg.com/vi/GxlVEC6UjuY/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "live_performance",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "the show"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-06T15:55:17.395Z",
+    "history_archived_at": "2026-10-06T15:55:17.395Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:J-8XRzjTlRE",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
