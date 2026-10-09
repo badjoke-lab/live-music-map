@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T23:57:14.359Z",
+  "generated_at": "2026-10-09T06:01:05.554Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 9,
+    "live_now": 7,
     "upcoming": 62,
     "observed_live_streams_total": 367,
-    "observed_live_streams_7d": 44,
-    "observed_live_streams_30d": 261,
-    "history_records": 358
+    "observed_live_streams_7d": 43,
+    "observed_live_streams_30d": 258,
+    "history_records": 360
   },
   "by_source": {
     "hoer-berlin": {
@@ -2682,11 +2682,11 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 89,
       "observed_live_streams_7d": 13,
-      "observed_live_streams_30d": 72,
+      "observed_live_streams_30d": 70,
       "active_days_30d": 30,
       "last_live_at": "2026-10-08T21:23:50.000Z",
       "next_live_at": null,
@@ -2708,12 +2708,12 @@
         "Bebop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 29,
-      "observed_live_streams_7d": 3,
-      "observed_live_streams_30d": 23,
-      "active_days_30d": 21,
+      "observed_live_streams_7d": 2,
+      "observed_live_streams_30d": 22,
+      "active_days_30d": 20,
       "last_live_at": "2026-10-08T21:59:42.000Z",
       "next_live_at": null,
       "observed_content_types": [
@@ -5185,9 +5185,9 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 3,
+        "live_now": 1,
         "upcoming": 11,
-        "observed_live_30d": 133
+        "observed_live_30d": 130
       },
       "JP": {
         "sources": 28,
@@ -5457,9 +5457,9 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 2,
+        "live_now": 0,
         "upcoming": 5,
-        "observed_live_30d": 116
+        "observed_live_30d": 113
       },
       "radio_media": {
         "sources": 2,
@@ -5693,9 +5693,9 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 2,
+        "live_now": 0,
         "upcoming": 12,
-        "observed_live_30d": 116
+        "observed_live_30d": 113
       },
       "Afrobeat": {
         "sources": 3,
@@ -6269,27 +6269,27 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 2,
+        "live_now": 0,
         "upcoming": 0,
-        "observed_live_30d": 95
+        "observed_live_30d": 92
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
-        "observed_live_30d": 72
+        "observed_live_30d": 70
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 2,
+        "live_now": 0,
         "upcoming": 0,
-        "observed_live_30d": 95
+        "observed_live_30d": 92
       },
       "Piano Jazz": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
-        "observed_live_30d": 23
+        "observed_live_30d": 22
       },
       "OPM": {
         "sources": 2,
@@ -6815,8 +6815,8 @@
       }
     },
     "by_verified_stream_content_type_30d": {
+      "music_live_unspecified": 196,
       "dj_set": 38,
-      "music_live_unspecified": 199,
       "live_performance": 2,
       "concert": 17,
       "festival_stream": 4,
