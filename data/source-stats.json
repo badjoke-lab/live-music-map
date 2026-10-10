@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T02:27:27.587Z",
+  "generated_at": "2026-10-10T05:47:58.264Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 8,
-    "upcoming": 56,
-    "observed_live_streams_total": 380,
+    "live_now": 10,
+    "upcoming": 54,
+    "observed_live_streams_total": 383,
     "observed_live_streams_7d": 43,
-    "observed_live_streams_30d": 263,
-    "history_records": 372
+    "observed_live_streams_30d": 265,
+    "history_records": 373
   },
   "by_source": {
     "hoer-berlin": {
@@ -965,14 +965,14 @@
         "Blues",
         "Multi-genre"
       ],
-      "live_now": 0,
-      "upcoming_count": 1,
-      "observed_live_streams_total": 18,
+      "live_now": 1,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 19,
       "observed_live_streams_7d": 1,
-      "observed_live_streams_30d": 13,
-      "active_days_30d": 8,
-      "last_live_at": "2026-10-03T03:49:46.000Z",
-      "next_live_at": "2026-10-10T04:30:00.000Z",
+      "observed_live_streams_30d": 14,
+      "active_days_30d": 9,
+      "last_live_at": "2026-10-10T04:22:29.000Z",
+      "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
       ]
@@ -2209,15 +2209,17 @@
         "R&B",
         "Multi-genre"
       ],
-      "live_now": 0,
-      "upcoming_count": 1,
-      "observed_live_streams_total": 0,
-      "observed_live_streams_7d": 0,
-      "observed_live_streams_30d": 0,
-      "active_days_30d": 0,
-      "last_live_at": null,
-      "next_live_at": "2026-10-10T04:00:00.000Z",
-      "observed_content_types": []
+      "live_now": 1,
+      "upcoming_count": 0,
+      "observed_live_streams_total": 1,
+      "observed_live_streams_7d": 1,
+      "observed_live_streams_30d": 1,
+      "active_days_30d": 1,
+      "last_live_at": "2026-10-10T04:00:57.000Z",
+      "next_live_at": null,
+      "observed_content_types": [
+        "music_live_unspecified"
+      ]
     },
     "portsmouth-maritime-folk-festival": {
       "source_id": "portsmouth-maritime-folk-festival",
@@ -2686,11 +2688,11 @@
       ],
       "live_now": 1,
       "upcoming_count": 0,
-      "observed_live_streams_total": 92,
+      "observed_live_streams_total": 93,
       "observed_live_streams_7d": 15,
       "observed_live_streams_30d": 72,
       "active_days_30d": 31,
-      "last_live_at": "2026-10-10T00:32:27.000Z",
+      "last_live_at": "2026-10-10T03:35:21.000Z",
       "next_live_at": null,
       "observed_content_types": [
         "music_live_unspecified"
@@ -4019,7 +4021,7 @@
       "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 7,
-      "observed_live_streams_7d": 3,
+      "observed_live_streams_7d": 2,
       "observed_live_streams_30d": 5,
       "active_days_30d": 4,
       "last_live_at": "2026-10-04T03:10:15.000Z",
@@ -5193,9 +5195,9 @@
       },
       "JP": {
         "sources": 28,
-        "live_now": 0,
-        "upcoming": 3,
-        "observed_live_30d": 22
+        "live_now": 1,
+        "upcoming": 2,
+        "observed_live_30d": 23
       },
       "GB": {
         "sources": 19,
@@ -5277,9 +5279,9 @@
       },
       "SG": {
         "sources": 3,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 0
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 1
       },
       "CO": {
         "sources": 4,
@@ -5459,9 +5461,9 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
-        "upcoming": 6,
-        "observed_live_30d": 115
+        "live_now": 2,
+        "upcoming": 5,
+        "observed_live_30d": 116
       },
       "radio_media": {
         "sources": 2,
@@ -5549,9 +5551,9 @@
       },
       "entertainment_broadcaster": {
         "sources": 1,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 0
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 1
       },
       "broadcaster": {
         "sources": 1,
@@ -5725,9 +5727,9 @@
       },
       "Multi-genre": {
         "sources": 111,
-        "live_now": 3,
-        "upcoming": 35,
-        "observed_live_30d": 52
+        "live_now": 5,
+        "upcoming": 33,
+        "observed_live_30d": 54
       },
       "Hip-hop": {
         "sources": 49,
@@ -5815,15 +5817,15 @@
       },
       "Rock": {
         "sources": 64,
-        "live_now": 1,
-        "upcoming": 21,
-        "observed_live_30d": 41
+        "live_now": 2,
+        "upcoming": 20,
+        "observed_live_30d": 42
       },
       "Pop": {
         "sources": 67,
-        "live_now": 3,
-        "upcoming": 12,
-        "observed_live_30d": 22
+        "live_now": 4,
+        "upcoming": 11,
+        "observed_live_30d": 23
       },
       "Soul": {
         "sources": 11,
@@ -5863,21 +5865,21 @@
       },
       "Acoustic": {
         "sources": 5,
-        "live_now": 2,
-        "upcoming": 1,
-        "observed_live_30d": 16
+        "live_now": 3,
+        "upcoming": 0,
+        "observed_live_30d": 17
       },
       "Folk": {
         "sources": 19,
-        "live_now": 1,
-        "upcoming": 12,
-        "observed_live_30d": 24
+        "live_now": 2,
+        "upcoming": 11,
+        "observed_live_30d": 25
       },
       "Blues": {
         "sources": 5,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 13
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 14
       },
       "Punk": {
         "sources": 10,
@@ -6001,9 +6003,9 @@
       },
       "R&B": {
         "sources": 31,
-        "live_now": 0,
-        "upcoming": 4,
-        "observed_live_30d": 10
+        "live_now": 1,
+        "upcoming": 3,
+        "observed_live_30d": 11
       },
       "Latin": {
         "sources": 15,
@@ -6085,15 +6087,15 @@
       },
       "Malay Pop": {
         "sources": 1,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 0
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 1
       },
       "Singapore Pop": {
         "sources": 1,
-        "live_now": 0,
-        "upcoming": 1,
-        "observed_live_30d": 0
+        "live_now": 1,
+        "upcoming": 0,
+        "observed_live_30d": 1
       },
       "Maritime Folk": {
         "sources": 1,
@@ -6817,7 +6819,7 @@
       }
     },
     "by_verified_stream_content_type_30d": {
-      "music_live_unspecified": 202,
+      "music_live_unspecified": 204,
       "dj_set": 37,
       "concert": 17,
       "live_performance": 2,
