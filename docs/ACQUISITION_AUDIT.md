@@ -1,6 +1,6 @@
 # Acquisition audit
 
-Generated: 2026-10-11T05:42:55.530Z
+Generated: 2026-10-11T07:54:26.846Z
 
 This is the M3 production audit for the YouTube acquisition path. It samples the latest 10 completed `youtube-refresh.yml` runs whose **refresh job itself succeeded**, even if a later Pages deployment failed for an unrelated reason.
 
