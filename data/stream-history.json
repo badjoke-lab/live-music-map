@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:hjGxcCu_hv0",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "mnet-kpop",
+    "youtube_video_id": "hjGxcCu_hv0",
+    "youtube_url": "https://www.youtube.com/watch?v=hjGxcCu_hv0",
+    "title": "[#2026MAMA] NOMINATION I WORLDWIDE LIVE STREAMING",
+    "status": "ended",
+    "published_at": "2026-10-12T05:02:13Z",
+    "scheduled_start": "2026-10-12T09:00:00Z",
+    "actual_start": "2026-10-12T09:03:32Z",
+    "actual_end": null,
+    "concurrent_viewers": 11666,
+    "thumbnail": "https://i.ytimg.com/vi/hjGxcCu_hv0/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "live"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-12T19:25:36.908Z",
+    "history_archived_at": "2026-10-12T19:25:36.908Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:GrhhncZXrxM",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
