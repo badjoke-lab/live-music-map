@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T06:46:08.065Z",
+  "generated_at": "2026-10-13T08:26:41.938Z",
   "definitions": {
     "observed_live_stream": "A music_live_status=verified stream that was actually observed with status=live. Upcoming-only records are not counted as historical streams.",
     "source_genres": "Source coverage metadata only; never treated as verified stream genre."
   },
   "summary": {
     "sources_total": 201,
-    "live_now": 8,
-    "upcoming": 38,
+    "live_now": 7,
+    "upcoming": 39,
     "observed_live_streams_total": 411,
     "observed_live_streams_7d": 57,
     "observed_live_streams_30d": 255,
-    "history_records": 403
+    "history_records": 404
   },
   "by_source": {
     "hoer-berlin": {
@@ -2688,7 +2688,7 @@
         "Hard Bop",
         "Contemporary Jazz"
       ],
-      "live_now": 1,
+      "live_now": 0,
       "upcoming_count": 0,
       "observed_live_streams_total": 98,
       "observed_live_streams_7d": 13,
@@ -4099,13 +4099,13 @@
         "Multi-genre"
       ],
       "live_now": 0,
-      "upcoming_count": 1,
+      "upcoming_count": 2,
       "observed_live_streams_total": 0,
       "observed_live_streams_7d": 0,
       "observed_live_streams_30d": 0,
       "active_days_30d": 0,
       "last_live_at": null,
-      "next_live_at": "2026-10-24T19:00:00.000Z",
+      "next_live_at": "2026-10-13T09:00:00.000Z",
       "observed_content_types": []
     },
     "folk-alliance-international": {
@@ -5191,7 +5191,7 @@
       },
       "US": {
         "sources": 40,
-        "live_now": 2,
+        "live_now": 1,
         "upcoming": 10,
         "observed_live_30d": 126
       },
@@ -5234,7 +5234,7 @@
       "CH": {
         "sources": 3,
         "live_now": 1,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 4
       },
       "KR": {
@@ -5463,7 +5463,7 @@
       },
       "venue": {
         "sources": 27,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 4,
         "observed_live_30d": 108
       },
@@ -5500,7 +5500,7 @@
       "music_event_broadcaster": {
         "sources": 2,
         "live_now": 1,
-        "upcoming": 3,
+        "upcoming": 4,
         "observed_live_30d": 4
       },
       "concert_hall": {
@@ -5699,7 +5699,7 @@
       },
       "Jazz": {
         "sources": 29,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 7,
         "observed_live_30d": 110
       },
@@ -5730,7 +5730,7 @@
       "Multi-genre": {
         "sources": 111,
         "live_now": 3,
-        "upcoming": 17,
+        "upcoming": 18,
         "observed_live_30d": 61
       },
       "Hip-hop": {
@@ -5826,7 +5826,7 @@
       "Pop": {
         "sources": 67,
         "live_now": 3,
-        "upcoming": 6,
+        "upcoming": 7,
         "observed_live_30d": 21
       },
       "Soul": {
@@ -6275,19 +6275,19 @@
       },
       "Bebop": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 87
       },
       "Hard Bop": {
         "sources": 1,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 67
       },
       "Contemporary Jazz": {
         "sources": 2,
-        "live_now": 1,
+        "live_now": 0,
         "upcoming": 0,
         "observed_live_30d": 87
       },
@@ -6582,19 +6582,19 @@
       "Dance-pop": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Ballad": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Youth Pop": {
         "sources": 1,
         "live_now": 0,
-        "upcoming": 1,
+        "upcoming": 2,
         "observed_live_30d": 0
       },
       "Canadian Music": {
