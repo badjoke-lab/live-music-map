@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:j-04aZQiy_4",
+    "origin": "youtube_api",
+    "discovery": "uploads_playlist_budgeted_sweep",
+    "query_event_type": "live",
+    "source_id": "mezzrow-jazz-club",
+    "youtube_video_id": "j-04aZQiy_4",
+    "youtube_url": "https://www.youtube.com/watch?v=j-04aZQiy_4",
+    "title": "Greg Murphy Trio - Mezzrow Jazz Club - 10/14/2026",
+    "status": "ended",
+    "published_at": "2026-10-15T00:30:27Z",
+    "scheduled_start": null,
+    "actual_start": "2026-10-15T00:31:33Z",
+    "actual_end": null,
+    "concurrent_viewers": 11,
+    "thumbnail": "https://i.ytimg.com/vi/j-04aZQiy_4/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_title_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "mezzrow"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-15T04:33:54.899Z",
+    "history_archived_at": "2026-10-15T04:33:54.899Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:kkFe4QcFIjI",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
