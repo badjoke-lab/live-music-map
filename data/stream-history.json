@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:tRtH9Wrd70o",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "allverse",
+    "youtube_video_id": "tRtH9Wrd70o",
+    "youtube_url": "https://www.youtube.com/watch?v=tRtH9Wrd70o",
+    "title": "【#vrchat ライブ】　『#clubVERSE 62』　WEEKLY FRIDAY NIGHT VR MUSIC LIVE #ALLVERSE #4k",
+    "status": "ended",
+    "published_at": "2026-09-25T19:28:52Z",
+    "scheduled_start": "2026-10-16T11:45:00Z",
+    "actual_start": "2026-10-16T11:51:01Z",
+    "actual_end": null,
+    "concurrent_viewers": 30,
+    "thumbnail": "https://i.ytimg.com/vi/tRtH9Wrd70o/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "allverse"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-16T18:28:42.025Z",
+    "history_archived_at": "2026-10-16T18:28:42.025Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:bdHR_qD06IY",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
