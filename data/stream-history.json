@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:Cy6EHrJXJb8",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "king-gizzard-and-the-lizard-wizard",
+    "youtube_video_id": "Cy6EHrJXJb8",
+    "youtube_url": "https://www.youtube.com/watch?v=Cy6EHrJXJb8",
+    "title": "King Gizzard and the Lizard Wizard - Live in Melbourne (Day 1) '26",
+    "status": "ended",
+    "published_at": "2026-10-17T00:29:50Z",
+    "scheduled_start": "2026-10-17T08:00:00Z",
+    "actual_start": "2026-10-17T08:06:27Z",
+    "actual_end": null,
+    "concurrent_viewers": 180,
+    "thumbnail": "https://i.ytimg.com/vi/Cy6EHrJXJb8/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "live"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-17T12:30:12.929Z",
+    "history_archived_at": "2026-10-17T12:30:12.929Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:3NfGkaQ3qdE",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
