@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:YrDP1sknI4o",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "hoer-berlin",
+    "youtube_video_id": "YrDP1sknI4o",
+    "youtube_url": "https://www.youtube.com/watch?v=YrDP1sknI4o",
+    "title": "Miklei B2B Spacer | HÖR @ Grape Festival 2026 - 15 August / 2026",
+    "status": "ended",
+    "published_at": "2026-10-18T18:30:10Z",
+    "scheduled_start": "2026-10-18T18:30:00Z",
+    "actual_start": "2026-10-18T18:30:10Z",
+    "actual_end": null,
+    "concurrent_viewers": null,
+    "thumbnail": "https://i.ytimg.com/vi/YrDP1sknI4o/maxresdefault.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "dj_set",
+    "music_live_decision": "global_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "dj set"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-18T21:49:52.863Z",
+    "history_archived_at": "2026-10-18T21:49:52.863Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:Zp3_4BwK7iw",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
