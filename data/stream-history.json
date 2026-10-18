@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:974dBlcf21w",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "red-bull-batalla",
+    "youtube_video_id": "974dBlcf21w",
+    "youtube_url": "https://www.youtube.com/watch?v=974dBlcf21w",
+    "title": "FINAL NACIONAL COLOMBIA 2026 | Red Bull Batalla",
+    "status": "ended",
+    "published_at": "2026-10-13T00:50:37Z",
+    "scheduled_start": "2026-10-17T22:00:00Z",
+    "actual_start": "2026-10-17T22:00:15Z",
+    "actual_end": null,
+    "concurrent_viewers": 54641,
+    "thumbnail": "https://i.ytimg.com/vi/974dBlcf21w/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "red bull batalla"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-18T04:27:19.518Z",
+    "history_archived_at": "2026-10-18T04:27:19.518Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:mQjVNlL4SyY",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
