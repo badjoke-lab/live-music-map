@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:eAUA0r9SzHE",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "the-k-pop",
+    "youtube_video_id": "eAUA0r9SzHE",
+    "youtube_url": "https://www.youtube.com/watch?v=eAUA0r9SzHE",
+    "title": "[🔴LIVE] 2026 THE SHOW Ep.401 (2026.10.20) l A2O LITE, A2O SOUL, FLARE U, SUNG HANBIN, KO1KEYZ, etc.",
+    "status": "ended",
+    "published_at": "2026-10-16T01:12:00Z",
+    "scheduled_start": "2026-10-20T09:00:00Z",
+    "actual_start": "2026-10-20T08:30:27Z",
+    "actual_end": null,
+    "concurrent_viewers": 3913,
+    "thumbnail": "https://i.ytimg.com/vi/eAUA0r9SzHE/maxresdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "live_performance",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "the show"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-20T14:32:27.400Z",
+    "history_archived_at": "2026-10-20T14:32:27.400Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:mbiC3ar7xzY",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
