@@ -3,21 +3,6 @@
   "feeds": {
     "hoer-berlin": {
       "entries": {
-        "EGAq-V3drxU": "playlist:2026-10-19",
-        "q-L31Pr0Z5k": "playlist:2026-10-19",
-        "Ytvq5Pc0rdY": "playlist:2026-10-19",
-        "IrVzqCpiOF8": "playlist:2026-10-19",
-        "Bhg5sAt12Is": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "fhEuYYdG8NM": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "wHbIsfObgJY": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "4tZK7ZzXjJM": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "HloqqUxhE34": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "BdgBtyBYl5c": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "Ht4tR8TIe0c": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "zf_pUc07fWI": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "HE4WRjZ7vXM": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "AvN4uqYeLNU": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "ZAnBHAWcYWc": "2026-10-19T16:00:16+00:00",
         "KgjbPrIMVWY": "2026-10-19T16:19:12+00:00",
         "SUQLjqIr18o": "2026-10-19T17:54:07+00:00",
         "Zp3_4BwK7iw": "2026-10-18T18:34:13+00:00",
@@ -52,7 +37,12 @@
         "bj8XQatnIPc": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "IPWWQ4tt4wc": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "zR717-WPKcE": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "-0-ibFE8tN4": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "-0-ibFE8tN4": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "CxfeCfy3cDU": "2026-10-21T15:15:00+00:00",
+        "NEjcnAJ7Sls": "2026-10-21T15:07:47+00:00",
+        "5dGkS66rc9w": "2026-10-21T12:09:11+00:00",
+        "23_1jTjooEo": "2026-10-21T12:09:03+00:00",
+        "XbKCbN9i1E8": "2026-10-21T12:08:54+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -173,20 +163,6 @@
     },
     "boiler-room": {
       "entries": {
-        "iyTRz9JpYmE": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "Fs2ju9ImYVo": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "2PuT2oX93ZM": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "LthSHee0sMc": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "mEEf6qdFp8Q": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "p9tXz0JFJyQ": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "hY3jerOSFRY": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "Ed83G-u43H8": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "wjX24vg8Pdc": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "_mmKJ-Nee5M": "2026-10-20T14:41:38+00:00",
-        "APe7fhdkp9Q": "2026-10-20T14:40:20+00:00",
-        "9WsxwCAvpek": "2026-10-12T15:24:51+00:00",
-        "mPprMA21M6k": "2026-10-12T15:38:57+00:00",
-        "XnxC0bcQROc": "2026-10-12T15:59:24+00:00",
         "YyXD21fnYGk": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "PSOgwmUH57I": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "yIuIy7ZQnJ8": "playlist-sweep:2026-10-20T18:42:05.299Z",
@@ -213,8 +189,8 @@
         "7jh5ze408ZM": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "gOCuZufPD1A": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "TLqP_zjGcmQ": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "VeI50-ftSE4": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "uuZKc-Wsv6Y": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "VeI50-ftSE4": "2026-10-17T10:58:26+00:00",
+        "uuZKc-Wsv6Y": "2026-10-16T10:29:22+00:00",
         "-PmDhdxOyqc": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "m-4LviUwUp0": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "60ifct5h78Q": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -222,7 +198,11 @@
         "mOYf1888G6Q": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "qmM6_a0qOdM": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "PUvYuGaTOt0": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "gh3EN8FSWTY": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "gh3EN8FSWTY": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "7fwMSrtNLEo": "2026-10-21T11:54:05+00:00",
+        "Bj0lULol6Ac": "2026-10-21T11:45:53+00:00",
+        "KQc1DvPxebo": "2026-10-21T11:50:52+00:00",
+        "APe7fhdkp9Q": "2026-10-20T14:40:21+00:00"
       },
       "rss_failure_fallback": {
         "last_attempt_at": "2026-09-03T02:09:18.615Z",
@@ -286,12 +266,6 @@
     },
     "kexp": {
       "entries": {
-        "FUWf78dVtzw": "2026-10-20T13:57:52+00:00",
-        "mHD1vBLe6Fo": "2026-10-20T14:18:51+00:00",
-        "U_MYC27NC2Y": "2026-10-20T13:54:16+00:00",
-        "Yd4x5humcSw": "2026-10-20T13:44:21+00:00",
-        "gJyca4OjcGM": "2026-10-20T12:27:03+00:00",
-        "8lUzwni-deE": "2026-10-20T12:43:57+00:00",
         "-z_HOleoXpw": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "otzPM661cis": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "oA_Vo28IXW8": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -325,15 +299,33 @@
         "xLIgAAG0_yI": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "3yGNGEzGK44": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "CKMjDELEU0E": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "96PwraUpN-g": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "96PwraUpN-g": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "988NAhJ13Kw": "2026-10-21T15:00:36+00:00",
+        "iHomzK3fgTg": "2026-10-21T13:00:41+00:00",
+        "qkGfwlGDMh0": "2026-10-21T11:00:50+00:00",
+        "6KnIYk5JM-Q": "2026-10-21T11:00:27+00:00",
+        "_yXcDGhNb_s": "2026-10-21T11:00:18+00:00",
+        "5UcspgoBux8": "2026-10-21T11:00:18+00:00",
+        "FUWf78dVtzw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "mHD1vBLe6Fo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "U_MYC27NC2Y": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Yd4x5humcSw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gJyca4OjcGM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8lUzwni-deE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "W4XmhK9ymhg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "EMbctaZKtj8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "7eRphwN7PxI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gyQkq7Mm0YI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-IZ8xtStKRo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "yih0jyU23eA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MJndAmIyyoc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Sa3CeY-sSFo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-hF-wyqfqis": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "kcrw": {
       "entries": {
-        "Xxjux4MoFmM": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "uolG8tOyQ-k": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "gWsmlXOFgvs": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "4njGwwFkf3U": "2026-10-20T20:34:41+00:00",
         "1RRcajcArvM": "2026-10-19T14:17:39+00:00",
         "-qsgc5rmBqE": "2026-10-15T22:43:33+00:00",
@@ -370,7 +362,22 @@
         "JnjIHA0sUS8": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "6V2AwcwhDEM": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "Emp9T9HW7a4": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "70jR8FBRdZU": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "70jR8FBRdZU": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "S_JFJL9nISE": "2026-10-20T21:44:24+00:00",
+        "0Fss0MDMFa0": "2026-10-16T06:36:38+00:00",
+        "y88c1_OP0U0": "2026-10-13T10:38:11+00:00",
+        "Y1kDvjSz-H4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "A6qPm6dme1g": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "cxiA0xs0nvs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "L9O5RcKR_uQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "C5LQJwB4oCQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "0nJEJlsYc8c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KF8f1riTY5E": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "mqnocIibfqY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "zdj_fXOs1UY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Xxjux4MoFmM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "uolG8tOyQ-k": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gWsmlXOFgvs": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -415,7 +422,17 @@
         "-fL5Kq5070Q": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "0bHFv7GznBI": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "p2ASUOu_Qes": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "TAY-1AqAZcQ": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "TAY-1AqAZcQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "B-luur-HABM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_wmTuOufxCw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "sNdRAGpjggs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "CgkOG5i0uag": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "v-SPC1x2YDE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "lVKiGFgqcVg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "i8esHuZl9Xk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jQwgf52zXXc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "WAiycvQs5so": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wnYlWZkKggE": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -534,8 +551,6 @@
     },
     "triple-j": {
       "entries": {
-        "In0xmPDtwTQ": "playlist-sweep:2026-10-16T23:58:59.369Z",
-        "ZCNMOXhCWSE": "playlist-sweep:2026-10-16T23:58:59.369Z",
         "iMGdkeDU0uM": "playlist-sweep:2026-10-16T23:58:59.369Z",
         "eVbs32Fwteo": "playlist-sweep:2026-10-16T23:58:59.369Z",
         "WO6jW6M6Hzw": "playlist-sweep:2026-10-16T23:58:59.369Z",
@@ -573,7 +588,9 @@
         "tFx3rRL78xo": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "pUcl4ICyV1I": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "E4yAe136FU4": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "mhbmBhiM9co": "2026-10-21T08:10:02+00:00"
+        "mhbmBhiM9co": "2026-10-21T08:10:02+00:00",
+        "RglFeH9ADC8": "2026-10-16T03:51:42+00:00",
+        "JO0r5ITcK6o": "2026-10-18T21:52:50+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -846,9 +863,6 @@
     },
     "keep-hush": {
       "entries": {
-        "t7rHjfVT-hA": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "r1wYCuf_Bjk": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "Q5Q14nIvHUc": "2026-10-17T15:07:23+00:00",
         "m728CACyixk": "2026-10-15T13:17:41+00:00",
         "COfw27ED01Y": "2026-10-13T15:00:49+00:00",
         "mz6UaVqLoMU": "2026-10-13T15:00:22+00:00",
@@ -885,7 +899,24 @@
         "6WQjlJmwddk": "2026-10-21T10:00:18+00:00",
         "8joQNtp8v0w": "2026-10-21T10:00:11+00:00",
         "BFUuoAhkeos": "2026-10-21T10:00:09+00:00",
-        "Gfc3APYun9Y": "2026-10-21T10:00:04+00:00"
+        "Gfc3APYun9Y": "2026-10-21T10:00:04+00:00",
+        "YK7CCU3xvHk": "2026-10-16T17:30:58+00:00",
+        "DQrGcXnZvfo": "2026-10-14T16:00:28+00:00",
+        "blGOFynPSBA": "2026-10-18T00:48:59+00:00",
+        "Q5Q14nIvHUc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DRuQElSJMpI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "K4zofsFfZ-g": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "avulr3Vg4LA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "x_bIwWAEPNs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "nMgiyHwSs90": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "n6-mv5khCNs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8DYgcyeWef4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "TJmRqtd688A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Rh2G0txIMR8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "cc66UvwVYzE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KyYeOSLTaqA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "t7rHjfVT-hA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "r1wYCuf_Bjk": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -1001,9 +1032,6 @@
     },
     "book-club-radio": {
       "entries": {
-        "2DB5G1fNGCo": "2026-10-04T12:53:46+00:00",
-        "rd2JWQkpwWU": "2026-10-05T21:38:54+00:00",
-        "4YRNoDcru00": "2026-09-30T13:58:22+00:00",
         "wMe8glpgAbI": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "DqY4SdEufUg": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "yTpwP_jiOMo": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -1040,16 +1068,25 @@
         "YYfFJMRRipg": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "G5H4EBnX3l0": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "_tTJgvz0vTQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "OHI5sfmQ_eE": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "OHI5sfmQ_eE": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "Ax_Nyg0SgC4": "2026-10-18T01:06:44+00:00",
+        "ZUIxdSBF9K8": "2026-10-05T07:35:05+00:00",
+        "mUfkHT1yvr0": "2026-10-18T16:55:40+00:00",
+        "rd2JWQkpwWU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "4YRNoDcru00": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "2DB5G1fNGCo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "rmKEwdQO8iA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "tBf_q32RWro": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "rFa17wdQZD4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MhOnyXTZ6HM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "l_ESE9M7oOo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "6G1SI3t1tIU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "f9q3_4LeoSQ": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "dj-mag": {
       "entries": {
-        "a3S-58Q6hzw": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "KH3aNXIkvNY": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "4_nLFYLO20Q": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "adqFiNJJ4vQ": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "K_TSs2qMv_8": "2026-10-19T14:53:58+00:00",
         "y7iLvbSkFag": "2026-10-19T16:28:46+00:00",
         "RZPJqVb8D2o": "2026-10-14T16:00:34+00:00",
@@ -1076,7 +1113,7 @@
         "SBIcdcKygjw": "playlist:2026-10-21",
         "hhkFhRNg2Lw": "playlist:2026-10-21",
         "Yz7Ndfbh_dw": "playlist:2026-10-21",
-        "lcJVf1zN_Fs": "2026-10-20T22:36:52+00:00",
+        "lcJVf1zN_Fs": "2026-10-21T12:03:02+00:00",
         "17W6WYE6_ZI": "2026-10-19T17:26:18+00:00",
         "d8LXO0cDJpk": "2026-10-18T01:05:30+00:00",
         "BmVFF6fpX9Y": "playlist-sweep:2026-10-21T05:17:18.636Z",
@@ -1085,7 +1122,21 @@
         "ByBufR-ItBc": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "4oQeEH36K0k": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "0rZTvp1Me_g": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "E6TEWVUZ4zQ": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "E6TEWVUZ4zQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "gaoK9NRC1_U": "2026-10-17T13:41:56+00:00",
+        "wov0aCA0wiw": "2026-10-12T03:38:19+00:00",
+        "ZWBekvkmZGc": "2026-10-13T10:57:48+00:00",
+        "w7jpfBsSZ5U": "2026-10-12T03:34:15+00:00",
+        "YcVa08d8_5g": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "yOnvaj-yooQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-XGYBVnNIWI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-_FDfc8Kh84": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "kgAsuR0ca9I": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ECgC2QOxOFU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "a3S-58Q6hzw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KH3aNXIkvNY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "4_nLFYLO20Q": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "adqFiNJJ4vQ": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {
         "last_attempt_at": "2026-09-03T06:27:55.429Z",
@@ -1094,16 +1145,6 @@
     },
     "mixmag": {
       "entries": {
-        "nG3ZmnoblHc": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "xJR7q0XN8oU": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "dMhvuqCrh0I": "2026-10-19T16:31:11+00:00",
-        "_tSoOMIuL2M": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "V3z9mEoLVYM": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "bWwpdB7mJ0s": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "EsV7YZKLw1U": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "XapE2Jcwhjs": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "wwN6Fl2Ba5w": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "39vKdNAHXo8": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "tcLmzN7pBp8": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "ZA_JZBABqy4": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "9C4WipxzNbs": "playlist-sweep:2026-10-20T04:40:32.279Z",
@@ -1129,7 +1170,7 @@
         "Qlc1PgHSMOw": "2026-10-19T17:23:35+00:00",
         "Q1API7pZjig": "2026-10-19T17:29:57+00:00",
         "ZMlJI1pOlzA": "2026-10-13T15:27:20+00:00",
-        "WmgufeWu1cs": "2026-10-19T08:06:36+00:00",
+        "WmgufeWu1cs": "2026-10-21T15:07:10+00:00",
         "gaTOdfI-Agg": "2026-10-06T07:47:33+00:00",
         "d7YaShg8j3U": "playlist:2026-10-21",
         "DM8txQxhxBY": "playlist:2026-10-21",
@@ -1152,16 +1193,6 @@
     },
     "beatport": {
       "entries": {
-        "dVBqCc-0LtQ": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "wxUiGPmYzX0": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "2RWuFz25Vyg": "2026-10-18T00:46:59+00:00",
-        "cCmhsnAJM74": "2026-10-19T16:58:39+00:00",
-        "dLGFl5tJC8s": "2026-10-16T16:52:02+00:00",
-        "jKTeLBRqdi0": "2026-10-17T15:14:23+00:00",
-        "kIPKTFDhmYk": "2026-10-17T00:39:13+00:00",
-        "Jug2_20y_Ss": "2026-10-16T12:40:29+00:00",
-        "QlJawt_8p_8": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "OKFjwNtM5DA": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "cpw7tNomOCY": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "oH7CGkHwyTY": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "lpHFzRnkFGk": "2026-10-20T11:30:10+00:00",
@@ -1180,7 +1211,7 @@
         "LEIRAkny83g": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "2OLck42UHnk": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "7jPzaJB2tm0": "2026-10-19T19:17:13+00:00",
-        "29XfqJtqVsA": "2026-10-19T17:43:10+00:00",
+        "29XfqJtqVsA": "2026-10-21T15:00:08+00:00",
         "BzErhfh09h0": "2026-10-15T12:15:06+00:00",
         "CZcPxZ8QkKI": "2026-10-18T01:08:31+00:00",
         "gHF_WbZxZWE": "playlist-sweep:2026-10-21T00:34:32.480Z",
@@ -1200,7 +1231,8 @@
         "tOHWg0Qnfo8": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "04qceVjIeSg": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "H2KKGCX_N7A": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "UNpOr_NFKAU": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "UNpOr_NFKAU": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "mzl2wbtxeb0": "2026-10-21T13:36:27+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -1261,17 +1293,6 @@
     },
     "umf-tv": {
       "entries": {
-        "9fyCIRYQcqk": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "AFB4FgDDeMA": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "wxWO0uqwOKM": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "USKfvmjjHtM": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "L8m7mmGpSrs": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "nR3p6CjLTQg": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "JekglWFMl8c": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "GtZzeLTSNtc": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "RFRKsLtLuQc": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "XnYUPzcsvm8": "playlist-sweep:2026-10-10T15:18:04.798Z",
-        "3vlSAUmIM1E": "2026-10-14T06:57:36+00:00",
         "Kqbno5tlDmk": "2026-09-27T08:03:29+00:00",
         "ZqnFiFa-MmY": "2026-10-16T01:33:36+00:00",
         "4GjztNT2bRE": "2026-09-30T08:00:03+00:00",
@@ -1310,24 +1331,13 @@
         "qAgIB8isCVY": "playlist-sweep:2026-10-16T14:47:21.960Z",
         "REwUJJ0qj-g": "playlist-sweep:2026-10-16T14:47:21.960Z",
         "1KfnJ3__H6o": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "RnF3uoahoUI": "playlist-sweep:2026-10-16T14:47:21.960Z"
+        "RnF3uoahoUI": "playlist-sweep:2026-10-16T14:47:21.960Z",
+        "ki3pleWiEok": "2026-10-21T13:30:18+00:00"
       },
       "rss_failure_fallback": {}
     },
     "a-state-of-trance": {
       "entries": {
-        "jhwrijEPaqk": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "C0snbrgvwHI": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "Ofw5jyGG-1o": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "54e4rWFRn_Y": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "v8GoXEqTBGY": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "r_gwChCmfQs": "2026-10-20T13:19:51+00:00",
-        "wzmSB1_PiEc": "2026-10-19T15:06:02+00:00",
-        "xu_3jxDA74o": "2026-10-15T04:10:39+00:00",
-        "-i2Mek-obiM": "2026-10-18T00:37:23+00:00",
-        "DetTyGseBqM": "2026-10-19T16:01:54+00:00",
-        "Gtz5OuYcVPg": "2026-10-17T13:00:13+00:00",
-        "y7jVqmh2pZY": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "H1QAocEgxnY": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "ieylBCR2lHQ": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "MYI0Md9k0wg": "playlist-sweep:2026-10-19T20:33:37.831Z",
@@ -1365,7 +1375,20 @@
         "iVpFrl41Pms": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "iy_kqK9M72s": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "pwWGRjFGUG8": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "CULOQALvBlQ": "playlist-sweep:2026-10-20T14:31:49.517Z"
+        "CULOQALvBlQ": "playlist-sweep:2026-10-20T14:31:49.517Z",
+        "iqBKbZS73hA": "2026-10-21T13:45:39+00:00",
+        "DetTyGseBqM": "2026-10-21T13:44:29+00:00",
+        "wzmSB1_PiEc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "r_gwChCmfQs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Gtz5OuYcVPg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "xu_3jxDA74o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-i2Mek-obiM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "y7jVqmh2pZY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jhwrijEPaqk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "C0snbrgvwHI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Ofw5jyGG-1o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "54e4rWFRn_Y": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "v8GoXEqTBGY": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -1591,16 +1614,6 @@
     },
     "kbs-world-tv": {
       "entries": {
-        "qaKMcbBd7SY": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "3sJFL27h3zc": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "eCaDGFdZvMQ": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "Jg2I-7KeiV0": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "m8s3VQHzYAE": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "blDNC8YPj8k": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "Wj3VD-746oI": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "zVK7XMTG2UE": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "_CWAtU-0kTg": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "xnyIaZ5qAG0": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "oC4NSmbr3UU": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "UUejv3ets-8": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "q40T8_y20h0": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -1630,31 +1643,42 @@
         "tipzra4nGow": "2026-10-20T13:00:27+00:00",
         "yyGtA6rG8Fk": "2026-10-20T13:00:16+00:00",
         "QQV5hKqelKY": "2026-10-20T13:08:23+00:00",
-        "63xwHWWVlKs": "2026-10-20T13:12:04+00:00"
+        "63xwHWWVlKs": "2026-10-20T13:12:04+00:00",
+        "7w_JYls-oms": "2026-10-21T13:30:44+00:00",
+        "TVS5wAJC8SU": "2026-10-21T13:00:29+00:00",
+        "G69IEg2pRto": "2026-10-21T12:45:12+00:00",
+        "1d3Zg6A3o-A": "2026-10-21T12:00:26+00:00",
+        "AsTIsIESDtg": "2026-10-21T11:00:40+00:00",
+        "PHedtiKdMy0": "2026-10-21T11:28:42+00:00",
+        "TImxx5N0sJc": "2026-10-21T11:00:29+00:00",
+        "x1PKucmWCrk": "2026-10-21T11:00:20+00:00",
+        "OQ9OMAL2rzw": "2026-10-21T11:00:17+00:00",
+        "B_0BtgmP_c0": "2026-10-20T14:30:24+00:00",
+        "RDhVEqZ0zis": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "AdLvb9mFVZU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "n90CQ-13GlQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "bROThHP3Yd0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "xcAk6RQ1trk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Pr3GMG38WsQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-e6QsPoV8ZY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ZbAXIiGdCn0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gk8_N4VwJKA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wVpVVZtDTGA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "BYk4GxKzEks": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "NGvaj157O18": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "qxlvtjKbZEM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "qaKMcbBd7SY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "3sJFL27h3zc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "eCaDGFdZvMQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Jg2I-7KeiV0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "m8s3VQHzYAE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "blDNC8YPj8k": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Wj3VD-746oI": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "arirang-k-pop": {
       "entries": {
-        "PwvrflircOc": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "z07szWAbIZo": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "LJp9dmb-QTo": "2026-10-19T03:00:24+00:00",
-        "Npq5w5goGFQ": "2026-10-19T02:30:16+00:00",
-        "34WEaAv38A8": "2026-10-19T02:00:42+00:00",
-        "Aljp78-dijQ": "2026-10-18T05:55:44+00:00",
-        "4HKp-eOIHLg": "2026-10-18T05:43:03+00:00",
-        "NgD61UynK1E": "2026-10-18T07:40:09+00:00",
-        "TV_j3r-HUzo": "2026-10-18T09:00:09+00:00",
-        "whLp_eg6vNw": "2026-10-18T04:42:35+00:00",
-        "nUU_hWT8FRQ": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "ziBM9tMOhks": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "5t1eW2Vkqz4": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "hAvoCabJjcA": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "HIx3poxsPj4": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "6U1ixscV2fQ": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "9_LvHGFpJ94": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "sMQhsz6Hcmw": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "inQpIqEtmY4": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "91RvzegJTVA": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "gVqAAh13XQg": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "bHGrlRKhneE": "playlist-sweep:2026-10-21T00:34:32.480Z",
@@ -1690,19 +1714,16 @@
         "B3Rgz01igs8": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "hboHfc0wdbI": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "R79zuBo_9to": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "rOu_qkpWOxE": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "rOu_qkpWOxE": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "6n8ghzq2Kfc": "2026-10-21T13:45:10+00:00",
+        "1djUZt1YVtg": "2026-10-21T13:30:05+00:00",
+        "GZv9SGrsLyM": "2026-10-21T13:15:11+00:00",
+        "UuaXdJMlZvM": "2026-10-21T13:00:15+00:00"
       },
       "rss_failure_fallback": {}
     },
     "im-live-arirang": {
       "entries": {
-        "VEX0UO9xqK8": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "FlSJHN_VAXw": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "ZqYlMDNdlXg": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "wUNF84v0FZw": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "gTHtPR79wuQ": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "htciO6syhgM": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "upKLdu1WgMU": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "Ao3IbnvzmEs": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "papRcyWlsZk": "2026-10-20T13:31:51+00:00",
         "fKCLIXBZo8I": "playlist-sweep:2026-10-20T18:42:05.299Z",
@@ -1735,23 +1756,19 @@
         "DndSaK-VUVQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "J7iEKJuP48s": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "r0E3-xZRWco": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "d0jWtCVjPes": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "d0jWtCVjPes": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "oO0eEBIgYmM": "2026-10-20T02:14:04+00:00",
+        "rgfeKb7ETwQ": "2026-10-19T12:59:33+00:00",
+        "oxSmhchJ2Z8": "2026-10-19T12:51:41+00:00",
+        "gRO1aUoIeE4": "2026-10-19T12:52:52+00:00",
+        "buglsJ0kKfk": "2026-10-19T13:45:44+00:00",
+        "AU7ifq4J0BU": "2026-10-19T12:21:56+00:00",
+        "gYrI9HDaxvo": "2026-10-19T16:35:51+00:00"
       },
       "rss_failure_fallback": {}
     },
     "arirang-radio-k-pop": {
       "entries": {
-        "souSzsPT8i8": "2026-10-20T12:43:35+00:00",
-        "5rtA0RXk2EA": "2026-10-20T13:07:12+00:00",
-        "AbabHVpM-U4": "2026-10-20T13:33:00+00:00",
-        "YeC_Y0VjJvs": "2026-10-20T13:34:12+00:00",
-        "Lw26Ipfjcdg": "2026-10-20T13:37:08+00:00",
-        "Obf8ez1ovZI": "2026-10-20T13:16:23+00:00",
-        "S5ZaIZQTCUk": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "AMbThJvYnNc": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "W2HglpUblsA": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "HSTQrrpnzh4": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "aVxHiqyNW-Y": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "AbOln4tuCFI": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "ogEOZzV8g7w": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "lLg8ji1tY0E": "playlist-sweep:2026-10-20T09:41:05.528Z",
@@ -1781,11 +1798,11 @@
         "rRw_Ke3FA80": "2026-10-21T04:49:09+00:00",
         "Gh2f-cFlilo": "2026-10-20T08:46:23+00:00",
         "u8c7Dnj_8iA": "2026-10-20T13:26:33+00:00",
-        "lO1FREHE-tg": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "VGg1GccIVrI": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "k0kEFMj_RDY": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "dtbKTvuVwYA": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "MYcC703BZO8": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "lO1FREHE-tg": "2026-10-20T06:56:48+00:00",
+        "VGg1GccIVrI": "2026-10-20T06:55:42+00:00",
+        "k0kEFMj_RDY": "2026-10-20T13:02:08+00:00",
+        "dtbKTvuVwYA": "2026-10-20T13:17:11+00:00",
+        "MYcC703BZO8": "2026-10-20T12:42:32+00:00",
         "rf8-z3O5CWo": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "FYATJwhE0Mw": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "85ftSWZjQAo": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -1797,12 +1814,6 @@
     },
     "sbskpop-inkigayo": {
       "entries": {
-        "O476a9vUdG0": "2026-10-19T12:38:10+00:00",
-        "JQsQV4OGI78": "2026-10-15T04:26:09+00:00",
-        "KZemw0Lexhc": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "e8mcALbo50M": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "4-u6Dt2CnZw": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "_2dxySTi_bo": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "eguGewAcEtA": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "A9V_ipFLsFM": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "sg2lZcu8yJo": "playlist-sweep:2026-10-19T23:55:15.308Z",
@@ -1836,7 +1847,23 @@
         "HQtnUvFRiKY": "2026-10-21T09:30:33+00:00",
         "JsZNC8U8IOs": "2026-10-21T09:30:31+00:00",
         "fEv0yEkMt2s": "2026-10-21T09:30:20+00:00",
-        "KAr4jccxTI8": "2026-10-21T08:00:17+00:00"
+        "KAr4jccxTI8": "2026-10-21T12:50:51+00:00",
+        "dBRCf0kM1co": "2026-10-21T13:34:31+00:00",
+        "ddwDiiNmgVw": "2026-10-20T13:22:22+00:00",
+        "XaO-3INbguc": "2026-10-20T12:37:03+00:00",
+        "B08elat0HEQ": "2026-10-20T13:22:46+00:00",
+        "4p88G-Qe_yU": "2026-10-19T14:22:28+00:00",
+        "esTT0IZer8I": "2026-10-19T12:22:09+00:00",
+        "yXdZIXAlkiY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "O476a9vUdG0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "JQsQV4OGI78": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "FZ4A6eJhUPo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jiZ2e-zRA8M": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "89lcYD4U9WE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KZemw0Lexhc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "e8mcALbo50M": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "4-u6Dt2CnZw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_2dxySTi_bo": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -1867,11 +1894,11 @@
         "2QPN0tFcv6c": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "0RrTIGFMqaA": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "BkaGqUxvN6w": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "b4dt4zlhNxQ": "2026-10-21T09:15:43+00:00",
-        "-oBornOFiR8": "2026-10-21T08:53:16+00:00",
+        "b4dt4zlhNxQ": "2026-10-21T13:55:15+00:00",
+        "-oBornOFiR8": "2026-10-21T11:41:56+00:00",
         "VgDyxZBHMtA": "2026-10-21T08:49:16+00:00",
         "Lw6hBXwaJVk": "2026-10-21T08:11:37+00:00",
-        "_ryEAFh4OLk": "2026-10-21T08:07:46+00:00",
+        "_ryEAFh4OLk": "2026-10-21T11:30:13+00:00",
         "Rx5OhJQ-gSY": "2026-10-21T08:46:45+00:00",
         "oAkSXF3k_-I": "2026-10-21T09:29:03+00:00",
         "lNXAmxaPeQg": "2026-10-21T08:02:36+00:00",
@@ -1881,23 +1908,42 @@
         "yFwVyjsVMCM": "2026-10-21T05:12:03+00:00",
         "1LGrJ73vmGM": "2026-10-21T05:11:08+00:00",
         "Go-oaE7R5nE": "2026-10-21T05:11:01+00:00",
-        "B9RsLsoB0Tw": "2026-10-21T08:44:19+00:00"
+        "B9RsLsoB0Tw": "2026-10-21T08:44:19+00:00",
+        "PtNCQ1YDJB0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "1TjK_J01S2o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "SHJS_j7NwlI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "kJnBLtL-bCI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "6P5WDm_x2Oc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "xufByXyED0s": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jh64S76wI_0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "pXl2Qb6hIc4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "4j8YcaxZv5A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RD_K7bpmzZE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "3CXUhyNoFbg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "dMSTwBZcdMc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "CLGkYzfZT9I": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "M7H3mCAbeJw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_V0FxTttqnA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "IUBQKhQfs_A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "avsMIkP1O6U": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "H5UOHXTTQQU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iHX9S2rl1xs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "l4uLSofAkZU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "mVv0Or8U96c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MnGT6ypSpC0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "uxuTw71S2ME": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "yedGp50ih6o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "bqPrtb_hbSA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "geG9TTJOd3c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-AXeakqEeGs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "I1urHuoqGbY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "v9WkVJoaLXc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "3b6U7C2MQpE": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "kreciolatv-polandrock": {
       "entries": {
-        "U-veJdX47UU": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "y0xX5T_fmcM": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "NQHc0nmWNko": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "EnTzhsAFWAs": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "T8zXv_DMEEk": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "V_S8PHIGMJM": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "5PePannTiJU": "2026-10-20T10:41:14+00:00",
-        "sAOUGNCOqxw": "2026-10-07T09:38:59+00:00",
-        "sq2xINdDu60": "2026-10-02T14:07:58+00:00",
-        "CA45F24XB7Q": "2026-10-15T08:14:19+00:00",
-        "r0wMqYZF-m4": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "fAXhIMEBqvU": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "Xub3tEu70n4": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "YDWCOwkYm1k": "playlist-sweep:2026-10-19T20:33:37.831Z",
@@ -1936,17 +1982,13 @@
         "U8NLaTZ7waA": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "fcN14WacZCg": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "v0I6o6PluyI": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "PJTQSGz_7ZI": "playlist-sweep:2026-10-20T21:57:05.678Z"
+        "PJTQSGz_7ZI": "playlist-sweep:2026-10-20T21:57:05.678Z",
+        "DEESYx_zbUQ": "2026-10-21T14:04:13+00:00"
       },
       "rss_failure_fallback": {}
     },
     "hr-sinfonieorchester": {
       "entries": {
-        "QMkRJiTUmqs": "2026-10-18T16:54:19+00:00",
-        "PmEdXs4xyNM": "2026-10-03T22:50:51+00:00",
-        "hkXB49DnvOA": "2026-10-08T22:10:16+00:00",
-        "0LRVbM325Hs": "2026-10-12T08:10:35+00:00",
-        "DphEolYtBig": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "0tLgJ_vc_FE": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "zjmXxaEfsEQ": "playlist-sweep:2026-10-20T04:40:32.279Z",
         "aWX0jE-ZZu4": "playlist-sweep:2026-10-20T04:40:32.279Z",
@@ -1981,7 +2023,12 @@
         "GyZaU2FlSnE": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "mc8ywuY1CVk": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "DH68UvsjW94": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "BZJHsP8COag": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "BZJHsP8COag": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "tB2HHVk9E50": "2026-10-20T19:20:41+00:00",
+        "1i_oXy1Z-s4": "2026-10-06T07:05:13+00:00",
+        "Dk9Cr-uZOJA": "2026-09-30T03:51:49+00:00",
+        "vf4FIeborwA": "2026-09-30T09:05:40+00:00",
+        "HNewIrNlMn8": "2026-10-03T13:25:48+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -2042,7 +2089,6 @@
     },
     "kbs-kpop": {
       "entries": {
-        "GR9Lv2AdBz4": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "HcenD1JyjqM": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "G4hbjZBZ8r8": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "DDskZMzYpD0": "2026-10-20T12:46:27+00:00",
@@ -2081,7 +2127,20 @@
         "dpLkKGD2rt8": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "EuwJLIAg4Ys": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "WduuhBipnno": "2026-10-21T02:15:03+00:00",
-        "4mXvfXY7MiI": "2026-10-21T10:04:19+00:00"
+        "4mXvfXY7MiI": "2026-10-21T12:43:15+00:00",
+        "PSfXFxQkhZA": "2026-10-21T13:00:33+00:00",
+        "l94-G9bVgac": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "fm4OgQvwDkU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "1BsMp8k3w18": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "qjgpSGXCsr0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "xXb3xIBpgsA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "7yZ1Cs76Em0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "y1ABAJe7m8o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "0J0ZlbeNNww": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "I86ICb6QmSk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "OhA3i7FrWSc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Mw0n-4zgn_E": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RdhieV7U4xg": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -2560,9 +2619,6 @@
     },
     "shimokitazawa-club-que": {
       "entries": {
-        "kbAC0Du6aHI": "playlist-sweep:2026-10-16T21:39:56.443Z",
-        "fEFBL9zrqoo": "playlist-sweep:2026-10-16T21:39:56.443Z",
-        "ttcEadPWV5c": "playlist-sweep:2026-10-16T21:39:56.443Z",
         "gHu2tY4TgVQ": "playlist-sweep:2026-10-16T21:39:56.443Z",
         "Iqp9-aptFCk": "playlist-sweep:2026-10-16T21:39:56.443Z",
         "5aywXxBnfoI": "playlist-sweep:2026-10-16T21:39:56.443Z",
@@ -2599,7 +2655,21 @@
         "sYeyB_jfDko": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "xHTsdcmD1_Q": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "ePs5YhbYQJ4": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "PtU1a-pCYpY": "2026-10-21T10:00:24+00:00"
+        "PtU1a-pCYpY": "2026-10-21T12:29:09+00:00",
+        "3KyCQ7rN8SM": "2026-10-03T10:46:43+00:00",
+        "yrJQRfMU60Y": "2026-10-16T16:44:23+00:00",
+        "tbFmc6qYvVs": "2026-10-03T04:12:35+00:00",
+        "-U1AUc4L13o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "O2gYp9QJgig": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "cSWA5OEXScA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "evVEquLWdL0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "kbAC0Du6aHI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "fEFBL9zrqoo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "0fG-siFf9Aw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "4QdGntzF2F0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iZOF16OqIPI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MKyck1OGHr8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ttcEadPWV5c": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -3144,16 +3214,6 @@
     },
     "sziget-festival": {
       "entries": {
-        "A8AOVAK32kc": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "_kIIyoRQbw4": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "3Vi_4WKos3A": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "wyEzexShEZA": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "DVuCoBeGv4I": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "2fakmwkI99Y": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "T-pyGMwEqwI": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "ft9MZil8GJk": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "-jrfAr-CmTM": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "NzhYNpDsi40": "playlist-sweep:2026-10-17T15:54:44.937Z",
         "8EnNIGI4vDc": "playlist-sweep:2026-10-17T15:54:44.937Z",
         "FxBWBXwcKAg": "2026-10-21T08:10:20+00:00",
         "rbEw5c6tgCI": "2026-10-15T23:44:24+00:00",
@@ -3184,14 +3244,14 @@
         "NiIek91yDto": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "fqcArV6Zrtw": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "A2VJcvDtH3g": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "PorLJtQw9Rs": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "kUjfpq5J1yA": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "Bv1D1-_IOGw": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "qrrYCUTU9yc": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "pF5juJmEv78": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "vrNtGiPiDr0": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "EzFyBIfqCU0": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "ppTFcXm43V4": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "PorLJtQw9Rs": "2026-10-17T14:00:41+00:00",
+        "kUjfpq5J1yA": "2026-10-08T13:11:02+00:00",
+        "Bv1D1-_IOGw": "2026-10-13T05:40:05+00:00",
+        "qrrYCUTU9yc": "2026-10-13T05:40:53+00:00",
+        "pF5juJmEv78": "2026-10-13T05:41:42+00:00",
+        "vrNtGiPiDr0": "2026-10-13T05:40:24+00:00",
+        "EzFyBIfqCU0": "2026-10-07T15:12:14+00:00",
+        "ppTFcXm43V4": "2026-10-07T07:53:59+00:00",
         "vKmDi1p_g8I": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "KsahW5yiwJM": "playlist-sweep:2026-10-21T10:19:40.338Z"
       },
@@ -3530,18 +3590,6 @@
     },
     "singapore-symphony": {
       "entries": {
-        "NccWY3-3zQE": "playlist-sweep:2026-10-13T16:24:20.858Z",
-        "OvTy5RdqOCk": "playlist-sweep:2026-10-13T16:24:20.858Z",
-        "JZjntYWlm5k": "playlist-sweep:2026-10-13T16:24:20.858Z",
-        "kNQoHRIx2lc": "2026-10-07T13:26:07+00:00",
-        "_6JayxqdA0c": "playlist:2026-10-14",
-        "OUT3z9dz5a0": "playlist:2026-10-14",
-        "YuLF9ffRyyM": "playlist:2026-10-14",
-        "fb-TIZq3TVE": "playlist:2026-10-14",
-        "VAUdoWWnR-I": "playlist:2026-10-14",
-        "IfMOx7iBTAg": "2026-10-05T11:30:35+00:00",
-        "H9myKFUM0A0": "2026-10-05T00:25:12+00:00",
-        "efKnYjTXjqQ": "2026-10-14T07:02:01+00:00",
         "ZM-rd2pkJ_A": "2026-10-04T16:36:05+00:00",
         "LBL_g01Dz5k": "playlist-sweep:2026-10-14T05:22:14.546Z",
         "UzChnKdV48I": "playlist-sweep:2026-10-14T05:22:14.546Z",
@@ -3580,7 +3628,8 @@
         "qDZEBRcFUzU": "playlist-sweep:2026-10-15T19:16:28.393Z",
         "WFzdJBkPy7U": "playlist-sweep:2026-10-15T19:16:28.393Z",
         "CpPFwf_zP8E": "playlist-sweep:2026-10-15T19:16:28.393Z",
-        "GE15TvXqUUg": "playlist-sweep:2026-10-15T19:16:28.393Z"
+        "GE15TvXqUUg": "playlist-sweep:2026-10-15T19:16:28.393Z",
+        "87bFgd2qjlc": "2026-10-21T13:00:09+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -3606,9 +3655,6 @@
     },
     "rolling-loud": {
       "entries": {
-        "dfyQsBxRfOQ": "2026-10-09T09:29:03+00:00",
-        "CRgvEm3ZuV8": "2026-10-03T11:53:32+00:00",
-        "JAbft7849SQ": "2026-10-04T23:35:15+00:00",
         "AXLSZjBmZWA": "2026-10-02T08:19:35+00:00",
         "HQ0k157Kg1k": "2026-10-12T03:37:23+00:00",
         "PUyHfOp_Ypk": "2026-09-30T18:38:39+00:00",
@@ -3645,13 +3691,26 @@
         "RnekCeBveCs": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "bGW2S0bUzhY": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "y72OuSXQv1o": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "Pqa_WDMRuEs": "2026-10-21T06:17:55+00:00"
+        "Pqa_WDMRuEs": "2026-10-21T12:29:20+00:00",
+        "E2JCxRKdhLI": "2026-10-20T12:21:58+00:00",
+        "vitSIwWYCxU": "2026-10-14T03:43:37+00:00",
+        "GpRRxIrQUvo": "2026-10-09T09:29:59+00:00",
+        "dfyQsBxRfOQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "CRgvEm3ZuV8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "JAbft7849SQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "WEAX4wL-gxc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "K4RNTLB-1nI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "lYeV_VDEDdg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "pXHGQeYS3K4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RVl8kfqgAlo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "HO1IMGSkUMg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8dBslCtbuUA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "AeseDLW0d1s": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "creamfields": {
       "entries": {
-        "xdhDZFqbqVo": "2026-09-29T01:01:10+00:00",
         "Ou897-pPdgM": "2026-10-18T16:52:07+00:00",
         "IHPN8GcYubQ": "2026-10-09T18:48:55+00:00",
         "5Pkfp1RerbU": "2026-10-02T04:04:16+00:00",
@@ -3690,23 +3749,23 @@
         "LZL3-LG3ZBM": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "m_VHzmJadnc": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "kxyi8yZFbC8": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "kWMOnTw7Lrc": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "kWMOnTw7Lrc": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "vKficTnx7To": "2026-10-13T05:40:47+00:00",
+        "xdhDZFqbqVo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "UxU8UCRY8NI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iMaMUg2jUjY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "2fRWpa73ltE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "sn8dVoheESY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "e_05xm46nEQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "vXRY2K1mWyE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "EuBwNEmws6c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wxYKQZLXNEM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "tQMErx8Ucx8": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "tomorrowland-one-world-radio": {
       "entries": {
-        "RFQFv4gxFro": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "uUVEB7BgSvU": "2026-10-18T10:34:02+00:00",
-        "LzWRTxBCH-Y": "2026-10-04T04:12:11+00:00",
-        "hgbAN8NFNu0": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "VnEB0Y1Ps1U": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "39KkVIunYAk": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "byAjCbk5kHo": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "Fc5BM7CIWF8": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "rm8t8OfImgc": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "f4rqbY0W6d8": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "CcF-CcoWhj0": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "RNAr5eSxXFs": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "NySdnQyuWvI": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "QpbHoB_c31o": "2026-10-07T11:32:51+00:00",
@@ -3745,7 +3804,19 @@
         "3TBTDB5GHHY": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "YUHX_s1kOns": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "4j2hM9bfJdE": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "CBWV607IZzA": "playlist-sweep:2026-10-20T14:31:49.517Z"
+        "CBWV607IZzA": "playlist-sweep:2026-10-20T14:31:49.517Z",
+        "U7XEklUZG6w": "2026-10-21T13:46:35+00:00",
+        "uUVEB7BgSvU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "LzWRTxBCH-Y": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "hgbAN8NFNu0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "VnEB0Y1Ps1U": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "39KkVIunYAk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RFQFv4gxFro": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "byAjCbk5kHo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Fc5BM7CIWF8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "rm8t8OfImgc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "f4rqbY0W6d8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "CcF-CcoWhj0": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -3808,18 +3879,6 @@
     },
     "rinse-france": {
       "entries": {
-        "gQ0-G4he4vE": "playlist-sweep:2026-10-18T13:58:03.420Z",
-        "g4kDZ942YpQ": "playlist-sweep:2026-10-18T13:58:03.420Z",
-        "qPVHAFPhHxY": "playlist-sweep:2026-10-18T13:58:03.420Z",
-        "t2nXAU9x9W4": "2026-10-17T16:57:28+00:00",
-        "eISbqIgacK8": "2026-10-13T15:03:17+00:00",
-        "btkDkE7iAWQ": "2026-10-10T17:35:47+00:00",
-        "kB8XprEcLV0": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "nbCSD7coRk0": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "fOW80Z-3erM": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "AI6gHTQclBI": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "POyDkdigBMA": "playlist-sweep:2026-10-18T21:49:17.313Z",
-        "QwvvGGdXvk0": "playlist-sweep:2026-10-18T21:49:17.313Z",
         "BlOPSudzTT8": "playlist-sweep:2026-10-18T21:49:17.313Z",
         "DfbIPmgLbPw": "playlist-sweep:2026-10-18T21:49:17.313Z",
         "86AmDzzDtUc": "playlist-sweep:2026-10-18T21:49:17.313Z",
@@ -3858,7 +3917,20 @@
         "F9HHlwjOBD0": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "8vQ1w29R7RE": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "2YCB1xUifFg": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "obca0lMt_To": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "obca0lMt_To": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "X7Py9eQ5U9c": "2026-10-21T15:16:45+00:00",
+        "t2nXAU9x9W4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "eISbqIgacK8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "btkDkE7iAWQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "kB8XprEcLV0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "nbCSD7coRk0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "fOW80Z-3erM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "AI6gHTQclBI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "POyDkdigBMA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "QwvvGGdXvk0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gQ0-G4he4vE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "g4kDZ942YpQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "qPVHAFPhHxY": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -3919,17 +3991,6 @@
     },
     "wdr-rockpalast": {
       "entries": {
-        "Eg5lq0D0vEE": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "l4Rk3AIyVF4": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "8wcLZYcjWI0": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "GcqBdEWcUzc": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "Fsu9eFprUO8": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "1-zMdKCwcPo": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "nJjmIJhl_zg": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "FWzyYWih3Yk": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "adZR7beww8o": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "cZVL-EuWb1w": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "hiXNDh7vgKA": "playlist-sweep:2026-10-18T23:45:44.129Z",
         "xHSlVUHRSFY": "2026-10-19T14:06:04+00:00",
         "tHWM_KEQXpo": "2026-10-19T16:01:56+00:00",
         "RExEyr2Tm9I": "2026-10-14T14:00:27+00:00",
@@ -3968,23 +4029,13 @@
         "VLBHrDXIGsU": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "NdCDQlSynT0": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "AaOQHmmRZ_I": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "sGcLVNe_VnE": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "sGcLVNe_VnE": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "xavCkucTndI": "2026-10-21T14:00:29+00:00"
       },
       "rss_failure_fallback": {}
     },
     "hate5six": {
       "entries": {
-        "hR05jHlRDNY": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "W9iNoj5WXe0": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "aaHfYuW-LeI": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "cRpA86gADI4": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "MFiJKWVRvQE": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "sWEgS-QGquY": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "WADI_IaLZTw": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "2fWgAPqa0Ck": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "qgjmuGj58V4": "playlist-sweep:2026-10-18T23:45:44.129Z",
-        "uIqNHIwNvlQ": "2026-10-20T12:34:56+00:00",
-        "KrPysnP-8Mg": "2026-10-18T17:17:10+00:00",
         "StNEj3Rzi4A": "2026-10-18T01:08:49+00:00",
         "eoKd_HNFqCM": "2026-10-15T03:25:51+00:00",
         "IPIGE8NhXZw": "2026-10-14T03:55:37+00:00",
@@ -4023,26 +4074,13 @@
         "hfxY3BJsR7I": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "eGv_tYECm-8": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "hvpXcxdqaKI": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "IEmNcMg0LNE": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "IEmNcMg0LNE": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "eGbmyQI-Mtw": "2026-10-21T14:04:41+00:00"
       },
       "rss_failure_fallback": {}
     },
     "all-the-k-pop": {
       "entries": {
-        "oF-vSnLyQm4": "2026-10-20T12:57:10+00:00",
-        "IkW5p6_fhTs": "2026-10-20T13:32:42+00:00",
-        "FQvIbwJts94": "2026-10-20T07:14:55+00:00",
-        "xLIMvKtXTEE": "2026-10-18T09:00:40+00:00",
-        "S9Je2xly6DM": "2026-10-18T09:00:07+00:00",
-        "5uOKXJ3tDO8": "2026-10-18T09:00:30+00:00",
-        "WEgYqCVlB3A": "2026-10-18T12:01:46+00:00",
-        "JfgCzb8oC2o": "2026-10-16T17:33:12+00:00",
-        "DgsUtAVbh4w": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "O8soYWYlF1w": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "XGBGof84JE0": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "O0bb1XQQkTM": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "KHsJf3md50w": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "x_H6ony7KlE": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "Tjky29g_CKE": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "L8And9z6QWc": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "I3WjFTNE4Mo": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -4068,18 +4106,47 @@
         "RGoKkHv9rf0": "2026-10-21T09:13:31+00:00",
         "W_OBN-5xA1U": "2026-10-21T09:14:42+00:00",
         "KZWaRTwodxs": "2026-10-21T10:03:00+00:00",
-        "K9nEDUANHzI": "2026-10-21T09:00:09+00:00"
+        "K9nEDUANHzI": "2026-10-21T09:00:09+00:00",
+        "vZ4TMOHWu6M": "2026-10-21T13:05:19+00:00",
+        "2s7NjfR0ph4": "2026-10-21T13:05:35+00:00",
+        "TJZf4hZ8IAc": "2026-10-21T13:04:10+00:00",
+        "yl6sv4J87W8": "2026-10-21T13:07:18+00:00",
+        "PG7vkAU_jj0": "2026-10-21T13:03:42+00:00",
+        "-ykJu6CINU4": "2026-10-21T13:18:32+00:00",
+        "cpD6QdDAEhU": "2026-10-21T13:02:58+00:00",
+        "F0eTNISiqtQ": "2026-10-21T13:02:33+00:00",
+        "qebOR44wuKA": "2026-10-21T13:01:53+00:00",
+        "HiuNfXYD6OQ": "2026-10-21T13:01:19+00:00",
+        "u9LLvkKUetU": "2026-10-21T13:01:13+00:00",
+        "1JCJhrtRnwk": "2026-10-21T11:07:51+00:00",
+        "wqz8hLFvxSo": "2026-10-21T11:00:26+00:00",
+        "5UH-qWt0D7c": "2026-10-21T10:38:37+00:00",
+        "J4Sx6kKstJk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "X5C40RxMSy8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "p102CTc6D3Y": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DfvK1N6iIeQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "awt_w9U1_z0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "oF-vSnLyQm4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "IkW5p6_fhTs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MDlu5QEUYQU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "N1uCkmSXmIs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "7Awr9taPYno": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "BfOxSBzGeE8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "xLIMvKtXTEE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "S9Je2xly6DM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "5uOKXJ3tDO8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "WEgYqCVlB3A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "eF6QnQYdt9A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "SnP8KZ9lSNU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "uoFIS0vSCss": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "JfgCzb8oC2o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DgsUtAVbh4w": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DPg_YPiPW60": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "mbckpop": {
       "entries": {
-        "Tp2Phh9anIs": "2026-10-20T12:47:55+00:00",
-        "CY8aGD0P0ec": "2026-10-19T13:45:58+00:00",
-        "jVafgPSkV6E": "2026-10-19T12:54:52+00:00",
-        "a8b8UhveGMc": "2026-10-19T16:20:15+00:00",
-        "TvKBOA-MmRM": "2026-10-20T12:38:49+00:00",
-        "uFuW9T1UfkQ": "2026-10-20T13:43:20+00:00",
         "oH3QjglG0l8": "2026-10-19T16:55:25+00:00",
         "FsQpadW26Xc": "2026-10-19T14:19:14+00:00",
         "HjIDE8eC-fU": "2026-10-19T12:19:14+00:00",
@@ -4112,28 +4179,29 @@
         "Tz3m_XJgBtM": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "4TkgIQ8EzT8": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "kOMJjq9sJMQ": "2026-10-21T09:00:24+00:00",
-        "4ug8GL2f8p8": "2026-10-21T08:30:32+00:00",
-        "P2GTMEljrow": "2026-10-21T05:30:13+00:00"
+        "4ug8GL2f8p8": "2026-10-21T10:11:56+00:00",
+        "P2GTMEljrow": "2026-10-21T05:30:13+00:00",
+        "KS_JRwk4ojo": "2026-10-20T13:10:54+00:00",
+        "wAjtd4AiLVc": "2026-10-20T13:17:18+00:00",
+        "43US23Tg0vY": "2026-10-20T12:38:59+00:00",
+        "iaMD_Y5V6Ro": "2026-10-20T13:47:32+00:00",
+        "-AgCFb-AVik": "2026-10-20T13:42:30+00:00",
+        "BcAm0-X3OPI": "2026-10-20T12:39:45+00:00",
+        "Tp2Phh9anIs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "CY8aGD0P0ec": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jVafgPSkV6E": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "a8b8UhveGMc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "TvKBOA-MmRM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "uFuW9T1UfkQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DkhH4P9LQWA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "rVX-MoloUIs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "aNr1yTJYQCA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "0VnFZMbe2_8": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "global-citizen": {
       "entries": {
-        "OVBr1sS3FtM": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "o3KpGfHkots": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "vk4wBT6pL3c": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "TZZB610PWow": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "y8I2sQQKqEs": "playlist-sweep:2026-10-20T04:40:32.279Z",
-        "zWHJYHQvwmY": "2026-10-02T08:19:33+00:00",
-        "Dpz3G1KlmGU": "2026-10-02T08:22:38+00:00",
-        "vHtRB1__xx4": "2026-10-02T08:23:06+00:00",
-        "1XP4f96o3WA": "2026-09-30T23:30:39+00:00",
-        "htAeaiEyq0M": "2026-10-02T05:21:26+00:00",
-        "DFLOTIG-Beg": "2026-10-02T11:49:07+00:00",
-        "zQ43rBfhxl4": "2026-10-01T01:34:40+00:00",
-        "othS-zyxaKA": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "9cdWW4S-P1M": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "NRDAalbYdDo": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "JIXOioiuLh8": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "gBazPFh9lrM": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "QbxXwuxBNNc": "playlist-sweep:2026-10-20T18:42:05.299Z",
@@ -4158,7 +4226,22 @@
         "UTqZ16LQcxE": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "CZh2ou6tpSY": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "ouegz-pBc1Y": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "GN5SX9ly0TA": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "GN5SX9ly0TA": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "8BF38e_Q0v8": "2026-10-21T15:13:49+00:00",
+        "pMhMGzSnlAI": "2026-10-21T15:16:46+00:00",
+        "kVy7wuVbNUE": "2026-10-21T15:00:15+00:00",
+        "xGBGokLDAow": "2026-10-21T14:55:55+00:00",
+        "9L6LegOgl4o": "2026-10-21T15:18:39+00:00",
+        "FgmBjNFPNF4": "2026-10-21T15:19:13+00:00",
+        "kEe9iJMYP40": "2026-10-21T15:21:57+00:00",
+        "Fa1s_4f6ZnY": "2026-10-21T15:24:15+00:00",
+        "YG5Cx0_P930": "2026-10-21T15:16:15+00:00",
+        "qN3pd7ftCks": "2026-10-21T15:24:31+00:00",
+        "2gcTF6O1C_A": "2026-10-21T15:24:30+00:00",
+        "xNtYa0L2Lpw": "2026-10-21T15:00:52+00:00",
+        "r_JGwYj1SeY": "2026-10-21T15:14:54+00:00",
+        "u8fKyKoD1m4": "2026-10-21T14:46:51+00:00",
+        "-TjzBOYyOs8": "2026-10-21T14:54:23+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -4274,9 +4357,6 @@
     },
     "canal-capital-music-live": {
       "entries": {
-        "OF-Yihvgypk": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "jcl4mg9-Hd4": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "F03L9eTkL84": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "2TY_jB16QTg": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "UOKkXsK-_n4": "2026-10-21T00:01:29+00:00",
         "OlqXQwNU6JM": "2026-10-20T23:29:05+00:00",
@@ -4293,7 +4373,7 @@
         "074yitCp4l4": "2026-10-21T01:14:32+00:00",
         "lxRFj6UG8kE": "2026-10-21T01:09:45+00:00",
         "1WItRF70xlM": "2026-10-21T00:59:14+00:00",
-        "5cv_9RJMA4M": "2026-10-21T03:26:38+00:00",
+        "5cv_9RJMA4M": "2026-10-21T12:25:02+00:00",
         "MAR_eIYe1K4": "2026-10-21T01:13:31+00:00",
         "7ivm1sNLHH4": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "dNBsCbCMZzU": "playlist-sweep:2026-10-21T05:17:18.636Z",
@@ -4313,7 +4393,25 @@
         "LeemYzYQKoU": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "c9RjiLH9_BY": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "S4DQSJ5D30c": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "sOj37eFeVAc": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "sOj37eFeVAc": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "KKn9W3HaHUM": "2026-10-21T14:47:02+00:00",
+        "1HSiZRcYXeQ": "2026-10-21T14:43:51+00:00",
+        "X7ScKEnXY_k": "2026-10-21T15:16:09+00:00",
+        "q5W0pidQgy8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "0TLMGkECjbU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "6xbwIAVkWms": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ziQqP5Hgpps": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8mnUyemTC6A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gm4TB-3J6Us": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wM0_VgiDGtI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "kaBBwl4J0oI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "VpGjim5-YJE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "77GxCGCfKAs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Q4gXByLjyB4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "B1fT3MM57qQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Nm4u_nbETUE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_F54XvstE7k": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "H43v1U623CI": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {
         "last_attempt_at": "2026-09-04T06:07:35.816Z",
@@ -4434,12 +4532,6 @@
     },
     "reggaeville": {
       "entries": {
-        "wvKIQVgOHLc": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "KYysGBHwKUY": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "OL8uTXPCxJU": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "5odX77-POio": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "iC8xo0vdDSU": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "msY2KCtRtxo": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "ppnDmRTgKGA": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "98lTA4PVIEc": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "-rH-95cI00k": "playlist-sweep:2026-10-19T23:55:15.308Z",
@@ -4473,7 +4565,24 @@
         "bRX8hUiLkwU": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "BVeSuTDTmi8": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "my9pWaVgJPU": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "e6XwDwMwtSU": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "e6XwDwMwtSU": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "wn7C1_Qqxts": "2026-10-20T13:03:23+00:00",
+        "8AE7YALKOYk": "2026-10-20T13:08:26+00:00",
+        "Um8_D1xwHmI": "2026-10-20T13:31:01+00:00",
+        "9-4vC9ogiFM": "2026-10-19T15:49:06+00:00",
+        "q-4V6ml68P4": "2026-10-17T21:56:28+00:00",
+        "w6kjgEr7ftE": "2026-10-18T21:51:20+00:00",
+        "Lq2ZpcwfgSI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "EHyJaQCOW5g": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "XmNWLL0FBYo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "w-Y-Y5Ko3eg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RhSXqs_rrVI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wvKIQVgOHLc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KYysGBHwKUY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "OL8uTXPCxJU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "5odX77-POio": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iC8xo0vdDSU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "msY2KCtRtxo": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -4536,7 +4645,6 @@
     },
     "mediacorp-entertainment": {
       "entries": {
-        "_KQGmb6nwQs": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "FlEVoOjEhdc": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "d-Uz8S4UXUc": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "f40BApbXt7o": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -4564,8 +4672,8 @@
         "WrT--IKh9f0": "2026-10-21T10:10:25+00:00",
         "MaG2_Sev_iY": "2026-10-21T10:05:18+00:00",
         "vmsHEHBshug": "2026-10-21T10:03:22+00:00",
-        "O1tuy2TVv80": "2026-10-21T10:00:20+00:00",
-        "AnHKeNR0zgI": "2026-10-21T10:00:11+00:00",
+        "O1tuy2TVv80": "2026-10-21T10:41:11+00:00",
+        "AnHKeNR0zgI": "2026-10-21T12:32:14+00:00",
         "lmiDXaS5Mq4": "2026-10-21T09:40:19+00:00",
         "uleusdlJ7Dk": "2026-10-21T09:35:34+00:00",
         "eq1nDYi5CxA": "2026-10-21T09:35:13+00:00",
@@ -4575,7 +4683,37 @@
         "NgZCy7QUK5o": "2026-10-21T09:25:44+00:00",
         "JGOKZzMdi8M": "2026-10-21T09:20:31+00:00",
         "qqXAR0v-qgU": "2026-10-21T09:20:27+00:00",
-        "d14MsPaEB-E": "2026-10-21T09:15:28+00:00"
+        "d14MsPaEB-E": "2026-10-21T09:15:28+00:00",
+        "LTiahS_-ggc": "2026-10-21T13:00:01+00:00",
+        "Oym0E9rW8tE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "P1A1MFQqpiM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "NjTjTlU8W9c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "FKzEm45ijJk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "G7MDri2Uacg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RxAX4Zgua3w": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DTcIUm9-beM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Qt7NZhbv2D0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iYXXx7qZB9k": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "LMntclsD9Yg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "YQ0Vg5z5lNE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "WvqF4uWe_k0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "oPk_2XTZReM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KCjT7d2WAOg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DOwFoUJhWH0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ZZLRLipiMSw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "nioIAJ5ZYqE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "oztkkMJ362s": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "tJ1WdoByupU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "chd7y9NkgXc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "5nHm6cd601s": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8s3vBeOCGws": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MzTkW-zKyXo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jDZQ_KKK0dI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "QIve81QdA6M": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "VYjvRFjMK78": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "7lEDXQ7i30c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "k5tbX4M3Sg8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_KQGmb6nwQs": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {
         "last_attempt_at": "2026-09-04T06:07:35.816Z",
@@ -4694,15 +4832,13 @@
     },
     "univision-live-music": {
       "entries": {
-        "6ImoDImSk2A": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "8JgLxl3dnsk": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "OvtgyMFoRQY": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "UAUa0QgU72Y": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "j7gNOKUu444": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "1mvd1rz8HZ0": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "ZCoGb5zsR4k": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "kCe2UpKmyXs": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "ilQQBQiOBmo": "2026-10-20T23:44:56+00:00",
+        "ilQQBQiOBmo": "2026-10-21T14:33:57+00:00",
         "N3VTiMMvmWE": "2026-10-21T04:02:28+00:00",
         "uCGgc3OvMPM": "2026-10-20T21:00:21+00:00",
         "XuTyEC7olaY": "2026-10-20T22:23:04+00:00",
@@ -4733,7 +4869,9 @@
         "KStnUWzBtPc": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "HS03CgG0xCM": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "rOAkK4MIUoc": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "b2NGE_1HSPg": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "b2NGE_1HSPg": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "u2Pm-nOEpWY": "2026-10-21T14:15:21+00:00",
+        "e1Kcs3A0t-I": "2026-10-20T22:10:29+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -4794,21 +4932,6 @@
     },
     "mnet-kpop": {
       "entries": {
-        "NqGo26ASLRc": "2026-10-20T13:38:50+00:00",
-        "qHD2DiDCh60": "2026-10-20T12:41:24+00:00",
-        "SrtDFvP_fKg": "playlist:2026-10-21",
-        "h9wt2S81s04": "playlist:2026-10-21",
-        "wue7M2urios": "playlist:2026-10-21",
-        "FZ41_gOdzdI": "playlist:2026-10-21",
-        "VHQECj3XWUs": "playlist:2026-10-21",
-        "lquLaUX7zvs": "playlist:2026-10-21",
-        "gOKHAvGADSQ": "playlist:2026-10-21",
-        "ms_ZtVtXYns": "playlist:2026-10-21",
-        "ifeG8qtPSk8": "playlist:2026-10-21",
-        "_iKACnyXSWI": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "4bTFIZq0QAY": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "PQZKASSjvrs": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "K6rA98z7dmc": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "SbfP1TQ9WGo": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "coQZndH9g_k": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "qpjHCQ38Zi4": "playlist-sweep:2026-10-21T05:17:18.636Z",
@@ -4833,24 +4956,27 @@
         "teYJOZ5KI0E": "2026-10-21T09:50:14+00:00",
         "4lWU-1gd2mA": "2026-10-21T09:52:19+00:00",
         "urXjKHCJfWM": "2026-10-21T10:01:00+00:00",
-        "Bj4irQvAARQ": "2026-10-21T10:05:03+00:00"
+        "Bj4irQvAARQ": "2026-10-21T10:05:03+00:00",
+        "r580lix5ROo": "2026-10-21T13:10:26+00:00",
+        "zxqQVwXmyDg": "2026-10-21T12:15:57+00:00",
+        "xLBDB2p_x2I": "2026-10-21T12:11:13+00:00",
+        "ftbTtMnxDU8": "2026-10-21T14:32:13+00:00",
+        "NQWvV7XYu6o": "2026-10-21T12:09:26+00:00",
+        "nwtkXeHyQzo": "2026-10-21T14:02:34+00:00",
+        "nHAx8LkJUd8": "2026-10-21T14:02:46+00:00",
+        "n8Gbunna304": "2026-10-21T12:06:50+00:00",
+        "wO-YGgYowSw": "2026-10-21T12:05:17+00:00",
+        "5ekXTiIWwP0": "2026-10-21T12:13:03+00:00",
+        "Yv8JAxycfmw": "2026-10-21T14:47:01+00:00",
+        "0DApdkFc0Yg": "2026-10-21T13:03:52+00:00",
+        "sfWQ3WKny1w": "2026-10-21T12:01:30+00:00",
+        "VS--IensfZU": "2026-10-21T12:00:44+00:00",
+        "4rr8IdVR26U": "2026-10-21T11:00:14+00:00"
       },
       "rss_failure_fallback": {}
     },
     "the-first-take": {
       "entries": {
-        "lCMl3HsYRdg": "2026-10-17T02:25:04+00:00",
-        "TZQFTJ2Je0A": "2026-10-13T11:11:59+00:00",
-        "6bIVPKhafSI": "2026-10-12T16:13:24+00:00",
-        "EaYxNTHFc3o": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "h1wlTCAPrmY": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "zY71o9Bluls": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "rnmESL7J3xo": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "dHKn6y2a5tg": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "xV2zOxL7zLA": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "nRyTI9gFfDU": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "sI_BPOWiW0o": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "sVQbOTGolho": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "OTGePaACRCs": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "0aHORiI2SUg": "2026-10-19T14:12:03+00:00",
         "E3PuNnJhwm0": "2026-10-13T13:00:31+00:00",
@@ -4878,10 +5004,10 @@
         "2Hf-MVahfeI": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "4b8WWWOfm0c": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "HBCCSTNZsRU": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "Q5Om3k90dMs": "2026-10-21T08:45:07+00:00",
-        "yEObgTC1AH4": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "CMdxE0_YVAo": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "wA2KPiYqZKg": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "Q5Om3k90dMs": "2026-10-21T13:06:08+00:00",
+        "yEObgTC1AH4": "2026-10-19T12:28:41+00:00",
+        "CMdxE0_YVAo": "2026-10-19T04:58:40+00:00",
+        "wA2KPiYqZKg": "2026-10-15T23:24:27+00:00",
         "tUWpDZC_aHQ": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "Pd0ZLi87ink": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "nk9zx3gGqSc": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -4889,25 +5015,13 @@
         "K2quL_v3Lqc": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "M37VaMZ_Wcw": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "LdMES8x7tu8": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "4J06I7qy7kM": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "4J06I7qy7kM": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "Ml_aCxh7oQc": "2026-10-21T13:00:32+00:00"
       },
       "rss_failure_fallback": {}
     },
     "nuclear-blast-records": {
       "entries": {
-        "ISrZImai8cQ": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "brQgP-zFdyw": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "I4yT1gnNqts": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "4ezf6emV8lI": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "klJcOWTNedA": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "aiS93HDWPOM": "playlist:2026-10-20",
-        "2g-pE4dObc4": "2026-10-09T19:32:43+00:00",
-        "bKOyGjvCHdg": "2026-10-07T20:38:00+00:00",
-        "SyMad31UBnU": "2026-10-19T12:46:34+00:00",
-        "ftGt0SvbhI8": "2026-09-30T18:18:19+00:00",
-        "MIjjuY4FHzs": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "kQ3dMwkEWyI": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "fyQmZ4VjzoE": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "XfJB300f1L0": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "WwoSiiiPGdM": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "8yt2WUfc6Pc": "playlist-sweep:2026-10-20T09:41:05.528Z",
@@ -4933,7 +5047,7 @@
         "EZP9z9CMdYg": "playlist:2026-10-21",
         "S8_8Dm75gTM": "2026-10-20T13:03:24+00:00",
         "WgM2lXSwapw": "2026-10-21T08:29:56+00:00",
-        "wc3spRYZ5BY": "2026-10-14T14:14:43+00:00",
+        "wc3spRYZ5BY": "2026-10-21T12:10:25+00:00",
         "fh5rbrlMBgw": "2026-10-02T15:57:51+00:00",
         "wKDpITO0KVM": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "R1ffOKrOuh8": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -4946,7 +5060,8 @@
         "nLaJFgP3Q1E": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "x1K4gVUQkDU": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "7s5AxLeUOsE": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "xE8MvRw7b2Q": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "xE8MvRw7b2Q": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "O4pf13iML6c": "2026-10-21T14:57:42+00:00"
       },
       "rss_failure_fallback": {}
     },
@@ -5119,22 +5234,6 @@
     },
     "armada-music": {
       "entries": {
-        "nNqEzu4_rhg": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "WQUK6lvbVlw": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "SERWd8IuT1E": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "h7ErLnAbAas": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "qdYQoNU4qkc": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "tOhn-vmIHzg": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "Og6Dk3xn4ms": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "VbXx_TAbAVE": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "fLuw9ewQjP8": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "PbA1cYP9gyE": "2026-10-20T07:10:25+00:00",
-        "8GOCkXR91m4": "2026-10-19T14:48:18+00:00",
-        "6AQOAO6YCcc": "2026-10-19T16:18:47+00:00",
-        "QCwylRwWlOE": "2026-10-19T17:45:36+00:00",
-        "OQTdLqsk00U": "2026-10-19T15:02:01+00:00",
-        "zyT5m_CP3Ts": "2026-10-19T17:44:39+00:00",
-        "yAgwSmUk-0M": "2026-10-13T11:02:57+00:00",
         "uxkFJM2t6sM": "2026-10-10T15:55:41+00:00",
         "MCjB80Oz8II": "2026-10-13T02:49:02+00:00",
         "Gy8yFYavTLk": "playlist-sweep:2026-10-20T04:40:32.279Z",
@@ -5171,16 +5270,25 @@
         "zwfo4TgOf5E": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "4q_CV0L3sBE": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "c-cQ7dyoqX4": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "RhXUVH8vhJQ": "playlist-sweep:2026-10-20T21:57:05.678Z"
+        "RhXUVH8vhJQ": "playlist-sweep:2026-10-20T21:57:05.678Z",
+        "C1Qdd6ZSJf4": "2026-10-21T11:00:46+00:00",
+        "M00oAbfX8co": "2026-10-21T11:00:26+00:00",
+        "i2zcDG-S22s": "2026-10-21T11:00:31+00:00",
+        "PbA1cYP9gyE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8GOCkXR91m4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "6AQOAO6YCcc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "QCwylRwWlOE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "OQTdLqsk00U": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "zyT5m_CP3Ts": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "yAgwSmUk-0M": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "nNqEzu4_rhg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "WQUK6lvbVlw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "SERWd8IuT1E": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "recording-academy-grammys": {
       "entries": {
-        "LuMji2zbHLA": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "JjlPpKVCw4I": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "njuR5LtitGU": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "Efp0q64Rgko": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "Lh5DQT2Eols": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "TK_DhAm55mo": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "NRHvutM1zcg": "playlist-sweep:2026-10-19T23:55:15.308Z",
@@ -5216,18 +5324,26 @@
         "tYzdzOOlhvY": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "vOe89hj8icY": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "iamnF6WNfBM": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "490GnftnykY": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "490GnftnykY": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "qPjAlK6DqvM": "2026-10-19T15:00:06+00:00",
+        "_kWZwXm83Wg": "2026-10-17T16:13:19+00:00",
+        "-7GUTjUcRzs": "2026-10-16T09:25:49+00:00",
+        "63NPw4guew0": "2026-10-14T19:05:08+00:00",
+        "E6IyB3uQIig": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "rUKft7NvmSA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iwE31s34LxY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "LuMji2zbHLA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "JjlPpKVCw4I": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "njuR5LtitGU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Efp0q64Rgko": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Ar2PaybiIYU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "VMpyZpvhxtM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "5h_qM-dzITQ": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "latin-grammys": {
       "entries": {
-        "bx4yok063Ns": "2026-10-18T16:53:28+00:00",
-        "RybdVUxJe0A": "2026-10-18T17:06:23+00:00",
-        "iqXbusveBwo": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "CaMUre3oeOc": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "LLm6gX1tmCA": "2026-10-18T16:51:04+00:00",
-        "OrfsA4vgyVQ": "2026-10-18T17:00:49+00:00",
         "I5Tuk_FyuWc": "2026-10-18T16:52:14+00:00",
         "pNvvXB1flL4": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "VYve77di-Q0": "playlist-sweep:2026-10-17T18:25:33.821Z",
@@ -5261,17 +5377,28 @@
         "IY71OMNaINw": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "X4JQO-Jh2Mc": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "cInAF2Ck8B0": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "uquzAKUFWyo": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "uquzAKUFWyo": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "72PkI9zAdhA": "2026-10-18T01:06:56+00:00",
+        "PVn-O_J1Dlk": "2026-10-09T09:31:25+00:00",
+        "uuEdEYmyJek": "2026-10-02T09:22:28+00:00",
+        "ZW8UE8bZ5IQ": "2026-10-18T17:00:18+00:00",
+        "cEXCSLrkAiY": "2026-10-20T23:53:31+00:00",
+        "-3SYOrKdFFg": "2026-10-18T16:52:22+00:00",
+        "LLm6gX1tmCA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "bx4yok063Ns": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "OrfsA4vgyVQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "RybdVUxJe0A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iqXbusveBwo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "x6XAm05LsjM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "HfVI1d6dl_A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "jKjMY8CwfcU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-SnnV-Gf1XE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "CaMUre3oeOc": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "above-and-beyond": {
       "entries": {
-        "qHKX2k3c4-4": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "nR_R3boY7E0": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "wvKjr3KnDN4": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "UKFAvU69lcU": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "pcrNWCnDLTc": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "bF_lqJuFFzw": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "B_xlVfPvSc4": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "KERzPOH_GDU": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -5306,15 +5433,27 @@
         "NEdy5CnKWuk": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "7bZy2pJTYzI": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "phWKhIwgiTo": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "UQNZRbBhxWc": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "UQNZRbBhxWc": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "92tsWLvhSH0": "2026-10-20T13:15:02+00:00",
+        "y4AuA9gqnjc": "2026-10-18T01:08:57+00:00",
+        "iIq9Sux65lk": "2026-10-17T13:48:46+00:00",
+        "a7QQbUL775k": "2026-10-15T03:28:21+00:00",
+        "WdY89y_y8xg": "2026-10-14T20:08:52+00:00",
+        "EMsath0Q2eU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "qHKX2k3c4-4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "nR_R3boY7E0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wvKjr3KnDN4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "UKFAvU69lcU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "pcrNWCnDLTc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "HjTeymFA7-k": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "xXaN9Ki3R8g": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "IK53B47lEg0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "bavTKr1QHzw": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
     "anjunabeats": {
       "entries": {
-        "slxg1fEV05s": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "yoC9mQnZKfs": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "VTdES0gpXdc": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "uluNlccv8cI": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "TLPudnYjtmU": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "YVUTYchgclQ": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -5351,7 +5490,22 @@
         "6knXVQWNQEQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "-qJ3yUNP_AU": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "uyeAsibQVRQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "BPu3ko4OOOQ": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "BPu3ko4OOOQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "4bLQNOpjMJI": "2026-10-21T14:04:06+00:00",
+        "XsDt1wfnvu0": "2026-10-21T11:47:02+00:00",
+        "4q4R1DwNq0k": "2026-10-20T11:37:09+00:00",
+        "VwSrBpx6P1Q": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "TPv8fTDawjk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "pdFc_CNurHo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "gumT8MWjiuc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Jzlcnlu9QbY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "hcl7FihRvJc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "9zZBxe0d50o": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "0DnalFUZ8qo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "zHBtPsIpw-A": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "slxg1fEV05s": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "yoC9mQnZKfs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "VTdES0gpXdc": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -5469,18 +5623,6 @@
     },
     "smallslive": {
       "entries": {
-        "LiZbfWwYsHE": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "-G-MI1Sy2uc": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "OY7U4ZM6Vsg": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "r74zVmAZekw": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "vlXHgkqzHjQ": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "73uUiY4EN9I": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "ra7fry8Dpqc": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "26kjeRD33Rw": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "ClLttgV67wk": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "WBJtYVFbP7c": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "GOEIEUXqkLA": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "Ogth_oUD4Qg": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "y5KW9W4IEUI": "2026-10-19T13:28:38+00:00",
         "H5g9q4-huUI": "2026-10-19T16:25:22+00:00",
         "kNIEFhobTyM": "2026-10-19T16:51:22+00:00",
@@ -5509,7 +5651,7 @@
         "xUEAtvjkPzQ": "2026-10-19T15:47:54+00:00",
         "Qni_Po09xgo": "2026-10-19T13:09:14+00:00",
         "mQjVNlL4SyY": "2026-10-19T14:41:33+00:00",
-        "mOl1HWpBLAQ": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "mOl1HWpBLAQ": "2026-10-19T16:00:06+00:00",
         "bdHR_qD06IY": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "_YZZKrq0LDM": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "1KVINNMeiJE": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -5526,13 +5668,6 @@
     },
     "mezzrow-jazz-club": {
       "entries": {
-        "U6mvTS8K5Jo": "2026-10-17T20:47:47+00:00",
-        "l6_AEG83NGo": "2026-10-17T05:03:08+00:00",
-        "j-04aZQiy_4": "2026-10-15T04:07:32+00:00",
-        "9xEfKYURG3E": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "yJhQFdPNEaw": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "WBALjVUFF2w": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "xhiBfuqzstU": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "xMxfRBfzLqg": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "ADWZ6POP0gU": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "gD0GA3Gm2RY": "playlist-sweep:2026-10-19T15:01:29.819Z",
@@ -5565,15 +5700,19 @@
         "LpG1s6dG-pM": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "BpA5t9EQZDE": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "Xjdr4tnlcx0": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "FGFd5pCXNXA": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "FGFd5pCXNXA": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "XxzfXGIiOao": "2026-10-20T02:45:22+00:00",
+        "im6mQyxRyrs": "2026-10-19T01:16:46+00:00",
+        "kiK7YOsNM0g": "2026-10-18T21:12:25+00:00",
+        "b50WXetbdrM": "2026-10-18T04:45:08+00:00",
+        "vOYn4XxVvlc": "2026-10-18T01:28:32+00:00",
+        "1npFlDC5g2w": "2026-10-17T01:47:03+00:00",
+        "ouAOQt6h8X0": "2026-10-16T06:24:28+00:00"
       },
       "rss_failure_fallback": {}
     },
     "wish-1075": {
       "entries": {
-        "h_NMN7XQuLQ": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "7mN9klxqq3Y": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "PrhHyWXO0OI": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "QoxTy699zMY": "2026-10-21T07:42:17+00:00",
         "vBhwvo-YFT8": "2026-10-16T08:59:42+00:00",
         "tdOzjn3LwbE": "2026-10-15T23:51:16+00:00",
@@ -5610,7 +5749,10 @@
         "4_yvE-L1K5Q": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "U7sMpppxB64": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "LrhEa0-OcsQ": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "3KtvKPyj6JQ": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "3KtvKPyj6JQ": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "T_ragLV8eGk": "2026-10-21T13:30:54+00:00",
+        "wiNiRzb7jSc": "2026-10-21T15:11:12+00:00",
+        "7ijnf9EZ-uQ": "2026-10-19T17:30:54+00:00"
       },
       "rss_failure_fallback": {
         "last_attempt_at": "2026-09-04T06:07:35.816Z",
@@ -5722,10 +5864,6 @@
     },
     "brit-awards": {
       "entries": {
-        "QVqch0wfgMk": "2026-10-18T16:51:15+00:00",
-        "fbr352yvoIo": "2026-10-18T17:05:51+00:00",
-        "TOrXVL-2eNI": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "Od3VtbNlXAE": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "SZDsijZOCY4": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "l-l-eZoeXL4": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "VOl1Smns2UY": "playlist-sweep:2026-10-17T18:25:33.821Z",
@@ -5761,7 +5899,21 @@
         "S6bDM_0mHBs": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "k4y5NSLezHs": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "u2VbMeqYmUs": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "0K9RkMwXYHY": "playlist-sweep:2026-10-20T14:31:49.517Z"
+        "0K9RkMwXYHY": "playlist-sweep:2026-10-20T14:31:49.517Z",
+        "GFJpfYxutY0": "2026-10-13T02:47:24+00:00",
+        "rn7X87etT3A": "2026-10-12T03:38:38+00:00",
+        "MItrzdUfCf0": "2026-10-21T00:53:37+00:00",
+        "BY2ND7A8xA8": "2026-10-03T17:26:03+00:00",
+        "QVqch0wfgMk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "fbr352yvoIo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "tiCSiQtHoYM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "XqFi61nWQtA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ke6tD7ALHZ4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "TOrXVL-2eNI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Od3VtbNlXAE": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Z-uahlRDjLM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ZxyTmTqtrts": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "MrovvSU6dho": "playlist-sweep:2026-10-21T15:25:12.035Z"
       },
       "rss_failure_fallback": {}
     },
@@ -6099,10 +6251,6 @@
     },
     "music-matters-live": {
       "entries": {
-        "kqU1jW85jG8": "2026-10-04T17:59:33+00:00",
-        "ZW2FBJYY33Y": "2026-10-04T10:24:22+00:00",
-        "5ZiZ0Fmbpvg": "2026-10-20T12:23:00+00:00",
-        "XPi7obCtprc": "2026-10-20T13:53:07+00:00",
         "hpOJLYooXN0": "2026-10-04T20:43:34+00:00",
         "BIwpQnyEaqM": "2026-10-01T18:20:05+00:00",
         "Esn4vEfxPGo": "2026-10-04T03:53:56+00:00",
@@ -6138,7 +6286,11 @@
         "JmZo4VCQDGI": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "IjVSWdrOLFI": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "25LFyHHBvvs": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "mxXE7JPHfMM": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "mxXE7JPHfMM": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "SWSwIQQOMIM": "2026-10-03T08:01:10+00:00",
+        "-2EVhZL3sAg": "2026-10-01T10:35:46+00:00",
+        "OuWsqWA25wE": "2026-10-03T23:27:05+00:00",
+        "C0ElXk3owm8": "2026-10-01T02:30:50+00:00"
       }
     },
     "pop-yours": {
@@ -6745,19 +6897,6 @@
     },
     "operavision": {
       "entries": {
-        "pj-QEdQTIQA": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "affYQJ_isTw": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "SBeYKvSn6uU": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "oORcOJs6TLo": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "7efd25st5GM": "playlist-sweep:2026-10-17T15:54:44.937Z",
-        "UmOXAtnrJUo": "2026-10-20T12:27:54+00:00",
-        "h6_X_9Ka50M": "2026-10-16T19:11:39+00:00",
-        "DcRshYG0z2E": "2026-10-19T07:26:35+00:00",
-        "kLbUsoWZ4v0": "2026-10-14T12:18:53+00:00",
-        "42JyYP2AsmY": "2026-10-07T09:35:13+00:00",
-        "2IxMEin84Rw": "2026-10-02T13:35:52+00:00",
-        "QN8NZE-k7KQ": "2026-10-04T23:42:39+00:00",
-        "2X9OnbmLgRM": "2026-10-03T18:37:52+00:00",
         "-RuW3C8Vw3E": "2026-10-17T08:15:35+00:00",
         "nnGcM4YHTnY": "2026-09-30T06:46:54+00:00",
         "7HKPTrCAdcg": "playlist-sweep:2026-10-19T20:33:37.831Z",
@@ -6795,30 +6934,19 @@
         "MZA3SF7oq9A": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "041otUVC5VY": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "n4QoxhmRJb4": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "en_fyy6U1zA": "playlist-sweep:2026-10-20T21:57:05.678Z"
+        "en_fyy6U1zA": "playlist-sweep:2026-10-20T21:57:05.678Z",
+        "YJamM6HnLMQ": "2026-10-21T14:00:23+00:00",
+        "BCYvnoie8IQ": "2026-10-21T12:15:05+00:00"
       }
     },
     "ard-klassik": {
       "entries": {
-        "j2up7iMeTs0": "playlist-sweep:2026-10-19T01:52:41.217Z",
-        "JmocqKW9B9o": "playlist-sweep:2026-10-19T01:52:41.217Z",
-        "f-Sct_Qz1rU": "playlist-sweep:2026-10-19T01:52:41.217Z",
-        "Sudhzr9DP8U": "playlist-sweep:2026-10-19T01:52:41.217Z",
-        "CmRC7q-0HSE": "2026-10-19T15:28:18+00:00",
-        "S9kRo9_ag9Q": "2026-10-15T22:47:09+00:00",
-        "dhQMB1zLe4I": "2026-10-15T22:55:45+00:00",
-        "Oqoc6glLfQs": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "FMsD4ZRrHfQ": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "995-RHw4gTY": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "pX46-ygguv8": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "tIeE9QcXEeI": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "mqbDxLhP1Fk": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "fYfVP3UyB08": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "ZAaIE1CnJSo": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "GFEFRtv9BC4": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "htmPJ5tmQd8": "2026-10-19T18:12:52+00:00",
         "mvxhFbaCICI": "2026-10-19T15:27:04+00:00",
-        "jWmYmFB2yrs": "2026-10-20T04:07:00+00:00",
+        "jWmYmFB2yrs": "2026-10-21T12:29:08+00:00",
         "q3lwcFTQ5-E": "2026-10-18T23:28:21+00:00",
         "-hEAdgliLmM": "2026-10-12T12:00:39+00:00",
         "9G6bgG-0nXk": "playlist-sweep:2026-10-19T23:55:15.308Z",
@@ -6848,7 +6976,11 @@
         "6iTTaTjDYyQ": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "OSIlVLS0iEI": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "l7uxebzNjy8": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "ty1OwTNwvfc": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "ty1OwTNwvfc": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "Ix4nbBsty10": "2026-10-21T14:00:23+00:00",
+        "PyM2c99yctc": "2026-10-21T14:16:21+00:00",
+        "ZHeJ8l3K9oc": "2026-10-21T13:52:09+00:00",
+        "jTqB1nvxGzE": "2026-10-21T12:02:40+00:00"
       }
     },
     "kennedy-center": {
@@ -6899,7 +7031,9 @@
         "DgYlzBP-yUY": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "QPspVCEEiR8": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "CgMkJH99sR0": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "ja3XTFy-L0k": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "ja3XTFy-L0k": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "-jhUAcYVtok": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "h5Rz4SfFwgU": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "jazzaldia": {
@@ -6958,16 +7092,6 @@
     },
     "curtis-institute-of-music": {
       "entries": {
-        "GKl12dBSkqk": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "iboOkAwAfbg": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "lXilQl3hXKo": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "FV3FqOa0VKw": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "K0RviaXEW2w": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "NSFCShv3SXw": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "lYsESLK0VE4": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "whQAfEcGO-8": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "uo0AsmHP1ow": "2026-10-09T14:30:33+00:00",
-        "DvxO8FgKaUE": "2026-10-12T03:38:12+00:00",
         "kBvYZCQ5l4c": "2026-10-02T13:40:24+00:00",
         "qIrun4EMF7c": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "CY9UUxpqyB8": "playlist-sweep:2026-10-20T09:41:05.528Z",
@@ -6998,15 +7122,15 @@
         "zmAqNROdi8A": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "4-dYz0pHq8g": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "tL0tM4KZ7G8": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "vwVXixii6h0": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "j_uNfCiSWrA": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "U-1oLOSeqxQ": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "ouc4bQD39-c": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "wtfYRxu5t3o": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "bU07E6n4pRs": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "dqW41VXmVH0": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "zs9waVVIqd0": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "Fbb6yKt6GMQ": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "vwVXixii6h0": "2026-10-19T21:35:20+00:00",
+        "j_uNfCiSWrA": "2026-10-16T16:11:14+00:00",
+        "U-1oLOSeqxQ": "2026-10-21T03:20:43+00:00",
+        "ouc4bQD39-c": "2026-10-12T03:32:58+00:00",
+        "wtfYRxu5t3o": "2026-09-30T05:08:26+00:00",
+        "bU07E6n4pRs": "2026-10-12T08:10:19+00:00",
+        "dqW41VXmVH0": "2026-10-15T07:25:16+00:00",
+        "zs9waVVIqd0": "2026-10-07T13:38:43+00:00",
+        "Fbb6yKt6GMQ": "2026-09-30T11:31:33+00:00",
         "h9yXnkW2QaE": "playlist-sweep:2026-10-21T10:19:40.338Z"
       }
     },
@@ -7174,10 +7298,6 @@
     },
     "lost-lands-music-festival": {
       "entries": {
-        "tczBTHILtio": "2026-10-17T01:06:02+00:00",
-        "47o0lJpSwLk": "2026-10-02T00:06:43+00:00",
-        "VKOf_ub9SqI": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "wdOe276EGz8": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "ZDFy3UJm-M0": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "DYlcCkyYDnA": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "g4NRJODFffk": "playlist-sweep:2026-10-17T18:25:33.821Z",
@@ -7213,22 +7333,26 @@
         "zdP2u688G-Q": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "K2LZYQKZqN4": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "APQk-d4-71s": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "sZfCy6sB5qk": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "sZfCy6sB5qk": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "za7TTIMDASo": "2026-10-15T02:16:55+00:00",
+        "FX0f8slNsEU": "2026-10-20T03:16:09+00:00",
+        "nyaGV-jeST8": "2026-10-05T09:19:28+00:00",
+        "et-PgFNfAhs": "2026-10-02T11:00:01+00:00",
+        "tczBTHILtio": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "47o0lJpSwLk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "IONCwsThc5E": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Zt185hOVU0k": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "VKOf_ub9SqI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wdOe276EGz8": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "oqhM1ydMgts": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "GeyNCVLu5JM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_cE7LjEeGd0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KMUW2qwKTsc": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "major-lazer-official": {
       "entries": {
-        "Ony21OykCS4": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "_ajU8hL9o9E": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "OaRQ3oweOIw": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "u08KWDcMfhc": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "pHUz_gWeeZY": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "WW3WuP5R2L0": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "UYtHI8U_pEg": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "TBb4atYwChw": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "56x0PHQLGs4": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "hu9RwPq9Kyc": "playlist-sweep:2026-10-19T07:41:50.305Z",
-        "3oKwhWzU1bU": "2026-10-20T13:18:32+00:00",
+        "3oKwhWzU1bU": "2026-10-21T12:55:31+00:00",
         "TJSUiA30y_k": "2026-10-06T01:11:42+00:00",
         "-2zkxjGc2L8": "2026-10-03T09:18:14+00:00",
         "sYG1w0xuBIU": "2026-09-30T16:02:07+00:00",
@@ -7267,12 +7391,21 @@
         "TdvBE57jw5w": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "1wdyy7N8Sk4": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "--j1vR6fnzE": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "OdHicoqf5h8": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "OdHicoqf5h8": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "Ony21OykCS4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "_ajU8hL9o9E": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "OaRQ3oweOIw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "u08KWDcMfhc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "pHUz_gWeeZY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "WW3WuP5R2L0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "UYtHI8U_pEg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "TBb4atYwChw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "56x0PHQLGs4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "hu9RwPq9Kyc": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "hospital-records": {
       "entries": {
-        "j43NyDKiQFg": "playlist-sweep:2026-10-10T15:18:04.798Z",
         "LiJjYIT1ueU": "playlist-sweep:2026-10-10T15:18:04.798Z",
         "UKy7eYQPsfk": "2026-09-30T18:48:09+00:00",
         "26jLS6dOGN4": "2026-10-04T03:54:54+00:00",
@@ -7311,7 +7444,8 @@
         "FzXsCmDW2JM": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "cLXGTBo6W1Q": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "KWsPq1Vt5BY": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "480SUFe2C-8": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "480SUFe2C-8": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "5196v8VY1LI": "2026-10-04T12:07:00+00:00"
       }
     },
     "reona": {
@@ -7426,16 +7560,6 @@
     },
     "allverse": {
       "entries": {
-        "K7L6KLKBDvU": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "kke015848HU": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "1o72l7rvn3Q": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "_GfMP2Q8kWs": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "aYX8YC_qkoI": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "Z7i_vvM1hxA": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "kOZlBv6FZB0": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "bD5cEeR932s": "playlist-sweep:2026-10-17T08:39:58.570Z",
-        "LG2PW-fh1_U": "2026-09-30T16:23:33+00:00",
-        "VfptTt1xaU8": "playlist-sweep:2026-10-17T15:54:44.937Z",
         "UBqf1yapwkM": "playlist-sweep:2026-10-17T15:54:44.937Z",
         "o1oPOOkpNb4": "playlist-sweep:2026-10-17T15:54:44.937Z",
         "PQ1642paLzw": "playlist-sweep:2026-10-17T15:54:44.937Z",
@@ -7466,11 +7590,11 @@
         "BbthBh_9JYc": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "0_wr9KK8WcM": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "Rm63o5rqQs8": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "y8bN2TX0mBs": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "-G5TnvyyTc8": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "qrPm2NSjflk": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "cNydqhqh1yE": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "tMjZEMM_uoE": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "y8bN2TX0mBs": "2026-10-20T18:22:40+00:00",
+        "-G5TnvyyTc8": "2026-10-01T20:12:43+00:00",
+        "qrPm2NSjflk": "2026-10-04T09:39:29+00:00",
+        "cNydqhqh1yE": "2026-10-04T21:19:46+00:00",
+        "tMjZEMM_uoE": "2026-10-04T01:40:11+00:00",
         "VNdfjHRp-DI": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "gk45rbooECc": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "2YIYMFp1D2g": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -7480,7 +7604,6 @@
     },
     "premio-btg-pactual-musica-brasileira": {
       "entries": {
-        "MNEkCcLU7jE": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "JgfvYM4ZkaM": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "VdxQWSalVEs": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "SHsaVqRIcz0": "playlist-sweep:2026-10-20T18:42:05.299Z",
@@ -7519,7 +7642,8 @@
         "5qzyjRmTqq0": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "m5rE16gP0SE": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "ZBMHPLlM-JE": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "DroGW4NelB0": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "DroGW4NelB0": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "tU5RkRcLcRY": "2026-10-19T16:33:02+00:00"
       }
     },
     "sesc-sao-paulo": {
@@ -7578,21 +7702,14 @@
     },
     "vorterix": {
       "entries": {
-        "n1O94a5OqN4": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "Q6LdunvDQd8": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "h5fMOI8iNjc": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "47VJ41ufvFE": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "XuJR6TCz_D8": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "cntmO8a8FyM": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "NxLDqViLZUw": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "oeRK034ouG4": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "geCtJHe1S_o": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "O2gU2AWJ6ik": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "1vyq5Ap7s3A": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "9HbeHiD8Rro": "2026-10-21T05:30:17+00:00",
+        "9HbeHiD8Rro": "2026-10-21T13:24:53+00:00",
         "yn1DQybZACY": "2026-10-21T02:31:49+00:00",
         "x8OaJ6CwTc0": "2026-10-21T02:21:42+00:00",
-        "oQkGkrdz4zI": "2026-10-21T08:18:00+00:00",
+        "oQkGkrdz4zI": "2026-10-21T15:10:06+00:00",
         "N0FNU7-7Rf4": "2026-10-20T23:59:18+00:00",
         "WZ0-Owo19f8": "2026-10-20T23:43:08+00:00",
         "ihKWjTE-9rA": "2026-10-21T00:29:46+00:00",
@@ -7617,17 +7734,18 @@
         "ZSMhU5uv7OM": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "0tlLodciS-o": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "FjfV_HVSZ5o": "2026-10-21T08:55:53+00:00",
-        "Il-NmAwNIuI": "2026-10-21T01:17:18+00:00"
+        "Il-NmAwNIuI": "2026-10-21T01:17:18+00:00",
+        "VR1tnkBqvuY": "2026-10-21T12:55:06+00:00",
+        "OEWG0BPB2mg": "2026-10-21T15:17:43+00:00",
+        "ITAFF9BH6jE": "2026-10-21T14:28:48+00:00",
+        "MDthvuo6ZT4": "2026-10-21T14:09:25+00:00",
+        "kz1jfiBXS0Q": "2026-10-20T20:56:45+00:00",
+        "ZBgWFgcMGHM": "2026-10-20T16:05:32+00:00",
+        "hacM2T_bj0Q": "2026-10-20T13:08:32+00:00"
       }
     },
     "hiptv": {
       "entries": {
-        "cTZ9-jB_OsM": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "Wfyrept5G4k": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "O8IOx1fHREI": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "V7R7xz4mxJk": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "FHJSWjIDzHA": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "Ai_h_wzrves": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "TEpS0ZfFaeA": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "g0rHy_bWKJw": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "06Obk7d6snw": "playlist-sweep:2026-10-19T15:01:29.819Z",
@@ -7661,12 +7779,17 @@
         "hA2SY21Z0Kg": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "KqzEFKnHCDg": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "6k-iNoUyu8k": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "JxEiZPRxCOk": "2026-10-21T08:43:18+00:00"
+        "JxEiZPRxCOk": "2026-10-21T08:43:18+00:00",
+        "2kxRsTLO7CY": "2026-10-19T17:48:29+00:00",
+        "iFMD_lAddZY": "2026-10-19T17:44:22+00:00",
+        "GAVgwSIVi8Y": "2026-10-20T04:16:08+00:00",
+        "clJ32Ykxu2o": "2026-10-19T15:11:38+00:00",
+        "qeSMW-SiHF0": "2026-10-09T09:30:21+00:00",
+        "hDsPajIwphM": "2026-10-02T08:23:18+00:00"
       }
     },
     "billboard-brasil": {
       "entries": {
-        "R3THLVbgw_g": "2026-10-21T01:40:46+00:00",
         "6MajfbkEmzQ": "2026-10-21T01:35:10+00:00",
         "NWTes2Gy4cA": "2026-10-21T02:33:36+00:00",
         "vfXptNTcbxA": "2026-10-21T01:07:08+00:00",
@@ -7705,7 +7828,18 @@
         "iFpmPElJ58Q": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "xhZQHJa4V18": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "8jWQG9b1AzI": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "4yYJy3jtbq4": "playlist-sweep:2026-10-21T05:17:18.636Z"
+        "4yYJy3jtbq4": "playlist-sweep:2026-10-21T05:17:18.636Z",
+        "l2iouNqAxkE": "2026-10-21T11:10:36+00:00",
+        "R3THLVbgw_g": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "f8f1WdCS1TY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "auRQRf3-Wis": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "1HupLDWJTjI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "DTwv9u6UQ9c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Y8oHEwn3YXU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "dLxKUuliKpw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "bkHAbKd8yfw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "SXSj7a5j5aQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "yLeh6OTGVjE": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "3music-tv": {
@@ -7985,16 +8119,6 @@
     },
     "ami-awards": {
       "entries": {
-        "bz8lfbPElzo": "playlist-sweep:2026-10-19T15:01:29.819Z",
-        "0EYm45p9cAg": "2026-10-02T18:22:31+00:00",
-        "ZXyqbphJA6k": "2026-10-02T08:21:46+00:00",
-        "CDfi9H92Fuk": "2026-10-01T02:54:05+00:00",
-        "pv7CW_D9R00": "2026-10-03T04:05:28+00:00",
-        "BWvAZ0Gw9B8": "2026-10-01T21:27:26+00:00",
-        "yrwS70OY0Lk": "2026-10-05T18:56:09+00:00",
-        "Ov6Xyc5SJXU": "2026-10-21T05:28:07+00:00",
-        "cPxj9Ca-jug": "2026-10-04T07:42:39+00:00",
-        "ewYve1BrFs0": "2026-10-03T21:10:38+00:00",
         "WnMcKZ0lSLA": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "jfNzACmJp6E": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "AZ-oE05RI48": "playlist-sweep:2026-10-19T23:55:15.308Z",
@@ -8025,9 +8149,9 @@
         "UA_ivyUYMnk": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "CrI1roOIafs": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "m43BIVUmoOU": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "_Np66LXp5eY": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "TI2Y85p6kGU": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "GLUTJZ_IVnU": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "_Np66LXp5eY": "2026-10-09T09:29:29+00:00",
+        "TI2Y85p6kGU": "2026-10-01T23:44:43+00:00",
+        "GLUTJZ_IVnU": "2026-10-03T08:09:08+00:00",
         "weTCiod2KC0": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "A9aI_U_674c": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "KGSLUEa47ZY": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -8259,27 +8383,6 @@
     },
     "junior-eurovision-song-contest": {
       "entries": {
-        "z5LoEM8oFoY": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "bdHgLIoLsq8": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "pQUKgjzaVps": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "gXG5DdsgThM": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "jd0bkzz9y0U": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "n7iWXzf-Nk8": "playlist-sweep:2026-10-18T19:29:49.925Z",
-        "Now2Ap3mU9Q": "2026-10-20T13:58:56+00:00",
-        "o7c_VKebCRs": "2026-10-20T13:30:37+00:00",
-        "ysFctDt_UKQ": "2026-10-20T13:08:40+00:00",
-        "C2vYEbJjGwU": "2026-10-20T13:40:41+00:00",
-        "b_9vLfg68fc": "2026-10-20T13:21:07+00:00",
-        "6XhZTVk6rYE": "2026-10-20T13:20:27+00:00",
-        "0CtL5SslAC0": "2026-10-20T13:17:51+00:00",
-        "S76jBoLNnlk": "2026-10-20T12:33:25+00:00",
-        "X1D_fScEfNY": "2026-10-20T12:31:16+00:00",
-        "csGgM9L_zYo": "2026-10-20T12:56:05+00:00",
-        "XRjwGdq8-kk": "2026-10-20T13:54:36+00:00",
-        "bhVwGBUPb2E": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "aO_aTI01uTY": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "FXabR_c_8b8": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "oHjxJaSMAYQ": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "1PUpHsKNPbs": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "j8FXv9iwIMI": "playlist-sweep:2026-10-19T20:33:37.831Z",
         "y4986fJxnZM": "playlist-sweep:2026-10-19T20:33:37.831Z",
@@ -8315,7 +8418,11 @@
         "K02vEuy0u74": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "0eb5M0Ia2CU": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "Hg94ca30ePw": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "0WiwTJagUAY": "playlist-sweep:2026-10-20T21:57:05.678Z"
+        "0WiwTJagUAY": "playlist-sweep:2026-10-20T21:57:05.678Z",
+        "JDiNRFzkEI4": "2026-10-21T13:19:42+00:00",
+        "LW2yMcUpo6M": "2026-10-21T13:23:38+00:00",
+        "gXMU1CQWoFY": "2026-10-21T12:59:37+00:00",
+        "ZQuymsM9lfM": "2026-10-21T12:09:30+00:00"
       }
     },
     "folk-alliance-international": {
@@ -8374,18 +8481,6 @@
     },
     "cbc-music": {
       "entries": {
-        "AGLRTDCiGW4": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "ILTNfAlSiuM": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "VKwoMG4gvL0": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "rbxJFgsMqKg": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "oWdTYfoq9t0": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "R_d6vSMT4qg": "2026-10-20T15:53:24+00:00",
-        "qBjVfaXPU4M": "2026-10-20T15:46:49+00:00",
-        "CShr6Nb5VBY": "2026-10-19T15:07:14+00:00",
-        "g7BAe-LG1Bk": "2026-10-16T08:41:18+00:00",
-        "6HASxp57AU0": "2026-10-18T01:06:47+00:00",
-        "RcXsTl-ShKU": "2026-10-12T03:38:32+00:00",
-        "qIIqcYunHbI": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "_U65hBUrM2M": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "PatcLlOQfBo": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "_bZtv3bXB6Y": "playlist-sweep:2026-10-20T18:42:05.299Z",
@@ -8424,7 +8519,8 @@
         "Z8I17EQ0e20": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "BSKq3AwRlBw": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "FHkn0-jfKwM": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "llvlpQhK12U": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "llvlpQhK12U": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "YVn3jEoZZ3Q": "2026-10-21T15:00:50+00:00"
       }
     },
     "grammis-sweden": {
@@ -8483,17 +8579,6 @@
     },
     "trace-music-awards": {
       "entries": {
-        "RMJkyHiq5tY": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "9JboV5fSLAQ": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "h3stizA3mEg": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "4d25QTNejuw": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "nobEppASw2c": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "Fx0mwnRaoVg": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "7mBh-dNdBiA": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "_MX_MRRK1_g": "2026-10-05T18:40:41+00:00",
-        "b1fO6EW_2nM": "2026-10-09T04:39:13+00:00",
-        "A2R3LEZXBSw": "2026-10-04T03:50:50+00:00",
-        "kPwCt5BROgA": "2026-10-03T20:46:42+00:00",
         "gh0Ce9RcDuo": "2026-10-04T04:28:28+00:00",
         "npHt95zTZgk": "2026-10-01T15:58:19+00:00",
         "5r5872OIiGs": "2026-10-01T07:58:08+00:00",
@@ -8532,21 +8617,12 @@
         "gySAYHjl97I": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "pNGIaSbWNcg": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "VZLwyxgNALA": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "XZ-eTO10QnQ": "playlist-sweep:2026-10-20T21:57:05.678Z"
+        "XZ-eTO10QnQ": "playlist-sweep:2026-10-20T21:57:05.678Z",
+        "Ca5ifLgnsWo": "2026-10-21T12:03:51+00:00"
       }
     },
     "vix-musica": {
       "entries": {
-        "xTiCsfq0Z-c": "2026-10-18T00:46:57+00:00",
-        "6TzkuSbGY4A": "playlist:2026-10-20",
-        "585YBYfJLbM": "2026-10-16T10:28:11+00:00",
-        "b5X-iBZJfAE": "2026-10-13T11:19:26+00:00",
-        "Ukuis1alruA": "2026-10-13T10:42:12+00:00",
-        "5N3oDAdOoo4": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "ugdCeGQuTz8": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "YmCVdtZZ0AY": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "MbGI_AGNiVA": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "0fnB8z215sg": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "PMpC-AYsnBc": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "aps-gLFsZZ0": "playlist-sweep:2026-10-20T09:41:05.528Z",
         "58daYiRI53Q": "playlist-sweep:2026-10-20T09:41:05.528Z",
@@ -8577,7 +8653,7 @@
         "OMzQbtvMlLk": "playlist:2026-10-21",
         "3f0w-ONNtiM": "playlist:2026-10-21",
         "zEpX_vB8m7A": "2026-10-20T13:14:33+00:00",
-        "Tu2KhgRLQW0": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "Tu2KhgRLQW0": "2026-10-16T10:26:13+00:00",
         "jrBSrqb3y_4": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "XMWN4NIkNRU": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "BsBStGj1PdQ": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -8753,11 +8829,6 @@
     },
     "korean-music-awards": {
       "entries": {
-        "Giq0NrXf7HI": "2026-10-15T05:22:02+00:00",
-        "FC5B9waI4m4": "2026-10-01T02:45:33+00:00",
-        "MBQX3som-D0": "2026-10-15T05:17:23+00:00",
-        "jwFi_UmOKoc": "2026-10-15T05:12:37+00:00",
-        "I5y_6Y6FNmQ": "2026-10-03T15:32:59+00:00",
         "qM0I5DezXd0": "2026-10-05T11:12:19+00:00",
         "FTiqczJhxBw": "2026-10-03T21:40:01+00:00",
         "7RZdxbMxtEU": "2026-10-21T00:39:57+00:00",
@@ -8792,31 +8863,16 @@
         "Kua_Vl7sKh8": "playlist-sweep:2026-10-17T12:29:35.857Z",
         "1kyGEXdmhsA": "playlist-sweep:2026-10-17T12:29:35.857Z",
         "pS5xuzCIRYA": "playlist-sweep:2026-10-17T12:29:35.857Z",
-        "zXt5ZfhaRoY": "playlist-sweep:2026-10-17T12:29:35.857Z"
+        "zXt5ZfhaRoY": "playlist-sweep:2026-10-17T12:29:35.857Z",
+        "jd5clwJfE5g": "2026-10-05T12:53:30+00:00",
+        "EXIEU5D4b_0": "2026-10-15T03:46:30+00:00",
+        "7V8Wc54AtsU": "2026-10-04T10:51:35+00:00",
+        "W2I6eznB_WI": "2026-10-15T04:06:26+00:00",
+        "jmuIBJAi7l4": "2026-10-15T04:20:18+00:00"
       }
     },
     "tvn-chile-premios-pulsar": {
       "entries": {
-        "Tr38U41YMuU": "2026-10-20T16:30:09+00:00",
-        "Y5A-Y2jl8P4": "2026-10-20T20:20:30+00:00",
-        "aK1j-QPNdCQ": "2026-10-20T16:00:34+00:00",
-        "giVRNZen3nc": "2026-10-20T19:59:23+00:00",
-        "By_YoCeKkgY": "2026-10-20T15:30:32+00:00",
-        "w2_XmpnxA-w": "2026-10-20T16:02:29+00:00",
-        "twR_7s8fNvU": "2026-10-20T16:19:26+00:00",
-        "TYkw1b465CI": "2026-10-20T14:35:21+00:00",
-        "ve0IZoCBqoU": "2026-10-20T19:49:43+00:00",
-        "Bi1quyBj20M": "2026-10-20T15:00:32+00:00",
-        "BT5w3sz3x8o": "2026-10-20T22:25:10+00:00",
-        "alH3ufYoKBM": "2026-10-21T08:17:25+00:00",
-        "WJw17UKtVAY": "2026-10-20T21:26:00+00:00",
-        "NsyRiYz9CGc": "2026-10-20T21:25:51+00:00",
-        "C2pET5JJa5E": "2026-10-20T21:14:09+00:00",
-        "izB54UKHv4w": "2026-10-20T20:56:47+00:00",
-        "2_HRudGGUQU": "2026-10-20T21:06:31+00:00",
-        "ZanpPg3cyDM": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "_WA3o3It3UI": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "8vdKc88UMVo": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "h-zwvD4Qzns": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "aHTbV7HnghU": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "-aPhXrFc0Us": "playlist-sweep:2026-10-20T21:57:05.678Z",
@@ -8829,7 +8885,7 @@
         "mooAA49lfU4": "2026-10-21T04:02:09+00:00",
         "kSj2sx-WmzI": "2026-10-21T04:00:55+00:00",
         "fnGfh7JOmSA": "2026-10-21T04:31:44+00:00",
-        "PEcJZTxN68Y": "2026-10-21T08:19:25+00:00",
+        "PEcJZTxN68Y": "2026-10-21T15:11:09+00:00",
         "0AKlq7ZFApM": "2026-10-21T01:52:05+00:00",
         "SlWxi0_Ixto": "2026-10-21T08:29:42+00:00",
         "_J6CldN6JzE": "2026-10-21T06:12:19+00:00",
@@ -8849,18 +8905,18 @@
         "UbGbj2cYb98": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "da9PwbFqtj8": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "lj-rmR1xrwk": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "7ior2JjIgZE": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "7ior2JjIgZE": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "lbybO17HadA": "2026-10-21T14:42:10+00:00",
+        "ta9DoMUCoKo": "2026-10-21T14:04:01+00:00",
+        "ueP9unjigXo": "2026-10-21T13:21:22+00:00",
+        "sVG3tIB8foo": "2026-10-21T13:18:27+00:00",
+        "MQqykweAx0s": "2026-10-21T13:47:13+00:00",
+        "SkJ1JtTi6Ho": "2026-10-21T15:14:48+00:00",
+        "alH3ufYoKBM": "2026-10-21T15:02:53+00:00"
       }
     },
     "fix-tv-premios-graffiti": {
       "entries": {
-        "EZuoH-yrqEs": "2026-10-20T14:35:03+00:00",
-        "3KqVHIb8R6w": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "Jo2MRYnEKlQ": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "ygGQwR0HVus": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "gPvZURvw50I": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "PSeUnjQjG9k": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "T5_qy1epTCg": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "H8PS6qdRNu4": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "4SK9Ygp1wh0": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "4e6Y3z6bvOg": "playlist-sweep:2026-10-20T18:42:05.299Z",
@@ -8893,7 +8949,14 @@
         "txlDQjplxAI": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "FQadocqs22k": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "vuk-dXmTllc": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "2b2UfDXgwu4": "2026-10-21T03:28:43+00:00"
+        "2b2UfDXgwu4": "2026-10-21T03:28:43+00:00",
+        "41rzwml8bJs": "2026-10-21T15:05:06+00:00",
+        "HoCq4tZX-Cg": "2026-10-21T14:13:28+00:00",
+        "1CGcoVJQLNM": "2026-10-21T12:44:13+00:00",
+        "WpHOV9BMIzQ": "2026-10-21T12:38:18+00:00",
+        "GTAsDZ6JoNk": "2026-10-21T13:26:41+00:00",
+        "9Z_mrQTBHIQ": "2026-10-20T21:46:20+00:00",
+        "Gmpwn35v7S0": "2026-10-20T21:57:28+00:00"
       }
     },
     "irawma": {
@@ -8952,20 +9015,6 @@
     },
     "jam-in-the-van": {
       "entries": {
-        "BVzBbBdbVeE": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "wDP82DF50Eo": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "1fL4owlrI2U": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "I38f1Ij2qqk": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "rt6IxbuBrSs": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "r2O2tZXxz0M": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "fia3UyK3OVA": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "qScXRyjtMMY": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "QjzjS1VSFjU": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "8pUW5DlNO-g": "2026-10-20T18:03:31+00:00",
-        "Ow89Q-_Brg4": "2026-10-18T01:04:55+00:00",
-        "w6jUJLQY-2I": "2026-10-14T23:14:08+00:00",
-        "w6e9rJfsfz8": "2026-10-10T17:09:09+00:00",
-        "C2S80OZeE3Q": "2026-10-20T01:11:18+00:00",
         "F-QnJU4QXc4": "2026-10-20T21:25:04+00:00",
         "hi-k7OK0lhQ": "2026-10-20T22:14:43+00:00",
         "yjQ8IT1MHEE": "playlist-sweep:2026-10-20T21:57:05.678Z",
@@ -8992,8 +9041,8 @@
         "cku4uC7I3s0": "2026-10-18T21:53:35+00:00",
         "ZZj37D3DoD4": "2026-10-13T15:59:59+00:00",
         "mbmOERHqVwc": "2026-10-19T11:41:31+00:00",
-        "40RZ_1Fy2Q8": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "fksc4OSd-B4": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "40RZ_1Fy2Q8": "2026-10-13T02:49:46+00:00",
+        "fksc4OSd-B4": "2026-10-13T02:45:26+00:00",
         "CZvVJwcfBlM": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "nTw1eKB243E": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "8Hx-gVwexGM": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -9172,21 +9221,6 @@
     },
     "t-pop-stage": {
       "entries": {
-        "mFXgbUiKHmk": "2026-10-16T09:40:34+00:00",
-        "poyzzO78Eh8": "2026-10-18T01:05:51+00:00",
-        "gekQatiF2ME": "2026-10-12T14:07:37+00:00",
-        "6RK71xnD3s4": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "Y1OF6jrDEvE": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "FL3csTMDeBM": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "tzrBZIECcZo": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "cmQ38H8nE-M": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "un9OP137eHc": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "GsIfqMi6R_0": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "4RZ_QwxRr9Y": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "lG0rmSLkYnw": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "cIJLm9pYIt0": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "bsni5jtqhY0": "playlist-sweep:2026-10-16T14:47:21.960Z",
-        "J3VnIzZm2Dw": "2026-10-19T14:42:39+00:00",
         "Z97kRpFRlnc": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "tQMy7pW5Vio": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "DXuKL_XqIFo": "playlist-sweep:2026-10-19T15:01:29.819Z",
@@ -9225,7 +9259,8 @@
         "AixxY2VvRuw": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "BcRMj7HJnqc": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "olLI8PW75ik": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "Ki7b9qwGQEw": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "Ki7b9qwGQEw": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "DZqfj1skjf4": "2026-10-21T13:00:12+00:00"
       }
     },
     "tagata-pasifika-pacific-music-awards": {
@@ -9274,36 +9309,14 @@
     },
     "tv5-philippines-vibe-plus": {
       "entries": {
-        "G5-zcBC2-oU": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "3SQKzzFj1QM": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "dA0yaWLhgbw": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "ECiagd-wNFI": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "baqqe-qRyWw": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "DuIw4K28vYs": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "vvRjrpQnq9s": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "9ch6BrMSDr4": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "37hcm86s79I": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "nwTItBH_Qj4": "2026-10-21T00:15:31+00:00",
-        "pz_NEnFsfns": "2026-10-20T23:05:00+00:00",
-        "W3r4vCAIzXc": "playlist:2026-10-21",
-        "ZNxATIRjL74": "playlist:2026-10-21",
-        "9Kh2OL_PsLQ": "playlist:2026-10-21",
-        "HrbO85Extec": "playlist:2026-10-21",
-        "0-oEc7_6FNU": "playlist:2026-10-21",
-        "XiTRzLQFyM0": "playlist:2026-10-21",
-        "oIwJb-SecfY": "playlist:2026-10-21",
-        "3ncY1RbKaqM": "playlist:2026-10-21",
-        "sp1wAEoCFoc": "playlist:2026-10-21",
-        "GL_Kepik7g4": "playlist:2026-10-21",
-        "qphHBWA0eEE": "playlist:2026-10-21",
         "kMnB4zzoBCo": "playlist:2026-10-21",
         "Tl2E0hc0FZQ": "playlist:2026-10-21",
         "j6UD6nTxNo0": "playlist:2026-10-21",
         "emf08ndrbP8": "2026-10-21T10:02:47+00:00",
         "X78l4kkFN4U": "2026-10-21T10:00:30+00:00",
         "5iS1r-sUvNI": "2026-10-21T09:38:39+00:00",
-        "gqNIs7nFQQs": "2026-10-21T09:37:02+00:00",
-        "yajAZpJe9Y0": "2026-10-21T09:33:14+00:00",
+        "gqNIs7nFQQs": "2026-10-21T14:36:56+00:00",
+        "yajAZpJe9Y0": "2026-10-21T14:02:52+00:00",
         "5sIZPCQpfJQ": "2026-10-21T09:31:05+00:00",
         "ypAvGSq0S70": "2026-10-21T09:21:32+00:00",
         "F9yjYWvB7WM": "2026-10-21T08:10:55+00:00",
@@ -9314,7 +9327,7 @@
         "kHSryi8JO7s": "2026-10-21T07:13:26+00:00",
         "IxFV1NuTcjs": "2026-10-21T06:00:31+00:00",
         "cL_sfw8eZ6I": "2026-10-21T05:16:36+00:00",
-        "-4pO33iz7bw": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "-4pO33iz7bw": "2026-10-21T13:46:11+00:00",
         "Rw6kwm625Ug": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "IvXX-fsOjGU": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "RH4S7X94-uY": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -9331,23 +9344,15 @@
         "gUvwT2ujyik": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "L7wVaMxRuIY": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "DASPRhKa2mw": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "MazIMjvHdKM": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "MazIMjvHdKM": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "dphH1dPsDPc": "2026-10-21T15:00:22+00:00",
+        "uWP9IoqR5_4": "2026-10-21T14:49:18+00:00",
+        "Xk53tx0sOtI": "2026-10-21T11:07:19+00:00",
+        "cepCNhYajS8": "2026-10-21T10:39:01+00:00"
       }
     },
     "los40-music-awards": {
       "entries": {
-        "AJWlaq73Tr4": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "yyqKLnAwH60": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "0au2Iy_AYt4": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "HvWPNXFpGk4": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "x4kZ9ur-XTk": "2026-10-20T13:45:18+00:00",
-        "GCYge6V9zus": "2026-10-20T15:44:56+00:00",
-        "zVs4j8vzAF8": "2026-10-20T12:00:35+00:00",
-        "vygwwGt7mg0": "2026-10-20T23:11:37+00:00",
-        "tCy5lnfSxrA": "2026-10-20T11:15:32+00:00",
-        "F1OIXZaFtZI": "2026-10-20T15:28:37+00:00",
-        "DKrbE0TXR4Q": "2026-10-20T17:04:16+00:00",
-        "Zyk8jHYHp2E": "2026-10-20T13:51:54+00:00",
         "v8jkxtzc7P4": "2026-10-20T19:23:42+00:00",
         "a0o5OTEAuaQ": "2026-10-19T13:09:42+00:00",
         "N54Dh16e2vY": "2026-10-19T13:46:57+00:00",
@@ -9375,7 +9380,7 @@
         "MPoit6nedeQ": "playlist:2026-10-21",
         "KyjfcEOhRs8": "playlist:2026-10-21",
         "GUo8C8F8oF8": "playlist:2026-10-21",
-        "PZqToJ1-sps": "2026-10-21T08:30:30+00:00",
+        "PZqToJ1-sps": "2026-10-21T15:17:22+00:00",
         "e-caDHL_29E": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "Sw_MTDYsjh4": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "YVnpRp0Sqzc": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -9392,19 +9397,6 @@
     },
     "garuda-tv-ami-awards": {
       "entries": {
-        "W9CNJTdHn1w": "playlist:2026-10-21",
-        "W42oo7vElik": "playlist:2026-10-21",
-        "W6zioSel38M": "playlist:2026-10-21",
-        "6hSxbU8iiSQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "uh8C1XAPOEU": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "2UX6GqgEu1w": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "jiMObv3-rv4": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "fPZNzv-pXC4": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "aaSc7Hj_ESI": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "Jy7sUTnwJ_A": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "Yt2_AqQ8yTI": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "wp7rG9s8O6c": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "8mP4GhnxZXs": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "sipmA5PjTFQ": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "rDl20Yf2xr4": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "lzoRXJiQ1x4": "playlist-sweep:2026-10-21T05:17:18.636Z",
@@ -9417,11 +9409,11 @@
         "vGSRKdgXgM4": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "CTZgeDx7Le4": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "qnHNHpx0W3Q": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "6kP9USgEjxE": "2026-10-21T09:56:18+00:00",
+        "6kP9USgEjxE": "2026-10-21T13:56:55+00:00",
         "--qmVhK1Pe0": "2026-10-21T10:00:38+00:00",
         "10RwTBv-Gto": "2026-10-21T10:03:54+00:00",
         "M3MDR2Ul8jI": "2026-10-21T09:39:59+00:00",
-        "MRD1QPqdkIw": "2026-10-21T09:54:20+00:00",
+        "MRD1QPqdkIw": "2026-10-21T12:59:36+00:00",
         "emBcLtAmibY": "2026-10-21T09:11:09+00:00",
         "-RLY_TIVVkU": "2026-10-21T09:56:48+00:00",
         "IMZbbmT1_hs": "2026-10-21T09:00:38+00:00",
@@ -9431,7 +9423,20 @@
         "vuczJ-1tO2I": "2026-10-21T09:03:59+00:00",
         "0xNBSbtHz8I": "2026-10-21T09:57:55+00:00",
         "OKx-nyKWLuA": "2026-10-21T08:41:47+00:00",
-        "D6PxJrkUc4I": "2026-10-21T09:17:12+00:00"
+        "D6PxJrkUc4I": "2026-10-21T09:17:12+00:00",
+        "C6_dVpMqTWg": "2026-10-21T14:57:50+00:00",
+        "uuE3Lyr3Vg8": "2026-10-21T15:25:05+00:00",
+        "AFwpUyN9BGA": "2026-10-21T13:43:13+00:00",
+        "jiuYDfEY2Qc": "2026-10-21T13:33:25+00:00",
+        "NfMGqafcet0": "2026-10-21T14:38:44+00:00",
+        "rdUM7A8F7po": "2026-10-21T13:25:27+00:00",
+        "Pa63EYRKpyg": "2026-10-21T12:57:42+00:00",
+        "6pIMVfJz8QI": "2026-10-21T12:50:05+00:00",
+        "ZWkg8Q-9rn8": "2026-10-21T15:13:35+00:00",
+        "ke09Bi71Iek": "2026-10-21T12:33:46+00:00",
+        "7NXlEQLZsec": "2026-10-21T11:41:24+00:00",
+        "2HKrfEqbpA8": "2026-10-21T11:20:21+00:00",
+        "oPQYGA9kFIA": "2026-10-21T11:01:27+00:00"
       }
     },
     "a2im-libera-awards": {
@@ -9490,15 +9495,6 @@
     },
     "1thek-melon-music-awards": {
       "entries": {
-        "mY2FNe0c2Jc": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "ZYHgQInvyMs": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "Gqc4PDS-YbI": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "AVX6Lp3NrR4": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "ljmcQihdB14": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "1bhlUZTWZow": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "A9q3adYU1NA": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "14cr86sRbgo": "playlist-sweep:2026-10-20T14:31:49.517Z",
-        "23I7w7crlAs": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "iqqaN2e_03c": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "eoa77PoAkQU": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "16RfOon7X5U": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -9529,7 +9525,28 @@
         "HbfARcLW0KY": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "VNa-NVC7cc4": "playlist-sweep:2026-10-21T05:17:18.636Z",
         "E6aouZ_HyoE": "playlist-sweep:2026-10-21T05:17:18.636Z",
-        "16QSxsXU3Sw": "2026-10-21T09:00:16+00:00"
+        "16QSxsXU3Sw": "2026-10-21T09:00:16+00:00",
+        "R6_Pq57AHlA": "2026-10-20T12:57:23+00:00",
+        "tTpwKMIQaEg": "2026-10-20T09:00:03+00:00",
+        "eoEfcTVy6-s": "2026-10-20T08:00:43+00:00",
+        "rWdVaCb9CQM": "2026-10-19T14:46:52+00:00",
+        "WxNV0CkAKR8": "2026-10-19T17:40:21+00:00",
+        "SqT9aCG-3NU": "2026-10-19T13:55:24+00:00",
+        "COhb245Pmek": "2026-10-19T15:56:52+00:00",
+        "VsKYqUG2TfM": "2026-10-16T09:00:22+00:00",
+        "-bNRtAKfGnE": "2026-10-16T09:08:36+00:00",
+        "reKSeHMboAY": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "e2akaptk9V0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "OTLwOVTXkt0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "mY2FNe0c2Jc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ZYHgQInvyMs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Gqc4PDS-YbI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "AVX6Lp3NrR4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ljmcQihdB14": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "1bhlUZTWZow": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "A9q3adYU1NA": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "14cr86sRbgo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "23I7w7crlAs": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "afrimma-awards-festival": {
@@ -9686,18 +9703,6 @@
     },
     "san-juan-fiesta-nacional-del-sol": {
       "entries": {
-        "JMtjfe7QlTE": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "EbSVOt5uWxA": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "gZ12z0Ma6NI": "playlist-sweep:2026-10-19T20:33:37.831Z",
-        "kQMBnU-KpvE": "2026-10-19T22:00:29+00:00",
-        "iY-o-_5TKiU": "2026-10-16T16:40:17+00:00",
-        "erjoRwaIdIA": "2026-10-18T00:44:54+00:00",
-        "wnamaZAOu6s": "2026-10-12T03:34:12+00:00",
-        "wXBlpeeIZsI": "2026-10-12T03:36:42+00:00",
-        "D7jcVEPFqTA": "2026-10-10T06:56:19+00:00",
-        "5GEe4l5DLE4": "playlist:2026-10-20",
-        "mH2Qt9h5Ow4": "playlist:2026-10-20",
-        "UMeAKyhGj6Q": "2026-10-17T10:04:32+00:00",
         "6CpW-eZUtbg": "2026-10-21T07:37:43+00:00",
         "i3YMw_lbvE0": "2026-10-19T18:23:17+00:00",
         "CO9m3i_mkHg": "2026-10-14T03:49:35+00:00",
@@ -9726,8 +9731,8 @@
         "_wVfsXirMlk": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "FUzaF2nL-gQ": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "tTI1t3ClP9s": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "48lOHziT6JQ": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "ycDSoIE_3L0": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "48lOHziT6JQ": "2026-10-18T00:44:37+00:00",
+        "ycDSoIE_3L0": "2026-10-18T01:00:24+00:00",
         "An3Bj3l2I0g": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "rdnF04mJFeM": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "FoNjKZL-zjo": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -9742,31 +9747,6 @@
     },
     "mega-festival-rec": {
       "entries": {
-        "Mae4XsF7DKE": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "TqO2wYjH9CM": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "hbdI3216r1s": "2026-10-21T00:30:40+00:00",
-        "fy0XXHJCJrg": "2026-10-21T00:15:35+00:00",
-        "ZnkxLMvVR5I": "2026-10-21T00:00:58+00:00",
-        "TzZSwvXjhWo": "2026-10-21T00:02:59+00:00",
-        "Yp4p50vm90M": "2026-10-20T23:30:21+00:00",
-        "QIyCPifW9ys": "2026-10-20T23:30:06+00:00",
-        "j4QcuZrwJiI": "2026-10-21T00:25:33+00:00",
-        "rVhZsWdp0QM": "2026-10-20T23:00:11+00:00",
-        "WceafvP7_88": "2026-10-20T23:51:33+00:00",
-        "xhfELPN97fk": "2026-10-20T22:59:19+00:00",
-        "7wmf-IigTxw": "2026-10-20T22:30:27+00:00",
-        "b3xLTPn-UVg": "2026-10-20T23:20:42+00:00",
-        "Cac1H2KsNwk": "2026-10-21T04:38:06+00:00",
-        "NLAdU4CuCMs": "2026-10-21T04:38:03+00:00",
-        "Xhek0oidSBQ": "2026-10-21T05:30:15+00:00",
-        "weemWzUGVgo": "2026-10-21T05:12:06+00:00",
-        "RBaHe1JI1sg": "2026-10-21T06:31:12+00:00",
-        "IqgTVadFY3I": "2026-10-21T04:37:19+00:00",
-        "i-SkB8bGwkw": "2026-10-21T03:00:31+00:00",
-        "cPy08gSZBqU": "2026-10-21T03:00:30+00:00",
-        "YdBugqDFDVs": "2026-10-21T05:15:45+00:00",
-        "6mUZQiayKKM": "2026-10-21T04:44:49+00:00",
-        "tm5iWacDYzo": "2026-10-21T04:52:39+00:00",
         "tN95H4GETKY": "2026-10-21T04:03:28+00:00",
         "UOfohnBRxjI": "2026-10-21T05:10:48+00:00",
         "C8WfjgkSSV8": "2026-10-21T05:30:09+00:00",
@@ -9781,7 +9761,7 @@
         "CpPqpyYf6P4": "playlist:2026-10-21",
         "CLnA72gMwR8": "playlist:2026-10-21",
         "mDexD6nrqP0": "playlist:2026-10-21",
-        "hFyAY1_eJkI": "2026-10-21T09:05:18+00:00",
+        "hFyAY1_eJkI": "2026-10-21T15:13:59+00:00",
         "DipllldpCA4": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "svn_51AaPrg": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "PllOCSyjYF4": "playlist-sweep:2026-10-21T10:19:40.338Z",
@@ -9793,7 +9773,20 @@
         "enm-nN2dBxw": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "HiODG7tBjuA": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "vyH97NO856A": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "t97SEk7QlhM": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "t97SEk7QlhM": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "3U3O1in-HQg": "2026-10-21T15:21:17+00:00",
+        "YLBz4Hyenh4": "2026-10-21T15:17:31+00:00",
+        "-IZMXbpbKFY": "2026-10-21T15:00:28+00:00",
+        "1wMkc3hcY0A": "2026-10-21T14:40:05+00:00",
+        "bdDJUaBs5p0": "2026-10-21T14:50:32+00:00",
+        "7WoDu3crRWE": "2026-10-21T14:15:05+00:00",
+        "lyFLvn8qgsQ": "2026-10-21T13:32:30+00:00",
+        "AzF2ov0EwcU": "2026-10-21T14:05:15+00:00",
+        "lWsFmNpZ_6g": "2026-10-21T12:45:01+00:00",
+        "aTiv85G9QYY": "2026-10-21T12:46:02+00:00",
+        "V4LjGD9nz7Y": "2026-10-21T12:24:36+00:00",
+        "JBGsHckuIWQ": "2026-10-21T12:36:38+00:00",
+        "Cac1H2KsNwk": "2026-10-21T14:45:53+00:00"
       }
     },
     "neuquen-fiesta-nacional-confluencia": {
@@ -9960,29 +9953,10 @@
     },
     "parana-fiesta-nacional-mate": {
       "entries": {
-        "LrJNcaROneI": "playlist-sweep:2026-10-16T21:39:56.443Z",
-        "ajRSRISVPVw": "playlist-sweep:2026-10-16T21:39:56.443Z",
-        "yxSfINOxzXY": "playlist-sweep:2026-10-16T21:39:56.443Z",
-        "VchujDNYJvY": "playlist-sweep:2026-10-16T21:39:56.443Z",
-        "FqMDz6KG0po": "2026-10-19T20:05:56+00:00",
-        "th1210sy7SU": "2026-10-19T15:27:34+00:00",
-        "izvqyS5Ta14": "2026-10-20T09:00:00+00:00",
-        "w_nphq8xplo": "2026-10-15T19:57:36+00:00",
-        "SoL_F8YIaAs": "2026-10-15T19:57:16+00:00",
-        "fx2efw1vvKM": "2026-10-14T09:00:35+00:00",
-        "XXzKwD06_Ow": "2026-10-14T09:00:18+00:00",
-        "oI8OL6eHjnQ": "2026-10-15T23:55:36+00:00",
-        "uJ6AlNX2-XM": "2026-10-14T15:57:42+00:00",
-        "GnK9yWeGJQI": "2026-10-13T18:17:24+00:00",
-        "BR0YHnBQMcg": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "Zr-PsvGA0Us": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "i5IPgXqpwCc": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "Z9BFPwOUv_Q": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "YG2Rw-LjFI4": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "atpmRPyRbHg": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "7FG501tgNCU": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "-8xjXZZIKKs": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "HXEToaRe37M": "2026-10-20T12:51:59+00:00",
+        "HXEToaRe37M": "2026-10-21T13:10:39+00:00",
         "OlqChAGoLNw": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "VI8wdowjkBY": "playlist-sweep:2026-10-20T14:31:49.517Z",
         "Y_eD4huqZEg": "playlist-sweep:2026-10-20T14:31:49.517Z",
@@ -10011,34 +9985,33 @@
         "uJ1JCsVlNc4": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "hI52NlBmwLg": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "5sa0_fhFQOU": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "_pxynSsqZC8": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "_pxynSsqZC8": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "OmuKPlpAXAk": "2026-10-21T15:23:19+00:00",
+        "zcvQBJrTpI4": "2026-10-21T13:39:19+00:00",
+        "J5fsr95PkCo": "2026-10-21T13:08:12+00:00",
+        "uSDd_tYi-PI": "2026-10-21T12:28:08+00:00",
+        "hRKdBJ0WZbg": "2026-10-21T12:16:29+00:00",
+        "th1210sy7SU": "2026-10-21T13:12:08+00:00",
+        "oI8OL6eHjnQ": "2026-10-21T13:16:42+00:00",
+        "izvqyS5Ta14": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "FqMDz6KG0po": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "w_nphq8xplo": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "SoL_F8YIaAs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "uJ6AlNX2-XM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "fx2efw1vvKM": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "XXzKwD06_Ow": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "GnK9yWeGJQI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "BR0YHnBQMcg": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Zr-PsvGA0Us": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "i5IPgXqpwCc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "Z9BFPwOUv_Q": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "YG2Rw-LjFI4": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "LrJNcaROneI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ajRSRISVPVw": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "telemedellin-feria-de-las-flores": {
       "entries": {
-        "QhE8KFWNjBg": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "H3oMrLbPd4g": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "wgq3L8osxxI": "playlist-sweep:2026-10-20T09:41:05.528Z",
-        "Q6PEd05Iupo": "2026-10-20T14:49:43+00:00",
-        "4B23hqheb0s": "2026-10-20T14:00:16+00:00",
-        "N2k5NZlXxSw": "2026-10-21T00:47:22+00:00",
-        "_8nAsikc9fE": "2026-10-20T21:15:15+00:00",
-        "1UPCCpchLEo": "2026-10-20T12:23:26+00:00",
-        "4MS3V3TOv4Q": "2026-10-20T13:11:35+00:00",
-        "uTfyVPzGkQc": "2026-10-20T13:19:28+00:00",
-        "D5JSCSP02Mw": "2026-10-20T13:08:01+00:00",
-        "sf6hhZOdF34": "2026-10-20T01:55:24+00:00",
-        "ymt8kKxWVGA": "2026-10-20T23:53:32+00:00",
-        "uiKcuamN64s": "2026-10-20T21:11:37+00:00",
-        "3idqEj_M_Kc": "2026-10-20T21:00:06+00:00",
-        "dFwUNeBSwVM": "2026-10-20T19:58:26+00:00",
-        "yjdrFaSzARE": "2026-10-20T19:13:08+00:00",
-        "qQgbZh6rPSc": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "m-cYuj8fkoE": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "zJzNvSiK_U0": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "wfk-uEU09Gc": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "J7bIXOtq3F4": "playlist-sweep:2026-10-20T21:57:05.678Z",
-        "L0WB-uDcJZE": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "8w-jh-R50JQ": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "RBWuhFvFLmc": "playlist-sweep:2026-10-20T21:57:05.678Z",
         "qwxhPS09ZCQ": "playlist-sweep:2026-10-20T21:57:05.678Z",
@@ -10068,31 +10041,21 @@
         "nqar33yeKG4": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "YE5RQPPDn1s": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "dVUBI2wmpNw": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "UGxjllCACTI": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "UGxjllCACTI": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "0HbYetHfoo0": "2026-10-21T15:24:54+00:00",
+        "XxCGqGAC3xU": "2026-10-21T15:25:02+00:00",
+        "pPsQSRKTDsM": "2026-10-21T14:45:49+00:00",
+        "7F7oVaLjoPs": "2026-10-21T15:16:40+00:00",
+        "ieUCqxPkEJA": "2026-10-21T15:03:31+00:00",
+        "o1nCmp_qqbk": "2026-10-21T15:18:30+00:00",
+        "S0DD4RDWa3Y": "2026-10-21T15:19:43+00:00",
+        "fqEYGacCI5o": "2026-10-21T14:51:47+00:00",
+        "q8eLE372v9I": "2026-10-21T12:00:39+00:00",
+        "ymt8kKxWVGA": "2026-10-21T14:29:43+00:00"
       }
     },
     "canal10-cordoba-cosquin-de-penas": {
       "entries": {
-        "ib4wY0MsR4s": "2026-10-20T21:00:39+00:00",
-        "rMucifeYIBw": "2026-10-20T22:25:24+00:00",
-        "YwtEocreBp0": "2026-10-21T02:42:08+00:00",
-        "GfJeZZDgyIc": "2026-10-20T22:02:58+00:00",
-        "-kpVgBGeT_Y": "2026-10-20T21:17:09+00:00",
-        "JeozJwgbQUg": "2026-10-20T21:54:01+00:00",
-        "1_f7LqNSRuM": "2026-10-20T21:04:21+00:00",
-        "xDz-smutHo4": "2026-10-20T21:07:26+00:00",
-        "GH3pKg8Dtk0": "2026-10-20T22:03:57+00:00",
-        "rnEUTq2qnEw": "2026-10-20T22:14:22+00:00",
-        "1VdGx3k-nGQ": "2026-10-20T21:20:38+00:00",
-        "NNJ5WEo3rBM": "2026-10-20T20:28:48+00:00",
-        "KlVAeKE3T60": "2026-10-20T21:07:57+00:00",
-        "bg2mng7ooEY": "2026-10-20T21:07:13+00:00",
-        "HYsNhZcaiKc": "2026-10-21T01:40:04+00:00",
-        "VD1n-hV3bf4": "2026-10-21T01:41:02+00:00",
-        "yF5D-lH-beQ": "2026-10-21T00:02:38+00:00",
-        "Rv-zEiRTC0w": "2026-10-21T01:28:23+00:00",
-        "CfOBJAVyqUI": "2026-10-21T00:53:03+00:00",
-        "dsDXRyib5z8": "2026-10-21T07:16:16+00:00",
         "lAc3ideu65s": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "3NWcW0KfVNk": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "nH2-Zq75wtA": "playlist-sweep:2026-10-21T00:34:32.480Z",
@@ -10122,14 +10085,21 @@
         "vHnxQ8LQJuM": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "lzLzne-BWoA": "playlist-sweep:2026-10-21T10:19:40.338Z",
         "30Jiz5qOZ9w": "playlist-sweep:2026-10-21T10:19:40.338Z",
-        "3FHDftKt2ig": "playlist-sweep:2026-10-21T10:19:40.338Z"
+        "3FHDftKt2ig": "playlist-sweep:2026-10-21T10:19:40.338Z",
+        "mFEFTJ0cHlI": "2026-10-21T15:01:26+00:00",
+        "Oa9dVffZsgc": "2026-10-21T14:30:09+00:00",
+        "XJWlrO05v6A": "2026-10-21T14:27:48+00:00",
+        "3-wZXDp3fA0": "2026-10-21T13:51:38+00:00",
+        "xbopb515054": "2026-10-21T14:43:35+00:00",
+        "KJKqs-bl5wk": "2026-10-21T13:38:14+00:00",
+        "Ejc1oe-5DCM": "2026-10-21T13:25:45+00:00",
+        "qNcu_AaQ0xU": "2026-10-21T13:48:43+00:00",
+        "o9g1nCECgoU": "2026-10-21T13:32:17+00:00",
+        "nUyM1181wgg": "2026-10-21T13:06:54+00:00"
       }
     },
     "telecaribe-festival-leyenda-vallenata": {
       "entries": {
-        "KS1HBNVvWdI": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "lXDEYC-qrVw": "playlist-sweep:2026-10-19T23:55:15.308Z",
-        "dVnUQDViQVA": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "3BY4NbUCoI0": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "eu6ZKVQKQrs": "playlist-sweep:2026-10-19T23:55:15.308Z",
         "uiaiVm4btQI": "playlist-sweep:2026-10-19T23:55:15.308Z",
@@ -10166,13 +10136,28 @@
         "ku7dxycNvu0": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "LVhi0sdnZtk": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "iBo2sFjrzUI": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "zkwyHgPxclQ": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "zkwyHgPxclQ": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "YCWNqd5Ieus": "2026-10-21T13:34:19+00:00",
+        "O6cL2R6vhc8": "2026-10-21T13:30:37+00:00",
+        "UWXAEvTy_p8": "2026-10-17T01:43:13+00:00",
+        "POb7QeaYzGw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "j4jeDGVkcsc": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "2ivIC6BQrpQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "wNV1M-J6cNw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "33s-wjgCSbU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8Wi4O7xSJ4E": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "UF0YwxEMKnk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "-Z2ZHlZVl4Q": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "5upB-chjxcQ": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "hYoXgkjnJqU": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "8SZvFefLOA0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "KS1HBNVvWdI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "lXDEYC-qrVw": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "dVnUQDViQVA": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "san-bernardo-festival-nacional-folklore": {
       "entries": {
-        "ueA37JXEIGY": "playlist-sweep:2026-10-17T18:25:33.821Z",
-        "5FDnX9-nd_I": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "_Yei_EbbEJw": "playlist-sweep:2026-10-17T18:25:33.821Z",
         "EM2CNWLWMw4": "2026-10-21T06:10:42+00:00",
         "Vqxi619v32o": "2026-10-21T03:46:47+00:00",
@@ -10210,7 +10195,20 @@
         "Tc9eqzVqcGY": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "xRODIYomf64": "playlist-sweep:2026-10-21T00:34:32.480Z",
         "KNDQe64qRMs": "playlist-sweep:2026-10-21T00:34:32.480Z",
-        "8gg0RbhSIUY": "playlist-sweep:2026-10-21T00:34:32.480Z"
+        "8gg0RbhSIUY": "playlist-sweep:2026-10-21T00:34:32.480Z",
+        "YPU4GmbJ5Fg": "2026-10-14T16:47:23+00:00",
+        "vu4VDFXp4yk": "2026-10-12T03:29:28+00:00",
+        "JvPXOsf-FRk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "N7HPExJau9c": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "l_64xcgrd14": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "dwcx4qOg6Ws": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "2dwek4-VyMI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "nBLQB8BzHZk": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "c18Ii3fZPcs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "6yTo7K2RCW0": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "c5bJTZfrcwI": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "iNJorRs5Urs": "playlist-sweep:2026-10-21T15:25:12.035Z",
+        "ueA37JXEIGY": "playlist-sweep:2026-10-21T15:25:12.035Z"
       }
     },
     "villa-maria-festival-internacional-penas": {
@@ -10269,17 +10267,6 @@
     },
     "dolores-fiesta-nacional-guitarra": {
       "entries": {
-        "ATUAqBqDIss": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "IB4ec9efXK4": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "1MhzKNXg43o": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "Rxb2wqSdE_k": "playlist-sweep:2026-10-18T17:18:14.982Z",
-        "O_cIQqiJShU": "2026-10-19T16:43:00+00:00",
-        "949IT_LYsFM": "2026-10-12T03:32:07+00:00",
-        "zj36RssnAD4": "2026-10-04T08:39:30+00:00",
-        "wvXvZZm-A2Y": "2026-10-15T04:36:54+00:00",
-        "x4Ol9WRc9t4": "2026-09-30T05:25:14+00:00",
-        "UvNc-tjmMRA": "2026-10-04T00:00:52+00:00",
-        "A2BqF7Q8ZpQ": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "vI7jARelhFA": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "SkB_MZiLrPw": "playlist-sweep:2026-10-19T15:01:29.819Z",
         "68Vk5krUP5g": "playlist-sweep:2026-10-19T15:01:29.819Z",
@@ -10318,7 +10305,8 @@
         "8SrrqaNxD2Y": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "HkAwzjOFZEs": "playlist-sweep:2026-10-20T18:42:05.299Z",
         "eI6m7tdtCsc": "playlist-sweep:2026-10-20T18:42:05.299Z",
-        "8oX9oeIdJqo": "playlist-sweep:2026-10-20T18:42:05.299Z"
+        "8oX9oeIdJqo": "playlist-sweep:2026-10-20T18:42:05.299Z",
+        "y0RMXpA_lx4": "2026-10-21T11:00:47+00:00"
       }
     },
     "catamarca-fiesta-del-poncho": {
@@ -10384,18 +10372,18 @@
         "last_error": null
       },
       "the-lot-radio": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "dommune": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "kexp": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "boiler-room": {
@@ -10404,18 +10392,18 @@
         "last_error": null
       },
       "coachella": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "kcrw": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "audiotree": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "sofar-sounds": {
@@ -10429,18 +10417,18 @@
         "last_error": null
       },
       "arte-concert": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "tomorrowland": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "q-dance": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "montreux-jazz-festival": {
@@ -10459,13 +10447,13 @@
         "last_error": null
       },
       "keep-hush": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "seoul-community-radio": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "mutant-radio": {
@@ -10474,13 +10462,13 @@
         "last_error": null
       },
       "book-club-radio": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "dj-mag": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "mixmag": {
@@ -10504,13 +10492,13 @@
         "last_error": null
       },
       "a-state-of-trance": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "club-space": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "south-plug": {
@@ -10519,8 +10507,8 @@
         "last_error": null
       },
       "cercle": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "defected": {
@@ -10529,8 +10517,8 @@
         "last_error": null
       },
       "kbs-world-tv": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "arirang-k-pop": {
@@ -10549,13 +10537,13 @@
         "last_error": null
       },
       "sbskpop-inkigayo": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "the-k-pop": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "kreciolatv-polandrock": {
@@ -10574,8 +10562,8 @@
         "last_error": null
       },
       "kbs-kpop": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "apia40": {
@@ -10584,8 +10572,8 @@
         "last_error": null
       },
       "rock-joint-gb": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "yotsuya-outbreak": {
@@ -10594,18 +10582,18 @@
         "last_error": null
       },
       "the-shojimaru": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "live-house-fever": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "shimokitazawa-reg": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "shimokitazawa-waver": {
@@ -10614,18 +10602,18 @@
         "last_error": null
       },
       "shimokitazawa-chikamatsu": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "shimokitazawa-rokudemonaiyoru": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "shimokitazawa-club-que": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "nishieifuku-jam": {
@@ -10644,8 +10632,8 @@
         "last_error": null
       },
       "shimokitazawa-era": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "kichijoji-warp": {
@@ -10659,13 +10647,13 @@
         "last_error": null
       },
       "hachioji-match-vox": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "shibuya-lamama": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "aoyama-moonromantic": {
@@ -10679,8 +10667,8 @@
         "last_error": null
       },
       "rinse-fm": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "exit-festival": {
@@ -10694,8 +10682,8 @@
         "last_error": null
       },
       "rock-in-rio": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "sydney-opera-house": {
@@ -10704,8 +10692,8 @@
         "last_error": null
       },
       "lincoln-center": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "eurovision-song-contest": {
@@ -10734,18 +10722,18 @@
         "last_error": null
       },
       "rolling-loud": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "creamfields": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "tomorrowland-one-world-radio": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "ministry-of-sound": {
@@ -10755,8 +10743,8 @@
         "last_success_at": "2026-10-21T05:17:18.636Z"
       },
       "rinse-france": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "paste-magazine": {
@@ -10775,13 +10763,13 @@
         "last_error": null
       },
       "all-the-k-pop": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "mbckpop": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "global-citizen": {
@@ -10795,13 +10783,13 @@
         "last_error": null
       },
       "rototom-sunsplash": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "canal-capital-music-live": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "the-headies": {
@@ -10810,23 +10798,23 @@
         "last_error": null
       },
       "grand-ole-opry": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "reggaeville": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "kcon-official": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "mediacorp-entertainment": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "portsmouth-maritime-folk-festival": {
@@ -10845,10 +10833,10 @@
         "last_error": null
       },
       "88rising": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
         "last_error_at": "2026-09-04T06:13:36.892Z",
         "last_error": null,
-        "last_success_at": "2026-10-21T05:17:18.636Z"
+        "last_success_at": "2026-10-21T15:25:12.035Z"
       },
       "mnet-kpop": {
         "last_checked_at": "2026-10-21T05:17:18.636Z",
@@ -10881,28 +10869,28 @@
         "last_error": null
       },
       "armada-music": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "recording-academy-grammys": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "latin-grammys": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "above-and-beyond": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "anjunabeats": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "international-jazz-day": {
@@ -10931,10 +10919,10 @@
         "last_error": null
       },
       "java-jazz-festival": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
         "last_success_at": "2026-10-15T19:16:28.393Z",
         "last_error": "playlist repair failed after playlistItems: The playlist identified with the request's <code>playlistId</code> parameter cannot be found.: channel contentDetails has no valid uploads playlist",
-        "last_error_at": "2026-10-21T05:17:18.636Z"
+        "last_error_at": "2026-10-21T15:25:12.035Z"
       },
       "south-african-music-awards": {
         "last_checked_at": "2026-10-21T10:19:40.338Z",
@@ -10942,8 +10930,8 @@
         "last_error": null
       },
       "brit-awards": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "kral-muzik": {
@@ -10952,13 +10940,13 @@
         "last_error": null
       },
       "festival-halleluya": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "reggae-land": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "dance-tv": {
@@ -10992,8 +10980,8 @@
         "last_error": null
       },
       "festival-internacional-cervantino": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "red-bull-batalla": {
@@ -11012,18 +11000,18 @@
         "last_error": null
       },
       "untold-festival": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "afrima": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "charterhouse-live-tgma": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "rnz-music": {
@@ -11052,8 +11040,8 @@
         "last_error": null
       },
       "kennedy-center": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "jazzaldia": {
@@ -11067,8 +11055,8 @@
         "last_error": null
       },
       "royal-college-of-music": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "the-cliburn": {
@@ -11082,13 +11070,13 @@
         "last_error": null
       },
       "lost-lands-music-festival": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "major-lazer-official": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "hospital-records": {
@@ -11097,13 +11085,13 @@
         "last_error": null
       },
       "reona": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "gregory-burrus-productions": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "allverse": {
@@ -11132,8 +11120,8 @@
         "last_error": null
       },
       "billboard-brasil": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "3music-tv": {
@@ -11298,18 +11286,18 @@
         "last_error": null
       },
       "a2im-libera-awards": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "1thek-melon-music-awards": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "afrimma-awards-festival": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "soundcity-mvp-awards": {
@@ -11339,18 +11327,18 @@
         "last_error_at": "2026-09-16T00:31:24.762Z"
       },
       "mendoza-fiesta-nacional-vendimia": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "corrientes-fiesta-nacional-chamame": {
-        "last_checked_at": "2026-10-21T05:17:18.636Z",
-        "last_success_at": "2026-10-21T05:17:18.636Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "parana-fiesta-nacional-mate": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "telemedellin-feria-de-las-flores": {
@@ -11364,18 +11352,18 @@
         "last_error": null
       },
       "telecaribe-festival-leyenda-vallenata": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "san-bernardo-festival-nacional-folklore": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "villa-maria-festival-internacional-penas": {
-        "last_checked_at": "2026-10-21T00:34:32.480Z",
-        "last_success_at": "2026-10-21T00:34:32.480Z",
+        "last_checked_at": "2026-10-21T15:25:12.035Z",
+        "last_success_at": "2026-10-21T15:25:12.035Z",
         "last_error": null
       },
       "dolores-fiesta-nacional-guitarra": {
