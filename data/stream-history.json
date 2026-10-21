@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:VYfwxRB-yAA",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "VYfwxRB-yAA",
+    "youtube_url": "https://www.youtube.com/watch?v=VYfwxRB-yAA",
+    "title": "David Gibson Quartet - Live from Smalls - 10/20/2026",
+    "status": "ended",
+    "published_at": "2026-10-21T00:28:36Z",
+    "scheduled_start": null,
+    "actual_start": "2026-10-21T00:29:27Z",
+    "actual_end": null,
+    "concurrent_viewers": 8,
+    "thumbnail": "https://i.ytimg.com/vi/VYfwxRB-yAA/hqdefault_live.jpg",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-21T04:41:57.563Z",
+    "history_archived_at": "2026-10-21T04:41:57.563Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:yfvovEJStsg",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
