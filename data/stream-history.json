@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:Q5PsZvpPkwM",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "fix-tv-premios-graffiti",
+    "youtube_video_id": "Q5PsZvpPkwM",
+    "youtube_url": "https://www.youtube.com/watch?v=Q5PsZvpPkwM",
+    "title": "PREMIOS GRAFFITI 2026 EN VIVO | Ceremonia de Lanzamiento y Entrega de Premios",
+    "status": "ended",
+    "published_at": "2026-10-20T19:20:39Z",
+    "scheduled_start": "2026-10-21T23:00:00Z",
+    "actual_start": "2026-10-21T23:47:03Z",
+    "actual_end": null,
+    "concurrent_viewers": 193,
+    "thumbnail": "https://i.ytimg.com/vi/Q5PsZvpPkwM/maxresdefault.jpg?v=6ad7bf09",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "Premios Graffiti"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-22T04:38:42.737Z",
+    "history_archived_at": "2026-10-22T04:38:42.737Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:rWybx54qKnE",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
