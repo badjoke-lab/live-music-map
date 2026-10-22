@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:rWybx54qKnE",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "rWybx54qKnE",
+    "youtube_url": "https://www.youtube.com/watch?v=rWybx54qKnE",
+    "title": "William Hill III Quintet - Live from Smalls - 10/21/2026",
+    "status": "ended",
+    "published_at": "2026-10-21T21:01:15Z",
+    "scheduled_start": null,
+    "actual_start": "2026-10-21T21:31:53Z",
+    "actual_end": null,
+    "concurrent_viewers": 39,
+    "thumbnail": "https://i.ytimg.com/vi/rWybx54qKnE/hqdefault.jpg?v=6ad9281b",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-22T01:00:36.686Z",
+    "history_archived_at": "2026-10-22T01:00:36.686Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:x0qja8VS0vA",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -117,6 +157,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-10-21T19:34:56.973Z",
     "history_archived_at": "2026-10-21T19:34:56.973Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:ZQuymsM9lfM",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "junior-eurovision-song-contest",
+    "youtube_video_id": "ZQuymsM9lfM",
+    "youtube_url": "https://www.youtube.com/watch?v=ZQuymsM9lfM",
+    "title": "Junior Non-Stop Hits! - Junior Eurovision Song Contest - 24/7 Music",
+    "status": "ended",
+    "published_at": "2026-10-21T08:24:22Z",
+    "scheduled_start": "2026-10-21T09:00:00Z",
+    "actual_start": "2026-10-21T10:51:26Z",
+    "actual_end": null,
+    "concurrent_viewers": 92,
+    "thumbnail": "https://i.ytimg.com/vi/ZQuymsM9lfM/maxresdefault.jpg?v=6ad878cc",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "junior eurovision"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-22T01:00:36.686Z",
+    "history_archived_at": "2026-10-22T01:00:36.686Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
