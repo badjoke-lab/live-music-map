@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:xr_en7Kej-g",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "xr_en7Kej-g",
+    "youtube_url": "https://www.youtube.com/watch?v=xr_en7Kej-g",
+    "title": "『時のほか何者もなし～高井つよし生誕64年祭ワンマンライヴ～』出演：高井つよしクィンテット",
+    "status": "ended",
+    "published_at": "2026-10-23T07:12:40Z",
+    "scheduled_start": "2026-10-23T10:00:00Z",
+    "actual_start": "2026-10-23T09:52:08Z",
+    "actual_end": null,
+    "concurrent_viewers": 11,
+    "thumbnail": "https://i.ytimg.com/vi/xr_en7Kej-g/maxresdefault.jpg?v=6adb08ea",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-23T17:03:56.163Z",
+    "history_archived_at": "2026-10-23T17:03:56.163Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:840SUcssYaQ",
     "origin": "youtube_api",
     "discovery": "uploads_playlist_daily_backstop",
