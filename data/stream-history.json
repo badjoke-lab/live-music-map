@@ -160,6 +160,46 @@
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
+    "id": "youtube:qd_CRgatAJQ",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "anjunadeep",
+    "youtube_video_id": "qd_CRgatAJQ",
+    "youtube_url": "https://www.youtube.com/watch?v=qd_CRgatAJQ",
+    "title": "The Anjunadeep Edition 616 with Igor Garanin (Live at Explorations)",
+    "status": "ended",
+    "published_at": "2026-10-22T11:00:00Z",
+    "scheduled_start": "2026-10-22T15:00:00Z",
+    "actual_start": "2026-10-22T14:59:46Z",
+    "actual_end": null,
+    "concurrent_viewers": 10,
+    "thumbnail": "https://i.ytimg.com/vi/qd_CRgatAJQ/maxresdefault.jpg?v=6ad9ecee",
+    "embed_allowed": true,
+    "youtube_category_id": "24",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "24/7 radio"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-23T01:40:40.580Z",
+    "history_archived_at": "2026-10-23T01:40:40.580Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:iccflH5BpgM",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
