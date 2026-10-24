@@ -1,12 +1,12 @@
 # Acquisition audit
 
-Generated: 2026-10-24T04:33:02.184Z
+Generated: 2026-10-24T07:15:22.747Z
 
 This is the M3 production audit for the YouTube acquisition path. It samples the latest 10 completed `youtube-refresh.yml` runs whose **refresh job itself succeeded**, even if a later Pages deployment failed for an unrelated reason.
 
 ## Runtime
 
-- p50: **88s**
+- p50: **92s**
 - p95: **135s**
 - max: **135s**
 
@@ -21,8 +21,8 @@ The estimate counts logged `channels.list`, `playlistItems.list`, and `videos.li
 
 ## Reliability
 
-- RSS fetches: **898**
-- RSS failures: **1112** (123.83%)
+- RSS fetches: **1079**
+- RSS failures: **931** (86.28%)
 - rolling playlist failures: **4**
 - stream/source channel mismatches removed: **0**
 - source preservations caused by failed detail batches: **0**
