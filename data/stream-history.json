@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:ojFYcaAxGz0",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "apia40",
+    "youtube_video_id": "ojFYcaAxGz0",
+    "youtube_url": "https://www.youtube.com/watch?v=ojFYcaAxGz0",
+    "title": "『La Fuite〜禁じられた都市の密造ギター〜』出演：浦邉力 / 浅井永久 / 木下拓也 / O-ju Jazz Punx",
+    "status": "ended",
+    "published_at": "2026-10-24T06:53:34Z",
+    "scheduled_start": "2026-10-24T10:00:00Z",
+    "actual_start": "2026-10-24T09:52:18Z",
+    "actual_end": null,
+    "concurrent_viewers": 8,
+    "thumbnail": "https://i.ytimg.com/vi/ojFYcaAxGz0/maxresdefault.jpg?v=6adc55ee",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "verified_music_only_source",
+    "music_live_evidence": [
+      {
+        "type": "source_policy",
+        "value": "music_only"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-24T15:53:30.723Z",
+    "history_archived_at": "2026-10-24T15:53:30.723Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:Nr35En4vFEQ",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
