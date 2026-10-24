@@ -1,5 +1,45 @@
 [
   {
+    "id": "youtube:Nr35En4vFEQ",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "mbckpop",
+    "youtube_video_id": "Nr35En4vFEQ",
+    "youtube_url": "https://www.youtube.com/watch?v=Nr35En4vFEQ",
+    "title": "[🔴라이브] 10/24 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ#BABYMONSTER #IVE #MEOVV #NCTWISH #NMIXX",
+    "status": "ended",
+    "published_at": "2026-10-22T09:08:17Z",
+    "scheduled_start": "2026-10-24T06:15:00Z",
+    "actual_start": "2026-10-24T06:00:07Z",
+    "actual_end": null,
+    "concurrent_viewers": 12099,
+    "thumbnail": "https://i.ytimg.com/vi/Nr35En4vFEQ/maxresdefault.jpg?v=6ad9d2c5",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "쇼! 음악중심"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-24T12:06:32.001Z",
+    "history_archived_at": "2026-10-24T12:06:32.001Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
     "id": "youtube:Tk_Ik4WZ-OY",
     "origin": "youtube_api",
     "discovery": "youtube_atom_feed",
@@ -77,6 +117,46 @@
     "previous_status": "live",
     "ended_observed_at": "2026-10-24T07:14:42.216Z",
     "history_archived_at": "2026-10-24T07:14:42.216Z",
+    "history_reason": "previously_observed_live_no_longer_active"
+  },
+  {
+    "id": "youtube:AEWbbE8FMyY",
+    "origin": "youtube_api",
+    "discovery": "youtube_atom_feed",
+    "query_event_type": "live",
+    "source_id": "smallslive",
+    "youtube_video_id": "AEWbbE8FMyY",
+    "youtube_url": "https://www.youtube.com/watch?v=AEWbbE8FMyY",
+    "title": "Ken Fowser Quintet - Live from Smalls - 10/23/2026",
+    "status": "ended",
+    "published_at": "2026-10-24T03:34:06Z",
+    "scheduled_start": null,
+    "actual_start": "2026-10-24T03:34:47Z",
+    "actual_end": null,
+    "concurrent_viewers": 43,
+    "thumbnail": "https://i.ytimg.com/vi/AEWbbE8FMyY/hqdefault.jpg?v=6adc272e",
+    "embed_allowed": true,
+    "youtube_category_id": "10",
+    "classifier_version": 1,
+    "music_live_status": "verified",
+    "content_type": "music_live_unspecified",
+    "music_live_decision": "source_allow_pattern",
+    "music_live_evidence": [
+      {
+        "type": "youtube_metadata_pattern",
+        "value": "smalls"
+      }
+    ],
+    "music_live_requires_schedule_match": false,
+    "genres": [],
+    "genre_status": "unknown",
+    "performers": [],
+    "venue": null,
+    "location": null,
+    "location_rule": "unknown_until_verified",
+    "previous_status": "live",
+    "ended_observed_at": "2026-10-24T12:06:32.001Z",
+    "history_archived_at": "2026-10-24T12:06:32.001Z",
     "history_reason": "previously_observed_live_no_longer_active"
   },
   {
